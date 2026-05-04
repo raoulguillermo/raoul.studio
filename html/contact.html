@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Let's talk — raoul.studio</title>
+<meta name="description" content="Get in touch with raoul.studio." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: {
+        paper: '#D6D9DC',
+        ink:   '#0F0F0F',
+        mute:  '#65696C',
+        accent:'#E92316',
+        acid:  '#E92316'
+      },
+      fontFamily: {
+        display: ['"Djingo Condensed"','"Djingo"','Anton','"Inter Tight"','system-ui','sans-serif'],
+        sans:    ['"Inter Tight"','system-ui','sans-serif']
+      },
+      letterSpacing: { crush:'-0.04em', tight2:'-0.02em' }
+    }}
+  };
+</script>
+<style>
+  @font-face{
+    font-family:"Djingo Condensed";
+    src: url("./fonts/Djingo-Condensed.woff2") format("woff2"),
+         url("./fonts/Djingo-Condensed.woff")  format("woff");
+    font-weight: 400 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html{scroll-behavior:smooth}
+  body{background:#D6D9DC;color:#0F0F0F;font-family:"Inter Tight",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  ::selection{background:#E92316;color:#D6D9DC}
+
+  .ul{transition:opacity .35s ease}
+  .ul:hover{opacity:.65}
+
+  .r{opacity:0;transform:translateY(14px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+  .r.in{opacity:1;transform:none}
+
+  /* Vertical info rail */
+  .poster-rail{
+    position:fixed;left:18px;top:24px;bottom:24px;z-index:50;
+    display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;
+    font-family:"Inter Tight",sans-serif;font-size:11px;font-weight:600;
+    text-transform:uppercase;letter-spacing:.18em;color:#fff;
+    mix-blend-mode:difference;
+    pointer-events:none;
+  }
+  .poster-rail span{
+    writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;
+  }
+
+  /* Hamburger */
+  #menuToggle{color:#fff;mix-blend-mode:difference;transition:color .3s ease}
+  #menuToggle .menu-bar{
+    position:absolute;left:50%;top:50%;width:40px;height:4px;background:currentColor;
+    transition:transform .4s cubic-bezier(.2,.7,.2,1),
+               opacity .3s ease,
+               background-color .3s ease;
+  }
+  #menuToggle .bar1{transform:translate(-50%,calc(-50% - 11px))}
+  #menuToggle .bar2{transform:translate(-50%,-50%)}
+  #menuToggle .bar3{transform:translate(-50%,calc(-50% + 11px))}
+  #menuToggle.open .bar1{transform:translate(-50%,-50%) rotate(45deg)}
+  #menuToggle.open .bar2{opacity:0;transform:translate(-50%,-50%) scaleX(.4)}
+  #menuToggle.open .bar3{transform:translate(-50%,-50%) rotate(-45deg)}
+
+  /* Menu panel */
+  #menuPanel{opacity:0;visibility:hidden;transition:opacity .45s ease, visibility .45s}
+  #menuPanel.open{opacity:1;visibility:visible}
+  #menuPanel .menu-col,
+  #menuPanel .menu-eyebrow,
+  #menuPanel .menu-foot{
+    opacity:0;transform:translateY(28px);
+    transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1);
+  }
+  #menuPanel.open .menu-eyebrow{opacity:1;transform:none;transition-delay:.10s}
+  #menuPanel.open .menu-col:nth-child(1){opacity:1;transform:none;transition-delay:.18s}
+  #menuPanel.open .menu-col:nth-child(2){opacity:1;transform:none;transition-delay:.28s}
+  #menuPanel.open .menu-col:nth-child(3){opacity:1;transform:none;transition-delay:.38s}
+  #menuPanel.open .menu-foot{opacity:1;transform:none;transition-delay:.50s}
+  .menu-link{display:block;padding:.15em 0;transition:color .3s ease, transform .4s cubic-bezier(.2,.7,.2,1)}
+  .menu-link:hover{transform:translateX(14px);color:#E92316}
+
+  /* Back link */
+  .back-link{
+    display:inline-flex;align-items:center;gap:.5rem;
+    transition:transform .35s cubic-bezier(.2,.7,.2,1), opacity .25s ease;
+  }
+  .back-link:hover{transform:translateX(-6px);opacity:.7}
+
+  /* ============ FORM — line-only inputs ============ */
+  .field-input{
+    width:100%;
+    background:transparent;
+    border:0;
+    border-bottom:2px solid rgba(15,15,15,.25);
+    padding:.75rem 0;
+    outline:none;
+    font-family:inherit;
+    font-size:1.5rem;
+    font-weight:500;
+    color:#0F0F0F;
+    transition:border-color .3s ease, color .3s ease;
+    -webkit-appearance:none;
+    appearance:none;
+    border-radius:0;
+  }
+  @media(min-width:768px){
+    .field-input{font-size:1.875rem;}
+  }
+  .field-input::placeholder{color:rgba(15,15,15,.35)}
+  .field-input:focus{border-bottom-color:#E92316;color:#0F0F0F}
+  .field-input:focus::placeholder{color:rgba(233,35,22,.45)}
+
+  textarea.field-input{
+    resize:vertical;
+    min-height:140px;
+    line-height:1.4;
+  }
+
+  .field-label{
+    display:block;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.18em;
+    font-weight:600;
+    color:#65696C;
+    margin-bottom:.75rem;
+  }
+
+  .send-btn{
+    display:inline-flex;align-items:center;gap:.75rem;
+    background:transparent;border:0;padding:0;cursor:pointer;
+    font-family:Anton,"Inter Tight",sans-serif;
+    font-size:clamp(2rem, 6vw, 3.75rem);
+    line-height:1;text-transform:lowercase;letter-spacing:-.02em;color:#0F0F0F;
+    transition:opacity .3s ease;
+  }
+  .send-btn:hover{opacity:.65}
+
+  /* Success message */
+  .form-status{
+    opacity:0;transform:translateY(8px);
+    transition:opacity .4s ease, transform .4s ease;
+  }
+  .form-status.shown{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+  <main class="max-w-[1200px] mx-auto px-6 md:px-10">
+
+    <!-- Top: wordmark + back link -->
+    <header class="flex items-center justify-between pt-8 md:pt-10 text-sm">
+      <a href="09-pulse.html" class="font-display text-2xl tracking-tight2 lowercase">raoul.studio</a>
+      <a href="09-pulse.html" class="back-link text-mute font-medium uppercase tracking-wider">
+        <span>←</span> Back
+      </a>
+    </header>
+
+    <!-- Title -->
+    <section class="pt-16 md:pt-32 pb-8 md:pb-12">
+      <div class="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
+        Get in touch
+      </div>
+      <h1 class="r font-display uppercase tracking-tight2 leading-[0.86] text-[16vw] md:text-[11vw]">
+        Let's<br/>talk<span class="text-accent">.</span>
+      </h1>
+    </section>
+
+    <!-- Lead description -->
+    <section class="pb-16 md:pb-24">
+      <p class="r text-2xl md:text-4xl font-normal leading-snug max-w-3xl text-accent">
+        Got an idea, a stuck project, or want a sanity check? Drop a line — I read every message and reply within 24 hours.
+      </p>
+    </section>
+
+    <!-- Form -->
+    <section class="pb-24 md:pb-40">
+      <form id="contactForm" class="r max-w-3xl space-y-10 md:space-y-14" novalidate>
+
+        <div>
+          <label for="f-name" class="field-label">Your name</label>
+          <input id="f-name" type="text" name="name" required autocomplete="name"
+                 placeholder="Jane Doe" class="field-input">
+        </div>
+
+        <div>
+          <label for="f-email" class="field-label">Email</label>
+          <input id="f-email" type="email" name="email" required autocomplete="email"
+                 placeholder="jane@company.com" class="field-input">
+        </div>
+
+        <div>
+          <label for="f-company" class="field-label">Company / project <span class="opacity-60 normal-case tracking-normal">— optional</span></label>
+          <input id="f-company" type="text" name="company" autocomplete="organization"
+                 placeholder="Acme Inc." class="field-input">
+        </div>
+
+        <div>
+          <label for="f-message" class="field-label">What are you working on?</label>
+          <textarea id="f-message" name="message" required rows="4"
+                    placeholder="A few sentences is enough — what you're building, what's stuck, what you want from me." class="field-input"></textarea>
+        </div>
+
+        <div class="flex items-center justify-between flex-wrap gap-y-6 pt-4 md:pt-6">
+          <button type="submit" class="send-btn">
+            send message
+            <span class="inline-block rotate-[-45deg] leading-none">→</span>
+          </button>
+          <p id="formStatus" class="form-status text-mute font-medium uppercase tracking-wider text-xs"></p>
+        </div>
+
+      </form>
+    </section>
+
+    <!-- Alternative direct contacts -->
+    <section class="pb-16 md:pb-24 border-t border-ink/10 pt-8 md:pt-12 flex flex-wrap gap-y-6 items-baseline justify-between text-sm font-semibold uppercase tracking-wider text-mute">
+      <span>Or write me directly</span>
+      <a href="mailto:hello@raoul.studio" class="text-ink ul">hello@raoul.studio</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex items-center justify-between py-8 text-sm text-mute font-medium border-t border-ink/10">
+      <span>© 2026 raoul.studio</span>
+      <span>EU · Remote</span>
+    </footer>
+
+  </main>
+
+  <!-- ============== FIXED VERTICAL RAIL ============== -->
+  <div class="poster-rail">
+    <span>raoul.studio — Edition 2026</span>
+    <span>Let's talk · Get in touch</span>
+    <span>raoul.studio</span>
+  </div>
+
+  <!-- ============== HAMBURGER + MENU ============== -->
+  <button id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menuPanel"
+          class="fixed top-5 right-5 md:top-6 md:right-6 z-[60] w-14 h-14 md:w-16 md:h-16 outline-none bg-transparent border-0">
+    <span class="menu-bar bar1"></span>
+    <span class="menu-bar bar2"></span>
+    <span class="menu-bar bar3"></span>
+  </button>
+
+  <aside id="menuPanel" aria-hidden="true" class="fixed inset-0 z-[55] bg-ink text-paper">
+    <div class="h-full max-w-[1500px] mx-auto px-6 md:px-12 pt-24 md:pt-28 pb-12 flex flex-col">
+
+      <p class="menu-eyebrow text-paper/50 uppercase text-xs font-semibold tracking-widest mb-12 md:mb-20">
+        Menu — 2026
+      </p>
+
+      <nav class="flex-1 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 content-start">
+
+        <div class="menu-col">
+          <p class="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">01 — Studio</p>
+          <ul class="font-display uppercase tracking-tight2 text-5xl md:text-7xl leading-[1] space-y-1">
+            <li><a href="09-pulse.html" class="menu-link">Home</a></li>
+            <li><a href="#" class="menu-link">About</a></li>
+            <li><a href="#" class="menu-link">Services</a></li>
+            <li><a href="#" class="menu-link">Process</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-col">
+          <p class="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">02 — Work</p>
+          <ul class="font-display uppercase tracking-tight2 text-5xl md:text-7xl leading-[1] space-y-1">
+            <li><a href="project.html?id=booking" class="menu-link">Booking</a></li>
+            <li><a href="project.html?id=magento" class="menu-link">Magento</a></li>
+            <li><a href="project.html?id=footsteppa" class="menu-link">Footsteppa</a></li>
+            <li><a href="project.html?id=fundscraper" class="menu-link">Fund Scraper</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-col">
+          <p class="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">03 — Connect</p>
+          <ul class="font-display uppercase tracking-tight2 text-5xl md:text-7xl leading-[1] space-y-1">
+            <li><a href="contact.html" class="menu-link">Let's talk</a></li>
+            <li><a href="mailto:hello@raoul.studio" class="menu-link">Email</a></li>
+            <li><a href="#" class="menu-link">LinkedIn</a></li>
+            <li><a href="#" class="menu-link">GitHub</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <footer class="menu-foot flex flex-wrap gap-y-2 items-center justify-between mt-12 md:mt-16 pt-6 border-t border-paper/15 text-paper/50 text-xs font-semibold uppercase tracking-widest">
+        <span>© raoul.studio · 2026</span>
+        <a href="mailto:hello@raoul.studio" class="hover:text-paper transition-colors">hello@raoul.studio</a>
+      </footer>
+
+    </div>
+  </aside>
+
+  <script>
+    // ============ INTERSECTION OBSERVER (entrance) ============
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }), { threshold: .15 });
+    document.querySelectorAll('.r').forEach(el => io.observe(el));
+
+    // ============ MENU TOGGLE ============
+    const menuToggle = document.getElementById('menuToggle');
+    const menuPanel  = document.getElementById('menuPanel');
+    let menuOpen = false;
+
+    function setMenu(open) {
+      menuOpen = open;
+      menuToggle.classList.toggle('open', open);
+      menuPanel .classList.toggle('open', open);
+      menuToggle.setAttribute('aria-expanded', String(open));
+      menuToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menuPanel .setAttribute('aria-hidden', String(!open));
+      document.body.style.overflow = open ? 'hidden' : '';
+    }
+
+    menuToggle.addEventListener('click', () => setMenu(!menuOpen));
+    menuPanel.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => setMenu(false))
+    );
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && menuOpen) setMenu(false);
+    });
+
+    // ============ FORM SUBMIT ============
+    // Builds a mailto: URL from the form fields and opens the user's email client.
+    // Replace this with a real backend (Formspree / Basin / your own endpoint) when ready.
+    const form   = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const data    = new FormData(form);
+      const name    = (data.get('name')    || '').trim();
+      const email   = (data.get('email')   || '').trim();
+      const company = (data.get('company') || '').trim();
+      const message = (data.get('message') || '').trim();
+
+      if (!name || !email || !message) {
+        status.textContent = '✕ Please fill in name, email and message.';
+        status.classList.add('shown');
+        return;
+      }
+
+      const subject = encodeURIComponent(`Hello from ${name}${company ? ' / ' + company : ''}`);
+      const body    = encodeURIComponent(
+        `From: ${name}\nEmail: ${email}${company ? '\nCompany: ' + company : ''}\n\n${message}`
+      );
+      window.location.href = `mailto:hello@raoul.studio?subject=${subject}&body=${body}`;
+
+      status.textContent = '✓ Opening your email client…';
+      status.classList.add('shown');
+    });
+  </script>
+</body>
+</html>

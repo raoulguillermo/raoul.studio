@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>raoul.studio — independent product studio</title>
+<meta name="description" content="raoul.studio is a one-man, AI-powered product studio. Build and automate digital systems." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      // Palette: Silver-grey · Vivid red · Deep black (Silent Pulse)
+      colors: {
+        paper: '#D6D9DC',  // Cool silver-grey
+        ink:   '#0F0F0F',  // Deep black
+        mute:  '#65696C',  // Mid-dark cool grey for secondary text
+        accent:'#E92316',  // Vivid red
+        acid:  '#E92316'   // alias so existing class hooks resolve
+      },
+      fontFamily: {
+        display: ['"Djingo Condensed"','"Djingo"','Anton','"Inter Tight"','system-ui','sans-serif'],
+        sans:    ['"Inter Tight"','system-ui','sans-serif']
+      },
+      letterSpacing: { crush:'-0.04em', tight2:'-0.02em' }
+    }}
+  };
+</script>
+<style>
+  /* Wire up the licensed font. Place Djingo-Condensed.woff2 (and .woff) in /fonts/
+     next to this html and it will load automatically. */
+  @font-face{
+    font-family:"Djingo Condensed";
+    src: url("./fonts/Djingo-Condensed.woff2") format("woff2"),
+         url("./fonts/Djingo-Condensed.woff")  format("woff");
+    font-weight: 400 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html{scroll-behavior:smooth}
+  body{background:#D6D9DC;color:#0F0F0F;font-family:"Inter Tight",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  ::selection{background:#E92316;color:#D6D9DC}
+
+  /* Plain link — no underline. Subtle opacity feedback on hover. */
+  .ul{transition:opacity .35s ease}
+  .ul:hover{opacity:.65}
+
+  .r{opacity:0;transform:translateY(14px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+  .r.in{opacity:1;transform:none}
+
+  .fullbleed{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+
+  .parallax-section{position:relative;overflow:hidden}
+  [data-parallax]{will-change:transform;transform:translate3d(0,0,0)}
+
+  /* Vertical info rail — fixed to viewport, lives at body root so no parent
+     stacking context can trap it. White + difference blend so it auto-inverts. */
+  .poster-rail{
+    position:fixed;left:18px;top:24px;bottom:24px;z-index:50;
+    display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;
+    font-family:"Inter Tight",sans-serif;font-size:11px;font-weight:600;
+    text-transform:uppercase;letter-spacing:.18em;color:#fff;
+    mix-blend-mode:difference;
+    pointer-events:none;
+  }
+  .poster-rail span{
+    writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;
+  }
+
+  /* ============ HAMBURGER (3 stripes → X) ============ */
+  /* White + difference blend — bars auto-invert against whatever is behind. */
+  #menuToggle{color:#fff;mix-blend-mode:difference;transition:color .3s ease}
+  #menuToggle .menu-bar{
+    position:absolute;left:50%;top:50%;width:40px;height:4px;background:currentColor;
+    transition:transform .4s cubic-bezier(.2,.7,.2,1),
+               opacity .3s ease,
+               background-color .3s ease;
+  }
+  #menuToggle .bar1{transform:translate(-50%,calc(-50% - 11px))}
+  #menuToggle .bar2{transform:translate(-50%,-50%)}
+  #menuToggle .bar3{transform:translate(-50%,calc(-50% + 11px))}
+  #menuToggle.open .bar1{transform:translate(-50%,-50%) rotate(45deg)}
+  #menuToggle.open .bar2{opacity:0;transform:translate(-50%,-50%) scaleX(.4)}
+  #menuToggle.open .bar3{transform:translate(-50%,-50%) rotate(-45deg)}
+
+  /* ============ FULL-PAGE MENU ============ */
+  #menuPanel{opacity:0;visibility:hidden;transition:opacity .45s ease, visibility .45s}
+  #menuPanel.open{opacity:1;visibility:visible}
+  #menuPanel .menu-col,
+  #menuPanel .menu-eyebrow,
+  #menuPanel .menu-foot{
+    opacity:0;transform:translateY(28px);
+    transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1);
+  }
+  #menuPanel.open .menu-eyebrow{opacity:1;transform:none;transition-delay:.10s}
+  #menuPanel.open .menu-col:nth-child(1){opacity:1;transform:none;transition-delay:.18s}
+  #menuPanel.open .menu-col:nth-child(2){opacity:1;transform:none;transition-delay:.28s}
+  #menuPanel.open .menu-col:nth-child(3){opacity:1;transform:none;transition-delay:.38s}
+  #menuPanel.open .menu-foot{opacity:1;transform:none;transition-delay:.50s}
+  .menu-link{display:block;padding:.15em 0;transition:color .3s ease, transform .4s cubic-bezier(.2,.7,.2,1)}
+  .menu-link:hover{transform:translateX(14px);color:#E92316}
+
+  /* ============ BOTTOM-RIGHT SCROLL ARROW ============ */
+  /* White + difference blend — arrow auto-inverts against whatever is behind. */
+  #scrollArrow{color:#fff;mix-blend-mode:difference;transition:color .3s ease}
+  #scrollArrow svg{transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-origin:center}
+  #scrollArrow.up svg{transform:rotate(180deg)}
+  #scrollArrow.up{animation:arrowBob 1.8s ease-in-out infinite}
+  @keyframes arrowBob{
+    0%,100%{transform:translateY(0)}
+    50%    {transform:translateY(-6px)}
+  }
+
+  /* ============ CHAT FAB — header "let's talk" turns into this on scroll ============ */
+  /* Solid round black button with white icon — same size as #scrollArrow,
+     stacked directly above it. Fades in after the user scrolls past the hero. */
+  #chatFab{
+    position:fixed;
+    right:20px;bottom:88px;
+    z-index:55;
+    width:56px;height:56px;
+    border-radius:9999px;
+    background:#0F0F0F;color:#FFFFFF;
+    display:flex;align-items:center;justify-content:center;
+    opacity:0;visibility:hidden;
+    transform:translateY(14px) scale(.92);
+    transition:opacity .35s ease,
+               visibility .35s,
+               transform .5s cubic-bezier(.2,.7,.2,1),
+               background-color .3s ease;
+  }
+  @media(min-width:768px){
+    #chatFab{right:24px;bottom:104px;width:64px;height:64px;}
+  }
+  #chatFab.shown{
+    opacity:1;visibility:visible;
+    transform:translateY(0) scale(1);
+  }
+  #chatFab:hover{background:#E92316}
+
+</style>
+</head>
+<body>
+
+  <main class="max-w-[1200px] mx-auto px-6 md:px-10">
+
+    <!-- Top: tiny wordmark + status. No nav. -->
+    <header class="flex items-center justify-between pt-8 md:pt-10 text-sm">
+      <a href="http://raoul.studio" class="font-display text-2xl tracking-tight2 lowercase">raoul.studio</a>
+      <a href="contact.html" class="ul font-display text-2xl tracking-tight2 lowercase flex items-center gap-3">
+        let's talk
+        <span class="inline-block rotate-[-45deg] leading-none">→</span>
+      </a>
+    </header>
+
+    <!-- Hero: one huge statement (with parallax) -->
+    <section class="parallax-section pt-24 md:pt-40 pb-24 md:pb-40">
+      <h1 data-parallax="-0.18" class="r font-display uppercase tracking-tight2 leading-[0.88] text-[14vw] md:text-[10.5vw]">
+        I build and automate
+        <span class="bg-accent text-paper" style="box-decoration-break:clone;-webkit-box-decoration-break:clone">digital systems</span>
+        for people who would rather ship than meet.
+      </h1>
+    </section>
+
+    <!-- Short paragraph -->
+    <section class="max-w-2xl pb-24 md:pb-40">
+      <p class="r text-xl md:text-2xl leading-relaxed text-ink/85 font-semibold">
+        I'm Raoul — a one-man, AI-powered product studio. I take ideas from sketch to live product:
+        AI builds, automation and agents, e-commerce platforms. Days and weeks, not quarters.
+      </p>
+    </section>
+
+    <!-- Selected work — plain list -->
+    <section class="pb-24 md:pb-40">
+      <p class="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider">Selected work</p>
+      <ul class="r text-5xl md:text-7xl font-display uppercase tracking-tight2 leading-[1.05] space-y-3 md:space-y-4">
+        <li><a href="#" class="ul">Booking platform</a> <span class="text-mute text-base md:text-lg align-middle ml-3 font-sans font-medium normal-case tracking-normal">— web, payments</span></li>
+        <li><a href="#" class="ul">Magento at scale</a> <span class="text-mute text-base md:text-lg align-middle ml-3 font-sans font-medium normal-case tracking-normal">— e-commerce, performance</span></li>
+        <li><a href="#" class="ul">Footsteppa</a> <span class="text-mute text-base md:text-lg align-middle ml-3 font-sans font-medium normal-case tracking-normal">— media, tech</span></li>
+        <li><a href="#" class="ul">Fund Scraper</a> <span class="text-mute text-base md:text-lg align-middle ml-3 font-sans font-medium normal-case tracking-normal">— saas, automation</span></li>
+      </ul>
+    </section>
+
+    <!-- ============== PROJECTS — full-bleed parallax ============== -->
+
+    <!-- 01 BOOKING — Red bg, Silver-grey text -->
+    <section class="fullbleed parallax-section min-h-[140vh]" style="background:#E92316;color:#D6D9DC">
+      <span aria-hidden="true" data-parallax="0.7"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display leading-none select-none whitespace-nowrap"
+            style="font-size:78vw;opacity:.10">01</span>
+      <div class="relative z-10 max-w-[1500px] mx-auto px-6 md:px-12 py-24 md:py-32 min-h-[140vh] flex flex-col justify-between gap-16 md:gap-24">
+        <div data-parallax="0.18" class="flex items-center justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>Project № 01</span>
+          <span>2024</span>
+        </div>
+        <div>
+          <h2 data-parallax="-0.12" data-parallax-anchor="title" class="font-display uppercase tracking-tight2 leading-[0.86] text-[22vw] md:text-[15vw]">
+            Booking<br/>Platform
+          </h2>
+          <p class="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
+            A full-stack booking system handling payments, calendars and capacity for a multi-location service business.
+          </p>
+          <a href="project.html?id=booking" class="project-arrow inline-flex items-center justify-center mt-3 md:mt-4 w-14 h-14 md:w-20 md:h-20 border-l-2 border-b-2 border-current rounded-bl-[5px] hover:opacity-65 transition-opacity">
+            <span class="inline-block rotate-[-45deg] text-3xl md:text-5xl leading-none">→</span>
+          </a>
+        </div>
+        <div data-parallax="-0.18" class="flex flex-wrap gap-y-4 items-end justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>Web · Payments · Calendar · Stripe</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 MAGENTO — Black bg, Silver-grey text, Red accent on "at scale" -->
+    <section class="fullbleed parallax-section min-h-[140vh]" style="background:#0F0F0F;color:#D6D9DC">
+      <span aria-hidden="true" data-parallax="0.7"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display leading-none select-none whitespace-nowrap"
+            style="font-size:78vw;opacity:.18;color:#E92316">02</span>
+      <div class="relative z-10 max-w-[1500px] mx-auto px-6 md:px-12 py-24 md:py-32 min-h-[140vh] flex flex-col justify-between gap-16 md:gap-24">
+        <div data-parallax="0.18" class="flex items-center justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>Project № 02</span>
+          <span>2023</span>
+        </div>
+        <div>
+          <h2 data-parallax="-0.12" data-parallax-anchor="title" class="font-display uppercase tracking-tight2 leading-[0.86] text-[22vw] md:text-[15vw]">
+            Magento<br/><span style="color:#E92316">at scale</span>
+          </h2>
+          <p class="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
+            Replatformed and tuned a Magento store doing eight figures — sub-second TTFB, headless storefront, automated ops.
+          </p>
+          <a href="project.html?id=magento" class="project-arrow inline-flex items-center justify-center mt-3 md:mt-4 w-14 h-14 md:w-20 md:h-20 border-l-2 border-b-2 border-current rounded-bl-[5px] hover:opacity-65 transition-opacity">
+            <span class="inline-block rotate-[-45deg] text-3xl md:text-5xl leading-none">→</span>
+          </a>
+        </div>
+        <div data-parallax="-0.18" class="flex flex-wrap gap-y-4 items-end justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>E-commerce · Performance · Infra</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 FOOTSTEPPA — Silver-grey bg, Black text -->
+    <section class="fullbleed parallax-section min-h-[140vh]" style="background:#D6D9DC;color:#0F0F0F">
+      <span aria-hidden="true" data-parallax="0.7"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display leading-none select-none whitespace-nowrap"
+            style="font-size:78vw;opacity:.12">03</span>
+      <div class="relative z-10 max-w-[1500px] mx-auto px-6 md:px-12 py-24 md:py-32 min-h-[140vh] flex flex-col justify-between gap-16 md:gap-24">
+        <div data-parallax="0.18" class="flex items-center justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>Project № 03</span>
+          <span>2025</span>
+        </div>
+        <div>
+          <h2 data-parallax="-0.12" data-parallax-anchor="title" class="font-display uppercase tracking-tight2 leading-[0.86] text-[22vw] md:text-[15vw]">
+            Footsteppa
+          </h2>
+          <p class="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
+            A media + tech platform for the streetwear world — editorial, drops and audience tools, all on one stack.
+          </p>
+          <a href="project.html?id=footsteppa" class="project-arrow inline-flex items-center justify-center mt-3 md:mt-4 w-14 h-14 md:w-20 md:h-20 border-l-2 border-b-2 border-current rounded-bl-[5px] hover:opacity-65 transition-opacity">
+            <span class="inline-block rotate-[-45deg] text-3xl md:text-5xl leading-none">→</span>
+          </a>
+        </div>
+        <div data-parallax="-0.18" class="flex flex-wrap gap-y-4 items-end justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>Media · Tech · Product · Community</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 FUND SCRAPER — Red bg, Black text, Silver-grey accent on "Scraper" -->
+    <section class="fullbleed parallax-section min-h-[140vh]" style="background:#E92316;color:#0F0F0F">
+      <span aria-hidden="true" data-parallax="0.7"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display leading-none select-none whitespace-nowrap"
+            style="font-size:78vw;opacity:.18;color:#0F0F0F">04</span>
+      <div class="relative z-10 max-w-[1500px] mx-auto px-6 md:px-12 py-24 md:py-32 min-h-[140vh] flex flex-col justify-between gap-16 md:gap-24">
+        <div data-parallax="0.18" class="flex items-center justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>Project № 04</span>
+          <span>2026</span>
+        </div>
+        <div>
+          <h2 data-parallax="-0.12" data-parallax-anchor="title" class="font-display uppercase tracking-tight2 leading-[0.86] text-[22vw] md:text-[15vw]">
+            Fund<br/><span style="color:#D6D9DC">Scraper</span>
+          </h2>
+          <p class="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
+            A SaaS that scrapes public funding sources, matches them to your business, and auto-drafts the application — so founders never miss a deadline they could've won.
+          </p>
+          <a href="project.html?id=fundscraper" class="project-arrow inline-flex items-center justify-center mt-3 md:mt-4 w-14 h-14 md:w-20 md:h-20 border-l-2 border-b-2 border-current rounded-bl-[5px] hover:opacity-65 transition-opacity">
+            <span class="inline-block rotate-[-45deg] text-3xl md:text-5xl leading-none">→</span>
+          </a>
+        </div>
+        <div data-parallax="-0.18" class="flex flex-wrap gap-y-4 items-end justify-between font-semibold uppercase tracking-wider text-sm">
+          <span>SaaS · Scraping · AI Drafts · Automation</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- spacer to breathe between bold blocks and the calm closing sections -->
+    <div class="h-24 md:h-40"></div>
+
+    <!-- Contact -->
+    <section class="pb-24 md:pb-40">
+      <p class="r text-mute text-sm mb-6 font-semibold uppercase tracking-wider">Got an idea or a stuck project?</p>
+      <p class="r text-5xl md:text-7xl font-display uppercase tracking-tight2 leading-[1.02]">
+        Write me at <a href="mailto:hello@raoul.studio" class="ul text-mute">hello@raoul.studio</a>.
+        <br class="hidden md:block">I'll tell you straight if it's worth building.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex items-center justify-between py-8 text-sm text-mute font-medium border-t border-ink/10">
+      <span>© 2026 raoul.studio</span>
+      <span>EU · Remote</span>
+    </footer>
+
+  </main>
+
+  <!-- ============== FIXED VERTICAL RAIL (page-wide, above all content) ============== -->
+  <div class="poster-rail">
+    <span>raoul.studio — Edition 2026</span>
+    <span>AI-powered product studio</span>
+    <span>raoul.studio</span>
+  </div>
+
+  <!-- ============== HAMBURGER + FULL-PAGE MENU ============== -->
+  <button id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menuPanel"
+          class="fixed top-5 right-5 md:top-6 md:right-6 z-[60] w-14 h-14 md:w-16 md:h-16 outline-none bg-transparent border-0">
+    <span class="menu-bar bar1"></span>
+    <span class="menu-bar bar2"></span>
+    <span class="menu-bar bar3"></span>
+  </button>
+
+  <!-- ============== BOTTOM-RIGHT SCROLL ARROW ============== -->
+  <button id="scrollArrow" type="button" aria-label="Scroll to bottom"
+          class="fixed bottom-5 right-5 md:bottom-6 md:right-6 z-[50] w-14 h-14 md:w-16 md:h-16 outline-none bg-transparent border-0 flex items-center justify-center cursor-pointer">
+    <svg viewBox="0 0 24 32" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-11 md:w-9 md:h-12">
+      <line x1="12" y1="3" x2="12" y2="28"/>
+      <polyline points="3 19 12 28 21 19"/>
+    </svg>
+  </button>
+
+  <!-- ============== CHAT FAB — appears on scroll, sits above the scroll arrow ============== -->
+  <a id="chatFab" href="contact.html" aria-label="Let's talk">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 md:w-7 md:h-7">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+    </svg>
+  </a>
+
+  <aside id="menuPanel" aria-hidden="true" class="fixed inset-0 z-[55] bg-ink text-paper">
+    <div class="h-full max-w-[1500px] mx-auto px-6 md:px-12 pt-24 md:pt-28 pb-12 flex flex-col">
+
+      <p class="menu-eyebrow text-paper/50 uppercase text-xs font-semibold tracking-widest mb-12 md:mb-20">
+        Menu — 2026
+      </p>
+
+      <nav class="flex-1 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 content-start">
+
+        <div class="menu-col">
+          <p class="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">01 — Studio</p>
+          <ul class="font-display uppercase tracking-tight2 text-5xl md:text-7xl leading-[1] space-y-1">
+            <li><a href="#" class="menu-link">About</a></li>
+            <li><a href="#" class="menu-link">Services</a></li>
+            <li><a href="#" class="menu-link">Process</a></li>
+            <li><a href="#" class="menu-link">Manifesto</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-col">
+          <p class="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">02 — Work</p>
+          <ul class="font-display uppercase tracking-tight2 text-5xl md:text-7xl leading-[1] space-y-1">
+            <li><a href="project.html?id=booking" class="menu-link">Booking</a></li>
+            <li><a href="project.html?id=magento" class="menu-link">Magento</a></li>
+            <li><a href="project.html?id=footsteppa" class="menu-link">Footsteppa</a></li>
+            <li><a href="project.html?id=fundscraper" class="menu-link">Fund Scraper</a></li>
+            <li><a href="#" class="menu-link">Archive</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-col">
+          <p class="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">03 — Connect</p>
+          <ul class="font-display uppercase tracking-tight2 text-5xl md:text-7xl leading-[1] space-y-1">
+            <li><a href="mailto:hello@raoul.studio" class="menu-link">Email</a></li>
+            <li><a href="#" class="menu-link">LinkedIn</a></li>
+            <li><a href="#" class="menu-link">GitHub</a></li>
+            <li><a href="#" class="menu-link">Instagram</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <footer class="menu-foot flex flex-wrap gap-y-2 items-center justify-between mt-12 md:mt-16 pt-6 border-t border-paper/15 text-paper/50 text-xs font-semibold uppercase tracking-widest">
+        <span>© raoul.studio · 2026</span>
+        <a href="mailto:hello@raoul.studio" class="hover:text-paper transition-colors">hello@raoul.studio</a>
+      </footer>
+
+    </div>
+  </aside>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }), { threshold: .15 });
+    document.querySelectorAll('.r').forEach(el => io.observe(el));
+
+    // Parallax — translate elements relative to their section's distance from viewport center.
+    const px = document.querySelectorAll('[data-parallax]');
+    const naturalY = new WeakMap();
+    let ticking = false;
+
+    px.forEach(el => {
+      const cs = getComputedStyle(el).transform;
+      if (cs && cs.startsWith('matrix')) {
+        const v = cs.match(/matrix\(([^)]+)\)/);
+        if (v) {
+          const p = v[1].split(',').map(s => parseFloat(s));
+          if (p.length === 6) {
+            el.style.setProperty('--base', `translate(${p[4]}px, ${p[5]}px)`);
+          }
+        }
+      }
+      const r = el.getBoundingClientRect();
+      naturalY.set(el, r.top + window.scrollY);
+    });
+
+    function update() {
+      const vh = window.innerHeight;
+      px.forEach(el => {
+        const speed = parseFloat(el.dataset.parallax);
+        const sec = el.closest('.parallax-section');
+        if (!sec) return;
+        const r = sec.getBoundingClientRect();
+        const progress = (r.top + r.height / 2 - vh / 2);
+        let displacement = progress * speed;
+
+        const pin = el.dataset.parallaxPinBelow;
+        if (pin) {
+          const anchor = sec.querySelector('[data-parallax-anchor="' + pin + '"]');
+          if (anchor) {
+            const aRect = anchor.getBoundingClientRect();
+            const natTop = (naturalY.get(el) || 0) - window.scrollY;
+            const gap = 16;
+            const minTop = aRect.bottom + gap;
+            if (natTop + displacement < minTop) {
+              displacement = minTop - natTop;
+            }
+          }
+        }
+
+        const base = el.style.getPropertyValue('--base') || '';
+        el.style.transform = `${base} translate3d(0, ${displacement}px, 0)`;
+      });
+      ticking = false;
+    }
+    function onScroll() {
+      if (!ticking) { requestAnimationFrame(update); ticking = true; }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    update();
+
+    // ============ MENU TOGGLE ============
+    const menuToggle = document.getElementById('menuToggle');
+    const menuPanel  = document.getElementById('menuPanel');
+    let menuOpen = false;
+
+    function setMenu(open) {
+      menuOpen = open;
+      menuToggle.classList.toggle('open', open);
+      menuPanel .classList.toggle('open', open);
+      menuToggle.setAttribute('aria-expanded', String(open));
+      menuToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menuPanel .setAttribute('aria-hidden', String(!open));
+      document.body.style.overflow = open ? 'hidden' : '';
+    }
+
+    menuToggle.addEventListener('click', () => setMenu(!menuOpen));
+    menuPanel.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => setMenu(false))
+    );
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && menuOpen) setMenu(false);
+    });
+
+    // ============ SCROLL ARROW ============
+    const scrollArrow = document.getElementById('scrollArrow');
+    function updateScrollArrow() {
+      const docH = document.documentElement.scrollHeight;
+      const winH = window.innerHeight;
+      const atBottom = window.scrollY + winH >= docH - 60;
+      scrollArrow.classList.toggle('up', atBottom);
+      scrollArrow.setAttribute('aria-label', atBottom ? 'Scroll to top' : 'Scroll to bottom');
+    }
+    scrollArrow.addEventListener('click', () => {
+      const atBottom = scrollArrow.classList.contains('up');
+      window.scrollTo({
+        top: atBottom ? 0 : document.documentElement.scrollHeight,
+        behavior: 'smooth'
+      });
+    });
+    window.addEventListener('scroll', updateScrollArrow, { passive: true });
+    window.addEventListener('resize', updateScrollArrow);
+    updateScrollArrow();
+
+    // ============ CHAT FAB — fades in once the user has scrolled past the hero ============
+    const chatFab = document.getElementById('chatFab');
+    function updateChatFab() {
+      // Show after scrolling past roughly half a viewport — header "let's talk"
+      // is gone by then and the floating button takes over.
+      const shown = window.scrollY > window.innerHeight * 0.5;
+      chatFab.classList.toggle('shown', shown);
+    }
+    window.addEventListener('scroll', updateChatFab, { passive: true });
+    window.addEventListener('resize', updateChatFab);
+    updateChatFab();
+
+  </script>
+</body>
+</html>

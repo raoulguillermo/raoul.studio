@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes create-payload-app@latest -n . -t blank --db mongodb --use-npm --no-deps)",
+      "Bash(npx --yes create-payload-app@latest -n . -t blank --db mongodb --db-connection-string \"mongodb://127.0.0.1/payload\" --use-npm --no-deps)",
+      "Bash(npx --yes create-payload-app@latest --help)"
+    ]
+  }
+}
