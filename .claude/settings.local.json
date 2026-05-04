@@ -3,7 +3,22 @@
     "allow": [
       "Bash(npx --yes create-payload-app@latest -n . -t blank --db mongodb --use-npm --no-deps)",
       "Bash(npx --yes create-payload-app@latest -n . -t blank --db mongodb --db-connection-string \"mongodb://127.0.0.1/payload\" --use-npm --no-deps)",
-      "Bash(npx --yes create-payload-app@latest --help)"
+      "Bash(npx --yes create-payload-app@latest --help)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p /Users/raoulguillermo/_PROJECTS/RAOULGUILLERMO/_website/_archive)",
+      "Bash(mv /Users/raoulguillermo/_PROJECTS/RAOULGUILLERMO/_website/html /Users/raoulguillermo/_PROJECTS/RAOULGUILLERMO/_website/_archive/html)",
+      "Bash(npm run *)",
+      "Bash(curl -fsS -o /dev/null -m 2 http://127.0.0.1:3000/)",
+      "Bash(kill 26947)",
+      "Bash(lsof -iTCP:3000 -sTCP:LISTEN)",
+      "Bash(curl -s -o /tmp/home.html -w \"HTTP %{http_code}\\\\n\" http://127.0.0.1:3000/)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /tmp/contact.html -w \"HTTP %{http_code}\\\\n\" http://127.0.0.1:3000/contact)",
+      "Bash(curl -s -o /tmp/proj.html -w \"HTTP %{http_code}\\\\n\" http://127.0.0.1:3000/projects/booking)",
+      "Bash(curl -s http://127.0.0.1:3000/_next/static/css/ -o /dev/null -w \"%{http_code}\\\\n\")",
+      "Read(//private/tmp/**)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://127.0.0.1:3000/admin)",
+      "Bash(npx tsc *)"
     ]
   }
 }
