@@ -18,7 +18,8 @@
       "Bash(curl -s http://127.0.0.1:3000/_next/static/css/ -o /dev/null -w \"%{http_code}\\\\n\")",
       "Read(//private/tmp/**)",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://127.0.0.1:3000/admin)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(grep *)"
     ]
   }
 }

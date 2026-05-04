@@ -3,7 +3,10 @@ import 'dotenv/config'
 import { getPayload } from 'payload'
 import config from './payload.config'
 
+const seededProjectSlugs = new Set<string>()
+
 async function upsertProject(payload: any, data: any) {
+  seededProjectSlugs.add(data.slug)
   const existing = await payload.find({
     collection: 'projects',
     where: { slug: { equals: data.slug } },
@@ -19,6 +22,18 @@ async function upsertProject(payload: any, data: any) {
   } else {
     await payload.create({ collection: 'projects', data })
     console.log(`  + created project: ${data.slug}`)
+  }
+}
+
+async function pruneProjects(payload: any) {
+  const stale = await payload.find({
+    collection: 'projects',
+    where: { slug: { not_in: Array.from(seededProjectSlugs) } },
+    limit: 1000,
+  })
+  for (const doc of stale.docs) {
+    await payload.delete({ collection: 'projects', id: doc.id })
+    console.log(`  − deleted stale project: ${doc.slug}`)
   }
 }
 
@@ -466,6 +481,9 @@ async function main() {
       },
     ],
   })
+
+  console.log('Pruning stale projects…')
+  await pruneProjects(payload)
 
   console.log('✓ Seed complete.')
   process.exit(0)

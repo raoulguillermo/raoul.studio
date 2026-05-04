@@ -63,25 +63,25 @@ export default async function ContactPage() {
       {/* Form */}
       <section className="pb-24 md:pb-40">
         <ContactForm
-          nameLabel={contact.form.nameLabel}
-          namePlaceholder={contact.form.namePlaceholder}
-          emailLabel={contact.form.emailLabel}
-          emailPlaceholder={contact.form.emailPlaceholder}
-          companyLabel={contact.form.companyLabel}
-          companyOptional={contact.form.companyOptional}
-          companyPlaceholder={contact.form.companyPlaceholder}
-          messageLabel={contact.form.messageLabel}
-          messagePlaceholder={contact.form.messagePlaceholder}
-          sendLabel={contact.form.sendLabel}
+          nameLabel={contact.form.nameLabel ?? ''}
+          namePlaceholder={contact.form.namePlaceholder ?? ''}
+          emailLabel={contact.form.emailLabel ?? ''}
+          emailPlaceholder={contact.form.emailPlaceholder ?? ''}
+          companyLabel={contact.form.companyLabel ?? ''}
+          companyOptional={contact.form.companyOptional ?? ''}
+          companyPlaceholder={contact.form.companyPlaceholder ?? ''}
+          messageLabel={contact.form.messageLabel ?? ''}
+          messagePlaceholder={contact.form.messagePlaceholder ?? ''}
+          sendLabel={contact.form.sendLabel ?? ''}
           recipient={contact.form.recipient}
         />
       </section>
 
       {/* Direct contact */}
       <section className="pb-16 md:pb-24 border-t border-ink/10 pt-8 md:pt-12 flex flex-wrap gap-y-6 items-baseline justify-between text-sm font-semibold uppercase tracking-wider text-mute">
-        <span>{contact.directContact.label}</span>
-        <a href={`mailto:${contact.directContact.email}`} className="text-ink ul">
-          {contact.directContact.email}
+        <span>{contact.directContact?.label}</span>
+        <a href={`mailto:${contact.directContact?.email ?? ''}`} className="text-ink ul">
+          {contact.directContact?.email}
         </a>
       </section>
 
