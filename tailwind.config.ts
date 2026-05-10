@@ -16,8 +16,6 @@ const config: Config = {
       },
       fontFamily: {
         display: [
-          '"Djingo Condensed"',
-          '"Djingo"',
           'Anton',
           '"Inter Tight"',
           'system-ui',

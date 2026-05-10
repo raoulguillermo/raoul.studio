@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ============ FONTS ============
-   Djingo Condensed is wired up if the file is present in /public/fonts/.
-   When missing, the font-display chain falls back to Anton → Inter Tight. */
-@font-face {
-  font-family: "Djingo Condensed";
-  src: url("/fonts/Djingo-Condensed.woff2") format("woff2"),
-       url("/fonts/Djingo-Condensed.woff") format("woff");
-  font-weight: 400 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 html { scroll-behavior: smooth; }
 body {
   background: #D6D9DC;
