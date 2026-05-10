@@ -8,6 +8,8 @@ import ScrollArrow from '@/components/ScrollArrow'
 import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata(): Promise<Metadata> {
   const payload = await getPayload({ config: await config })
   const home = await payload.findGlobal({ slug: 'home' })

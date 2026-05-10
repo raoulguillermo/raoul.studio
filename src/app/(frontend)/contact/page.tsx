@@ -7,6 +7,8 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 import ContactForm from '@/components/ContactForm'
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata(): Promise<Metadata> {
   const payload = await getPayload({ config: await config })
   const contact = await payload.findGlobal({ slug: 'contact' })

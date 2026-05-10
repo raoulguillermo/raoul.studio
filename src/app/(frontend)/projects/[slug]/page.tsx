@@ -7,6 +7,8 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
+export const dynamic = 'force-dynamic'
+
 function pad2(n: number) {
   return String(n).padStart(2, '0')
 }

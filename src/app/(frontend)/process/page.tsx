@@ -7,6 +7,8 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
+export const dynamic = 'force-dynamic'
+
 async function fetchProcessPage() {
   const payload = await getPayload({ config: await config })
   const res = await payload.find({
