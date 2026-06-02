@@ -121,19 +121,21 @@ export default function HomePage() {
                   data-parallax-anchor="title"
                   className="font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
                 >
-                  {p.titleLine1}
-                  {p.titleLine2 ? (
-                    <>
-                      <br />
-                      {p.titleLine2Color ? (
-                        <span style={{ color: p.titleLine2Color }}>
-                          {p.titleLine2}
-                        </span>
-                      ) : (
-                        p.titleLine2
-                      )}
-                    </>
-                  ) : null}
+                  <a href={`/projects/${p.slug}`} className="ul inline-block">
+                    {p.titleLine1}
+                    {p.titleLine2 ? (
+                      <>
+                        <br />
+                        {p.titleLine2Color ? (
+                          <span style={{ color: p.titleLine2Color }}>
+                            {p.titleLine2}
+                          </span>
+                        ) : (
+                          p.titleLine2
+                        )}
+                      </>
+                    ) : null}
+                  </a>
                 </h2>
                 <p className="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
                   {p.shortDescription}
