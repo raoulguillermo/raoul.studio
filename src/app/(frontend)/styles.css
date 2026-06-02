@@ -78,6 +78,8 @@ body {
   transition: color .3s ease, transform .4s cubic-bezier(.2,.7,.2,1);
 }
 .menu-link:hover { transform: translateX(14px); color: #E92316; }
+/* Larger tap targets for thumbs on mobile */
+@media (max-width: 767px) { .menu-link { padding: .35em 0; } }
 
 /* ============ SCROLL ARROW ============ */
 #scrollArrow { color: #fff; mix-blend-mode: difference; transition: color .3s ease; }
@@ -142,6 +144,7 @@ body {
 .field-input::placeholder { color: rgba(15,15,15,.35); }
 .field-input:focus { border-bottom-color: #E92316; color: #0F0F0F; }
 .field-input:focus::placeholder { color: rgba(233,35,22,.45); }
+.field-input[aria-invalid="true"] { border-bottom-color: #E92316; }
 
 textarea.field-input {
   resize: vertical;
