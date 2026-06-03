@@ -24,6 +24,7 @@ export const menu = {
         { label: 'AboutSpace', href: '/projects/aboutspace' },
         { label: 'Threadly', href: '/projects/threadly' },
         { label: 'Lexpert CRM', href: '/projects/lexpert' },
+        { label: 'All work', href: '/work' },
       ],
     },
     {

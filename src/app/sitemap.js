@@ -5,6 +5,7 @@ const BASE_URL = 'https://raoul.studio'
 export default function sitemap() {
   const staticRoutes = [
     { path: '/', priority: 1.0, changeFrequency: 'monthly' },
+    { path: '/work', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/process', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/contact', priority: 0.7, changeFrequency: 'yearly' },

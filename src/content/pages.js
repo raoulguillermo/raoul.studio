@@ -1,6 +1,21 @@
-// Flat content for the static pages (about, process), keyed by slug.
+// Flat content for the static pages (about, process, work), keyed by slug.
 
 export const pages = {
+  work: {
+    slug: 'work',
+    meta: {
+      title: 'Work — raoul.studio',
+      description:
+        'Selected projects from the studio — custom platforms, SaaS, AI tools, headless e-commerce and CRMs built for fintech, law and commercial teams.',
+    },
+    eyebrow: 'Selected work',
+    titleLine1: 'Work',
+    titleAccent: '.',
+    lead:
+      "Every project is custom, built end to end, and made to run in production. A look at what the studio has shipped — and what it's building now.",
+    posterRailMiddle: 'Work · Selected projects',
+  },
+
   about: {
     slug: 'about',
     meta: {
