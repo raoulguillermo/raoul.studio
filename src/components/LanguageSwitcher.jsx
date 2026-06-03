@@ -13,9 +13,31 @@ import {
 // Icon-only trigger (sized like the hamburger) that opens a full-page popover
 // matching the menu's look — dark panel, big menu-style type, current language
 // highlighted. Selecting one writes the cookie and refreshes in place.
+//
+// Stacking: the popover sits ABOVE the hamburger (z-65 vs z-60) so an open
+// language menu fully covers it; the globe stays on top (z-70) to close. The
+// two menus are kept mutually exclusive so neither floats over the other.
 export default function LanguageSwitcher({ currentLang = 'en' }) {
   const router = useRouter()
   const [open, setOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  // Track the hamburger menu's open state (it's toggled by SiteEffects via a
+  // `.open` class on #menuToggle) so we can hide the globe while it's open.
+  useEffect(() => {
+    const toggle = document.getElementById('menuToggle')
+    if (!toggle) return
+    const sync = () => setMenuOpen(toggle.classList.contains('open'))
+    const obs = new MutationObserver(sync)
+    obs.observe(toggle, { attributes: true, attributeFilter: ['class'] })
+    sync()
+    return () => obs.disconnect()
+  }, [])
+
+  // If the hamburger menu opens, close the language popover.
+  useEffect(() => {
+    if (menuOpen) setOpen(false)
+  }, [menuOpen])
 
   useEffect(() => {
     if (!open) return
@@ -30,6 +52,18 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
     }
   }, [open])
 
+  function toggleOpen() {
+    setOpen((v) => {
+      const next = !v
+      // Opening the language menu closes the hamburger menu if it's open.
+      if (next) {
+        const t = document.getElementById('menuToggle')
+        if (t && t.classList.contains('open')) t.click()
+      }
+      return next
+    })
+  }
+
   function choose(lang) {
     setOpen(false)
     if (lang === currentLang) return
@@ -41,11 +75,13 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
     <>
       <button
         type="button"
-        onClick={() => setOpen((v) => !v)}
+        onClick={toggleOpen}
         aria-haspopup="dialog"
         aria-expanded={open}
         aria-label="Change language"
-        className="lang-toggle fixed right-5 md:right-6 top-20 md:top-[92px] z-[60] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-transparent border-0 outline-none"
+        className={`lang-toggle fixed right-5 md:right-6 top-20 md:top-[92px] z-[70] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-transparent border-0 outline-none transition-opacity ${
+          menuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
+        }`}
       >
         <GlobeIcon />
       </button>
@@ -56,7 +92,7 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
         aria-hidden={!open}
         aria-label="Language"
         onClick={() => setOpen(false)}
-        className={`fixed inset-0 z-[56] bg-ink text-paper transition-opacity duration-500 ${
+        className={`fixed inset-0 z-[65] bg-ink text-paper transition-opacity duration-500 ${
           open ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
         }`}
       >
