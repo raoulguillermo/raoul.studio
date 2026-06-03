@@ -78,12 +78,12 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
         onClick={toggleOpen}
         aria-haspopup="dialog"
         aria-expanded={open}
-        aria-label="Change language"
+        aria-label={open ? 'Close language menu' : 'Change language'}
         className={`lang-toggle fixed right-5 md:right-6 top-20 md:top-[92px] z-[70] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-transparent border-0 outline-none transition-opacity ${
           menuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >
-        <GlobeIcon />
+        {open ? <CloseIcon /> : <GlobeIcon />}
       </button>
 
       <div
@@ -146,6 +146,24 @@ function GlobeIcon() {
       <circle cx="12" cy="12" r="9" />
       <path d="M3 12h18" />
       <path d="M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9S9.5 5.5 12 3Z" />
+    </svg>
+  )
+}
+
+function CloseIcon() {
+  return (
+    <svg
+      className="w-7 h-7 md:w-8 md:h-8"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M5 5l14 14" />
+      <path d="M19 5L5 19" />
     </svg>
   )
 }
