@@ -10,8 +10,7 @@ export const contact = {
   titleLine1: "Let's",
   titleLine2: 'talk',
   titleAccent: '.',
-  lead:
-    "Tell us what you're building or what's slowing you down. Real briefs only — we read every one and reply within 24h.",
+  lead: "Tell us what you're building or what's slowing you down.",
   form: {
     nameLabel: 'Name',
     namePlaceholder: 'Your name',

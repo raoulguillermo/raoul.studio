@@ -15,7 +15,6 @@ export const menu = {
       links: [
         { label: 'About', href: '/about' },
         { label: 'Process', href: '/process' },
-        { label: 'Contact', href: '/contact' },
       ],
     },
     {
@@ -30,7 +29,7 @@ export const menu = {
     {
       heading: '03 — Connect',
       links: [
-        { label: "Let's talk", href: '/contact' },
+        { label: 'Contact', href: '/contact' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },
       ],
     },
