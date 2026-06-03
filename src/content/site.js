@@ -3,7 +3,7 @@
 export const header = {
   wordmark: 'raoul.studio',
   wordmarkHref: '/',
-  ctaLabel: "let's talk",
+  ctaLabel: 'contact',
   ctaHref: '/contact',
 }
 
