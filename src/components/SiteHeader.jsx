@@ -3,7 +3,7 @@ export default function SiteHeader(props) {
     const backLabel = props.backLabel ?? 'Back'
     const backHref = props.backHref ?? '/'
     return (
-      <header className="flex items-center justify-between pt-8 md:pt-10 text-sm">
+      <header className="flex items-center justify-between pt-8 md:pt-10 text-sm pr-16 md:pr-20">
         <a
           href={props.wordmarkHref}
           className="font-display text-2xl tracking-tight2 lowercase"
@@ -20,7 +20,7 @@ export default function SiteHeader(props) {
     )
   }
   return (
-    <header className="flex flex-col items-start gap-1 md:flex-row md:items-center md:justify-between pt-8 md:pt-10 text-sm">
+    <header className="flex flex-col items-start gap-1 md:flex-row md:items-center md:justify-between pt-8 md:pt-10 text-sm pr-16 md:pr-20">
       <a
         href={props.wordmarkHref}
         className="font-display text-2xl tracking-tight2 lowercase"

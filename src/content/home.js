@@ -19,6 +19,6 @@ export const home = {
     beforeLink: 'Tell us about it — ',
     linkLabel: 'hello@raoul.studio',
     linkHref: '/contact',
-    afterLink: '\nwe reply within 24h.',
+    afterLink: '',
   },
 }
