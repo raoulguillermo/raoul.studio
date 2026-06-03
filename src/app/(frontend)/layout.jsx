@@ -2,39 +2,48 @@ import './styles.css'
 
 import MenuButton from '@/components/MenuButton'
 import MenuPanel from '@/components/MenuPanel'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 import SiteEffects from '@/components/SiteEffects'
-import { menu } from '@/content/site'
-import { home } from '@/content/home'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
+import { home as enHome } from '@/content/en/home'
 
 const SITE_URL = 'https://raoul.studio'
 
-export const metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: {
-    default: home.meta.title,
-    template: '%s — raoul.studio',
-  },
-  description: home.meta.description,
-  applicationName: 'raoul.studio',
-  alternates: { canonical: '/' },
-  openGraph: {
-    type: 'website',
-    siteName: 'raoul.studio',
-    url: SITE_URL,
-    title: home.meta.title,
-    description: home.meta.description,
-    locale: 'en_US',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: home.meta.title,
-    description: home.meta.description,
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
-  },
+const OG_LOCALES = { en: 'en_US', de: 'de_DE', nl: 'nl_NL', es: 'es_ES' }
+
+export async function generateMetadata() {
+  const lang = await getLocale()
+  const { home } = getContent(lang)
+  const meta = home?.meta ?? enHome.meta
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: {
+      default: meta.title,
+      template: '%s — raoul.studio',
+    },
+    description: meta.description,
+    applicationName: 'raoul.studio',
+    alternates: { canonical: '/' },
+    openGraph: {
+      type: 'website',
+      siteName: 'raoul.studio',
+      url: SITE_URL,
+      title: meta.title,
+      description: meta.description,
+      locale: OG_LOCALES[lang] ?? 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
+  }
 }
 
 export const viewport = {
@@ -52,7 +61,7 @@ const jsonLd = {
       '@id': `${SITE_URL}/#studio`,
       name: 'raoul.studio',
       url: SITE_URL,
-      description: home.meta.description,
+      description: enHome.meta.description,
       email: 'hello@raoul.studio',
       telephone: '+31103073755',
       areaServed: 'EU',
@@ -85,9 +94,12 @@ const jsonLd = {
   ],
 }
 
-export default function FrontendLayout({ children }) {
+export default async function FrontendLayout({ children }) {
+  const lang = await getLocale()
+  const { menu } = getContent(lang)
+
   return (
-    <html lang="en">
+    <html lang={lang}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -104,6 +116,8 @@ export default function FrontendLayout({ children }) {
         <main className="max-w-[1200px] mx-auto px-6 md:px-10">{children}</main>
 
         <MenuButton />
+
+        <LanguageSwitcher currentLang={lang} />
 
         <MenuPanel
           eyebrow={menu.eyebrow}

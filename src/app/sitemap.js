@@ -1,4 +1,4 @@
-import { projectSlugs } from '@/content/projects'
+import { projectSlugs } from '@/content/en/projects'
 
 const BASE_URL = 'https://raoul.studio'
 

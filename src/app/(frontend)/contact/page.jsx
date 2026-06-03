@@ -3,33 +3,37 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 import ContactForm from '@/components/ContactForm'
 
-import { header, footer, posterRail } from '@/content/site'
-import { contact } from '@/content/contact'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
 
-export function generateMetadata() {
+export async function generateMetadata() {
+  const { contact } = getContent(await getLocale())
   return {
     title: contact.meta?.title || "Let's talk — raoul.studio",
     description: contact.meta?.description || '',
   }
 }
 
-const faqItems = contact.faq?.items ?? []
+function buildFaqJsonLd(faqItems) {
+  if (faqItems.length === 0) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  }
+}
 
-const faqJsonLd =
-  faqItems.length > 0
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqItems.map((item) => ({
-          '@type': 'Question',
-          name: item.q,
-          acceptedAnswer: { '@type': 'Answer', text: item.a },
-        })),
-      }
-    : null
-
-export default function ContactPage() {
+export default async function ContactPage() {
+  const { contact, header, footer, posterRail, ui } = getContent(
+    await getLocale(),
+  )
   const railMiddle = contact.posterRailMiddle || posterRail.middleText
+  const faqItems = contact.faq?.items ?? []
+  const faqJsonLd = buildFaqJsonLd(faqItems)
 
   return (
     <>
@@ -43,7 +47,7 @@ export default function ContactPage() {
         variant="back"
         wordmark={header.wordmark}
         wordmarkHref="/"
-        backLabel="Back"
+        backLabel={ui.back}
         backHref="/"
       />
 
@@ -82,6 +86,11 @@ export default function ContactPage() {
           messageLabel={contact.form.messageLabel ?? ''}
           messagePlaceholder={contact.form.messagePlaceholder ?? ''}
           sendLabel={contact.form.sendLabel ?? ''}
+          sendingButton={ui.form?.sendingButton}
+          sendingStatus={ui.form?.sendingStatus}
+          successStatus={ui.form?.successStatus}
+          errorStatus={ui.form?.errorStatus}
+          validationStatus={ui.form?.validationStatus}
         />
       </section>
 

@@ -4,8 +4,9 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
-import { header, footer, posterRail } from '@/content/site'
-import { projects, projectSlugs, getProject } from '@/content/projects'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
+import { projectSlugs } from '@/content/en/projects'
 
 function pad2(n) {
   return String(n).padStart(2, '0')
@@ -17,6 +18,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params
+  const { getProject } = getContent(await getLocale())
   const project = getProject(slug)
   if (!project) return { title: 'Project — raoul.studio' }
   return {
@@ -27,6 +29,9 @@ export async function generateMetadata({ params }) {
 
 export default async function ProjectPage({ params }) {
   const { slug } = await params
+  const { projects, getProject, header, footer, posterRail, ui } = getContent(
+    await getLocale(),
+  )
   const project = getProject(slug)
   if (!project) notFound()
 
@@ -40,14 +45,14 @@ export default async function ProjectPage({ params }) {
         variant="back"
         wordmark={header.wordmark}
         wordmarkHref="/"
-        backLabel="Back"
+        backLabel={ui.back}
         backHref="/"
       />
 
       {/* Meta + title */}
       <section className="pt-16 md:pt-32 pb-8 md:pb-12">
         <div className="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
-          Project № {pad2(project.number)} · {project.year}
+          {ui.projectLabel} {pad2(project.number)} · {project.year}
         </div>
         <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
           {project.titleLine1}

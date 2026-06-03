@@ -2,12 +2,12 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
-import { header, footer, posterRail } from '@/content/site'
-import { pages } from '@/content/pages'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
 
-const page = pages.process
-
-export function generateMetadata() {
+export async function generateMetadata() {
+  const { pages } = getContent(await getLocale())
+  const page = pages.process
   return {
     title: page.meta?.title || `${page.titleLine1} — raoul.studio`,
     description: page.meta?.description || '',
@@ -18,25 +18,27 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
-const faqItems = page.faq?.items ?? []
+function buildFaqJsonLd(faqItems) {
+  if (faqItems.length === 0) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  }
+}
 
-const faqJsonLd =
-  faqItems.length > 0
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqItems.map((item) => ({
-          '@type': 'Question',
-          name: item.q,
-          acceptedAnswer: { '@type': 'Answer', text: item.a },
-        })),
-      }
-    : null
-
-export default function ProcessPage() {
+export default async function ProcessPage() {
+  const { pages, header, footer, posterRail, ui } = getContent(await getLocale())
+  const page = pages.process
   const railMiddle = page.posterRailMiddle || posterRail.middleText
   const steps = page.steps ?? []
   const howWeWorkPoints = page.howWeWork?.points ?? []
+  const faqItems = page.faq?.items ?? []
+  const faqJsonLd = buildFaqJsonLd(faqItems)
 
   return (
     <>
@@ -50,7 +52,7 @@ export default function ProcessPage() {
         variant="back"
         wordmark={header.wordmark}
         wordmarkHref="/"
-        backLabel="Back"
+        backLabel={ui.back}
         backHref="/"
       />
 

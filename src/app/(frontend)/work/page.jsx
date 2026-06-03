@@ -2,13 +2,12 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
-import { header, footer, posterRail } from '@/content/site'
-import { pages } from '@/content/pages'
-import { projects } from '@/content/projects'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
 
-const page = pages.work
-
-export function generateMetadata() {
+export async function generateMetadata() {
+  const { pages } = getContent(await getLocale())
+  const page = pages.work
   return {
     title: page.meta?.title || `${page.titleLine1} — raoul.studio`,
     description: page.meta?.description || '',
@@ -19,7 +18,11 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
-export default function WorkPage() {
+export default async function WorkPage() {
+  const { pages, header, footer, posterRail, ui, projects } = getContent(
+    await getLocale(),
+  )
+  const page = pages.work
   const railMiddle = page.posterRailMiddle || posterRail.middleText
 
   return (
@@ -28,7 +31,7 @@ export default function WorkPage() {
         variant="back"
         wordmark={header.wordmark}
         wordmarkHref="/"
-        backLabel="Back"
+        backLabel={ui.back}
         backHref="/"
       />
 

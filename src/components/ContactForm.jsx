@@ -15,6 +15,11 @@ export default function ContactForm({
   messageLabel,
   messagePlaceholder,
   sendLabel,
+  sendingButton = 'sending…',
+  sendingStatus = 'Sending…',
+  successStatus = "✓ Message sent — we'll reply within 24h.",
+  errorStatus = '✕ Something went wrong. Try again, or write to hello@raoul.studio.',
+  validationStatus = '✕ Check the highlighted field(s) and try again.',
 }) {
   const [status, setStatus] = useState('')
   const [submitting, setSubmitting] = useState(false)
@@ -38,12 +43,12 @@ export default function ContactForm({
     }
     setInvalid(nextInvalid)
     if (nextInvalid.name || nextInvalid.email || nextInvalid.message) {
-      setStatus('✕ Check the highlighted field(s) and try again.')
+      setStatus(validationStatus)
       return
     }
 
     setSubmitting(true)
-    setStatus('Sending…')
+    setStatus(sendingStatus)
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -53,9 +58,9 @@ export default function ContactForm({
       if (!res.ok) throw new Error('bad status')
       form.reset()
       setInvalid({})
-      setStatus("✓ Message sent — we'll reply within 24h.")
+      setStatus(successStatus)
     } catch {
-      setStatus('✕ Something went wrong. Try again, or write to hello@raoul.studio.')
+      setStatus(errorStatus)
     } finally {
       setSubmitting(false)
     }
@@ -134,7 +139,7 @@ export default function ContactForm({
 
       <div className="flex items-center justify-between flex-wrap gap-y-6 pt-4 md:pt-6">
         <button type="submit" className="send-btn" disabled={submitting}>
-          {submitting ? 'sending…' : sendLabel}
+          {submitting ? sendingButton : sendLabel}
           <span className="inline-block rotate-[-45deg] leading-none">→</span>
         </button>
         <p

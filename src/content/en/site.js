@@ -42,6 +42,20 @@ export const menu = {
   footerRightHref: '/contact',
 }
 
+// Chrome strings that live in JSX rather than page content.
+export const ui = {
+  back: 'Back',
+  projectLabel: 'Project №',
+  form: {
+    sendingButton: 'sending…',
+    sendingStatus: 'Sending…',
+    successStatus: "✓ Message sent — we'll reply within 24h.",
+    errorStatus:
+      '✕ Something went wrong. Try again, or write to hello@raoul.studio.',
+    validationStatus: '✕ Check the highlighted field(s) and try again.',
+  },
+}
+
 export const posterRail = {
   topText: 'Product & engineering studio',
   middleText: 'Custom tools & platforms, hand-tailored to ship.',

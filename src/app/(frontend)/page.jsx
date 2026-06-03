@@ -4,11 +4,11 @@ import ScrollArrow from '@/components/ScrollArrow'
 import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
 
-import { header, footer, posterRail } from '@/content/site'
-import { home } from '@/content/home'
-import { projects } from '@/content/projects'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
 
-export function generateMetadata() {
+export async function generateMetadata() {
+  const { home } = getContent(await getLocale())
   return {
     title: home.meta?.title || 'raoul.studio',
     description: home.meta?.description || '',
@@ -19,7 +19,10 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
-export default function HomePage() {
+export default async function HomePage() {
+  const lang = await getLocale()
+  const { home, header, footer, posterRail, ui, projects } = getContent(lang)
+
   // Split contact afterLink on a literal "\n" → desktop-only line break
   const afterLinkParts = (home.contact?.afterLink ?? '').split('\n')
 
@@ -112,7 +115,7 @@ export default function HomePage() {
                 data-parallax="0.18"
                 className="flex items-center justify-between font-semibold uppercase tracking-wider text-sm"
               >
-                <span>Project № {pad2(p.number)}</span>
+                <span>{ui.projectLabel} {pad2(p.number)}</span>
                 <span>{p.year}</span>
               </div>
               <div>
