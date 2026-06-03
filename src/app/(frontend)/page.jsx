@@ -182,7 +182,12 @@ export default function HomePage() {
         </p>
       </section>
 
-      <SiteFooter leftText={footer.leftText} rightText={footer.rightText} />
+      <SiteFooter
+        leftText={footer.leftText}
+        rightText={footer.rightText}
+        phone={footer.phone}
+        phoneHref={footer.phoneHref}
+      />
 
       <PosterRail
         topText={posterRail.topText}

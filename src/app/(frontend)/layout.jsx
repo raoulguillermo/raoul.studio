@@ -54,6 +54,7 @@ const jsonLd = {
       url: SITE_URL,
       description: home.meta.description,
       email: 'hello@raoul.studio',
+      telephone: '+31103073755',
       areaServed: 'EU',
       knowsAbout: [
         'Custom software development',
@@ -108,6 +109,8 @@ export default function FrontendLayout({ children }) {
           eyebrow={menu.eyebrow}
           columns={menu.columns}
           footerLeft={menu.footerLeft}
+          footerPhone={menu.footerPhone}
+          footerPhoneHref={menu.footerPhoneHref}
           footerRightLabel={menu.footerRightLabel}
           footerRightHref={menu.footerRightHref}
         />

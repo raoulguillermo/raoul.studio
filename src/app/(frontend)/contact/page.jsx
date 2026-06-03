@@ -93,6 +93,23 @@ export default function ContactPage() {
         </a>
       </section>
 
+      {/* Phone */}
+      {contact.directContact?.phone ? (
+        <section className="pb-24 md:pb-32">
+          {contact.directContact?.phoneLabel ? (
+            <p className="r text-mute text-sm mb-5 md:mb-6 font-semibold uppercase tracking-wider">
+              {contact.directContact.phoneLabel}
+            </p>
+          ) : null}
+          <a
+            href={contact.directContact.phoneHref}
+            className="r font-display uppercase tracking-tight2 leading-[0.95] text-5xl md:text-7xl text-ink hover:text-accent transition-colors break-words"
+          >
+            {contact.directContact.phone}
+          </a>
+        </section>
+      ) : null}
+
       {/* FAQ */}
       {faqItems.length > 0 ? (
         <section

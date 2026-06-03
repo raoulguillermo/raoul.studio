@@ -28,6 +28,9 @@ export const contact = {
   directContact: {
     label: 'Or write us directly',
     email: 'hello@raoul.studio',
+    phoneLabel: 'Or call',
+    phone: '+31 10 307 3755',
+    phoneHref: 'tel:+31103073755',
   },
   faq: {
     label: 'FAQ',

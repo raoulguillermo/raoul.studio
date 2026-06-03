@@ -2,6 +2,8 @@ export default function MenuPanel({
   eyebrow,
   columns,
   footerLeft,
+  footerPhone,
+  footerPhoneHref,
   footerRightLabel,
   footerRightHref,
 }) {
@@ -37,6 +39,14 @@ export default function MenuPanel({
 
         <footer className="menu-foot flex flex-wrap gap-y-2 items-center justify-between mt-12 md:mt-16 pt-6 border-t border-paper/15 text-paper/50 text-xs font-semibold uppercase tracking-widest">
           <span>{footerLeft}</span>
+          {footerPhone ? (
+            <a
+              href={footerPhoneHref}
+              className="hover:text-paper transition-colors"
+            >
+              {footerPhone}
+            </a>
+          ) : null}
           <a
             href={footerRightHref}
             className="hover:text-paper transition-colors"

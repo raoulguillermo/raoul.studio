@@ -36,6 +36,8 @@ export const menu = {
     },
   ],
   footerLeft: '© raoul.studio · 2026',
+  footerPhone: '+31 10 307 3755',
+  footerPhoneHref: 'tel:+31103073755',
   footerRightLabel: 'hello@raoul.studio',
   footerRightHref: '/contact',
 }
@@ -49,4 +51,6 @@ export const posterRail = {
 export const footer = {
   leftText: '© 2026 raoul.studio',
   rightText: 'EU · Remote',
+  phone: '+31 10 307 3755',
+  phoneHref: 'tel:+31103073755',
 }
