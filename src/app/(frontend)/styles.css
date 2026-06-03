@@ -59,6 +59,9 @@ body {
 #menuToggle.open .bar2 { opacity: 0; transform: translate(-50%, -50%) scaleX(.4); }
 #menuToggle.open .bar3 { transform: translate(-50%, -50%) rotate(-45deg); }
 
+/* ============ LANGUAGE TOGGLE ============ */
+.lang-toggle { color: #fff; mix-blend-mode: difference; transition: color .3s ease; }
+
 /* ============ FULL-PAGE MENU ============ */
 #menuPanel { opacity: 0; visibility: hidden; transition: opacity .45s ease, visibility .45s; }
 #menuPanel.open { opacity: 1; visibility: visible; }

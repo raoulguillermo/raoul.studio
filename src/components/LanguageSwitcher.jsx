@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 import {
@@ -10,27 +10,23 @@ import {
   LOCALE_COOKIE,
 } from '@/content/i18n'
 
-// Sits just below the hamburger (fixed, top-right). Globe glyph + current
-// language code; click opens a small dropdown. Selecting a language writes the
-// cookie and refreshes the server components in place.
+// Icon-only trigger (sized like the hamburger) that opens a full-page popover
+// matching the menu's look — dark panel, big menu-style type, current language
+// highlighted. Selecting one writes the cookie and refreshes in place.
 export default function LanguageSwitcher({ currentLang = 'en' }) {
   const router = useRouter()
   const [open, setOpen] = useState(false)
-  const rootRef = useRef(null)
 
   useEffect(() => {
     if (!open) return
-    function onPointer(e) {
-      if (rootRef.current && !rootRef.current.contains(e.target)) setOpen(false)
-    }
     function onKey(e) {
       if (e.key === 'Escape') setOpen(false)
     }
-    document.addEventListener('pointerdown', onPointer)
     document.addEventListener('keydown', onKey)
+    document.body.style.overflow = 'hidden'
     return () => {
-      document.removeEventListener('pointerdown', onPointer)
       document.removeEventListener('keydown', onKey)
+      document.body.style.overflow = ''
     }
   }, [open])
 
@@ -42,69 +38,71 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
   }
 
   return (
-    <div
-      ref={rootRef}
-      className="fixed right-5 md:right-6 top-[72px] md:top-[84px] z-[60]"
-    >
+    <>
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        aria-haspopup="listbox"
+        aria-haspopup="dialog"
         aria-expanded={open}
         aria-label="Change language"
-        className="flex items-center gap-1.5 rounded-full border border-ink/15 bg-paper/80 backdrop-blur px-3 h-9 text-ink text-xs font-semibold uppercase tracking-wider hover:border-ink/40 transition-colors"
+        className="lang-toggle fixed right-5 md:right-6 top-20 md:top-[92px] z-[60] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-transparent border-0 outline-none"
       >
         <GlobeIcon />
-        <span>{LOCALE_CODES[currentLang]}</span>
-        <span
-          className={`inline-block text-[8px] leading-none transition-transform ${
-            open ? 'rotate-180' : ''
-          }`}
-          aria-hidden="true"
-        >
-          ▾
-        </span>
       </button>
 
-      {open ? (
-        <ul
-          role="listbox"
-          className="absolute right-0 mt-2 min-w-[148px] rounded-lg border border-ink/15 bg-paper shadow-lg overflow-hidden"
-        >
-          {LOCALES.map((lang) => {
-            const active = lang === currentLang
-            return (
-              <li key={lang} role="option" aria-selected={active}>
-                <button
-                  type="button"
-                  onClick={() => choose(lang)}
-                  className={`flex w-full items-center justify-between gap-4 px-4 py-2.5 text-left text-sm transition-colors hover:bg-ink/[0.04] ${
-                    active ? 'text-accent font-semibold' : 'text-ink'
-                  }`}
-                >
-                  <span>{LOCALE_NAMES[lang]}</span>
-                  <span className="text-[11px] font-semibold uppercase tracking-wider text-mute">
-                    {LOCALE_CODES[lang]}
-                  </span>
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      ) : null}
-    </div>
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-hidden={!open}
+        aria-label="Language"
+        onClick={() => setOpen(false)}
+        className={`fixed inset-0 z-[56] bg-ink text-paper transition-opacity duration-500 ${
+          open ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
+        }`}
+      >
+        <div className="h-full max-w-[1500px] mx-auto px-6 md:px-12 pt-20 md:pt-28 pb-12 flex flex-col overflow-y-auto">
+          <p className="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-12 md:mb-20">
+            Language
+          </p>
+
+          <nav className="flex-1 content-start">
+            <ul className="font-display uppercase tracking-tight2 text-4xl md:text-7xl leading-[1] space-y-1">
+              {LOCALES.map((lang) => {
+                const active = lang === currentLang
+                return (
+                  <li key={lang}>
+                    <button
+                      type="button"
+                      onClick={() => choose(lang)}
+                      aria-current={active ? 'true' : undefined}
+                      className={`menu-link text-left ${
+                        active ? 'text-accent' : ''
+                      }`}
+                    >
+                      {LOCALE_NAMES[lang]}
+                      <span className="align-middle ml-3 md:ml-4 font-sans text-base md:text-xl font-medium tracking-normal text-paper/40">
+                        {LOCALE_CODES[lang]}
+                      </span>
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </>
   )
 }
 
 function GlobeIcon() {
   return (
     <svg
-      width="14"
-      height="14"
+      className="w-7 h-7 md:w-8 md:h-8"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="1.8"
+      strokeWidth="1.7"
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
