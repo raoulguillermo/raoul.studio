@@ -18,6 +18,21 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
+const faqItems = page.faq?.items ?? []
+
+const faqJsonLd =
+  faqItems.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqItems.map((item) => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: { '@type': 'Answer', text: item.a },
+        })),
+      }
+    : null
+
 export default function ProcessPage() {
   const railMiddle = page.posterRailMiddle || posterRail.middleText
   const steps = page.steps ?? []
@@ -25,6 +40,12 @@ export default function ProcessPage() {
 
   return (
     <>
+      {faqJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      ) : null}
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
@@ -126,6 +147,32 @@ export default function ProcessPage() {
               {page.howWeWork.closing}
             </p>
           ) : null}
+        </section>
+      ) : null}
+
+      {/* FAQ */}
+      {faqItems.length > 0 ? (
+        <section
+          id="faq"
+          className="scroll-mt-24 pb-24 md:pb-40 border-t border-ink/15 pt-12 md:pt-20"
+        >
+          {page.faq?.label ? (
+            <p className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider">
+              {page.faq.label}
+            </p>
+          ) : null}
+          <div className="r divide-y divide-ink/15 border-t border-ink/15">
+            {faqItems.map((item, i) => (
+              <article key={i} className="py-8 md:py-10 grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-12">
+                <h2 className="md:col-span-5 font-display uppercase tracking-tight2 leading-[1.05] text-2xl md:text-3xl">
+                  {item.q}
+                </h2>
+                <p className="md:col-span-7 max-w-2xl text-base md:text-lg leading-relaxed text-ink/80">
+                  {item.a}
+                </p>
+              </article>
+            ))}
+          </div>
         </section>
       ) : null}
 

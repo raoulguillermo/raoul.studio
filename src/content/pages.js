@@ -132,6 +132,35 @@ export const pages = {
       ],
       closing: 'You work with people who build.',
     },
+    faq: {
+      label: 'FAQ',
+      items: [
+        {
+          q: 'What does raoul.studio do?',
+          a: 'raoul.studio is a founder-led product and engineering studio that builds custom, hand-tailored software — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams.',
+        },
+        {
+          q: 'How does the studio work?',
+          a: 'Every project runs through six stages: Direction, Structure, Design, Build, Iterate and Scale. The principle is to understand the system before building it — the thinking is done up front, so the build moves fast without skipping steps.',
+        },
+        {
+          q: 'How long does a project take?',
+          a: 'It depends on scope, but the studio works in fast loops with small, frequent releases rather than one big reveal at the end. You see progress as it lands and the product gets sharper every cycle, because the architecture and direction are settled before the build starts.',
+        },
+        {
+          q: 'Who does the studio work with?',
+          a: 'Mostly fintech, law firms, commercial agencies and e-commerce teams. Some work is for clients, some is the studio’s own products — all of it is built to run in production. Real briefs only.',
+        },
+        {
+          q: 'Do you offer ongoing support after launch?',
+          a: 'Yes. Most of the studio’s work is long-term: systems are built to grow with you across more users, data, languages and features, and the team stays involved rather than handing off and disappearing.',
+        },
+        {
+          q: 'How do I start a project?',
+          a: 'Tell the studio what you’re building or what’s slowing you down — email hello@raoul.studio or use the contact page. Every real brief gets read, with a reply within 24 hours.',
+        },
+      ],
+    },
     posterRailMiddle: 'Process · Direction → Scale',
   },
 }

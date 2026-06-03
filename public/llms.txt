@@ -1,0 +1,29 @@
+# raoul.studio
+
+> A founder-led product & engineering studio, led by Raoul Guillermo, that builds custom, hand-tailored tools and platforms for fintech, law firms and commercial agencies — software too specific for off-the-shelf. Small team, fast decisions, production-grade work. Based in the EU, works remote.
+
+## What we do
+- Custom tools & platforms, designed and built end-to-end.
+- Sectors: fintech, legal tech, commercial/agency teams.
+- Engagement: founder-led, small team, ships fast. Real briefs only; replies within 24h.
+- Contact: hello@raoul.studio
+
+## Selected work
+- [OutdoorXL](https://raoul.studio/projects/outdoorxl): Magento e-commerce at scale — 200,000+ products across 14+ languages and sites, now going headless.
+- [AboutSpace](https://raoul.studio/projects/aboutspace): A two-sided marketplace to list, let and book creative and commercial spaces — with chat, wallet and peer-to-peer payments built in.
+- [Threadly](https://raoul.studio/projects/threadly): Our own SaaS — a support-ticket system for support teams, agencies and solo operators. Shared inbox, SLA tracking, automation.
+- [Lexpert CRM](https://raoul.studio/projects/lexpert): A bespoke CRM for a law firm — clients, direct invoicing, metrics and role-based access, built to the firm's exact workflow.
+- [FndRacer](https://raoul.studio/projects/fndracer): An AI funding-application tool — scrapes funding sources, matches them to a business, and drafts a full application in about five minutes.
+- [Smart Dossier](https://raoul.studio/projects/smart-dossier): An AI document-dossier system — full-text search inside documents and automatic restructuring of large document sets.
+- [AboutDesk](https://raoul.studio/projects/aboutdesk): A team desk-booking app — map your building and floors, and teams book desks in a room to sit together.
+- [Footsteppa](https://raoul.studio/projects/footsteppa): The founder's own independent media brand and label — 6,000+ followers, 5 artists, expanding into events, merch and a record label.
+
+## Pages
+- [Home](https://raoul.studio/)
+- [About](https://raoul.studio/about)
+- [Process](https://raoul.studio/process)
+- [Contact](https://raoul.studio/contact)
+
+## Contact
+- Email: hello@raoul.studio
+- Instagram: https://instagram.com/raoulguillermo
