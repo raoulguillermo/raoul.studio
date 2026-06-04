@@ -203,25 +203,25 @@ export const projectOverrides = {
   'no-cms': {
     shortTag: 'Websites, WhatsApp',
     shortDescription:
-      'Eine Rundum-sorglos-Website, gesteuert vom Handy — wir hosten und bauen sie, und Sie ändern alles per WhatsApp. No CMS, keine Logins, keine Dashboards.',
+      'Ihre Website aktualisieren? Eine WhatsApp genügt. Farben, Texte, Layout — alles, jederzeit, in Echtzeit. Ein CMS, neu gedacht: keine Dashboards, keine Logins, nichts zu lernen.',
     lead:
-      'Ihre Website, gesteuert vom Handy. Schreiben Sie uns auf WhatsApp, um Farben, Texte oder das ganze Layout zu ändern — wir bauen neu und deployen. No CMS, keine Logins, keine Dashboards.',
-    tagsLine: 'Produkt · Managed Hosting · WhatsApp · Next.js',
+      'Steuern Sie Ihre ganze Website über WhatsApp. Eine Nachricht ändert Farben, Texte oder das komplette Layout — und Sie sehen live, wie es passiert. Alles, was ein CMS kann, ohne das CMS.',
+    tagsLine: 'Produkt · WhatsApp · Kein Login · Sofort live',
     status: 'neu',
     info: [
-      { label: 'Rolle', value: 'Studio-Produkt & Konzept' },
-      { label: 'Modell', value: 'Wir hosten & bauen · Sie schreiben per WhatsApp' },
-      { label: 'Status', value: 'Neu — nimmt Kunden an' },
+      { label: 'Produkt', value: 'Website bearbeiten per WhatsApp' },
+      { label: 'So funktioniert es', value: 'Schreiben Sie wie mit einem Menschen · Änderungen gehen sofort live' },
+      { label: 'Status', value: 'Neu — Early Access' },
     ],
     body: [
       {
-        text: 'No CMS ist genau das, wonach es klingt: eine Website ohne Admin-Panel, das man lernen muss, und ohne Dashboard, in das man sich einloggt. Wir gestalten sie, bauen sie, hosten sie auf eigenen Servern und halten sie am Laufen.',
+        text: 'No CMS macht WhatsApp zum einzigen Dashboard, das Ihre Website braucht. Eine Farbe ändern, eine Überschrift neu schreiben, einen Abschnitt austauschen oder das ganze Layout umdenken? Schicken Sie eine Nachricht — und sehen Sie zu, wie es passiert.',
       },
       {
-        text: 'Wenn Sie etwas ändern wollen — eine Farbe, eine Überschrift, einen Abschnitt, das ganze Layout — schicken Sie eine WhatsApp-Nachricht. Wir machen die Änderung, bauen die Seite neu und deployen sie, meist noch am selben Tag. Eine schnelle, handgebaute Seite, ganz ohne Code oder Content-System.',
+        text: 'Es funktioniert wie ein CMS, nur schlauer und viel einfacher. Kein Admin-Panel zum Lernen, keine Logins zum Suchen, keine Plugins zum Aktualisieren. Eine WhatsApp zu schreiben können Sie längst — mehr braucht es nicht, um Ihre Website zu steuern.',
       },
       {
-        text: 'Gebaut für Leute, die eine scharfe Website wollen, nicht noch ein Tool zum Verwalten. Keine Logins, keine Plugins, keine Updates zum Installieren — schreiben Sie uns einfach, und es ist erledigt. Neu, und nimmt jetzt Kunden an.',
+        text: 'Was die meisten Leute lieber nicht anfassen, wird so einfach wie eine Textnachricht. Neu — und ab jetzt offen für die ersten Nutzer.',
       },
     ],
   },

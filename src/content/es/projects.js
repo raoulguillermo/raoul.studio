@@ -202,25 +202,25 @@ export const projectOverrides = {
   'no-cms': {
     shortTag: 'webs, whatsapp',
     shortDescription:
-      'Una web llave en mano, gestionada desde tu móvil: nosotros la alojamos y la reconstruimos, y tú cambias lo que quieras con un WhatsApp. Sin CMS, sin logins, sin paneles.',
+      'Actualiza tu web mandando un WhatsApp. Cambia colores, textos, diseño —lo que sea— al vuelo. Es un CMS reinventado: sin paneles, sin logins, sin nada que aprender.',
     lead:
-      'Tu web, gestionada desde tu móvil. Escríbenos por WhatsApp para cambiar colores, textos o el diseño entero: nosotros la reconstruimos y la volvemos a desplegar. Sin CMS, sin logins, sin paneles.',
-    tagsLine: 'Producto · Alojamiento gestionado · WhatsApp · Next.js',
+      'Gestiona toda tu web desde WhatsApp. Manda un mensaje para cambiar colores, textos o el diseño entero, y míralo actualizarse al vuelo. Todo lo que hace un CMS, sin el CMS.',
+    tagsLine: 'Producto · WhatsApp · Sin login · Cambios al instante',
     status: 'nuevo',
     info: [
-      { label: 'Rol', value: 'Producto y concepto del estudio' },
-      { label: 'Modelo', value: 'Nosotros alojamos y reconstruimos · tú escribes por WhatsApp' },
-      { label: 'Estado', value: 'Nuevo — admitiendo clientes' },
+      { label: 'Producto', value: 'Edición de tu web por WhatsApp' },
+      { label: 'Cómo funciona', value: 'Escríbele como a una persona · los cambios entran en vivo al vuelo' },
+      { label: 'Estado', value: 'Nuevo — acceso anticipado' },
     ],
     body: [
       {
-        text: 'No CMS es justo lo que parece: una web sin panel de administración que aprender y sin panel de control en el que entrar. La diseñamos, la construimos, la alojamos en nuestros propios servidores y la mantenemos en marcha.',
+        text: 'No CMS convierte WhatsApp en el único panel que tu web necesita. ¿Quieres cambiar un color, reescribir un titular, mover una sección o replantear el diseño entero? Manda un mensaje y míralo suceder.',
       },
       {
-        text: 'Cuando quieres cambiar algo —un color, un titular, una sección, el diseño entero— nos mandas un WhatsApp. Hacemos el cambio, reconstruimos el sitio y lo volvemos a desplegar, normalmente el mismo día. Una web rápida y hecha a mano, sin tocar nunca código ni un sistema de contenidos.',
+        text: 'Funciona como un CMS, solo que más listo y muchísimo más fácil. Sin panel de administración que aprender, sin logins que perseguir, sin plugins que actualizar. Ya sabes mandar un WhatsApp: ahora eso es todo lo que hace falta para gestionar tu web.',
       },
       {
-        text: 'Está hecha para quien quiere una web afilada, no otra herramienta que gestionar. Sin logins, sin plugins, sin actualizaciones que instalar: solo escríbenos y queda resuelto. Nueva, y admitiendo clientes ya.',
+        text: 'Convierte eso que casi nadie se atreve a tocar en algo tan sencillo como escribir un mensaje. Nuevo, y abriéndose ahora a los primeros usuarios.',
       },
     ],
   },

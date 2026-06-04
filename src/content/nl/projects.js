@@ -203,25 +203,25 @@ export const projectOverrides = {
   'no-cms': {
     shortTag: 'websites, whatsapp',
     shortDescription:
-      'Een kant-en-klare website, bediend vanaf je telefoon — wij hosten en herbouwen hem, en jij verandert alles met een WhatsApp-bericht. No CMS, geen logins, geen dashboards.',
+      'Werk je website bij met een WhatsApp-bericht. Kleuren, teksten, layout — alles, in een handomdraai. Een CMS, opnieuw uitgevonden: geen dashboards, geen logins, niks te leren.',
     lead:
-      'Jouw website, bediend vanaf je telefoon. App ons op WhatsApp om kleuren, teksten of de hele layout te veranderen — wij herbouwen en deployen opnieuw. No CMS, geen logins, geen dashboards.',
-    tagsLine: 'Product · Managed hosting · WhatsApp · Next.js',
+      'Bedien je hele website vanuit WhatsApp. Stuur een bericht om kleuren, teksten of de complete layout aan te passen, en zie het meteen veranderen. Alles wat een CMS doet — zonder het CMS.',
+    tagsLine: 'Product · WhatsApp · Geen login · Direct aangepast',
     status: 'nieuw',
     info: [
-      { label: 'Rol', value: 'Studioproduct & concept' },
-      { label: 'Model', value: 'Wij hosten & herbouwen · jij appt op WhatsApp' },
-      { label: 'Status', value: 'Nieuw — neemt klanten aan' },
+      { label: 'Product', value: 'Je website aanpassen via WhatsApp' },
+      { label: 'Hoe het werkt', value: 'App het alsof het een mens is · wijzigingen staan meteen live' },
+      { label: 'Status', value: 'Nieuw — early access' },
     ],
     body: [
       {
-        text: 'No CMS is precies wat het zegt: een website zonder adminpaneel om te leren en zonder dashboard om in te loggen. Wij ontwerpen hem, bouwen hem, hosten hem op onze eigen servers en houden hem draaiende.',
+        text: 'No CMS maakt van WhatsApp het enige dashboard dat je website nodig heeft. Een kleur veranderen, een kop herschrijven, een sectie omwisselen of de hele layout omgooien? Stuur een bericht — en zie het gebeuren.',
       },
       {
-        text: 'Wil je iets veranderd hebben — een kleur, een kop, een sectie, de hele layout — dan stuur je een WhatsApp-bericht. Wij maken de aanpassing, herbouwen de site en deployen opnieuw, meestal dezelfde dag nog. Een snelle, met de hand gebouwde site, zonder ooit code of een contentsysteem aan te raken.',
+        text: 'Het werkt als een CMS, alleen slimmer en veel makkelijker. Geen adminpaneel om te leren, geen logins om bij te houden, geen plug-ins om te updaten. Je weet al hoe je een WhatsApp stuurt — en meer heb je niet nodig om je site te bedienen.',
       },
       {
-        text: 'Gebouwd voor mensen die een scherpe website willen, niet nóg een tool om te beheren. Geen logins, geen plug-ins, geen updates om te installeren — app ons gewoon, en het is geregeld. Nieuw, en neemt nu klanten aan.',
+        text: 'Het verandert datgene waar de meeste mensen liever niet aankomen in iets dat zo makkelijk is als appen. Nieuw, en nu open voor de eerste gebruikers.',
       },
     ],
   },
