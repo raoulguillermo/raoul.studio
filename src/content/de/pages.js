@@ -267,6 +267,14 @@ export const pages = {
         ],
       },
       {
+        heading: 'Software, Sicherheit und Haftung',
+        body: [
+          'Die Website sowie sämtliche von uns bereitgestellten Werkzeuge oder Software werden „wie besehen“ und „wie verfügbar“ zur Verfügung gestellt. Wir wenden angemessene Sorgfalt auf, um sie sicher und betriebsbereit zu halten; gleichwohl kann für keine Software und keinen Onlinedienst gewährleistet werden, dass sie vollständig sicher, ununterbrochen oder fehlerfrei sind.',
+          'Soweit gesetzlich zulässig, haftet raoul.studio nicht für Datenverluste, Ausfallzeiten, Sicherheitsverletzungen, unbefugte Zugriffe oder für unmittelbare oder mittelbare Schäden, die aus Ihrer Nutzung der Website oder unserer Software oder der Unmöglichkeit ihrer Nutzung entstehen, einschließlich Vorfällen außerhalb unseres zumutbaren Einflussbereichs wie Angriffen Dritter, Hackerangriffen oder Dienstausfällen.',
+          'Die vorstehenden Bestimmungen beschränken weder Ihre Rechte aus der DSGVO noch eine Haftung, die gesetzlich nicht ausgeschlossen werden kann – einschließlich der Haftung für Vorsatz und grobe Fahrlässigkeit.',
+        ],
+      },
+      {
         heading: 'Änderungen dieser Richtlinie',
         body: [
           'Wir können diese Richtlinie anpassen, wenn sich das Studio verändert. Wenn wir das tun, aktualisieren wir das Datum oben auf dieser Seite.',

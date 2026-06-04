@@ -267,6 +267,14 @@ export const pages = {
         ],
       },
       {
+        heading: 'Software, security and liability',
+        body: [
+          'The website and any tools or software we make available are provided on an "as is" and "as available" basis. We take reasonable care to keep them secure and running, but no software or online service can be guaranteed to be completely safe, uninterrupted or error-free.',
+          'To the fullest extent permitted by law, raoul.studio is not liable for any loss of data, downtime, security breach, unauthorised access, or any direct or indirect damage arising from your use of — or inability to use — the website or our software, including incidents outside our reasonable control such as third-party hacks, attacks or service outages.',
+          'Nothing here limits any rights you have under the GDPR, or any liability that cannot legally be excluded — including liability for intent or gross negligence.',
+        ],
+      },
+      {
         heading: 'Changes to this policy',
         body: [
           'We may update this policy as the studio changes. When we do, we’ll update the date at the top of this page.',

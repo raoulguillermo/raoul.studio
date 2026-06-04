@@ -267,6 +267,14 @@ export const pages = {
         ],
       },
       {
+        heading: 'Software, seguridad y responsabilidad',
+        body: [
+          'El sitio web y cualquier herramienta o software que pongamos a tu disposición se ofrecen «tal cual» y «según disponibilidad». Ponemos un cuidado razonable en mantenerlos seguros y operativos, pero ningún software ni servicio en línea puede garantizar que sea completamente seguro, ininterrumpido o libre de errores.',
+          'En la máxima medida permitida por la ley, raoul.studio no se hace responsable de ninguna pérdida de datos, interrupción del servicio, brecha de seguridad, acceso no autorizado, ni de ningún daño directo o indirecto derivado del uso —o de la imposibilidad de uso— del sitio web o de nuestro software, incluidos los incidentes ajenos a nuestro control razonable, como ataques o intrusiones de terceros o caídas del servicio.',
+          'Nada de lo aquí dispuesto limita los derechos que te asisten en virtud del RGPD, ni ninguna responsabilidad que no pueda excluirse legalmente, incluida la responsabilidad por dolo o negligencia grave.',
+        ],
+      },
+      {
         heading: 'Cambios en esta política',
         body: [
           'Podemos actualizar esta política a medida que el estudio cambie. Cuando lo hagamos, actualizaremos la fecha en la parte superior de esta página.',
