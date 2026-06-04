@@ -199,4 +199,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  'no-cms': {
+    shortTag: 'Websites, WhatsApp',
+    shortDescription:
+      'Eine Rundum-sorglos-Website, gesteuert vom Handy — wir hosten und bauen sie, und Sie ändern alles per WhatsApp. No CMS, keine Logins, keine Dashboards.',
+    lead:
+      'Ihre Website, gesteuert vom Handy. Schreiben Sie uns auf WhatsApp, um Farben, Texte oder das ganze Layout zu ändern — wir bauen neu und deployen. No CMS, keine Logins, keine Dashboards.',
+    tagsLine: 'Produkt · Managed Hosting · WhatsApp · Next.js',
+    status: 'neu',
+    info: [
+      { label: 'Rolle', value: 'Studio-Produkt & Konzept' },
+      { label: 'Modell', value: 'Wir hosten & bauen · Sie schreiben per WhatsApp' },
+      { label: 'Status', value: 'Neu — nimmt Kunden an' },
+    ],
+    body: [
+      {
+        text: 'No CMS ist genau das, wonach es klingt: eine Website ohne Admin-Panel, das man lernen muss, und ohne Dashboard, in das man sich einloggt. Wir gestalten sie, bauen sie, hosten sie auf eigenen Servern und halten sie am Laufen.',
+      },
+      {
+        text: 'Wenn Sie etwas ändern wollen — eine Farbe, eine Überschrift, einen Abschnitt, das ganze Layout — schicken Sie eine WhatsApp-Nachricht. Wir machen die Änderung, bauen die Seite neu und deployen sie, meist noch am selben Tag. Eine schnelle, handgebaute Seite, ganz ohne Code oder Content-System.',
+      },
+      {
+        text: 'Gebaut für Leute, die eine scharfe Website wollen, nicht noch ein Tool zum Verwalten. Keine Logins, keine Plugins, keine Updates zum Installieren — schreiben Sie uns einfach, und es ist erledigt. Neu, und nimmt jetzt Kunden an.',
+      },
+    ],
+  },
 }

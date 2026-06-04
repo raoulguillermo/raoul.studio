@@ -178,4 +178,103 @@ export const pages = {
     },
     posterRailMiddle: 'Prozess · Richtung → Skalierung',
   },
+
+  privacy: {
+    slug: 'privacy',
+    meta: {
+      title: 'Datenschutz — raoul.studio',
+      description:
+        'Wie raoul.studio mit personenbezogenen Daten umgeht: was wir über das Kontaktformular erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
+    },
+    eyebrow: 'Rechtliches',
+    titleLine1: 'Datenschutz',
+    titleAccent: '.',
+    updated: 'Zuletzt aktualisiert — Juni 2026',
+    intro:
+      'Diese Richtlinie erklärt, welche personenbezogenen Daten raoul.studio erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben und denjenigen zu antworten, die uns kontaktieren.',
+    sections: [
+      {
+        heading: 'Wer wir sind',
+        body: [
+          'raoul.studio ist ein Produkt- und Engineering-Studio von Raoul Guillermo mit Sitz in der EU. Bei allem, was diese Richtlinie betrifft — oder um Ihre Rechte auszuüben — erreichen Sie uns unter hello@raoul.studio.',
+          'Im Sinne der DSGVO ist raoul.studio Verantwortlicher für die hier beschriebenen personenbezogenen Daten.',
+        ],
+      },
+      {
+        heading: 'Was wir erheben',
+        body: [
+          'Wir erheben nur personenbezogene Daten, die Sie uns geben oder die Ihr Browser bei der Nutzung der Seite übermittelt:',
+        ],
+        points: [
+          'Kontaktformular: Ihr Name, Ihre E-Mail-Adresse, optional ein Firmenname und die Nachricht, die Sie schreiben.',
+          'Technische Daten: Wenn Sie das Formular absenden, speichern wir die IP-Adresse und den Browser-User-Agent der Anfrage, um vor Spam und Missbrauch zu schützen.',
+          'Spracheinstellung: Ein kleines „lang“-Cookie merkt sich, in welcher Sprache Sie die Seite lesen möchten.',
+        ],
+      },
+      {
+        heading: 'Wozu wir sie nutzen und unsere Rechtsgrundlage',
+        body: [
+          'Wir nutzen Ihre Kontaktdaten und Nachricht für eine Sache: um Ihre Anfrage zu lesen und zu beantworten. Rechtsgrundlage ist unser berechtigtes Interesse, Menschen zu antworten, die uns kontaktieren, sowie die Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage hin.',
+          'Die technischen Daten (IP, User-Agent) nutzen wir auf Grundlage unseres berechtigten Interesses, das Formular sicher und frei von Spam zu halten. Das Sprach-Cookie ist ein funktionales Cookie, das auf Grundlage Ihrer Wahl gesetzt wird.',
+        ],
+      },
+      {
+        heading: 'Cookies',
+        body: [
+          'Die Seite nutzt ein einziges funktionales Cookie („lang“), um sich Ihre Sprache zu merken. Wir setzen keine Werbe-Cookies ein und betreiben kein Tracking oder Profiling über Dritte.',
+        ],
+      },
+      {
+        heading: 'Wer Ihre Daten verarbeitet',
+        body: ['Wir halten die Zahl der Dritten klein. Diejenigen, die Ihre Daten verarbeiten könnten, sind:'],
+        points: [
+          'SendGrid (Twilio Inc.) — stellt die E-Mail aus dem Kontaktformular an uns zu. Ihr Name, Ihre E-Mail und Ihre Nachricht laufen darüber.',
+          'Unsere eigenen Server — die Website wird auf von uns verwalteter Infrastruktur gehostet, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
+        ],
+      },
+      {
+        heading: 'Internationale Übermittlungen',
+        body: [
+          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. Wo das geschieht, ist es durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert.',
+        ],
+      },
+      {
+        heading: 'Wie lange wir sie speichern',
+        body: [
+          'Wir speichern Kontaktanfragen so lange, wie wir sie zur Bearbeitung Ihrer Anfrage und für unsere eigenen Unterlagen brauchen, und nicht länger als nötig. Sie können uns jederzeit auffordern, Ihre Daten zu löschen.',
+        ],
+      },
+      {
+        heading: 'Ihre Rechte',
+        body: ['Nach der DSGVO haben Sie das Recht,'],
+        points: [
+          'auf die personenbezogenen Daten zuzugreifen, die wir über Sie speichern;',
+          'sie berichtigen oder löschen zu lassen;',
+          'ihre Nutzung einzuschränken oder ihr zu widersprechen;',
+          'sie in einem übertragbaren Format zu erhalten.',
+        ],
+      },
+      {
+        heading: 'Beschwerden',
+        body: [
+          'Um eines dieser Rechte auszuüben, schreiben Sie an hello@raoul.studio. Wenn Sie der Ansicht sind, dass wir mit Ihren Daten falsch umgegangen sind, haben Sie zudem das Recht, sich bei Ihrer örtlichen Datenschutzbehörde zu beschweren — in den Niederlanden der Autoriteit Persoonsgegevens.',
+        ],
+      },
+      {
+        heading: 'Sicherheit',
+        body: [
+          'Wir treffen angemessene technische und organisatorische Maßnahmen zum Schutz Ihrer Daten, einschließlich Transportverschlüsselung und beschränktem Zugriff. Kein System ist vollkommen sicher, aber wir halten die Angriffsfläche klein, indem wir von vornherein wenig erheben.',
+        ],
+      },
+      {
+        heading: 'Änderungen dieser Richtlinie',
+        body: [
+          'Wir können diese Richtlinie anpassen, wenn sich das Studio verändert. Wenn wir das tun, aktualisieren wir das Datum oben auf dieser Seite.',
+        ],
+      },
+    ],
+    directLabel: 'Datenschutzfragen',
+    directEmail: 'hello@raoul.studio',
+    posterRailMiddle: 'Datenschutz · Rechtliches',
+  },
 }

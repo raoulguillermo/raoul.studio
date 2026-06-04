@@ -178,4 +178,103 @@ export const pages = {
     },
     posterRailMiddle: 'Proces · Richting → Schalen',
   },
+
+  privacy: {
+    slug: 'privacy',
+    meta: {
+      title: 'Privacybeleid — raoul.studio',
+      description:
+        'Hoe raoul.studio met persoonsgegevens omgaat: wat we via het contactformulier verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
+    },
+    eyebrow: 'Juridisch',
+    titleLine1: 'Privacy',
+    titleAccent: '.',
+    updated: 'Laatst bijgewerkt — juni 2026',
+    intro:
+      'Dit beleid legt uit welke persoonsgegevens raoul.studio verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien en de mensen die contact opnemen te beantwoorden.',
+    sections: [
+      {
+        heading: 'Wie we zijn',
+        body: [
+          'raoul.studio is een product- en engineeringstudio onder leiding van Raoul Guillermo, gevestigd in de EU. Voor alles in dit beleid — of om je rechten uit te oefenen — bereik je ons op hello@raoul.studio.',
+          'Voor de AVG is raoul.studio de verwerkingsverantwoordelijke voor de hier beschreven persoonsgegevens.',
+        ],
+      },
+      {
+        heading: 'Wat we verzamelen',
+        body: [
+          'We verzamelen alleen persoonsgegevens die je ons geeft of die je browser meestuurt wanneer je de site gebruikt:',
+        ],
+        points: [
+          'Contactformulier: je naam, e-mailadres, optioneel je bedrijfsnaam en het bericht dat je schrijft.',
+          'Technische gegevens: bij het versturen van het formulier slaan we het IP-adres en de browser-user-agent van het verzoek op, om spam en misbruik tegen te gaan.',
+          'Taalvoorkeur: een kleine "lang"-cookie onthoudt in welke taal je de site wilt lezen.',
+        ],
+      },
+      {
+        heading: 'Waarom we het gebruiken, en onze grondslag',
+        body: [
+          'We gebruiken je contactgegevens en bericht voor één ding: je vraag lezen en beantwoorden. De grondslag is ons gerechtvaardigd belang om te reageren op mensen die contact met ons opnemen, en om op jouw verzoek stappen te zetten vóór een eventuele overeenkomst.',
+          'De technische gegevens (IP, user-agent) gebruiken we op basis van ons gerechtvaardigd belang om het formulier veilig en spamvrij te houden. De taalcookie is een functionele cookie die op basis van jouw keuze wordt geplaatst.',
+        ],
+      },
+      {
+        heading: 'Cookies',
+        body: [
+          'De site gebruikt één functionele cookie ("lang") om je taal te onthouden. We gebruiken geen advertentiecookies en doen geen tracking of profilering van derden.',
+        ],
+      },
+      {
+        heading: 'Wie je gegevens verwerkt',
+        body: ['We houden het aantal derde partijen klein. Degenen die je gegevens mogelijk verwerken zijn:'],
+        points: [
+          'SendGrid (Twilio Inc.) — bezorgt de e-mail van het contactformulier bij ons. Je naam, e-mailadres en bericht gaan hier doorheen.',
+          'Onze eigen servers — de website draait op infrastructuur die we zelf beheren, en contactinzendingen worden daar in onze database opgeslagen.',
+        ],
+      },
+      {
+        heading: 'Internationale doorgifte',
+        body: [
+          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. Waar dat gebeurt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie.',
+        ],
+      },
+      {
+        heading: 'Hoe lang we het bewaren',
+        body: [
+          'We bewaren contactinzendingen zo lang als nodig om je vraag af te handelen en voor onze eigen administratie, en niet langer dan noodzakelijk. Je kunt ons op elk moment vragen je gegevens te verwijderen.',
+        ],
+      },
+      {
+        heading: 'Jouw rechten',
+        body: ['Onder de AVG heb je het recht om:'],
+        points: [
+          'de persoonsgegevens die we over je hebben in te zien;',
+          'ze te laten corrigeren of verwijderen;',
+          'het gebruik ervan te beperken of er bezwaar tegen te maken;',
+          'ze in een overdraagbaar formaat te ontvangen.',
+        ],
+      },
+      {
+        heading: 'Klachten',
+        body: [
+          'Om een van deze rechten uit te oefenen, mail je naar hello@raoul.studio. Als je vindt dat we onzorgvuldig met je gegevens zijn omgegaan, heb je ook het recht om een klacht in te dienen bij je lokale toezichthouder — in Nederland de Autoriteit Persoonsgegevens.',
+        ],
+      },
+      {
+        heading: 'Beveiliging',
+        body: [
+          'We nemen redelijke technische en organisatorische maatregelen om je gegevens te beschermen, waaronder transportversleuteling en beperkte toegang. Geen enkel systeem is volledig veilig, maar we houden het aanvalsoppervlak klein door om te beginnen weinig te verzamelen.',
+        ],
+      },
+      {
+        heading: 'Wijzigingen in dit beleid',
+        body: [
+          'We kunnen dit beleid bijwerken naarmate de studio verandert. Doen we dat, dan werken we de datum boven aan deze pagina bij.',
+        ],
+      },
+    ],
+    directLabel: 'Privacyvragen',
+    directEmail: 'hello@raoul.studio',
+    posterRailMiddle: 'Privacy · Juridisch',
+  },
 }

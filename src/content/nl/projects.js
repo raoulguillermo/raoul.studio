@@ -199,4 +199,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  'no-cms': {
+    shortTag: 'websites, whatsapp',
+    shortDescription:
+      'Een kant-en-klare website, bediend vanaf je telefoon — wij hosten en herbouwen hem, en jij verandert alles met een WhatsApp-bericht. No CMS, geen logins, geen dashboards.',
+    lead:
+      'Jouw website, bediend vanaf je telefoon. App ons op WhatsApp om kleuren, teksten of de hele layout te veranderen — wij herbouwen en deployen opnieuw. No CMS, geen logins, geen dashboards.',
+    tagsLine: 'Product · Managed hosting · WhatsApp · Next.js',
+    status: 'nieuw',
+    info: [
+      { label: 'Rol', value: 'Studioproduct & concept' },
+      { label: 'Model', value: 'Wij hosten & herbouwen · jij appt op WhatsApp' },
+      { label: 'Status', value: 'Nieuw — neemt klanten aan' },
+    ],
+    body: [
+      {
+        text: 'No CMS is precies wat het zegt: een website zonder adminpaneel om te leren en zonder dashboard om in te loggen. Wij ontwerpen hem, bouwen hem, hosten hem op onze eigen servers en houden hem draaiende.',
+      },
+      {
+        text: 'Wil je iets veranderd hebben — een kleur, een kop, een sectie, de hele layout — dan stuur je een WhatsApp-bericht. Wij maken de aanpassing, herbouwen de site en deployen opnieuw, meestal dezelfde dag nog. Een snelle, met de hand gebouwde site, zonder ooit code of een contentsysteem aan te raken.',
+      },
+      {
+        text: 'Gebouwd voor mensen die een scherpe website willen, niet nóg een tool om te beheren. Geen logins, geen plug-ins, geen updates om te installeren — app ons gewoon, en het is geregeld. Nieuw, en neemt nu klanten aan.',
+      },
+    ],
+  },
 }

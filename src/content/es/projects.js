@@ -198,4 +198,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  'no-cms': {
+    shortTag: 'webs, whatsapp',
+    shortDescription:
+      'Una web llave en mano, gestionada desde tu móvil: nosotros la alojamos y la reconstruimos, y tú cambias lo que quieras con un WhatsApp. Sin CMS, sin logins, sin paneles.',
+    lead:
+      'Tu web, gestionada desde tu móvil. Escríbenos por WhatsApp para cambiar colores, textos o el diseño entero: nosotros la reconstruimos y la volvemos a desplegar. Sin CMS, sin logins, sin paneles.',
+    tagsLine: 'Producto · Alojamiento gestionado · WhatsApp · Next.js',
+    status: 'nuevo',
+    info: [
+      { label: 'Rol', value: 'Producto y concepto del estudio' },
+      { label: 'Modelo', value: 'Nosotros alojamos y reconstruimos · tú escribes por WhatsApp' },
+      { label: 'Estado', value: 'Nuevo — admitiendo clientes' },
+    ],
+    body: [
+      {
+        text: 'No CMS es justo lo que parece: una web sin panel de administración que aprender y sin panel de control en el que entrar. La diseñamos, la construimos, la alojamos en nuestros propios servidores y la mantenemos en marcha.',
+      },
+      {
+        text: 'Cuando quieres cambiar algo —un color, un titular, una sección, el diseño entero— nos mandas un WhatsApp. Hacemos el cambio, reconstruimos el sitio y lo volvemos a desplegar, normalmente el mismo día. Una web rápida y hecha a mano, sin tocar nunca código ni un sistema de contenidos.',
+      },
+      {
+        text: 'Está hecha para quien quiere una web afilada, no otra herramienta que gestionar. Sin logins, sin plugins, sin actualizaciones que instalar: solo escríbenos y queda resuelto. Nueva, y admitiendo clientes ya.',
+      },
+    ],
+  },
 }

@@ -178,4 +178,103 @@ export const pages = {
     },
     posterRailMiddle: 'Process · Direction → Scale',
   },
+
+  privacy: {
+    slug: 'privacy',
+    meta: {
+      title: 'Privacy Policy — raoul.studio',
+      description:
+        'How raoul.studio handles personal data: what we collect through the contact form, why, who processes it, how long we keep it and your rights under the GDPR.',
+    },
+    eyebrow: 'Legal',
+    titleLine1: 'Privacy',
+    titleAccent: '.',
+    updated: 'Last updated — June 2026',
+    intro:
+      'This policy explains what personal data raoul.studio collects, why we collect it, and what rights you have over it. We keep data collection to the minimum needed to run the studio and reply to the people who get in touch.',
+    sections: [
+      {
+        heading: 'Who we are',
+        body: [
+          'raoul.studio is a product and engineering studio run by Raoul Guillermo, based in the EU. For anything in this policy — or to exercise your rights — reach us at hello@raoul.studio.',
+          'For the purposes of the GDPR, raoul.studio is the data controller for the personal data described here.',
+        ],
+      },
+      {
+        heading: 'What we collect',
+        body: [
+          'We only collect personal data you give us or that your browser sends when you use the site:',
+        ],
+        points: [
+          'Contact form: your name, email address, optional company name and the message you write.',
+          'Technical data: when you submit the form we store the IP address and browser user-agent of the request, to protect against spam and abuse.',
+          'Language preference: a small "lang" cookie remembers which language you chose to read the site in.',
+        ],
+      },
+      {
+        heading: 'Why we use it, and our legal basis',
+        body: [
+          'We use your contact details and message for one thing: to read and reply to your enquiry. The legal basis is our legitimate interest in responding to people who contact us, and taking steps at your request before any possible agreement.',
+          'We use the technical data (IP, user-agent) on the basis of our legitimate interest in keeping the form secure and free of spam. The language cookie is a functional cookie set on the basis of your choice.',
+        ],
+      },
+      {
+        heading: 'Cookies',
+        body: [
+          'The site uses a single functional cookie ("lang") to remember your language. We do not use advertising cookies, and we do not run third-party tracking or profiling on you.',
+        ],
+      },
+      {
+        heading: 'Who processes your data',
+        body: ['We keep the number of third parties small. The ones that may handle your data are:'],
+        points: [
+          'SendGrid (Twilio Inc.) — delivers the contact-form email to us. Your name, email and message pass through it.',
+          'Our own servers — the website is hosted on infrastructure we manage, and contact submissions are stored in our database there.',
+        ],
+      },
+      {
+        heading: 'International transfers',
+        body: [
+          'SendGrid (Twilio) is a US company, so sending a contact email may involve transferring your data outside the EU. Where that happens, it is covered by appropriate safeguards such as the European Commission’s Standard Contractual Clauses.',
+        ],
+      },
+      {
+        heading: 'How long we keep it',
+        body: [
+          'We keep contact submissions for as long as we need them to handle your enquiry and for our own records, and no longer than necessary. You can ask us to delete your data at any time.',
+        ],
+      },
+      {
+        heading: 'Your rights',
+        body: ['Under the GDPR you have the right to:'],
+        points: [
+          'access the personal data we hold about you;',
+          'have it corrected or deleted;',
+          'restrict or object to how we use it;',
+          'receive it in a portable format.',
+        ],
+      },
+      {
+        heading: 'Complaints',
+        body: [
+          'To exercise any of these rights, email hello@raoul.studio. If you believe we’ve mishandled your data, you also have the right to complain to your local data protection authority — in the Netherlands, the Autoriteit Persoonsgegevens.',
+        ],
+      },
+      {
+        heading: 'Security',
+        body: [
+          'We take reasonable technical and organisational measures to protect your data, including transport encryption and restricted access. No system is perfectly secure, but we keep the attack surface small by collecting little in the first place.',
+        ],
+      },
+      {
+        heading: 'Changes to this policy',
+        body: [
+          'We may update this policy as the studio changes. When we do, we’ll update the date at the top of this page.',
+        ],
+      },
+    ],
+    directLabel: 'Privacy questions',
+    directEmail: 'hello@raoul.studio',
+    posterRailMiddle: 'Privacy · Legal',
+  },
 }

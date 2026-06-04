@@ -32,6 +32,7 @@ export const menu = {
       links: [
         { label: 'Kontakt', href: '/contact' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },
+        { label: 'Datenschutz', href: '/privacy' },
       ],
     },
   ],
