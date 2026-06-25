@@ -292,6 +292,39 @@ export const projects = [
       },
     ],
   },
+
+  {
+    slug: 'anonimise',
+    number: 10,
+    year: '2026',
+    status: 'live',
+    titlePlain: 'Anonimise',
+    titleLine1: 'Anonimise',
+    titleLine2: '',
+    shortTag: 'privacy, offline ai',
+    shortDescription:
+      'Strip the names, BSNs and personal data out of any document — with an AI that runs entirely on your own machine and never touches the internet. Clean it here, then it’s safe to paste into ChatGPT or Claude. Built with Lexpert Advocaten.',
+    lead:
+      'Anonymise sensitive documents before they ever reach an online AI — with a tool that runs fully offline, so no client data leaves the office.',
+    tagsLine: 'Privacy · Offline AI · Presidio · spaCy · Legal-tech',
+    colors: { bg: '#D6D9DC', fg: '#0F0F0F', numeralColor: '', numeralOpacity: 0.12 },
+    info: [
+      { label: 'Role', value: 'Developer & architect' },
+      { label: 'Stack', value: 'Microsoft Presidio, offline spaCy NER, rule-based matching' },
+      { label: 'Client', value: 'In cooperation with Lexpert Advocaten' },
+    ],
+    body: [
+      {
+        text: 'Professionals want to use AI, but can’t paste client files into ChatGPT. Anonimise is the tool you run first — it scrubs names, addresses, BSNs and bank numbers out of a document, so what’s left is safe to send to an online model.',
+      },
+      {
+        text: 'It runs entirely on your own computer. The AI inside is a local name-recognition model — not a chatbot, never connected to any cloud — paired with strict rules for data that has a fixed shape, like the BSN’s 11-proef checksum and IBANs. Pull the network cable and it works exactly the same; it actively blocks itself from going online.',
+      },
+      {
+        text: 'Out comes a clean text version with names swapped for neutral placeholders, plus a properly redacted PDF or Word file with the sensitive text removed, not just blacked out. You stay in charge — review every match, add your own words to redact — and nothing ever leaves your machine. Built with Lexpert Advocaten.',
+      },
+    ],
+  },
 ]
 
 export const projectSlugs = projects.map((p) => p.slug)

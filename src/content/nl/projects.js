@@ -225,4 +225,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  anonimise: {
+    shortTag: 'privacy, offline ai',
+    shortDescription:
+      'Haal de namen, BSN’s en persoonsgegevens uit elk document — met een AI die volledig op je eigen machine draait en nooit het internet raakt. Schoon het hier op, en daarna kun je het veilig in ChatGPT of Claude plakken. Gebouwd met Lexpert Advocaten.',
+    lead:
+      'Anonimiseer gevoelige documenten voordat ze ooit bij een online AI belanden — met een tool die volledig offline draait, zodat er geen cliëntgegevens het kantoor verlaten.',
+    tagsLine: 'Privacy · Offline AI · Presidio · spaCy · Legal-tech',
+    status: 'live',
+    info: [
+      { label: 'Rol', value: 'Developer & architect' },
+      { label: 'Stack', value: 'Microsoft Presidio, offline spaCy NER, rule-based matching' },
+      { label: 'Klant', value: 'In samenwerking met Lexpert Advocaten' },
+    ],
+    body: [
+      {
+        text: 'Professionals willen AI gebruiken, maar kunnen geen cliëntdossiers in ChatGPT plakken. Anonimise is de tool die je eerst draait — het schrobt namen, adressen, BSN’s en bankrekeningnummers uit een document, zodat wat overblijft veilig naar een online model kan.',
+      },
+      {
+        text: 'Het draait volledig op je eigen computer. De AI erin is een lokaal naamherkenningsmodel — geen chatbot, nooit verbonden met een cloud — gekoppeld aan strikte regels voor data met een vaste vorm, zoals de 11-proef van het BSN en IBAN’s. Trek de netwerkkabel eruit en het werkt precies hetzelfde; het blokkeert zichzelf actief om online te gaan.',
+      },
+      {
+        text: 'Eruit komt een schone tekstversie met namen vervangen door neutrale placeholders, plus een netjes geredigeerde PDF of Word-bestand waar de gevoelige tekst écht verwijderd is, niet alleen zwartgelakt. Jij houdt de regie — controleer elke match, voeg je eigen woorden toe om te redigeren — en niets verlaat ooit je machine. Gebouwd met Lexpert Advocaten.',
+      },
+    ],
+  },
 }

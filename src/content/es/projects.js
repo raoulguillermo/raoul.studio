@@ -224,4 +224,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  anonimise: {
+    shortTag: 'privacidad, ia offline',
+    shortDescription:
+      'Borra los nombres, BSN y datos personales de cualquier documento — con una IA que corre por completo en tu propia máquina y nunca toca internet. Límpialo aquí y ya puedes pegarlo sin riesgo en ChatGPT o Claude. Construido junto a Lexpert Advocaten.',
+    lead:
+      'Anonimiza documentos sensibles antes de que lleguen siquiera a una IA online — con una herramienta que corre totalmente offline, para que ningún dato de cliente salga del despacho.',
+    tagsLine: 'Privacidad · IA offline · Presidio · spaCy · Legal-tech',
+    status: 'en producción',
+    info: [
+      { label: 'Rol', value: 'Desarrollador y arquitecto' },
+      { label: 'Stack', value: 'Microsoft Presidio, spaCy NER en local, coincidencia por reglas' },
+      { label: 'Cliente', value: 'En colaboración con Lexpert Advocaten' },
+    ],
+    body: [
+      {
+        text: 'Los profesionales quieren usar IA, pero no pueden pegar los archivos de sus clientes en ChatGPT. Anonimise es la herramienta que pasas primero: limpia nombres, direcciones, BSN (el documento de identidad neerlandés) y números de cuenta de un documento, para que lo que queda sea seguro de enviar a un modelo online.',
+      },
+      {
+        text: 'Corre por entero en tu propio ordenador. La IA que lleva dentro es un modelo local de reconocimiento de nombres —no un chatbot, jamás conectado a ninguna nube— acompañado de reglas estrictas para los datos con formato fijo, como el dígito de control 11-proef del BSN y los IBAN. Desenchufa el cable de red y funciona exactamente igual; se bloquea activamente a sí misma para no salir a internet.',
+      },
+      {
+        text: 'Sale una versión en texto limpio con los nombres sustituidos por marcadores neutros, más un PDF o un archivo Word debidamente redactado, con el texto sensible eliminado de verdad, no solo tapado en negro. Tú mandas: revisa cada coincidencia, añade tus propias palabras para redactar — y nada sale nunca de tu máquina. Construido junto a Lexpert Advocaten.',
+      },
+    ],
+  },
 }

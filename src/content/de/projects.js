@@ -225,4 +225,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  anonimise: {
+    shortTag: 'Datenschutz, Offline-AI',
+    shortDescription:
+      'Entfernen Sie Namen, BSN-Nummern und persönliche Daten aus jedem Dokument — mit einer AI, die vollständig auf Ihrem eigenen Rechner läuft und nie ins Internet geht. Hier bereinigt, dann gefahrlos in ChatGPT oder Claude eingefügt. Entwickelt mit Lexpert Advocaten.',
+    lead:
+      'Anonymisieren Sie sensible Dokumente, bevor sie überhaupt eine Online-AI erreichen — mit einem Tool, das komplett offline läuft, damit keine Mandantendaten das Büro verlassen.',
+    tagsLine: 'Datenschutz · Offline-AI · Presidio · spaCy · Legal-Tech',
+    status: 'live',
+    info: [
+      { label: 'Rolle', value: 'Entwickler & Architekt' },
+      { label: 'Stack', value: 'Microsoft Presidio, Offline-spaCy-NER, regelbasiertes Matching' },
+      { label: 'Kunde', value: 'In Zusammenarbeit mit Lexpert Advocaten' },
+    ],
+    body: [
+      {
+        text: 'Fachleute wollen AI nutzen, dürfen aber keine Mandantendateien in ChatGPT einfügen. Anonimise ist das Tool, das Sie zuerst laufen lassen — es entfernt Namen, Adressen, BSN-Nummern und Kontonummern aus einem Dokument, sodass der Rest gefahrlos an ein Online-Modell gehen kann.',
+      },
+      {
+        text: 'Es läuft komplett auf Ihrem eigenen Computer. Die AI darin ist ein lokales Namenserkennungsmodell — kein Chatbot, nie mit einer Cloud verbunden — kombiniert mit strikten Regeln für Daten mit fester Form, etwa der 11-proef-Prüfziffer der BSN und IBANs. Ziehen Sie das Netzwerkkabel, und es funktioniert genau gleich; es blockiert sich aktiv selbst daran, online zu gehen.',
+      },
+      {
+        text: 'Heraus kommt eine saubere Textfassung, in der Namen durch neutrale Platzhalter ersetzt sind, dazu eine sauber geschwärzte PDF- oder Word-Datei, aus der der sensible Text wirklich entfernt — nicht nur überdeckt — wurde. Sie behalten die Kontrolle: jeden Treffer prüfen, eigene Begriffe zum Schwärzen ergänzen — und nichts verlässt je Ihren Rechner. Entwickelt mit Lexpert Advocaten.',
+      },
+    ],
+  },
 }
