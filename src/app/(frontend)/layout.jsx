@@ -6,11 +6,19 @@ import LanguageSwitcher from '@/components/LanguageSwitcher'
 import SiteEffects from '@/components/SiteEffects'
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
+import { isRTL } from '@/content/i18n'
 import { home as enHome } from '@/content/en/home'
 
 const SITE_URL = 'https://raoul.studio'
 
-const OG_LOCALES = { en: 'en_US', de: 'de_DE', nl: 'nl_NL', es: 'es_ES' }
+const OG_LOCALES = {
+  en: 'en_US',
+  de: 'de_DE',
+  nl: 'nl_NL',
+  es: 'es_ES',
+  fr: 'fr_FR',
+  ar: 'ar_AR',
+}
 
 export async function generateMetadata() {
   const lang = await getLocale()
@@ -96,10 +104,11 @@ const jsonLd = {
 
 export default async function FrontendLayout({ children }) {
   const lang = await getLocale()
+  const rtl = isRTL(lang)
   const { menu } = getContent(lang)
 
   return (
-    <html lang={lang}>
+    <html lang={lang} dir={rtl ? 'rtl' : 'ltr'}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -107,6 +116,12 @@ export default async function FrontendLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;700;800;900&display=swap"
           rel="stylesheet"
         />
+        {rtl ? (
+          <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap"
+            rel="stylesheet"
+          />
+        ) : null}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
