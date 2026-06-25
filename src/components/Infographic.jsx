@@ -366,6 +366,58 @@ function Anonimise({ t }) {
   )
 }
 
+function Dfns({ t }) {
+  // Illustrative numbers only — not the real strategy.
+  const Row = ({ label, value, accent }) => (
+    <div className="flex items-center justify-between gap-4">
+      <span className="text-paper/55">{label}</span>
+      <span
+        className={`font-display tracking-tight2 text-base md:text-lg ${
+          accent ? 'text-accent' : 'text-paper'
+        }`}
+      >
+        {value}
+      </span>
+    </div>
+  )
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      {/* Signal card — evokes the dark live dashboard */}
+      <div className="bg-ink text-paper border-2 border-ink w-full max-w-[340px] mx-auto p-4 md:p-5">
+        <div className="flex items-center justify-between border-b border-paper/20 pb-2 mb-3">
+          <span className="font-display text-lg md:text-xl">NQ1!</span>
+          <span className="text-accent font-semibold uppercase tracking-wide text-xs md:text-sm">
+            ▲ LONG
+          </span>
+        </div>
+        <div className="space-y-1.5 text-xs md:text-sm">
+          <Row label={t.entry} value="20,412" />
+          <Row label={t.takeProfit} value="20,460" accent />
+          <Row label={t.stopLoss} value="20,388" />
+        </div>
+      </div>
+      {/* Pipeline */}
+      <Flow
+        steps={[
+          <div className="flex flex-col items-center gap-1.5">
+            <Box>{t.liveTicks}</Box>
+            <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
+              WebSocket · NQ · ES
+            </span>
+          </div>,
+          <div className="flex flex-col gap-1.5">
+            <Chip>{t.trend}</Chip>
+            <Chip>{t.momentum}</Chip>
+            <Chip>{t.volume}</Chip>
+            <Chip>{t.volatility}</Chip>
+          </div>,
+          <Box accent>{t.logged}</Box>,
+        ]}
+      />
+    </div>
+  )
+}
+
 /* ------------------------------ registry ------------------------------ */
 
 const RENDERERS = {
@@ -379,6 +431,7 @@ const RENDERERS = {
   footsteppa: Footsteppa,
   'no-cms': NoCMS,
   anonimise: Anonimise,
+  dfns: Dfns,
 }
 
 function pad2(n) {

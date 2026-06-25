@@ -250,4 +250,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  dfns: {
+    shortTag: 'fintech, temps réel',
+    shortDescription:
+      "Un tableau de bord de signaux sur les futures NQ et ES, en direct. Il diffuse les ticks de marché en temps réel via WebSocket, fait tourner un moteur de confluence multifacteur chaque seconde, et journalise chaque entrée, take-profit et stop-loss à l’instant où ils se déclenchent.",
+    lead:
+      "Un tableau de bord de trading en direct qui transforme un flux de ticks de futures en temps réel en signaux d’achat et de vente nets et journalisés — à l’écran dès qu’ils se déclenchent.",
+    tagsLine: 'Fintech · Temps réel · WebSockets · Next.js · Node.js · MongoDB',
+    status: 'en production',
+    info: [
+      { label: 'Rôle', value: 'Développement et architecture en solo' },
+      { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
+      { label: 'Statut', value: 'En production — produit maison' },
+    ],
+    body: [
+      {
+        text: "DFNS surveille les futures NQ et ES en temps réel. Un unique WebSocket persistant tire les ticks de transactions en direct, le moteur les agrège en barres à la seconde, et un contrôle de confluence multifacteur — tendance, momentum, volume et volatilité doivent tous s’aligner — décide quand un trade vaut la peine d’être appelé.",
+      },
+      {
+        text: "Chaque signal est suivi et journalisé : entrée, objectif et stop, puis le take-profit ou le stop-loss à l’instant où le prix l’atteint. Résultat : un enregistrement permanent et interrogeable de ce que le système a vu, et quand — pas des captures d’écran après coup.",
+      },
+      {
+        text: "Construit de bout en bout — un back-end Node et MongoDB alimentant un tableau de bord Next.js avec chandeliers en direct, diffusé au navigateur en server-sent events. Il observe et enregistre ; il ne passe pas d’ordres. Notre propre outil, en production.",
+      },
+    ],
+  },
 }

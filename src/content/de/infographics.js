@@ -10,4 +10,5 @@ export const infographics = {
   footsteppa: { caption: 'Unabhängige Medienmarke', followers: 'Follower', artists: 'Künstler' },
   'no-cms': { caption: 'Bearbeiten per WhatsApp', message: 'Mach die Kopfzeile rot und tausch das Hero-Foto aus', live: 'Live' },
   anonimise: { caption: 'Schwärzen ohne Internet', yourDoc: 'Dein Dokument', offline: 'offline', noInternet: 'Kein Internet', safe: 'Sicher zu teilen', dear: 'Sehr geehrte/r', livesIn: 'wohnt in', pasteInto: 'Dann sicher einfügen in' },
+  dfns: { caption: 'Futures-Signale in Echtzeit', entry: 'Entry', takeProfit: 'Take-Profit', stopLoss: 'Stop-Loss', liveTicks: 'Live-Ticks', confluence: 'Konfluenz', trend: 'Trend', momentum: 'Momentum', volume: 'Volumen', volatility: 'Volatilität', logged: 'Protokolliert + gestreamt' },
 }

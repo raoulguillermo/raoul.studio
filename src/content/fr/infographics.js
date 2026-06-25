@@ -71,4 +71,17 @@ export const infographics = {
     livesIn: 'habite à',
     pasteInto: 'Puis sûr à coller dans',
   },
+  dfns: {
+    caption: 'Signaux de futures en temps réel',
+    entry: 'Entrée',
+    takeProfit: 'Take-profit',
+    stopLoss: 'Stop-loss',
+    liveTicks: 'Ticks en direct',
+    confluence: 'Confluence',
+    trend: 'Tendance',
+    momentum: 'Momentum',
+    volume: 'Volume',
+    volatility: 'Volatilité',
+    logged: 'Journalisé + diffusé',
+  },
 }

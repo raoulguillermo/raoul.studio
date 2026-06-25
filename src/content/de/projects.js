@@ -251,4 +251,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  dfns: {
+    shortTag: 'Fintech, Echtzeit',
+    shortDescription:
+      'Ein Live-Signal-Dashboard für NQ- und ES-Futures. Es streamt Markt-Ticks in Echtzeit über WebSocket, lässt jede Sekunde eine Multi-Faktor-Konfluenzprüfung laufen und protokolliert jeden Entry, Take-Profit und Stop-Loss in dem Moment, in dem er auslöst.',
+    lead:
+      'Ein Live-Trading-Dashboard, das einen Echtzeit-Tick-Feed für Futures in saubere, protokollierte Kauf- und Verkaufssignale verwandelt — auf dem Bildschirm in dem Moment, in dem sie auslösen.',
+    tagsLine: 'Fintech · Echtzeit · WebSockets · Next.js · Node.js · MongoDB',
+    status: 'live',
+    info: [
+      { label: 'Rolle', value: 'Solo-Bau & Architektur' },
+      { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
+      { label: 'Status', value: 'Live — unser eigenes Tool' },
+    ],
+    body: [
+      {
+        text: 'DFNS beobachtet die NQ- und ES-Futures-Märkte in Echtzeit. Ein einziger dauerhafter WebSocket zieht Live-Trade-Ticks, die Engine aggregiert sie zu Bars im Sekundentakt, und eine Multi-Faktor-Konfluenzprüfung — Trend, Momentum, Volumen und Volatilität müssen alle übereinstimmen — entscheidet, wann es einen Trade gibt, der eine Ansage wert ist.',
+      },
+      {
+        text: 'Jedes Signal wird verfolgt und protokolliert: Entry, Ziel und Stop, dann der Take-Profit oder Stop-Loss in dem Moment, in dem der Kurs ihn erreicht. Heraus kommt ein dauerhafter, abfragbarer Datensatz dessen, was das System genau gesehen hat und wann — keine Screenshots im Nachhinein.',
+      },
+      {
+        text: 'Von vorne bis hinten gebaut — ein Node- und MongoDB-Backend, das ein Next.js-Dashboard mit Live-Candlesticks speist, über Server-Sent Events in den Browser gestreamt. Es beobachtet und protokolliert; es platziert keine Orders. Unser eigenes Tool, live im Einsatz.',
+      },
+    ],
+  },
 }

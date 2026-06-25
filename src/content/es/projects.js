@@ -250,4 +250,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  dfns: {
+    shortTag: 'fintech, tiempo real',
+    shortDescription:
+      'Un dashboard de señales de futuros en vivo para NQ y ES. Recibe ticks de mercado en tiempo real por WebSocket, ejecuta un motor de confluencia multifactor cada segundo y registra cada entrada, take-profit y stop-loss en el momento exacto en que salta.',
+    lead:
+      'Un dashboard de trading en vivo que convierte un flujo de ticks de futuros en tiempo real en señales de compra/venta limpias y registradas — en pantalla en el instante en que saltan.',
+    tagsLine: 'Fintech · Tiempo real · WebSockets · Next.js · Node.js · MongoDB',
+    status: 'en producción',
+    info: [
+      { label: 'Rol', value: 'Desarrollo y arquitectura en solitario' },
+      { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
+      { label: 'Estado', value: 'En producción — herramienta propia' },
+    ],
+    body: [
+      {
+        text: 'DFNS vigila los mercados de futuros NQ y ES en tiempo real. Un único WebSocket persistente trae los ticks de operaciones en vivo, el motor los agrega en barras por segundo y una comprobación de confluencia multifactor —tendencia, momentum, volumen y volatilidad tienen que alinearse— decide cuándo hay una operación que merece la pena anunciar.',
+      },
+      {
+        text: 'Cada señal se sigue y se registra: entrada, objetivo y stop, y luego el take-profit o el stop-loss en el momento en que el precio llega. El resultado es un registro permanente y consultable de exactamente lo que vio el sistema y cuándo — nada de capturas a posteriori.',
+      },
+      {
+        text: 'Construido de principio a fin — un backend en Node y MongoDB que alimenta un dashboard en Next.js con velas en vivo, transmitido al navegador por server-sent events. Vigila y registra; no manda órdenes. Herramienta propia, corriendo en vivo.',
+      },
+    ],
+  },
 }

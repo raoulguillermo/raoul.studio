@@ -325,6 +325,39 @@ export const projects = [
       },
     ],
   },
+
+  {
+    slug: 'dfns',
+    number: 11,
+    year: '2026',
+    status: 'live',
+    titlePlain: 'DFNS',
+    titleLine1: 'DFNS',
+    titleLine2: '',
+    shortTag: 'fintech, real-time',
+    shortDescription:
+      'A live futures signal dashboard for NQ and ES. It streams real-time market ticks over WebSocket, runs a multi-factor confluence engine every second, and logs every entry, take-profit and stop-loss the moment it fires.',
+    lead:
+      'A live trading dashboard that turns a real-time futures tick feed into clean, logged buy/sell signals — on screen the instant they fire.',
+    tagsLine: 'Fintech · Real-time · WebSockets · Next.js · Node.js · MongoDB',
+    colors: { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316', numeralOpacity: 0.18 },
+    info: [
+      { label: 'Role', value: 'Solo build & architecture' },
+      { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
+      { label: 'Status', value: 'Live — our own tool' },
+    ],
+    body: [
+      {
+        text: 'DFNS watches the NQ and ES futures markets in real time. A single persistent WebSocket pulls live trade ticks, the engine aggregates them into per-second bars, and a multi-factor confluence check — trend, momentum, volume and volatility all have to line up — decides when there’s a trade worth calling.',
+      },
+      {
+        text: 'Every signal is followed and logged: entry, target and stop, then the take-profit or stop-loss the moment price reaches it. The result is a permanent, queryable record of exactly what the system saw and when — not screenshots after the fact.',
+      },
+      {
+        text: 'Built end to end — a Node and MongoDB backend feeding a Next.js dashboard with live candlesticks, streamed to the browser over server-sent events. It watches and records; it does not place orders. Our own tool, running live.',
+      },
+    ],
+  },
 ]
 
 export const projectSlugs = projects.map((p) => p.slug)

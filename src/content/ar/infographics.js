@@ -10,4 +10,5 @@ export const infographics = {
   footsteppa: { caption: 'علامة إعلامية مستقلة', followers: 'المتابعون', artists: 'الفنانون' },
   'no-cms': { caption: 'التعديل عبر WhatsApp', message: 'اجعل الترويسة حمراء وغيّر صورة الغلاف', live: 'مباشر' },
   anonimise: { caption: 'مسار إخفاء البيانات دون اتصال', yourDoc: 'مستندك', offline: 'دون اتصال', noInternet: 'لا إنترنت', safe: 'آمن للمشاركة', dear: 'عزيزي', livesIn: 'يقيم في', pasteInto: 'ثم آمن للصق في' },
+  dfns: { caption: 'إشارات العقود الآجلة في الوقت الفعلي', entry: 'الدخول', takeProfit: 'جني الأرباح', stopLoss: 'وقف الخسارة', liveTicks: 'نبضات مباشرة', confluence: 'التوافق', trend: 'الاتجاه', momentum: 'الزخم', volume: 'الحجم', volatility: 'التقلّب', logged: 'مسجَّل ومبثوث' },
 }

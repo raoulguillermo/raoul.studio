@@ -251,4 +251,30 @@ export const projectOverrides = {
       },
     ],
   },
+
+  dfns: {
+    shortTag: 'fintech, realtime',
+    shortDescription:
+      'Een live signalendashboard voor NQ- en ES-futures. Het streamt realtime marktticks over WebSocket, draait elke seconde een multifactor-confluence-engine, en logt elke entry, take-profit en stop-loss op het moment dat-ie afgaat.',
+    lead:
+      'Een live tradingdashboard dat een realtime futures-tickfeed omzet in schone, gelogde koop- en verkoopsignalen — op het scherm zodra ze afgaan.',
+    tagsLine: 'Fintech · Realtime · WebSockets · Next.js · Node.js · MongoDB',
+    status: 'live',
+    info: [
+      { label: 'Rol', value: 'Solo-bouw & architectuur' },
+      { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
+      { label: 'Status', value: 'Live — ons eigen product' },
+    ],
+    body: [
+      {
+        text: 'DFNS volgt de NQ- en ES-futuresmarkten in realtime. Eén persistente WebSocket trekt live trade-ticks binnen, de engine aggregeert ze tot bars per seconde, en een multifactor-confluence-check — trend, momentum, volume en volatiliteit moeten allemaal op één lijn liggen — bepaalt wanneer er een trade is die het waard is om te callen.',
+      },
+      {
+        text: 'Elk signaal wordt gevolgd en gelogd: entry, target en stop, en daarna de take-profit of stop-loss op het moment dat de prijs hem raakt. Het resultaat is een permanent, doorzoekbaar verslag van precies wat het systeem zag en wanneer — geen screenshots achteraf.',
+      },
+      {
+        text: 'End to end gebouwd — een backend op Node en MongoDB die een Next.js-dashboard voedt met live candlesticks, naar de browser gestreamd over server-sent events. Het kijkt en registreert; het plaatst geen orders. Ons eigen product, live in gebruik.',
+      },
+    ],
+  },
 }
