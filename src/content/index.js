@@ -9,11 +9,13 @@ import * as en from './en'
 import * as de from './de'
 import * as nl from './nl'
 import * as es from './es'
+import * as fr from './fr'
+import * as ar from './ar'
 
 import { projects as baseProjects } from './en/projects'
 import { DEFAULT_LOCALE } from './i18n'
 
-const DICTS = { en, de, nl, es }
+const DICTS = { en, de, nl, es, fr, ar }
 
 const PROJECT_SLUGS = baseProjects.map((p) => p.slug)
 
