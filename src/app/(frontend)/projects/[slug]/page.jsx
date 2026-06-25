@@ -30,9 +30,8 @@ export async function generateMetadata({ params }) {
 
 export default async function ProjectPage({ params }) {
   const { slug } = await params
-  const { projects, getProject, header, footer, posterRail, ui } = getContent(
-    await getLocale(),
-  )
+  const { projects, getProject, header, footer, posterRail, ui, infographics } =
+    getContent(await getLocale())
   const project = getProject(slug)
   if (!project) notFound()
 
@@ -92,7 +91,11 @@ export default async function ProjectPage({ params }) {
       </section>
 
       {/* Infographic */}
-      <Infographic slug={project.slug} number={project.number} />
+      <Infographic
+        slug={project.slug}
+        number={project.number}
+        strings={infographics}
+      />
 
       {/* Body */}
       <section className="pb-24 md:pb-40">

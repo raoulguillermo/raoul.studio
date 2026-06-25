@@ -46,6 +46,7 @@ export function getContent(lang) {
     footer: pick('footer'),
     pages: pick('pages'),
     contact: pick('contact'),
+    infographics: pick('infographics'),
     projects,
     projectSlugs: PROJECT_SLUGS,
     getProject: (slug) => projects.find((p) => p.slug === slug),

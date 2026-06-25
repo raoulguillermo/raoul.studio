@@ -3,6 +3,10 @@ import React from 'react'
 // Flat, bold, monochrome infographics — one per project.
 // Each is a small "figure" that visually states what the project is.
 // Palette: ink #0F0F0F, paper #D6D9DC, mute #65696C, accent #E92316.
+//
+// All prose comes in via `strings` (the localized `infographics` dict); brand
+// and tech tokens (Next.js, Stripe, GraphQL, SLA, [NAME_1]…) stay literal here.
+// Flow arrows flip in RTL so the sequence still reads in the page's direction.
 
 /* ----------------------------- primitives ----------------------------- */
 
@@ -47,19 +51,25 @@ function Chip({ children, accent }) {
   )
 }
 
-// Horizontal on desktop, vertical on mobile, with accent arrows between steps.
+// Accent arrow that points down on mobile and along the reading direction on
+// desktop (→ in LTR, flipped to ← in RTL via the rtl: variant).
+function Arrow() {
+  return (
+    <div className="flex items-center justify-center text-accent font-display leading-none text-2xl md:text-3xl select-none">
+      <span className="md:hidden">↓</span>
+      <span className="hidden md:inline rtl:rotate-180">→</span>
+    </div>
+  )
+}
+
+// Horizontal on desktop (reverses naturally in RTL), vertical on mobile.
 function Flow({ steps }) {
   return (
     <div className="flex flex-col md:flex-row items-stretch md:items-center justify-center gap-3 md:gap-5">
       {steps.map((s, i) => (
         <React.Fragment key={i}>
           <div className="flex-1 flex items-center justify-center">{s}</div>
-          {i < steps.length - 1 ? (
-            <div className="flex items-center justify-center text-accent font-display leading-none text-2xl md:text-3xl select-none">
-              <span className="md:hidden">↓</span>
-              <span className="hidden md:inline">→</span>
-            </div>
-          ) : null}
+          {i < steps.length - 1 ? <Arrow /> : null}
         </React.Fragment>
       ))}
     </div>
@@ -68,12 +78,12 @@ function Flow({ steps }) {
 
 /* ----------------------------- per-project ---------------------------- */
 
-function OutdoorXL() {
+function OutdoorXL({ t }) {
   return (
     <div className="flex flex-col gap-8 md:gap-10">
       <div className="grid grid-cols-2 gap-6">
-        <Stat value="200K+" label="Products" accent />
-        <Stat value="14+" label="Markets · languages" />
+        <Stat value="200K+" label={t.products} accent />
+        <Stat value="14+" label={t.markets} />
       </div>
       <Flow
         steps={[
@@ -86,47 +96,47 @@ function OutdoorXL() {
   )
 }
 
-function AboutSpace() {
+function AboutSpace({ t }) {
   return (
     <div className="flex flex-col gap-8 md:gap-10">
       <div className="flex items-center justify-center gap-3 md:gap-5">
-        <Box>Host</Box>
+        <Box>{t.host}</Box>
         <span className="text-accent font-display text-2xl md:text-3xl leading-none">⇄</span>
         <Box accent>AboutSpace</Box>
         <span className="text-accent font-display text-2xl md:text-3xl leading-none">⇄</span>
-        <Box>Guest</Box>
+        <Box>{t.guest}</Box>
       </div>
       <Flow
         steps={[
-          <Box>List</Box>,
-          <Box>Book</Box>,
-          <Box accent>Pay · Stripe</Box>,
+          <Box>{t.list}</Box>,
+          <Box>{t.book}</Box>,
+          <Box accent>{t.pay} · Stripe</Box>,
         ]}
       />
     </div>
   )
 }
 
-function Threadly() {
+function Threadly({ t }) {
   return (
     <Flow
       steps={[
         <div className="flex flex-col gap-2">
-          <Box>Email</Box>
-          <Box>Chat</Box>
-          <Box>Form</Box>
+          <Box>{t.email}</Box>
+          <Box>{t.chat}</Box>
+          <Box>{t.form}</Box>
         </div>,
-        <Box accent>Shared inbox</Box>,
+        <Box accent>{t.inbox}</Box>,
         <div className="flex flex-col items-center gap-2">
-          <Box>SLA timer</Box>
+          <Box>{t.sla}</Box>
         </div>,
-        <Box>Resolved ✓</Box>,
+        <Box>{t.resolved} ✓</Box>,
       ]}
     />
   )
 }
 
-function Lexpert() {
+function Lexpert({ t }) {
   return (
     <div className="flex flex-col gap-6 md:gap-8">
       <div className="border-2 border-ink">
@@ -134,15 +144,15 @@ function Lexpert() {
           <span className="w-2.5 h-2.5 rounded-full bg-ink/30" />
           <span className="w-2.5 h-2.5 rounded-full bg-ink/30" />
           <span className="w-2.5 h-2.5 rounded-full bg-accent" />
-          <span className="ml-auto text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
+          <span className="ms-auto text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
             Lexpert CRM
           </span>
         </div>
         <div className="grid grid-cols-3">
-          <div className="col-span-1 border-r-2 border-ink p-3 md:p-4 space-y-2 text-[11px] md:text-xs font-semibold uppercase tracking-wide">
-            <div className="text-accent">Clients</div>
-            <div className="text-mute">Invoicing</div>
-            <div className="text-mute">Metrics</div>
+          <div className="col-span-1 border-e-2 border-ink p-3 md:p-4 space-y-2 text-[11px] md:text-xs font-semibold uppercase tracking-wide">
+            <div className="text-accent">{t.clients}</div>
+            <div className="text-mute">{t.invoicing}</div>
+            <div className="text-mute">{t.metrics}</div>
           </div>
           <div className="col-span-2 p-3 md:p-4 flex items-end gap-2 md:gap-3 h-24 md:h-28">
             <span className="flex-1 bg-ink/15" style={{ height: '40%' }} />
@@ -154,40 +164,40 @@ function Lexpert() {
         </div>
       </div>
       <div className="flex flex-wrap items-center gap-2">
-        <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute mr-1">
-          Role access
+        <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute me-1">
+          {t.roleAccess}
         </span>
-        <Chip accent>Admin</Chip>
-        <Chip>Lawyer</Chip>
-        <Chip>Staff</Chip>
+        <Chip accent>{t.admin}</Chip>
+        <Chip>{t.lawyer}</Chip>
+        <Chip>{t.staff}</Chip>
       </div>
     </div>
   )
 }
 
-function FndRacer() {
+function FndRacer({ t }) {
   return (
     <div className="flex flex-col gap-8 md:gap-10">
       <Flow
         steps={[
-          <Box>Scrape sources</Box>,
-          <Box>Match business</Box>,
-          <Box accent>Draft application</Box>,
+          <Box>{t.scrape}</Box>,
+          <Box>{t.match}</Box>,
+          <Box accent>{t.draft}</Box>,
         ]}
       />
       <div className="flex justify-center">
-        <Stat value="~5 MIN" label="Blank page → first draft" accent />
+        <Stat value="~5 MIN" label={t.fromBlank} accent />
       </div>
     </div>
   )
 }
 
-function SmartDossier() {
+function SmartDossier({ t }) {
   const tile = (cls) => <span className={`block w-7 h-9 md:w-9 md:h-11 border-2 ${cls}`} />
   return (
     <div className="flex flex-col gap-6 md:gap-8">
       <div className="flex justify-center">
-        <Chip accent>⌕ Search inside documents</Chip>
+        <Chip accent>⌕ {t.searchPill}</Chip>
       </div>
       <Flow
         steps={[
@@ -209,15 +219,15 @@ function SmartDossier() {
         ]}
       />
       <div className="flex justify-center gap-6 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
-        <span>Messy set</span>
-        <span className="text-accent">→</span>
-        <span className="text-ink">Structured</span>
+        <span>{t.messy}</span>
+        <span className="text-accent rtl:rotate-180">→</span>
+        <span className="text-ink">{t.structured}</span>
       </div>
     </div>
   )
 }
 
-function AboutDesk() {
+function AboutDesk({ t }) {
   const Room = ({ booked }) => (
     <div className="border-2 border-ink p-3">
       <div className="grid grid-cols-3 gap-2">
@@ -225,9 +235,7 @@ function AboutDesk() {
           <span
             key={i}
             className={`block w-6 h-6 md:w-8 md:h-8 ${
-              booked.includes(i)
-                ? 'bg-accent'
-                : 'border-2 border-ink/40'
+              booked.includes(i) ? 'bg-accent' : 'border-2 border-ink/40'
             }`}
           />
         ))}
@@ -242,17 +250,17 @@ function AboutDesk() {
       </div>
       <div className="flex justify-center gap-6 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
         <span className="flex items-center gap-2">
-          <span className="w-3 h-3 bg-accent" /> Team booked
+          <span className="w-3 h-3 bg-accent" /> {t.booked}
         </span>
         <span className="flex items-center gap-2">
-          <span className="w-3 h-3 border-2 border-ink/40" /> Free
+          <span className="w-3 h-3 border-2 border-ink/40" /> {t.free}
         </span>
       </div>
     </div>
   )
 }
 
-function Footsteppa() {
+function Footsteppa({ t }) {
   const bars = [40, 70, 55, 90, 60, 80, 45, 75, 50]
   return (
     <div className="flex flex-col gap-8 md:gap-10">
@@ -266,20 +274,20 @@ function Footsteppa() {
         ))}
       </div>
       <div className="grid grid-cols-2 gap-6">
-        <Stat value="6,000+" label="Followers" accent />
-        <Stat value="5" label="Artists" />
+        <Stat value="6,000+" label={t.followers} accent />
+        <Stat value="5" label={t.artists} />
       </div>
     </div>
   )
 }
 
-function NoCMS() {
+function NoCMS({ t }) {
   return (
     <Flow
       steps={[
         <div className="max-w-[220px]">
           <div className="relative bg-ink text-paper px-4 py-3 text-[11px] md:text-sm font-medium leading-snug rounded-2xl rounded-bl-sm">
-            “Make the header red and swap the hero photo”
+            “{t.message}”
           </div>
           <div className="mt-2 text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
             WhatsApp
@@ -293,7 +301,7 @@ function NoCMS() {
             <span className="block h-3 bg-ink/20 w-1/2" />
           </div>
           <div className="px-3 pb-2 text-[10px] font-semibold uppercase tracking-[.18em] text-accent">
-            Live ✓
+            {t.live} ✓
           </div>
         </div>,
       ]}
@@ -301,7 +309,7 @@ function NoCMS() {
   )
 }
 
-function Anonimise() {
+function Anonimise({ t }) {
   const txt = (s) => <span className="text-[11px] md:text-sm text-ink/70">{s}</span>
   const bar = (w) => (
     <span className="inline-block align-middle h-3 md:h-4 bg-ink" style={{ width: w }} />
@@ -320,36 +328,36 @@ function Anonimise() {
         steps={[
           <div className="border-2 border-ink p-4 w-full max-w-[260px] space-y-2">
             <div className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute mb-1">
-              Your document
+              {t.yourDoc}
             </div>
-            <Line>{txt('Dear')} {bar('60px')}{txt(',')}</Line>
+            <Line>{txt(t.dear)} {bar('60px')}{txt('،')}</Line>
             <Line>{txt('BSN')} {bar('78px')}</Line>
-            <Line>{bar('40px')} {txt('lives in')} {bar('54px')}</Line>
+            <Line>{bar('40px')} {txt(t.livesIn)} {bar('54px')}</Line>
             <Line>{txt('IBAN')} {bar('104px')}</Line>
           </div>,
           <div className="flex flex-col items-center gap-2">
             <Box accent>
               Anonimise
               <br />
-              offline
+              {t.offline}
             </Box>
             <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
-              No internet
+              {t.noInternet}
             </span>
           </div>,
           <div className="border-2 border-ink p-4 w-full max-w-[260px] space-y-2">
             <div className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute mb-1">
-              Safe to share
+              {t.safe}
             </div>
-            <Line>{txt('Dear')} {tok('[NAME_1]')}{txt(',')}</Line>
+            <Line>{txt(t.dear)} {tok('[NAME_1]')}{txt('،')}</Line>
             <Line>{txt('BSN')} {tok('[BSN_1]')}</Line>
-            <Line>{tok('[NAME_1]')} {txt('lives in')} {tok('[CITY_1]')}</Line>
+            <Line>{tok('[NAME_1]')} {txt(t.livesIn)} {tok('[CITY_1]')}</Line>
             <Line>{txt('IBAN')} {tok('[IBAN_1]')}</Line>
           </div>,
         ]}
       />
       <div className="flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
-        <span>Then safe to paste into</span>
+        <span>{t.pasteInto}</span>
         <span className="text-ink">ChatGPT</span>
         <span className="text-accent">·</span>
         <span className="text-ink">Claude</span>
@@ -360,37 +368,37 @@ function Anonimise() {
 
 /* ------------------------------ registry ------------------------------ */
 
-const MAP = {
-  outdoorxl: { caption: 'Headless rebuild at scale', render: OutdoorXL },
-  aboutspace: { caption: 'Two-sided marketplace', render: AboutSpace },
-  threadly: { caption: 'Support, one shared inbox', render: Threadly },
-  lexpert: { caption: 'Bespoke legal CRM', render: Lexpert },
-  fndracer: { caption: 'AI funding pipeline', render: FndRacer },
-  'smart-dossier': { caption: 'Search inside documents', render: SmartDossier },
-  aboutdesk: { caption: 'Team desk booking', render: AboutDesk },
-  footsteppa: { caption: 'Independent media brand', render: Footsteppa },
-  'no-cms': { caption: 'Edit by WhatsApp', render: NoCMS },
-  anonimise: { caption: 'Offline redaction flow', render: Anonimise },
+const RENDERERS = {
+  outdoorxl: OutdoorXL,
+  aboutspace: AboutSpace,
+  threadly: Threadly,
+  lexpert: Lexpert,
+  fndracer: FndRacer,
+  'smart-dossier': SmartDossier,
+  aboutdesk: AboutDesk,
+  footsteppa: Footsteppa,
+  'no-cms': NoCMS,
+  anonimise: Anonimise,
 }
 
 function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
-export default function Infographic({ slug, number }) {
-  const entry = MAP[slug]
-  if (!entry) return null
-  const Render = entry.render
+export default function Infographic({ slug, number, strings }) {
+  const Render = RENDERERS[slug]
+  const t = strings?.[slug]
+  if (!Render || !t) return null
 
   return (
     <section className="pb-16 md:pb-24">
       <figure className="r border-2 border-ink">
         <div className="px-5 py-10 md:px-12 md:py-16">
-          <Render />
+          <Render t={t} />
         </div>
         <figcaption className="flex items-center justify-between border-t-2 border-ink px-5 py-3 md:px-12 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
           <span>Fig. {pad2(number)}</span>
-          <span>{entry.caption}</span>
+          <span>{t.caption}</span>
         </figcaption>
       </figure>
     </section>
