@@ -1,0 +1,58 @@
+{
+  "slug": "2026-06-25-welcome",
+  "date": "2026-06-25",
+  "tags": ["studio", "ai"],
+  "sources": [
+    { "title": "raoul.studio", "url": "https://raoul.studio" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Welcome to the Journal",
+      "summary": "A daily, automated note on what moved in AI and technology.",
+      "body": [
+        "This is the first entry in a daily journal that tracks what actually shifted in AI and technology over the previous day — written short, with the sources it was found in.",
+        "Each morning an agent reads the news, picks one story worth your two minutes, and writes it up. No hype, no filler — just the thing that happened and why it matters."
+      ]
+    },
+    "de": {
+      "title": "Willkommen im Journal",
+      "summary": "Eine tägliche, automatisierte Notiz darüber, was sich in KI und Technologie bewegt hat.",
+      "body": [
+        "Dies ist der erste Eintrag eines täglichen Journals, das festhält, was sich am Vortag in KI und Technologie wirklich verändert hat — kurz geschrieben, mit den Quellen, in denen es gefunden wurde.",
+        "Jeden Morgen liest ein Agent die Nachrichten, wählt eine Geschichte aus, die Ihre zwei Minuten wert ist, und fasst sie zusammen. Kein Hype, kein Füllmaterial."
+      ]
+    },
+    "nl": {
+      "title": "Welkom bij het Journal",
+      "summary": "Een dagelijkse, geautomatiseerde notitie over wat er speelde in AI en technologie.",
+      "body": [
+        "Dit is de eerste vermelding in een dagelijks journaal dat bijhoudt wat er de vorige dag echt veranderde in AI en technologie — kort geschreven, met de bronnen waarin het werd gevonden.",
+        "Elke ochtend leest een agent het nieuws, kiest één verhaal dat je twee minuten waard is, en schrijft het uit. Geen hype, geen opvulling."
+      ]
+    },
+    "es": {
+      "title": "Bienvenido al Diario",
+      "summary": "Una nota diaria y automatizada sobre lo que se movió en IA y tecnología.",
+      "body": [
+        "Esta es la primera entrada de un diario que registra lo que realmente cambió el día anterior en IA y tecnología — escrito breve, con las fuentes donde se encontró.",
+        "Cada mañana un agente lee las noticias, elige una historia que merece tus dos minutos y la redacta. Sin exageraciones, sin relleno."
+      ]
+    },
+    "fr": {
+      "title": "Bienvenue dans le Journal",
+      "summary": "Une note quotidienne et automatisée sur ce qui a bougé dans l’IA et la technologie.",
+      "body": [
+        "Ceci est la première entrée d’un journal quotidien qui suit ce qui a réellement changé la veille dans l’IA et la technologie — écrit court, avec les sources où cela a été trouvé.",
+        "Chaque matin, un agent lit l’actualité, choisit une histoire qui vaut vos deux minutes et la rédige. Sans battage, sans remplissage."
+      ]
+    },
+    "ar": {
+      "title": "مرحبًا بك في المدوّنة",
+      "summary": "ملاحظة يومية مؤتمتة حول ما تحرّك في الذكاء الاصطناعي والتقنية.",
+      "body": [
+        "هذه أول مقالة في مدوّنة يومية تتابع ما تغيّر فعليًا في اليوم السابق في الذكاء الاصطناعي والتقنية — مكتوبة باختصار، مع المصادر التي وُجدت فيها.",
+        "كل صباح يقرأ وكيل الأخبار، يختار قصة واحدة تستحق دقيقتين من وقتك، ويكتبها. دون مبالغة ودون حشو."
+      ]
+    }
+  }
+}

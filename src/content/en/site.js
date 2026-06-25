@@ -15,6 +15,7 @@ export const menu = {
       links: [
         { label: 'About', href: '/about' },
         { label: 'Process', href: '/process' },
+        { label: 'Journal', href: '/blog' },
       ],
     },
     {

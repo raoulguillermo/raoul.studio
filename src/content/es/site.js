@@ -15,6 +15,7 @@ export const menu = {
       links: [
         { label: 'Nosotros', href: '/about' },
         { label: 'Proceso', href: '/process' },
+        { label: 'Diario', href: '/blog' },
       ],
     },
     {

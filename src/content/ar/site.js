@@ -15,6 +15,7 @@ export const menu = {
       links: [
         { label: 'من نحن', href: '/about' },
         { label: 'منهجيتنا', href: '/process' },
+        { label: 'المدوّنة', href: '/blog' },
       ],
     },
     {
