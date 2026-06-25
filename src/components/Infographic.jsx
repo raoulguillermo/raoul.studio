@@ -1,0 +1,398 @@
+import React from 'react'
+
+// Flat, bold, monochrome infographics — one per project.
+// Each is a small "figure" that visually states what the project is.
+// Palette: ink #0F0F0F, paper #D6D9DC, mute #65696C, accent #E92316.
+
+/* ----------------------------- primitives ----------------------------- */
+
+function Box({ children, accent }) {
+  return (
+    <div
+      className={`inline-flex items-center justify-center text-center px-3 py-2 md:px-4 md:py-3 border-2 font-semibold uppercase tracking-wide text-[11px] md:text-sm leading-tight ${
+        accent ? 'border-accent text-accent' : 'border-ink text-ink'
+      }`}
+    >
+      {children}
+    </div>
+  )
+}
+
+function Stat({ value, label, accent }) {
+  return (
+    <div>
+      <div
+        className={`font-display leading-[0.85] text-4xl md:text-6xl tracking-tight2 ${
+          accent ? 'text-accent' : 'text-ink'
+        }`}
+      >
+        {value}
+      </div>
+      <div className="mt-2 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
+        {label}
+      </div>
+    </div>
+  )
+}
+
+function Chip({ children, accent }) {
+  return (
+    <span
+      className={`inline-block px-2.5 py-1 border text-[10px] md:text-[11px] font-semibold uppercase tracking-[.14em] ${
+        accent ? 'border-accent text-accent' : 'border-ink/40 text-mute'
+      }`}
+    >
+      {children}
+    </span>
+  )
+}
+
+// Horizontal on desktop, vertical on mobile, with accent arrows between steps.
+function Flow({ steps }) {
+  return (
+    <div className="flex flex-col md:flex-row items-stretch md:items-center justify-center gap-3 md:gap-5">
+      {steps.map((s, i) => (
+        <React.Fragment key={i}>
+          <div className="flex-1 flex items-center justify-center">{s}</div>
+          {i < steps.length - 1 ? (
+            <div className="flex items-center justify-center text-accent font-display leading-none text-2xl md:text-3xl select-none">
+              <span className="md:hidden">↓</span>
+              <span className="hidden md:inline">→</span>
+            </div>
+          ) : null}
+        </React.Fragment>
+      ))}
+    </div>
+  )
+}
+
+/* ----------------------------- per-project ---------------------------- */
+
+function OutdoorXL() {
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      <div className="grid grid-cols-2 gap-6">
+        <Stat value="200K+" label="Products" accent />
+        <Stat value="14+" label="Markets · languages" />
+      </div>
+      <Flow
+        steps={[
+          <Box>Magento 2</Box>,
+          <Box accent>GraphQL · REST</Box>,
+          <Box>Next.js</Box>,
+        ]}
+      />
+    </div>
+  )
+}
+
+function AboutSpace() {
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      <div className="flex items-center justify-center gap-3 md:gap-5">
+        <Box>Host</Box>
+        <span className="text-accent font-display text-2xl md:text-3xl leading-none">⇄</span>
+        <Box accent>AboutSpace</Box>
+        <span className="text-accent font-display text-2xl md:text-3xl leading-none">⇄</span>
+        <Box>Guest</Box>
+      </div>
+      <Flow
+        steps={[
+          <Box>List</Box>,
+          <Box>Book</Box>,
+          <Box accent>Pay · Stripe</Box>,
+        ]}
+      />
+    </div>
+  )
+}
+
+function Threadly() {
+  return (
+    <Flow
+      steps={[
+        <div className="flex flex-col gap-2">
+          <Box>Email</Box>
+          <Box>Chat</Box>
+          <Box>Form</Box>
+        </div>,
+        <Box accent>Shared inbox</Box>,
+        <div className="flex flex-col items-center gap-2">
+          <Box>SLA timer</Box>
+        </div>,
+        <Box>Resolved ✓</Box>,
+      ]}
+    />
+  )
+}
+
+function Lexpert() {
+  return (
+    <div className="flex flex-col gap-6 md:gap-8">
+      <div className="border-2 border-ink">
+        <div className="flex items-center gap-2 border-b-2 border-ink px-3 py-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-ink/30" />
+          <span className="w-2.5 h-2.5 rounded-full bg-ink/30" />
+          <span className="w-2.5 h-2.5 rounded-full bg-accent" />
+          <span className="ml-auto text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
+            Lexpert CRM
+          </span>
+        </div>
+        <div className="grid grid-cols-3">
+          <div className="col-span-1 border-r-2 border-ink p-3 md:p-4 space-y-2 text-[11px] md:text-xs font-semibold uppercase tracking-wide">
+            <div className="text-accent">Clients</div>
+            <div className="text-mute">Invoicing</div>
+            <div className="text-mute">Metrics</div>
+          </div>
+          <div className="col-span-2 p-3 md:p-4 flex items-end gap-2 md:gap-3 h-24 md:h-28">
+            <span className="flex-1 bg-ink/15" style={{ height: '40%' }} />
+            <span className="flex-1 bg-ink/25" style={{ height: '65%' }} />
+            <span className="flex-1 bg-accent" style={{ height: '100%' }} />
+            <span className="flex-1 bg-ink/25" style={{ height: '55%' }} />
+            <span className="flex-1 bg-ink/15" style={{ height: '75%' }} />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute mr-1">
+          Role access
+        </span>
+        <Chip accent>Admin</Chip>
+        <Chip>Lawyer</Chip>
+        <Chip>Staff</Chip>
+      </div>
+    </div>
+  )
+}
+
+function FndRacer() {
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      <Flow
+        steps={[
+          <Box>Scrape sources</Box>,
+          <Box>Match business</Box>,
+          <Box accent>Draft application</Box>,
+        ]}
+      />
+      <div className="flex justify-center">
+        <Stat value="~5 MIN" label="Blank page → first draft" accent />
+      </div>
+    </div>
+  )
+}
+
+function SmartDossier() {
+  const tile = (cls) => <span className={`block w-7 h-9 md:w-9 md:h-11 border-2 ${cls}`} />
+  return (
+    <div className="flex flex-col gap-6 md:gap-8">
+      <div className="flex justify-center">
+        <Chip accent>⌕ Search inside documents</Chip>
+      </div>
+      <Flow
+        steps={[
+          <div className="flex flex-wrap gap-2 max-w-[180px] justify-center">
+            <span className="block w-7 h-9 md:w-9 md:h-11 border-2 border-ink/40 rotate-6" />
+            <span className="block w-7 h-9 md:w-9 md:h-11 border-2 border-ink/40 -rotate-3" />
+            <span className="block w-7 h-9 md:w-9 md:h-11 border-2 border-ink/40 rotate-12" />
+            <span className="block w-7 h-9 md:w-9 md:h-11 border-2 border-ink/40 -rotate-6" />
+            <span className="block w-7 h-9 md:w-9 md:h-11 border-2 border-ink/40 rotate-3" />
+          </div>,
+          <div className="grid grid-cols-3 gap-2">
+            {tile('border-ink')}
+            {tile('border-ink')}
+            {tile('border-accent')}
+            {tile('border-ink')}
+            {tile('border-ink')}
+            {tile('border-ink')}
+          </div>,
+        ]}
+      />
+      <div className="flex justify-center gap-6 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
+        <span>Messy set</span>
+        <span className="text-accent">→</span>
+        <span className="text-ink">Structured</span>
+      </div>
+    </div>
+  )
+}
+
+function AboutDesk() {
+  const Room = ({ booked }) => (
+    <div className="border-2 border-ink p-3">
+      <div className="grid grid-cols-3 gap-2">
+        {Array.from({ length: 6 }).map((_, i) => (
+          <span
+            key={i}
+            className={`block w-6 h-6 md:w-8 md:h-8 ${
+              booked.includes(i)
+                ? 'bg-accent'
+                : 'border-2 border-ink/40'
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  )
+  return (
+    <div className="flex flex-col gap-5 md:gap-6">
+      <div className="flex flex-wrap justify-center gap-5 md:gap-8">
+        <Room booked={[0, 1, 3]} />
+        <Room booked={[2, 4, 5]} />
+      </div>
+      <div className="flex justify-center gap-6 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
+        <span className="flex items-center gap-2">
+          <span className="w-3 h-3 bg-accent" /> Team booked
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="w-3 h-3 border-2 border-ink/40" /> Free
+        </span>
+      </div>
+    </div>
+  )
+}
+
+function Footsteppa() {
+  const bars = [40, 70, 55, 90, 60, 80, 45, 75, 50]
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      <div className="flex items-end justify-center gap-2 md:gap-3 h-24 md:h-32">
+        {bars.map((h, i) => (
+          <span
+            key={i}
+            className={i === 3 ? 'w-3 md:w-5 bg-accent' : 'w-3 md:w-5 bg-ink'}
+            style={{ height: `${h}%` }}
+          />
+        ))}
+      </div>
+      <div className="grid grid-cols-2 gap-6">
+        <Stat value="6,000+" label="Followers" accent />
+        <Stat value="5" label="Artists" />
+      </div>
+    </div>
+  )
+}
+
+function NoCMS() {
+  return (
+    <Flow
+      steps={[
+        <div className="max-w-[220px]">
+          <div className="relative bg-ink text-paper px-4 py-3 text-[11px] md:text-sm font-medium leading-snug rounded-2xl rounded-bl-sm">
+            “Make the header red and swap the hero photo”
+          </div>
+          <div className="mt-2 text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
+            WhatsApp
+          </div>
+        </div>,
+        <div className="border-2 border-ink w-44 md:w-56">
+          <div className="h-5 md:h-6 bg-accent border-b-2 border-ink" />
+          <div className="p-3 space-y-2">
+            <span className="block h-3 bg-ink/20 w-3/4" />
+            <span className="block h-3 bg-ink/20 w-full" />
+            <span className="block h-3 bg-ink/20 w-1/2" />
+          </div>
+          <div className="px-3 pb-2 text-[10px] font-semibold uppercase tracking-[.18em] text-accent">
+            Live ✓
+          </div>
+        </div>,
+      ]}
+    />
+  )
+}
+
+function Anonimise() {
+  const txt = (s) => <span className="text-[11px] md:text-sm text-ink/70">{s}</span>
+  const bar = (w) => (
+    <span className="inline-block align-middle h-3 md:h-4 bg-ink" style={{ width: w }} />
+  )
+  const tok = (s) => (
+    <span className="text-[10px] md:text-xs font-semibold text-accent border border-accent px-1 align-middle">
+      {s}
+    </span>
+  )
+  const Line = ({ children }) => (
+    <div className="flex flex-wrap items-center gap-1.5">{children}</div>
+  )
+  return (
+    <div className="flex flex-col gap-6 md:gap-8">
+      <Flow
+        steps={[
+          <div className="border-2 border-ink p-4 w-full max-w-[260px] space-y-2">
+            <div className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute mb-1">
+              Your document
+            </div>
+            <Line>{txt('Dear')} {bar('60px')}{txt(',')}</Line>
+            <Line>{txt('BSN')} {bar('78px')}</Line>
+            <Line>{bar('40px')} {txt('lives in')} {bar('54px')}</Line>
+            <Line>{txt('IBAN')} {bar('104px')}</Line>
+          </div>,
+          <div className="flex flex-col items-center gap-2">
+            <Box accent>
+              Anonimise
+              <br />
+              offline
+            </Box>
+            <span className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
+              No internet
+            </span>
+          </div>,
+          <div className="border-2 border-ink p-4 w-full max-w-[260px] space-y-2">
+            <div className="text-[10px] font-semibold uppercase tracking-[.18em] text-mute mb-1">
+              Safe to share
+            </div>
+            <Line>{txt('Dear')} {tok('[NAME_1]')}{txt(',')}</Line>
+            <Line>{txt('BSN')} {tok('[BSN_1]')}</Line>
+            <Line>{tok('[NAME_1]')} {txt('lives in')} {tok('[CITY_1]')}</Line>
+            <Line>{txt('IBAN')} {tok('[IBAN_1]')}</Line>
+          </div>,
+        ]}
+      />
+      <div className="flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
+        <span>Then safe to paste into</span>
+        <span className="text-ink">ChatGPT</span>
+        <span className="text-accent">·</span>
+        <span className="text-ink">Claude</span>
+      </div>
+    </div>
+  )
+}
+
+/* ------------------------------ registry ------------------------------ */
+
+const MAP = {
+  outdoorxl: { caption: 'Headless rebuild at scale', render: OutdoorXL },
+  aboutspace: { caption: 'Two-sided marketplace', render: AboutSpace },
+  threadly: { caption: 'Support, one shared inbox', render: Threadly },
+  lexpert: { caption: 'Bespoke legal CRM', render: Lexpert },
+  fndracer: { caption: 'AI funding pipeline', render: FndRacer },
+  'smart-dossier': { caption: 'Search inside documents', render: SmartDossier },
+  aboutdesk: { caption: 'Team desk booking', render: AboutDesk },
+  footsteppa: { caption: 'Independent media brand', render: Footsteppa },
+  'no-cms': { caption: 'Edit by WhatsApp', render: NoCMS },
+  anonimise: { caption: 'Offline redaction flow', render: Anonimise },
+}
+
+function pad2(n) {
+  return String(n).padStart(2, '0')
+}
+
+export default function Infographic({ slug, number }) {
+  const entry = MAP[slug]
+  if (!entry) return null
+  const Render = entry.render
+
+  return (
+    <section className="pb-16 md:pb-24">
+      <figure className="r border-2 border-ink">
+        <div className="px-5 py-10 md:px-12 md:py-16">
+          <Render />
+        </div>
+        <figcaption className="flex items-center justify-between border-t-2 border-ink px-5 py-3 md:px-12 text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
+          <span>Fig. {pad2(number)}</span>
+          <span>{entry.caption}</span>
+        </figcaption>
+      </figure>
+    </section>
+  )
+}

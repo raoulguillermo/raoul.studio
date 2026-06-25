@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
+import Infographic from '@/components/Infographic'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
@@ -89,6 +90,9 @@ export default async function ProjectPage({ params }) {
           </div>
         ))}
       </section>
+
+      {/* Infographic */}
+      <Infographic slug={project.slug} number={project.number} />
 
       {/* Body */}
       <section className="pb-24 md:pb-40">
