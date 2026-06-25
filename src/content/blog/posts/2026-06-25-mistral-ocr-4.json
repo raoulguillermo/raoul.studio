@@ -1,0 +1,78 @@
+{
+  "slug": "2026-06-25-mistral-ocr-4",
+  "date": "2026-06-25",
+  "tags": ["ai"],
+  "sources": [
+    { "title": "Mistral AI — Mistral OCR 4: SOTA OCR for Document Intelligence", "url": "https://mistral.ai/news/ocr-4/" },
+    { "title": "MarkTechPost — Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines", "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/" },
+    { "title": "Heise Online — Understanding documents instead of just reading: Mistral OCR 4 is here", "url": "https://www.heise.de/en/news/Understanding-documents-instead-of-just-reading-Mistral-OCR-4-is-here-11343515.html" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Mistral OCR 4 Makes Document Parsing a First-Class Pipeline Component",
+      "summary": "Mistral's fourth OCR release adds bounding boxes, block classification, and per-word confidence scores — and runs entirely inside your own infrastructure.",
+      "body": [
+        "On June 23, Mistral released OCR 4, a document intelligence model that does significantly more than extract text. The model returns structured output — bounding boxes, block-type labels (titles, tables, equations, signatures), and confidence scores at both the word and page level — making it something closer to a semantic document parser than a traditional OCR tool.",
+        "The practical shift is in how document content flows into downstream pipelines. Instead of dumping raw text that your application has to re-segment, OCR 4 outputs chunks that already respect the document's logical structure. That matters for RAG systems, enterprise search indexes, and agentic workflows where an LLM needs to cite a specific section rather than wade through a concatenated blob.",
+        "Mistral is positioning this explicitly as an enterprise-grade, sovereignty-friendly tool. The model deploys in a single container, meaning regulated organizations can run it fully on-premises with no data leaving the building. It is also available via Mistral's API, Amazon SageMaker, and Microsoft Foundry. Pricing is $4 per 1,000 pages on the standard API, dropping to $2 with the Batch API.",
+        "On benchmarks, OCR 4 scored 85.20 on OlmOCRBench and 93.07 on OmniDocBench. Human annotators preferred it over competing systems with a 72% win rate. The model covers 170 languages across ten language groups, with particular improvements on low-resource languages — relevant for any pipeline ingesting documents from multiple regions.",
+        "For builders running RAG or document-heavy workflows, the self-hosted path removes one of the harder objections to cloud-based extraction: you do not have to send your clients' contracts to a third-party API. The structured output format also reduces the preprocessing glue code that accumulates around document ingestion. Whether it holds up on messy scans and non-standard layouts in real enterprise document sets is the test that matters."
+      ]
+    },
+    "de": {
+      "title": "Mistral OCR 4 macht Dokumenten-Parsing zu einem erstklassigen Pipeline-Baustein",
+      "summary": "Mistrals vierte OCR-Version ergänzt Bounding Boxes, Block-Klassifizierung und Konfidenzwerte auf Wortebene – und läuft vollständig in der eigenen Infrastruktur.",
+      "body": [
+        "Am 23. Juni veröffentlichte Mistral OCR 4, ein Dokumenten-Intelligenz-Modell, das deutlich mehr leistet als reine Textextraktion. Das Modell gibt strukturierten Output zurück – Bounding Boxes, Block-Typ-Labels (Überschriften, Tabellen, Gleichungen, Unterschriften) und Konfidenzwerte auf Wort- und Seitenebene. Es kommt damit einem semantischen Dokumenten-Parser näher als einem klassischen OCR-Werkzeug.",
+        "Der praktische Unterschied liegt darin, wie Dokumentinhalte in nachgelagerte Pipelines fließen. Statt rohen Text zu liefern, den die Anwendung selbst neu segmentieren muss, gibt OCR 4 Chunks aus, die bereits die logische Struktur des Dokuments widerspiegeln. Das ist entscheidend für RAG-Systeme, Enterprise-Suchindizes und agentische Workflows, bei denen ein Sprachmodell einen spezifischen Abschnitt zitieren soll, anstatt durch einen zusammengefügten Textblock zu navigieren.",
+        "Mistral positioniert das Modell explizit als enterprise-taugliches, souveränitätsorientiertes Werkzeug. Es lässt sich in einem einzigen Container bereitstellen, sodass regulierte Organisationen es vollständig on-premises betreiben können, ohne dass Daten das Haus verlassen. Zusätzlich ist es über Mistrals API, Amazon SageMaker und Microsoft Foundry verfügbar. Der Preis liegt bei 4 USD pro 1.000 Seiten über die Standard-API, mit der Batch-API sinkt er auf 2 USD.",
+        "Im Benchmark erreichte OCR 4 85,20 Punkte auf OlmOCRBench und 93,07 auf OmniDocBench. Menschliche Bewerter bevorzugten es gegenüber konkurrierenden Systemen mit einer Gewinnrate von 72 %. Das Modell unterstützt 170 Sprachen in zehn Sprachgruppen, mit besonders starken Verbesserungen bei ressourcenschwachen Sprachen – relevant für Pipelines, die Dokumente aus verschiedenen Regionen verarbeiten.",
+        "Für Entwickler mit RAG- oder dokumentenintensiven Workflows beseitigt der Self-Hosted-Pfad einen der schwierigsten Einwände gegen cloudbasierte Extraktion: Verträge der Kunden müssen nicht an eine Drittanbieter-API gesendet werden. Das strukturierte Ausgabeformat reduziert zudem den Vorverarbeitungs-Code, der sich rund um die Dokumentenverarbeitung ansammelt. Ob das Modell mit unordentlichen Scans und nicht standardisierten Layouts in echten Enterprise-Dokumenten zurechtkommt, ist die eigentliche Bewährungsprobe."
+      ]
+    },
+    "nl": {
+      "title": "Mistral OCR 4 maakt documentparsing een volwaardige pipeline-component",
+      "summary": "Mistrals vierde OCR-release voegt bounding boxes, blokclassificatie en betrouwbaarheidsscores per woord toe – en draait volledig binnen je eigen infrastructuur.",
+      "body": [
+        "Op 23 juni lanceerde Mistral OCR 4, een model voor documentintelligentie dat aanzienlijk meer doet dan tekst extraheren. Het model geeft gestructureerde output terug – bounding boxes, bloktype-labels (titels, tabellen, vergelijkingen, handtekeningen) en betrouwbaarheidsscores op woord- en paginaniveau – waardoor het eerder een semantische documentparser is dan een klassiek OCR-hulpmiddel.",
+        "De praktische verschuiving zit in de manier waarop documentinhoud de verdere pipeline instroomt. In plaats van ruwe tekst te dumpen die de applicatie zelf opnieuw moet segmenteren, levert OCR 4 chunks op die al de logische structuur van het document respecteren. Dat maakt een verschil voor RAG-systemen, enterprise-zoekindexen en agentische workflows, waarbij een taalmodel een specifiek gedeelte moet citeren in plaats van door een aaneengesloten tekst te waden.",
+        "Mistral positioneert dit model expliciet als enterprise-grade en soevereiniteitsvriendelijk. Het model draait in één container, zodat gereguleerde organisaties het volledig on-premises kunnen inzetten zonder dat data het gebouw verlaat. Daarnaast is het beschikbaar via Mistrals API, Amazon SageMaker en Microsoft Foundry. De prijs is 4 dollar per 1.000 pagina's via de standaard-API, en daalt naar 2 dollar via de Batch API.",
+        "Op benchmarks scoorde OCR 4 85,20 op OlmOCRBench en 93,07 op OmniDocBench. Menselijke beoordelaars gaven de voorkeur aan het model boven concurrerende systemen met een winrate van 72%. Het model ondersteunt 170 talen in tien taalgroepen, met verbeteringen voor laagresourcetalen die relevant zijn voor pipelines die documenten uit meerdere regio's verwerken.",
+        "Voor ontwikkelaars met RAG of documentzware workflows ruimt het self-hosted pad één van de hardste bezwaren tegen cloudgebaseerde extractie op: de contracten van klanten hoeven niet naar een externe API te worden gestuurd. Het gestructureerde outputformaat vermindert ook de preprocessingcode die zich ophoopt bij documentingestie. Of het model standhoud bij rommelige scans en niet-standaard indelingen in echte enterprise-documentsets, is de test die er écht toe doet."
+      ]
+    },
+    "es": {
+      "title": "Mistral OCR 4 convierte el análisis de documentos en un componente de primera clase en el pipeline",
+      "summary": "La cuarta versión OCR de Mistral añade bounding boxes, clasificación de bloques y puntuaciones de confianza por palabra, y se ejecuta completamente dentro de tu propia infraestructura.",
+      "body": [
+        "El 23 de junio, Mistral lanzó OCR 4, un modelo de inteligencia documental que hace bastante más que extraer texto. El modelo devuelve una salida estructurada: bounding boxes, etiquetas de tipo de bloque (títulos, tablas, ecuaciones, firmas) y puntuaciones de confianza a nivel de palabra y página, lo que lo acerca más a un analizador semántico de documentos que a una herramienta OCR tradicional.",
+        "El cambio práctico está en cómo fluye el contenido de los documentos hacia los pasos siguientes del pipeline. En lugar de volcar texto bruto que la aplicación tiene que volver a segmentar, OCR 4 produce fragmentos que ya respetan la estructura lógica del documento. Eso importa en sistemas RAG, índices de búsqueda empresarial y flujos de trabajo agénticos donde un modelo de lenguaje necesita citar una sección específica en lugar de navegar por un bloque de texto concatenado.",
+        "Mistral posiciona esto explícitamente como una herramienta de nivel empresarial y orientada a la soberanía de datos. El modelo se despliega en un único contenedor, lo que permite a las organizaciones reguladas ejecutarlo completamente on-premises sin que ningún dato salga de sus instalaciones. También está disponible a través de la API de Mistral, Amazon SageMaker y Microsoft Foundry. El precio es de 4 dólares por cada 1.000 páginas en la API estándar, bajando a 2 dólares con la API por lotes.",
+        "En benchmarks, OCR 4 obtuvo 85,20 en OlmOCRBench y 93,07 en OmniDocBench. Los anotadores humanos lo prefirieron frente a los sistemas competidores con una tasa de victorias del 72%. El modelo cubre 170 idiomas en diez grupos lingüísticos, con mejoras destacadas en idiomas de bajos recursos, algo relevante para cualquier pipeline que procese documentos de múltiples regiones.",
+        "Para los desarrolladores con RAG o flujos de trabajo con muchos documentos, el despliegue self-hosted elimina uno de los argumentos más difíciles contra la extracción en la nube: no hay que enviar los contratos de los clientes a una API de terceros. El formato de salida estructurada también reduce el código de preprocesamiento que se acumula en torno a la ingestión de documentos. Si aguanta ante escaneos desordenados y formatos no estándar en conjuntos de documentos empresariales reales, esa es la prueba que realmente importa."
+      ]
+    },
+    "fr": {
+      "title": "Mistral OCR 4 fait du parsing de documents un composant de pipeline à part entière",
+      "summary": "La quatrième génération OCR de Mistral ajoute des bounding boxes, une classification de blocs et des scores de confiance par mot — et tourne entièrement dans votre propre infrastructure.",
+      "body": [
+        "Le 23 juin, Mistral a publié OCR 4, un modèle d'intelligence documentaire qui fait bien plus qu'extraire du texte. Le modèle retourne une sortie structurée — bounding boxes, labels de type de bloc (titres, tableaux, équations, signatures) et scores de confiance au niveau du mot et de la page — ce qui l'apparente davantage à un analyseur sémantique de documents qu'à un outil OCR traditionnel.",
+        "Le changement pratique se situe dans la façon dont le contenu des documents alimente les étapes suivantes du pipeline. Plutôt que de déverser du texte brut que l'application doit re-segmenter, OCR 4 produit des fragments qui respectent déjà la structure logique du document. C'est décisif pour les systèmes RAG, les index de recherche d'entreprise et les workflows agentiques où un modèle de langage doit citer une section précise plutôt que de naviguer dans un bloc de texte concaténé.",
+        "Mistral positionne explicitement ce modèle comme un outil enterprise favorable à la souveraineté des données. Il se déploie dans un seul conteneur, permettant aux organisations régulées de l'exploiter entièrement on-premises sans que les données ne quittent leurs locaux. Il est également disponible via l'API de Mistral, Amazon SageMaker et Microsoft Foundry. La tarification est de 4 dollars pour 1 000 pages sur l'API standard, descendant à 2 dollars avec l'API par lots.",
+        "Sur les benchmarks, OCR 4 a obtenu 85,20 sur OlmOCRBench et 93,07 sur OmniDocBench. Des annotateurs humains l'ont préféré aux systèmes concurrents avec un taux de victoire de 72 %. Le modèle prend en charge 170 langues dans dix groupes linguistiques, Mistral soulignant en particulier les améliorations sur les langues à faibles ressources — pertinent pour tout pipeline qui ingère des documents de plusieurs régions.",
+        "Pour les développeurs qui gèrent des workflows RAG ou fortement documentaires, le déploiement self-hosted lève l'une des objections les plus difficiles à l'extraction en cloud : il n'est plus nécessaire d'envoyer les contrats de ses clients vers une API tierce. Le format de sortie structuré réduit également le code de pré-traitement qui s'accumule autour de l'ingestion de documents. Reste à savoir si le modèle tient face à des scans mal formés et des mises en page non standard dans de vrais ensembles de documents d'entreprise — c'est le vrai test."
+      ]
+    },
+    "ar": {
+      "title": "Mistral OCR 4: تحويل معالجة المستندات إلى مكوّن أساسي في خطوط الإنتاج",
+      "summary": "يضيف الإصدار الرابع من Mistral للتعرف الضوئي على الحروف مربعات تحديد الموضع وتصنيف الكتل ودرجات الثقة لكل كلمة، مع تشغيل كامل داخل بنيتك التحتية الخاصة.",
+      "body": [
+        "في 23 يونيو، أطلقت Mistral نموذج OCR 4، وهو نموذج لفهم المستندات يتجاوز مجرد استخراج النص بكثير. يُعيد النموذج مخرجات منظمة تشمل مربعات تحديد الموضع، وتسميات لأنواع الكتل (عناوين، جداول، معادلات، توقيعات)، ودرجات ثقة على مستوى الكلمة والصفحة، مما يجعله أقرب إلى محلل دلالي للمستندات منه إلى أداة تعرف ضوئي تقليدية.",
+        "يكمن التغيير العملي في طريقة تدفق محتوى المستندات إلى مراحل المعالجة اللاحقة. بدلاً من إخراج نص خام تضطر التطبيقات إلى إعادة تجزئته، يُنتج OCR 4 مقاطع تحترم بالفعل البنية المنطقية للمستند. هذا يُحدث فرقاً في أنظمة RAG وفهارس البحث المؤسسي وسير العمل الوكيلي، حيث يحتاج نموذج اللغة الكبير إلى الاستشهاد بقسم محدد بدلاً من التنقل عبر كتلة نصية مدمجة.",
+        "تُضع Mistral هذا النموذج صراحةً كأداة مؤسسية صديقة لسيادة البيانات. يُنشر النموذج في حاوية واحدة، مما يتيح للمؤسسات الخاضعة للتنظيم تشغيله بالكامل داخل بنيتها التحتية دون خروج أي بيانات. كما يتوفر عبر واجهة Mistral البرمجية وAmazon SageMaker وMicrosoft Foundry. يبلغ السعر 4 دولارات لكل 1,000 صفحة عبر الواجهة العادية، وينخفض إلى 2 دولار مع واجهة الدفعات.",
+        "على مستوى المعايير القياسية، حقق OCR 4 درجة 85.20 على OlmOCRBench و93.07 على OmniDocBench، فيما فضّله المُقيّمون البشريون على الأنظمة المنافسة بمعدل فوز بلغ 72%. يدعم النموذج 170 لغة موزعة على عشر مجموعات لغوية، مع تحسينات ملحوظة في اللغات منخفضة الموارد، وهو ما له أهمية خاصة لأي خط معالجة يستوعب مستندات من مناطق متعددة.",
+        "بالنسبة للمطورين الذين يديرون أنظمة RAG أو سير عمل تعتمد بكثافة على المستندات، يُزيل خيار الاستضافة الذاتية أحد أصعب الاعتراضات على الاستخراج السحابي: لن تضطر إلى إرسال عقود عملائك إلى واجهة برمجية خارجية. كما يُقلل تنسيق المخرجات المنظمة من كود المعالجة المسبقة الذي يتراكم عادةً في مراحل استيعاب المستندات. أما ما إذا كان النموذج يصمد أمام المسح الضوئي الرديء والتخطيطات غير القياسية في مجموعات المستندات المؤسسية الحقيقية، فهذا هو الاختبار الفاصل."
+      ]
+    }
+  }
+}
