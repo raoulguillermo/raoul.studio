@@ -1,0 +1,74 @@
+// Français — infographic labels.
+
+export const infographics = {
+  outdoorxl: {
+    caption: 'Refonte headless à grande échelle',
+    products: 'Produits',
+    markets: 'Marchés · langues',
+  },
+  aboutspace: {
+    caption: 'Place de marché bilatérale',
+    host: 'Hôte',
+    guest: 'Voyageur',
+    list: 'Publier',
+    book: 'Réserver',
+    pay: 'Payer',
+  },
+  threadly: {
+    caption: 'Support, une boîte partagée',
+    email: 'E-mail',
+    chat: 'Chat',
+    form: 'Formulaire',
+    inbox: 'Boîte partagée',
+    sla: 'Minuteur SLA',
+    resolved: 'Résolu',
+  },
+  lexpert: {
+    caption: 'CRM juridique sur mesure',
+    clients: 'Clients',
+    invoicing: 'Facturation',
+    metrics: 'Indicateurs',
+    roleAccess: 'Accès par rôle',
+    admin: 'Admin',
+    lawyer: 'Avocat',
+    staff: 'Équipe',
+  },
+  fndracer: {
+    caption: 'Pipeline de financement AI',
+    scrape: 'Collecter les sources',
+    match: "Cibler l'entreprise",
+    draft: 'Rédiger la demande',
+    fromBlank: 'Page blanche → premier jet',
+  },
+  'smart-dossier': {
+    caption: 'Rechercher dans les documents',
+    searchPill: 'Rechercher dans les documents',
+    messy: 'Ensemble brut',
+    structured: 'Structuré',
+  },
+  aboutdesk: {
+    caption: 'Réservation de bureaux',
+    booked: 'Équipe réservée',
+    free: 'Libre',
+  },
+  footsteppa: {
+    caption: 'Média indépendant',
+    followers: 'Abonnés',
+    artists: 'Artistes',
+  },
+  'no-cms': {
+    caption: 'Modifier par WhatsApp',
+    message: "Passe l'en-tête en rouge et change la photo principale",
+    live: 'En ligne',
+  },
+  anonimise: {
+    caption: 'Anonymisation hors ligne',
+    yourDoc: 'Votre document',
+    offline: 'hors ligne',
+    noInternet: 'Pas de connexion',
+    safe: 'Prêt à partager',
+    dear: 'Cher',
+    livesIn: 'habite à',
+    pasteInto: 'Puis sûr à coller dans',
+  },
+}
