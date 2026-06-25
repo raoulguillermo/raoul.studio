@@ -10,4 +10,5 @@ export const infographics = {
   footsteppa: { caption: 'Onafhankelijk mediamerk', followers: 'Volgers', artists: 'Artiesten' },
   'no-cms': { caption: 'Bewerken via WhatsApp', message: 'Maak de header rood en wissel de heldenfoto', live: 'Live' },
   anonimise: { caption: 'Offline anonimiseren', yourDoc: 'Jouw document', offline: 'offline', noInternet: 'Geen internet', safe: 'Veilig te delen', dear: 'Beste', livesIn: 'woont in', pasteInto: 'Daarna veilig te plakken in' },
+  dfns: { caption: 'Realtime futures-signalen', entry: 'Entry', takeProfit: 'Take-profit', stopLoss: 'Stop-loss', liveTicks: 'Live ticks', confluence: 'Confluence', trend: 'Trend', momentum: 'Momentum', volume: 'Volume', volatility: 'Volatiliteit', logged: 'Gelogd + gestreamd' },
 }

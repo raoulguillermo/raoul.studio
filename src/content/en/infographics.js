@@ -74,4 +74,17 @@ export const infographics = {
     livesIn: 'lives in', // sample letter words
     pasteInto: 'Then safe to paste into', // before “ChatGPT · Claude”
   },
+  dfns: {
+    caption: 'Real-time futures signals',
+    entry: 'Entry',
+    takeProfit: 'Take-profit',
+    stopLoss: 'Stop-loss',
+    liveTicks: 'Live ticks', // sub-label “WebSocket · NQ · ES”
+    confluence: 'Confluence', // keep — header over the 4 checks
+    trend: 'Trend',
+    momentum: 'Momentum',
+    volume: 'Volume',
+    volatility: 'Volatility',
+    logged: 'Logged + streamed', // streamed over SSE
+  },
 }
