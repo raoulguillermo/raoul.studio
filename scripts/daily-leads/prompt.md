@@ -64,7 +64,7 @@ offline AI), e-commerce & platform builds, and bespoke business software.**
    - companies with an outdated / clearly DIY website or broken web shop,
    - law / accounting / professional-services firms (privacy-sensitive → Anonimise, CRM),
    - growing SMEs hiring for ops/admin roles that scream "needs a custom internal tool",
-   - retailers / D2C brands scaling up,
+   - retailers / D2C brands scaling up (general e-commerce — but NOT outdoor shops),
    - businesses with a recent news hook (funding, expansion, new product, a problem).
    Vary the sectors across the three leads; do not pitch three near-identical companies.
 
@@ -138,6 +138,8 @@ offline AI), e-commerce & platform builds, and bespoke business software.**
    are created later in an interactive session.)
 
 ## Rules
+- **Do NOT target outdoor shops** — no outdoor / outdoor-sports / camping / hiking / travel-gear
+  retailers. General e-commerce, retail and D2C in *other* niches is fine.
 - **Personal, not corporate.** Every email reads as Raoul writing by hand to one company.
   No "studio"/"we"/agency framing, no marketing boilerplate.
 - **No client or project info, ever.** Never name a past client, project, product, or case
