@@ -1,0 +1,5 @@
+# Lead drafts and logs are PRIVATE — never commit them.
+drafts/
+leads-ledger.json
+run.log
+last-agent.log
