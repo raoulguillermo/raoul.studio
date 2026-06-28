@@ -42,26 +42,45 @@ fi
 # --- build the prompt with today's date + target dir injected -------------
 PROMPT="$(sed -e "s|{{DATE}}|$DATE|g" -e "s|{{POSTS_DIR}}|$POSTS_DIR|g" "$SELF_DIR/prompt.md")"
 
-log "Running agent for $DATE…"
-claude -p "$PROMPT" \
-  --model "$MODEL" \
-  --permission-mode bypassPermissions \
-  --allowedTools "WebSearch,WebFetch,Read,Write" \
-  > "$SELF_DIR/last-agent.log" 2>&1
-log "Agent finished (exit $?). Transcript: $SELF_DIR/last-agent.log"
+# --- run the agent, validate, retry on bad/missing/invalid output ----------
+# The agent occasionally emits non-parseable JSON (markdown fences, a stray char
+# in a translation). Rather than delete-and-give-up, retry a few times and keep
+# any invalid file in ./invalid/ for inspection.
+QUARANTINE="$SELF_DIR/invalid"
+MAX_TRIES=3
+NEW_FILE=""
+for try in $(seq 1 "$MAX_TRIES"); do
+  log "Running agent for $DATE (attempt $try/$MAX_TRIES)…"
+  claude -p "$PROMPT" \
+    --model "$MODEL" \
+    --permission-mode bypassPermissions \
+    --allowedTools "WebSearch,WebFetch,Read,Write" \
+    > "$SELF_DIR/last-agent.log" 2>&1
+  log "Agent finished (exit $?). Transcript: $SELF_DIR/last-agent.log"
 
-# --- locate + validate the produced file ----------------------------------
-NEW_FILE="$(ls -1 "$POSTS_DIR/$DATE-"*.json 2>/dev/null | head -1)"
+  CANDIDATE="$(ls -1 "$POSTS_DIR/$DATE-"*.json 2>/dev/null | head -1)"
+  if [ -z "${CANDIDATE:-}" ]; then
+    log "Attempt $try: agent produced no post for $DATE."
+    continue
+  fi
+
+  PARSE_ERR="$(node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8'))" "$CANDIDATE" 2>&1)"
+  if [ $? -eq 0 ]; then
+    NEW_FILE="$CANDIDATE"
+    log "Validated $NEW_FILE"
+    break
+  fi
+
+  # Invalid JSON: quarantine (don't delete) so the exact failure can be inspected.
+  mkdir -p "$QUARANTINE"
+  mv "$CANDIDATE" "$QUARANTINE/$(basename "$CANDIDATE").attempt$try" 2>/dev/null || rm -f "$CANDIDATE"
+  log "Attempt $try: invalid JSON — quarantined to $QUARANTINE. Parser: ${PARSE_ERR}"
+done
+
 if [ -z "${NEW_FILE:-}" ]; then
-  log "FAIL: agent produced no post for $DATE. Aborting (nothing committed)."
+  log "FAIL: no valid post for $DATE after $MAX_TRIES attempt(s). Aborting (nothing committed)."
   exit 1
 fi
-if ! node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8'))" "$NEW_FILE" 2>/dev/null; then
-  log "FAIL: $NEW_FILE is not valid JSON. Removing it and aborting."
-  rm -f "$NEW_FILE"
-  exit 1
-fi
-log "Validated $NEW_FILE"
 
 # --- publish: commit + push from dev --------------------------------------
 git add "$POSTS_REL" || true
