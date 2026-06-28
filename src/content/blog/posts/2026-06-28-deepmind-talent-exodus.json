@@ -9,69 +9,105 @@
   ],
   "locales": {
     "en": {
-      "title": "Four DeepMind Architects Gone in Six Days",
-      "summary": "In one week Google lost the co-author of the Transformer paper and the Nobel laureate behind AlphaFold — both to direct rivals.",
+      "title": "Four Top DeepMind Researchers Quit in Six Days",
+      "summary": "Google lost four of its best AI researchers in one week. Three of them walked straight over to a rival, Anthropic.",
       "body": [
-        "Google DeepMind shed four senior researchers in a single six-day window this month. Noam Shazeer, who co-authored \"Attention Is All You Need\" — the 2017 paper that introduced the Transformer architecture — left for OpenAI on June 18. The next day, John Jumper, who shared the 2024 Nobel Prize in Chemistry for leading AlphaFold's development, announced he was joining Anthropic after nearly nine years at DeepMind.",
-        "By June 24, two additional senior contributors had followed: Jonas Adler, who led parts of Google's AI coding effort, and Alexander Pritzel, who worked on Gemini pretraining. Both are heading to Anthropic. That makes three of the four departures landing at a single competitor.",
-        "The financial pull is straightforward — Anthropic and OpenAI are both approaching IPOs, and the pre-IPO equity they can offer outpaces what a salaried role at Google can match. Internal friction also played a role: reporting indicates that compute capacity was reallocated away from Shazeer's projects to a London-based DeepMind team, a signal of priority shifts that researchers rarely ignore.",
-        "AlphaFold changed drug discovery in a way that is still being measured. Anthropic has been building toward AI-for-science work — wet labs opened, biology-focused agent research published, partnerships with the Allen Institute and Howard Hughes Medical Institute announced. Jumper specifically deepens that track. For builders working on biotech applications, coding tools, or any product downstream of frontier model capabilities, the concentration of this talent matters.",
-        "Alphabet's stock fell roughly 6% in five trading days following the announcements, a direct investor reading of what these losses mean for Google's competitive position. The most concrete takeaway: the scarcest input in frontier AI is not compute or data — it is the small number of people who have already built a frontier model. When four of them leave in a week, pay attention."
+        "Google DeepMind is one of the world's leading AI labs. This month, four of its most senior researchers walked out in just six days. The first was Noam Shazeer, who left for OpenAI on June 18. He helped invent the \"transformer\" — the basic design behind today's chatbots. The next day, John Jumper said he was joining Anthropic after almost nine years at Google. He won a Nobel Prize in 2024 for AlphaFold, an AI that mapped the shapes of more than 200 million proteins.",
+        "By June 24, two more had followed Jumper to Anthropic: Jonas Adler and Alexander Pritzel, who both worked on important Google projects. So three of the four people who left ended up at the same rival.",
+        "Why leave? Mostly money. Anthropic and OpenAI are both heading toward going public, so they can offer shares that may be worth a lot later — more than a steady Google salary. There was friction too. Reports say Google moved computing power away from Shazeer's work and gave it to another team.",
+        "This matters beyond Google. Jumper's AlphaFold changed how new medicines are found, and Anthropic is now building tools for science: labs, biology research, and partnerships with the Allen Institute and the Howard Hughes Medical Institute. Very few people on Earth can build the most advanced AI. If you make software, you lean on these labs — so where the top people go shapes which tools you'll have next year.",
+        "Investors noticed. Alphabet's stock fell about 6% in five trading days. The lesson is simple: in cutting-edge AI, the rarest resource isn't computers or data. It's the handful of people who have already built it. When four of them leave in a week, it's worth paying attention."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "senior researchers left" },
+        { "value": "6 days", "label": "how fast it happened" },
+        { "value": "3", "label": "of them went to Anthropic" },
+        { "value": "~6%", "label": "drop in Alphabet's stock" }
       ]
     },
     "de": {
-      "title": "Vier DeepMind-Architekten in sechs Tagen weg",
-      "summary": "In einer einzigen Woche verlor Google den Mitautor des Transformer-Papers und den Nobelpreisträger hinter AlphaFold — beide an direkte Konkurrenten.",
+      "title": "Vier Top-Forscher verlassen DeepMind in sechs Tagen",
+      "summary": "Google verlor in einer Woche vier seiner besten KI-Forscher. Drei gingen direkt zum Konkurrenten Anthropic.",
       "body": [
-        "Google DeepMind verlor diesen Monat innerhalb von sechs Tagen vier leitende Forscher. Noam Shazeer, Mitautor von \"Attention Is All You Need\" — dem Paper von 2017, das die Transformer-Architektur einführte — wechselte am 18. Juni zu OpenAI. Am nächsten Tag gab John Jumper bekannt, nach fast neun Jahren bei DeepMind zu Anthropic zu gehen. Jumper teilte den Chemienobelpreis 2024 für die Entwicklung von AlphaFold, einem KI-System, das mehr als 200 Millionen Proteinstrukturen kartiert hat.",
-        "Bis zum 24. Juni hatten zwei weitere leitende Mitarbeiter nachgezogen: Jonas Adler, der Teile von Googles KI-Programmierarbeit leitete, und Alexander Pritzel, der am Gemini-Pretraining beteiligt war. Beide wechseln zu Anthropic. Damit landen drei der vier Abgänge bei einem einzigen Konkurrenten.",
-        "Der finanzielle Anreiz liegt auf der Hand: Anthropic und OpenAI nähern sich beide einem Börsengang, und die Pre-IPO-Beteiligungen, die sie anbieten können, übersteigen das, was ein Festangestelltenverhältnis bei Google bieten kann. Auch interne Reibungen spielten eine Rolle: Berichten zufolge wurde Rechenkapazität von Shazeers Projekten auf ein Londoner DeepMind-Team umverteilt — ein Signal für Prioritätsverschiebungen, das Forscher selten ignorieren.",
-        "AlphaFold hat die Arzneimittelforschung auf eine Weise verändert, die noch immer gemessen wird. Anthropic baut gezielt auf KI-für-Wissenschaft auf — Nasslabors wurden eröffnet, biologie-fokussierte Agentenforschung veröffentlicht, Forschungspartnerschaften mit dem Allen Institute und dem Howard Hughes Medical Institute angekündigt. Jumpers Ankunft vertieft diesen Kurs spezifisch. Für Entwickler, die an Biotech-Anwendungen, Programmierwerkzeugen oder Produkten arbeiten, die von Frontier-Modellfähigkeiten abhängen, ist diese Konzentration von Talent bedeutsam.",
-        "Die Alphabet-Aktie fiel in den fünf Handelstagen nach den Ankündigungen um rund 6% — eine direkte Einschätzung der Investoren über die Bedeutung dieser Verluste für Googles Wettbewerbsposition. Die konkreteste Schlussfolgerung: Der knappste Produktionsfaktor in der Frontier-KI-Entwicklung sind nicht Rechenleistung oder Daten, sondern die kleine Anzahl von Menschen, die bereits ein Frontier-Modell gebaut haben. Wenn vier von ihnen in einer Woche gehen, ist das der Beachtung wert."
+        "Google DeepMind ist eines der führenden KI-Labore der Welt. In diesem Monat sind vier seiner wichtigsten Forscher in nur sechs Tagen gegangen. Der erste war Noam Shazeer, der am 18. Juni zu OpenAI wechselte. Er hat den \"Transformer\" mit erfunden — die Grundkonstruktion hinter den heutigen Chatbots. Am nächsten Tag kündigte John Jumper an, nach fast neun Jahren bei Google zu Anthropic zu gehen. Er gewann 2024 einen Nobelpreis für AlphaFold, eine KI, die die Form von mehr als 200 Millionen Proteinen kartiert hat.",
+        "Bis zum 24. Juni folgten Jumper zwei weitere zu Anthropic: Jonas Adler und Alexander Pritzel, die beide an wichtigen Google-Projekten arbeiteten. Damit landeten drei der vier Abgänger beim selben Konkurrenten.",
+        "Warum gehen sie? Vor allem wegen des Geldes. Anthropic und OpenAI steuern beide auf einen Börsengang zu und können deshalb Aktien anbieten, die später viel wert sein könnten — mehr als ein festes Gehalt bei Google. Es gab auch Reibereien. Berichten zufolge nahm Google Rechenleistung von Shazeers Arbeit weg und gab sie einem anderen Team.",
+        "Das geht über Google hinaus. Jumpers AlphaFold hat verändert, wie neue Medikamente gefunden werden, und Anthropic baut jetzt Werkzeuge für die Wissenschaft auf: Labore, Biologieforschung und Partnerschaften mit dem Allen Institute und dem Howard Hughes Medical Institute. Nur sehr wenige Menschen können die fortschrittlichste KI bauen. Wer Software entwickelt, ist auf diese Labore angewiesen — und wohin die besten Köpfe gehen, bestimmt, welche Werkzeuge es nächstes Jahr gibt.",
+        "Die Investoren haben es bemerkt. Die Alphabet-Aktie fiel in fünf Handelstagen um rund 6%. Die Lehre ist einfach: In der Spitzen-KI sind nicht Rechner oder Daten am knappsten, sondern die wenigen Menschen, die so etwas schon gebaut haben. Wenn vier von ihnen in einer Woche gehen, lohnt es sich, hinzusehen."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "leitende Forscher gegangen" },
+        { "value": "6 days", "label": "wie schnell es geschah" },
+        { "value": "3", "label": "davon zu Anthropic" },
+        { "value": "~6%", "label": "Rückgang der Alphabet-Aktie" }
       ]
     },
     "nl": {
-      "title": "Vier DeepMind-architecten weg in zes dagen",
-      "summary": "In één week verloor Google de medeauteur van het Transformer-paper en de Nobelprijswinnaar achter AlphaFold — beiden naar directe concurrenten.",
+      "title": "Vier topforschers verlaten DeepMind in zes dagen",
+      "summary": "Google verloor in één week vier van zijn beste AI-onderzoekers. Drie van hen stapten meteen over naar concurrent Anthropic.",
       "body": [
-        "Google DeepMind verloor deze maand vier senior onderzoekers binnen zes dagen. Noam Shazeer, medeauteur van \"Attention Is All You Need\" — het paper uit 2017 dat de Transformer-architectuur introduceerde — vertrok op 18 juni naar OpenAI. De volgende dag kondigde John Jumper aan naar Anthropic te gaan na bijna negen jaar bij DeepMind. Jumper deelde de Nobelprijs Scheikunde 2024 voor de ontwikkeling van AlphaFold, een AI-systeem dat meer dan 200 miljoen eiwitstructuren in kaart heeft gebracht.",
-        "Op 24 juni volgden twee andere senior medewerkers: Jonas Adler, die leiding gaf aan delen van Googles AI-codeerinspanningen, en Alexander Pritzel, die betrokken was bij de Gemini-pretraining. Beiden gaan naar Anthropic. Daarmee belanden drie van de vier vertrekkers bij één enkele concurrent.",
-        "De financiële aantrekkingskracht is duidelijk: Anthropic en OpenAI naderen beide een beursgang, en de pre-IPO-aandelenopties die ze kunnen bieden overtreffen wat een vaste functie bij Google kan bieden. Ook interne wrijving speelde een rol: berichtgeving geeft aan dat rekencapaciteit werd omgeleid van Shazeers projecten naar een DeepMind-team in Londen — een signaal van prioriteitsverschuivingen dat onderzoekers zelden negeren.",
-        "AlphaFold heeft de geneesmiddelontwikkeling op een manier veranderd die nog steeds wordt gemeten. Anthropic bouwt gericht aan AI-voor-wetenschap — natlaboratoria geopend, biologie-gericht agentonderzoek gepubliceerd, onderzoekssamenwerkingen met het Allen Institute en het Howard Hughes Medical Institute aangekondigd. Jumpers komst verdiept dat traject specifiek. Voor ontwikkelaars die werken aan biotech-toepassingen, programmeertools of producten die afhankelijk zijn van frontier-modelcapaciteiten, is de concentratie van dit talent relevant.",
-        "Het aandeel Alphabet daalde in vijf handelsdagen na de aankondigingen met ongeveer 6% — een directe beoordeling door investeerders van wat deze verliezen betekenen voor Googles concurrentiepositie. De meest concrete conclusie: de schaarste grondstof in frontier AI-ontwikkeling is niet rekenkracht of data, maar het kleine aantal mensen dat al een frontier-model heeft gebouwd. Als vier van hen in een week vertrekken, is het de moeite waard om op te letten."
+        "Google DeepMind is een van de beste AI-labs ter wereld. Deze maand vertrokken vier van zijn meest senior onderzoekers in slechts zes dagen. De eerste was Noam Shazeer, die op 18 juni naar OpenAI ging. Hij hielp de \"transformer\" uitvinden — het basisontwerp achter de chatbots van vandaag. De volgende dag kondigde John Jumper aan dat hij naar Anthropic ging, na bijna negen jaar bij Google. Hij won in 2024 een Nobelprijs voor AlphaFold, een AI die de vorm van meer dan 200 miljoen eiwitten in kaart bracht.",
+        "Op 24 juni volgden nog twee mensen Jumper naar Anthropic: Jonas Adler en Alexander Pritzel, die beiden aan belangrijke Google-projecten werkten. Zo kwamen drie van de vier vertrekkers bij dezelfde concurrent terecht.",
+        "Waarom vertrekken? Vooral geld. Anthropic en OpenAI gaan allebei richting een beursgang en kunnen daarom aandelen aanbieden die later veel waard kunnen zijn — meer dan een vast salaris bij Google. Er was ook wrijving. Berichten zeggen dat Google rekenkracht weghaalde bij Shazeers werk en aan een ander team gaf.",
+        "Dit raakt meer dan alleen Google. Jumpers AlphaFold veranderde hoe nieuwe medicijnen worden gevonden, en Anthropic bouwt nu gereedschap voor de wetenschap: labs, biologisch onderzoek en samenwerkingen met het Allen Institute en het Howard Hughes Medical Institute. Maar weinig mensen kunnen de meest geavanceerde AI bouwen. Wie software maakt, leunt op deze labs — dus waar de besten heen gaan, bepaalt welke tools je volgend jaar hebt.",
+        "Investeerders merkten het. Het aandeel Alphabet daalde in vijf handelsdagen met ongeveer 6%. De les is simpel: in de meest geavanceerde AI is niet rekenkracht of data het schaarst, maar het handjevol mensen dat het al heeft gebouwd. Als vier van hen in een week vertrekken, loont het om op te letten."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "senior onderzoekers weg" },
+        { "value": "6 days", "label": "hoe snel het ging" },
+        { "value": "3", "label": "ervan naar Anthropic" },
+        { "value": "~6%", "label": "daling aandeel Alphabet" }
       ]
     },
     "es": {
-      "title": "Cuatro arquitectos de DeepMind se van en seis días",
-      "summary": "En una sola semana, Google perdió al coautor del paper del Transformer y al Premio Nobel detrás de AlphaFold, ambos a favor de rivales directos.",
+      "title": "Cuatro investigadores clave dejan DeepMind en seis días",
+      "summary": "Google perdió en una semana a cuatro de sus mejores investigadores de IA. Tres se pasaron directo a un rival, Anthropic.",
       "body": [
-        "Google DeepMind perdió cuatro investigadores senior en un período de seis días este mes. Noam Shazeer, coautor de \"Attention Is All You Need\" — el paper de 2017 que introdujo la arquitectura Transformer — se fue a OpenAI el 18 de junio. Al día siguiente, John Jumper anunció que se unía a Anthropic después de casi nueve años en DeepMind. Jumper compartió el Premio Nobel de Química 2024 por liderar el desarrollo de AlphaFold, un sistema de IA que ha mapeado más de 200 millones de estructuras de proteínas.",
-        "Para el 24 de junio, dos colaboradores senior adicionales habían seguido: Jonas Adler, quien lideró partes del esfuerzo de codificación con IA de Google, y Alexander Pritzel, quien trabajó en el preentrenamiento de Gemini. Ambos se dirigen a Anthropic. Eso significa que tres de las cuatro salidas aterrizan en un único competidor.",
-        "El atractivo financiero es claro: Anthropic y OpenAI se acercan ambos a sus salidas a bolsa, y el capital pre-OPV que pueden ofrecer supera lo que un puesto asalariado en Google puede igualar. La fricción interna también jugó un papel: los informes indican que la capacidad de cómputo fue reasignada de los proyectos de Shazeer a un equipo de DeepMind con sede en Londres, una señal de cambios de prioridades que los investigadores rara vez ignoran.",
-        "AlphaFold cambió el descubrimiento de fármacos de una manera que aún se está midiendo. Anthropic ha estado construyendo hacia el trabajo de IA para la ciencia: laboratorios húmedos abiertos, investigación de agentes enfocada en biología publicada, asociaciones de investigación con el Allen Institute y el Howard Hughes Medical Institute anunciadas. La llegada de Jumper profundiza específicamente esa trayectoria. Para los desarrolladores que trabajan en aplicaciones biotecnológicas, herramientas de codificación o cualquier producto que dependa de las capacidades de los modelos frontier, la concentración de este talento importa.",
-        "Las acciones de Alphabet cayeron aproximadamente un 6% en cinco días de negociación tras los anuncios, una lectura directa de los inversores de lo que estas pérdidas significan para la posición competitiva de Google. La conclusión más concreta: el insumo más escaso en el desarrollo de IA frontier no es la computación ni los datos, sino el pequeño número de personas que ya han construido un modelo frontier. Cuando cuatro de ellas se van en una semana, vale la pena prestar atención."
+        "Google DeepMind es uno de los mejores laboratorios de IA del mundo. Este mes, cuatro de sus investigadores más veteranos se marcharon en solo seis días. El primero fue Noam Shazeer, que se fue a OpenAI el 18 de junio. Ayudó a inventar el \"transformer\", el diseño básico detrás de los chatbots de hoy. Al día siguiente, John Jumper anunció que se unía a Anthropic tras casi nueve años en Google. En 2024 ganó un Premio Nobel por AlphaFold, una IA que cartografió la forma de más de 200 millones de proteínas.",
+        "Para el 24 de junio, otras dos personas siguieron a Jumper a Anthropic: Jonas Adler y Alexander Pritzel, que trabajaban en proyectos importantes de Google. Así, tres de las cuatro personas que se fueron acabaron en el mismo rival.",
+        "¿Por qué irse? Sobre todo, dinero. Anthropic y OpenAI se acercan a salir a bolsa, así que pueden ofrecer acciones que podrían valer mucho más adelante, más que un sueldo fijo en Google. También hubo roces. Según los informes, Google quitó capacidad de cómputo al trabajo de Shazeer y se la dio a otro equipo.",
+        "Esto importa más allá de Google. El AlphaFold de Jumper cambió cómo se descubren nuevos medicamentos, y ahora Anthropic está creando herramientas para la ciencia: laboratorios, investigación en biología y alianzas con el Allen Institute y el Howard Hughes Medical Institute. Muy pocas personas pueden construir la IA más avanzada. Si haces software, dependes de estos laboratorios, así que adónde van los mejores marca qué herramientas tendrás el año que viene.",
+        "Los inversores lo notaron. La acción de Alphabet cayó cerca de un 6% en cinco días de bolsa. La lección es simple: en la IA de punta, lo más escaso no son los ordenadores ni los datos, sino el puñado de personas que ya la han construido. Cuando cuatro de ellas se van en una semana, conviene prestar atención."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "investigadores senior se fueron" },
+        { "value": "6 days", "label": "lo rápido que pasó" },
+        { "value": "3", "label": "se fueron a Anthropic" },
+        { "value": "~6%", "label": "caída de la acción de Alphabet" }
       ]
     },
     "fr": {
-      "title": "Quatre architectes de DeepMind partis en six jours",
-      "summary": "En une seule semaine, Google a perdu le co-auteur du papier Transformer et le lauréat du prix Nobel derrière AlphaFold, tous deux au profit de concurrents directs.",
+      "title": "Quatre chercheurs clés quittent DeepMind en six jours",
+      "summary": "Google a perdu en une semaine quatre de ses meilleurs chercheurs en IA. Trois sont partis directement chez un rival, Anthropic.",
       "body": [
-        "Google DeepMind a perdu quatre chercheurs senior en l'espace de six jours ce mois-ci. Noam Shazeer, co-auteur de \"Attention Is All You Need\" — le papier de 2017 qui a introduit l'architecture Transformer — est parti chez OpenAI le 18 juin. Le lendemain, John Jumper a annoncé qu'il rejoignait Anthropic après près de neuf ans chez DeepMind. Jumper a partagé le prix Nobel de chimie 2024 pour avoir dirigé le développement d'AlphaFold, un système d'IA qui a cartographié plus de 200 millions de structures protéiques.",
-        "Au 24 juin, deux contributeurs seniors supplémentaires avaient suivi: Jonas Adler, qui dirigeait des parties de l'effort de codage IA de Google, et Alexander Pritzel, qui travaillait sur le pré-entraînement de Gemini. Tous deux rejoignent Anthropic. Cela signifie que trois des quatre départs atterrissent chez un seul concurrent.",
-        "L'attrait financier est simple: Anthropic et OpenAI approchent tous deux de leurs introductions en bourse, et les participations pré-IPO qu'ils peuvent offrir dépassent ce qu'un poste salarié chez Google peut égaler. La friction interne a également joué un rôle: des rapports indiquent que les capacités de calcul ont été réaffectées des projets de Shazeer à une équipe DeepMind basée à Londres, un signal de changements de priorités que les chercheurs ignorent rarement.",
-        "AlphaFold a transformé la découverte de médicaments d'une façon encore en cours d'évaluation. Anthropic construit vers le travail d'IA pour la science: des laboratoires ouverts, des recherches sur des agents orientés biologie publiées, des partenariats de recherche avec l'Allen Institute et le Howard Hughes Medical Institute annoncés. L'arrivée de Jumper approfondit spécifiquement cette trajectoire. Pour les développeurs travaillant sur des applications biotech, des outils de codage ou tout produit en aval des capacités des modèles frontier, la concentration de ce talent compte.",
-        "L'action Alphabet a chuté d'environ 6% en cinq séances de bourse après les annonces, une lecture directe par les investisseurs de ce que ces pertes signifient pour la position concurrentielle de Google. La conclusion la plus concrète: la ressource la plus rare dans le développement d'IA frontier n'est ni le calcul ni les données, mais le petit nombre de personnes qui ont déjà construit un modèle frontier. Quand quatre d'entre elles partent en une semaine, cela mérite toute l'attention."
+        "Google DeepMind est l'un des meilleurs laboratoires d'IA au monde. Ce mois-ci, quatre de ses chercheurs les plus chevronnés sont partis en seulement six jours. Le premier, Noam Shazeer, a rejoint OpenAI le 18 juin. Il a participé à l'invention du \"transformer\", la conception de base derrière les chatbots d'aujourd'hui. Le lendemain, John Jumper a annoncé qu'il rejoignait Anthropic après presque neuf ans chez Google. Il a remporté un prix Nobel en 2024 pour AlphaFold, une IA qui a cartographié la forme de plus de 200 millions de protéines.",
+        "Au 24 juin, deux autres personnes avaient suivi Jumper chez Anthropic : Jonas Adler et Alexander Pritzel, qui travaillaient tous deux sur des projets importants de Google. Ainsi, trois des quatre partants se sont retrouvés chez le même rival.",
+        "Pourquoi partir ? Surtout l'argent. Anthropic et OpenAI se rapprochent tous deux d'une entrée en bourse, et peuvent donc offrir des actions qui pourraient valoir beaucoup plus tard, plus qu'un salaire fixe chez Google. Il y a aussi eu des frictions. Selon les rapports, Google a retiré de la puissance de calcul au travail de Shazeer pour la donner à une autre équipe.",
+        "Cela dépasse Google. L'AlphaFold de Jumper a changé la façon de découvrir de nouveaux médicaments, et Anthropic construit désormais des outils pour la science : laboratoires, recherche en biologie et partenariats avec l'Allen Institute et le Howard Hughes Medical Institute. Très peu de gens peuvent construire l'IA la plus avancée. Si vous faites des logiciels, vous dépendez de ces laboratoires : là où vont les meilleurs détermine les outils que vous aurez l'an prochain.",
+        "Les investisseurs l'ont remarqué. L'action Alphabet a chuté d'environ 6% en cinq jours de bourse. La leçon est simple : dans l'IA de pointe, la ressource la plus rare n'est ni les ordinateurs ni les données, mais la poignée de personnes qui l'ont déjà construite. Quand quatre d'entre elles partent en une semaine, cela mérite qu'on y prête attention."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "chercheurs seniors partis" },
+        { "value": "6 days", "label": "la rapidité des départs" },
+        { "value": "3", "label": "partis chez Anthropic" },
+        { "value": "~6%", "label": "baisse de l'action Alphabet" }
       ]
     },
     "ar": {
-      "title": "أربعة من مهندسي DeepMind يغادرون في ستة أيام",
-      "summary": "في أسبوع واحد، خسر Google المؤلف المشارك لورقة Transformer والحائز على جائزة نوبل خلف AlphaFold، كلاهما لصالح منافسين مباشرين.",
+      "title": "أربعة باحثين بارزين يغادرون DeepMind في ستة أيام",
+      "summary": "خسر Google في أسبوع واحد أربعة من أفضل باحثيه في الذكاء الاصطناعي. ثلاثة منهم انتقلوا مباشرة إلى منافس هو Anthropic.",
       "body": [
-        "فقدت Google DeepMind أربعة باحثين رئيسيين خلال ستة أيام متتالية هذا الشهر. غادر نعوم شازير، المؤلف المشارك لورقة «Attention Is All You Need» — الورقة التي قدّمت معمارية المحوّل عام 2017 — للانضمام إلى OpenAI في 18 يونيو. وفي اليوم التالي، أعلن جون جومبر انضمامه إلى Anthropic بعد ما يقارب تسع سنوات في DeepMind. وكان جومبر قد شارك في الحصول على جائزة نوبل في الكيمياء عام 2024 لقيادته تطوير AlphaFold، النظام الذي رسم خرائط لأكثر من 200 مليون بنية بروتينية.",
-        "بحلول 24 يونيو، تبعهم مساهمان رئيسيان آخران: جوناس أدلر، الذي قاد أجزاء من جهود الترميز بالذكاء الاصطناعي في Google، وألكسندر بريتزل، الذي عمل على التدريب المسبق لنموذج Gemini. كلاهما متجه إلى Anthropic، مما يعني أن ثلاثة من أصل أربعة مغادرين انتهى بهم المطاف عند منافس واحد.",
-        "الجذب المالي واضح: تقترب كل من Anthropic وOpenAI من طرحهما العام الأولي، والأسهم قبل الطرح العام التي تستطيعان تقديمها تفوق ما تتيحه وظيفة براتب ثابت في Google. كما أسهم الاحتكاك الداخلي في ذلك؛ إذ تشير التقارير إلى أن طاقة الحوسبة أُعيد توجيهها بعيداً عن مشاريع شازير نحو فريق DeepMind في لندن، وهو مؤشر على تحولات الأولويات نادراً ما يتجاهله الباحثون.",
-        "غيّر AlphaFold اكتشاف الأدوية بطريقة لا تزال تُقاس نتائجها. تسعى Anthropic إلى بناء قدرات في مجال الذكاء الاصطناعي للعلوم: مختبرات رطبة افتُتحت، وأبحاث عن وكلاء متخصصين في علم الأحياء نُشرت، وشراكات بحثية مع معهد Allen ومعهد Howard Hughes الطبي أُعلن عنها. يعمّق وصول جومبر هذا المسار تحديداً. بالنسبة للمطورين العاملين على تطبيقات التكنولوجيا الحيوية أو أدوات البرمجة أو أي منتج يعتمد على قدرات النماذج الحدّية، فإن تركّز هذه الكفاءات يستحق الاهتمام.",
-        "انخفض سهم Alphabet بنحو 6% في خمسة أيام تداول بعد الإعلانات، وهو ما يعكس قراءة مباشرة من المستثمرين لما تعنيه هذه الخسائر لموقع Google التنافسي. الخلاصة الأكثر وضوحاً: أندر الموارد في تطوير نماذج الذكاء الاصطناعي الحدّية ليست قدرة الحوسبة أو البيانات، بل العدد الضئيل من الأشخاص الذين سبق لهم بناء نموذج حدّي. حين يغادر أربعة منهم في أسبوع واحد، فذلك يستحق التأمل."
+        "تُعد Google DeepMind من أبرز مختبرات الذكاء الاصطناعي في العالم. هذا الشهر غادر أربعة من أكبر باحثيها خلال ستة أيام فقط. أولهم نعوم شازير، الذي انتقل إلى OpenAI في 18 يونيو. وهو من ساعد في ابتكار «المحوّل» (transformer)، وهو التصميم الأساسي الذي تقوم عليه روبوتات الدردشة اليوم. وفي اليوم التالي أعلن جون جومبر انضمامه إلى Anthropic بعد قرابة تسع سنوات في Google. وقد فاز بجائزة نوبل عام 2024 عن AlphaFold، وهو ذكاء اصطناعي رسم أشكال أكثر من 200 مليون بروتين.",
+        "وبحلول 24 يونيو، تبع جومبر شخصان آخران إلى Anthropic: جوناس أدلر وألكسندر بريتزل، وكلاهما عمل على مشاريع مهمة في Google. وهكذا انتهى المطاف بثلاثة من المغادرين الأربعة عند المنافس نفسه.",
+        "لماذا يغادرون؟ المال في المقام الأول. تقترب كل من Anthropic وOpenAI من الطرح في البورصة، ولذلك يمكنهما تقديم أسهم قد تصبح قيمتها كبيرة لاحقاً، أكثر من راتب ثابت في Google. كما كان هناك توتر داخلي. تقول التقارير إن Google سحبت قدرة حوسبة من عمل شازير وأعطتها لفريق آخر.",
+        "وهذا يتجاوز Google. غيّر AlphaFold طريقة اكتشاف الأدوية الجديدة، وتبني Anthropic الآن أدوات للعلوم: مختبرات وأبحاث في علم الأحياء وشراكات مع معهد Allen ومعهد Howard Hughes الطبي. قليلون جداً في العالم يستطيعون بناء أكثر أنواع الذكاء الاصطناعي تقدماً. ومن يصنع البرمجيات يعتمد على هذه المختبرات، فوجهة أفضل العقول تحدد الأدوات التي ستتوفر لك العام المقبل.",
+        "لاحظ المستثمرون ذلك. تراجع سهم Alphabet نحو 6% خلال خمسة أيام تداول. والدرس بسيط: في الذكاء الاصطناعي المتقدم، أندر الموارد ليس أجهزة الحاسوب ولا البيانات، بل العدد القليل من الأشخاص الذين سبق أن بنوه. وحين يغادر أربعة منهم في أسبوع واحد، فالأمر يستحق الانتباه."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "باحثون كبار غادروا" },
+        { "value": "6 days", "label": "سرعة حدوث ذلك" },
+        { "value": "3", "label": "منهم إلى Anthropic" },
+        { "value": "~6%", "label": "هبوط سهم Alphabet" }
       ]
     }
   }

@@ -2,6 +2,11 @@
   "slug": "2026-06-25-mistral-ocr-4",
   "date": "2026-06-25",
   "tags": ["ai"],
+  "image": {
+    "url": "https://mistral.ai/images/heros/hero-ocr4-image.jpg",
+    "alt": "Promotional hero image for Mistral OCR 4",
+    "credit": "Mistral AI"
+  },
   "sources": [
     { "title": "Mistral AI — Mistral OCR 4: SOTA OCR for Document Intelligence", "url": "https://mistral.ai/news/ocr-4/" },
     { "title": "MarkTechPost — Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines", "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/" },
@@ -9,69 +14,105 @@
   ],
   "locales": {
     "en": {
-      "title": "Mistral OCR 4 Makes Document Parsing a First-Class Pipeline Component",
-      "summary": "Mistral's fourth OCR release adds bounding boxes, block classification, and per-word confidence scores — and runs entirely inside your own infrastructure.",
+      "title": "Mistral OCR 4 reads documents and keeps their shape",
+      "summary": "Mistral's new tool turns scans and photos into editable text, and it remembers what each part is — a title, a table, a signature. It can run entirely on your own computers.",
       "body": [
-        "On June 23, Mistral released OCR 4, a document intelligence model that does significantly more than extract text. The model returns structured output — bounding boxes, block-type labels (titles, tables, equations, signatures), and confidence scores at both the word and page level — making it something closer to a semantic document parser than a traditional OCR tool.",
-        "The practical shift is in how document content flows into downstream pipelines. Instead of dumping raw text that your application has to re-segment, OCR 4 outputs chunks that already respect the document's logical structure. That matters for RAG systems, enterprise search indexes, and agentic workflows where an LLM needs to cite a specific section rather than wade through a concatenated blob.",
-        "Mistral is positioning this explicitly as an enterprise-grade, sovereignty-friendly tool. The model deploys in a single container, meaning regulated organizations can run it fully on-premises with no data leaving the building. It is also available via Mistral's API, Amazon SageMaker, and Microsoft Foundry. Pricing is $4 per 1,000 pages on the standard API, dropping to $2 with the Batch API.",
-        "On benchmarks, OCR 4 scored 85.20 on OlmOCRBench and 93.07 on OmniDocBench. Human annotators preferred it over competing systems with a 72% win rate. The model covers 170 languages across ten language groups, with particular improvements on low-resource languages — relevant for any pipeline ingesting documents from multiple regions.",
-        "For builders running RAG or document-heavy workflows, the self-hosted path removes one of the harder objections to cloud-based extraction: you do not have to send your clients' contracts to a third-party API. The structured output format also reduces the preprocessing glue code that accumulates around document ingestion. Whether it holds up on messy scans and non-standard layouts in real enterprise document sets is the test that matters."
+        "On June 23, the French AI company Mistral released a new tool called OCR 4. OCR is software that turns a picture of text — a scan or a photo — into real, editable text. This version does more than read the words. It also recognises what each part of the page is: a title, a table, a formula, or a signature.",
+        "That extra understanding is the point. Most OCR tools hand you one long, messy block of text that you then have to sort out. OCR 4 keeps the document's shape, so a title stays a title and a table stays a table. It even marks how sure it is about each word. For anyone building a search tool or an AI assistant that needs to quote the right paragraph, that saves a lot of cleanup.",
+        "The biggest selling point is privacy. OCR 4 fits inside a single container, which means a company can run it on its own computers. The files never leave the building. For a law firm, a clinic, or an accountant who can't send client documents to an outside service, that is a real difference. If you prefer, you can also use it through Mistral's online service.",
+        "It is also cheap and broad. The price is $4 per 1,000 pages, or $2 if you send pages in batches. It handles 170 languages, with clear gains on the less common ones. In tests, people preferred its results over rival tools 72% of the time.",
+        "If you deal with a lot of paperwork — invoices, contracts, forms — this is the kind of tool that quietly removes hours of typing and tidying. The real test is how it copes with crumpled, badly scanned, or oddly laid-out pages. But the direction is clear: turning documents into clean, usable data keeps getting easier, and more private."
+      ],
+      "keyFacts": [
+        { "value": "June 23", "label": "Release date" },
+        { "value": "$2–4", "label": "Per 1,000 pages" },
+        { "value": "170", "label": "Languages supported" },
+        { "value": "72%", "label": "Preferred by human reviewers" }
       ]
     },
     "de": {
-      "title": "Mistral OCR 4 macht Dokumenten-Parsing zu einem erstklassigen Pipeline-Baustein",
-      "summary": "Mistrals vierte OCR-Version ergänzt Bounding Boxes, Block-Klassifizierung und Konfidenzwerte auf Wortebene – und läuft vollständig in der eigenen Infrastruktur.",
+      "title": "Mistral OCR 4 liest Dokumente und behält ihre Form",
+      "summary": "Mistrals neues Werkzeug macht aus Scans und Fotos bearbeitbaren Text – und merkt sich, was jeder Teil ist: Titel, Tabelle, Unterschrift. Es kann komplett auf den eigenen Rechnern laufen.",
       "body": [
-        "Am 23. Juni veröffentlichte Mistral OCR 4, ein Dokumenten-Intelligenz-Modell, das deutlich mehr leistet als reine Textextraktion. Das Modell gibt strukturierten Output zurück – Bounding Boxes, Block-Typ-Labels (Überschriften, Tabellen, Gleichungen, Unterschriften) und Konfidenzwerte auf Wort- und Seitenebene. Es kommt damit einem semantischen Dokumenten-Parser näher als einem klassischen OCR-Werkzeug.",
-        "Der praktische Unterschied liegt darin, wie Dokumentinhalte in nachgelagerte Pipelines fließen. Statt rohen Text zu liefern, den die Anwendung selbst neu segmentieren muss, gibt OCR 4 Chunks aus, die bereits die logische Struktur des Dokuments widerspiegeln. Das ist entscheidend für RAG-Systeme, Enterprise-Suchindizes und agentische Workflows, bei denen ein Sprachmodell einen spezifischen Abschnitt zitieren soll, anstatt durch einen zusammengefügten Textblock zu navigieren.",
-        "Mistral positioniert das Modell explizit als enterprise-taugliches, souveränitätsorientiertes Werkzeug. Es lässt sich in einem einzigen Container bereitstellen, sodass regulierte Organisationen es vollständig on-premises betreiben können, ohne dass Daten das Haus verlassen. Zusätzlich ist es über Mistrals API, Amazon SageMaker und Microsoft Foundry verfügbar. Der Preis liegt bei 4 USD pro 1.000 Seiten über die Standard-API, mit der Batch-API sinkt er auf 2 USD.",
-        "Im Benchmark erreichte OCR 4 85,20 Punkte auf OlmOCRBench und 93,07 auf OmniDocBench. Menschliche Bewerter bevorzugten es gegenüber konkurrierenden Systemen mit einer Gewinnrate von 72 %. Das Modell unterstützt 170 Sprachen in zehn Sprachgruppen, mit besonders starken Verbesserungen bei ressourcenschwachen Sprachen – relevant für Pipelines, die Dokumente aus verschiedenen Regionen verarbeiten.",
-        "Für Entwickler mit RAG- oder dokumentenintensiven Workflows beseitigt der Self-Hosted-Pfad einen der schwierigsten Einwände gegen cloudbasierte Extraktion: Verträge der Kunden müssen nicht an eine Drittanbieter-API gesendet werden. Das strukturierte Ausgabeformat reduziert zudem den Vorverarbeitungs-Code, der sich rund um die Dokumentenverarbeitung ansammelt. Ob das Modell mit unordentlichen Scans und nicht standardisierten Layouts in echten Enterprise-Dokumenten zurechtkommt, ist die eigentliche Bewährungsprobe."
+        "Am 23. Juni hat das französische KI-Unternehmen Mistral ein neues Werkzeug namens OCR 4 veröffentlicht. OCR ist Software, die ein Bild von Text – einen Scan oder ein Foto – in echten, bearbeitbaren Text verwandelt. Diese Version liest aber nicht nur die Wörter. Sie erkennt auch, was jeder Teil der Seite ist: ein Titel, eine Tabelle, eine Formel oder eine Unterschrift.",
+        "Genau dieses zusätzliche Verständnis ist der Kern. Die meisten OCR-Programme geben einen einzigen langen, unordentlichen Textblock zurück, den man danach erst sortieren muss. OCR 4 behält die Form des Dokuments: Ein Titel bleibt ein Titel, eine Tabelle bleibt eine Tabelle. Es zeigt sogar an, wie sicher es sich bei jedem Wort ist. Wer ein Suchwerkzeug oder einen KI-Assistenten baut, der die richtige Stelle zitieren soll, spart sich viel Aufräumarbeit.",
+        "Das stärkste Argument ist der Datenschutz. OCR 4 passt in einen einzigen Container, ein Unternehmen kann es also auf den eigenen Rechnern betreiben. Die Dateien verlassen das Haus nie. Für eine Anwaltskanzlei, eine Praxis oder einen Steuerberater, die Kundenunterlagen nicht an einen fremden Dienst schicken dürfen, ist das ein echter Unterschied. Wer möchte, kann es auch über Mistrals Online-Dienst nutzen.",
+        "Es ist außerdem günstig und vielseitig. Der Preis liegt bei 4 US-Dollar pro 1.000 Seiten, oder 2 Dollar, wenn man Seiten gebündelt schickt. Es beherrscht 170 Sprachen, mit deutlichen Fortschritten bei den selteneren. In Tests bevorzugten Menschen die Ergebnisse in 72 % der Fälle gegenüber Konkurrenzprodukten.",
+        "Wer viel mit Papierkram zu tun hat – Rechnungen, Verträge, Formulare –, bekommt hier ein Werkzeug, das still und leise Stunden des Abtippens und Sortierens erspart. Die eigentliche Probe ist, wie es mit zerknitterten, schlecht gescannten oder ungewöhnlich aufgebauten Seiten umgeht. Aber die Richtung ist klar: Dokumente in saubere, nutzbare Daten zu verwandeln, wird immer einfacher – und privater."
+      ],
+      "keyFacts": [
+        { "value": "June 23", "label": "Veröffentlichung" },
+        { "value": "$2–4", "label": "Pro 1.000 Seiten" },
+        { "value": "170", "label": "Unterstützte Sprachen" },
+        { "value": "72%", "label": "Von Menschen bevorzugt" }
       ]
     },
     "nl": {
-      "title": "Mistral OCR 4 maakt documentparsing een volwaardige pipeline-component",
-      "summary": "Mistrals vierde OCR-release voegt bounding boxes, blokclassificatie en betrouwbaarheidsscores per woord toe – en draait volledig binnen je eigen infrastructuur.",
+      "title": "Mistral OCR 4 leest documenten en behoudt hun vorm",
+      "summary": "Mistrals nieuwe tool zet scans en foto's om in bewerkbare tekst, en onthoudt wat elk deel is: een titel, een tabel, een handtekening. Hij kan volledig op je eigen computers draaien.",
       "body": [
-        "Op 23 juni lanceerde Mistral OCR 4, een model voor documentintelligentie dat aanzienlijk meer doet dan tekst extraheren. Het model geeft gestructureerde output terug – bounding boxes, bloktype-labels (titels, tabellen, vergelijkingen, handtekeningen) en betrouwbaarheidsscores op woord- en paginaniveau – waardoor het eerder een semantische documentparser is dan een klassiek OCR-hulpmiddel.",
-        "De praktische verschuiving zit in de manier waarop documentinhoud de verdere pipeline instroomt. In plaats van ruwe tekst te dumpen die de applicatie zelf opnieuw moet segmenteren, levert OCR 4 chunks op die al de logische structuur van het document respecteren. Dat maakt een verschil voor RAG-systemen, enterprise-zoekindexen en agentische workflows, waarbij een taalmodel een specifiek gedeelte moet citeren in plaats van door een aaneengesloten tekst te waden.",
-        "Mistral positioneert dit model expliciet als enterprise-grade en soevereiniteitsvriendelijk. Het model draait in één container, zodat gereguleerde organisaties het volledig on-premises kunnen inzetten zonder dat data het gebouw verlaat. Daarnaast is het beschikbaar via Mistrals API, Amazon SageMaker en Microsoft Foundry. De prijs is 4 dollar per 1.000 pagina's via de standaard-API, en daalt naar 2 dollar via de Batch API.",
-        "Op benchmarks scoorde OCR 4 85,20 op OlmOCRBench en 93,07 op OmniDocBench. Menselijke beoordelaars gaven de voorkeur aan het model boven concurrerende systemen met een winrate van 72%. Het model ondersteunt 170 talen in tien taalgroepen, met verbeteringen voor laagresourcetalen die relevant zijn voor pipelines die documenten uit meerdere regio's verwerken.",
-        "Voor ontwikkelaars met RAG of documentzware workflows ruimt het self-hosted pad één van de hardste bezwaren tegen cloudgebaseerde extractie op: de contracten van klanten hoeven niet naar een externe API te worden gestuurd. Het gestructureerde outputformaat vermindert ook de preprocessingcode die zich ophoopt bij documentingestie. Of het model standhoud bij rommelige scans en niet-standaard indelingen in echte enterprise-documentsets, is de test die er écht toe doet."
+        "Op 23 juni bracht het Franse AI-bedrijf Mistral een nieuw hulpmiddel uit: OCR 4. OCR is software die een afbeelding van tekst – een scan of een foto – omzet in echte, bewerkbare tekst. Deze versie leest niet alleen de woorden. Hij herkent ook wat elk deel van de pagina is: een titel, een tabel, een formule of een handtekening.",
+        "Juist dat extra begrip is waar het om draait. De meeste OCR-programma's geven één lange, rommelige tekstblok terug die je daarna zelf moet uitzoeken. OCR 4 behoudt de vorm van het document: een titel blijft een titel, een tabel blijft een tabel. Hij geeft zelfs aan hoe zeker hij is van elk woord. Wie een zoektool of een AI-assistent bouwt die de juiste passage moet citeren, bespaart zo veel opruimwerk.",
+        "Het grootste pluspunt is privacy. OCR 4 past in één container, dus een bedrijf kan het op de eigen computers draaien. De bestanden verlaten het gebouw nooit. Voor een advocatenkantoor, een praktijk of een boekhouder die klantdocumenten niet naar een externe dienst mag sturen, is dat een echt verschil. Wie wil, kan het ook via Mistrals onlinedienst gebruiken.",
+        "Het is bovendien goedkoop en breed inzetbaar. De prijs is 4 dollar per 1.000 pagina's, of 2 dollar als je pagina's gebundeld verstuurt. Het ondersteunt 170 talen, met duidelijke vooruitgang bij de minder voorkomende. In tests verkozen mensen de resultaten in 72% van de gevallen boven concurrerende tools.",
+        "Wie veel met papierwerk te maken heeft – facturen, contracten, formulieren – krijgt hier een hulpmiddel dat stilletjes uren typen en ordenen wegneemt. De echte test is hoe het omgaat met gekreukelde, slecht gescande of ongewoon opgemaakte pagina's. Maar de richting is duidelijk: documenten omzetten in nette, bruikbare data wordt steeds makkelijker – en privacyvriendelijker."
+      ],
+      "keyFacts": [
+        { "value": "June 23", "label": "Releasedatum" },
+        { "value": "$2–4", "label": "Per 1.000 pagina's" },
+        { "value": "170", "label": "Ondersteunde talen" },
+        { "value": "72%", "label": "Verkozen door mensen" }
       ]
     },
     "es": {
-      "title": "Mistral OCR 4 convierte el análisis de documentos en un componente de primera clase en el pipeline",
-      "summary": "La cuarta versión OCR de Mistral añade bounding boxes, clasificación de bloques y puntuaciones de confianza por palabra, y se ejecuta completamente dentro de tu propia infraestructura.",
+      "title": "Mistral OCR 4 lee documentos y conserva su forma",
+      "summary": "La nueva herramienta de Mistral convierte escaneos y fotos en texto editable, y recuerda qué es cada parte: un título, una tabla, una firma. Puede funcionar por completo en tus propios equipos.",
       "body": [
-        "El 23 de junio, Mistral lanzó OCR 4, un modelo de inteligencia documental que hace bastante más que extraer texto. El modelo devuelve una salida estructurada: bounding boxes, etiquetas de tipo de bloque (títulos, tablas, ecuaciones, firmas) y puntuaciones de confianza a nivel de palabra y página, lo que lo acerca más a un analizador semántico de documentos que a una herramienta OCR tradicional.",
-        "El cambio práctico está en cómo fluye el contenido de los documentos hacia los pasos siguientes del pipeline. En lugar de volcar texto bruto que la aplicación tiene que volver a segmentar, OCR 4 produce fragmentos que ya respetan la estructura lógica del documento. Eso importa en sistemas RAG, índices de búsqueda empresarial y flujos de trabajo agénticos donde un modelo de lenguaje necesita citar una sección específica en lugar de navegar por un bloque de texto concatenado.",
-        "Mistral posiciona esto explícitamente como una herramienta de nivel empresarial y orientada a la soberanía de datos. El modelo se despliega en un único contenedor, lo que permite a las organizaciones reguladas ejecutarlo completamente on-premises sin que ningún dato salga de sus instalaciones. También está disponible a través de la API de Mistral, Amazon SageMaker y Microsoft Foundry. El precio es de 4 dólares por cada 1.000 páginas en la API estándar, bajando a 2 dólares con la API por lotes.",
-        "En benchmarks, OCR 4 obtuvo 85,20 en OlmOCRBench y 93,07 en OmniDocBench. Los anotadores humanos lo prefirieron frente a los sistemas competidores con una tasa de victorias del 72%. El modelo cubre 170 idiomas en diez grupos lingüísticos, con mejoras destacadas en idiomas de bajos recursos, algo relevante para cualquier pipeline que procese documentos de múltiples regiones.",
-        "Para los desarrolladores con RAG o flujos de trabajo con muchos documentos, el despliegue self-hosted elimina uno de los argumentos más difíciles contra la extracción en la nube: no hay que enviar los contratos de los clientes a una API de terceros. El formato de salida estructurada también reduce el código de preprocesamiento que se acumula en torno a la ingestión de documentos. Si aguanta ante escaneos desordenados y formatos no estándar en conjuntos de documentos empresariales reales, esa es la prueba que realmente importa."
+        "El 23 de junio, la empresa francesa de IA Mistral lanzó una nueva herramienta llamada OCR 4. El OCR es un software que convierte una imagen de texto —un escaneo o una foto— en texto real y editable. Esta versión no solo lee las palabras. También reconoce qué es cada parte de la página: un título, una tabla, una fórmula o una firma.",
+        "Esa comprensión extra es lo importante. La mayoría de los programas de OCR devuelven un único bloque de texto largo y desordenado que luego hay que arreglar. OCR 4 conserva la forma del documento: un título sigue siendo un título y una tabla sigue siendo una tabla. Incluso indica cuán seguro está de cada palabra. Quien crea un buscador o un asistente de IA que debe citar el párrafo correcto se ahorra mucho trabajo de limpieza.",
+        "El mayor argumento es la privacidad. OCR 4 cabe en un solo contenedor, así que una empresa puede ejecutarlo en sus propios equipos. Los archivos nunca salen del edificio. Para un despacho de abogados, una clínica o un asesor contable que no puede enviar documentos de sus clientes a un servicio externo, eso es una diferencia real. Si lo prefieres, también puedes usarlo a través del servicio en línea de Mistral.",
+        "Además es barato y versátil. El precio es de 4 dólares por cada 1.000 páginas, o 2 dólares si envías las páginas en lotes. Admite 170 idiomas, con mejoras claras en los menos comunes. En las pruebas, las personas prefirieron sus resultados frente a las herramientas rivales el 72% de las veces.",
+        "Si trabajas con mucho papeleo —facturas, contratos, formularios—, esta es la clase de herramienta que elimina en silencio horas de tecleo y ordenado. La verdadera prueba es cómo se las arregla con páginas arrugadas, mal escaneadas o con diseños poco habituales. Pero la dirección está clara: convertir documentos en datos limpios y útiles es cada vez más fácil, y más privado."
+      ],
+      "keyFacts": [
+        { "value": "June 23", "label": "Fecha de lanzamiento" },
+        { "value": "$2–4", "label": "Por cada 1.000 páginas" },
+        { "value": "170", "label": "Idiomas admitidos" },
+        { "value": "72%", "label": "Preferido por personas" }
       ]
     },
     "fr": {
-      "title": "Mistral OCR 4 fait du parsing de documents un composant de pipeline à part entière",
-      "summary": "La quatrième génération OCR de Mistral ajoute des bounding boxes, une classification de blocs et des scores de confiance par mot — et tourne entièrement dans votre propre infrastructure.",
+      "title": "Mistral OCR 4 lit les documents et garde leur forme",
+      "summary": "Le nouvel outil de Mistral transforme scans et photos en texte modifiable, et retient ce qu'est chaque partie : un titre, un tableau, une signature. Il peut tourner entièrement sur vos propres ordinateurs.",
       "body": [
-        "Le 23 juin, Mistral a publié OCR 4, un modèle d'intelligence documentaire qui fait bien plus qu'extraire du texte. Le modèle retourne une sortie structurée — bounding boxes, labels de type de bloc (titres, tableaux, équations, signatures) et scores de confiance au niveau du mot et de la page — ce qui l'apparente davantage à un analyseur sémantique de documents qu'à un outil OCR traditionnel.",
-        "Le changement pratique se situe dans la façon dont le contenu des documents alimente les étapes suivantes du pipeline. Plutôt que de déverser du texte brut que l'application doit re-segmenter, OCR 4 produit des fragments qui respectent déjà la structure logique du document. C'est décisif pour les systèmes RAG, les index de recherche d'entreprise et les workflows agentiques où un modèle de langage doit citer une section précise plutôt que de naviguer dans un bloc de texte concaténé.",
-        "Mistral positionne explicitement ce modèle comme un outil enterprise favorable à la souveraineté des données. Il se déploie dans un seul conteneur, permettant aux organisations régulées de l'exploiter entièrement on-premises sans que les données ne quittent leurs locaux. Il est également disponible via l'API de Mistral, Amazon SageMaker et Microsoft Foundry. La tarification est de 4 dollars pour 1 000 pages sur l'API standard, descendant à 2 dollars avec l'API par lots.",
-        "Sur les benchmarks, OCR 4 a obtenu 85,20 sur OlmOCRBench et 93,07 sur OmniDocBench. Des annotateurs humains l'ont préféré aux systèmes concurrents avec un taux de victoire de 72 %. Le modèle prend en charge 170 langues dans dix groupes linguistiques, Mistral soulignant en particulier les améliorations sur les langues à faibles ressources — pertinent pour tout pipeline qui ingère des documents de plusieurs régions.",
-        "Pour les développeurs qui gèrent des workflows RAG ou fortement documentaires, le déploiement self-hosted lève l'une des objections les plus difficiles à l'extraction en cloud : il n'est plus nécessaire d'envoyer les contrats de ses clients vers une API tierce. Le format de sortie structuré réduit également le code de pré-traitement qui s'accumule autour de l'ingestion de documents. Reste à savoir si le modèle tient face à des scans mal formés et des mises en page non standard dans de vrais ensembles de documents d'entreprise — c'est le vrai test."
+        "Le 23 juin, l'entreprise française d'IA Mistral a publié un nouvel outil appelé OCR 4. L'OCR est un logiciel qui transforme une image de texte — un scan ou une photo — en texte réel et modifiable. Cette version ne se contente pas de lire les mots. Elle reconnaît aussi ce qu'est chaque partie de la page : un titre, un tableau, une formule ou une signature.",
+        "C'est cette compréhension supplémentaire qui compte. La plupart des logiciels d'OCR renvoient un seul bloc de texte long et brouillon, qu'il faut ensuite remettre en ordre. OCR 4 garde la forme du document : un titre reste un titre, un tableau reste un tableau. Il indique même à quel point il est sûr de chaque mot. Pour qui construit un moteur de recherche ou un assistant IA censé citer le bon paragraphe, cela évite beaucoup de nettoyage.",
+        "Le plus grand atout, c'est la confidentialité. OCR 4 tient dans un seul conteneur, donc une entreprise peut le faire tourner sur ses propres ordinateurs. Les fichiers ne quittent jamais les locaux. Pour un cabinet d'avocats, un cabinet médical ou un comptable qui ne peut pas envoyer les documents de ses clients à un service extérieur, c'est une vraie différence. Si vous préférez, vous pouvez aussi l'utiliser via le service en ligne de Mistral.",
+        "Il est en plus bon marché et polyvalent. Le prix est de 4 dollars pour 1 000 pages, ou 2 dollars si vous envoyez les pages par lots. Il gère 170 langues, avec des progrès nets sur les moins courantes. Lors des tests, les gens ont préféré ses résultats à ceux des outils concurrents dans 72 % des cas.",
+        "Si vous croulez sous la paperasse — factures, contrats, formulaires —, voici le genre d'outil qui supprime en silence des heures de saisie et de rangement. Le vrai test, c'est sa façon de gérer les pages froissées, mal scannées ou à la mise en page inhabituelle. Mais la direction est claire : transformer des documents en données propres et exploitables devient de plus en plus simple, et plus respectueux de la vie privée."
+      ],
+      "keyFacts": [
+        { "value": "June 23", "label": "Date de sortie" },
+        { "value": "$2–4", "label": "Pour 1 000 pages" },
+        { "value": "170", "label": "Langues prises en charge" },
+        { "value": "72%", "label": "Préféré par des humains" }
       ]
     },
     "ar": {
-      "title": "Mistral OCR 4: تحويل معالجة المستندات إلى مكوّن أساسي في خطوط الإنتاج",
-      "summary": "يضيف الإصدار الرابع من Mistral للتعرف الضوئي على الحروف مربعات تحديد الموضع وتصنيف الكتل ودرجات الثقة لكل كلمة، مع تشغيل كامل داخل بنيتك التحتية الخاصة.",
+      "title": "Mistral OCR 4 يقرأ المستندات ويحافظ على شكلها",
+      "summary": "أداة Mistral الجديدة تحوّل الصور الممسوحة والصور الفوتوغرافية إلى نص قابل للتعديل، وتتذكّر ما هو كل جزء: عنوان أم جدول أم توقيع. ويمكن تشغيلها بالكامل على أجهزتك الخاصة.",
       "body": [
-        "في 23 يونيو، أطلقت Mistral نموذج OCR 4، وهو نموذج لفهم المستندات يتجاوز مجرد استخراج النص بكثير. يُعيد النموذج مخرجات منظمة تشمل مربعات تحديد الموضع، وتسميات لأنواع الكتل (عناوين، جداول، معادلات، توقيعات)، ودرجات ثقة على مستوى الكلمة والصفحة، مما يجعله أقرب إلى محلل دلالي للمستندات منه إلى أداة تعرف ضوئي تقليدية.",
-        "يكمن التغيير العملي في طريقة تدفق محتوى المستندات إلى مراحل المعالجة اللاحقة. بدلاً من إخراج نص خام تضطر التطبيقات إلى إعادة تجزئته، يُنتج OCR 4 مقاطع تحترم بالفعل البنية المنطقية للمستند. هذا يُحدث فرقاً في أنظمة RAG وفهارس البحث المؤسسي وسير العمل الوكيلي، حيث يحتاج نموذج اللغة الكبير إلى الاستشهاد بقسم محدد بدلاً من التنقل عبر كتلة نصية مدمجة.",
-        "تُضع Mistral هذا النموذج صراحةً كأداة مؤسسية صديقة لسيادة البيانات. يُنشر النموذج في حاوية واحدة، مما يتيح للمؤسسات الخاضعة للتنظيم تشغيله بالكامل داخل بنيتها التحتية دون خروج أي بيانات. كما يتوفر عبر واجهة Mistral البرمجية وAmazon SageMaker وMicrosoft Foundry. يبلغ السعر 4 دولارات لكل 1,000 صفحة عبر الواجهة العادية، وينخفض إلى 2 دولار مع واجهة الدفعات.",
-        "على مستوى المعايير القياسية، حقق OCR 4 درجة 85.20 على OlmOCRBench و93.07 على OmniDocBench، فيما فضّله المُقيّمون البشريون على الأنظمة المنافسة بمعدل فوز بلغ 72%. يدعم النموذج 170 لغة موزعة على عشر مجموعات لغوية، مع تحسينات ملحوظة في اللغات منخفضة الموارد، وهو ما له أهمية خاصة لأي خط معالجة يستوعب مستندات من مناطق متعددة.",
-        "بالنسبة للمطورين الذين يديرون أنظمة RAG أو سير عمل تعتمد بكثافة على المستندات، يُزيل خيار الاستضافة الذاتية أحد أصعب الاعتراضات على الاستخراج السحابي: لن تضطر إلى إرسال عقود عملائك إلى واجهة برمجية خارجية. كما يُقلل تنسيق المخرجات المنظمة من كود المعالجة المسبقة الذي يتراكم عادةً في مراحل استيعاب المستندات. أما ما إذا كان النموذج يصمد أمام المسح الضوئي الرديء والتخطيطات غير القياسية في مجموعات المستندات المؤسسية الحقيقية، فهذا هو الاختبار الفاصل."
+        "في 23 يونيو، أطلقت شركة الذكاء الاصطناعي الفرنسية Mistral أداة جديدة باسم OCR 4. والـ OCR برنامج يحوّل صورة النص — مسحاً ضوئياً أو صورة فوتوغرافية — إلى نص حقيقي قابل للتعديل. لكن هذا الإصدار لا يقرأ الكلمات فقط، بل يتعرّف أيضاً على طبيعة كل جزء من الصفحة: عنوان أم جدول أم معادلة أم توقيع.",
+        "هذا الفهم الإضافي هو بيت القصيد. معظم برامج التعرف الضوئي تعيد كتلة نصية واحدة طويلة وغير مرتبة عليك ترتيبها بنفسك بعد ذلك. أما OCR 4 فيحافظ على شكل المستند: العنوان يبقى عنواناً، والجدول يبقى جدولاً. بل يوضّح مدى ثقته في كل كلمة. ومن يبني أداة بحث أو مساعداً بالذكاء الاصطناعي يحتاج إلى اقتباس الفقرة الصحيحة، يوفّر بذلك الكثير من عمل التنظيف.",
+        "أكبر ميزة هي الخصوصية. يتسع OCR 4 في حاوية واحدة، أي أن الشركة تستطيع تشغيله على أجهزتها الخاصة. والملفات لا تغادر المكان أبداً. وهذا فرق حقيقي لمكتب محاماة أو عيادة أو محاسب لا يمكنه إرسال مستندات عملائه إلى خدمة خارجية. وإن شئت، يمكنك أيضاً استخدامه عبر خدمة Mistral على الإنترنت.",
+        "وهو كذلك رخيص ومتعدد الاستخدامات. السعر 4 دولارات لكل 1,000 صفحة، أو دولاران إذا أرسلت الصفحات على دفعات. يدعم 170 لغة، مع تحسّن واضح في اللغات الأقل شيوعاً. وفي الاختبارات، فضّل الناس نتائجه على الأدوات المنافسة في 72% من الحالات.",
+        "إن كنت تتعامل مع كثير من الأوراق — فواتير وعقود ونماذج — فهذه أداة تختصر بهدوء ساعات من الكتابة والترتيب اليدوي. والاختبار الحقيقي هو كيف يتعامل مع الصفحات المتجعّدة أو الممسوحة بجودة سيئة أو ذات التنسيق غير المعتاد. لكن الاتجاه واضح: تحويل المستندات إلى بيانات نظيفة وقابلة للاستخدام يزداد سهولة — وخصوصية."
+      ],
+      "keyFacts": [
+        { "value": "June 23", "label": "تاريخ الإطلاق" },
+        { "value": "$2–4", "label": "لكل 1,000 صفحة" },
+        { "value": "170", "label": "اللغات المدعومة" },
+        { "value": "72%", "label": "فضّله المُقيّمون" }
       ]
     }
   }

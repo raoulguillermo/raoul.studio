@@ -2,6 +2,11 @@
   "slug": "2026-06-27-mit-masked-irl-robot-instructions",
   "date": "2026-06-27",
   "tags": ["ai", "robotics"],
+  "image": {
+    "url": "https://www.digitado.com.br/wp-content/uploads/2026/06/mit-csail-Masked-RL-1Q8uF9-1024x683-978x400.jpg",
+    "alt": "A robotic arm working at a desk near a laptop and a coffee mug",
+    "credit": "Digitado"
+  },
   "sources": [
     {
       "title": "MIT News — LLMs help robots understand vague instructions and focus on key details",
@@ -18,69 +23,105 @@
   ],
   "locales": {
     "en": {
-      "title": "MIT's Masked IRL Teaches Robots to Read Between the Lines",
-      "summary": "MIT CSAIL's new two-LLM system learns robot tasks from vague human instructions with 80% less demonstration data.",
+      "title": "MIT teaches robots to understand what you really mean",
+      "summary": "MIT researchers built a way for robots to learn a task from vague instructions and far fewer examples. It needs about 80% less practice data than before.",
       "body": [
-        "Getting a robot to do what you actually mean — not just what you literally said — is harder than it sounds. Human instructions are full of implicit context: 'stay close to the laptop' assumes the robot knows which direction, how close, and when that rule stops applying. A team at MIT's CSAIL published a technique called Masked Inverse Reinforcement Learning (Masked IRL) on June 26 and presented it at ICRA 2026, directly addressing this disambiguation problem.",
-        "The system chains two language models. The first watches kinesthetic demonstrations — a human physically guiding the robot's arm — and elaborates on vague instructions in light of what it observes, converting 'stay close' into 'maintain close contact with the table surface.' The second LLM then scores every element in the environment as relevant (1) or ignorable (0), producing a mask that filters the scene before the motion planner runs.",
-        "The results are concrete: Masked IRL correctly identified unstated user preferences 15% more often than comparable approaches, and required roughly five times fewer demonstrations to reach the same capability. A physical robotic arm completed tasks like moving coffee mugs around laptops and wiping tables without being told explicitly which obstacles to avoid.",
-        "For teams building robot-assisted workflows, the key figure is 80% — how much less demonstration data the method needs compared to baselines. Training-data collection for robots is expensive and tedious; cutting that requirement while improving intent accuracy changes the economics of deploying task-specific robots in offices or on factory floors.",
-        "Masked IRL does not require a special prompt format or expert-level demonstrations. A non-technical user guiding a robot a handful of times is enough. That lowers the bar for real-world deployment in messy environments — exactly where the gap between lab results and production has historically been hardest to close. The paper is at arXiv:2511.14565."
+        "Telling a robot what to do is harder than it sounds. We leave a lot unsaid. \"Stay close to the laptop\" means almost nothing to a machine: how close? on which side? for how long? Researchers at MIT have found a new way to fill in those gaps. They call it Masked IRL. They shared it on 26 June and presented it at a robotics conference, ICRA 2026.",
+        "The method uses two AI language models working as a team. First, a person guides the robot's arm by hand to show the task. One model watches and rewrites the vague words into clear ones, so \"stay close\" becomes \"keep touching the table.\" The second model then looks at everything in the room and marks what matters and what to ignore. That way the robot focuses only on the few things that count.",
+        "It works better and asks for less. The robot guessed people's unspoken wishes correctly 15% more often than older methods. And it needed about five times fewer demonstrations to reach the same skill. A real robot arm moved coffee mugs around laptops and wiped tables, without being told which objects to avoid.",
+        "For a business, the number that matters is 80%. That is how much less practice data the robot needs. Collecting that data by hand is slow and expensive. Cutting it, while making the robot more accurate, makes task-specific robots much cheaper to set up in an office or a workshop.",
+        "You also don't need to be an expert. No special wording, no flawless examples. An ordinary person guiding the robot a few times is enough. That matters, because the hard part has always been getting robots to work in messy, real places, not just in the lab. The paper is at arXiv:2511.14565."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "less practice data needed" },
+        { "value": "15%", "label": "better at guessing unspoken wishes" },
+        { "value": "5×", "label": "fewer demonstrations to learn a task" },
+        { "value": "ICRA 2026", "label": "where it was presented" }
       ]
     },
     "de": {
-      "title": "MITs Masked IRL bringt Robotern das Lesen zwischen den Zeilen bei",
-      "summary": "Das neue Zwei-LLM-System des MIT CSAIL lernt Roboteraufgaben aus vagen menschlichen Anweisungen — mit 80 % weniger Demonstrationsdaten.",
+      "title": "MIT bringt Robotern bei, zu verstehen, was du wirklich meinst",
+      "summary": "MIT-Forscher haben einen Weg gefunden, wie Roboter eine Aufgabe aus vagen Anweisungen und viel weniger Beispielen lernen. Es braucht rund 80 % weniger Übungsdaten als bisher.",
       "body": [
-        "Einen Roboter dazu zu bringen, wirklich zu verstehen, was gemeint ist — nicht nur, was buchstäblich gesagt wurde —, ist schwieriger als es klingt. Menschliche Anweisungen sind voll implizitem Kontext: 'Bleib nah am Laptop' setzt voraus, dass der Roboter weiß, welche Richtung gemeint ist, wie nah, und wann diese Regel nicht mehr gilt. Ein Team am CSAIL des MIT veröffentlichte am 26. Juni eine Technik namens Masked Inverse Reinforcement Learning (Masked IRL) und stellte sie auf der ICRA 2026 vor — genau dieses Disambiguierungsproblem steht im Mittelpunkt.",
-        "Das System verknüpft zwei Sprachmodelle. Das erste beobachtet kinästhetische Demonstrationen — ein Mensch führt den Roboterarm physisch — und präzisiert vage Anweisungen anhand des Beobachteten: aus 'bleib nah dran' wird 'halte engen Kontakt mit der Tischfläche'. Das zweite Sprachmodell bewertet dann jeden Umgebungsbestandteil als relevant (1) oder ignorierbar (0) und erzeugt eine Maske, die die Szene filtert, bevor der Bewegungsplaner ansetzt.",
-        "Die Ergebnisse sind handfest: Masked IRL identifizierte nicht ausgesprochene Nutzervorstellungen 15 % häufiger korrekt als vergleichbare Systeme und benötigte etwa fünfmal weniger Demonstrationen für die gleiche Leistung. Ein echter Roboterarm führte Aufgaben wie das Verschieben von Kaffeetassen um Laptops herum und das Wischen von Tischen aus — ohne explizite Angabe, welche Hindernisse zu vermeiden sind.",
-        "Für Teams, die robotergestützte Workflows entwickeln, ist die entscheidende Zahl 80 % — so viel weniger Demonstrationsdaten benötigt die Methode gegenüber bestehenden Ansätzen. Das Sammeln von Trainingsdaten für Roboter ist teuer und zeitaufwändig; diesen Bedarf zu senken und gleichzeitig die Genauigkeit bei der Absichtserkennung zu verbessern, verändert die Wirtschaftlichkeit des Einsatzes aufgabenspezifischer Roboter in Büros und Fertigungshallen.",
-        "Masked IRL erfordert weder ein spezielles Anweisungsformat noch Demonstrationen von Experten. Es reicht, wenn ein nicht-technischer Nutzer den Roboter ein paar Mal durch eine Aufgabe führt. Das senkt die Hürde für den Einsatz in unübersichtlichen Alltagsumgebungen — genau dort, wo die Lücke zwischen Labordemonstrationen und Produktion bislang am schwersten zu schließen war. Das Paper ist unter arXiv:2511.14565 abrufbar."
+        "Einem Roboter zu sagen, was er tun soll, ist schwerer als es klingt. Wir lassen vieles ungesagt. \"Bleib nah am Laptop\" bedeutet für eine Maschine fast nichts: Wie nah? Auf welcher Seite? Wie lange? Forscher am MIT haben einen neuen Weg gefunden, diese Lücken zu füllen. Sie nennen ihn Masked IRL. Sie stellten ihn am 26. Juni vor und präsentierten ihn auf der Robotik-Konferenz ICRA 2026.",
+        "Die Methode nutzt zwei KI-Sprachmodelle, die im Team arbeiten. Zuerst führt ein Mensch den Roboterarm mit der Hand und zeigt die Aufgabe. Das erste Modell schaut zu und schreibt die vagen Worte um in klare: Aus \"bleib nah\" wird \"halte Kontakt mit der Tischplatte\". Das zweite Modell betrachtet dann alles im Raum und markiert, was wichtig ist und was es ignorieren kann. So konzentriert sich der Roboter nur auf die wenigen Dinge, die zählen.",
+        "Es funktioniert besser und verlangt weniger. Der Roboter erriet die unausgesprochenen Wünsche der Menschen 15 % häufiger richtig als ältere Methoden. Und er brauchte etwa fünfmal weniger Vorführungen, um dasselbe zu können. Ein echter Roboterarm bewegte Kaffeetassen um Laptops herum und wischte Tische ab, ohne dass man ihm sagte, welche Gegenstände er meiden soll.",
+        "Für ein Unternehmen zählt vor allem die Zahl 80 %. So viel weniger Übungsdaten braucht der Roboter. Diese Daten von Hand zu sammeln ist langsam und teuer. Sie zu reduzieren und den Roboter zugleich treffsicherer zu machen, senkt die Kosten, um aufgabenspezifische Roboter im Büro oder in der Werkstatt einzurichten.",
+        "Du musst auch kein Experte sein. Kein spezielles Wording, keine perfekten Beispiele. Es reicht, wenn eine normale Person den Roboter ein paar Mal führt. Das ist wichtig, denn das Schwierige war immer, Roboter in unaufgeräumten, echten Umgebungen zum Laufen zu bringen, nicht nur im Labor. Das Paper findet sich unter arXiv:2511.14565."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "weniger Übungsdaten nötig" },
+        { "value": "15%", "label": "besser bei unausgesprochenen Wünschen" },
+        { "value": "5×", "label": "weniger Vorführungen pro Aufgabe" },
+        { "value": "ICRA 2026", "label": "dort vorgestellt" }
       ]
     },
     "nl": {
-      "title": "MIT's Masked IRL leert robots begrijpen wat je écht bedoelt",
-      "summary": "Het nieuwe twee-LLM-systeem van MIT CSAIL leert robottaken aan uit vage instructies, met 80% minder demonstratiedata.",
+      "title": "MIT leert robots begrijpen wat je echt bedoelt",
+      "summary": "MIT-onderzoekers vonden een manier waarop robots een taak leren uit vage instructies en veel minder voorbeelden. Het kost ongeveer 80% minder oefendata dan voorheen.",
       "body": [
-        "Een robot laten doen wat je werkelijk bedoelt — niet alleen wat je letterlijk zei — is moeilijker dan het lijkt. Menselijke instructies zitten vol impliciete context: 'blijf bij de laptop' veronderstelt dat de robot weet welke richting, hoe dicht, en wanneer die regel niet meer geldt. Een team van MIT's CSAIL publiceerde op 26 juni een techniek genaamd Masked Inverse Reinforcement Learning (Masked IRL) en presenteerde die op ICRA 2026, precies gericht op dit disambiguatieprobleem.",
-        "Het systeem koppelt twee taalmodellen in serie. Het eerste observeert kinetische demonstraties — een mens die de robotarm fysiek begeleidt — en verduidelijkt vage instructies aan de hand van wat het waarneemt: 'blijf dichtbij' wordt 'houd nauw contact met het tafeloppervlak'. Het tweede model beoordeelt vervolgens elk element in de omgeving als relevant (1) of te negeren (0), en produceert een masker dat de scène filtert voordat de bewegingsplanner aan de slag gaat.",
-        "De resultaten zijn concreet: Masked IRL identificeerde niet uitgesproken gebruikersvoorkeuren 15% vaker correct dan vergelijkbare systemen, en had vijf keer minder demonstraties nodig om hetzelfde niveau te bereiken. Een echte robotarm voerde taken uit zoals het verplaatsen van koffiemokken om laptops heen en het schoonmaken van tafels, zonder dat er expliciet werd aangegeven welke obstakels vermeden moesten worden.",
-        "Voor teams die robotondersteunde workflows bouwen, is het sleutelgetal 80% — zoveel minder demonstratiedata heeft de methode nodig ten opzichte van bestaande aanpakken. Trainingsdata verzamelen voor robots is duur en arbeidsintensief; die eis verlagen terwijl de nauwkeurigheid verbetert, verandert de economie van het inzetten van taakspecifieke robots in kantoren en fabrieken.",
-        "Masked IRL vereist geen speciaal instructieformaat of demonstraties van experts. Het volstaat dat een niet-technische gebruiker de robot een paar keer door een taak leidt. Dat verlaagt de drempel voor inzet in rommelige, echte omgevingen — precies waar de kloof tussen laboratoriumresultaten en productie historisch het moeilijkst te dichten was. Het paper staat op arXiv:2511.14565."
+        "Een robot vertellen wat hij moet doen is lastiger dan het klinkt. We laten veel onuitgesproken. \"Blijf bij de laptop\" betekent bijna niets voor een machine: hoe dichtbij? aan welke kant? hoe lang? Onderzoekers van MIT hebben een nieuwe manier gevonden om die gaten op te vullen. Ze noemen het Masked IRL. Ze deelden het op 26 juni en presenteerden het op de robotica-conferentie ICRA 2026.",
+        "De methode gebruikt twee AI-taalmodellen die samenwerken. Eerst leidt een mens de robotarm met de hand om de taak voor te doen. Het eerste model kijkt mee en herschrijft de vage woorden naar duidelijke: \"blijf dichtbij\" wordt \"blijf contact houden met het tafelblad\". Het tweede model bekijkt dan alles in de ruimte en markeert wat belangrijk is en wat het kan negeren. Zo richt de robot zich alleen op de paar dingen die ertoe doen.",
+        "Het werkt beter en vraagt minder. De robot raadde de onuitgesproken wensen van mensen 15% vaker goed dan oudere methodes. En hij had ongeveer vijf keer minder demonstraties nodig om hetzelfde te kunnen. Een echte robotarm verplaatste koffiemokken om laptops heen en veegde tafels schoon, zonder dat hem werd verteld welke voorwerpen hij moest ontwijken.",
+        "Voor een bedrijf telt vooral het getal 80%. Zoveel minder oefendata heeft de robot nodig. Die data met de hand verzamelen is traag en duur. Dat terugbrengen, terwijl de robot ook nog nauwkeuriger wordt, maakt taakgerichte robots veel goedkoper om op te zetten in een kantoor of werkplaats.",
+        "Je hoeft ook geen expert te zijn. Geen speciale bewoordingen, geen perfecte voorbeelden. Het volstaat dat een gewone gebruiker de robot een paar keer voordoet. Dat is belangrijk, want het moeilijke is altijd geweest om robots te laten werken in rommelige, echte omgevingen, niet alleen in het lab. Het paper staat op arXiv:2511.14565."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "minder oefendata nodig" },
+        { "value": "15%", "label": "beter in onuitgesproken wensen" },
+        { "value": "5×", "label": "minder demonstraties per taak" },
+        { "value": "ICRA 2026", "label": "daar gepresenteerd" }
       ]
     },
     "es": {
-      "title": "Masked IRL del MIT enseña a los robots a entender lo que realmente queremos decir",
-      "summary": "El nuevo sistema de dos LLM del MIT CSAIL aprende tareas robóticas a partir de instrucciones vagas, con un 80% menos de datos de demostración.",
+      "title": "El MIT enseña a los robots a entender lo que de verdad quieres decir",
+      "summary": "Investigadores del MIT crearon una forma de que los robots aprendan una tarea con instrucciones vagas y muchos menos ejemplos. Necesita cerca de un 80% menos de datos de práctica que antes.",
       "body": [
-        "Lograr que un robot haga lo que realmente quieres decir — no solo lo que dijiste literalmente — es más difícil de lo que parece. Las instrucciones humanas están llenas de contexto implícito: 'quédate cerca del portátil' asume que el robot sabe en qué dirección, a qué distancia y cuándo deja de aplicarse esa regla. Un equipo del CSAIL del MIT publicó el 26 de junio una técnica llamada Masked Inverse Reinforcement Learning (Masked IRL) y la presentó en la ICRA 2026, abordando directamente este problema de desambiguación.",
-        "El sistema encadena dos modelos de lenguaje. El primero observa demostraciones cinestésicas — un humano guía físicamente el brazo del robot — y elabora las instrucciones vagas a partir de lo que observa: 'quédate cerca' se convierte en 'mantén un contacto estrecho con la superficie de la mesa'. El segundo LLM evalúa luego cada elemento del entorno como relevante (1) o ignorable (0), produciendo una máscara que filtra la escena antes de que el planificador de movimiento entre en acción.",
-        "Los resultados son concretos: Masked IRL identificó correctamente las preferencias no declaradas del usuario un 15% más que los enfoques comparables y necesitó aproximadamente cinco veces menos demostraciones para alcanzar la misma capacidad. Un brazo robótico real completó tareas como mover tazas de café alrededor de portátiles y limpiar mesas sin que se le indicara explícitamente qué obstáculos evitar.",
-        "Para los equipos que desarrollan flujos de trabajo asistidos por robots, la cifra clave es el 80%: así de menos datos de demostración necesita este método comparado con las referencias actuales. Recopilar datos de entrenamiento para robots es caro y tedioso; reducir ese requisito mientras se mejora la precisión en la identificación de la intención cambia la economía del despliegue de robots especializados en oficinas y plantas de fabricación.",
-        "Masked IRL no requiere un formato de instrucción especial ni demostraciones de expertos. Basta con que un usuario sin conocimientos técnicos guíe al robot un puñado de veces. Eso baja el listón para el despliegue en entornos reales desordenados — precisamente donde la brecha entre los resultados de laboratorio y la producción ha sido históricamente más difícil de cerrar. El artículo está disponible en arXiv:2511.14565."
+        "Decirle a un robot qué hacer es más difícil de lo que parece. Damos muchas cosas por sabidas. \"Quédate cerca del portátil\" no significa casi nada para una máquina: ¿cuán cerca? ¿de qué lado? ¿por cuánto tiempo? Investigadores del MIT han encontrado una nueva manera de rellenar esos huecos. La llaman Masked IRL. La presentaron el 26 de junio en la conferencia de robótica ICRA 2026.",
+        "El método usa dos modelos de lenguaje de IA que trabajan en equipo. Primero, una persona mueve el brazo del robot con la mano para mostrarle la tarea. El primer modelo observa y reescribe las palabras vagas en otras claras: \"quédate cerca\" se convierte en \"mantén contacto con la mesa\". El segundo modelo mira todo lo que hay en la sala y marca qué importa y qué puede ignorar. Así el robot se centra solo en las pocas cosas que cuentan.",
+        "Funciona mejor y pide menos. El robot acertó los deseos no dichos de las personas un 15% más que los métodos anteriores. Y necesitó unas cinco veces menos demostraciones para alcanzar la misma habilidad. Un brazo robótico real movió tazas de café alrededor de portátiles y limpió mesas, sin que le dijeran qué objetos debía evitar.",
+        "Para una empresa, la cifra que importa es el 80%. Eso es lo que se reducen los datos de práctica que necesita el robot. Recoger esos datos a mano es lento y caro. Reducirlos, y a la vez hacer al robot más preciso, abarata mucho montar robots para tareas concretas en una oficina o un taller.",
+        "Tampoco hace falta ser experto. Ni frases especiales ni ejemplos perfectos. Basta con que una persona normal guíe al robot unas pocas veces. Esto importa, porque lo difícil siempre ha sido lograr que los robots funcionen en lugares reales y desordenados, no solo en el laboratorio. El artículo está en arXiv:2511.14565."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "menos datos de práctica" },
+        { "value": "15%", "label": "mejor con los deseos no dichos" },
+        { "value": "5×", "label": "menos demostraciones por tarea" },
+        { "value": "ICRA 2026", "label": "donde se presentó" }
       ]
     },
     "fr": {
-      "title": "Le Masked IRL du MIT apprend aux robots à comprendre ce qu'on veut vraiment dire",
-      "summary": "Le MIT CSAIL présente une technique enchaînant deux LLM pour aider les robots à interpréter des instructions vagues, avec 80 % moins de données d'entraînement.",
+      "title": "Le MIT apprend aux robots à comprendre ce qu'on veut vraiment dire",
+      "summary": "Des chercheurs du MIT ont trouvé un moyen pour qu'un robot apprenne une tâche à partir d'instructions vagues et de bien moins d'exemples. Il faut environ 80 % de données d'entraînement en moins.",
       "body": [
-        "Amener un robot à faire ce qu'on veut vraiment dire — et pas seulement ce qu'on dit littéralement — est plus difficile qu'il n'y paraît. Les instructions humaines sont chargées de contexte implicite : 'reste près de l'ordinateur portable' suppose que le robot sache dans quelle direction, à quelle distance, et à quel moment cette règle cesse de s'appliquer. Une équipe du CSAIL du MIT a publié le 26 juin une technique appelée Masked Inverse Reinforcement Learning (Masked IRL) et la présente à l'ICRA 2026, pour s'attaquer directement à ce problème de désambiguïsation.",
-        "Le système enchaîne deux modèles de langage. Le premier observe des démonstrations kinesthésiques — un humain guidant physiquement le bras du robot — et précise les instructions vagues à la lumière de ce qu'il observe : 'reste près' devient 'maintiens un contact étroit avec la surface de la table'. Le second LLM évalue ensuite chaque élément de l'environnement comme pertinent (1) ou ignorable (0), produisant un masque qui filtre la scène avant que le planificateur de mouvement n'entre en jeu.",
-        "Les résultats sont concrets : Masked IRL a identifié correctement les préférences non exprimées de l'utilisateur 15 % plus souvent que les approches comparables, et n'a nécessité qu'environ cinq fois moins de démonstrations pour atteindre les mêmes capacités. Un bras robotique réel a effectué des tâches comme déplacer des tasses de café autour d'ordinateurs portables et nettoyer des tables, sans qu'on lui indique explicitement quels obstacles éviter.",
-        "Pour les équipes qui développent des workflows assistés par robots, le chiffre clé est 80 % — c'est la réduction en données de démonstration par rapport aux méthodes existantes. La collecte de données d'entraînement pour les robots est coûteuse et fastidieuse ; réduire cette exigence tout en améliorant la précision de la reconnaissance des intentions change l'équation économique pour déployer des robots spécialisés dans les bureaux et les usines.",
-        "Masked IRL ne requiert ni format d'instruction particulier, ni démonstrations d'experts. Il suffit qu'un utilisateur non technique guide le robot quelques fois à travers une tâche. Cela abaisse la barre pour un déploiement dans des environnements réels désordonnés — là précisément où l'écart entre les résultats de laboratoire et la production a toujours été le plus difficile à combler. L'article est disponible à l'adresse arXiv:2511.14565."
+        "Dire à un robot quoi faire est plus difficile qu'on ne croit. On laisse beaucoup de choses non dites. \"Reste près de l'ordinateur portable\" ne veut presque rien dire pour une machine : à quelle distance ? de quel côté ? combien de temps ? Des chercheurs du MIT ont trouvé une nouvelle façon de combler ces vides. Ils l'appellent Masked IRL. Ils l'ont présentée le 26 juin à la conférence de robotique ICRA 2026.",
+        "La méthode utilise deux modèles de langage qui travaillent en équipe. D'abord, une personne guide le bras du robot à la main pour montrer la tâche. Le premier modèle observe et réécrit les mots vagues en mots clairs : \"reste près\" devient \"garde le contact avec la table\". Le second modèle regarde alors tout ce qui se trouve dans la pièce et marque ce qui compte et ce qu'il peut ignorer. Le robot se concentre ainsi sur les quelques éléments qui comptent vraiment.",
+        "Cela marche mieux et demande moins. Le robot a deviné les attentes non exprimées des gens 15 % plus souvent que les méthodes plus anciennes. Et il a eu besoin d'environ cinq fois moins de démonstrations pour le même savoir-faire. Un vrai bras robotique a déplacé des tasses de café autour d'ordinateurs portables et essuyé des tables, sans qu'on lui dise quels objets éviter.",
+        "Pour une entreprise, le chiffre qui compte, c'est 80 %. C'est la baisse des données d'entraînement dont le robot a besoin. Récolter ces données à la main est lent et coûteux. Les réduire, tout en rendant le robot plus précis, rend bien moins cher l'installation de robots dédiés à une tâche, au bureau ou à l'atelier.",
+        "Pas besoin non plus d'être expert. Aucune formulation spéciale, aucun exemple parfait. Il suffit qu'une personne ordinaire guide le robot quelques fois. C'est important, car le plus dur a toujours été de faire marcher les robots dans des lieux réels et en désordre, pas seulement au laboratoire. L'article est sur arXiv:2511.14565."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "de données d'entraînement en moins" },
+        { "value": "15%", "label": "mieux sur les attentes non dites" },
+        { "value": "5×", "label": "moins de démonstrations par tâche" },
+        { "value": "ICRA 2026", "label": "où c'était présenté" }
       ]
     },
     "ar": {
-      "title": "Masked IRL من MIT يُعلّم الروبوتات فهم ما تقصده فعلاً",
-      "summary": "يُقدّم MIT CSAIL تقنية تُسلسل نموذجَي لغة لمساعدة الروبوتات على تفسير التعليمات الغامضة، بـ 80% أقل من بيانات التدريب.",
+      "title": "MIT يُعلّم الروبوتات أن تفهم ما تقصده فعلاً",
+      "summary": "ابتكر باحثو MIT طريقة تتعلّم بها الروبوتات مهمةً من تعليمات غامضة وأمثلة أقل بكثير. تحتاج نحو 80% أقل من بيانات التدريب مقارنةً بالسابق.",
       "body": [
-        "جعل الروبوت يفعل ما تقصده فعلاً — لا ما قلته حرفياً — أصعب مما يبدو. فالتعليمات البشرية مليئة بالسياق الضمني: عبارة 'ابقَ قريباً من الحاسوب المحمول' تفترض أن الروبوت يعرف الاتجاه المقصود، والمسافة المناسبة، والوقت الذي تنتهي فيه هذه القاعدة. نشر فريق من معهد CSAIL في MIT تقنية تُسمى Masked Inverse Reinforcement Learning (Masked IRL) في السادس والعشرين من يونيو، وقدّمها في مؤتمر ICRA 2026، لمعالجة مشكلة إزالة الغموض هذه مباشرةً.",
-        "يعتمد النظام على تسلسل نموذجين لغويين كبيرين. الأول يراقب عروضاً حركية — حيث يوجّه إنسان ذراع الروبوت جسدياً — ويُوسّع التعليمة الغامضة انطلاقاً مما يلاحظه: تتحوّل 'ابقَ قريباً' إلى 'حافظ على تلامس وثيق مع سطح الطاولة'. ثم يُقيّم النموذج الثاني كل عنصر في البيئة على أنه مهم (1) أو يمكن تجاهله (0)، ليُنتج قناعاً يُصفّي المشهد قبل أن يبدأ مخطط الحركة عمله.",
-        "النتائج ملموسة: حدّد Masked IRL تفضيلات المستخدم غير المُعلنة بشكل صحيح بنسبة أعلى بـ 15% مقارنةً بالأنظمة المماثلة، واحتاج إلى عدد أقل بخمسة أضعاف تقريباً من العروض التوضيحية للوصول إلى الكفاءة ذاتها. نجح ذراع روبوتي حقيقي في أداء مهام كنقل أكواب القهوة حول أجهزة الحاسوب المحمول ومسح الطاولات، دون أن يُخبَر صراحةً بالعقبات الواجب تجنّبها.",
-        "بالنسبة للفرق التي تبني سير عمل مدعومة بالروبوتات، الرقم المحوري هو 80% — بهذه النسبة يُقلّل هذا الأسلوب من بيانات التدريب المطلوبة مقارنةً بالمقاربات القائمة. جمع بيانات تدريب الروبوتات مكلفٌ ومضنٍ؛ وتقليص هذا المتطلب مع تحسين دقة التعرف على النية يُغيّر معادلة نشر روبوتات متخصصة في المكاتب ومصانع التصنيع.",
-        "لا يستلزم Masked IRL تنسيق تعليمات خاصاً ولا عروضاً من خبراء. يكفي أن يوجّه مستخدم غير تقني الروبوتَ عبر مهمة ما عدة مرات. هذا يُخفّض الحاجز أمام النشر في البيئات الفوضوية الحقيقية — وهو تحديداً المكان الذي ظلّت فيه الفجوة بين نتائج المختبر والتطبيق الإنتاجي الأصعب ردماً. الورقة البحثية متاحة على arXiv:2511.14565."
+        "أن تُخبر روبوتاً بما يفعله أصعب مما يبدو. فنحن نترك الكثير دون قول. عبارة \"ابقَ قريباً من الحاسوب المحمول\" لا تعني للآلة شيئاً تقريباً: كم القرب؟ من أي جهة؟ ولكم من الوقت؟ وجد باحثون في MIT طريقة جديدة لسدّ هذه الفجوات، أسموها Masked IRL. عرضوها في السادس والعشرين من يونيو في مؤتمر الروبوتات ICRA 2026.",
+        "تستخدم الطريقة نموذجين لغويين للذكاء الاصطناعي يعملان معاً. أولاً، يوجّه إنسان ذراع الروبوت بيده ليُريه المهمة. يراقب النموذج الأول ويُعيد صياغة الكلمات الغامضة إلى كلمات واضحة: تتحوّل \"ابقَ قريباً\" إلى \"حافظ على التلامس مع سطح الطاولة\". ثم ينظر النموذج الثاني إلى كل ما في الغرفة ويُحدّد ما يهمّ وما يمكن تجاهله. هكذا يركّز الروبوت على الأشياء القليلة المهمة فقط.",
+        "إنها تعمل بشكل أفضل وتطلب أقل. خمّن الروبوت رغبات الناس غير المُعلنة بشكل صحيح بنسبة أعلى بـ 15% من الطرق الأقدم. واحتاج إلى عدد أقل بنحو خمسة أضعاف من العروض ليبلغ المهارة نفسها. أدّى ذراع روبوتي حقيقي مهامّ مثل نقل أكواب القهوة حول الحواسيب المحمولة ومسح الطاولات، دون أن يُخبَر بأي أشياء عليه تجنّبها.",
+        "بالنسبة للشركة، الرقم الذي يهمّ هو 80%. بهذا القدر تقلّ بيانات التدريب التي يحتاجها الروبوت. جمع هذه البيانات يدوياً بطيء ومكلف. وتقليصها، مع جعل الروبوت أدقّ في الوقت نفسه، يُخفّض كثيراً تكلفة إعداد روبوتات متخصصة في مكتب أو ورشة.",
+        "كما أنك لا تحتاج إلى أن تكون خبيراً. لا صياغة خاصة ولا أمثلة مثالية. يكفي أن يوجّه شخص عادي الروبوت بضع مرات. وهذا مهم، لأن الجزء الصعب كان دائماً تشغيل الروبوتات في أماكن حقيقية فوضوية، لا في المختبر فقط. الورقة البحثية متاحة على arXiv:2511.14565."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "بيانات تدريب أقل" },
+        { "value": "15%", "label": "أدقّ في الرغبات غير المُعلنة" },
+        { "value": "5×", "label": "عروض أقل لكل مهمة" },
+        { "value": "ICRA 2026", "label": "حيث عُرضت" }
       ]
     }
   }
