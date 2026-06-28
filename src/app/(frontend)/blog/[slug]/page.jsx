@@ -21,7 +21,7 @@ function formatDate(date, lang) {
 export async function generateMetadata({ params }) {
   const { slug } = await params
   const post = getPost(slug, await getLocale())
-  if (!post) return { title: 'Journal — raoul.studio' }
+  if (!post) return { title: 'Blog — raoul.studio' }
   return { title: post.title, description: post.summary }
 }
 

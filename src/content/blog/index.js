@@ -14,11 +14,11 @@ const POSTS_DIR = path.join(process.cwd(), 'src/content/blog/posts')
 
 // Localized chrome for the blog pages. Falls back to English per locale.
 export const BLOG_STRINGS = {
-  en: { eyebrow: 'Journal', lead: 'Daily notes on AI & technology.', sources: 'Sources', empty: 'No entries yet.' },
-  de: { eyebrow: 'Journal', lead: 'Tägliche Notizen zu KI & Technologie.', sources: 'Quellen', empty: 'Noch keine Einträge.' },
-  nl: { eyebrow: 'Journal', lead: 'Dagelijkse notities over AI & technologie.', sources: 'Bronnen', empty: 'Nog geen berichten.' },
-  es: { eyebrow: 'Diario', lead: 'Notas diarias sobre IA y tecnología.', sources: 'Fuentes', empty: 'Aún no hay entradas.' },
-  fr: { eyebrow: 'Journal', lead: 'Notes quotidiennes sur l’IA et la technologie.', sources: 'Sources', empty: 'Aucune entrée pour le moment.' },
+  en: { eyebrow: 'Blog', lead: 'Daily notes on AI & technology.', sources: 'Sources', empty: 'No entries yet.' },
+  de: { eyebrow: 'Blog', lead: 'Tägliche Notizen zu KI & Technologie.', sources: 'Quellen', empty: 'Noch keine Einträge.' },
+  nl: { eyebrow: 'Blog', lead: 'Dagelijkse notities over AI & technologie.', sources: 'Bronnen', empty: 'Nog geen berichten.' },
+  es: { eyebrow: 'Blog', lead: 'Notas diarias sobre IA y tecnología.', sources: 'Fuentes', empty: 'Aún no hay entradas.' },
+  fr: { eyebrow: 'Blog', lead: 'Notes quotidiennes sur l’IA et la technologie.', sources: 'Sources', empty: 'Aucune entrée pour le moment.' },
   ar: { eyebrow: 'المدوّنة', lead: 'ملاحظات يومية حول الذكاء الاصطناعي والتقنية.', sources: 'المصادر', empty: 'لا توجد مقالات بعد.' },
 }
 
