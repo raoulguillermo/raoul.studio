@@ -14,12 +14,12 @@ const POSTS_DIR = path.join(process.cwd(), 'src/content/blog/posts')
 
 // Localized chrome for the blog pages. Falls back to English per locale.
 export const BLOG_STRINGS = {
-  en: { eyebrow: 'Blog', lead: 'Daily notes on AI & technology.', sources: 'Sources', empty: 'No entries yet.' },
-  de: { eyebrow: 'Blog', lead: 'Tägliche Notizen zu KI & Technologie.', sources: 'Quellen', empty: 'Noch keine Einträge.' },
-  nl: { eyebrow: 'Blog', lead: 'Dagelijkse notities over AI & technologie.', sources: 'Bronnen', empty: 'Nog geen berichten.' },
-  es: { eyebrow: 'Blog', lead: 'Notas diarias sobre IA y tecnología.', sources: 'Fuentes', empty: 'Aún no hay entradas.' },
-  fr: { eyebrow: 'Blog', lead: 'Notes quotidiennes sur l’IA et la technologie.', sources: 'Sources', empty: 'Aucune entrée pour le moment.' },
-  ar: { eyebrow: 'المدوّنة', lead: 'ملاحظات يومية حول الذكاء الاصطناعي والتقنية.', sources: 'المصادر', empty: 'لا توجد مقالات بعد.' },
+  en: { eyebrow: 'Blog', lead: 'Daily notes on AI & technology.', sources: 'Sources', empty: 'No entries yet.', keyFacts: 'Key facts' },
+  de: { eyebrow: 'Blog', lead: 'Tägliche Notizen zu KI & Technologie.', sources: 'Quellen', empty: 'Noch keine Einträge.', keyFacts: 'Auf einen Blick' },
+  nl: { eyebrow: 'Blog', lead: 'Dagelijkse notities over AI & technologie.', sources: 'Bronnen', empty: 'Nog geen berichten.', keyFacts: 'In het kort' },
+  es: { eyebrow: 'Blog', lead: 'Notas diarias sobre IA y tecnología.', sources: 'Fuentes', empty: 'Aún no hay entradas.', keyFacts: 'Datos clave' },
+  fr: { eyebrow: 'Blog', lead: 'Notes quotidiennes sur l’IA et la technologie.', sources: 'Sources', empty: 'Aucune entrée pour le moment.', keyFacts: 'En bref' },
+  ar: { eyebrow: 'المدوّنة', lead: 'ملاحظات يومية حول الذكاء الاصطناعي والتقنية.', sources: 'المصادر', empty: 'لا توجد مقالات بعد.', keyFacts: 'حقائق سريعة' },
 }
 
 export function getBlogStrings(lang) {
@@ -64,6 +64,11 @@ function localize(post, lang) {
     title: loc.title ?? base.title ?? post.slug,
     summary: loc.summary ?? base.summary ?? '',
     body: loc.body ?? base.body ?? [],
+    // Subtle visuals (both optional, both backward-compatible):
+    //  - keyFacts: a small "facts" card, translated per locale.
+    //  - image: a real source image, language-independent; shown only if present.
+    keyFacts: loc.keyFacts ?? base.keyFacts ?? [],
+    image: post.image || null,
   }
 }
 

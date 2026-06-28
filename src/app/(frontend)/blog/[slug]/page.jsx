@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
+import BlogImage from '@/components/BlogImage'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
@@ -65,6 +66,36 @@ export default async function BlogPostPage({ params }) {
           <p className="r text-2xl md:text-4xl font-normal leading-snug max-w-4xl text-accent">
             {post.summary}
           </p>
+        </section>
+      ) : null}
+
+      {/* Source image (subtle, hides itself if the URL is broken) */}
+      {post.image?.url ? (
+        <section className="pb-4 md:pb-8 max-w-3xl">
+          <BlogImage src={post.image.url} alt={post.image.alt} credit={post.image.credit} />
+        </section>
+      ) : null}
+
+      {/* Key facts — a subtle flat infographic card */}
+      {post.keyFacts?.length ? (
+        <section className="pb-12 md:pb-16">
+          <div className="r border-2 border-ink max-w-3xl">
+            <div className="text-[11px] uppercase tracking-[.2em] font-semibold text-mute border-b-2 border-ink px-5 py-3">
+              {blog.keyFacts}
+            </div>
+            <dl className="divide-y divide-ink/10">
+              {post.keyFacts.map((f, i) => (
+                <div key={i} className="flex items-baseline gap-4 px-5 py-3">
+                  <dt className="font-display uppercase tracking-tight2 leading-none text-2xl md:text-3xl text-accent whitespace-nowrap">
+                    {f.value}
+                  </dt>
+                  <dd className="text-sm md:text-base text-ink/80 leading-snug">
+                    {f.label}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </section>
       ) : null}
 
