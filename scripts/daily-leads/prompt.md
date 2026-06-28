@@ -90,30 +90,27 @@ offline AI), e-commerce & platform builds, and bespoke business software.**
    - Honest and concrete. No hype, no "I hope this email finds you well", no fake urgency,
      no invented statistics or fake mutual connections. B2B only.
 
-5. **Write one markdown file per lead** to:
-   `{{DRAFTS_DIR}}/NN-<company-slug>.md`
+5. **Write one JSON file per lead** to:
+   `{{DRAFTS_DIR}}/NN-<company-slug>.json`
    where `NN` is `01`, `02`, … and `<company-slug>` is the company name in kebab-case.
-   Use **exactly** this format:
+   Write **valid JSON only** (nothing else in the file), with exactly these fields:
 
-   ```markdown
-   # <Company name>
-
-   - **To:** <real email you found>
-   - **Language:** <Dutch | English>
-   - **Angle:** <which portfolio piece / service>
-   - **Source:** <URL where you found the company + contact>
-   - **Why this lead:** <1–2 sentences: the specific signal that makes them a fit>
-
-   ---
-
-   **Subject:** <subject line>
-
-   <full email body, ready to paste>
-
-   —
-   Raoul Guillermo
-   hello@raoul.studio · +31 10 307 3755
+   ```json
+   {
+     "to": "<real email you found>",
+     "subject": "<subject line>",
+     "body": "<full email body, ready to send, ending with the personal sign-off:\nMet vriendelijke groet,\nRaoul Guillermo\nhello@raoul.studio · +31 10 307 3755>",
+     "company": "<Company name>",
+     "sector": "<sector>",
+     "city": "<city>",
+     "language": "<nl | en>",
+     "angle": "<INTERNAL note: which capability — do NOT put this in the email body>",
+     "source": "<URL where you found the company + contact>",
+     "why": "<1–2 sentences: the specific signal that makes them a fit>"
+   }
    ```
+   `body` is plain text with real line breaks encoded as `\n` — no markdown. These JSON
+   drafts are read by an IMAP step that places each one into Gmail's Drafts folder.
 
 6. **Update the ledger.** Read the current ledger JSON (if any), then **write it back**
    with one new object appended to the `leads` array for each company you drafted today.

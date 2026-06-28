@@ -4,11 +4,12 @@
 #
 #   1. Runs a headless Claude Code agent that researches the web for good-fit
 #      potential clients in the Netherlands (based on the portfolio) and drafts
-#      one cold email per lead.
-#   2. Drafts are written as markdown into scripts/daily-leads/drafts/<DATE>/
-#      for Raoul to review and send BY HAND.
-#   3. A ledger (leads-ledger.csv) records every company contacted so the agent
+#      one personal cold email per lead.
+#   2. Drafts are written as JSON into scripts/daily-leads/drafts/<DATE>/.
+#   3. A ledger (leads-ledger.json) records every company contacted so the agent
 #      never pitches the same one twice.
+#   4. If IMAP credentials exist (.imap-credentials), each draft is appended to
+#      the Gmail Drafts folder so it's ready for Raoul to review and send.
 #
 # These drafts are PRIVATE. This job does NOT commit, push, or publish anything.
 # Designed to be run from cron. Logs to scripts/daily-leads/run.log.
@@ -34,7 +35,7 @@ log() { echo "[$(date '+%F %T')] $*"; }
 cd "$DEV_DIR" || { log "FATAL: cannot cd to $DEV_DIR"; exit 1; }
 
 # Idempotent: skip if today's drafts already exist (safe to re-run).
-if ls "$DRAFTS_DIR/"*.md >/dev/null 2>&1; then
+if ls "$DRAFTS_DIR/"*.json >/dev/null 2>&1; then
   log "Leads for $DATE already drafted ($DRAFTS_DIR) — nothing to do."
   exit 0
 fi
@@ -56,11 +57,35 @@ claude -p "$PROMPT" \
   > "$SELF_DIR/last-agent.log" 2>&1
 log "Agent finished (exit $?). Transcript: $SELF_DIR/last-agent.log"
 
-# --- report what was produced ---------------------------------------------
-COUNT_MADE="$(ls -1 "$DRAFTS_DIR/"*.md 2>/dev/null | wc -l | tr -d ' ')"
+# --- validate the produced JSON drafts ------------------------------------
+COUNT_MADE=0
+for f in "$DRAFTS_DIR/"*.json; do
+  [ -e "$f" ] || continue
+  if node -e "const d=require('$f'); if(!d.to||!d.subject||!d.body) process.exit(2)" 2>/dev/null; then
+    COUNT_MADE=$((COUNT_MADE + 1))
+  else
+    log "WARN: invalid/incomplete draft $f — moving aside."
+    mv "$f" "$f.invalid" 2>/dev/null || rm -f "$f"
+  fi
+done
 if [ "$COUNT_MADE" = "0" ]; then
-  log "WARN: agent produced no draft emails for $DATE. Check $SELF_DIR/last-agent.log."
+  log "WARN: agent produced no valid draft emails for $DATE. Check $SELF_DIR/last-agent.log."
   rmdir "$DRAFTS_DIR" 2>/dev/null || true
   exit 1
 fi
-log "Done. Drafted $COUNT_MADE lead email(s) in $DRAFTS_DIR (review and send by hand)."
+log "Drafted $COUNT_MADE lead email(s) in $DRAFTS_DIR."
+
+# --- deliver: append each draft into Gmail Drafts via IMAP -----------------
+# Only if credentials are present; otherwise leave the files for a manual/
+# interactive Gmail push.
+if [ -f "$SELF_DIR/.imap-credentials" ]; then
+  log "Appending drafts to Gmail…"
+  if python3 "$SELF_DIR/append_to_gmail.py" "$DRAFTS_DIR" >> "$SELF_DIR/run.log" 2>&1; then
+    log "Done. $COUNT_MADE draft(s) placed in Gmail Drafts for $DATE."
+  else
+    log "WARN: Gmail append failed (drafts are saved as files in $DRAFTS_DIR)."
+    exit 1
+  fi
+else
+  log "No .imap-credentials found — skipped Gmail step. Drafts saved as files in $DRAFTS_DIR."
+fi

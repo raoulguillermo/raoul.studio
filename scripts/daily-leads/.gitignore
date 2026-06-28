@@ -1,5 +1,6 @@
-# Lead drafts and logs are PRIVATE — never commit them.
+# Lead drafts, credentials and logs are PRIVATE — never commit them.
 drafts/
 leads-ledger.json
+.imap-credentials
 run.log
 last-agent.log
