@@ -1,0 +1,113 @@
+{
+  "slug": "2026-06-29-openai-gpt-5-6-sol",
+  "date": "2026-06-29",
+  "tags": ["ai"],
+  "image": {
+    "url": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/06/OpenAI-GPT-5.6-Sol.jpg",
+    "alt": "OpenAI GPT-5.6 Sol announcement graphic",
+    "credit": "Thurrott"
+  },
+  "sources": [
+    { "title": "MarkTechPost — OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access", "url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/" },
+    { "title": "Thurrott — OpenAI Launches \"Next-Gen\" GPT-5.6 Models in Limited Preview", "url": "https://www.thurrott.com/a-i/337968/openai-launches-next-gen-gpt-5-6-models-in-limited-preview" },
+    { "title": "MacRumors — OpenAI Launches GPT-5.6 Sol, Terra, and Luna in Limited Preview", "url": "https://www.macrumors.com/2026/06/26/openai-gpt-5-6-sol/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "OpenAI Previews GPT-5.6: Three New Models, Government Approval Required First",
+      "summary": "OpenAI put three new AI models — Sol, Terra, and Luna — into restricted preview on June 26, available for now only to companies vetted by the U.S. government.",
+      "body": [
+        "On June 26, OpenAI began a limited preview of GPT-5.6, a new family of three AI models named Sol, Terra, and Luna. For now, only around 20 companies approved by the U.S. government can access them. A wider rollout through ChatGPT, the API, and Codex is expected within weeks.",
+        "Sol is the flagship. It adds two new ways to reason through a problem. \"Max\" mode gives the model more time to work through a single hard question step by step. \"Ultra\" mode runs several smaller AI agents — think of them as assistants — working in parallel on different parts of the same task at once. On Terminal-Bench 2.1, a test that simulates real coding workflows involving planning, tool use, and iteration, Sol scored 91.91%, the best result any model has reached. It also passed the halfway mark for the first time on Agent's Last Exam, a famously hard test designed to challenge even the most capable AI.",
+        "Terra and Luna lower the cost. Terra matches the performance of GPT-5.5 — the previous top model — at roughly half the price. Luna is the fastest and cheapest, built for routine, high-volume work. For anyone building AI-powered products, this matters: cheaper capable models mean you can automate more without costs spiraling.",
+        "This launch has an unusual edge. Under a Trump administration executive order, OpenAI was required to share these models with the U.S. government for a security review before any public release. OpenAI pushed back openly: \"We don't believe this kind of government access process should become the long-term default.\" The same policy previously forced Anthropic to pause access to its own newest models. The tension between fast-moving AI releases and government oversight is not going away — and how it gets resolved will shape who gets access to powerful models, and when."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "models in the GPT-5.6 family" },
+        { "value": "~20", "label": "companies in the limited preview" },
+        { "value": "91.91%", "label": "Sol's score on Terminal-Bench 2.1" },
+        { "value": "~50%", "label": "lower cost of Terra vs. GPT-5.5" }
+      ]
+    },
+    "de": {
+      "title": "OpenAI stellt GPT-5.6 vor: Drei neue Modelle, zuerst Regierungsprüfung",
+      "summary": "Am 26. Juni hat OpenAI drei neue KI-Modelle – Sol, Terra und Luna – in eine eingeschränkte Vorschau gebracht, die vorerst nur von der US-Regierung geprüften Unternehmen zugänglich sind.",
+      "body": [
+        "Am 26. Juni startete OpenAI eine eingeschränkte Vorschau von GPT-5.6, einer neuen Familie aus drei KI-Modellen namens Sol, Terra und Luna. Vorerst haben nur etwa 20 von der US-Regierung zugelassene Unternehmen Zugang. Ein breiterer Rollout über ChatGPT, die API und Codex wird in den kommenden Wochen erwartet.",
+        "Sol ist das Flaggschiff und führt zwei neue Denkmodi ein. \"Max\" gibt dem Modell mehr Zeit, ein schwieriges Problem Schritt für Schritt zu durchdenken. \"Ultra\" koordiniert mehrere kleinere KI-Agenten – im Grunde Assistenten –, die gleichzeitig parallel an verschiedenen Teilen einer Aufgabe arbeiten. Auf Terminal-Bench 2.1 – einem Test für reale Programmieraufgaben, die Planung, Werkzeugnutzung und Iteration erfordern – erzielte Sol 91,91 %, das beste je erreichte Ergebnis. Außerdem überschritt es erstmals die Hälfte auf dem Agent's Last Exam, einem schwierigen Benchmark für besonders leistungsstarke KI.",
+        "Terra und Luna senken die Kosten. Terra erreicht die Leistung von GPT-5.5 – dem bisherigen Spitzenmodell – zu etwa dem halben Preis. Luna ist die schnellste und günstigste Option für routinemäßige, volumenstarke Aufgaben. Für alle, die KI-Produkte entwickeln, ist das wichtig: Günstigere leistungsfähige Modelle ermöglichen mehr Automatisierung, ohne dass die Kosten aus dem Ruder laufen.",
+        "Dieser Launch hat eine besondere Note. Aufgrund einer Anordnung der Trump-Regierung musste OpenAI diese Modelle vor jeder öffentlichen Veröffentlichung zur Sicherheitsüberprüfung mit der US-Regierung teilen. OpenAI wehrte sich öffentlich: \"Wir glauben nicht, dass dieser Prozess zum langfristigen Standard werden sollte.\" Die gleiche Richtlinie hatte zuvor Anthropic dazu gezwungen, den Zugang zu eigenen neuen Modellen auszusetzen. Der Konflikt zwischen rasanter KI-Entwicklung und staatlicher Aufsicht ist nicht gelöst – und sein Ausgang wird bestimmen, wer wann Zugang zu leistungsstarken Modellen erhält."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "Modelle in der GPT-5.6-Familie" },
+        { "value": "~20", "label": "Unternehmen in der eingeschränkten Vorschau" },
+        { "value": "91.91%", "label": "Sols Wertung auf Terminal-Bench 2.1" },
+        { "value": "~50%", "label": "günstigere Kosten von Terra gegenüber GPT-5.5" }
+      ]
+    },
+    "nl": {
+      "title": "OpenAI toont preview van GPT-5.6: drie nieuwe modellen, eerst langs de overheid",
+      "summary": "Op 26 juni lanceerde OpenAI een beperkte preview van drie nieuwe AI-modellen – Sol, Terra en Luna – die voorlopig alleen toegankelijk zijn voor bedrijven die door de Amerikaanse overheid zijn goedgekeurd.",
+      "body": [
+        "Op 26 juni startte OpenAI een beperkte preview van GPT-5.6, een nieuwe familie van drie AI-modellen genaamd Sol, Terra en Luna. Voorlopig hebben alleen zo'n 20 door de Amerikaanse overheid goedgekeurde bedrijven toegang. Een bredere uitrol via ChatGPT, de API en Codex wordt binnen enkele weken verwacht.",
+        "Sol is het vlaggenschipmodel en introduceert twee nieuwe manieren om problemen door te redeneren. De \"max\"-modus geeft het model meer tijd om een lastige vraag stap voor stap te doorlopen. De \"ultra\"-modus coördineert meerdere kleinere AI-agenten – zie ze als assistenten – die tegelijk parallel aan verschillende delen van dezelfde taak werken. Op Terminal-Bench 2.1, een test die echte programmeertaken simuleert met planning, gereedschapsgebruik en iteratie, scoorde Sol 91,91%, het beste resultaat ooit. Ook passeerde het voor het eerst de helft op Agent's Last Exam, een notoir moeilijke benchmark voor geavanceerde AI.",
+        "Terra en Luna drukken de kosten. Terra haalt de prestaties van GPT-5.5 – het vorige topmodel – voor ongeveer de helft van de prijs. Luna is de snelste en goedkoopste optie, bedoeld voor routineuze taken op grote schaal. Voor iedereen die AI-producten bouwt is dit belangrijk: goedkopere capabele modellen betekenen meer automatisering zonder dat de kosten ontsporen.",
+        "Deze lancering kent een ongewone bijzonderheid. Op grond van een uitvoeringsbesluit van de Trump-regering moest OpenAI de modellen eerst met de overheid delen voor een veiligheidscontrole, voordat ze openbaar beschikbaar kwamen. OpenAI reageerde openlijk: \"Wij geloven niet dat dit soort toegangsproces de langetermijnstandaard moet worden.\" Hetzelfde beleid dwong eerder Anthropic de toegang tot eigen nieuwe modellen te pauzeren. De spanning tussen het snelle tempo van AI-releases en toezicht door de overheid lost zich niet vanzelf op – en hoe dit uitpakt, bepaalt wie wanneer toegang krijgt tot krachtige modellen."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "modellen in de GPT-5.6-familie" },
+        { "value": "~20", "label": "bedrijven in de beperkte preview" },
+        { "value": "91.91%", "label": "Sols score op Terminal-Bench 2.1" },
+        { "value": "~50%", "label": "lagere kosten van Terra t.o.v. GPT-5.5" }
+      ]
+    },
+    "es": {
+      "title": "OpenAI presenta GPT-5.6: tres nuevos modelos con revisión gubernamental obligatoria",
+      "summary": "El 26 de junio, OpenAI lanzó una vista previa restringida de tres nuevos modelos de IA — Sol, Terra y Luna — disponibles por ahora solo para empresas aprobadas por el gobierno de EE. UU.",
+      "body": [
+        "El 26 de junio, OpenAI inició una vista previa restringida de GPT-5.6, una nueva familia de tres modelos de inteligencia artificial llamados Sol, Terra y Luna. Por ahora, solo unas 20 empresas aprobadas por el gobierno de Estados Unidos pueden acceder a ellos. Se espera una disponibilidad más amplia a través de ChatGPT, la API y Codex en las próximas semanas.",
+        "Sol es el modelo principal e introduce dos nuevas formas de razonar. El modo \"max\" le da al modelo más tiempo para resolver un problema difícil paso a paso. El modo \"ultra\" coordina varios agentes de IA más pequeños — piensa en ellos como asistentes — que trabajan en paralelo sobre distintas partes de la misma tarea al mismo tiempo. En Terminal-Bench 2.1, una prueba que simula flujos de trabajo de programación reales con planificación, uso de herramientas e iteración, Sol obtuvo 91,91%, el mejor resultado logrado hasta ahora. También superó la mitad por primera vez en Agent's Last Exam, una prueba notoriamente difícil diseñada para desafiar incluso a los modelos más capaces.",
+        "Terra y Luna reducen el coste. Terra alcanza el rendimiento de GPT-5.5 — el modelo líder anterior — a aproximadamente la mitad del precio. Luna es la opción más rápida y económica, pensada para tareas rutinarias de gran volumen. Para quienes desarrollan productos con IA, esto importa: modelos más baratos y capaces permiten automatizar más sin que los costes se disparen.",
+        "Este lanzamiento tiene un giro inusual. En virtud de una orden ejecutiva de la administración Trump, OpenAI tuvo que compartir estos modelos con el gobierno estadounidense para una revisión de seguridad antes de cualquier publicación pública. OpenAI respondió con claridad: \"No creemos que este tipo de proceso de acceso gubernamental deba convertirse en el estándar a largo plazo.\" La misma política obligó anteriormente a Anthropic a pausar el acceso a sus propios nuevos modelos. La tensión entre el ritmo acelerado de los lanzamientos de IA y la supervisión gubernamental no ha desaparecido — y cómo se resuelva determinará quién accede a los modelos más potentes, y cuándo."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "modelos en la familia GPT-5.6" },
+        { "value": "~20", "label": "empresas en la vista previa restringida" },
+        { "value": "91.91%", "label": "puntuación de Sol en Terminal-Bench 2.1" },
+        { "value": "~50%", "label": "menor coste de Terra frente a GPT-5.5" }
+      ]
+    },
+    "fr": {
+      "title": "OpenAI dévoile GPT-5.6 : trois nouveaux modèles soumis au contrôle gouvernemental",
+      "summary": "Le 26 juin, OpenAI a lancé une préversion restreinte de trois nouveaux modèles d'IA — Sol, Terra et Luna — accessibles pour l'instant uniquement aux entreprises validées par le gouvernement américain.",
+      "body": [
+        "Le 26 juin, OpenAI a lancé une préversion limitée de GPT-5.6, une nouvelle famille de trois modèles d'IA baptisés Sol, Terra et Luna. Pour l'instant, seules une vingtaine d'entreprises approuvées par le gouvernement américain y ont accès. Un déploiement plus large via ChatGPT, l'API et Codex est attendu dans les prochaines semaines.",
+        "Sol est le modèle phare. Il introduit deux nouveaux modes de raisonnement. Le mode « max » donne au modèle plus de temps pour traiter une question difficile pas à pas. Le mode « ultra » coordonne plusieurs agents IA plus petits — à concevoir comme des assistants — qui travaillent en parallèle sur différentes parties de la même tâche. Sur Terminal-Bench 2.1, un test simulant des flux de travail réels de programmation nécessitant planification, utilisation d'outils et itération, Sol a obtenu 91,91 %, le meilleur résultat jamais atteint par un modèle. Il a également franchi pour la première fois la barre des 50 % sur Agent's Last Exam, un benchmark notoirement difficile conçu pour mettre en échec même les modèles les plus puissants.",
+        "Terra et Luna font baisser les coûts. Terra atteint les performances de GPT-5.5 — le modèle leader précédent — pour environ la moitié du prix. Luna est l'option la plus rapide et la moins coûteuse, conçue pour les tâches routinières à fort volume. Pour ceux qui développent des produits basés sur l'IA, c'est important : des modèles moins chers et capables permettent d'automatiser davantage sans que les coûts s'envolent.",
+        "Ce lancement présente une particularité notable. En vertu d'un décret de l'administration Trump, OpenAI a dû partager ces modèles avec le gouvernement américain pour un examen de sécurité avant toute publication publique. OpenAI a répondu publiquement : « Nous ne pensons pas que ce type de processus d'accès gouvernemental devrait devenir la norme à long terme. » La même politique avait contraint Anthropic à suspendre l'accès à ses propres nouveaux modèles. La tension entre le rythme rapide des sorties de modèles IA et la supervision réglementaire n'est pas résolue — et la façon dont elle le sera déterminera qui accède aux modèles les plus puissants, et à quel moment."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "modèles dans la famille GPT-5.6" },
+        { "value": "~20", "label": "entreprises dans la préversion restreinte" },
+        { "value": "91.91%", "label": "score de Sol sur Terminal-Bench 2.1" },
+        { "value": "~50%", "label": "réduction du coût de Terra vs. GPT-5.5" }
+      ]
+    },
+    "ar": {
+      "title": "أوبن إيه آي تكشف عن GPT-5.6: ثلاثة نماذج جديدة تخضع لمراجعة حكومية",
+      "summary": "في 26 يونيو، أطلقت أوبن إيه آي معاينة مقيّدة لثلاثة نماذج ذكاء اصطناعي جديدة — سول وتيرا ولونا — لا يتاح الوصول إليها حالياً إلا للشركات التي وافقت عليها الحكومة الأمريكية.",
+      "body": [
+        "في 26 يونيو، أطلقت أوبن إيه آي معاينة محدودة للجيل الجديد GPT-5.6، الذي يضم ثلاثة نماذج ذكاء اصطناعي هي سول وتيرا ولونا. في الوقت الراهن، لا يحق إلا لنحو 20 شركة معتمدة من الحكومة الأمريكية استخدامها. ومن المتوقع أن يتوسع نطاق الإتاحة عبر ChatGPT والواجهة البرمجية وCodex خلال الأسابيع القليلة المقبلة.",
+        "سول هو النموذج الرئيسي، ويُدخل طريقتين جديدتين للتفكير. وضع \"max\" يمنح النموذج وقتاً أطول للتعامل مع مسألة صعبة خطوةً بخطوة. أما وضع \"ultra\" فيُنسّق عمل عدة وكلاء ذكاء اصطناعي أصغر — تخيّلهم كمساعدين — يعملون في الوقت ذاته على أجزاء مختلفة من المهمة. في اختبار Terminal-Bench 2.1، الذي يحاكي تدفقات عمل البرمجة الحقيقية التي تتطلب تخطيطاً واستخدام الأدوات والتكرار، حقّق سول نسبة 91.91%، وهو أعلى نتيجة يُسجّلها أي نموذج حتى اليوم. كما تجاوز للمرة الأولى منتصف اختبار Agent's Last Exam، المعروف بصعوبته الشديدة.",
+        "تُخفّض تيرا ولونا التكلفة. فتيرا تُضاهي أداء GPT-5.5 — النموذج الأفضل السابق — بنصف السعر تقريباً، بينما تُعدّ لونا الخيار الأسرع والأقل كلفةً للمهام الروتينية ذات الحجم الكبير. بالنسبة للمطورين وأصحاب المنتجات المدعومة بالذكاء الاصطناعي، هذا أمر بالغ الأهمية: نماذج قادرة وأقل تكلفة تعني إمكانية أتمتة المزيد من الأعمال دون أن تتضخم الفواتير.",
+        "هذا الإطلاق ينطوي على تفصيل لافت. بموجب مرسوم تنفيذي أصدرته إدارة ترامب، اضطرت أوبن إيه آي إلى مشاركة هذه النماذج مع الحكومة الأمريكية لمراجعة أمنية قبل أي إتاحة عامة. ردّت الشركة علناً: «لا نعتقد أن هذا النوع من عمليات الوصول الحكومي ينبغي أن يصبح المعيار المعتمد على المدى البعيد.» كانت السياسة ذاتها قد أجبرت أنثروبيك في وقت سابق على تعليق الوصول إلى نماذجها الجديدة. يقف هذا الحدث عند تقاطع التطور المتسارع للذكاء الاصطناعي والرقابة التنظيمية الأبطأ — وما سيُسفر عنه سيُحدد من يحصل على النماذج القوية، ومتى."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "نماذج في عائلة GPT-5.6" },
+        { "value": "~20", "label": "شركة في المعاينة المحدودة" },
+        { "value": "91.91%", "label": "نتيجة سول على Terminal-Bench 2.1" },
+        { "value": "~50%", "label": "انخفاض تكلفة تيرا مقارنةً بـ GPT-5.5" }
+      ]
+    }
+  }
+}
