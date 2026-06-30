@@ -1,0 +1,113 @@
+{
+  "slug": "2026-06-30-agibot-15000-robots",
+  "date": "2026-06-30",
+  "tags": ["robotics", "ai"],
+  "image": {
+    "url": "https://www.agibot.com/file/ueditor/php/upload/image/20260628/1782635612287883.jpg",
+    "alt": "Two AGIBOT executives pose with the 15,000th G2 robot decorated with a red ribbon at the production milestone event",
+    "credit": "AGIBOT"
+  },
+  "sources": [
+    { "title": "PR Newswire — AGIBOT's 15,000th Robot Rolls Off the Production Line", "url": "http://www.prnewswire.com/news-releases/agibots-15-000th-robot-rolls-off-the-production-line-marking-a-new-milestone-in-embodied-ai-deployment-302812693.html" },
+    { "title": "RoboticsTomorrow — AGIBOT's 15,000th Robot Milestone in Embodied AI Deployment", "url": "https://www.roboticstomorrow.com/news/2026/06/29/agibots-15000th-robot-rolls-off-the-production-line-marking-a-new-milestone-in-embodied-ai-deployment/26780" },
+    { "title": "AGIBOT — Official Milestone Announcement", "url": "https://www.agibot.com/article/231/detail/82.html" }
+  ],
+  "locales": {
+    "en": {
+      "title": "China's AGIBOT Ships Its 15,000th AI Robot",
+      "summary": "Shanghai robotics company AGIBOT rolled its 15,000th AI-powered robot off the production line on June 28, showing how fast factory robots with real intelligence are moving from pilot programs to production floors.",
+      "body": [
+        "On June 28, AGIBOT — a Shanghai robotics company that did not exist three years ago — rolled its 15,000th AI-powered robot off the production line. The number itself is significant. The speed at which AGIBOT reached it is more so.",
+        "The milestone unit is the G2, built for factory floors. It has an upper body with arms and hands but moves on wheels. AGIBOT describes it as an \"embodied AI\" robot — meaning it uses AI to see what is in front of it, decide what to do, and act, rather than follow a rigid set of pre-programmed steps. In late June, G2 units were doing quality-inspection shifts on consumer electronics lines, checking tablets as they came off the production belt.",
+        "The production acceleration is the real headline. Getting from 1,000 to 5,000 units took about a year. Getting from 5,000 to 10,000 took three months — four times the pace. AGIBOT already ranked first globally in humanoid robot shipments in 2025, with a 39% market share according to research firm Omdia. Most of its rivals are still counting in hundreds.",
+        "Scale matters for two reasons. First, costs fall as you make more units. Second, more robots in the field means more real-world data flowing back to improve the AI — the same logic that helped Tesla's self-driving software improve over time. For anyone watching this space: AI-equipped factory robots are no longer a coming thing. They are on production floors today, mostly in China, and the rollout is moving faster than many analysts expected."
+      ],
+      "keyFacts": [
+        { "value": "15,000", "label": "AGIBOT robots shipped by June 2026" },
+        { "value": "3 months", "label": "time to go from 5,000 to 10,000 units" },
+        { "value": "4×", "label": "faster production pace in the last phase" },
+        { "value": "39%", "label": "global humanoid robot market share in 2025" }
+      ]
+    },
+    "de": {
+      "title": "Chinas AGIBOT liefert seinen 15.000sten KI-Roboter aus",
+      "summary": "Das Shanghaier Robotikunternehmen AGIBOT rollte am 28. Juni seinen 15.000sten KI-Roboter vom Band — ein Meilenstein, der zeigt, wie rasch KI-gestützte Fabrikroboter von Pilotprojekten auf echte Produktionslinien wechseln.",
+      "body": [
+        "Am 28. Juni rollte AGIBOT — ein Shanghaier Robotikunternehmen, das vor drei Jahren noch nicht existierte — seinen 15.000sten KI-gestützten Roboter vom Fließband. Die Zahl ist beeindruckend; die Geschwindigkeit, mit der AGIBOT sie erreicht hat, ist es noch mehr.",
+        "Das Jubiläumsmodell ist der G2, ein Roboter für Fabrikhallen. Er hat einen Oberkörper mit Armen und Händen, bewegt sich aber auf Rädern. AGIBOT nennt ihn einen \"Embodied AI\"-Roboter — er nutzt künstliche Intelligenz, um die Umgebung wahrzunehmen, Entscheidungen zu treffen und zu handeln, anstatt starren, vorprogrammierten Abläufen zu folgen. Ende Juni waren G2-Einheiten im Einsatz auf Elektronikfertigungslinien, wo sie Tablets auf Qualitätsmängel kontrollierten.",
+        "Die Produktionsbeschleunigung ist die eigentliche Schlagzeile. Von 1.000 auf 5.000 Einheiten dauerte es rund ein Jahr. Von 5.000 auf 10.000 nur drei Monate — viermal schneller. AGIBOT belegte laut Omdia bereits 2025 den ersten Platz weltweit bei Humanoidroboter-Auslieferungen mit einem Marktanteil von 39 %. Die meisten Wettbewerber zählen noch in Hunderten.",
+        "Skalierung ist aus zwei Gründen entscheidend. Erstens sinken die Kosten mit steigender Produktionsmenge. Zweitens liefern mehr Roboter im Einsatz mehr reale Daten zur Verbesserung der KI — dieselbe Logik, die Teslas Fahrassistenz-Software im Laufe der Zeit verbessert hat. Wer diesen Markt beobachtet, sollte wissen: KI-gestützte Fabrikroboter sind keine Zukunftsvision mehr. Sie stehen heute auf Produktionslinien, vorwiegend in China, und die Einführungsgeschwindigkeit übertrifft die Prognosen vieler Analysten."
+      ],
+      "keyFacts": [
+        { "value": "15,000", "label": "ausgelieferte AGIBOT-Roboter bis Juni 2026" },
+        { "value": "3 months", "label": "Zeit von 5.000 auf 10.000 Einheiten" },
+        { "value": "4×", "label": "höheres Produktionstempo in der letzten Phase" },
+        { "value": "39%", "label": "globaler Marktanteil bei Humanoidrobotern 2025" }
+      ]
+    },
+    "nl": {
+      "title": "China's AGIBOT levert zijn 15.000ste AI-robot af",
+      "summary": "Het Shanghaase roboticabedrijf AGIBOT rolde op 28 juni zijn 15.000ste AI-robot van de productielijn, een mijlpaal die laat zien hoe snel AI-gestuurde fabrieksrobots van pilots naar echte productiehallen verschuiven.",
+      "body": [
+        "Op 28 juni rolde AGIBOT — een Shanghais roboticabedrijf dat drie jaar geleden nog niet bestond — zijn 15.000ste door AI aangedreven robot van de productielijn. Het getal op zich is indrukwekkend; de snelheid waarmee AGIBOT dit heeft bereikt, is dat nog meer.",
+        "De jubileumseenheid is de G2, gebouwd voor fabrieksomgevingen. Hij heeft een bovenlichaam met armen en handen, maar beweegt op wielen. AGIBOT noemt hem een \"embodied AI\"-robot: hij gebruikt AI om te zien, te redeneren en te handelen in de echte wereld, in plaats van starre, vooraf geprogrammeerde stappen te volgen. Eind juni controleerden G2-eenheden op kwaliteitsinspectielijnen voor consumentenelektronica de tabletten die van de productieband kwamen.",
+        "De productieversnelling is het echte nieuws. Van 1.000 naar 5.000 eenheden duurde ongeveer een jaar. Van 5.000 naar 10.000 slechts drie maanden — viermaal zo snel. AGIBOT was in 2025 al wereldleider in humanoidrobot-leveringen, met een marktaandeel van 39% volgens onderzoeksbureau Omdia. De meeste concurrenten tellen nog steeds in honderden.",
+        "Schaalgrootte telt om twee redenen. Ten eerste dalen de kosten naarmate je meer maakt. Ten tweede leveren meer robots in het veld meer echte data op om de AI te verbeteren — dezelfde logica die Tesla's rijhulpsoftware geleidelijk beter maakte. Voor iedereen die deze sector volgt: AI-gestuurde fabrieksrobots zijn geen toekomstmuziek meer. Ze staan vandaag op productielijnen, voornamelijk in China, en de uitrolsnelheid is hoger dan veel analisten hadden verwacht."
+      ],
+      "keyFacts": [
+        { "value": "15,000", "label": "door AGIBOT geleverde robots in juni 2026" },
+        { "value": "3 months", "label": "tijd van 5.000 naar 10.000 eenheden" },
+        { "value": "4×", "label": "sneller productietempo in de laatste fase" },
+        { "value": "39%", "label": "wereldmarktaandeel humanoidrobots in 2025" }
+      ]
+    },
+    "es": {
+      "title": "La china AGIBOT entrega su robot número 15.000",
+      "summary": "La empresa de robótica shanghainesa AGIBOT sacó de la línea de producción su robot número 15.000 el 28 de junio, señalando que los robots de fábrica con IA real han dejado atrás los pilotos y ya operan en cadenas de producción reales.",
+      "body": [
+        "El 28 de junio, AGIBOT —una empresa de robótica de Shanghái que no existía hace tres años— sacó de su línea de producción el robot número 15.000 impulsado por IA. La cifra ya es notable; la velocidad a la que AGIBOT llegó hasta aquí lo es aún más.",
+        "La unidad del hito es el G2, diseñado para entornos industriales. Tiene un torso con brazos y manos, pero se desplaza sobre ruedas. AGIBOT lo describe como un robot de \"IA encarnada\": usa inteligencia artificial para ver, razonar y actuar en el mundo real, en lugar de seguir una secuencia rígida de pasos preprogramados. A finales de junio, unidades G2 realizaban turnos de inspección de calidad en líneas de fabricación de electrónica de consumo, revisando tabletas a medida que salían de la cinta de producción.",
+        "La aceleración de la producción es el verdadero titular. Pasar de 1.000 a 5.000 unidades llevó cerca de un año. De 5.000 a 10.000, apenas tres meses, cuatro veces más rápido. AGIBOT ya encabezó el ranking mundial de envíos de robots humanoides en 2025, con una cuota de mercado del 39% según Omdia. La mayoría de sus rivales todavía cuenta en cientos.",
+        "La escala importa por dos razones. Primero, los costes bajan cuanto más se produce. Segundo, más robots en el campo equivalen a más datos reales para mejorar la IA, la misma lógica que hizo que el software de conducción autónoma de Tesla mejorara con el tiempo. Para cualquiera que siga este sector: los robots de fábrica con IA real ya no son una promesa futura. Están en las líneas de producción hoy, principalmente en China, y el ritmo de implantación supera las previsiones de muchos analistas."
+      ],
+      "keyFacts": [
+        { "value": "15,000", "label": "robots entregados por AGIBOT hasta junio de 2026" },
+        { "value": "3 months", "label": "tiempo de 5.000 a 10.000 unidades" },
+        { "value": "4×", "label": "mayor ritmo de producción en la última fase" },
+        { "value": "39%", "label": "cuota global de robots humanoides en 2025" }
+      ]
+    },
+    "fr": {
+      "title": "Le chinois AGIBOT livre son 15 000ème robot IA",
+      "summary": "L'entreprise de robotique shanghaïenne AGIBOT a sorti son 15 000ème robot piloté par IA de la chaîne de production le 28 juin, signe que les robots d'usine intelligents ont quitté le stade des pilotes pour entrer dans les lignes de production réelles.",
+      "body": [
+        "Le 28 juin, AGIBOT — une entreprise de robotique shanghaïenne qui n'existait pas il y a trois ans — a sorti de sa chaîne de production son 15 000ème robot doté d'IA. Le chiffre en lui-même est remarquable ; la vitesse à laquelle AGIBOT l'a atteint l'est encore plus.",
+        "L'unité symbolique est le G2, conçu pour les environnements industriels. Il possède un torse avec des bras et des mains, mais se déplace sur des roues. AGIBOT le décrit comme un robot à \"IA incarnée\" : il utilise l'IA pour voir, raisonner et agir dans le monde réel, plutôt que de suivre une séquence rigide d'étapes préprogrammées. Fin juin, des unités G2 effectuaient des quarts d'inspection qualité sur des lignes de fabrication d'électronique grand public, contrôlant des tablettes sortant du tapis de production.",
+        "L'accélération de la production est le vrai titre. Passer de 1 000 à 5 000 unités a pris environ un an. De 5 000 à 10 000, seulement trois mois, soit quatre fois plus vite. AGIBOT était déjà premier mondial en expéditions de robots humanoïdes en 2025, avec 39 % de parts de marché selon le cabinet Omdia. La plupart de ses concurrents comptent encore en centaines.",
+        "L'échelle compte pour deux raisons. Premièrement, les coûts baissent à mesure que la production augmente. Deuxièmement, plus de robots sur le terrain signifie plus de données réelles pour améliorer l'IA, la même logique qui a permis au logiciel de conduite autonome de Tesla de progresser au fil du temps. Pour quiconque suit ce secteur : les robots d'usine équipés d'IA réelle ne sont plus une promesse future. Ils sont sur les lignes de production aujourd'hui, principalement en Chine, et le rythme de déploiement dépasse les prévisions de nombreux analystes."
+      ],
+      "keyFacts": [
+        { "value": "15,000", "label": "robots livrés par AGIBOT à fin juin 2026" },
+        { "value": "3 months", "label": "temps de 5 000 à 10 000 unités" },
+        { "value": "4×", "label": "cadence de production plus rapide lors de la dernière phase" },
+        { "value": "39%", "label": "part de marché mondiale des robots humanoïdes en 2025" }
+      ]
+    },
+    "ar": {
+      "title": "الشركة الصينية AGIBOT تُسلّم روبوتها الذكي رقم 15,000",
+      "summary": "أخرجت شركة الروبوتات الصينية AGIBOT وحدتها رقم 15,000 من خط الإنتاج في 28 يونيو، في دليل واضح على أن الروبوتات المصنعية الذكية تجاوزت مرحلة التجريب وباتت تعمل على خطوط إنتاج حقيقية.",
+      "body": [
+        "في 28 يونيو، أخرجت AGIBOT — شركة روبوتات مقرها شنغهاي لم تكن موجودة قبل ثلاث سنوات — وحدتها رقم 15,000 المدعومة بالذكاء الاصطناعي من خط إنتاجها. الرقم في حد ذاته لافت؛ غير أن السرعة التي وصلت إليها الشركة أكثر إثارة للاهتمام.",
+        "الوحدة المميزة هي G2، روبوت صُمِّم للبيئات الصناعية. يمتلك جذعاً علوياً بذراعين ويدين، لكنه يتنقل على عجلات. تصفه AGIBOT بأنه روبوت \"ذكاء اصطناعي مجسَّد\": يستخدم الذكاء الاصطناعي للرؤية والتفكير والتصرف في العالم الحقيقي، بدلاً من اتباع سلسلة صارمة من الخطوات المبرمجة مسبقاً. في أواخر يونيو، كانت وحدات G2 تُؤدي نوبات فحص الجودة على خطوط تصنيع الإلكترونيات الاستهلاكية، حيث تفحص الأجهزة اللوحية التي تخرج من حزام الإنتاج.",
+        "تسارع الإنتاج هو العنوان الحقيقي. استغرق الانتقال من 1,000 إلى 5,000 وحدة نحو عام. أما من 5,000 إلى 10,000 فلم يستغرق سوى ثلاثة أشهر، أسرع بأربعة أضعاف. وكانت AGIBOT قد تصدرت قائمة شحنات الروبوتات الشبيهة بالإنسان عالمياً في 2025، بحصة سوقية بلغت 39% وفقاً لشركة الأبحاث Omdia. معظم المنافسين لا يزالون يعدّون بالمئات.",
+        "للحجم أهمية لسببين. أولاً، تنخفض التكاليف مع زيادة الإنتاج. ثانياً، تعني المزيد من الروبوتات في الميدان مزيداً من البيانات الحقيقية لتحسين الذكاء الاصطناعي — وهو المنطق ذاته الذي جعل برنامج القيادة الذاتية لتسلا يتطور مع الوقت. لمن يتابع هذا القطاع: روبوتات المصانع المزودة بذكاء اصطناعي حقيقي لم تعد شيئاً مستقبلياً. إنها على خطوط الإنتاج اليوم، معظمها في الصين، ووتيرة الانتشار تفوق توقعات كثير من المحللين."
+      ],
+      "keyFacts": [
+        { "value": "15,000", "label": "روبوت شحنته AGIBOT حتى يونيو 2026" },
+        { "value": "3 months", "label": "الوقت المستغرق من 5,000 إلى 10,000 وحدة" },
+        { "value": "4×", "label": "أسرع وتيرة إنتاج في المرحلة الأخيرة" },
+        { "value": "39%", "label": "الحصة السوقية العالمية لروبوتات الإنسان عام 2025" }
+      ]
+    }
+  }
+}
