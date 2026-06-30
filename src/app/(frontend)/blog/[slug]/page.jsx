@@ -21,6 +21,20 @@ function formatDate(date, lang) {
   })
 }
 
+// Render body text with inline **highlight** markers as accent-coloured emphasis.
+// Split on **...**; odd-indexed chunks are the highlighted phrases.
+function renderInline(text) {
+  return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+    i % 2 === 1 ? (
+      <strong key={i} className="font-semibold text-accent">
+        {part}
+      </strong>
+    ) : (
+      part
+    ),
+  )
+}
+
 export async function generateMetadata({ params }) {
   const { slug } = await params
   const post = getPost(slug, await getLocale())
@@ -150,7 +164,7 @@ export default async function BlogPostPage({ params }) {
       <section className="pb-16 md:pb-24">
         <div className="r text-base md:text-xl leading-relaxed max-w-3xl text-ink/85 space-y-5">
           {post.body.map((para, i) => (
-            <p key={i}>{para}</p>
+            <p key={i}>{renderInline(para)}</p>
           ))}
         </div>
       </section>

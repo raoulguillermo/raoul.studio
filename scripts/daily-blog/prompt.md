@@ -51,6 +51,11 @@ this job — do not produce those.)
    - Always answer "so what for someone running or building a business?" — concrete
      examples over abstract claims. Close with a clear takeaway.
    - Use "we" sparingly and only for a genuine studio viewpoint; mostly write analytically.
+   - **Highlight the key phrase in each paragraph** — the single most important insight or
+     takeaway — by wrapping it in `**double asterisks**` (e.g. "...which means
+     **cheaper models change the economics of automation**."). Keep it short (a 3–10 word
+     phrase, never a whole sentence) and use at most one per paragraph. Translate the
+     highlighted phrase in every language and keep the `**` markers around it there too.
 
 4. **Pull 3–4 key facts** for a small "facts card": each a short `value` (number, date or
    short phrase) + a plain `label` (a few words). All grounded in your sources.
@@ -106,7 +111,9 @@ this job — do not produce those.)
 ## Rules
 - `slug` MUST start with `{{DATE}}-` and match the filename (minus `.json`).
 - `pillar` MUST be exactly one of: `ai-in-practice`, `industry-insights`, `commerce`.
-- `body` is an array of plain-text paragraph strings (no markdown, no HTML).
+- `body` is an array of paragraph strings — plain text, except for inline `**highlight**`
+  markers around one short key phrase per paragraph (no other markdown, no HTML). Keep the
+  markers consistent across every locale.
 - All six locales must be present and fully translated, each with `keyFacts` (3–4 items).
 - `image` is **optional** — include it only with a real URL you actually saw; otherwise
   leave the whole `image` object out. Never guess a URL.
