@@ -21,14 +21,18 @@ function formatDate(date, lang) {
   })
 }
 
-// Render body text with inline **highlight** markers as accent-coloured emphasis.
-// Split on **...**; odd-indexed chunks are the highlighted phrases.
+// Render body text with inline **highlight** markers as "selected text" — a red
+// marker matching the site's ::selection style (accent bg, paper text). Split on
+// **...**; odd-indexed chunks are the highlighted phrases.
 function renderInline(text) {
   return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
     i % 2 === 1 ? (
-      <strong key={i} className="font-semibold text-accent">
+      <mark
+        key={i}
+        className="bg-accent text-paper box-decoration-clone px-[0.1em]"
+      >
         {part}
-      </strong>
+      </mark>
     ) : (
       part
     ),
