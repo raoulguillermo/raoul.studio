@@ -166,7 +166,7 @@ export default async function HomePage() {
             >
               {pad2(p.number)}
             </span>
-            <div className="relative z-10 max-w-[1500px] mx-auto px-6 md:px-12 py-12 md:py-32 min-h-screen md:min-h-[140vh] flex flex-col justify-between gap-8 md:gap-24">
+            <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-10 py-12 md:py-32 min-h-screen md:min-h-[140vh] flex flex-col justify-between gap-8 md:gap-24">
               <div
                 data-parallax="0.18"
                 className="flex items-center justify-between font-semibold uppercase tracking-wider text-sm"
@@ -247,7 +247,7 @@ export default async function HomePage() {
           className="fullbleed"
           style={{ background: '#0F0F0F', color: '#D6D9DC' }}
         >
-          <div className="max-w-[1500px] mx-auto px-6 md:px-12 py-16 md:py-32">
+          <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-32">
             <div className="r flex items-end justify-between gap-6 mb-8 md:mb-12">
               <div>
                 <p className="text-sm mb-3 font-semibold uppercase tracking-wider opacity-60">
