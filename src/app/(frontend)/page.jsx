@@ -7,6 +7,8 @@ import PosterRail from '@/components/PosterRail'
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { getPosts, getPillarLabel } from '@/content/blog'
+import { getNewsletterStrings } from '@/content/newsletter'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 export async function generateMetadata() {
   const { home } = getContent(await getLocale())
@@ -53,6 +55,7 @@ export default async function HomePage() {
 
   // Insights: the three most recent articles.
   const insightsPosts = home.insights ? getPosts(lang).slice(0, 3) : []
+  const news = getNewsletterStrings(lang)
 
   // Split contact afterLink on a literal "\n" → desktop-only line break
   const afterLinkParts = (home.contact?.afterLink ?? '').split('\n')
@@ -303,6 +306,9 @@ export default async function HomePage() {
                 {home.insights.allLabel}
               </a>
             ) : null}
+            <div className="r mt-12 md:mt-16 border-t border-current/20 pt-10 md:pt-14">
+              <NewsletterSignup strings={news} lang={lang} variant="dark" />
+            </div>
           </div>
         </section>
       ) : null}

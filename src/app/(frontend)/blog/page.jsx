@@ -5,6 +5,8 @@ import PosterRail from '@/components/PosterRail'
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { getPosts, getBlogStrings, getPillarLabel } from '@/content/blog'
+import { getNewsletterStrings } from '@/content/newsletter'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 // Read posts from disk on every request so a newly published file is live
 // without a rebuild.
@@ -32,6 +34,7 @@ export default async function BlogIndexPage() {
   const { header, footer, posterRail, ui } = getContent(lang)
   const blog = getBlogStrings(lang)
   const posts = getPosts(lang)
+  const news = getNewsletterStrings(lang)
 
   return (
     <>
@@ -89,6 +92,13 @@ export default async function BlogIndexPage() {
             ))}
           </ul>
         )}
+      </section>
+
+      {/* Newsletter */}
+      <section className="fullbleed" style={{ background: '#0F0F0F', color: '#D6D9DC' }}>
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-28">
+          <NewsletterSignup strings={news} lang={lang} variant="dark" />
+        </div>
       </section>
 
       <SiteFooter leftText={footer.leftText} rightText={footer.rightText} />

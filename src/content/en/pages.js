@@ -216,6 +216,7 @@ export const pages = {
           'Contact form: your name, email address, optional company name and the message you write.',
           'Technical data: when you submit the form we store the IP address and browser user-agent of the request, to protect against spam and abuse.',
           'Language preference: a small "lang" cookie remembers which language you chose to read the site in.',
+          'Newsletter: if you subscribe, your email address and the language you chose, so we can send you the weekly newsletter. Every newsletter has a one-click unsubscribe link, and you can opt out at any time.',
         ],
       },
       {
