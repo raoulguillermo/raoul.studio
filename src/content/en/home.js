@@ -2,9 +2,9 @@
 
 export const home = {
   meta: {
-    title: 'raoul.studio — we build digital companies',
+    title: 'raoul.studio — digital product studio for AI, software & commerce',
     description:
-      'A digital product studio and venture studio. We design and build custom software for ambitious clients — and build, launch and back our own products. Strategy, engineering, AI, commerce and infrastructure under one roof.',
+      'raoul.studio is a digital product studio that helps ambitious businesses turn ideas into scalable digital products — strategy, design, software engineering, AI, automation, commerce and infrastructure.',
   },
   hero: {
     prefix: 'Building',

@@ -11,6 +11,7 @@ export async function generateMetadata() {
   return {
     title: contact.meta?.title || "Let's talk — raoul.studio",
     description: contact.meta?.description || '',
+    alternates: { canonical: '/contact' },
   }
 }
 

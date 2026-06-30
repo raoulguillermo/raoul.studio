@@ -2,7 +2,7 @@
 
 export const contact = {
   meta: {
-    title: 'Contact — raoul.studio',
+    title: 'Contact',
     description:
       'Got a product or platform to build? Tell the studio about it. We reply within 24h.',
   },

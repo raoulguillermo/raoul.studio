@@ -32,7 +32,6 @@ export async function generateMetadata() {
     },
     description: meta.description,
     applicationName: 'raoul.studio',
-    alternates: { canonical: '/' },
     openGraph: {
       type: 'website',
       siteName: 'raoul.studio',
@@ -61,34 +60,115 @@ export const viewport = {
 // Entity graph for search engines and AI answer engines (Google Knowledge
 // Panel, ChatGPT, Perplexity, Claude). Describes the studio, its founder and
 // the services it offers in plain, machine-readable terms.
+const STUDIO_DESCRIPTION =
+  'raoul.studio is a digital product studio that helps ambitious businesses turn ideas into scalable digital products — combining strategy, branding, software engineering, AI, automation, commerce and infrastructure.'
+
+const svc = (name) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name } })
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'ProfessionalService',
+      '@type': ['Organization', 'ProfessionalService'],
       '@id': `${SITE_URL}/#studio`,
       name: 'raoul.studio',
       url: SITE_URL,
-      description: enHome.meta.description,
+      description: STUDIO_DESCRIPTION,
+      slogan: 'Building what’s next.',
       email: 'hello@raoul.studio',
       telephone: '+31103073755',
-      areaServed: 'EU',
+      logo: `${SITE_URL}/icon.svg`,
+      image: `${SITE_URL}/opengraph-image`,
+      address: { '@type': 'PostalAddress', addressCountry: 'NL' },
+      areaServed: [
+        { '@type': 'Country', name: 'Netherlands' },
+        { '@type': 'AdministrativeArea', name: 'European Union' },
+      ],
       knowsAbout: [
-        'Custom software development',
-        'Fintech software',
-        'Legal tech',
-        'Commercial agency platforms',
-        'Next.js',
+        'Digital product studio',
+        'Digital strategy',
+        'Product discovery',
+        'UX/UI design',
+        'Branding',
+        'Web development',
+        'Software development',
+        'SaaS development',
+        'AI consulting',
+        'AI implementation',
+        'AI agents',
+        'Workflow automation',
+        'API development',
+        'Cloud infrastructure',
+        'DevOps',
         'E-commerce at scale',
+        'Headless commerce',
+        'Magento',
+        'Next.js',
+        'Technical consulting',
       ],
       sameAs: ['https://instagram.com/raoulguillermo'],
       founder: { '@id': `${SITE_URL}/#raoul` },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Services',
+        itemListElement: [
+          {
+            '@type': 'OfferCatalog',
+            name: 'Products',
+            itemListElement: [
+              svc('Custom SaaS platforms'),
+              svc('Web platforms & portals'),
+              svc('Internal tools'),
+              svc('Custom software development'),
+            ],
+          },
+          {
+            '@type': 'OfferCatalog',
+            name: 'AI',
+            itemListElement: [
+              svc('AI consulting'),
+              svc('AI implementation'),
+              svc('AI agents'),
+              svc('Workflow automation'),
+              svc('Document intelligence'),
+            ],
+          },
+          {
+            '@type': 'OfferCatalog',
+            name: 'Commerce',
+            itemListElement: [
+              svc('E-commerce at scale'),
+              svc('Headless commerce'),
+              svc('Magento development'),
+              svc('PIM & ERP integrations'),
+            ],
+          },
+          {
+            '@type': 'OfferCatalog',
+            name: 'Brand',
+            itemListElement: [
+              svc('Brand identity'),
+              svc('Websites'),
+              svc('Digital experiences'),
+            ],
+          },
+          {
+            '@type': 'OfferCatalog',
+            name: 'Growth',
+            itemListElement: [
+              svc('Technical partnership'),
+              svc('Cloud infrastructure & DevOps'),
+              svc('Maintenance & support'),
+            ],
+          },
+        ],
+      },
     },
     {
       '@type': 'Person',
       '@id': `${SITE_URL}/#raoul`,
       name: 'Raoul Guillermo',
-      jobTitle: 'Founder & software architect',
+      jobTitle: 'Founder',
       worksFor: { '@id': `${SITE_URL}/#studio` },
       sameAs: ['https://instagram.com/raoulguillermo'],
     },
@@ -97,6 +177,8 @@ const jsonLd = {
       '@id': `${SITE_URL}/#website`,
       url: SITE_URL,
       name: 'raoul.studio',
+      description: STUDIO_DESCRIPTION,
+      inLanguage: ['en', 'de', 'nl', 'es', 'fr', 'ar'],
       publisher: { '@id': `${SITE_URL}/#studio` },
     },
   ],

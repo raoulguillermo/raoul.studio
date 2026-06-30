@@ -11,6 +11,7 @@ export async function generateMetadata() {
   return {
     title: page.meta?.title || `${page.titleLine1} — raoul.studio`,
     description: page.meta?.description || '',
+    alternates: { canonical: '/process' },
   }
 }
 

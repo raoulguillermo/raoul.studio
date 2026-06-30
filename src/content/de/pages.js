@@ -4,7 +4,7 @@ export const pages = {
   work: {
     slug: 'work',
     meta: {
-      title: 'Arbeit — raoul.studio',
+      title: 'Arbeit',
       description:
         'Ausgewählte Projekte des Studios — maßgeschneiderte Plattformen, SaaS, KI-Tools, headless E-Commerce und CRMs für Fintech, Kanzleien und kommerzielle Teams, dazu unsere eigenen Produkte.',
     },
@@ -23,7 +23,7 @@ export const pages = {
   about: {
     slug: 'about',
     meta: {
-      title: 'Über uns — raoul.studio',
+      title: 'Über uns',
       description:
         'Ein digitales Produktstudio, das vollständige Produkte gestaltet, baut und wachsen lässt — Strategie, Engineering, KI, Automatisierung und Marke für Fintech, Kanzleien, Agenturen und E-Commerce.',
     },
@@ -63,7 +63,7 @@ export const pages = {
   process: {
     slug: 'process',
     meta: {
-      title: 'Prozess — raoul.studio',
+      title: 'Prozess',
       description:
         'Wie das Studio arbeitet: Richtung, Struktur, Design, Bau, Iteration, Skalierung. Direkt, fokussiert auf maßgeschneiderte Produkte, die halten.',
     },
@@ -189,7 +189,7 @@ export const pages = {
   privacy: {
     slug: 'privacy',
     meta: {
-      title: 'Datenschutz — raoul.studio',
+      title: 'Datenschutz',
       description:
         'Wie raoul.studio mit personenbezogenen Daten umgeht: was wir über das Kontaktformular erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
     },

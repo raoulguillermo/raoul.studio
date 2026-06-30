@@ -13,6 +13,7 @@ export async function generateMetadata() {
   return {
     title: home.meta?.title || 'raoul.studio',
     description: home.meta?.description || '',
+    alternates: { canonical: '/' },
   }
 }
 

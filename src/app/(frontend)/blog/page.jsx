@@ -12,7 +12,11 @@ export const dynamic = 'force-dynamic'
 
 export async function generateMetadata() {
   const blog = getBlogStrings(await getLocale())
-  return { title: blog.eyebrow, description: blog.lead }
+  return {
+    title: blog.eyebrow,
+    description: blog.lead,
+    alternates: { canonical: '/blog' },
+  }
 }
 
 function formatDate(date, lang) {

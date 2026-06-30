@@ -4,7 +4,7 @@ export const pages = {
   work: {
     slug: 'work',
     meta: {
-      title: 'Werk — raoul.studio',
+      title: 'Werk',
       description:
         'Geselecteerde projecten uit de studio — maatwerkplatforms, SaaS, AI-tools, headless e-commerce en CRMs voor fintech, advocatuur en commerciële teams, plus onze eigen producten.',
     },
@@ -23,7 +23,7 @@ export const pages = {
   about: {
     slug: 'about',
     meta: {
-      title: 'Over ons — raoul.studio',
+      title: 'Over ons',
       description:
         'Een digital product studio die complete producten ontwerpt, bouwt en laat groeien — strategie, engineering, AI, automatisering en merk samengebracht voor fintech, advocatuur, bureaus en e-commerce.',
     },
@@ -63,7 +63,7 @@ export const pages = {
   process: {
     slug: 'process',
     meta: {
-      title: 'Proces — raoul.studio',
+      title: 'Proces',
       description:
         'Hoe de studio werkt: richting, structuur, ontwerp, bouw, itereren, schalen. Direct, gericht op het leveren van maatwerkproducten die blijven.',
     },
@@ -189,7 +189,7 @@ export const pages = {
   privacy: {
     slug: 'privacy',
     meta: {
-      title: 'Privacybeleid — raoul.studio',
+      title: 'Privacybeleid',
       description:
         'Hoe raoul.studio met persoonsgegevens omgaat: wat we via het contactformulier verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
     },

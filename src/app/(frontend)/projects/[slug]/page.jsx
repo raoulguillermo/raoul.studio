@@ -9,6 +9,8 @@ import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { projectSlugs } from '@/content/en/projects'
 
+const SITE_URL = 'https://raoul.studio'
+
 function pad2(n) {
   return String(n).padStart(2, '0')
 }
@@ -21,17 +23,25 @@ export async function generateMetadata({ params }) {
   const { slug } = await params
   const { getProject } = getContent(await getLocale())
   const project = getProject(slug)
-  if (!project) return { title: 'Project — raoul.studio' }
+  if (!project) return { title: 'Project' }
   return {
-    title: `${project.titlePlain} — raoul.studio`,
-    description: project.lead,
+    title: project.titlePlain,
+    description: project.lead || project.shortDescription,
+    alternates: { canonical: `/projects/${slug}` },
+    openGraph: {
+      type: 'article',
+      title: project.titlePlain,
+      description: project.lead || project.shortDescription,
+      url: `/projects/${slug}`,
+    },
   }
 }
 
 export default async function ProjectPage({ params }) {
   const { slug } = await params
+  const lang = await getLocale()
   const { projects, getProject, header, footer, posterRail, ui, infographics } =
-    getContent(await getLocale())
+    getContent(lang)
   const project = getProject(slug)
   if (!project) notFound()
 
@@ -39,8 +49,24 @@ export default async function ProjectPage({ params }) {
   const prev = projects[(idx - 1 + projects.length) % projects.length]
   const next = projects[(idx + 1) % projects.length]
 
+  const projectLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: project.titlePlain,
+    description: project.lead || project.shortDescription,
+    url: `${SITE_URL}/projects/${project.slug}`,
+    inLanguage: lang,
+    keywords: project.tagsLine,
+    creator: { '@type': 'Organization', name: 'raoul.studio', url: SITE_URL },
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectLd) }}
+      />
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}

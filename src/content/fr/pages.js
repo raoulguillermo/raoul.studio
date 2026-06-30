@@ -4,7 +4,7 @@ export const pages = {
   work: {
     slug: 'work',
     meta: {
-      title: 'Réalisations — raoul.studio',
+      title: 'Réalisations',
       description:
         'Une sélection de projets du studio : plateformes sur mesure, SaaS, outils d’IA, e-commerce headless et CRM conçus pour la fintech, le droit et les équipes commerciales.',
     },
@@ -23,7 +23,7 @@ export const pages = {
   about: {
     slug: 'about',
     meta: {
-      title: 'À propos — raoul.studio',
+      title: 'À propos',
       description:
         'Un studio de produit et d’ingénierie dirigé par son fondateur, qui conçoit des logiciels sur mesure pour la fintech, le droit, les agences et l’e-commerce. Fait main, prêt pour la production, conçu pour passer à l’échelle.',
     },
@@ -63,7 +63,7 @@ export const pages = {
   process: {
     slug: 'process',
     meta: {
-      title: 'Méthode — raoul.studio',
+      title: 'Méthode',
       description:
         'Comment travaille le studio : direction, structure, design, développement, itération, échelle. Dirigé par son fondateur, direct, focalisé sur la livraison de logiciels sur mesure qui durent.',
     },
@@ -189,7 +189,7 @@ export const pages = {
   privacy: {
     slug: 'privacy',
     meta: {
-      title: 'Politique de confidentialité — raoul.studio',
+      title: 'Politique de confidentialité',
       description:
         'Comment raoul.studio traite les données personnelles : ce que nous collectons via le formulaire de contact, pourquoi, qui les traite, combien de temps nous les conservons et vos droits au titre du RGPD.',
     },

@@ -9,6 +9,8 @@ import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { getPost, getPosts, getBlogStrings, getPillarLabel } from '@/content/blog'
 
+const SITE_URL = 'https://raoul.studio'
+
 export const dynamic = 'force-dynamic'
 
 function formatDate(date, lang) {
@@ -22,8 +24,21 @@ function formatDate(date, lang) {
 export async function generateMetadata({ params }) {
   const { slug } = await params
   const post = getPost(slug, await getLocale())
-  if (!post) return { title: 'Blog — raoul.studio' }
-  return { title: post.title, description: post.summary }
+  if (!post) return { title: 'Blog' }
+  return {
+    title: post.title,
+    description: post.summary,
+    alternates: { canonical: `/blog/${slug}` },
+    openGraph: {
+      type: 'article',
+      title: post.title,
+      description: post.summary,
+      url: `/blog/${slug}`,
+      publishedTime: post.date,
+      modifiedTime: post.date,
+      images: post.image?.url ? [post.image.url] : undefined,
+    },
+  }
 }
 
 export default async function BlogPostPage({ params }) {
@@ -41,8 +56,34 @@ export default async function BlogPostPage({ params }) {
   const prev = idx > 0 ? posts[idx - 1] : null
   const next = idx < posts.length - 1 ? posts[idx + 1] : null
 
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.summary,
+    datePublished: post.date,
+    dateModified: post.date,
+    inLanguage: lang,
+    ...(pillarLabel ? { articleSection: pillarLabel } : {}),
+    ...(post.image?.url ? { image: [post.image.url] } : {}),
+    author: { '@type': 'Person', name: 'Raoul Guillermo', url: SITE_URL },
+    publisher: {
+      '@type': 'Organization',
+      name: 'raoul.studio',
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.svg` },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/blog/${post.slug}`,
+    },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+      />
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
