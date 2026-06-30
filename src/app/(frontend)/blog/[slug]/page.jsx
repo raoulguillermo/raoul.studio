@@ -7,7 +7,7 @@ import BlogImage from '@/components/BlogImage'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
-import { getPost, getPosts, getBlogStrings } from '@/content/blog'
+import { getPost, getPosts, getBlogStrings, getPillarLabel } from '@/content/blog'
 
 export const dynamic = 'force-dynamic'
 
@@ -33,6 +33,7 @@ export default async function BlogPostPage({ params }) {
   const blog = getBlogStrings(lang)
   const post = getPost(slug, lang)
   if (!post) notFound()
+  const pillarLabel = getPillarLabel(post.pillar, lang)
 
   // Prev / next within the chronological list (newest first).
   const posts = getPosts(lang)
@@ -53,7 +54,12 @@ export default async function BlogPostPage({ params }) {
       {/* Meta + title */}
       <section className="pt-16 md:pt-32 pb-8 md:pb-12">
         <div className="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
-          {blog.eyebrow} · {formatDate(post.date, lang)}
+          {pillarLabel ? (
+            <span className="text-accent">{pillarLabel}</span>
+          ) : (
+            blog.eyebrow
+          )}{' '}
+          · {formatDate(post.date, lang)}
         </div>
         <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.25rem,12vw,4.5rem)] md:text-[8vw]">
           {post.title}

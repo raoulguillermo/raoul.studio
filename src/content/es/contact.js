@@ -36,23 +36,23 @@ export const contact = {
     items: [
       {
         q: '¿En cuánto tiempo tendré respuesta?',
-        a: 'Cada briefing real se lee, con respuesta en menos de 24 horas. El estudio es pequeño y está dirigido por su fundador, así que quien responde es quien construye.',
+        a: 'Cada briefing real se lee, con respuesta en menos de 24 horas. Mantenemos el estudio pequeño y directo, así que quien responde está cerca del trabajo.',
       },
       {
         q: '¿Qué debo incluir en mi mensaje?',
         a: 'Cuéntanos qué estás construyendo o qué te está frenando: el problema, para quién es y en qué punto estás (idea, a medio hacer, o en producción y atascado). Cuanto más concreto sea el briefing, mejor será la respuesta.',
       },
       {
-        q: '¿Dónde está el estudio y trabajáis en remoto?',
-        a: 'raoul.studio tiene su base en la UE y trabaja en remoto con equipos estén donde estén. La ubicación no es un obstáculo: el trabajo es colaborativo y se construye en abierto contigo.',
+        q: '¿Dónde estáis basados y trabajáis en remoto?',
+        a: 'Estamos basados en los Países Bajos y trabajamos en remoto con equipos estén donde estén. La ubicación no es un obstáculo: el trabajo es colaborativo y se construye en abierto contigo.',
       },
       {
-        q: '¿Qué tipo de proyectos acepta el estudio?',
-        a: 'Herramientas y plataformas a medida para fintech, despachos de abogados, agencias comerciales y e-commerce: plataformas web y SaaS, e-commerce headless, herramientas de IA y automatización, CRMs y herramientas internas, APIs y marketplaces de dos lados. Solo briefings reales.',
+        q: '¿Qué tipo de proyectos aceptáis?',
+        a: 'Productos y plataformas a medida para fintech, despachos de abogados, agencias comerciales y e-commerce: plataformas web y SaaS, e-commerce headless, herramientas de IA y automatización, CRMs y herramientas internas, APIs y marketplaces de dos lados.',
       },
       {
-        q: '¿Cómo contacto con el estudio directamente?',
-        a: 'Escribe a hello@raoul.studio o usa el formulario de esta página. Ambos llegan directamente al estudio, sin capa de recepción de por medio.',
+        q: '¿Cómo contacto con vosotros directamente?',
+        a: 'Escribe a hello@raoul.studio o usa el formulario de esta página. Ambos nos llegan directamente, sin capa de recepción de por medio.',
       },
     ],
   },

@@ -14,16 +14,33 @@ const POSTS_DIR = path.join(process.cwd(), 'src/content/blog/posts')
 
 // Localized chrome for the blog pages. Falls back to English per locale.
 export const BLOG_STRINGS = {
-  en: { eyebrow: 'Blog', lead: 'Daily notes on AI & technology.', sources: 'Sources', empty: 'No entries yet.', keyFacts: 'Key facts' },
-  de: { eyebrow: 'Blog', lead: 'Tägliche Notizen zu KI & Technologie.', sources: 'Quellen', empty: 'Noch keine Einträge.', keyFacts: 'Auf einen Blick' },
-  nl: { eyebrow: 'Blog', lead: 'Dagelijkse notities over AI & technologie.', sources: 'Bronnen', empty: 'Nog geen berichten.', keyFacts: 'In het kort' },
-  es: { eyebrow: 'Blog', lead: 'Notas diarias sobre IA y tecnología.', sources: 'Fuentes', empty: 'Aún no hay entradas.', keyFacts: 'Datos clave' },
-  fr: { eyebrow: 'Blog', lead: 'Notes quotidiennes sur l’IA et la technologie.', sources: 'Sources', empty: 'Aucune entrée pour le moment.', keyFacts: 'En bref' },
-  ar: { eyebrow: 'المدوّنة', lead: 'ملاحظات يومية حول الذكاء الاصطناعي والتقنية.', sources: 'المصادر', empty: 'لا توجد مقالات بعد.', keyFacts: 'حقائق سريعة' },
+  en: { eyebrow: 'Blog', lead: 'What new technology means for the businesses building with it.', sources: 'Sources', empty: 'No entries yet.', keyFacts: 'Key facts' },
+  de: { eyebrow: 'Blog', lead: 'Was neue Technologie für Unternehmen bedeutet, die damit bauen.', sources: 'Quellen', empty: 'Noch keine Einträge.', keyFacts: 'Auf einen Blick' },
+  nl: { eyebrow: 'Blog', lead: 'Wat nieuwe technologie betekent voor de bedrijven die ermee bouwen.', sources: 'Bronnen', empty: 'Nog geen berichten.', keyFacts: 'In het kort' },
+  es: { eyebrow: 'Blog', lead: 'Lo que la nueva tecnología significa para las empresas que construyen con ella.', sources: 'Fuentes', empty: 'Aún no hay entradas.', keyFacts: 'Datos clave' },
+  fr: { eyebrow: 'Blog', lead: 'Ce que les nouvelles technologies changent pour ceux qui bâtissent avec.', sources: 'Sources', empty: 'Aucune entrée pour le moment.', keyFacts: 'En bref' },
+  ar: { eyebrow: 'المدوّنة', lead: 'ماذا تعني التقنيات الجديدة للأعمال التي تبني بها.', sources: 'المصادر', empty: 'لا توجد مقالات بعد.', keyFacts: 'حقائق سريعة' },
 }
 
 export function getBlogStrings(lang) {
   return BLOG_STRINGS[lang] || BLOG_STRINGS[DEFAULT_LOCALE]
+}
+
+// Content-pillar labels, localized. A post's `pillar` is a stable language-independent
+// key; the label shown to readers is looked up here. Unknown/missing pillars render nothing.
+export const PILLAR_LABELS = {
+  en: { 'ai-in-practice': 'AI in Practice', 'industry-insights': 'Industry Insights', commerce: 'Commerce' },
+  de: { 'ai-in-practice': 'KI in der Praxis', 'industry-insights': 'Brancheneinblicke', commerce: 'Commerce' },
+  nl: { 'ai-in-practice': 'AI in de praktijk', 'industry-insights': 'Branche-inzichten', commerce: 'Commerce' },
+  es: { 'ai-in-practice': 'IA en la práctica', 'industry-insights': 'Perspectivas del sector', commerce: 'Commerce' },
+  fr: { 'ai-in-practice': 'IA en pratique', 'industry-insights': 'Perspectives du secteur', commerce: 'Commerce' },
+  ar: { 'ai-in-practice': 'الذكاء الاصطناعي عمليًا', 'industry-insights': 'رؤى القطاع', commerce: 'التجارة' },
+}
+
+export function getPillarLabel(pillar, lang) {
+  if (!pillar) return null
+  const map = PILLAR_LABELS[lang] || PILLAR_LABELS[DEFAULT_LOCALE]
+  return map[pillar] || PILLAR_LABELS[DEFAULT_LOCALE][pillar] || null
 }
 
 // Read + parse every post file. Bad/partial files are skipped, never thrown —
@@ -60,6 +77,7 @@ function localize(post, lang) {
     slug: post.slug,
     date: post.date,
     tags: post.tags || [],
+    pillar: post.pillar || null,
     sources: post.sources || [],
     title: loc.title ?? base.title ?? post.slug,
     summary: loc.summary ?? base.summary ?? '',

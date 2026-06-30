@@ -4,19 +4,27 @@ import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
+import { pages as enPages } from '@/content/en/pages'
+
+// The Terms are maintained in English (the canonical legal version). Locales that
+// have not translated them fall back to the English `terms` object, so the page
+// always renders regardless of the active language.
+function getTerms(pages) {
+  return pages.terms || enPages.terms
+}
 
 export async function generateMetadata() {
   const { pages } = getContent(await getLocale())
-  const page = pages.privacy
+  const page = getTerms(pages)
   return {
     title: page.meta?.title || `${page.titleLine1} — raoul.studio`,
     description: page.meta?.description || '',
   }
 }
 
-export default async function PrivacyPage() {
+export default async function TermsPage() {
   const { pages, header, footer, posterRail, ui } = getContent(await getLocale())
-  const page = pages.privacy
+  const page = getTerms(pages)
   const railMiddle = page.posterRailMiddle || posterRail.middleText
   const sections = page.sections ?? []
 
@@ -91,10 +99,7 @@ export default async function PrivacyPage() {
       {page.directEmail ? (
         <section className="pb-16 md:pb-24 border-t border-ink/10 pt-8 md:pt-12 flex flex-wrap gap-y-6 items-baseline justify-between text-sm font-semibold uppercase tracking-wider text-mute">
           <span>{page.directLabel}</span>
-          <a
-            href={`mailto:${page.directEmail}`}
-            className="text-ink ul break-all"
-          >
+          <a href={`mailto:${page.directEmail}`} className="text-ink ul break-all">
             {page.directEmail}
           </a>
         </section>

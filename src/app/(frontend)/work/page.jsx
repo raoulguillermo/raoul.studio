@@ -25,6 +25,36 @@ export default async function WorkPage() {
   const page = pages.work
   const railMiddle = page.posterRailMiddle || posterRail.middleText
 
+  const Row = (p) => (
+    <a
+      key={p.slug}
+      href={`/projects/${p.slug}`}
+      className="work-row group r block border-b border-ink/15 py-8 md:py-12 transition-colors hover:bg-ink/[0.03]"
+    >
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-12 items-baseline">
+        <div className="md:col-span-1 font-display text-2xl md:text-3xl leading-none text-accent">
+          {pad2(p.number)}
+        </div>
+        <div className="md:col-span-5">
+          <h2 className="font-display uppercase tracking-tight2 leading-[0.95] text-4xl md:text-6xl group-hover:text-accent transition-colors">
+            {p.titlePlain}
+          </h2>
+          <p className="mt-2 text-[11px] uppercase tracking-[.18em] font-semibold text-mute">
+            {p.shortTag} · {p.year} · {p.status}
+          </p>
+        </div>
+        <div className="md:col-span-5 max-w-xl text-base md:text-lg leading-relaxed text-ink/80">
+          {p.shortDescription}
+        </div>
+        <div className="hidden md:flex md:col-span-1 justify-end">
+          <span className="inline-block rotate-[-45deg] text-3xl leading-none text-mute group-hover:text-accent transition-colors">
+            →
+          </span>
+        </div>
+      </div>
+    </a>
+  )
+
   return (
     <>
       <SiteHeader
@@ -57,37 +87,9 @@ export default async function WorkPage() {
         </section>
       ) : null}
 
-      {/* Project list */}
+      {/* Project list — single flat list */}
       <section className="pb-24 md:pb-40 border-t border-ink/15">
-        {projects.map((p) => (
-          <a
-            key={p.slug}
-            href={`/projects/${p.slug}`}
-            className="work-row group r block border-b border-ink/15 py-8 md:py-12 transition-colors hover:bg-ink/[0.03]"
-          >
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-12 items-baseline">
-              <div className="md:col-span-1 font-display text-2xl md:text-3xl leading-none text-accent">
-                {pad2(p.number)}
-              </div>
-              <div className="md:col-span-5">
-                <h2 className="font-display uppercase tracking-tight2 leading-[0.95] text-4xl md:text-6xl group-hover:text-accent transition-colors">
-                  {p.titlePlain}
-                </h2>
-                <p className="mt-2 text-[11px] uppercase tracking-[.18em] font-semibold text-mute">
-                  {p.shortTag} · {p.year} · {p.status}
-                </p>
-              </div>
-              <div className="md:col-span-5 max-w-xl text-base md:text-lg leading-relaxed text-ink/80">
-                {p.shortDescription}
-              </div>
-              <div className="hidden md:flex md:col-span-1 justify-end">
-                <span className="inline-block rotate-[-45deg] text-3xl leading-none text-mute group-hover:text-accent transition-colors">
-                  →
-                </span>
-              </div>
-            </div>
-          </a>
-        ))}
+        {projects.map((p) => Row(p))}
       </section>
 
       <SiteFooter leftText={footer.leftText} rightText={footer.rightText} />

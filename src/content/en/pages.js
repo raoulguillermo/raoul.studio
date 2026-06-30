@@ -6,13 +6,17 @@ export const pages = {
     meta: {
       title: 'Work — raoul.studio',
       description:
-        'Selected projects from the studio — custom platforms, SaaS, AI tools, headless e-commerce and CRMs built for fintech, law and commercial teams.',
+        'Selected projects from the studio — custom platforms, SaaS, AI tools, headless e-commerce and CRMs built for fintech, law and commercial teams, plus our own products.',
     },
     eyebrow: 'Selected work',
     titleLine1: 'Work',
     titleAccent: '.',
     lead:
-      "Every project is custom, built end to end, and made to run in production. A look at what the studio has shipped — and what it's building now.",
+      'Every project is a real business problem, solved end to end and built to run in production. The platforms and tools we’ve shipped for clients — and the products we build and run ourselves.',
+    groups: {
+      client: 'Client work',
+      product: 'Own products',
+    },
     posterRailMiddle: 'Work · Selected projects',
   },
 
@@ -21,23 +25,24 @@ export const pages = {
     meta: {
       title: 'About — raoul.studio',
       description:
-        'A founder-led product & engineering studio building custom software for fintech, law, agencies and e-commerce. Hand-tailored, production-grade, built to scale.',
+        'A digital product studio that designs, builds and grows complete products — combining strategy, engineering, AI, automation and brand for fintech, law, agencies and e-commerce.',
     },
     eyebrow: 'About',
     titleLine1: 'About',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is a product and engineering studio. We build custom-made, hand-tailored tools and platforms — software shaped around how a business actually works, not the other way around.',
+        text: 'raoul.studio is a digital product studio that helps ambitious businesses turn ideas into scalable digital products. We combine strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
       },
       {
-        text: 'We work with fintech, law firms, commercial agencies and e-commerce teams. Some of it is client work; some of it is our own products. All of it is built to run in production.',
+        text: 'We partner with founders, startups and established companies to design, build and evolve custom platforms, AI-powered tools, commerce solutions and digital experiences. Every project is approached with a product mindset: solving real business challenges, creating intuitive user experiences and building technology that can grow alongside the business.',
       },
       {
-        text: 'Founder-led by Raoul Guillermo, with a long track record building production software end to end. Small team, direct line, no layers between the brief and the build.',
+        text: 'We build long-term partnerships with teams that want to move fast, think big and create meaningful digital products. From the first idea to launch — and every iteration that follows — we work as an extension of your team, focused on delivering measurable impact through technology.',
+        highlight: 'We build long-term partnerships',
       },
     ],
-    servicesLabel: 'The studio works across',
+    servicesLabel: 'What we build',
     services: [
       { label: 'Custom web platforms & SaaS' },
       { label: 'Headless e-commerce at scale' },
@@ -46,11 +51,13 @@ export const pages = {
       { label: 'APIs & system architecture' },
       { label: 'Two-sided marketplaces' },
     ],
-    systemsParagraph:
-      "We don't ship one-off pages. Every project is built as a system — clean architecture, real data models, room to grow. The first version should hold up under load, and the tenth feature shouldn't fight the first. Custom work, made to scale.",
-    manifestoLead: "We'd rather do a few things properly than many things fast.",
-    manifestoTail: 'Founder-led, custom-built, in it for the long run.',
-    posterRailMiddle: 'About · Studio · Manifesto',
+    systemsParagraph: [
+      'We build digital products that are designed to evolve. Every platform is built on a solid technical foundation, with scalable architecture, thoughtful engineering and future growth in mind. Whether it’s an AI-powered platform, a commerce ecosystem or a custom business application, we create technology that adapts as your business grows.',
+      'From the first strategy session to long after launch, we focus on building digital solutions that are robust, scalable and made to last.',
+    ],
+    manifestoLead: 'Where strategy, AI and software',
+    manifestoTail: 'come together.',
+    posterRailMiddle: 'About · Studio',
   },
 
   process: {
@@ -58,23 +65,23 @@ export const pages = {
     meta: {
       title: 'Process — raoul.studio',
       description:
-        'How the studio works: direction, structure, design, build, iterate, scale. Founder-led, direct, focused on shipping custom software that lasts.',
+        'How the studio works: direction, structure, design, build, iterate, scale. Direct, focused on shipping custom products that last.',
     },
     eyebrow: 'Process',
     titleLine1: 'Process',
     titleAccent: '.',
     lead:
-      'Six stages, one principle: understand the system before you build it. We move fast because the thinking is done up front, not because we skip it. Custom software, shaped step by step.',
+      'Six stages, one principle: understand the system before you build it. We move fast because the thinking is done up front, not because we skip it. Custom products, shaped step by step.',
     steps: [
       {
         title: 'Direction',
-        lead: "Figure out what we're actually building.",
+        lead: 'Figure out what we’re actually building.',
         body: [
           {
             text: 'We start with the problem, not the feature list. What’s broken, what’s slow, what’s costing you — and what "done" looks like.',
           },
           {
-            text: "You leave this stage with a clear scope and a shared idea of where we're headed. No surprises later.",
+            text: 'You leave this stage with a clear scope and a shared idea of where it’s headed. No surprises later.',
           },
         ],
       },
@@ -83,7 +90,7 @@ export const pages = {
         lead: 'Design the system underneath.',
         body: [
           {
-            text: 'Before a single screen, we map the data, the flows and the architecture. Custom tools live or die on what’s underneath.',
+            text: 'Before a single screen, we map the data, the flows and the architecture. Custom products live or die on what’s underneath.',
           },
           {
             text: 'Get this right and everything after it gets easier. Get it wrong and you pay for it forever.',
@@ -95,7 +102,7 @@ export const pages = {
         lead: 'Make it clear, make it usable.',
         body: [
           {
-            text: "We design around the real workflow — the daily actions, the edge cases, the people who'll actually use it.",
+            text: 'We design around the real workflow — the daily actions, the edge cases, the people who’ll actually use it.',
           },
           {
             text: 'Sharp, fast, no clutter. The interface should disappear and let the work happen.',
@@ -119,7 +126,7 @@ export const pages = {
         lead: 'Get it in front of real use.',
         body: [
           {
-            text: "Real users surface what specs can't. We ship, watch, and tighten — fast loops, small releases.",
+            text: 'Real users surface what specs can’t. We ship, watch, and tighten — fast loops, small releases.',
           },
           { text: 'The product gets sharper every cycle.' },
         ],
@@ -132,47 +139,47 @@ export const pages = {
             text: 'More users, more data, more languages, more features — the system was built to take it.',
           },
           {
-            text: "We stick around. Most of our work is long-term, and we treat what we build like it's ours.",
+            text: 'We stick around. Most of our work is long-term, and we treat what we build like it’s ours.',
           },
         ],
       },
     ],
     howWeWork: {
       label: 'How we work',
-      lead: 'Founder-led and direct. You talk to the people building the thing.',
+      lead: 'Direct and founder-led. You talk to the people building the thing.',
       points: [
         { label: 'Direct communication' },
         { label: 'Fast decisions' },
         { label: 'No layers, no noise' },
       ],
-      closing: 'You work with people who build.',
+      closing: 'You work with the people who build.',
     },
     faq: {
       label: 'FAQ',
       items: [
         {
           q: 'What does raoul.studio do?',
-          a: 'raoul.studio is a founder-led product and engineering studio that builds custom, hand-tailored software — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams.',
+          a: 'raoul.studio is a digital product studio. We design, build and grow custom products — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams, alongside our own products.',
         },
         {
-          q: 'How does the studio work?',
+          q: 'How do you work?',
           a: 'Every project runs through six stages: Direction, Structure, Design, Build, Iterate and Scale. The principle is to understand the system before building it — the thinking is done up front, so the build moves fast without skipping steps.',
         },
         {
           q: 'How long does a project take?',
-          a: 'It depends on scope, but the studio works in fast loops with small, frequent releases rather than one big reveal at the end. You see progress as it lands and the product gets sharper every cycle, because the architecture and direction are settled before the build starts.',
+          a: 'It depends on scope, but we work in fast loops with small, frequent releases rather than one big reveal at the end. You see progress as it lands and the product gets sharper every cycle, because the architecture and direction are settled before the build starts.',
         },
         {
-          q: 'Who does the studio work with?',
-          a: 'Mostly fintech, law firms, commercial agencies and e-commerce teams. Some work is for clients, some is the studio’s own products — all of it is built to run in production. Real briefs only.',
+          q: 'Who do you work with?',
+          a: 'Mostly fintech, law firms, commercial agencies and e-commerce teams. Some work is for clients, some is our own products — all of it is built to run in production.',
         },
         {
           q: 'Do you offer ongoing support after launch?',
-          a: 'Yes. Most of the studio’s work is long-term: systems are built to grow with you across more users, data, languages and features, and the team stays involved rather than handing off and disappearing.',
+          a: 'Yes. Most of our work is long-term: systems are built to grow with you across more users, data, languages and features, and we stay involved rather than handing off and disappearing.',
         },
         {
           q: 'How do I start a project?',
-          a: 'Tell the studio what you’re building or what’s slowing you down — email hello@raoul.studio or use the contact page. Every real brief gets read, with a reply within 24 hours.',
+          a: 'Tell us what you’re building or what’s slowing you down — email hello@raoul.studio or use the contact page. Every real brief gets read, with a reply within 24 hours.',
         },
       ],
     },
@@ -284,5 +291,264 @@ export const pages = {
     directLabel: 'Privacy questions',
     directEmail: 'hello@raoul.studio',
     posterRailMiddle: 'Privacy · Legal',
+  },
+
+  terms: {
+    slug: 'terms',
+    meta: {
+      title: 'Terms & Conditions',
+      description:
+        'The terms on which raoul.studio works with its clients: scope, payment, intellectual property, AI services, liability and more — in plain English, under Dutch law.',
+    },
+    eyebrow: 'Legal',
+    titleLine1: 'Terms',
+    titleAccent: '.',
+    updated: 'Last updated — June 2026',
+    intro:
+      'These Terms set out how raoul.studio works with its clients — what we deliver, how we work, and who is responsible for what. We’ve written them in plain English: they’re meant to be fair, and to be read.',
+    sections: [
+      {
+        heading: 'Introduction',
+        body: [
+          'These Terms & Conditions ("Terms") govern all services, quotations, proposals, subscriptions, orders and agreements between raoul.studio ("the Studio", "we", "us") and its clients ("the Client", "you"). They apply unless we have agreed otherwise in writing.',
+          'raoul.studio is a digital product studio based in the Netherlands, run by Raoul Guillermo. You can reach us at hello@raoul.studio. By accepting a Proposal, signing an Agreement, or instructing us to begin work, you agree to these Terms.',
+        ],
+      },
+      {
+        heading: 'Definitions',
+        body: ['In these Terms, the following words have the following meanings:'],
+        points: [
+          'Studio — raoul.studio, the provider of the services.',
+          'Client — the natural or legal person that enters into an Agreement with the Studio.',
+          'Project — the work the Studio agrees to perform, as described in a Proposal or Agreement.',
+          'Deliverables — the designs, software, code, documentation, content or other materials the Studio delivers.',
+          'Proposal — any quotation, estimate, statement of work or offer made by the Studio.',
+          'Agreement — the accepted Proposal together with these Terms and any written arrangements between the parties.',
+          'Intellectual Property — all rights in software, designs, text, methods and know-how, including copyright, database rights, trademarks and trade secrets.',
+          'Confidential Information — non-public information disclosed by one party to the other that is marked confidential or should reasonably be understood to be confidential.',
+          'Third-party Services — products or services provided by parties other than the Studio, such as hosting, cloud, payment, AI or API providers.',
+          'AI Services — services that use artificial intelligence, machine learning or the automated generation of content, code, text or decisions.',
+        ],
+      },
+      {
+        heading: 'Applicability',
+        body: [
+          'These Terms apply to every Proposal, Agreement and Project, and to any follow-up or additional work, unless expressly agreed otherwise in writing.',
+          'These Terms prevail over any purchasing, procurement or other general conditions of the Client. The applicability of the Client’s conditions is expressly rejected, unless we have accepted them in writing.',
+          'If any provision of these Terms is or becomes invalid or unenforceable, the remaining provisions stay in full force, and the invalid provision will be replaced by a valid one that matches its purpose as closely as possible.',
+        ],
+      },
+      {
+        heading: 'Quotations & proposals',
+        body: ['Unless stated otherwise:'],
+        points: [
+          'Proposals are non-binding and do not oblige the Studio until accepted by both parties.',
+          'A Proposal is valid for 30 days from its date, after which it may be revised or withdrawn.',
+          'Prices may change before a Proposal is accepted — for example due to changes in scope, third-party costs or applicable taxes.',
+          'All prices are exclusive of VAT and any third-party costs unless stated otherwise.',
+          'Obvious mistakes and typographical errors in a Proposal do not bind the Studio.',
+        ],
+      },
+      {
+        heading: 'Project scope',
+        body: [
+          'The Studio performs the work described in the accepted Proposal. Anything not expressly included is out of scope.',
+          'Out-of-scope work — including additional features, integrations or requirements — may require additional budget, revised planning or a separate Proposal before it is carried out.',
+        ],
+      },
+      {
+        heading: 'Change requests',
+        body: [
+          'If the Client requests additional features, revisions, new requirements or changes in priorities, the Studio will assess the impact on scope, planning and price.',
+          'Changes are only carried out once agreed. The Studio may adjust timelines and fees to reflect a change, and is not obliged to start changed work before agreement is reached.',
+        ],
+      },
+      {
+        heading: 'Client responsibilities',
+        body: [
+          'A Project depends on the Client’s cooperation. The Client is responsible for providing the following on time and in full. Delays caused by the Client extend the planning accordingly, and the Studio is not liable for any resulting delay or cost:',
+        ],
+        points: [
+          'accurate and complete information;',
+          'content, assets, branding materials and access credentials;',
+          'timely feedback, approvals and decisions;',
+          'one or more authorised decision-makers;',
+          'testing and reviewing Deliverables when requested.',
+        ],
+      },
+      {
+        heading: 'Delivery',
+        body: [
+          'Any dates or planning communicated by the Studio are estimates, not strict deadlines, unless a fixed deadline has been expressly agreed in writing as such (a "fatale termijn").',
+          'Reasonable delays do not constitute a breach of contract. Where a delay is caused by the Client or by Third-party Services, the agreed timeline extends accordingly.',
+        ],
+      },
+      {
+        heading: 'Acceptance',
+        body: ['Unless agreed otherwise:'],
+        points: [
+          'Deliverables are deemed accepted if the Client does not report substantiated defects in writing within ten (10) business days of delivery.',
+          'Minor defects that do not materially prevent use do not justify rejection, and are addressed in the normal course of work.',
+          'Putting a Deliverable into use, or using it in production, constitutes acceptance.',
+        ],
+      },
+      {
+        heading: 'Payment terms',
+        body: ['Unless agreed otherwise in the Proposal:'],
+        points: [
+          'The Studio may require a deposit before starting work, and may invoice in milestones or on a recurring (retainer or subscription) basis.',
+          'Invoices are payable within fourteen (14) days of the invoice date.',
+          'All amounts are exclusive of VAT, which is charged where applicable.',
+          'If an invoice is not paid on time, the Client is in default without further notice, and statutory (commercial) interest under Dutch law applies from the due date.',
+          'The Client owes all reasonable judicial and extrajudicial collection costs incurred in recovering overdue amounts.',
+          'The Studio may suspend work, hosting, maintenance and support while invoices remain overdue.',
+        ],
+      },
+      {
+        heading: 'Suspension',
+        body: [
+          'If the Client fails to meet any payment or other material obligation, the Studio may suspend its services — including development, hosting, maintenance and support — until the Client has met its obligations.',
+          'Suspension does not relieve the Client of its payment obligations, and the Studio is not liable for any loss arising from a lawful suspension.',
+        ],
+      },
+      {
+        heading: 'Intellectual property',
+        body: [
+          'On full payment of all amounts due for a Project, the Client receives ownership of, or the licence expressly agreed for, the custom Deliverables created specifically for the Client. Until full payment, all rights remain with the Studio.',
+          'The Studio retains all Intellectual Property in everything that is not a custom Deliverable, including but not limited to its methodologies, internal frameworks, reusable code, libraries, SDKs, templates, architecture, AI workflows, automation frameworks, development tools, know-how, concepts and any pre-existing software.',
+          'Where such retained materials are incorporated into a Deliverable, the Client receives a non-exclusive, non-transferable licence to use them as part of that Deliverable, but acquires no ownership in them.',
+          'The Studio is free to use the general knowledge, skills, techniques and experience gained during a Project for other clients and purposes.',
+        ],
+      },
+      {
+        heading: 'Open-source software',
+        body: [
+          'Deliverables may include open-source software, which is provided under its own licence terms. Those licences govern the Client’s use of the open-source components, and the Studio gives no warranty or indemnity in respect of them beyond what those licences provide.',
+        ],
+      },
+      {
+        heading: 'Third-party services',
+        body: [
+          'Projects often rely on Third-party Services such as hosting, cloud providers, payment providers, AI providers, APIs and CMS platforms. These are governed by their own terms, which the Client accepts where relevant.',
+          'To the extent permitted by law, the Studio is not liable for, and gives no warranty regarding, Third-party Services, including:',
+        ],
+        points: [
+          'outages, downtime or degraded performance;',
+          'price changes or discontinued services;',
+          'changes to terms, policies or APIs;',
+          'security incidents, data loss or breaches.',
+        ],
+      },
+      {
+        heading: 'AI services',
+        body: [
+          'AI Services are based on probabilistic and statistical models. Their output is generated automatically and is inherently uncertain.',
+          'Output produced by AI Services may contain inaccuracies, fabricated or "hallucinated" information, incomplete or outdated information, or results unsuitable for a particular purpose.',
+          'The Client remains fully responsible for reviewing, validating and approving any AI-generated output before relying on it or using it in production, and for ensuring its use complies with applicable law.',
+          'The Studio provides AI Services on a best-effort basis and gives no warranty as to the correctness, completeness, factual accuracy, legal compliance, fitness for purpose, or business outcomes of any AI-generated output.',
+        ],
+      },
+      {
+        heading: 'Security',
+        body: [
+          'The Studio applies commercially reasonable technical and organisational measures to protect the systems and data it handles.',
+          'However, no digital system, software or online service can be guaranteed to be completely secure. To the extent permitted by law, the Studio does not guarantee, and is not liable for, security incidents beyond its reasonable control — including cyber-attacks, zero-day vulnerabilities, phishing, malware, cloud or hosting outages, and internet or network failures.',
+        ],
+      },
+      {
+        heading: 'Confidentiality',
+        body: [
+          'Each party will keep the other’s Confidential Information confidential, use it only for the purpose of the Project, and protect it with reasonable care.',
+          'This does not apply to information that is or becomes public without breach, that a party already lawfully held, or that must be disclosed by law, regulation or court order — in which case the disclosing party will, where permitted, give prior notice.',
+        ],
+      },
+      {
+        heading: 'Privacy',
+        body: [
+          'The Studio processes personal data in accordance with its Privacy Policy, available on this website.',
+          'The Client is and remains responsible for the personal data it provides to, or processes through, the Deliverables, including having a lawful basis for that processing. Where the Studio processes personal data on the Client’s behalf, the parties will, where required, enter into a separate data processing agreement.',
+        ],
+      },
+      {
+        heading: 'Maintenance & support',
+        body: ['Maintenance and support are only provided if expressly agreed. Unless agreed otherwise:'],
+        points: [
+          'Included: bug fixes for the agreed specification, monitoring, and the maintenance described in the Agreement.',
+          'Excluded: new features, redesigns, new integrations, and consultancy or work outside the Agreement — which are quoted separately.',
+        ],
+      },
+      {
+        heading: 'Warranties',
+        body: [
+          'The Studio performs its services with reasonable skill and care, and Deliverables will materially conform to the agreed specification at the time of delivery. This is the Client’s exclusive warranty.',
+          'To the extent permitted by law, the Studio gives no other warranties and does not guarantee that software will operate uninterrupted or error-free, that it will be compatible with future systems or third-party changes, or that it will achieve any particular commercial result.',
+        ],
+      },
+      {
+        heading: 'Limitation of liability',
+        body: [
+          'To the maximum extent permitted by applicable law, the Studio’s total liability arising out of or in connection with a Project is limited to the amount paid by the Client for that specific Project in the twelve (12) months preceding the event giving rise to the liability.',
+          'The Studio is not liable for any indirect or consequential loss, including lost profits, lost revenue, lost business or opportunities, loss of goodwill, loss or corruption of data, downtime, or business interruption.',
+          'Any liability of the Studio only arises if the Client gives written notice of the default, allows a reasonable period to remedy it, and the Studio still fails to perform — unless remedy is permanently impossible.',
+          'Nothing in these Terms excludes or limits liability that cannot be excluded or limited under Dutch law, including liability for intent or deliberate recklessness ("opzet of bewuste roekeloosheid") on the part of the Studio’s management.',
+        ],
+      },
+      {
+        heading: 'Indemnification',
+        body: [
+          'The Client indemnifies and holds the Studio harmless against all third-party claims, damages, costs and expenses (including reasonable legal costs) arising from or relating to:',
+        ],
+        points: [
+          'content, materials or instructions supplied by the Client;',
+          'infringement of third-party intellectual property or other rights through Client-supplied materials;',
+          'unlawful, infringing or improper instructions;',
+          'misuse of the Deliverables, or use other than as intended;',
+          'the Client’s illegal activities or breach of applicable law.',
+        ],
+      },
+      {
+        heading: 'Force majeure',
+        body: [
+          'The Studio is not liable for any failure or delay caused by circumstances beyond its reasonable control ("overmacht"), including natural disasters, extreme weather, pandemics and epidemics, strikes, war or unrest, government measures, internet or telecommunications outages, cloud, hosting or supplier failures, AI-provider downtime, and cyber-attacks.',
+          'During force majeure the parties’ obligations are suspended. If the situation lasts longer than sixty (60) days, either party may terminate the Agreement in writing for the affected part, without liability, while work already performed remains payable.',
+        ],
+      },
+      {
+        heading: 'Termination',
+        body: [
+          'Either party may terminate an Agreement for convenience by giving reasonable written notice, subject to any minimum term agreed for retainers or subscriptions.',
+          'Either party may terminate with immediate effect if the other commits a material breach that is not remedied within a reasonable period after written notice, or in the event of bankruptcy, suspension of payments or insolvency of the other party.',
+          'On termination, the Client pays for all work performed and costs committed up to the effective date. Provisions that by their nature should survive — including intellectual property, confidentiality, liability and governing law — continue to apply.',
+        ],
+      },
+      {
+        heading: 'Portfolio rights',
+        body: [
+          'Unless expressly agreed otherwise in writing, the Studio may reference the Client and display completed, publicly released work — including screenshots, descriptions and the Client’s name and logo — in its portfolio, website and marketing materials, while respecting Confidential Information.',
+        ],
+      },
+      {
+        heading: 'Non-solicitation',
+        body: [
+          'During a Project and for twelve (12) months after its completion, the Client will not directly or indirectly recruit, hire or engage any employee, contractor or freelancer of the Studio who was involved in the Project, without the Studio’s prior written consent.',
+        ],
+      },
+      {
+        heading: 'Governing law & disputes',
+        body: [
+          'These Terms and any Agreement are governed exclusively by Dutch law. The applicability of the UN Convention on Contracts for the International Sale of Goods (CISG) is excluded.',
+          'Any dispute that cannot be resolved amicably will be submitted exclusively to the competent court of the Rechtbank Rotterdam, the Netherlands, unless mandatory law provides otherwise.',
+        ],
+      },
+      {
+        heading: 'Changes to these terms',
+        body: [
+          'The Studio may update these Terms from time to time. The version in force at the start of a Project applies to that Project. When we update these Terms, we update the date at the top of this page.',
+        ],
+      },
+    ],
+    directLabel: 'Questions about these terms',
+    directEmail: 'hello@raoul.studio',
+    posterRailMiddle: 'Terms · Legal',
   },
 }

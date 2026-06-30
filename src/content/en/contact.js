@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Contact — raoul.studio',
     description:
-      'Got a tool or platform that needs building? Tell the studio about it. We reply within 24h.',
+      'Got a product or platform to build? Tell the studio about it. We reply within 24h.',
   },
   eyebrow: 'Get in touch',
   titleLine1: "Let's",
@@ -36,23 +36,23 @@ export const contact = {
     items: [
       {
         q: 'How soon will I hear back?',
-        a: 'Every real brief gets read, with a reply within 24 hours. The studio is small and founder-led, so the person who answers is the person who builds.',
+        a: 'Every real brief gets read, with a reply within 24 hours. We keep the studio small and direct, so the person who answers is close to the work.',
       },
       {
         q: 'What should I include in my message?',
         a: 'Tell us what you’re building or what’s slowing you down: the problem, who it’s for, and where you are now — idea, half-built, or live and stuck. The more concrete the brief, the better the reply.',
       },
       {
-        q: 'Where is the studio based, and do you work remotely?',
-        a: 'raoul.studio is based in the EU and works remote with teams wherever they are. Location isn’t a blocker — the work is collaborative and built in the open with you.',
+        q: 'Where are you based, and do you work remotely?',
+        a: 'We’re based in the Netherlands and work remote with teams wherever they are. Location isn’t a blocker — the work is collaborative and built in the open with you.',
       },
       {
-        q: 'What kinds of projects does the studio take on?',
-        a: 'Custom tools and platforms for fintech, law firms, commercial agencies and e-commerce — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces. Real briefs only.',
+        q: 'What kinds of projects do you take on?',
+        a: 'Custom products and platforms for fintech, law firms, commercial agencies and e-commerce — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces.',
       },
       {
-        q: 'How do I reach the studio directly?',
-        a: 'Email hello@raoul.studio, or use the form on this page. Both reach the studio directly — no intake layer in between.',
+        q: 'How do I reach you directly?',
+        a: 'Email hello@raoul.studio, or use the form on this page. Both reach us directly — no intake layer in between.',
       },
     ],
   },

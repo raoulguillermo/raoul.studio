@@ -12,7 +12,11 @@ export const pages = {
     titleLine1: 'Réalisations',
     titleAccent: '.',
     lead:
-      'Chaque projet est sur mesure, construit de bout en bout et pensé pour la production. Un aperçu de ce que le studio a livré — et de ce qu’il développe en ce moment.',
+      'Chaque projet est un vrai problème d’entreprise, résolu de bout en bout et conçu pour tourner en production. Les plateformes et outils que nous avons livrés pour des clients — et les produits que nous construisons et exploitons nous-mêmes.',
+    groups: {
+      client: 'Travaux clients',
+      product: 'Nos produits',
+    },
     posterRailMiddle: 'Réalisations · Projets sélectionnés',
   },
 
@@ -28,16 +32,17 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio est un studio de produit et d’ingénierie. Nous concevons des outils et des plateformes sur mesure, faits main — des logiciels façonnés autour du fonctionnement réel d’une entreprise, et non l’inverse.',
+        text: 'raoul.studio est un studio de produit digital qui aide les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs. Nous réunissons stratégie, branding, ingénierie logicielle, IA, automatisation et infrastructure pour créer des solutions qui génèrent une valeur métier durable.',
       },
       {
-        text: 'Nous travaillons avec la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce. Une partie est du travail client, une partie nos propres produits. Tout est conçu pour tourner en production.',
+        text: 'Nous accompagnons fondateurs, start-up et entreprises établies pour concevoir, construire et faire évoluer des plateformes sur mesure, des outils propulsés par l’IA, des solutions de commerce et des expériences digitales. Chaque projet est abordé avec un état d’esprit produit : résoudre de vrais enjeux métier, créer des expériences utilisateur intuitives et bâtir une technologie capable de grandir avec l’entreprise.',
       },
       {
-        text: 'Dirigé par son fondateur, Raoul Guillermo, fort d’une longue expérience à construire des logiciels de production de bout en bout. Petite équipe, lien direct, aucun intermédiaire entre le brief et la réalisation.',
+        text: 'Nous construisons des partenariats durables avec des équipes qui veulent avancer vite, voir grand et créer des produits digitaux qui comptent. De la première idée au lancement — et à chaque itération qui suit — nous travaillons comme le prolongement de votre équipe, avec un objectif : un impact mesurable par la technologie.',
+        highlight: 'Nous construisons des partenariats durables',
       },
     ],
-    servicesLabel: 'Le studio intervient sur',
+    servicesLabel: 'Ce que nous construisons',
     services: [
       { label: 'Plateformes web sur mesure & SaaS' },
       { label: 'E-commerce headless à grande échelle' },
@@ -46,11 +51,13 @@ export const pages = {
       { label: 'API & architecture système' },
       { label: 'Places de marché à deux faces' },
     ],
-    systemsParagraph:
-      'Nous ne livrons pas des pages isolées. Chaque projet est construit comme un système — architecture propre, vrais modèles de données, marge pour grandir. La première version doit tenir sous la charge, et la dixième fonctionnalité ne doit pas se battre avec la première. Du sur-mesure, conçu pour passer à l’échelle.',
-    manifestoLead: 'Nous préférons faire quelques choses bien que beaucoup de choses vite.',
-    manifestoTail: 'Dirigé par son fondateur, fait sur mesure, engagé sur le long terme.',
-    posterRailMiddle: 'À propos · Studio · Manifeste',
+    systemsParagraph: [
+      'Nous construisons des produits digitaux conçus pour évoluer. Chaque plateforme repose sur une base technique solide — architecture évolutive, ingénierie réfléchie et croissance future à l’esprit. Qu’il s’agisse d’une plateforme propulsée par l’IA, d’un écosystème de commerce ou d’une application métier sur mesure, nous créons une technologie qui s’adapte à mesure que votre entreprise grandit.',
+      'De la première session de stratégie à bien après le lancement, nous nous concentrons sur des solutions digitales robustes, évolutives et faites pour durer.',
+    ],
+    manifestoLead: 'Là où la stratégie, l’IA et le logiciel',
+    manifestoTail: 'se rejoignent.',
+    posterRailMiddle: 'À propos · Studio',
   },
 
   process: {
@@ -64,7 +71,7 @@ export const pages = {
     titleLine1: 'Méthode',
     titleAccent: '.',
     lead:
-      'Six étapes, un principe : comprendre le système avant de le construire. Nous allons vite parce que la réflexion est faite en amont, pas parce que nous la sautons. Du logiciel sur mesure, façonné étape par étape.',
+      'Six étapes, un principe : comprendre le système avant de le construire. Nous avançons vite parce que la réflexion est faite en amont, pas parce que nous la sautons. Du produit sur mesure, façonné étape par étape.',
     steps: [
       {
         title: 'Direction',
@@ -83,7 +90,7 @@ export const pages = {
         lead: 'Concevoir le système qui se trouve dessous.',
         body: [
           {
-            text: 'Avant le moindre écran, nous cartographions les données, les flux et l’architecture. Les outils sur mesure vivent ou meurent par ce qu’il y a en dessous.',
+            text: 'Avant le moindre écran, nous cartographions les données, les flux et l’architecture. Les produits sur mesure vivent ou meurent par ce qu’il y a en dessous.',
           },
           {
             text: 'Faites-le bien et tout le reste devient plus simple. Faites-le mal et vous le payez pour toujours.',
@@ -132,47 +139,47 @@ export const pages = {
             text: 'Plus d’utilisateurs, plus de données, plus de langues, plus de fonctionnalités — le système a été construit pour l’encaisser.',
           },
           {
-            text: 'Nous restons présents. La plupart de notre travail est sur le long terme, et nous traitons ce que nous construisons comme si c’était le nôtre.',
+            text: 'Nous restons présents. La majeure partie de notre travail est sur le long terme, et nous traitons ce que nous construisons comme si c’était le nôtre.',
           },
         ],
       },
     ],
     howWeWork: {
       label: 'Notre façon de travailler',
-      lead: 'Dirigé par son fondateur, en direct. Vous parlez aux personnes qui construisent la chose.',
+      lead: 'Dirigé par son fondateur, en direct. Vous parlez à la personne qui construit la chose.',
       points: [
         { label: 'Communication directe' },
         { label: 'Décisions rapides' },
         { label: 'Pas d’intermédiaires, pas de bruit' },
       ],
-      closing: 'Vous travaillez avec ceux qui construisent.',
+      closing: 'Vous travaillez avec la personne qui construit.',
     },
     faq: {
       label: 'FAQ',
       items: [
         {
           q: 'Que fait raoul.studio ?',
-          a: 'raoul.studio est un studio de produit et d’ingénierie dirigé par son fondateur, qui conçoit des logiciels sur mesure, faits main — plateformes web et SaaS, e-commerce headless, outils d’IA et automatisation, CRM et outils internes, API et places de marché à deux faces — pour la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce.',
+          a: 'raoul.studio est un studio de produit digital. Nous concevons, construisons et faisons grandir des produits sur mesure — plateformes web et SaaS, e-commerce headless, outils d’IA et automatisation, CRM et outils internes, API et places de marché à deux faces — pour la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce, aux côtés de nos propres produits.',
         },
         {
-          q: 'Comment travaille le studio ?',
+          q: 'Comment travaillez-vous ?',
           a: 'Chaque projet passe par six étapes : Direction, Structure, Design, Développement, Itération et Échelle. Le principe est de comprendre le système avant de le construire — la réflexion est faite en amont, si bien que le développement avance vite sans sauter d’étape.',
         },
         {
           q: 'Combien de temps prend un projet ?',
-          a: 'Cela dépend du périmètre, mais le studio travaille en boucles courtes avec des versions petites et fréquentes plutôt qu’une grande révélation à la fin. Vous voyez les avancées au fur et à mesure et le produit gagne en précision à chaque cycle, parce que l’architecture et la direction sont fixées avant le début du développement.',
+          a: 'Cela dépend du périmètre, mais nous travaillons en boucles courtes avec des versions petites et fréquentes plutôt qu’une grande révélation à la fin. Vous voyez les avancées au fur et à mesure et le produit gagne en précision à chaque cycle, parce que l’architecture et la direction sont fixées avant le début du développement.',
         },
         {
-          q: 'Avec qui le studio travaille-t-il ?',
-          a: 'Principalement la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce. Une partie du travail est pour des clients, une partie ce sont les propres produits du studio — tout est conçu pour tourner en production. Uniquement de vrais projets.',
+          q: 'Avec qui travaillez-vous ?',
+          a: 'Principalement la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce. Une partie du travail est pour des clients, une partie ce sont nos propres produits — tout est conçu pour tourner en production.',
         },
         {
           q: 'Proposez-vous un suivi après le lancement ?',
-          a: 'Oui. La majeure partie du travail du studio s’inscrit dans la durée : les systèmes sont conçus pour grandir avec vous, à mesure qu’augmentent utilisateurs, données, langues et fonctionnalités, et l’équipe reste impliquée plutôt que de passer la main et disparaître.',
+          a: 'Oui. La majeure partie de notre travail s’inscrit dans la durée : les systèmes sont conçus pour grandir avec vous, à mesure qu’augmentent utilisateurs, données, langues et fonctionnalités, et nous restons impliqués plutôt que de passer la main et disparaître.',
         },
         {
           q: 'Comment démarrer un projet ?',
-          a: 'Dites au studio ce que vous construisez ou ce qui vous ralentit — par e-mail à hello@raoul.studio ou via la page de contact. Chaque vrai projet est lu, avec une réponse sous 24 heures.',
+          a: 'Dites-nous ce que vous construisez ou ce qui vous ralentit — par e-mail à hello@raoul.studio ou via la page de contact. Chaque vrai projet est lu, avec une réponse sous 24 heures.',
         },
       ],
     },

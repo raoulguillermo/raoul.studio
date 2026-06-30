@@ -36,23 +36,23 @@ export const contact = {
     items: [
       {
         q: 'Sous combien de temps aurai-je une réponse ?',
-        a: 'Chaque vrai brief est lu, avec une réponse sous 24 heures. Le studio est petit et dirigé par son fondateur : la personne qui répond est celle qui construit.',
+        a: 'Chaque vrai brief est lu, avec une réponse sous 24 heures. Nous gardons le studio restreint et direct : la personne qui répond est proche du travail.',
       },
       {
         q: 'Que dois-je inclure dans mon message ?',
         a: 'Dites-nous ce que vous construisez ou ce qui vous ralentit : le problème, à qui il s’adresse, et où vous en êtes — une idée, un projet à moitié fait, ou en ligne et bloqué. Plus le brief est concret, meilleure est la réponse.',
       },
       {
-        q: 'Où est basé le studio, et travaillez-vous à distance ?',
-        a: 'raoul.studio est basé dans l’UE et travaille à distance avec les équipes où qu’elles soient. La localisation n’est pas un frein — le travail est collaboratif et construit à découvert avec vous.',
+        q: 'Où êtes-vous basés, et travaillez-vous à distance ?',
+        a: 'Nous sommes basés aux Pays-Bas et travaillons à distance avec les équipes où qu’elles soient. La localisation n’est pas un frein — le travail est collaboratif et construit à découvert avec vous.',
       },
       {
-        q: 'Quels types de projets le studio prend-il en charge ?',
-        a: 'Des outils et plateformes sur mesure pour la fintech, les cabinets d’avocats, les agences commerciales et l’e-commerce — plateformes web et SaaS, e-commerce headless, outils d’IA et automatisation, CRM et outillage interne, API et places de marché à deux faces. Uniquement de vrais briefs.',
+        q: 'Quels types de projets prenez-vous en charge ?',
+        a: 'Des produits et plateformes sur mesure pour la fintech, les cabinets d’avocats, les agences commerciales et l’e-commerce — plateformes web et SaaS, e-commerce headless, outils d’IA et automatisation, CRM et outillage interne, API et places de marché à deux faces.',
       },
       {
-        q: 'Comment joindre le studio directement ?',
-        a: 'Écrivez à hello@raoul.studio, ou utilisez le formulaire de cette page. Les deux arrivent directement au studio — sans intermédiaire de réception.',
+        q: 'Comment vous joindre directement ?',
+        a: 'Écrivez à hello@raoul.studio, ou utilisez le formulaire de cette page. Les deux nous arrivent directement — sans intermédiaire de réception.',
       },
     ],
   },

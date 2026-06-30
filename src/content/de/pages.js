@@ -6,13 +6,17 @@ export const pages = {
     meta: {
       title: 'Arbeit — raoul.studio',
       description:
-        'Ausgewählte Projekte des Studios — maßgeschneiderte Plattformen, SaaS, KI-Tools, headless E-Commerce und CRMs für Fintech, Kanzleien und kommerzielle Teams.',
+        'Ausgewählte Projekte des Studios — maßgeschneiderte Plattformen, SaaS, KI-Tools, headless E-Commerce und CRMs für Fintech, Kanzleien und kommerzielle Teams, dazu unsere eigenen Produkte.',
     },
     eyebrow: 'Ausgewählte Arbeiten',
     titleLine1: 'Arbeit',
     titleAccent: '.',
     lead:
-      'Jedes Projekt ist maßgeschneidert, durchgängig gebaut und für den Produktivbetrieb gemacht. Ein Blick auf das, was das Studio geliefert hat — und woran es gerade baut.',
+      'Jedes Projekt ist ein echtes Geschäftsproblem, durchgängig gelöst und für den Produktivbetrieb gebaut. Die Plattformen und Tools, die wir für Kunden geliefert haben — und die Produkte, die wir selbst bauen und betreiben.',
+    groups: {
+      client: 'Kundenarbeit',
+      product: 'Eigene Produkte',
+    },
     posterRailMiddle: 'Arbeit · Ausgewählte Projekte',
   },
 
@@ -21,23 +25,24 @@ export const pages = {
     meta: {
       title: 'Über uns — raoul.studio',
       description:
-        'Ein gründergeführtes Produkt- & Engineering-Studio, das maßgeschneiderte Software für Fintech, Kanzleien, Agenturen und E-Commerce baut. Handgefertigt, produktionsreif, gebaut zum Skalieren.',
+        'Ein digitales Produktstudio, das vollständige Produkte gestaltet, baut und wachsen lässt — Strategie, Engineering, KI, Automatisierung und Marke für Fintech, Kanzleien, Agenturen und E-Commerce.',
     },
     eyebrow: 'Über uns',
     titleLine1: 'Über uns',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio ist ein Produkt- und Engineering-Studio. Wir bauen maßgeschneiderte, handgefertigte Tools und Plattformen — Software, die sich daran orientiert, wie ein Unternehmen wirklich arbeitet, nicht umgekehrt.',
+        text: 'raoul.studio ist ein digitales Produktstudio, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen. Wir verbinden Strategie, Branding, Software-Engineering, KI, Automatisierung und Infrastruktur zu Lösungen, die dauerhaften geschäftlichen Mehrwert schaffen.',
       },
       {
-        text: 'Wir arbeiten mit Fintech, Kanzleien, kommerziellen Agenturen und E-Commerce-Teams. Manches davon ist Kundenarbeit, manches sind eigene Produkte. Alles ist für den Produktivbetrieb gebaut.',
+        text: 'Wir arbeiten partnerschaftlich mit Gründern, Start-ups und etablierten Unternehmen, um maßgeschneiderte Plattformen, KI-gestützte Tools, Commerce-Lösungen und digitale Erlebnisse zu gestalten, zu bauen und weiterzuentwickeln. Jedes Projekt gehen wir mit Produktdenken an: echte geschäftliche Herausforderungen lösen, intuitive Nutzererlebnisse schaffen und Technologie bauen, die mit dem Unternehmen mitwächst.',
       },
       {
-        text: 'Gründergeführt von Raoul Guillermo, mit langer Erfahrung im durchgängigen Bau produktiver Software. Kleines Team, direkter Draht, keine Ebenen zwischen Briefing und Umsetzung.',
+        text: 'Wir bauen langfristige Partnerschaften mit Teams, die schnell vorankommen, groß denken und bedeutungsvolle digitale Produkte schaffen wollen. Von der ersten Idee bis zum Launch — und bei jeder Iteration danach — arbeiten wir als verlängerter Arm Ihres Teams, mit dem Fokus auf messbare Wirkung durch Technologie.',
+        highlight: 'Wir bauen langfristige Partnerschaften',
       },
     ],
-    servicesLabel: 'Das Studio arbeitet quer durch',
+    servicesLabel: 'Was wir bauen',
     services: [
       { label: 'Maßgeschneiderte Webplattformen & SaaS' },
       { label: 'Headless E-Commerce im großen Maßstab' },
@@ -46,11 +51,13 @@ export const pages = {
       { label: 'APIs & Systemarchitektur' },
       { label: 'Zweiseitige Marktplätze' },
     ],
-    systemsParagraph:
-      'Wir liefern keine Einzelseiten. Jedes Projekt entsteht als System — saubere Architektur, echte Datenmodelle, Raum zum Wachsen. Die erste Version soll unter Last bestehen, und das zehnte Feature soll nicht mit dem ersten kämpfen. Maßgeschneiderte Arbeit, gebaut zum Skalieren.',
-    manifestoLead: 'Lieber wenige Dinge richtig als viele Dinge schnell.',
-    manifestoTail: 'Gründergeführt, maßgeschneidert, auf lange Sicht.',
-    posterRailMiddle: 'Über uns · Studio · Manifest',
+    systemsParagraph: [
+      'Wir bauen digitale Produkte, die sich weiterentwickeln können. Jede Plattform steht auf einem soliden technischen Fundament — mit skalierbarer Architektur, durchdachtem Engineering und Blick auf künftiges Wachstum. Ob KI-gestützte Plattform, Commerce-Ökosystem oder maßgeschneiderte Business-Anwendung: Wir schaffen Technologie, die mitwächst, wenn Ihr Unternehmen wächst.',
+      'Vom ersten Strategiegespräch bis lange nach dem Launch konzentrieren wir uns darauf, digitale Lösungen zu bauen, die robust und skalierbar sind und Bestand haben.',
+    ],
+    manifestoLead: 'Wo Strategie, KI und Software',
+    manifestoTail: 'zusammenkommen.',
+    posterRailMiddle: 'Über uns · Studio',
   },
 
   process: {
@@ -58,13 +65,13 @@ export const pages = {
     meta: {
       title: 'Prozess — raoul.studio',
       description:
-        'Wie das Studio arbeitet: Richtung, Struktur, Design, Bau, Iteration, Skalierung. Gründergeführt, direkt, fokussiert auf maßgeschneiderte Software, die hält.',
+        'Wie das Studio arbeitet: Richtung, Struktur, Design, Bau, Iteration, Skalierung. Direkt, fokussiert auf maßgeschneiderte Produkte, die halten.',
     },
     eyebrow: 'Prozess',
     titleLine1: 'Prozess',
     titleAccent: '.',
     lead:
-      'Sechs Phasen, ein Prinzip: das System verstehen, bevor man es baut. Wir sind schnell, weil das Denken vorab passiert, nicht weil wir es überspringen. Maßgeschneiderte Software, Schritt für Schritt geformt.',
+      'Sechs Phasen, ein Prinzip: das System verstehen, bevor man es baut. Wir sind schnell, weil das Denken vorab passiert, nicht weil wir es überspringen. Maßgeschneiderte Produkte, Schritt für Schritt geformt.',
     steps: [
       {
         title: 'Richtung',
@@ -83,7 +90,7 @@ export const pages = {
         lead: 'Das System darunter entwerfen.',
         body: [
           {
-            text: 'Vor dem ersten Screen kartieren wir Daten, Abläufe und Architektur. Maßgeschneiderte Tools stehen und fallen mit dem, was darunter liegt.',
+            text: 'Vor dem ersten Screen kartieren wir Daten, Abläufe und Architektur. Maßgeschneiderte Produkte stehen und fallen mit dem, was darunter liegt.',
           },
           {
             text: 'Stimmt das, wird alles danach leichter. Stimmt es nicht, zahlen Sie ewig dafür.',
@@ -139,40 +146,40 @@ export const pages = {
     ],
     howWeWork: {
       label: 'Wie wir arbeiten',
-      lead: 'Gründergeführt und direkt. Sie sprechen mit den Leuten, die das Ding bauen.',
+      lead: 'Direkt und gründergeführt. Sie sprechen mit den Menschen, die das Ding bauen.',
       points: [
         { label: 'Direkte Kommunikation' },
         { label: 'Schnelle Entscheidungen' },
         { label: 'Keine Ebenen, kein Rauschen' },
       ],
-      closing: 'Sie arbeiten mit Leuten, die bauen.',
+      closing: 'Sie arbeiten mit den Menschen, die bauen.',
     },
     faq: {
       label: 'FAQ',
       items: [
         {
           q: 'Was macht raoul.studio?',
-          a: 'raoul.studio ist ein gründergeführtes Produkt- und Engineering-Studio, das maßgeschneiderte, handgefertigte Software baut — Webplattformen und SaaS, headless E-Commerce, KI-Tools und Automatisierung, CRMs und interne Tools, APIs und zweiseitige Marktplätze — für Fintech, Kanzleien, kommerzielle Agenturen und E-Commerce-Teams.',
+          a: 'raoul.studio ist ein digitales Produktstudio. Wir gestalten, bauen und skalieren maßgeschneiderte Produkte — Webplattformen und SaaS, headless E-Commerce, KI-Tools und Automatisierung, CRMs und interne Tools, APIs und zweiseitige Marktplätze — für Fintech, Kanzleien, kommerzielle Agenturen und E-Commerce-Teams, dazu unsere eigenen Produkte.',
         },
         {
-          q: 'Wie arbeitet das Studio?',
+          q: 'Wie arbeiten Sie?',
           a: 'Jedes Projekt läuft durch sechs Phasen: Richtung, Struktur, Design, Bau, Iteration und Skalierung. Das Prinzip ist, das System zu verstehen, bevor man es baut — das Denken passiert vorab, sodass der Bau schnell vorankommt, ohne Schritte zu überspringen.',
         },
         {
           q: 'Wie lange dauert ein Projekt?',
-          a: 'Das hängt vom Umfang ab, aber das Studio arbeitet in schnellen Schleifen mit kleinen, häufigen Releases statt einer großen Enthüllung am Ende. Sie sehen Fortschritt, sobald er entsteht, und das Produkt wird mit jedem Zyklus schärfer, weil Architektur und Richtung vor Baubeginn feststehen.',
+          a: 'Das hängt vom Umfang ab, aber wir arbeiten in schnellen Schleifen mit kleinen, häufigen Releases statt einer großen Enthüllung am Ende. Sie sehen Fortschritt, sobald er entsteht, und das Produkt wird mit jedem Zyklus schärfer, weil Architektur und Richtung vor Baubeginn feststehen.',
         },
         {
-          q: 'Mit wem arbeitet das Studio?',
-          a: 'Vor allem mit Fintech, Kanzleien, kommerziellen Agenturen und E-Commerce-Teams. Manches ist Kundenarbeit, manches sind eigene Produkte des Studios — alles ist für den Produktivbetrieb gebaut. Nur echte Briefings.',
+          q: 'Mit wem arbeiten Sie?',
+          a: 'Vor allem mit Fintech, Kanzleien, kommerziellen Agenturen und E-Commerce-Teams. Manches ist Kundenarbeit, manches sind unsere eigenen Produkte — alles ist für den Produktivbetrieb gebaut.',
         },
         {
           q: 'Bieten Sie laufende Betreuung nach dem Launch?',
-          a: 'Ja. Das meiste der Studio-Arbeit ist langfristig: Systeme sind gebaut, um mit Ihnen zu wachsen — über mehr Nutzer, Daten, Sprachen und Features hinweg — und das Team bleibt eingebunden, statt zu übergeben und zu verschwinden.',
+          a: 'Ja. Das meiste unserer Arbeit ist langfristig: Systeme sind gebaut, um mit Ihnen zu wachsen — über mehr Nutzer, Daten, Sprachen und Features hinweg — und wir bleiben eingebunden, statt zu übergeben und zu verschwinden.',
         },
         {
           q: 'Wie starte ich ein Projekt?',
-          a: 'Erzählen Sie dem Studio, was Sie bauen oder was Sie ausbremst — per E-Mail an hello@raoul.studio oder über die Kontaktseite. Jedes echte Briefing wird gelesen, mit Antwort innerhalb von 24 Stunden.',
+          a: 'Erzählen Sie uns, was Sie bauen oder was Sie ausbremst — per E-Mail an hello@raoul.studio oder über die Kontaktseite. Jedes echte Briefing wird gelesen, mit Antwort innerhalb von 24 Stunden.',
         },
       ],
     },

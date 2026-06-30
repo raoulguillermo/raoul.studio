@@ -2,18 +2,57 @@
 
 export const home = {
   meta: {
-    title: 'raoul.studio — outils & plateformes sur mesure, conçus pour être livrés',
+    title: 'raoul.studio — nous construisons des entreprises digitales',
     description:
-      'Un studio produit & ingénierie qui conçoit des logiciels sur mesure, taillés à la main, pour la fintech, le droit et les équipes commerciales. Dirigé par son fondateur. Livre vite.',
+      'Un studio de produit digital et un venture studio. Nous concevons et construisons des logiciels sur mesure pour des clients ambitieux — et construisons, lançons et soutenons nos propres produits. Stratégie, ingénierie, IA, commerce et infrastructure sous un même toit.',
   },
   hero: {
-    prefix: 'Nous concevons des',
-    accent: 'outils & plateformes sur mesure',
-    suffix: 'pour les équipes qui préfèrent livrer que se réunir.',
+    prefix: 'Nous bâtissons',
+    accent: 'la suite.',
+    suffix: '',
   },
   intro:
-    'raoul.studio est un studio produit et ingénierie. Nous concevons et développons des outils et plateformes sur mesure, taillés à la main, pour la fintech, les cabinets d’avocats et les agences commerciales — le genre de logiciel trop spécifique pour le prêt-à-porter. Dirigé par son fondateur Raoul Guillermo, nous gardons l’équipe réduite, les décisions rapides et le travail de qualité production. Moins de discours, plus de livré.',
-  selectedWorkLabel: 'Travaux sélectionnés',
+    'Des plateformes propulsées par l’IA et des logiciels sur mesure jusqu’à l’automatisation, le commerce, le branding et l’infrastructure. Nous accompagnons des fondateurs et des entreprises ambitieux pour transformer leurs idées en produits évolutifs.',
+  pillars: {
+    label: 'Ce que nous faisons',
+    items: [
+      {
+        title: 'Produits',
+        body: 'Plateformes SaaS sur mesure, portails, outils internes et expériences client — construits de bout en bout et conçus pour tourner en production.',
+      },
+      {
+        title: 'IA',
+        body: 'Agents IA, intelligence documentaire, automatisation et intégrations intelligentes, tissés au cœur du fonctionnement réel de l’entreprise.',
+      },
+      {
+        title: 'Commerce',
+        body: 'E-commerce à grande échelle — Magento, vitrines headless, intégrations PIM et ERP, et les back-offices sur mesure qui les font tourner.',
+      },
+      {
+        title: 'Marque',
+        body: 'Identité, sites web et expériences digitales — le produit et la marque autour, conçus et construits ensemble.',
+      },
+      {
+        title: 'Croissance',
+        body: 'Partenariats techniques au long cours — infrastructure, optimisation et évolution continue du produit bien après le lancement.',
+      },
+    ],
+  },
+  featuredWork: {
+    label: 'Travaux sélectionnés',
+    lead: 'Comment nous aidons des entreprises ambitieuses à résoudre des problèmes complexes.',
+    allLabel: 'Voir tous les travaux',
+    items: [
+      { slug: 'outdoorxl', tagline: 'Reconstruire l’un des plus grands détaillants outdoor d’Europe en une plateforme de commerce headless et moderne.', metrics: ['200K+ produits', '14 marchés', 'Migration headless'] },
+      { slug: 'lexpert', tagline: 'Remplacer des outils génériques par un CRM sur mesure, pensé autour du fonctionnement réel d’un cabinet d’avocats.', metrics: ['CRM sur mesure', 'Facturation directe', 'Accès par rôle'] },
+      { slug: 'anonimise', tagline: 'Permettre à un cabinet d’avocats de mettre l’IA au travail sans qu’un seul dossier client ne quitte ses murs.', metrics: ['IA entièrement hors ligne', 'Anonymisation sur l’appareil', 'Conforme au RGPD par conception'] },
+    ],
+  },
+  insights: {
+    label: 'Insights',
+    lead: 'Réflexions sur l’IA, l’ingénierie logicielle et les produits digitaux.',
+    allLabel: 'Tous les articles',
+  },
   contact: {
     eyebrow: 'Quelque chose à construire ?',
     beforeLink: 'Parlez-nous-en — ',

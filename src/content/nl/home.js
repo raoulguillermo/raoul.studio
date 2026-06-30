@@ -2,18 +2,57 @@
 
 export const home = {
   meta: {
-    title: 'raoul.studio — maatwerk tools & platforms, gebouwd om te leveren',
+    title: 'raoul.studio — wij bouwen digitale bedrijven',
     description:
-      'Een product- en engineeringstudio die maatwerksoftware bouwt voor fintech, advocatuur en commerciële teams. Founder-led. Levert snel.',
+      'Een digital product studio én venture studio. We ontwerpen en bouwen maatwerksoftware voor ambitieuze klanten — en bouwen, lanceren en laten we onze eigen producten groeien. Strategie, engineering, AI, commerce en infrastructuur onder één dak.',
   },
   hero: {
-    prefix: 'Wij bouwen maatwerk',
-    accent: 'tools & platforms',
-    suffix: 'voor teams die liever leveren dan vergaderen.',
+    prefix: 'Wij versnellen',
+    accent: 'digitale ambitie.',
+    suffix: '',
   },
   intro:
-    'raoul.studio is een product- en engineeringstudio. We ontwerpen en bouwen maatwerk tools en platforms voor fintech, advocatenkantoren en commerciële bureaus — software die te specifiek is voor de plank. Founder-led door Raoul Guillermo houden we het team klein, de beslissingen snel en het werk productieklaar. Minder praten, meer leveren.',
-  selectedWorkLabel: 'Geselecteerd werk',
+    'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur. We werken samen met ambitieuze oprichters en bedrijven om ideeën om te zetten in schaalbare producten.',
+  pillars: {
+    label: 'Wat we doen',
+    items: [
+      {
+        title: 'Producten',
+        body: 'Maatwerk-SaaS, portalen, interne tools en klantervaringen — end-to-end gebouwd en gemaakt om in productie te draaien.',
+      },
+      {
+        title: 'AI',
+        body: 'AI-agents, document intelligence, automatisering en slimme integraties, verweven met hoe een bedrijf echt werkt.',
+      },
+      {
+        title: 'Commerce',
+        body: 'E-commerce op schaal — Magento, headless storefronts, PIM- en ERP-integraties, en de maatwerk-backoffices erachter.',
+      },
+      {
+        title: 'Merk',
+        body: 'Identiteit, websites en digitale ervaringen — het product en het merk eromheen, samen ontworpen en gebouwd.',
+      },
+      {
+        title: 'Groei',
+        body: 'Technische partnerschappen voor de lange termijn — infrastructuur, optimalisatie en doorlopende productontwikkeling lang na de lancering.',
+      },
+    ],
+  },
+  featuredWork: {
+    label: 'Geselecteerd werk',
+    lead: 'Hoe we ambitieuze bedrijven helpen om lastige problemen op te lossen.',
+    allLabel: 'Bekijk al het werk',
+    items: [
+      { slug: 'outdoorxl', tagline: 'Een van de grootste outdoorretailers van Europa opnieuw opgebouwd tot een modern, headless commerceplatform.', metrics: ['200K+ producten', '14 markten', 'Headless-migratie'] },
+      { slug: 'lexpert', tagline: 'Generieke tools vervangen door een CRM op maat, gebouwd rond hoe een advocatenkantoor echt werkt.', metrics: ['CRM op maat', 'Direct factureren', 'Toegang per rol'] },
+      { slug: 'anonimise', tagline: 'Een advocatenkantoor AI laten inzetten zonder dat één cliëntdossier ooit het pand verlaat.', metrics: ['Volledig offline AI', 'Anonimisering op het apparaat', 'AVG-proof by design'] },
+    ],
+  },
+  insights: {
+    label: 'Insights',
+    lead: 'Gedachten over AI, software-engineering en digitale producten.',
+    allLabel: 'Alle artikelen',
+  },
   contact: {
     eyebrow: 'Iets dat gebouwd moet worden?',
     beforeLink: 'Vertel het ons — ',

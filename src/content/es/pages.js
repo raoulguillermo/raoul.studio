@@ -6,38 +6,43 @@ export const pages = {
     meta: {
       title: 'Trabajo — raoul.studio',
       description:
-        'Proyectos seleccionados del estudio: plataformas a medida, SaaS, herramientas de IA, e-commerce headless y CRMs para equipos de fintech, derecho y comercio.',
+        'Proyectos seleccionados del estudio: plataformas a medida, SaaS, herramientas de IA, e-commerce headless y CRMs para equipos de fintech, derecho y comercio, además de nuestros propios productos.',
     },
     eyebrow: 'Trabajo seleccionado',
     titleLine1: 'Trabajo',
     titleAccent: '.',
     lead:
-      'Cada proyecto es a medida, construido de principio a fin y pensado para funcionar en producción. Un vistazo a lo que el estudio ha entregado, y a lo que está construyendo ahora.',
+      'Cada proyecto es un problema real de negocio, resuelto de principio a fin y construido para funcionar en producción. Las plataformas y herramientas que hemos entregado para clientes, y los productos que construimos y operamos nosotros mismos.',
+    groups: {
+      client: 'Trabajo para clientes',
+      product: 'Productos propios',
+    },
     posterRailMiddle: 'Trabajo · Proyectos seleccionados',
   },
 
   about: {
     slug: 'about',
     meta: {
-      title: 'Nosotros — raoul.studio',
+      title: 'Sobre nosotros — raoul.studio',
       description:
-        'Un estudio de producto e ingeniería dirigido por su fundador que crea software a medida para fintech, derecho, agencias y e-commerce. Hecho a mano, a nivel de producción, pensado para escalar.',
+        'Un estudio de producto digital que diseña, construye y hace crecer productos completos, combinando estrategia, ingeniería, IA, automatización y marca para fintech, derecho, agencias y e-commerce.',
     },
-    eyebrow: 'Nosotros',
-    titleLine1: 'Estudio',
+    eyebrow: 'Sobre nosotros',
+    titleLine1: 'Sobre nosotros',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio es un estudio de producto e ingeniería. Construimos herramientas y plataformas a medida, hechas a mano: software que se adapta a cómo funciona realmente un negocio, y no al revés.',
+        text: 'raoul.studio es un estudio de producto digital que ayuda a empresas ambiciosas a convertir ideas en productos digitales escalables. Combinamos estrategia, branding, ingeniería de software, IA, automatización e infraestructura para crear soluciones que aportan valor de negocio duradero.',
       },
       {
-        text: 'Trabajamos con fintech, despachos de abogados, agencias comerciales y equipos de e-commerce. Parte es trabajo para clientes; parte son nuestros propios productos. Todo está hecho para funcionar en producción.',
+        text: 'Nos asociamos con fundadores, startups y empresas consolidadas para diseñar, construir y hacer evolucionar plataformas a medida, herramientas impulsadas por IA, soluciones de commerce y experiencias digitales. Cada proyecto lo afrontamos con mentalidad de producto: resolver retos de negocio reales, crear experiencias de usuario intuitivas y construir tecnología que pueda crecer junto al negocio.',
       },
       {
-        text: 'Dirigido por su fundador, Raoul Guillermo, con una larga trayectoria construyendo software de producción de principio a fin. Equipo pequeño, trato directo, sin capas entre el briefing y la ejecución.',
+        text: 'Construimos relaciones a largo plazo con equipos que quieren ir rápido, pensar en grande y crear productos digitales con sentido. Desde la primera idea hasta el lanzamiento —y cada iteración que sigue— trabajamos como una extensión de tu equipo, centrados en generar un impacto medible a través de la tecnología.',
+        highlight: 'Construimos relaciones a largo plazo',
       },
     ],
-    servicesLabel: 'El estudio trabaja en',
+    servicesLabel: 'Lo que construimos',
     services: [
       { label: 'Plataformas web a medida y SaaS' },
       { label: 'E-commerce headless a gran escala' },
@@ -46,11 +51,13 @@ export const pages = {
       { label: 'APIs y arquitectura de sistemas' },
       { label: 'Marketplaces de dos lados' },
     ],
-    systemsParagraph:
-      'No entregamos páginas sueltas. Cada proyecto se construye como un sistema: arquitectura limpia, modelos de datos reales, espacio para crecer. La primera versión debe aguantar bajo carga, y la décima funcionalidad no debería pelearse con la primera. Trabajo a medida, hecho para escalar.',
-    manifestoLead: 'Preferimos hacer pocas cosas bien que muchas deprisa.',
-    manifestoTail: 'Dirigido por su fundador, hecho a medida, a largo plazo.',
-    posterRailMiddle: 'Nosotros · Estudio · Manifiesto',
+    systemsParagraph: [
+      'Construimos productos digitales pensados para evolucionar. Cada plataforma se asienta sobre una base técnica sólida, con arquitectura escalable, ingeniería bien pensada y el crecimiento futuro en mente. Ya sea una plataforma impulsada por IA, un ecosistema de commerce o una aplicación de negocio a medida, creamos tecnología que se adapta a medida que crece tu negocio.',
+      'Desde la primera sesión de estrategia hasta mucho después del lanzamiento, nos centramos en construir soluciones digitales robustas, escalables y hechas para durar.',
+    ],
+    manifestoLead: 'Donde la estrategia, la IA y el software',
+    manifestoTail: 'se encuentran.',
+    posterRailMiddle: 'Sobre nosotros · Estudio',
   },
 
   process: {
@@ -58,13 +65,13 @@ export const pages = {
     meta: {
       title: 'Proceso — raoul.studio',
       description:
-        'Cómo trabaja el estudio: dirección, estructura, diseño, construcción, iteración, escala. Dirigido por su fundador, directo, centrado en entregar software a medida que perdura.',
+        'Cómo trabaja el estudio: dirección, estructura, diseño, construcción, iteración, escala. Directo, centrado en entregar productos a medida que perduran.',
     },
     eyebrow: 'Proceso',
     titleLine1: 'Proceso',
     titleAccent: '.',
     lead:
-      'Seis etapas, un principio: entender el sistema antes de construirlo. Vamos rápido porque el pensamiento se hace al principio, no porque nos lo saltemos. Software a medida, dado forma paso a paso.',
+      'Seis etapas, un principio: entender el sistema antes de construirlo. Vamos rápido porque el pensamiento se hace al principio, no porque nos lo saltemos. Productos a medida, dados forma paso a paso.',
     steps: [
       {
         title: 'Dirección',
@@ -83,7 +90,7 @@ export const pages = {
         lead: 'Diseñar el sistema que va por debajo.',
         body: [
           {
-            text: 'Antes de una sola pantalla, mapeamos los datos, los flujos y la arquitectura. Las herramientas a medida viven o mueren por lo que tienen debajo.',
+            text: 'Antes de una sola pantalla, mapeamos los datos, los flujos y la arquitectura. Los productos a medida viven o mueren por lo que tienen debajo.',
           },
           {
             text: 'Acierta aquí y todo lo que venga después será más fácil. Falla y lo pagarás para siempre.',
@@ -132,47 +139,47 @@ export const pages = {
             text: 'Más usuarios, más datos, más idiomas, más funcionalidades: el sistema se construyó para soportarlo.',
           },
           {
-            text: 'Nos quedamos. La mayoría de nuestro trabajo es a largo plazo, y tratamos lo que construimos como si fuera nuestro.',
+            text: 'Nos quedamos. La mayor parte de nuestro trabajo es a largo plazo, y tratamos lo que construimos como si fuera nuestro.',
           },
         ],
       },
     ],
     howWeWork: {
       label: 'Cómo trabajamos',
-      lead: 'Dirigido por su fundador y directo. Hablas con quien construye la cosa.',
+      lead: 'Directo y dirigido por sus fundadores. Hablas con las personas que construyen la cosa.',
       points: [
         { label: 'Comunicación directa' },
         { label: 'Decisiones ágiles' },
         { label: 'Sin capas, sin ruido' },
       ],
-      closing: 'Trabajas con gente que construye.',
+      closing: 'Trabajas con las personas que construyen.',
     },
     faq: {
       label: 'Preguntas frecuentes',
       items: [
         {
           q: '¿Qué hace raoul.studio?',
-          a: 'raoul.studio es un estudio de producto e ingeniería dirigido por su fundador que crea software a medida, hecho a mano: plataformas web y SaaS, e-commerce headless, herramientas de IA y automatización, CRMs y herramientas internas, APIs y marketplaces de dos lados, para fintech, despachos de abogados, agencias comerciales y equipos de e-commerce.',
+          a: 'raoul.studio es un estudio de producto digital. Diseñamos, construimos y hacemos crecer productos a medida: plataformas web y SaaS, e-commerce headless, herramientas de IA y automatización, CRMs y herramientas internas, APIs y marketplaces de dos lados, para fintech, despachos de abogados, agencias comerciales y equipos de e-commerce, junto a nuestros propios productos.',
         },
         {
-          q: '¿Cómo trabaja el estudio?',
+          q: '¿Cómo trabajáis?',
           a: 'Cada proyecto pasa por seis etapas: Dirección, Estructura, Diseño, Construcción, Iteración y Escala. El principio es entender el sistema antes de construirlo: el pensamiento se hace al principio, así la construcción avanza rápido sin saltarse pasos.',
         },
         {
           q: '¿Cuánto tarda un proyecto?',
-          a: 'Depende del alcance, pero el estudio trabaja en ciclos cortos con lanzamientos pequeños y frecuentes, en lugar de una gran revelación al final. Ves los avances según llegan y el producto se afina en cada ciclo, porque la arquitectura y la dirección quedan cerradas antes de empezar a construir.',
+          a: 'Depende del alcance, pero trabajamos en ciclos cortos con lanzamientos pequeños y frecuentes, en lugar de una gran revelación al final. Ves los avances según llegan y el producto se afina en cada ciclo, porque la arquitectura y la dirección quedan cerradas antes de empezar a construir.',
         },
         {
-          q: '¿Con quién trabaja el estudio?',
-          a: 'Sobre todo con fintech, despachos de abogados, agencias comerciales y equipos de e-commerce. Parte del trabajo es para clientes, parte son los propios productos del estudio: todo está hecho para funcionar en producción. Solo briefings reales.',
+          q: '¿Con quién trabajáis?',
+          a: 'Sobre todo con fintech, despachos de abogados, agencias comerciales y equipos de e-commerce. Parte del trabajo es para clientes, parte son nuestros propios productos: todo está hecho para funcionar en producción.',
         },
         {
           q: '¿Ofrecéis soporte continuo tras el lanzamiento?',
-          a: 'Sí. La mayor parte del trabajo del estudio es a largo plazo: los sistemas se construyen para crecer contigo en usuarios, datos, idiomas y funcionalidades, y el equipo sigue implicado en lugar de entregar y desaparecer.',
+          a: 'Sí. La mayor parte de nuestro trabajo es a largo plazo: los sistemas se construyen para crecer contigo en usuarios, datos, idiomas y funcionalidades, y seguimos implicados en lugar de entregar y desaparecer.',
         },
         {
           q: '¿Cómo arranco un proyecto?',
-          a: 'Cuéntale al estudio qué estás construyendo o qué te está frenando: escribe a hello@raoul.studio o usa la página de contacto. Cada briefing real se lee, con respuesta en menos de 24 horas.',
+          a: 'Cuéntanos qué estás construyendo o qué te está frenando: escribe a hello@raoul.studio o usa la página de contacto. Cada briefing real se lee, con respuesta en menos de 24 horas.',
         },
       ],
     },

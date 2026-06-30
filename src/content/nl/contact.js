@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Contact — raoul.studio',
     description:
-      'Een tool of platform dat gebouwd moet worden? Vertel het de studio. We reageren binnen 24 uur.',
+      'Een product of platform dat gebouwd moet worden? Vertel het de studio. We reageren binnen 24 uur.',
   },
   eyebrow: 'Neem contact op',
   titleLine1: 'Laten we',
@@ -36,23 +36,23 @@ export const contact = {
     items: [
       {
         q: 'Hoe snel hoor ik iets terug?',
-        a: 'Elke echte brief wordt gelezen, met een antwoord binnen 24 uur. De studio is klein en founder-led, dus degene die antwoordt is degene die bouwt.',
+        a: 'Elke echte brief wordt gelezen, met een antwoord binnen 24 uur. We houden de studio klein en direct, dus wie antwoordt staat dicht bij het werk.',
       },
       {
         q: 'Wat moet ik in mijn bericht zetten?',
         a: 'Vertel ons wat je bouwt of wat je tegenhoudt: het probleem, voor wie het is, en waar je nu staat — idee, half af, of live en vastgelopen. Hoe concreter de brief, hoe beter het antwoord.',
       },
       {
-        q: 'Waar zit de studio, en werken jullie remote?',
-        a: 'raoul.studio is gevestigd in de EU en werkt remote met teams waar ze ook zitten. Locatie is geen belemmering — het werk is samenwerking en wordt in de openheid met je gebouwd.',
+        q: 'Waar zitten jullie, en werken jullie remote?',
+        a: 'We zitten in Nederland en werken remote met teams waar ze ook zitten. Locatie is geen belemmering — het werk is samenwerking en wordt in de openheid met je gebouwd.',
       },
       {
-        q: 'Wat voor projecten neemt de studio aan?',
-        a: 'Maatwerk tools en platforms voor fintech, advocatenkantoren, commerciële bureaus en e-commerce — webplatforms en SaaS, headless e-commerce, AI-tools en automatisering, CRMs en interne tooling, APIs en tweezijdige marktplaatsen. Alleen echte briefs.',
+        q: 'Wat voor projecten nemen jullie aan?',
+        a: 'Maatwerkproducten en -platforms voor fintech, advocatenkantoren, commerciële bureaus en e-commerce — webplatforms en SaaS, headless e-commerce, AI-tools en automatisering, CRMs en interne tooling, APIs en tweezijdige marktplaatsen.',
       },
       {
-        q: 'Hoe bereik ik de studio direct?',
-        a: 'Mail naar hello@raoul.studio, of gebruik het formulier op deze pagina. Beide komen direct bij de studio terecht — geen intakelaag ertussen.',
+        q: 'Hoe bereik ik jullie direct?',
+        a: 'Mail naar hello@raoul.studio, of gebruik het formulier op deze pagina. Beide komen direct bij ons terecht — geen intakelaag ertussen.',
       },
     ],
   },

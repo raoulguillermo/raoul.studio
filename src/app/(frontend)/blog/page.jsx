@@ -4,7 +4,7 @@ import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
-import { getPosts, getBlogStrings } from '@/content/blog'
+import { getPosts, getBlogStrings, getPillarLabel } from '@/content/blog'
 
 // Read posts from disk on every request so a newly published file is live
 // without a rebuild.
@@ -62,6 +62,14 @@ export default async function BlogIndexPage() {
               <li key={p.slug} className="py-8 md:py-10">
                 <a href={`/blog/${p.slug}`} className="ul block group">
                   <div className="text-[11px] uppercase tracking-[.18em] mb-3 font-semibold text-mute">
+                    {getPillarLabel(p.pillar, lang) ? (
+                      <>
+                        <span className="text-accent">
+                          {getPillarLabel(p.pillar, lang)}
+                        </span>{' '}
+                        ·{' '}
+                      </>
+                    ) : null}
                     {formatDate(p.date, lang)}
                   </div>
                   <h2 className="font-display uppercase tracking-tight2 leading-[0.95] text-3xl md:text-6xl">

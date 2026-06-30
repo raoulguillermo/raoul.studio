@@ -4,6 +4,7 @@
 export const projects = [
   {
     slug: 'outdoorxl',
+    category: 'client',
     number: 1,
     year: '2022–present',
     status: 'ongoing',
@@ -37,6 +38,7 @@ export const projects = [
 
   {
     slug: 'aboutspace',
+    category: 'client',
     number: 2,
     year: '2026',
     status: 'launching',
@@ -71,6 +73,7 @@ export const projects = [
 
   {
     slug: 'threadly',
+    category: 'product',
     number: 3,
     year: '2026',
     status: 'live',
@@ -102,6 +105,7 @@ export const projects = [
 
   {
     slug: 'lexpert',
+    category: 'client',
     number: 4,
     year: '2026',
     status: 'live',
@@ -134,6 +138,7 @@ export const projects = [
 
   {
     slug: 'fndracer',
+    category: 'product',
     number: 5,
     year: '2026',
     status: 'in dev',
@@ -164,6 +169,7 @@ export const projects = [
 
   {
     slug: 'smart-dossier',
+    category: 'client',
     number: 6,
     year: '2016 → 2026',
     status: 'in dev',
@@ -198,6 +204,7 @@ export const projects = [
 
   {
     slug: 'aboutdesk',
+    category: 'product',
     number: 7,
     year: '2026',
     status: 'in dev',
@@ -229,6 +236,7 @@ export const projects = [
 
   {
     slug: 'footsteppa',
+    category: 'product',
     number: 8,
     year: '2025–present',
     status: 'ongoing',
@@ -261,6 +269,7 @@ export const projects = [
 
   {
     slug: 'no-cms',
+    category: 'product',
     number: 9,
     year: '2026',
     status: 'new',
@@ -295,6 +304,7 @@ export const projects = [
 
   {
     slug: 'anonimise',
+    category: 'client',
     number: 10,
     year: '2026',
     status: 'live',
@@ -328,6 +338,7 @@ export const projects = [
 
   {
     slug: 'dfns',
+    category: 'product',
     number: 11,
     year: '2026',
     status: 'live',

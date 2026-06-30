@@ -6,6 +6,7 @@ import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
+import { getPosts, getPillarLabel } from '@/content/blog'
 
 export async function generateMetadata() {
   const { home } = getContent(await getLocale())
@@ -19,9 +20,38 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
+// Featured-teaser palettes (brand: red #E92316, ink #0F0F0F, paper #D6D9DC).
+// Applied by position so the homepage's featured projects always alternate —
+// no two adjacent sections share a background, regardless of each project's
+// own canonical colours (which still drive /work and the case-study pages).
+const FEATURED_STYLES = [
+  { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316', numeralOpacity: 0.18 }, // dark
+  { bg: '#E92316', fg: '#D6D9DC', numeralColor: '#0F0F0F', numeralOpacity: 0.16 }, // red
+  { bg: '#D6D9DC', fg: '#0F0F0F', numeralColor: '#E92316', numeralOpacity: 0.14 }, // light
+  { bg: '#E92316', fg: '#0F0F0F', numeralColor: '#0F0F0F', numeralOpacity: 0.14 }, // red / ink text
+]
+
+function formatDate(date, lang) {
+  return new Date(date).toLocaleDateString(lang, {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
+}
+
 export default async function HomePage() {
   const lang = await getLocale()
   const { home, header, footer, posterRail, ui, projects } = getContent(lang)
+
+  // Featured projects: the homepage shows only a few, with transformation-led
+  // messaging; the full portfolio lives on /work. Each featured item carries its
+  // own tagline + proof metrics and borrows the project's colours/number/title.
+  const featured = (home.featuredWork?.items ?? [])
+    .map((it) => ({ ...it, project: projects.find((p) => p.slug === it.slug) }))
+    .filter((it) => it.project)
+
+  // Insights: the three most recent articles.
+  const insightsPosts = home.insights ? getPosts(lang).slice(0, 3) : []
 
   // Split contact afterLink on a literal "\n" → desktop-only line break
   const afterLinkParts = (home.contact?.afterLink ?? '').split('\n')
@@ -66,36 +96,61 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* Selected work */}
-      <section className="pb-12 md:pb-40">
-        <p className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider">
-          {home.selectedWorkLabel}
-        </p>
-        <ul className="r text-4xl md:text-7xl font-display uppercase tracking-tight2 leading-[1.05] space-y-3 md:space-y-4">
-          {projects.map((p) => (
-            <li key={p.slug}>
-              <a href={`/projects/${p.slug}`} className="ul">
-                {p.titlePlain}
-              </a>{' '}
-              <span className="text-mute text-base md:text-lg align-middle ml-3 font-sans font-medium normal-case tracking-normal">
-                — {p.shortTag}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {/* What we do — service pillars */}
+      {home.pillars ? (
+        <section className="pb-12 md:pb-40">
+          <p className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider">
+            {home.pillars.label}
+          </p>
+          <div className="r grid grid-cols-1 md:grid-cols-2 md:gap-x-16 border-t-2 border-ink">
+            {home.pillars.items.map((it, i) => (
+              <div
+                key={i}
+                className="flex items-baseline gap-4 md:gap-6 border-b border-ink/15 py-6 md:py-8"
+              >
+                <span className="font-display text-2xl md:text-3xl leading-none text-accent shrink-0">
+                  {pad2(i + 1)}
+                </span>
+                <div>
+                  <h3 className="font-display uppercase tracking-tight2 leading-[0.95] text-3xl md:text-4xl">
+                    {it.title}
+                  </h3>
+                  <p className="mt-2 max-w-md text-base md:text-lg leading-relaxed text-ink/80">
+                    {it.body}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
-      {/* Project teasers */}
-      {projects.map((p) => {
-        const numeralColor = p.colors?.numeralColor || p.colors?.fg
-        const numeralOpacity = p.colors?.numeralOpacity ?? 0.1
+      {/* Selected work — a few featured projects, transformation-led */}
+      {home.featuredWork ? (
+        <section className="pb-8 md:pb-16">
+          <p className="r text-mute text-sm mb-6 font-semibold uppercase tracking-wider">
+            {home.featuredWork.label}
+          </p>
+          {home.featuredWork.lead ? (
+            <p className="r max-w-3xl text-3xl md:text-5xl font-display uppercase tracking-tight2 leading-[1.04]">
+              {home.featuredWork.lead}
+            </p>
+          ) : null}
+        </section>
+      ) : null}
+
+      {/* Featured project teasers */}
+      {featured.map(({ project: p, tagline, metrics }, i) => {
+        const s = FEATURED_STYLES[i % FEATURED_STYLES.length]
+        const numeralColor = s.numeralColor || s.fg
+        const numeralOpacity = s.numeralOpacity
         return (
           <section
             key={p.slug}
             className="fullbleed parallax-section min-h-screen md:min-h-[140vh]"
             style={{
-              background: p.colors?.bg,
-              color: p.colors?.fg,
+              background: s.bg,
+              color: s.fg,
             }}
           >
             <span
@@ -141,7 +196,7 @@ export default async function HomePage() {
                   </a>
                 </h2>
                 <p className="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
-                  {p.shortDescription}
+                  {tagline || p.shortDescription}
                 </p>
                 <a
                   href={`/projects/${p.slug}`}
@@ -154,20 +209,105 @@ export default async function HomePage() {
               </div>
               <div
                 data-parallax="-0.18"
-                className="flex flex-wrap gap-y-4 items-end justify-between font-semibold uppercase tracking-wider text-sm"
+                className="flex flex-wrap gap-2 md:gap-3 items-end"
               >
-                <span>{p.tagsLine}</span>
+                {(metrics ?? []).map((m, i) => (
+                  <span
+                    key={i}
+                    className="border border-current rounded-full px-3 py-1 md:px-4 md:py-1.5 text-xs md:text-sm font-semibold uppercase tracking-wider"
+                  >
+                    {m}
+                  </span>
+                ))}
               </div>
             </div>
           </section>
         )
       })}
 
-      {/* Spacer */}
-      <div className="h-12 md:h-40"></div>
+      {/* See all work */}
+      {home.featuredWork?.allLabel ? (
+        <section className="pt-12 md:pt-24 pb-12 md:pb-40">
+          <a
+            href="/work"
+            className="r group inline-flex items-center gap-3 font-display uppercase tracking-tight2 text-3xl md:text-5xl"
+          >
+            <span className="ul">{home.featuredWork.allLabel}</span>
+            <span className="inline-block rotate-[-45deg] text-2xl md:text-4xl text-accent transition-transform group-hover:translate-x-1">
+              →
+            </span>
+          </a>
+        </section>
+      ) : null}
+
+      {/* Insights — three most recent articles, on a distinct dark section */}
+      {home.insights && insightsPosts.length > 0 ? (
+        <section
+          className="fullbleed"
+          style={{ background: '#0F0F0F', color: '#D6D9DC' }}
+        >
+          <div className="max-w-[1500px] mx-auto px-6 md:px-12 py-16 md:py-32">
+            <div className="r flex items-end justify-between gap-6 mb-8 md:mb-12">
+              <div>
+                <p className="text-sm mb-3 font-semibold uppercase tracking-wider opacity-60">
+                  {home.insights.label}
+                </p>
+                {home.insights.lead ? (
+                  <p className="max-w-2xl text-2xl md:text-4xl font-normal leading-snug">
+                    {home.insights.lead}
+                  </p>
+                ) : null}
+              </div>
+              {home.insights.allLabel ? (
+                <a
+                  href="/blog"
+                  className="ul hidden md:inline-block shrink-0 text-sm font-semibold uppercase tracking-wider whitespace-nowrap"
+                >
+                  {home.insights.allLabel}
+                </a>
+              ) : null}
+            </div>
+            <ul className="r border-t border-current/20 divide-y divide-current/15">
+              {insightsPosts.map((post) => {
+                const pillar = getPillarLabel(post.pillar, lang)
+                return (
+                  <li key={post.slug} className="py-6 md:py-8">
+                    <a href={`/blog/${post.slug}`} className="block group">
+                      <div className="text-[11px] uppercase tracking-[.18em] mb-2 font-semibold opacity-60">
+                        {pillar ? (
+                          <>
+                            <span className="text-accent">{pillar}</span> ·{' '}
+                          </>
+                        ) : null}
+                        {formatDate(post.date, lang)}
+                      </div>
+                      <h3 className="font-display uppercase tracking-tight2 leading-[0.98] text-2xl md:text-4xl group-hover:text-accent transition-colors">
+                        {post.title}
+                      </h3>
+                      {post.summary ? (
+                        <p className="mt-2 max-w-3xl text-base md:text-lg opacity-70">
+                          {post.summary}
+                        </p>
+                      ) : null}
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
+            {home.insights.allLabel ? (
+              <a
+                href="/blog"
+                className="md:hidden ul inline-block mt-8 text-sm font-semibold uppercase tracking-wider"
+              >
+                {home.insights.allLabel}
+              </a>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
 
       {/* Contact */}
-      <section className="pb-12 md:pb-40">
+      <section className="pt-16 md:pt-32 pb-12 md:pb-40">
         <p className="r text-mute text-sm mb-6 font-semibold uppercase tracking-wider">
           {home.contact.eyebrow}
         </p>

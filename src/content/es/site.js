@@ -34,6 +34,7 @@ export const menu = {
         { label: 'Contacto', href: '/contact' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },
         { label: 'Privacidad', href: '/privacy' },
+        { label: 'Términos', href: '/terms' },
       ],
     },
   ],
@@ -59,8 +60,8 @@ export const ui = {
 }
 
 export const posterRail = {
-  topText: 'Estudio de producto e ingeniería',
-  middleText: 'Herramientas y plataformas a medida, hechas a mano para producción.',
+  topText: 'Estudio de producto digital',
+  middleText: 'Diseñamos, construimos y hacemos crecer empresas digitales.',
   bottomText: 'raoul.studio',
 }
 
