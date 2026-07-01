@@ -43,18 +43,27 @@ this job — do not produce those.)
 2. **Verify sources.** Collect **2–4 reputable source URLs** you actually opened — never
    invent or guess a URL. Each needs a short human title (publication + headline).
 
-3. **Write the essay in English — an insight piece, not a bulletin.** 4–6 short
-   paragraphs, ~350–550 words, readable by a smart non-expert and a busy founder:
-   - Lead with the implication / your point of view; bring facts in to support it.
-   - Short sentences, one idea each. Plain words over jargon; if you must use a technical
-     term, explain it in a few plain words right there.
-   - Always answer "so what for someone running or building a business?" — concrete
-     examples over abstract claims. Close with a clear takeaway.
-   - Use "we" sparingly and only for a genuine studio viewpoint; mostly write analytically.
-   - **Highlight the key phrase in each paragraph** — the single most important insight or
-     takeaway — by wrapping it in `**double asterisks**` (e.g. "...which means
-     **cheaper models change the economics of automation**."). Keep it short (a 3–10 word
-     phrase, never a whole sentence) and use at most one per paragraph. Translate the
+3. **Write the essay in English — simple, clear and short.** Write so a bright
+   **14-year-old could easily understand what the story is about and why it matters**.
+   3–5 short paragraphs, ~250–400 words. Think of the post as the plain, easy version of
+   the story: **anyone who wants the deep technical detail can click the linked sources.**
+   - **Use everyday words.** Pick the simple word over the clever one — "makes" not
+     "constitutes", "big change" not "structural reckoning", "adds up" not "compounds".
+     No corporate or academic language, no buzzwords.
+   - **Short sentences**, usually under 20 words, one idea each. Read it back and cut
+     anything a normal person would have to re-read.
+   - **Avoid jargon.** If a technical term is genuinely needed, explain it in a few plain
+     words right there (e.g. "tokens — the little chunks of text an AI charges you for").
+     Never assume the reader already knows industry terms.
+   - Lead with the point in plain language: what changed, and why someone running or
+     building a business should care. Use concrete, real examples, not abstract theory.
+   - Close with **one clear, practical takeaway** anyone can act on.
+   - Keep the facts and numbers accurate and real — say them simply, don't water them down.
+   - Use "we" sparingly and only for a genuine studio viewpoint; mostly just explain plainly.
+   - **Highlight the key phrase in each paragraph** — the single most important point —
+     by wrapping it in `**double asterisks**` (e.g. "...which means **AI agents can get
+     expensive fast**."). Keep it short (a 3–10 word phrase, never a whole sentence),
+     in the same simple language, and use at most one per paragraph. Translate the
      highlighted phrase in every language and keep the `**` markers around it there too.
 
 4. **Pull 3–4 key facts** for a small "facts card": each a short `value` (number, date or
@@ -92,7 +101,7 @@ this job — do not produce those.)
   "locales": {
     "en": {
       "title": "...",
-      "summary": "one sharp sentence stating the take",
+      "summary": "one plain, simple sentence a 14-year-old would understand, stating the take",
       "body": ["para 1", "para 2", "para 3", "para 4"],
       "keyFacts": [
         { "value": "4", "label": "researchers left in six days" },
