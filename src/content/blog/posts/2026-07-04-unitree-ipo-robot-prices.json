@@ -1,0 +1,114 @@
+{
+  "slug": "2026-07-04-unitree-ipo-robot-prices",
+  "date": "2026-07-04",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://kraneshares.com/wp-content/uploads/2026/04/2026_03_koid_unitree_cover.jpg",
+    "alt": "KraneShares cover image for Unitree Robotics IPO analysis",
+    "credit": "KraneShares"
+  },
+  "sources": [
+    { "title": "Rest of World — China robot maker Unitree files for $610 million Shanghai IPO", "url": "https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" },
+    { "title": "Caixin Global — Unitree Robotics Wins Approval for $618 Million STAR Market IPO", "url": "https://www.caixinglobal.com/2026-07-03/unitree-robotics-wins-approval-for-618-million-star-market-ipo-102460136.html" },
+    { "title": "KraneShares — A Complete Guide To Unitree Robotics' 2026 IPO", "url": "https://kraneshares.com/a-complete-guide-to-unitree-robotics-2026-ipo-why-it-matters-for-star-market-etf-kstr-humanoid-robotics-etf-koid/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Humanoid robots dropped 70% in price in two years. That is the real story.",
+      "summary": "China's biggest robot maker is going public, but the headline that matters is that humanoid robots fell from $85,000 to $25,000 in just two years — and the business behind them is already profitable.",
+      "body": [
+        "China's securities regulator this week approved a stock market listing for Unitree Robotics, a Hangzhou-based company that builds humanoid and four-legged robots. The IPO could raise around $619 million and values the company at roughly $5.9 billion. The listing itself is not the interesting part. **What makes this worth watching is how fast robot prices are falling.**",
+        "Unitree sold its first humanoid robots in 2023 for around $85,000 each. By 2025, the same class of robot cost about $25,000 — **a 70% price drop in just two years**. The company sold 5,500 humanoids in 2025 and now accounts for roughly one-third of all humanoid robots sold worldwide. A robot that once cost as much as a luxury car now costs less than a mid-range SUV.",
+        "Despite charging less, Unitree still earned nearly 60% gross margin on each robot sold. Revenue grew from around $55 million in 2024 to $250 million in 2025, and the company turned a profit for the first time. **Prices falling while margins stay high** is a rare sign that the underlying technology is getting better fast, not that the company is cutting corners.",
+        "For anyone running or building a business, the takeaway is simple. Humanoid robots are not a future idea — they are already manufactured, sold, and deployed, and they are getting cheaper every year. The companies that will be ready are the ones thinking now about where robots could handle repetitive or physical work in their operations. **The window to prepare is open; it will not stay open forever.**"
+      ],
+      "keyFacts": [
+        { "value": "$25,000", "label": "humanoid robot price in 2025" },
+        { "value": "5,500", "label": "humanoids sold by Unitree in 2025" },
+        { "value": "~60%", "label": "gross margin per robot" },
+        { "value": "~$5.9B", "label": "Unitree IPO valuation" }
+      ]
+    },
+    "de": {
+      "title": "Humanoide Roboter wurden in zwei Jahren 70 % günstiger. Das ist die eigentliche Meldung.",
+      "summary": "Chinas größter Roboterhersteller geht an die Börse — doch die wichtigere Nachricht ist, dass humanoide Roboter in nur zwei Jahren von 85.000 auf 25.000 Dollar gefallen sind und das Unternehmen bereits Gewinn macht.",
+      "body": [
+        "Chinas Wertpapieraufsicht hat diese Woche die Börsennotierung von Unitree Robotics genehmigt, einem Unternehmen aus Hangzhou, das humanoide und vierbeinige Roboter baut. Der Börsengang könnte rund 619 Millionen Dollar einbringen und bewertet das Unternehmen mit etwa 5,9 Milliarden Dollar. Der Börsengang selbst ist nicht das Interessante. **Was diesen Moment wirklich bedeutsam macht, ist das rasante Fallen der Roboterpreise.**",
+        "Die ersten humanoiden Roboter von Unitree kosteten 2023 rund 85.000 Dollar. Bis 2025 sank der Preis auf etwa 25.000 Dollar — **ein Rückgang von 70 % in nur zwei Jahren**. Das Unternehmen verkaufte 2025 insgesamt 5.500 humanoide Roboter und hält heute einen Anteil von etwa einem Drittel an allen weltweit verkauften Humanoiden. Ein Roboter, der einmal so viel kostete wie ein Luxusauto, kostet jetzt weniger als ein Mittelklasse-SUV.",
+        "Obwohl die Preise gesunken sind, erzielte Unitree fast 60 % Bruttomarge pro verkauftem Roboter. Der Umsatz stieg von rund 55 Millionen Dollar im Jahr 2024 auf 250 Millionen Dollar im Jahr 2025 — und das Unternehmen schrieb zum ersten Mal Gewinn. **Sinkende Preise bei gleichzeitig hohen Margen** sind ein seltenes Zeichen, dass die Technologie schnell reift — kein Zeichen, dass Kosten auf Kosten der Qualität gespart werden.",
+        "Für alle, die ein Unternehmen führen oder aufbauen, ist die Botschaft einfach. Humanoide Roboter sind keine Zukunftsvision — sie werden bereits gebaut, verkauft und eingesetzt, und sie werden jedes Jahr günstiger. Die Unternehmen, die vorbereitet sein werden, denken schon jetzt darüber nach, wo Roboter repetitive oder körperliche Arbeit übernehmen können. **Das Fenster zum Handeln ist offen; es wird nicht für immer offenbleiben.**"
+      ],
+      "keyFacts": [
+        { "value": "$25.000", "label": "Preis eines humanoiden Roboters im Jahr 2025" },
+        { "value": "5.500", "label": "von Unitree verkaufte Humanoide im Jahr 2025" },
+        { "value": "~60 %", "label": "Bruttomarge pro Roboter" },
+        { "value": "~5,9 Mrd. $", "label": "Unitree-Bewertung beim Börsengang" }
+      ]
+    },
+    "nl": {
+      "title": "Humanoïde robots werden in twee jaar 70% goedkoper. Dat is het echte nieuws.",
+      "summary": "De grootste robotmaker van China gaat naar de beurs, maar de belangrijkste boodschap is dat humanoïde robots in slechts twee jaar daalden van 85.000 naar 25.000 dollar — en het bedrijf er al winst mee maakt.",
+      "body": [
+        "De Chinese beurstoezichthouder heeft deze week de beursnotering van Unitree Robotics goedgekeurd, een bedrijf uit Hangzhou dat humanoïde en vierpootige robots bouwt. De beursgang kan ongeveer 619 miljoen dollar ophalen en waardeert het bedrijf op zo'n 5,9 miljard dollar. De notering zelf is niet het interessante deel. **Wat dit de moeite waard maakt om op te letten, is hoe snel de robotprijzen dalen.**",
+        "Unitree verkocht zijn eerste humanoïde robots in 2023 voor ongeveer 85.000 dollar per stuk. In 2025 kostte dezelfde soort robot nog maar zo'n 25.000 dollar — **een prijsdaling van 70% in slechts twee jaar**. Het bedrijf verkocht in 2025 in totaal 5.500 humanoïde robots en staat nu voor ongeveer een derde van alle humanoïde robots die wereldwijd worden verkocht. Een robot die ooit net zoveel kostte als een luxeauto, kost nu minder dan een gemiddelde gezinsauto.",
+        "Ondanks de lagere prijzen behaalde Unitree bijna 60% brutomarge per verkochte robot. De omzet groeide van zo'n 55 miljoen dollar in 2024 naar 250 miljoen dollar in 2025 — en het bedrijf boekte voor het eerst winst. **Dalende prijzen met hoge marges tegelijk** is een zeldzaam teken dat de technologie snel volwassen wordt, niet dat er op kwaliteit wordt bezuinigd.",
+        "Voor iedereen die een bedrijf runt of bouwt, is de conclusie eenvoudig. Humanoïde robots zijn geen toekomstidee — ze worden al gebouwd, verkocht en ingezet, en ze worden elk jaar goedkoper. De bedrijven die straks klaar zijn, denken nu al na over waar robots repetitief of fysiek werk kunnen overnemen. **Het moment om je voor te bereiden is nu; dit venster blijft niet voor altijd open.**"
+      ],
+      "keyFacts": [
+        { "value": "$25.000", "label": "prijs van een humanoïde robot in 2025" },
+        { "value": "5.500", "label": "humanoïden verkocht door Unitree in 2025" },
+        { "value": "~60%", "label": "brutomarge per robot" },
+        { "value": "~$5,9 mrd.", "label": "IPO-waardering van Unitree" }
+      ]
+    },
+    "es": {
+      "title": "Los robots humanoides bajaron un 70% de precio en dos años. Esa es la noticia real.",
+      "summary": "El mayor fabricante de robots de China va a salir a bolsa, pero lo que importa de verdad es que los robots humanoides bajaron de 85.000 a 25.000 dólares en solo dos años — y la empresa ya genera beneficios.",
+      "body": [
+        "El regulador de valores de China aprobó esta semana la cotización en bolsa de Unitree Robotics, una empresa de Hangzhou que fabrica robots humanoides y de cuatro patas. La OPI podría recaudar unos 619 millones de dólares y valora la compañía en aproximadamente 5.900 millones de dólares. La cotización en sí no es lo interesante. **Lo que merece atención es la velocidad a la que están bajando los precios de los robots.**",
+        "Unitree vendió sus primeros robots humanoides en 2023 a unos 85.000 dólares cada uno. En 2025, el mismo tipo de robot costaba unos 25.000 dólares — **una caída de precio del 70% en solo dos años**. La empresa vendió 5.500 humanoides en 2025 y representa ahora aproximadamente un tercio de todos los robots humanoides vendidos en el mundo. Un robot que antes costaba como un coche de lujo ahora cuesta como un SUV de gama media.",
+        "A pesar de cobrar menos, Unitree obtuvo casi un 60% de margen bruto por robot vendido. Sus ingresos crecieron de unos 55 millones de dólares en 2024 a 250 millones en 2025, y la empresa obtuvo beneficios por primera vez. **Precios a la baja con márgenes altos al mismo tiempo** es una señal poco habitual de que la tecnología madura rápido, no de que se estén recortando costes.",
+        "Para cualquiera que dirija o construya un negocio, el mensaje es sencillo. Los robots humanoides no son una idea del futuro — ya se fabrican, venden y despliegan, y cada año son más baratos. Las empresas que estarán listas son las que ya piensan en dónde los robots podrían encargarse de trabajo repetitivo o físico en sus operaciones. **La ventana para prepararse está abierta; no lo estará para siempre.**"
+      ],
+      "keyFacts": [
+        { "value": "$25.000", "label": "precio de un robot humanoide en 2025" },
+        { "value": "5.500", "label": "humanoides vendidos por Unitree en 2025" },
+        { "value": "~60%", "label": "margen bruto por robot" },
+        { "value": "~$5.900 M", "label": "valoración de Unitree en la OPI" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots humanoïdes ont baissé de 70% en deux ans. C'est ça, le vrai sujet.",
+      "summary": "Le plus grand fabricant de robots de Chine va entrer en bourse, mais ce qui compte vraiment c'est que les robots humanoïdes sont passés de 85 000 à 25 000 dollars en deux ans seulement — et la société est déjà rentable.",
+      "body": [
+        "Le régulateur boursier chinois a approuvé cette semaine l'introduction en bourse de Unitree Robotics, une entreprise de Hangzhou qui fabrique des robots humanoïdes et quadrupèdes. L'IPO pourrait lever environ 619 millions de dollars et valorise la société à environ 5,9 milliards de dollars. L'introduction en bourse elle-même n'est pas le sujet. **Ce qui mérite vraiment l'attention, c'est la vitesse à laquelle les prix des robots baissent.**",
+        "Unitree a vendu ses premiers robots humanoïdes en 2023 à environ 85 000 dollars pièce. En 2025, le même type de robot coûtait environ 25 000 dollars — **une baisse de prix de 70% en seulement deux ans**. L'entreprise a vendu 5 500 humanoïdes en 2025 et représente désormais environ un tiers de tous les robots humanoïdes vendus dans le monde. Un robot qui coûtait autant qu'une voiture de luxe coûte maintenant moins qu'un SUV standard.",
+        "Malgré des prix plus bas, Unitree a maintenu une marge brute de près de 60% par robot vendu. Son chiffre d'affaires est passé d'environ 55 millions de dollars en 2024 à 250 millions en 2025, et la société a été rentable pour la première fois. **Des prix en baisse avec des marges solides en même temps** est un signal rare que la technologie arrive à maturité rapidement — pas que des économies sont faites sur la qualité.",
+        "Pour quiconque gère ou construit une entreprise, le message est simple. Les robots humanoïdes ne sont pas une idée du futur — ils sont déjà fabriqués, vendus et déployés, et ils coûtent moins cher chaque année. Les entreprises qui seront prêtes sont celles qui réfléchissent dès maintenant à l'endroit où des robots pourraient prendre en charge des tâches répétitives ou physiques. **La fenêtre pour se préparer est ouverte ; elle ne le restera pas indéfiniment.**"
+      ],
+      "keyFacts": [
+        { "value": "25 000 $", "label": "prix d'un robot humanoïde en 2025" },
+        { "value": "5 500", "label": "humanoïdes vendus par Unitree en 2025" },
+        { "value": "~60%", "label": "marge brute par robot" },
+        { "value": "~5,9 Md $", "label": "valorisation d'Unitree à l'IPO" }
+      ]
+    },
+    "ar": {
+      "title": "انخفضت أسعار الروبوتات الشبيهة بالإنسان 70% في عامين. هذه هي القصة الحقيقية.",
+      "summary": "أكبر شركة لصناعة الروبوتات في الصين تستعد للطرح العام الأولي، لكن ما يهم فعلاً هو أن الروبوتات الشبيهة بالإنسان انخفضت من 85,000 إلى 25,000 دولار في عامين فقط — والشركة تحقق أرباحاً بالفعل.",
+      "body": [
+        "وافق المنظم الصيني للأوراق المالية هذا الأسبوع على إدراج شركة Unitree Robotics في البورصة، وهي شركة من هانغتشو تصنع الروبوتات الشبيهة بالإنسان ورباعية الأرجل. قد يجمع الطرح العام الأولي نحو 619 مليون دولار، وتُقدَّر قيمة الشركة بحوالي 5.9 مليار دولار. الإدراج نفسه ليس الجزء الأهم. **ما يستحق المتابعة هو مدى سرعة انخفاض أسعار الروبوتات.**",
+        "باعت Unitree أول روبوتاتها الشبيهة بالإنسان في عام 2023 بحوالي 85,000 دولار للقطعة. بحلول عام 2025، أصبح سعر الروبوت من النوع نفسه حوالي 25,000 دولار — **انخفاض بنسبة 70% في عامين فقط**. باعت الشركة 5,500 روبوت شبيه بالإنسان في عام 2025، وأصبحت تمثّل ما يقارب ثلث جميع الروبوتات الشبيهة بالإنسان المُباعة في العالم. روبوت كان يكلّف ثمن سيارة فاخرة أصبح الآن بسعر سيارة SUV متوسطة.",
+        "على الرغم من تراجع الأسعار، حققت Unitree هامش ربح إجمالي يقارب 60% لكل روبوت مُباع. نمت إيراداتها من نحو 55 مليون دولار في 2024 إلى 250 مليون دولار في 2025، وحققت الشركة أرباحاً لأول مرة في تاريخها. **انخفاض الأسعار مع هوامش ربح عالية في آنٍ واحد** علامة نادرة تدل على نضوج التقنية بسرعة، لا على التقليص من الجودة.",
+        "بالنسبة لأي شخص يدير شركة أو يبنيها، الرسالة بسيطة. الروبوتات الشبيهة بالإنسان ليست فكرة مستقبلية — فهي تُصنَّع وتُباع وتُنشَر بالفعل، وتصبح أرخص كل عام. الشركات التي ستكون جاهزة هي تلك التي تفكّر الآن في أين يمكن للروبوتات أن تتولى أعمالاً متكررة أو جسدية في عملياتها. **نافذة التحضير مفتوحة الآن؛ لن تبقى كذلك إلى الأبد.**"
+      ],
+      "keyFacts": [
+        { "value": "25,000$", "label": "سعر الروبوت الشبيه بالإنسان في 2025" },
+        { "value": "5,500", "label": "روبوت شبيه بالإنسان بيعه Unitree في 2025" },
+        { "value": "~60%", "label": "هامش الربح الإجمالي لكل روبوت" },
+        { "value": "~5.9 مليار$", "label": "تقييم Unitree في الطرح العام" }
+      ]
+    }
+  }
+}
