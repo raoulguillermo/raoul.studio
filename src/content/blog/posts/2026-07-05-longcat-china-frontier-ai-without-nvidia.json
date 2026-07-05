@@ -1,0 +1,124 @@
+{
+  "slug": "2026-07-05-longcat-china-frontier-ai-without-nvidia",
+  "date": "2026-07-05",
+  "tags": ["ai", "china", "open-source"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "The Decoder — Meituan's LongCat-2.0 shows China can train massive AI models without Nvidia",
+      "url": "https://the-decoder.com/meituans-longcat-2-0-shows-china-can-train-massive-ai-models-without-nvidia/"
+    },
+    {
+      "title": "AI Weekly — Meituan Trains 1.6T LongCat-2.0 End-to-End on Chinese Chips",
+      "url": "https://aiweekly.co/alerts/meituan-trains-16t-longcat-20-end-to-end-on-chinese-chips"
+    },
+    {
+      "title": "FelloAI — LongCat-2.0: China's 1.6T Open-Source Coding Model",
+      "url": "https://felloai.com/longcat-2-0/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "China trained a frontier AI model without a single Nvidia chip",
+      "summary": "Meituan's LongCat-2.0 proves that US chip export controls are not enough to keep China from building world-class AI.",
+      "body": [
+        "For four years, the United States has blocked China from buying Nvidia's most powerful AI chips. The idea was simple: no advanced chips, no frontier AI. **That assumption just broke.** On June 30, Chinese tech company Meituan released LongCat-2.0 — a massive AI model trained entirely on Chinese-made hardware, with zero Nvidia chips involved.",
+        "LongCat-2.0 has 1.6 trillion parameters — think of parameters as the internal settings that shape how an AI thinks. Meituan says it scored 59.5 on SWE-bench Pro, a standard coding test, edging out GPT-5.5's 58.6. Training ran on more than 50,000 Huawei-made chips across 35 trillion tokens of data. **China now has a frontier AI model built on hardware it makes itself.**",
+        "What makes this story more interesting is how Meituan launched it. For roughly two months before the announcement, the model ran quietly on OpenRouter — a platform where developers try different AI tools — under a fake name: \"Owl Alpha.\" Developers used it heavily and rated it highly without knowing who built it. **The real-world test came before the press release.** That is an unusual kind of confidence.",
+        "The model is open source with an MIT license — anyone can download it, use it, and build commercial products with it, no restrictions. API pricing starts at $0.30 per million tokens, well below comparable US models. **A powerful, cheap coding AI with no access restrictions just entered the market.** For any team that uses AI to write software, it belongs on your evaluation list.",
+        "The bigger signal is for the whole industry. The chip export controls were supposed to slow China's AI progress. LongCat-2.0 shows that bet is working less well than expected. The AI landscape is splitting — more models, more sources, more competition. That is mostly good news for builders: more choice, lower prices, and fewer single points of dependency."
+      ],
+      "keyFacts": [
+        { "value": "1.6T", "label": "total model parameters" },
+        { "value": "50,000+", "label": "Chinese-made chips used for training" },
+        { "value": "59.5", "label": "coding test score, edging out GPT-5.5 (58.6)" },
+        { "value": "$0.30", "label": "API price per million tokens" }
+      ]
+    },
+    "de": {
+      "title": "China hat ein Spitzen-KI-Modell ohne einen einzigen Nvidia-Chip trainiert",
+      "summary": "Meituans LongCat-2.0 beweist, dass US-Exportkontrollen für KI-Chips nicht ausreichen, um China davon abzuhalten, KI auf Weltklasse-Niveau zu bauen.",
+      "body": [
+        "Seit vier Jahren blockieren die USA den Kauf von Nvidias leistungsfähigsten KI-Chips durch China. Die Idee war einfach: keine modernen Chips, keine Spitzen-KI. **Diese Annahme ist gerade widerlegt worden.** Am 30. Juni veröffentlichte das chinesische Unternehmen Meituan LongCat-2.0 — ein riesiges KI-Modell, das vollständig auf in China hergestellter Hardware trainiert wurde, ohne einen einzigen Nvidia-Chip.",
+        "LongCat-2.0 hat 1,6 Billionen Parameter — stell dir Parameter als die internen Einstellungen vor, die bestimmen, wie eine KI denkt. Meituan gibt an, dass das Modell 59,5 auf SWE-bench Pro erzielt hat, einem Standard-Coding-Test, knapp vor GPT-5.5 mit 58,6. Das Training lief auf mehr als 50.000 Huawei-Chips mit 35 Billionen Daten-Token. **China besitzt jetzt ein Spitzen-KI-Modell, das auf selbst hergestellter Hardware basiert.**",
+        "Besonders interessant ist, wie Meituan das Modell auf den Markt gebracht hat. Etwa zwei Monate vor der Ankündigung lief das Modell still auf OpenRouter — einer Plattform, auf der Entwickler verschiedene KI-Tools ausprobieren — unter einem falschen Namen: \"Owl Alpha\". Entwickler nutzten es intensiv und bewerteten es hoch, ohne zu wissen, wer es gebaut hatte. **Der Praxistest kam vor der Pressemitteilung.** Das ist ein ungewöhnliches Zeichen von Selbstvertrauen.",
+        "Das Modell ist Open Source mit MIT-Lizenz — jeder kann es herunterladen, nutzen und damit kommerzielle Produkte bauen, ohne Einschränkungen. Die API-Preise beginnen bei 0,30 $ pro Million Token, weit unter vergleichbaren US-Modellen. **Eine leistungsstarke, günstige Coding-KI ohne Zugangsbeschränkungen ist auf den Markt gekommen.** Für jedes Team, das KI zum Schreiben von Software einsetzt, gehört es auf die Bewertungsliste.",
+        "Das größere Signal gilt der gesamten Branche. Die Chip-Exportkontrollen sollten Chinas KI-Fortschritt bremsen. LongCat-2.0 zeigt, dass diese Wette schlechter aufgeht als erwartet. Die KI-Landschaft spaltet sich — mehr Modelle, mehr Quellen, mehr Wettbewerb. Das ist überwiegend gute Neuigkeiten für Entwickler: mehr Auswahl, niedrigere Preise und weniger Abhängigkeit von einzelnen Anbietern."
+      ],
+      "keyFacts": [
+        { "value": "1.6T", "label": "gesamte Modellparameter" },
+        { "value": "50.000+", "label": "chinesische Chips für das Training" },
+        { "value": "59,5", "label": "Coding-Test-Ergebnis, knapp vor GPT-5.5 (58,6)" },
+        { "value": "$0,30", "label": "API-Preis pro Million Token" }
+      ]
+    },
+    "nl": {
+      "title": "China trainde een geavanceerd AI-model zonder een enkele Nvidia-chip",
+      "summary": "Meituans LongCat-2.0 bewijst dat Amerikaanse exportcontroles op AI-chips niet genoeg zijn om te voorkomen dat China AI van wereldklasse bouwt.",
+      "body": [
+        "De VS blokkeren al vier jaar de aankoop van Nvidia's krachtigste AI-chips door China. Het idee was simpel: geen geavanceerde chips, geen geavanceerde AI. **Die aanname is zojuist doorbroken.** Op 30 juni bracht het Chinese techbedrijf Meituan LongCat-2.0 uit — een enorm AI-model dat volledig op Chinese hardware is getraind, zonder één Nvidia-chip.",
+        "LongCat-2.0 heeft 1,6 biljoen parameters — zie parameters als de interne instellingen die bepalen hoe een AI denkt. Meituan meldt een score van 59,5 op SWE-bench Pro, een standaard coderingtest, net boven GPT-5.5's 58,6. Het training draaide op meer dan 50.000 Huawei-chips over 35 biljoen tokens aan data. **China heeft nu een geavanceerd AI-model gebouwd op hardware die het zelf maakt.**",
+        "Wat dit verhaal nog interessanter maakt, is hoe Meituan het uitbracht. Zo'n twee maanden voor de aankondiging draaide het model stilletjes op OpenRouter — een platform waar ontwikkelaars verschillende AI-tools uitproberen — onder een valse naam: \"Owl Alpha\". Ontwikkelaars gebruikten het intensief en gaven het hoge beoordelingen zonder te weten wie het had gebouwd. **De praktijktest vond plaats vóór het persbericht.** Dat is een ongebruikelijk teken van zelfvertrouwen.",
+        "Het model is open source met een MIT-licentie — iedereen kan het downloaden, gebruiken en er commerciële producten mee bouwen, zonder beperkingen. API-prijzen beginnen bij $0,30 per miljoen tokens, ver onder vergelijkbare Amerikaanse modellen. **Een krachtige, goedkope coding-AI zonder toegangsbeperkingen is de markt binnengekomen.** Voor elk team dat AI gebruikt om software te schrijven, hoort het op de evaluatielijst.",
+        "Het grotere signaal is voor de hele industrie. De chip-exportcontroles waren bedoeld om China's AI-vooruitgang te vertragen. LongCat-2.0 laat zien dat die gok minder goed uitpakt dan verwacht. Het AI-landschap fragmenteert — meer modellen, meer bronnen, meer concurrentie. Dat is grotendeels goed nieuws voor ontwikkelaars: meer keuze, lagere prijzen en minder afhankelijkheid van één aanbieder."
+      ],
+      "keyFacts": [
+        { "value": "1.6T", "label": "totale modelparameters" },
+        { "value": "50.000+", "label": "Chinese chips gebruikt voor training" },
+        { "value": "59,5", "label": "codeertest score, net voor GPT-5.5 (58,6)" },
+        { "value": "$0,30", "label": "API-prijs per miljoen tokens" }
+      ]
+    },
+    "es": {
+      "title": "China entrenó un modelo de IA de frontera sin un solo chip de Nvidia",
+      "summary": "LongCat-2.0 de Meituan demuestra que los controles de exportación de chips de IA de EE. UU. no bastan para impedir que China construya IA de nivel mundial.",
+      "body": [
+        "Durante cuatro años, Estados Unidos ha bloqueado que China compre los chips de IA más potentes de Nvidia. La idea era sencilla: sin chips avanzados, sin IA de frontera. **Esa suposición acaba de romperse.** El 30 de junio, la empresa tecnológica china Meituan publicó LongCat-2.0, un enorme modelo de IA entrenado por completo en hardware fabricado en China, sin ningún chip de Nvidia.",
+        "LongCat-2.0 tiene 1,6 billones de parámetros — piensa en los parámetros como los ajustes internos que determinan cómo piensa una IA. Meituan dice que obtuvo 59,5 en SWE-bench Pro, una prueba estándar de codificación, por encima del 58,6 de GPT-5.5. El entrenamiento se ejecutó en más de 50.000 chips Huawei sobre 35 billones de tokens de datos. **China ya tiene un modelo de IA de frontera construido sobre hardware que fabrica ella misma.**",
+        "Lo que hace esta historia aún más interesante es cómo Meituan lo lanzó. Durante unos dos meses antes del anuncio, el modelo funcionó discretamente en OpenRouter — una plataforma donde los desarrolladores prueban distintas herramientas de IA — bajo un nombre falso: \"Owl Alpha\". Los desarrolladores lo usaron intensamente y lo valoraron muy bien sin saber quién lo había construido. **La prueba en el mundo real llegó antes del comunicado de prensa.** Es un tipo inusual de confianza.",
+        "El modelo es de código abierto con licencia MIT — cualquiera puede descargarlo, usarlo y construir productos comerciales con él, sin restricciones. Los precios de la API comienzan en $0,30 por millón de tokens, muy por debajo de modelos estadounidenses comparables. **Una IA de codificación potente y barata sin restricciones de acceso acaba de entrar al mercado.** Cualquier equipo que use IA para escribir software debería incluirlo en su lista de evaluación.",
+        "La señal más amplia es para toda la industria. Los controles de exportación de chips debían frenar el avance de China en IA. LongCat-2.0 muestra que esa apuesta está funcionando peor de lo esperado. El panorama de la IA se está fragmentando — más modelos, más fuentes, más competencia. Eso es, en gran medida, buenas noticias para los desarrolladores: más opciones, precios más bajos y menos dependencia de un solo proveedor."
+      ],
+      "keyFacts": [
+        { "value": "1.6T", "label": "parámetros totales del modelo" },
+        { "value": "50.000+", "label": "chips chinos usados en el entrenamiento" },
+        { "value": "59,5", "label": "puntuación en el test de codificación, por encima de GPT-5.5 (58,6)" },
+        { "value": "$0,30", "label": "precio de API por millón de tokens" }
+      ]
+    },
+    "fr": {
+      "title": "La Chine a entraîné un modèle d'IA de pointe sans une seule puce Nvidia",
+      "summary": "LongCat-2.0 de Meituan prouve que les contrôles américains à l'exportation de puces IA ne suffisent pas à empêcher la Chine de créer une IA de niveau mondial.",
+      "body": [
+        "Depuis quatre ans, les États-Unis empêchent la Chine d'acheter les puces IA les plus puissantes de Nvidia. L'idée était simple : sans puces avancées, pas d'IA de pointe. **Cette hypothèse vient d'être contredite.** Le 30 juin, la société technologique chinoise Meituan a publié LongCat-2.0, un immense modèle d'IA entraîné entièrement sur du matériel fabriqué en Chine, sans aucune puce Nvidia.",
+        "LongCat-2.0 possède 1 600 milliards de paramètres — les paramètres sont les réglages internes qui façonnent la façon dont une IA raisonne. Meituan indique qu'il a obtenu 59,5 sur SWE-bench Pro, un test standard de codage, devant les 58,6 de GPT-5.5. L'entraînement a été réalisé sur plus de 50 000 puces Huawei, sur 35 000 milliards de tokens de données. **La Chine dispose désormais d'un modèle d'IA de pointe construit sur du matériel qu'elle fabrique elle-même.**",
+        "Ce qui rend cette histoire encore plus intéressante, c'est la façon dont Meituan l'a lancé. Pendant environ deux mois avant l'annonce, le modèle fonctionnait discrètement sur OpenRouter — une plateforme où les développeurs testent différents outils d'IA — sous un faux nom : \"Owl Alpha\". Les développeurs l'ont utilisé intensément et lui ont attribué de très bonnes notes sans savoir qui l'avait construit. **Le test en conditions réelles a précédé le communiqué de presse.** C'est une forme rare de confiance en soi.",
+        "Le modèle est open source sous licence MIT — tout le monde peut le télécharger, l'utiliser et créer des produits commerciaux avec lui, sans restrictions. Les tarifs API commencent à 0,30 $ par million de tokens, bien en dessous des modèles américains comparables. **Une IA de codage puissante et bon marché sans restrictions d'accès vient d'entrer sur le marché.** Toute équipe qui utilise l'IA pour écrire du code devrait l'ajouter à sa liste d'évaluation.",
+        "Le signal le plus important est destiné à l'ensemble du secteur. Les contrôles à l'exportation de puces devaient ralentir les progrès de la Chine en matière d'IA. LongCat-2.0 montre que ce pari fonctionne moins bien que prévu. Le paysage de l'IA se fragmente — plus de modèles, plus de sources, plus de concurrence. C'est, en grande partie, une bonne nouvelle pour les développeurs : plus de choix, des prix plus bas et moins de dépendance à un seul fournisseur."
+      ],
+      "keyFacts": [
+        { "value": "1.6T", "label": "paramètres totaux du modèle" },
+        { "value": "50 000+", "label": "puces chinoises utilisées pour l'entraînement" },
+        { "value": "59,5", "label": "score au test de codage, devant GPT-5.5 (58,6)" },
+        { "value": "0,30 $", "label": "prix API par million de tokens" }
+      ]
+    },
+    "ar": {
+      "title": "الصين تدرّب نموذج ذكاء اصطناعي متقدماً دون أي شريحة من إنتاج Nvidia",
+      "summary": "يُثبت LongCat-2.0 من شركة Meituan أن ضوابط تصدير شرائح الذكاء الاصطناعي الأمريكية لا تكفي لمنع الصين من بناء ذكاء اصطناعي على مستوى عالمي.",
+      "body": [
+        "منذ أربع سنوات، تمنع الولايات المتحدة الصين من شراء أقوى شرائح الذكاء الاصطناعي من إنتاج Nvidia. كانت الفكرة بسيطة: بلا شرائح متقدمة، لا ذكاء اصطناعي متقدم. **هذا الافتراض انهار للتو.** في الثلاثين من يونيو، أطلقت شركة Meituan الصينية نموذج LongCat-2.0، وهو نموذج ذكاء اصطناعي ضخم دُرِّب بالكامل على أجهزة صُنعت في الصين، دون أي شريحة Nvidia.",
+        "يضم LongCat-2.0 تريليوناً وستمائة مليار معامل — فكّر في المعاملات كالإعدادات الداخلية التي تحدد طريقة تفكير الذكاء الاصطناعي. تقول Meituan إن النموذج حقق 59.5 في اختبار SWE-bench Pro المعياري للبرمجة، متقدماً على GPT-5.5 الذي حصل على 58.6. جرى التدريب على أكثر من 50,000 شريحة من إنتاج Huawei، وشمل 35 تريليون وحدة بيانات. **تمتلك الصين الآن نموذج ذكاء اصطناعي متقدماً مبنياً على أجهزة تصنعها بنفسها.**",
+        "ما يجعل هذه القصة أكثر إثارة هو طريقة إطلاق Meituan للنموذج. طوال نحو شهرين قبل الإعلان، كان النموذج يعمل بهدوء على منصة OpenRouter — حيث يجرّب المطورون أدوات ذكاء اصطناعي مختلفة — تحت اسم مستعار: \"Owl Alpha\". استخدمه المطورون بكثافة ومنحوه تقييمات عالية دون أن يعلموا من بناه. **الاختبار الحقيقي جاء قبل البيان الصحفي.** هذا نوع غير مألوف من الثقة بالنفس.",
+        "النموذج مفتوح المصدر بموجب رخصة MIT — أي شخص يمكنه تنزيله واستخدامه وبناء منتجات تجارية به دون قيود. تبدأ أسعار الواجهة البرمجية من 0.30 دولار لكل مليون وحدة نصية، وهو أرخص بكثير من النماذج الأمريكية المماثلة. **نموذج برمجة قوي ورخيص وبلا قيود وصول دخل السوق للتو.** أي فريق يستخدم الذكاء الاصطناعي لكتابة البرامج يجب أن يضعه على قائمة التقييم.",
+        "الإشارة الأكبر موجّهة للقطاع بأسره. كانت ضوابط تصدير الشرائح مصمّمة لإبطاء تقدم الصين في الذكاء الاصطناعي. يُظهر LongCat-2.0 أن هذا الرهان يُؤتي ثماراً أقل مما كان متوقعاً. يتشظى مشهد الذكاء الاصطناعي — مزيد من النماذج، ومزيد من المصادر، ومزيد من المنافسة. هذا في معظمه خبر جيد للمطورين: المزيد من الخيارات، وأسعار أقل، وتبعية أقل لمورّد واحد."
+      ],
+      "keyFacts": [
+        { "value": "1.6T", "label": "إجمالي معاملات النموذج" },
+        { "value": "50,000+", "label": "شريحة صينية استُخدمت في التدريب" },
+        { "value": "59.5", "label": "نتيجة اختبار البرمجة، متقدماً على GPT-5.5 (58.6)" },
+        { "value": "$0.30", "label": "سعر الواجهة البرمجية لكل مليون وحدة نصية" }
+      ]
+    }
+  }
+}
