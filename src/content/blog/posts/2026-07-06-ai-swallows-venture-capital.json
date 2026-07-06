@@ -1,0 +1,114 @@
+{
+  "slug": "2026-07-06-ai-swallows-venture-capital",
+  "date": "2026-07-06",
+  "tags": ["ai", "funding"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "Crunchbase News — Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
+      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/"
+    },
+    {
+      "title": "AI Weekly — OpenAI and Anthropic Take 43% of H1 2026 Venture Funding",
+      "url": "https://aiweekly.co/alerts/openai-and-anthropic-take-43-of-h1-2026-venture-funding"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Two companies just took 43% of all startup funding — here's what that means",
+      "summary": "When two AI companies absorb nearly half of all global venture capital in six months, the whole market is reorganising around them.",
+      "body": [
+        "Global startup funding hit $510 billion in the first half of 2026 — already more than the entire previous year. That alone is striking. But **the real story is where the money went**: OpenAI and Anthropic together took $217 billion of that. That is 43 cents of every startup dollar invested worldwide, going to just two companies.",
+        "No two companies have ever captured this share of global venture capital — not during the dot-com boom, not during the crypto peak. More than 70% of all Q2 startup capital went to AI companies. The top five deals — OpenAI, Anthropic, xAI, Waymo, and Databricks — captured roughly 73% of every US venture dollar, meaning **everything else splits the rest**. Just four transactions accounted for roughly two-thirds of all global quarterly venture spending.",
+        "What does this mean in practice? That money is buying the compute, the researchers, and the infrastructure that will power the next generation of AI tools — tools that get packaged into APIs anyone can use for cents per thousand words. The $217 billion being spent now builds the next wave of cheaper, faster, smarter models. **The price of AI will keep falling**, and the capabilities will keep growing.",
+        "For anyone building a product or automating a business process, the lesson is simple: **build on AI now, while the edge is real**. In a year, the same capabilities will be available to everyone, cheaper. The window to get ahead of your market is open today, not after the dust settles. The money already deployed tells you exactly where this technology is heading — the only question is whether you move with it."
+      ],
+      "keyFacts": [
+        { "value": "$510B", "label": "global startup funding in H1 2026" },
+        { "value": "$217B", "label": "raised by OpenAI and Anthropic alone" },
+        { "value": "43%", "label": "their share of all global startup capital" },
+        { "value": "70%+", "label": "of Q2 funding going to AI companies" }
+      ]
+    },
+    "de": {
+      "title": "Zwei Unternehmen haben gerade 43 % aller Startup-Finanzierungen eingestrichen — was das bedeutet",
+      "summary": "Wenn zwei KI-Unternehmen in sechs Monaten fast die Hälfte des gesamten weltweiten Risikokapitals auf sich vereinen, ordnet sich der gesamte Markt um sie herum neu.",
+      "body": [
+        "Die globale Startupfinanzierung erreichte im ersten Halbjahr 2026 die Rekordsumme von 510 Milliarden Dollar — schon jetzt mehr als im gesamten Vorjahr. Das allein ist bemerkenswert. Doch **die eigentliche Geschichte ist, wohin das Geld floss**: OpenAI und Anthropic nahmen zusammen 217 Milliarden Dollar davon. Das sind 43 Cent von jedem weltweit in Startups investierten Dollar — für nur zwei Unternehmen.",
+        "Nie zuvor haben zwei Unternehmen einen so großen Anteil am globalen Risikokapital auf sich vereint — nicht im Dotcom-Boom, nicht im Krypto-Hype. Mehr als 70 % des gesamten Startup-Kapitals im zweiten Quartal floss in KI-Unternehmen. Die fünf größten Deals — OpenAI, Anthropic, xAI, Waymo und Databricks — vereinnahmten rund 73 % aller US-Venture-Dollar, was bedeutet: **alles andere teilt den Rest**. Allein vier Transaktionen machten etwa zwei Drittel aller globalen Risikokapitalausgaben des Quartals aus.",
+        "Was bedeutet das konkret? Dieses Kapital kauft die Rechenleistung, die Forscher und die Infrastruktur, die die nächste Generation von KI-Tools antreiben werden — Tools, die als APIs für Cent-Beträge pro tausend Wörter verfügbar werden. Die 217 Milliarden, die jetzt ausgegeben werden, finanzieren die nächste Welle günstigerer, schnellerer und leistungsfähigerer Modelle. **Der KI-Preis wird weiter sinken**, und die Möglichkeiten werden weiter wachsen.",
+        "Für alle, die ein Produkt entwickeln oder Geschäftsprozesse automatisieren, ist die Schlussfolgerung einfach: **jetzt mit KI bauen, solange der Vorsprung zählt**. In einem Jahr werden dieselben Fähigkeiten für alle verfügbar sein — und günstiger. Das Fenster, dem eigenen Markt voraus zu sein, ist heute offen, nicht erst wenn sich der Staub gelegt hat. Das bereits eingesetzte Kapital zeigt genau, wohin diese Technologie führt — die einzige Frage ist, ob man mitgeht."
+      ],
+      "keyFacts": [
+        { "value": "$510B", "label": "globale Startupfinanzierung in H1 2026" },
+        { "value": "$217B", "label": "allein für OpenAI und Anthropic" },
+        { "value": "43%", "label": "ihr Anteil am globalen Startup-Kapital" },
+        { "value": "70%+", "label": "des Q2-Kapitals für KI-Unternehmen" }
+      ]
+    },
+    "nl": {
+      "title": "Twee bedrijven graaiden net 43% van al het startupkapitaal — wat dat voor jou betekent",
+      "summary": "Als twee AI-bedrijven in zes maanden bijna de helft van al het wereldwijde durfkapitaal ophalen, herordent de hele markt zich rondom hen.",
+      "body": [
+        "De wereldwijde startupfinanciering bereikte in het eerste halfjaar van 2026 een recordbedrag van 510 miljard dollar — al meer dan het totaal van het voorgaande jaar. Dat is op zichzelf al indrukwekkend. Maar **het echte verhaal is waar het geld naartoe ging**: OpenAI en Anthropic namen samen 217 miljard dollar voor hun rekening. Dat is 43 cent van elke wereldwijd in startups geïnvesteerde dollar, naar slechts twee bedrijven.",
+        "Nooit eerder hebben twee bedrijven zo'n groot deel van het wereldwijde durfkapitaal geclaimd — niet tijdens de dotcomhausse, niet tijdens de cryptopiek. Meer dan 70% van al het startupkapitaal in het tweede kwartaal ging naar AI-bedrijven. De vijf grootste deals — OpenAI, Anthropic, xAI, Waymo en Databricks — namen circa 73% van elk Amerikaans venture-dollar op, wat betekent dat **al het andere de rest deelt**. Slechts vier transacties waren goed voor ongeveer twee derde van alle wereldwijde venture-uitgaven dat kwartaal.",
+        "Wat betekent dit in de praktijk? Dat kapitaal de rekenkracht, onderzoekers en infrastructuur koopt die de volgende generatie AI-tools zal aandrijven — tools die als API's beschikbaar komen voor centen per duizend woorden. De 217 miljard die nu wordt uitgegeven, bouwt de volgende golf goedkopere, snellere en slimmere modellen. **De prijs van AI blijft dalen**, en de mogelijkheden blijven groeien.",
+        "Voor iedereen die een product bouwt of een bedrijfsproces automatiseert, is de les simpel: **bouw nu met AI, terwijl het voordeel reëel is**. Over een jaar zijn dezelfde mogelijkheden voor iedereen beschikbaar en goedkoper. Het venster om je markt voor te zijn staat vandaag open — niet nadat het stof is neergedaald. Het geld dat al is ingezet, laat precies zien waar deze technologie naartoe gaat. De enige vraag is of je meegaat."
+      ],
+      "keyFacts": [
+        { "value": "$510B", "label": "wereldwijd startupkapitaal in H1 2026" },
+        { "value": "$217B", "label": "opgehaald door OpenAI en Anthropic alleen" },
+        { "value": "43%", "label": "hun aandeel in al het wereldwijde startupkapitaal" },
+        { "value": "70%+", "label": "van Q2-kapitaal naar AI-bedrijven" }
+      ]
+    },
+    "es": {
+      "title": "Dos empresas acaban de llevarse el 43% de todo el capital para startups — y esto es lo que significa",
+      "summary": "Cuando dos empresas de IA absorben casi la mitad de todo el capital riesgo mundial en seis meses, el mercado entero se reorganiza a su alrededor.",
+      "body": [
+        "La financiación global de startups alcanzó los 510 mil millones de dólares en el primer semestre de 2026 — ya más que todo el año anterior. Eso solo ya es notable. Pero **la verdadera historia está en adónde fue el dinero**: OpenAI y Anthropic juntas se llevaron 217 mil millones de esos dólares. Es decir, 43 centavos de cada dólar invertido en startups en todo el mundo, para solo dos empresas.",
+        "Jamás dos empresas habían captado una porción tan grande del capital riesgo global — ni en el boom de las puntocom, ni en el auge cripto. Más del 70% del capital para startups en el segundo trimestre fue a empresas de IA. Los cinco mayores acuerdos — OpenAI, Anthropic, xAI, Waymo y Databricks — acapararon cerca del 73% de cada dólar de venture capital en EE. UU., lo que significa que **todo lo demás se reparte el resto**. Solo cuatro transacciones representaron aproximadamente dos tercios del gasto global de capital riesgo ese trimestre.",
+        "¿Qué significa esto en la práctica? Que ese dinero compra la capacidad de cómputo, los investigadores y la infraestructura que impulsarán la próxima generación de herramientas de IA — herramientas que se empaquetan en APIs disponibles por céntimos por cada mil palabras. Los 217 mil millones que se gastan ahora financian la próxima oleada de modelos más baratos, rápidos y potentes. **El precio de la IA seguirá bajando**, y las capacidades seguirán creciendo.",
+        "Para quienes construyen un producto o automatizan un proceso de negocio, la lección es clara: **construye con IA ahora, mientras la ventaja sea real**. Dentro de un año, las mismas capacidades estarán al alcance de todos, más baratas. La ventana para adelantarse a tu mercado está abierta hoy — no después de que todo se estabilice. El dinero ya desplegado te dice exactamente hacia dónde va esta tecnología. La única pregunta es si te mueves con ella."
+      ],
+      "keyFacts": [
+        { "value": "$510B", "label": "financiación global de startups en H1 2026" },
+        { "value": "$217B", "label": "recaudado solo por OpenAI y Anthropic" },
+        { "value": "43%", "label": "su parte del capital global para startups" },
+        { "value": "70%+", "label": "del capital del T2 para empresas de IA" }
+      ]
+    },
+    "fr": {
+      "title": "Deux entreprises viennent de capter 43 % de tout le financement des startups — ce que ça change",
+      "summary": "Quand deux entreprises d'IA absorbent près de la moitié de tout le capital-risque mondial en six mois, c'est tout le marché qui se recompose autour d'elles.",
+      "body": [
+        "Au premier semestre 2026, les startups du monde entier ont levé 510 milliards de dollars — déjà plus que sur l'ensemble de l'année précédente. C'est déjà remarquable en soi. Mais **la vraie histoire, c'est où est allé l'argent** : OpenAI et Anthropic ont capté ensemble 217 milliards de dollars de ce total. Soit 43 centimes de chaque dollar investi dans des startups dans le monde, pour deux entreprises seulement.",
+        "Jamais deux entreprises n'avaient capté une telle part du capital-risque mondial — ni pendant la bulle internet, ni lors du pic des cryptomonnaies. Plus de 70 % de tout le capital-risque du deuxième trimestre est allé vers des entreprises d'IA. Les cinq plus grandes opérations — OpenAI, Anthropic, xAI, Waymo et Databricks — ont représenté environ 73 % de tous les dollars de capital-risque américains, ce qui signifie que **tout le reste se partage les miettes**. Quatre transactions à elles seules ont représenté environ deux tiers de toutes les dépenses mondiales de capital-risque du trimestre.",
+        "Qu'est-ce que ça veut dire concrètement ? Que cet argent achète la puissance de calcul, les chercheurs et l'infrastructure qui alimenteront la prochaine génération d'outils IA — des outils disponibles via des API pour quelques centimes par millier de mots. Les 217 milliards dépensés maintenant financent la prochaine vague de modèles moins chers, plus rapides et plus puissants. **Le prix de l'IA continuera de baisser**, et les capacités continueront de progresser.",
+        "Pour tous ceux qui construisent un produit ou automatisent un processus métier, la conclusion est simple : **construire avec l'IA maintenant, pendant que l'avantage est réel**. Dans un an, les mêmes capacités seront accessibles à tous, à moindre coût. La fenêtre pour prendre de l'avance sur son marché est ouverte aujourd'hui — pas après que la poussière soit retombée. L'argent déjà déployé vous dit exactement où va cette technologie. La seule question est de savoir si vous suivez."
+      ],
+      "keyFacts": [
+        { "value": "$510B", "label": "financements mondiaux des startups au S1 2026" },
+        { "value": "$217B", "label": "levés par OpenAI et Anthropic seuls" },
+        { "value": "43%", "label": "leur part du capital mondial pour startups" },
+        { "value": "70%+", "label": "du capital du T2 vers les entreprises d'IA" }
+      ]
+    },
+    "ar": {
+      "title": "شركتان استحوذتا للتو على 43٪ من تمويل الشركات الناشئة عالمياً — وهذا ما يعنيه ذلك",
+      "summary": "حين تستوعب شركتا ذكاء اصطناعي ما يقارب نصف رأس المال الاستثماري العالمي في ستة أشهر، يُعيد السوق بأكمله تشكّل نفسه من حولهما.",
+      "body": [
+        "بلغ تمويل الشركات الناشئة عالمياً 510 مليار دولار في النصف الأول من عام 2026 — وهو رقم يتجاوز بالفعل مجموع العام الماضي كله. هذا وحده لافت. لكن **الحقيقة الأهم هي أين ذهب هذا المال**: استحوذت OpenAI وAnthropic معاً على 217 مليار دولار منه. أي 43 سنتاً من كل دولار استُثمر في شركة ناشئة حول العالم، لشركتين فقط.",
+        "لم تستحوذ شركتان قط على هذا الحجم من رأس المال الاستثماري العالمي — لا في ذروة فقاعة الدوت كوم، ولا في طفرة العملات الرقمية. أكثر من 70٪ من إجمالي رأس المال الاستثماري في الربع الثاني ذهب إلى شركات الذكاء الاصطناعي. استأثرت الصفقات الخمس الكبرى — OpenAI وAnthropic وxAI وWaymo وDatabricks — بنحو 73٪ من كل دولار استثماري في الولايات المتحدة، مما يعني أن **كل ما تبقى يتقاسم الباقي**. أربع صفقات وحدها مثّلت نحو ثلثي إجمالي الإنفاق الاستثماري العالمي خلال الربع.",
+        "ما الذي يعني هذا عملياً؟ أن هذا المال يشتري الطاقة الحسابية والباحثين والبنية التحتية التي ستشغّل الجيل القادم من أدوات الذكاء الاصطناعي — أدوات ستُتاح عبر واجهات برمجية بسنتات لكل ألف كلمة. الـ 217 مليار دولار المُنفقة الآن تبني الموجة القادمة من النماذج الأرخص والأسرع والأكثر ذكاءً. **سعر الذكاء الاصطناعي سيستمر في الانخفاض**، وقدراته ستتوسع باستمرار.",
+        "لكل من يبني منتجاً أو يُؤتمت عملية تجارية، الدرس واضح: **ابنِ بالذكاء الاصطناعي الآن بينما الميزة حقيقية**. بعد عام، ستكون نفس القدرات متاحة للجميع بتكلفة أقل. نافذة التقدم على منافسيك مفتوحة اليوم — لا بعد أن تهدأ الأمور. الأموال المُستثمرة بالفعل تُخبرك بالضبط أين تتجه هذه التقنية. السؤال الوحيد هو: هل ستسير معها؟"
+      ],
+      "keyFacts": [
+        { "value": "$510B", "label": "إجمالي تمويل الشركات الناشئة في النصف الأول 2026" },
+        { "value": "$217B", "label": "جمعتهما OpenAI وAnthropic وحدهما" },
+        { "value": "43%", "label": "حصتهما من إجمالي رأس المال الاستثماري العالمي" },
+        { "value": "70%+", "label": "من رأس مال الربع الثاني ذهب لشركات الذكاء الاصطناعي" }
+      ]
+    }
+  }
+}
