@@ -1,0 +1,110 @@
+{
+  "slug": "2026-07-08-glm-52-coding-ai-open-weight",
+  "date": "2026-07-08",
+  "tags": ["ai", "open-source"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "TechNow — GLM-5.2 Explained: Z.ai's Open-Weights Frontier Model", "url": "https://tech-now.io/en/blogs/glm-5-2/" },
+    { "title": "LLM Stats — GLM-5.2 Benchmarks, Pricing & Size", "url": "https://llm-stats.com/models/glm-5.2" },
+    { "title": "AI Weekly — Z.ai launches ZCode 3.2.2 as official GLM-5.2 coding harness", "url": "https://aiweekly.co/alerts/zai-launches-zcode-322-as-official-glm-52-coding-harness" },
+    { "title": "Build Fast With AI — AI News Today July 6 2026: 15 Biggest Stories", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026" }
+  ],
+  "locales": {
+    "en": {
+      "title": "A Coding AI That Beats GPT-5.5 for One-Sixth the Price",
+      "summary": "A new open-weight AI from Beijing scores higher than GPT-5.5 on real coding tests and costs a fraction of the price — but teams should understand where their code goes before switching.",
+      "body": [
+        "A new AI model called GLM-5.2, built by Beijing-based Z.ai, scores 62.1 on SWE-bench Pro — a test where AI fixes real bugs in real software projects. That beats GPT-5.5's 58.6. **It costs about one-sixth as much as GPT-5.5 to run.** The model is also free to download under a permissive MIT licence, meaning any team can host and use it themselves.",
+        "The numbers: GLM-5.2 costs $1.40 per million input tokens and $4.40 per million output tokens via Z.ai's API — where tokens are the small chunks of text the model reads and writes. GPT-5.5 costs $5 and $30 per million. On third-party hosting platforms like DeepInfra, GLM-5.2 runs for under a dollar per million input tokens. **For teams processing large volumes of code, this gap changes the maths entirely.**",
+        "There is one real trade-off. Using GLM-5.2 through Z.ai's cloud means your code goes to servers in China, where local law can require that data be shared with the government on request. For sensitive projects, client code, or regulated industries, that matters. **The cleaner path for those teams is to self-host**: download the model weights and run it on your own servers under the MIT licence, at no cost.",
+        "Claude Opus 4.8 still leads on coding at 69.2 on SWE-bench Pro, so GLM-5.2 is not the top performer. But there is a difference between the best model and the best model you can afford to run at scale. **Test GLM-5.2 on a low-sensitivity project this week** — third-party hosts make it easy without any server setup. If it meets your quality bar, the savings follow."
+      ],
+      "keyFacts": [
+        { "value": "62.1", "label": "GLM-5.2 score on SWE-bench Pro" },
+        { "value": "58.6", "label": "GPT-5.5 score on the same test" },
+        { "value": "~1/6th", "label": "cost vs GPT-5.5 on output tokens" },
+        { "value": "753B", "label": "parameters, MIT-licensed and free to download" }
+      ]
+    },
+    "de": {
+      "title": "Ein Coding-KI-Modell, das GPT-5.5 schlägt — zu einem Sechstel des Preises",
+      "summary": "Ein neues Open-Weight-KI-Modell aus Peking erzielt bessere Ergebnisse als GPT-5.5 bei echten Coding-Tests und kostet einen Bruchteil des Preises — Teams sollten aber wissen, wohin ihr Code gesendet wird.",
+      "body": [
+        "Ein neues KI-Modell namens GLM-5.2, entwickelt vom Pekinger Unternehmen Z.ai, erzielt 62,1 Punkte auf SWE-bench Pro — einem Test, bei dem KI echte Fehler in echter Software behebt. Das übertrifft GPT-5.5 mit 58,6 Punkten. **Es kostet etwa ein Sechstel so viel wie GPT-5.5.** Das Modell ist zudem unter einer offenen MIT-Lizenz kostenlos herunterladbar — jedes Team kann es selbst hosten und nutzen.",
+        "Die Zahlen: GLM-5.2 kostet 1,40 US-Dollar pro Million Input-Tokens und 4,40 US-Dollar pro Million Output-Tokens über die Z.ai-API — wobei Tokens die kleinen Texteinheiten sind, die das Modell liest und schreibt. GPT-5.5 kostet 5 und 30 US-Dollar pro Million. Auf Drittanbieter-Plattformen wie DeepInfra läuft GLM-5.2 für unter einem Dollar pro Million Input-Tokens. **Für Teams, die große Mengen Code-Aufgaben automatisieren, verändert dieser Unterschied die Kalkulation grundlegend.**",
+        "Es gibt einen echten Vorbehalt. Wer GLM-5.2 über die Z.ai-Cloud nutzt, sendet Code auf Server in China, wo lokales Recht den Datenzugang für Behörden auf Anfrage ermöglichen kann. Für sensible Projekte, Kundencode oder regulierte Branchen ist das relevant. **Der sicherere Weg für solche Teams ist Self-Hosting**: Modell-Gewichte herunterladen und unter der MIT-Lizenz auf eigenen Servern betreiben — kostenlos.",
+        "Claude Opus 4.8 führt beim Coding-Benchmark mit 69,2 Punkten, GLM-5.2 ist also nicht das beste Modell. Aber es gibt einen Unterschied zwischen dem besten Modell und dem besten, das man sich im großen Maßstab leisten kann. **Testet GLM-5.2 diese Woche mit einem unkritischen Projekt** — Drittanbieter ermöglichen das ohne eigene Serverinfrastruktur. Wer damit die gewünschte Qualität erreicht, spart danach."
+      ],
+      "keyFacts": [
+        { "value": "62.1", "label": "GLM-5.2-Punkte auf SWE-bench Pro" },
+        { "value": "58.6", "label": "GPT-5.5-Punkte im gleichen Test" },
+        { "value": "~1/6th", "label": "Kostenunterschied bei Output-Tokens vs. GPT-5.5" },
+        { "value": "753B", "label": "Parameter, MIT-lizenziert und kostenlos herunterladbar" }
+      ]
+    },
+    "nl": {
+      "title": "Een Coding-AI Die GPT-5.5 Verslaat voor Een Zesde van de Prijs",
+      "summary": "Een nieuw open-weight AI-model uit Beijing scoort hoger dan GPT-5.5 op echte codetests en kost een fractie van de prijs — maar teams moeten weten waar hun code naartoe gaat voordat ze overstappen.",
+      "body": [
+        "Een nieuw AI-model genaamd GLM-5.2, gebouwd door het Pekingse Z.ai, scoort 62,1 op SWE-bench Pro — een test waarbij AI echte bugs oplost in echte softwareprojecten. Dat verslaat GPT-5.5 met 58,6. **Het kost ongeveer een zesde van wat GPT-5.5 kost.** Het model is ook gratis te downloaden onder een permissieve MIT-licentie, waardoor elk team het zelf kan draaien.",
+        "De cijfers: GLM-5.2 kost $1,40 per miljoen input-tokens en $4,40 per miljoen output-tokens via de Z.ai-API — waarbij tokens de kleine stukjes tekst zijn die het model leest en schrijft. GPT-5.5 kost $5 en $30 per miljoen. Op externe hostingplatforms zoals DeepInfra draait GLM-5.2 voor minder dan een dollar per miljoen input-tokens. **Voor teams die grote hoeveelheden codeerwerk automatiseren, verandert dit verschil de rekening volledig.**",
+        "Er is één echte afweging. Wie GLM-5.2 via de cloud van Z.ai gebruikt, stuurt code naar servers in China, waar de lokale wet overheidstogang kan verplichten op verzoek. Voor gevoelige projecten, klantcode of gereguleerde sectoren is dat relevant. **De veiligste optie voor die teams is zelf hosten**: download de modelgewichten en draai het model op eigen servers onder de MIT-licentie, gratis.",
+        "Claude Opus 4.8 leidt nog steeds op codering met 69,2 op SWE-bench Pro, dus GLM-5.2 is niet het beste model. Maar er is verschil tussen het beste model en het beste model dat je op schaal kunt betalen. **Test GLM-5.2 deze week op een project zonder gevoelige data** — externe hosts maken dat makkelijk zonder eigen serveropzet. Als de kwaliteit voldoet, volgen de besparingen vanzelf."
+      ],
+      "keyFacts": [
+        { "value": "62.1", "label": "GLM-5.2-score op SWE-bench Pro" },
+        { "value": "58.6", "label": "GPT-5.5-score op dezelfde test" },
+        { "value": "~1/6th", "label": "kostenverhouding output-tokens vs. GPT-5.5" },
+        { "value": "753B", "label": "parameters, MIT-licentie, gratis te downloaden" }
+      ]
+    },
+    "es": {
+      "title": "Una IA de Código Que Supera a GPT-5.5 por un Sexto del Precio",
+      "summary": "Un nuevo modelo de IA de código abierto de Beijing supera a GPT-5.5 en pruebas reales de programación y cuesta una fracción del precio — aunque los equipos deben saber adónde van sus datos antes de pasarse.",
+      "body": [
+        "Un nuevo modelo de IA llamado GLM-5.2, creado por Z.ai con sede en Pekín, obtiene 62,1 en SWE-bench Pro — una prueba donde la IA corrige errores reales en proyectos de software reales. Eso supera los 58,6 de GPT-5.5. **Cuesta aproximadamente un sexto de lo que cuesta GPT-5.5.** El modelo también se puede descargar gratis bajo una licencia MIT permisiva, lo que permite que cualquier equipo lo ejecute por su cuenta.",
+        "Los números: GLM-5.2 cuesta 1,40 dólares por millón de tokens de entrada y 4,40 dólares por millón de tokens de salida a través de la API de Z.ai — donde los tokens son los pequeños fragmentos de texto que el modelo lee y escribe. GPT-5.5 cuesta 5 y 30 dólares por millón. En plataformas de alojamiento de terceros como DeepInfra, GLM-5.2 se ejecuta por menos de un dólar por millón de tokens de entrada. **Para los equipos que automatizan grandes volúmenes de trabajo de código, esta diferencia cambia por completo los números.**",
+        "Hay una desventaja real. Usar GLM-5.2 a través de la nube de Z.ai significa enviar el código a servidores en China, donde la legislación local puede exigir que esos datos se compartan con el gobierno si se solicita. Para proyectos sensibles, código de clientes o sectores regulados, eso importa. **La opción más segura para esos equipos es el autoalojamiento**: descargar los pesos del modelo y ejecutarlo en servidores propios bajo la licencia MIT, sin coste.",
+        "Claude Opus 4.8 sigue liderando en código con 69,2 en SWE-bench Pro, así que GLM-5.2 no es el mejor modelo. Pero hay una diferencia entre el mejor modelo y el mejor modelo que puedes permitirte ejecutar a escala. **Prueba GLM-5.2 esta semana en un proyecto no sensible** — los proveedores externos lo facilitan sin necesidad de configurar servidores propios. Si cumple con tus requisitos de calidad, el ahorro vendrá solo."
+      ],
+      "keyFacts": [
+        { "value": "62.1", "label": "puntuación de GLM-5.2 en SWE-bench Pro" },
+        { "value": "58.6", "label": "puntuación de GPT-5.5 en la misma prueba" },
+        { "value": "~1/6th", "label": "coste en tokens de salida vs. GPT-5.5" },
+        { "value": "753B", "label": "parámetros, licencia MIT, descarga gratuita" }
+      ]
+    },
+    "fr": {
+      "title": "Un Modèle de Code Qui Bat GPT-5.5 Pour un Sixième du Prix",
+      "summary": "Un nouveau modèle d'IA en open-weight venu de Pékin surpasse GPT-5.5 sur des tests de code réels et coûte une fraction du prix — mais les équipes doivent savoir où vont leurs données avant de basculer.",
+      "body": [
+        "Un nouveau modèle d'IA appelé GLM-5.2, développé par Z.ai, une entreprise de Pékin, obtient 62,1 sur SWE-bench Pro — un test où l'IA corrige de vrais bugs dans de vrais projets logiciels. C'est supérieur aux 58,6 de GPT-5.5. **Il coûte environ un sixième du prix de GPT-5.5.** Le modèle est également téléchargeable gratuitement sous une licence MIT ouverte, ce qui permet à n'importe quelle équipe de l'héberger elle-même.",
+        "Les chiffres : GLM-5.2 coûte 1,40 dollar par million de tokens en entrée et 4,40 dollars par million en sortie via l'API de Z.ai — les tokens étant les petits morceaux de texte que le modèle lit et génère. GPT-5.5 coûte 5 et 30 dollars par million. Sur des plateformes tierces comme DeepInfra, GLM-5.2 tourne pour moins d'un dollar par million de tokens en entrée. **Pour les équipes qui automatisent de gros volumes de travail de code, cet écart change complètement les calculs.**",
+        "Il y a un vrai compromis. Utiliser GLM-5.2 via le cloud de Z.ai envoie le code sur des serveurs en Chine, où la législation locale peut obliger à partager ces données avec le gouvernement sur demande. Pour les projets sensibles, le code client ou les secteurs réglementés, cela compte. **La voie la plus sûre pour ces équipes est l'auto-hébergement** : télécharger les poids du modèle et le faire tourner sur ses propres serveurs sous licence MIT, sans frais.",
+        "Claude Opus 4.8 domine encore le code avec 69,2 sur SWE-bench Pro, donc GLM-5.2 n'est pas le meilleur modèle. Mais il y a une différence entre le meilleur modèle et le meilleur modèle que l'on peut se permettre de faire tourner à grande échelle. **Testez GLM-5.2 cette semaine sur un projet non sensible** — les hébergeurs tiers le rendent facile sans configuration serveur. Si la qualité est au rendez-vous, les économies suivront."
+      ],
+      "keyFacts": [
+        { "value": "62.1", "label": "score de GLM-5.2 sur SWE-bench Pro" },
+        { "value": "58.6", "label": "score de GPT-5.5 sur le même test" },
+        { "value": "~1/6th", "label": "coût en tokens de sortie vs. GPT-5.5" },
+        { "value": "753B", "label": "paramètres, licence MIT, téléchargement gratuit" }
+      ]
+    },
+    "ar": {
+      "title": "نموذج ذكاء اصطناعي للبرمجة يتفوق على GPT-5.5 بسُدس سعره",
+      "summary": "نموذج ذكاء اصطناعي مفتوح المصدر جديد من بكين يتفوق على GPT-5.5 في اختبارات برمجة حقيقية ويكلّف جزءاً من سعره — لكن على الفرق أن تعرف أين تذهب بياناتها قبل التحوّل.",
+      "body": [
+        "نموذج ذكاء اصطناعي جديد يحمل اسم GLM-5.2، أنشأته شركة Z.ai ومقرّها بكين، حقّق درجة 62.1 على اختبار SWE-bench Pro — وهو اختبار يُكلَّف فيه الذكاء الاصطناعي بإصلاح أخطاء حقيقية في مشاريع برمجية حقيقية. هذه النتيجة تتجاوز درجة GPT-5.5 البالغة 58.6. **يكلّف هذا النموذج نحو سُدس سعر GPT-5.5.** ويمكن تنزيله مجاناً بموجب ترخيص MIT المفتوح، مما يتيح لأي فريق استضافته بنفسه.",
+        "الأرقام: يكلّف GLM-5.2 دولاراً و40 سنتاً لكل مليون وحدة نصية في المدخلات، و4.40 دولار لكل مليون في المخرجات عبر واجهة Z.ai — والوحدة النصية هي القطعة الصغيرة من النص التي يقرأها النموذج ويكتبها. يكلّف GPT-5.5 نحو 5 و30 دولاراً لكل مليون. وعبر منصات استضافة خارجية مثل DeepInfra، يعمل GLM-5.2 بأقل من دولار لكل مليون وحدة في المدخلات. **بالنسبة للفرق التي تعالج كميات كبيرة من مهام البرمجة، يغيّر هذا الفارق المعادلة كلياً.**",
+        "ثمة مقايضة حقيقية. استخدام GLM-5.2 عبر سحابة Z.ai يعني إرسال كودك البرمجي إلى خوادم في الصين، حيث يجيز القانون المحلي للحكومة الوصول إلى تلك البيانات عند الطلب. للمشاريع الحساسة وكود العملاء والقطاعات المنظّمة، هذا أمر لا يمكن تجاهله. **الخيار الأكثر أماناً لهذه الفرق هو الاستضافة الذاتية**: تنزيل أوزان النموذج وتشغيله على بنيتك التحتية الخاصة بموجب ترخيص MIT، مجاناً.",
+        "لا يزال Claude Opus 4.8 يتصدّر اختبارات البرمجة بدرجة 69.2 على SWE-bench Pro، فـGLM-5.2 ليس الأفضل على الإطلاق. لكن ثمة فرق بين أفضل نموذج وأفضل نموذج يمكنك تشغيله بتكلفة معقولة على نطاق واسع. **جرّب GLM-5.2 هذا الأسبوع على مشروع غير حساس** — منصات الاستضافة الخارجية تجعل ذلك سهلاً دون الحاجة إلى إعداد خوادم خاصة. إن كانت الجودة تلبّي توقعاتك، فالتوفير سيأتي تلقائياً."
+      ],
+      "keyFacts": [
+        { "value": "62.1", "label": "درجة GLM-5.2 في اختبار SWE-bench Pro" },
+        { "value": "58.6", "label": "درجة GPT-5.5 في الاختبار ذاته" },
+        { "value": "~1/6th", "label": "نسبة التكلفة في المخرجات مقارنةً بـ GPT-5.5" },
+        { "value": "753B", "label": "عدد المعاملات، ترخيص MIT، تنزيل مجاني" }
+      ]
+    }
+  }
+}
