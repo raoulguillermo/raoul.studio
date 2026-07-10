@@ -1,0 +1,109 @@
+{
+  "slug": "2026-07-10-mistral-robostral-navigate",
+  "date": "2026-07-10",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "Mistral AI — Robostral Navigate: single-camera AI navigation", "url": "https://mistral.ai/news/robostral-navigate/" },
+    { "title": "Silicon Republic — Mistral expands physical AI offering with first robotics launch", "url": "https://www.siliconrepublic.com/machines/mistral-expands-physical-ai-first-robotics-launch" },
+    { "title": "The AI Insider — Mistral AI Introduces Robot Navigation Model", "url": "https://theaiinsider.tech/2026/07/08/mistral-ai-introduces-robot-navigation-model/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "One camera, no expensive sensors — deploying robots just got cheaper",
+      "summary": "Mistral's new AI model lets robots navigate real buildings with just one ordinary camera, which could make deploying them in factories and warehouses far more affordable.",
+      "body": [
+        "Getting robots to navigate used to require expensive hardware — LiDAR units, depth cameras, sensor arrays that often cost more than the robot itself. Mistral AI's new model, Robostral Navigate, changes that: **a software model now replaces the sensor stack**. A robot running this model can find its way through offices, warehouses, and outdoor spaces using just one ordinary camera — the kind built into any phone.",
+        "The model is small by today's standards: 8 billion parameters, similar in size to models you can run on a laptop. But its results are strong. On a standard test for navigating unfamiliar buildings, it scored 76.6% — nearly 10 points ahead of every other single-camera system, and even better than systems that use expensive depth sensors and multiple cameras. The whole thing was **trained entirely in simulation**: 400,000 practice runs across 6,000 virtual scenes, with no physical robots needed.",
+        "Airbus and BMW have already signed on as customers. Those are not companies that try new things early — they take years to approve anything entering their supply chain. **Deals with those two signal real industrial adoption**, and it matters. Mistral, a French company that raised $830 million earlier this year, is making a clear bet: the market for AI that controls physical machines is as large as the market for AI that handles text and images.",
+        "For any business running, building, or planning a robot deployment — in logistics, delivery, manufacturing, or hospitality — the message is simple: **deploying capable robots just got cheaper**. You no longer need a full sensor suite to get reliable autonomous navigation. One camera and the right software is now enough, which makes it realistic to put robots in many more locations at much lower cost."
+      ],
+      "keyFacts": [
+        { "value": "8B", "label": "model size — runs on lightweight hardware" },
+        { "value": "76.6%", "label": "success rate in unfamiliar buildings" },
+        { "value": "9.7 pts", "label": "ahead of the next best single-camera system" },
+        { "value": "Airbus, BMW", "label": "first industrial customers signed" }
+      ]
+    },
+    "de": {
+      "title": "Eine Kamera, keine teuren Sensoren — Roboter einzusetzen ist jetzt viel günstiger",
+      "summary": "Mistrals neues KI-Modell ermöglicht es Robotern, Gebäude mit nur einer einfachen Kamera zu durchqueren — das könnte den Einsatz in Fabriken und Lagern erheblich günstiger machen.",
+      "body": [
+        "Bisher erforderte die Navigation von Robotern teure Hardware — LiDAR-Systeme, Tiefenkameras, Sensorarrays, die oft mehr kosteten als der Roboter selbst. Das neue Modell von Mistral AI, Robostral Navigate, ändert das: **Ein Software-Modell ersetzt jetzt den Sensor-Stack**. Ein Roboter mit diesem Modell findet seinen Weg durch Büros, Lagerhäuser und Außenbereiche — mit nur einer gewöhnlichen Kamera, wie man sie in jedem Smartphone findet.",
+        "Das Modell ist für heutige Verhältnisse kompakt: 8 Milliarden Parameter, ähnlich groß wie Modelle, die auf einem Laptop laufen. Die Ergebnisse sind trotzdem beeindruckend. Beim Standardtest für die Navigation in unbekannten Gebäuden erreicht es 76,6 % — fast 10 Punkte besser als alle anderen Einzel-Kamera-Systeme, und sogar besser als Systeme mit teuren Tiefensensoren und mehreren Kameras. Das Ganze wurde **vollständig in der Simulation trainiert**: 400.000 Übungsläufe in 6.000 virtuellen Szenen, ganz ohne physische Roboter.",
+        "Airbus und BMW haben bereits als Kunden unterzeichnet. Das sind keine Frühbucher — sie brauchen Jahre, um neue Technologien in ihre Lieferketten zu integrieren. **Verträge mit diesen beiden signalisieren echte Industrieakzeptanz**, und das zählt. Mistral, ein französisches Unternehmen, das Anfang dieses Jahres 830 Millionen Dollar eingesammelt hat, setzt klar darauf: Der Markt für KI, die physische Maschinen steuert, ist genauso groß wie der Markt für KI, die Texte und Bilder verarbeitet.",
+        "Für jedes Unternehmen, das Roboter betreibt, aufbaut oder plant — in Logistik, Lieferung, Fertigung oder Gastgewerbe — ist die Botschaft klar: **Fähige Roboter einzusetzen ist gerade deutlich günstiger geworden**. Ein vollständiger Sensor-Stack ist für zuverlässige autonome Navigation nicht mehr nötig. Eine Kamera und die richtige Software reichen jetzt aus — und das macht es realistisch, Roboter an viel mehr Orten zu viel geringeren Kosten einzusetzen."
+      ],
+      "keyFacts": [
+        { "value": "8B", "label": "Modellgröße — läuft auf leichter Hardware" },
+        { "value": "76.6%", "label": "Erfolgsrate in unbekannten Gebäuden" },
+        { "value": "9.7 pts", "label": "Vorsprung vor dem nächstbesten Einzel-Kamera-System" },
+        { "value": "Airbus, BMW", "label": "erste Industriekunden" }
+      ]
+    },
+    "nl": {
+      "title": "Één camera, geen dure sensoren — robots inzetten is nu veel betaalbaarder",
+      "summary": "Het nieuwe AI-model van Mistral laat robots gebouwen doornavigeren met slechts één gewone camera, wat de inzet in fabrieken en magazijnen aanzienlijk goedkoper kan maken.",
+      "body": [
+        "Vroeger vereiste robotnavigatie dure hardware — LiDAR-systemen, dieptecamera's, sensorarrays die vaak meer kostten dan de robot zelf. Het nieuwe model van Mistral AI, Robostral Navigate, verandert dat: **een softwaremodel vervangt nu de sensorstack**. Een robot met dit model vindt zijn weg door kantoren, magazijnen en buitenruimtes met slechts één gewone camera — het soort dat in elke telefoon zit.",
+        "Het model is klein naar huidige maatstaven: 8 miljard parameters, vergelijkbaar met modellen die op een laptop draaien. Maar de resultaten zijn sterk. Op een standaardtest voor navigatie in onbekende gebouwen scoorde het 76,6% — bijna 10 punten beter dan elk ander enkel-camerasysteem, en zelfs beter dan systemen met dure dieptesensoren en meerdere camera's. Het werd **volledig in simulatie getraind**: 400.000 oefenritten in 6.000 virtuele scènes, zonder echte robots.",
+        "Airbus en BMW hebben zich al aangemeld als klanten. Dat zijn geen bedrijven die nieuwe technologie snel adopteren — ze doen er jaren over om iets toe te laten tot hun toeleveringsketen. **Die contracten signaleren echte industriële adoptie**, en dat telt. Mistral, een Frans bedrijf dat eerder dit jaar 830 miljoen dollar ophaalde, zet duidelijk in: de markt voor AI die fysieke machines aanstuurt, is net zo groot als de markt voor AI die tekst en afbeeldingen verwerkt.",
+        "Voor elk bedrijf dat robots inzet, bouwt of plant — in logistiek, bezorging, productie of hospitality — is de boodschap simpel: **capabele robots inzetten is zojuist een stuk goedkoper geworden**. Je hebt geen volledige sensorarray meer nodig voor betrouwbare autonome navigatie. Één camera en de juiste software zijn nu genoeg, waardoor het realistisch wordt om robots op veel meer plekken in te zetten tegen veel lagere kosten."
+      ],
+      "keyFacts": [
+        { "value": "8B", "label": "modelgrootte — draait op lichte hardware" },
+        { "value": "76.6%", "label": "slagingspercentage in onbekende gebouwen" },
+        { "value": "9.7 pts", "label": "voor op het beste systeem met één camera" },
+        { "value": "Airbus, BMW", "label": "eerste industriële klanten" }
+      ]
+    },
+    "es": {
+      "title": "Una cámara, sin sensores caros — desplegar robots acaba de abaratarse",
+      "summary": "El nuevo modelo de IA de Mistral permite que los robots naveguen por edificios reales con una sola cámara ordinaria, lo que podría hacer que su despliegue en fábricas y almacenes sea mucho más económico.",
+      "body": [
+        "Hasta ahora, hacer que un robot navegara requería hardware caro — unidades LiDAR, cámaras de profundidad, conjuntos de sensores que a menudo costaban más que el propio robot. El nuevo modelo de Mistral AI, Robostral Navigate, cambia eso: **un modelo de software reemplaza ahora el conjunto de sensores**. Un robot con este modelo puede encontrar su camino por oficinas, almacenes y espacios exteriores usando solo una cámara ordinaria — como la de cualquier teléfono.",
+        "El modelo es pequeño para los estándares actuales: 8.000 millones de parámetros, similar en tamaño a los modelos que se ejecutan en un portátil. Pero sus resultados son sólidos. En una prueba estándar de navegación por edificios desconocidos, obtuvo un 76,6% — casi 10 puntos por delante de cualquier otro sistema de una sola cámara, e incluso mejor que sistemas con sensores de profundidad costosos y múltiples cámaras. Todo fue **entrenado completamente en simulación**: 400.000 ensayos en 6.000 escenas virtuales, sin robots físicos.",
+        "Airbus y BMW ya se han apuntado como clientes. No son empresas que adopten tecnología nueva con rapidez — tardan años en aprobar cualquier cosa que entre en su cadena de suministro. **Esos contratos señalan una adopción industrial real**, y eso importa. Mistral, una empresa francesa que captó 830 millones de dólares a principios de este año, está apostando con claridad: el mercado de la IA que controla máquinas físicas es tan grande como el de la IA para texto e imágenes.",
+        "Para cualquier empresa que opere, construya o planifique el despliegue de robots — en logística, reparto, fabricación u hostelería — el mensaje es claro: **desplegar robots capaces acaba de volverse más barato**. Ya no se necesita un conjunto completo de sensores para una navegación autónoma fiable. Una cámara y el software adecuado son ahora suficientes, lo que hace realista colocar robots en muchos más lugares a un coste mucho menor."
+      ],
+      "keyFacts": [
+        { "value": "8B", "label": "tamaño del modelo — funciona en hardware ligero" },
+        { "value": "76.6%", "label": "tasa de éxito en edificios desconocidos" },
+        { "value": "9.7 pts", "label": "por delante del mejor sistema de una sola cámara" },
+        { "value": "Airbus, BMW", "label": "primeros clientes industriales" }
+      ]
+    },
+    "fr": {
+      "title": "Une seule caméra, sans capteurs coûteux — déployer des robots est devenu bien moins cher",
+      "summary": "Le nouveau modèle d'IA de Mistral permet aux robots de naviguer dans des bâtiments réels avec une simple caméra ordinaire, ce qui pourrait rendre leur déploiement en usine et en entrepôt beaucoup plus abordable.",
+      "body": [
+        "Jusqu'ici, faire naviguer un robot nécessitait du matériel coûteux — des unités LiDAR, des caméras de profondeur, des ensembles de capteurs qui coûtaient souvent plus cher que le robot lui-même. Le nouveau modèle de Mistral AI, Robostral Navigate, change la donne : **un modèle logiciel remplace désormais l'ensemble des capteurs**. Un robot équipé de ce modèle peut trouver son chemin dans des bureaux, des entrepôts et des espaces extérieurs avec une seule caméra ordinaire — celle que l'on trouve dans n'importe quel téléphone.",
+        "Le modèle est compact pour les standards actuels : 8 milliards de paramètres, comparable aux modèles qui tournent sur un ordinateur portable. Mais ses résultats sont convaincants. Sur un test standard de navigation dans des bâtiments inconnus, il obtient 76,6 % — près de 10 points au-dessus de tout autre système à caméra unique, et même mieux que des systèmes utilisant des capteurs de profondeur coûteux et plusieurs caméras. Tout a été **entraîné entièrement en simulation** : 400 000 essais dans 6 000 scènes virtuelles, sans robots physiques.",
+        "Airbus et BMW ont déjà signé en tant que clients. Ce ne sont pas des entreprises qui adoptent rapidement de nouvelles technologies — il leur faut des années pour intégrer quoi que ce soit dans leur chaîne d'approvisionnement. **Ces contrats signalent une adoption industrielle réelle**, et c'est significatif. Mistral, une société française qui a levé 830 millions de dollars en début d'année, fait un pari clair : le marché de l'IA qui contrôle des machines physiques est aussi grand que celui de l'IA pour le texte et l'image.",
+        "Pour toute entreprise qui exploite, construit ou planifie un déploiement de robots — dans la logistique, la livraison, la fabrication ou l'hôtellerie — le message est simple : **déployer des robots capables vient de devenir bien moins cher**. Il n'est plus nécessaire d'avoir un ensemble complet de capteurs pour obtenir une navigation autonome fiable. Une caméra et le bon logiciel suffisent désormais, ce qui rend réaliste de placer des robots dans beaucoup plus d'endroits à un coût bien inférieur."
+      ],
+      "keyFacts": [
+        { "value": "8B", "label": "taille du modèle — tourne sur du matériel léger" },
+        { "value": "76.6%", "label": "taux de réussite dans des bâtiments inconnus" },
+        { "value": "9.7 pts", "label": "d'avance sur le meilleur système à caméra unique" },
+        { "value": "Airbus, BMW", "label": "premiers clients industriels" }
+      ]
+    },
+    "ar": {
+      "title": "كاميرا واحدة، بلا مستشعرات باهظة — نشر الروبوتات أصبح أرخص بكثير",
+      "summary": "يتيح نموذج الذكاء الاصطناعي الجديد من Mistral للروبوتات التنقل عبر المباني الحقيقية بكاميرا واحدة فقط، مما قد يجعل نشرها في المصانع والمستودعات أقل تكلفة بكثير.",
+      "body": [
+        "في السابق، كان تنقل الروبوتات يستلزم أجهزة باهظة الثمن — أنظمة LiDAR وكاميرات عمق وصفائف مستشعرات تكلف أحياناً أكثر من الروبوت نفسه. نموذج Robostral Navigate الجديد من Mistral AI يغير ذلك: **نموذج برمجي يحل الآن محل مجموعة المستشعرات**. يستطيع روبوت مزوّد بهذا النموذج إيجاد طريقه عبر المكاتب والمستودعات والأماكن الخارجية باستخدام كاميرا عادية واحدة فقط — مثل تلك الموجودة في أي هاتف.",
+        "النموذج صغير بمعايير اليوم: 8 مليارات معامل، قريب من حجم نماذج تعمل على حاسوب محمول. لكن نتائجه قوية. في الاختبار المعياري للتنقل في مبانٍ غير مألوفة، حقق نسبة نجاح 76.6% — بفارق يقارب 10 نقاط عن أفضل أنظمة الكاميرا الواحدة، بل تفوق على أنظمة تستخدم مستشعرات عمق باهظة وكاميرات متعددة. كل ذلك كان **مُدرَّباً بالكامل في بيئة محاكاة**: 400,000 مسار تدريبي في 6,000 مشهد افتراضي، دون الحاجة لروبوتات حقيقية.",
+        "وقّعت Airbus وBMW بالفعل كأوائل العملاء. هذه ليست شركات تتسرع في تبني تقنيات جديدة؛ فهي تستغرق سنوات لإدخال أي مستجد في سلاسل توريدها. **هذان العقدان يُعلنان تحولاً حقيقياً في تبني الصناعة**، وهذا مهم. تراهن Mistral، الشركة الفرنسية التي جمعت 830 مليون دولار مطلع هذا العام، على أن سوق الذكاء الاصطناعي الذي يتحكم في الآلات المادية سيضاهي سوق الذكاء الاصطناعي للنصوص والصور.",
+        "لكل مؤسسة تُشغّل الروبوتات أو تبني منظومتها أو تخطط لنشرها — في اللوجستيات أو التوصيل أو التصنيع أو الضيافة — الرسالة واضحة: **نشر الروبوتات القادرة أصبح أرخص بكثير**. لم تعد هناك حاجة لمجموعة مستشعرات كاملة من أجل تنقل ذاتي موثوق. كاميرا واحدة والبرنامج المناسب يكفيان الآن، مما يجعل وضع الروبوتات في مواقع أكثر بتكاليف أقل بكثير أمراً واقعياً."
+      ],
+      "keyFacts": [
+        { "value": "8B", "label": "حجم النموذج — يعمل على أجهزة خفيفة" },
+        { "value": "76.6%", "label": "معدل النجاح في مبانٍ غير مألوفة" },
+        { "value": "9.7 pts", "label": "تقدم على أفضل نظام بكاميرا واحدة" },
+        { "value": "Airbus, BMW", "label": "أول عملاء صناعيين" }
+      ]
+    }
+  }
+}
