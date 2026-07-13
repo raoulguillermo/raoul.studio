@@ -1,0 +1,109 @@
+{
+  "slug": "2026-07-13-apple-openai-lawsuit-platform-risk",
+  "date": "2026-07-13",
+  "tags": ["ai"],
+  "pillar": "industry-insights",
+  "sources": [
+    { "title": "TechCrunch — Apple sues OpenAI over alleged trade secret theft", "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/" },
+    { "title": "Fortune — Apple accuses OpenAI and Jony Ive's io Products of stealing hardware trade secrets in blockbuster lawsuit", "url": "https://fortune.com/2026/07/10/apple-openai-lawsuit-trade-secrets-theft-allegations/" },
+    { "title": "Forbes — Apple Claims OpenAI Stole Trade Secrets In New Lawsuit", "url": "https://www.forbes.com/sites/madhulika-pathak/2026/07/10/apple-claims-openai-stole-trade-secrets-in-new-lawsuit/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "When Your AI Partner Becomes Your Competitor",
+      "summary": "Apple is suing its former AI partner OpenAI for stealing hardware secrets, and the story is a warning for anyone whose business depends on an AI platform.",
+      "body": [
+        "In 2024, Apple put ChatGPT inside the iPhone — a very public sign of partnership. Less than two years later, Apple filed a 41-page lawsuit in federal court accusing OpenAI of **systematically stealing its hardware secrets**. The relationship is now so broken that Apple is replacing ChatGPT with Google's Gemini in the next version of Siri.",
+        "The lawsuit names two former Apple engineers. Tang Tan, OpenAI's Chief Hardware Officer, spent 24 years at Apple designing the iPhone and Apple Watch. He allegedly told job candidates to bring actual Apple hardware parts to interviews for a 'show and tell.' Chang Liu, a former Apple electrical engineer, allegedly downloaded dozens of confidential files before leaving for OpenAI and coached other Apple employees on how to bypass security. **Over 400 former Apple employees now work at OpenAI.**",
+        "Behind the lawsuit is io Products, a hardware startup co-founded by Apple's famous former designer Jony Ive. OpenAI paid $6.5 billion to acquire it in May 2025. The goal is an AI-first device — something to replace the smartphone. That puts OpenAI in **direct competition with the iPhone**, which explains why Apple is now fighting back hard.",
+        "The lesson for anyone building on an AI platform: the company providing your tools today may become your biggest competitor tomorrow. Apple learned this the hard way with OpenAI. And for teams hiring from competitors, courts take 'bringing information from your last job' very seriously — the cost of a trade secret case is enormous even if you win. **Know who holds the keys** to the platform you depend on."
+      ],
+      "keyFacts": [
+        { "value": "400+", "label": "former Apple employees now at OpenAI" },
+        { "value": "$6.5B", "label": "OpenAI's price to acquire io Products" },
+        { "value": "41", "label": "pages in Apple's court complaint" },
+        { "value": "24 years", "label": "Tang Tan's career at Apple before OpenAI" }
+      ]
+    },
+    "de": {
+      "title": "Wenn dein KI-Partner zum Konkurrenten wird",
+      "summary": "Apple verklagt seinen früheren KI-Partner OpenAI wegen Diebstahls von Hardwaregeheimnissen — eine Warnung für jeden, dessen Geschäft von einer KI-Plattform abhängt.",
+      "body": [
+        "2024 integrierte Apple ChatGPT ins iPhone — ein öffentliches Zeichen der Partnerschaft. Weniger als zwei Jahre später reichte Apple eine 41-seitige Klage in einem US-Bundesgericht ein und wirft OpenAI vor, **Hardwaregeheimnisse systematisch zu stehlen**. Die Beziehung ist so weit zerbrochen, dass Apple ChatGPT in der nächsten Siri-Version durch Googles Gemini ersetzt.",
+        "Die Klage nennt zwei frühere Apple-Ingenieure. Tang Tan, heute Hardwarechef bei OpenAI, verbrachte 24 Jahre bei Apple mit dem Design von iPhone und Apple Watch. Er soll Bewerber aufgefordert haben, echte Apple-Bauteile zu Vorstellungsgesprächen mitzubringen — für eine Art Vorführrunde. Chang Liu soll vor seinem Wechsel zu OpenAI Dutzende vertraulicher Dateien heruntergeladen und andere Apple-Mitarbeiter beraten haben, wie man Sicherheitsprotokolle umgeht. **Mehr als 400 ehemalige Apple-Mitarbeiter arbeiten heute bei OpenAI.**",
+        "Im Hintergrund steht io Products, ein Hardware-Startup des legendären Ex-Apple-Designers Jony Ive. OpenAI kaufte es im Mai 2025 für 6,5 Milliarden Dollar. Ziel: ein KI-first-Gerät entwickeln, das das Smartphone ersetzen soll. Das macht OpenAI zum **direkten Konkurrenten des iPhone** — und erklärt, warum Apple jetzt hart zurückschlägt.",
+        "Die Lehre für alle, die auf KI-Plattformen aufbauen: Das Unternehmen hinter Ihren Werkzeugen kann morgen Ihr größter Konkurrent sein. Apple hat das mit OpenAI erlebt. Und für Teams, die Mitarbeiter von Konkurrenten abwerben: Gerichte nehmen das Mitnehmen von Firmeninformationen sehr ernst — ein solcher Prozess ist auch bei einem Sieg enorm kostspielig. **Wissen Sie, wer die Schlüssel hält** zu der Plattform, von der Sie abhängen."
+      ],
+      "keyFacts": [
+        { "value": "400+", "label": "frühere Apple-Mitarbeiter bei OpenAI" },
+        { "value": "$6.5B", "label": "Kaufpreis für io Products" },
+        { "value": "41", "label": "Seiten in Apples Klage" },
+        { "value": "24 years", "label": "Tang Tans Karriere bei Apple" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer je AI-partner een concurrent wordt",
+      "summary": "Apple klaagt voormalig AI-partner OpenAI aan voor het stelen van hardwaregeheimen — een waarschuwing voor iedereen wiens bedrijf afhankelijk is van een AI-platform.",
+      "body": [
+        "In 2024 integreerde Apple ChatGPT in de iPhone als zichtbaar teken van samenwerking. Minder dan twee jaar later diende Apple een aanklacht van 41 pagina's in bij de federale rechtbank, met de beschuldiging dat OpenAI **stelselmatig hardwaregeheimen heeft gestolen**. De relatie is zo verslechterd dat Apple ChatGPT in de volgende versie van Siri vervangt door Google Gemini.",
+        "De aanklacht noemt twee voormalige Apple-ingenieurs. Tang Tan, nu Chief Hardware Officer bij OpenAI, werkte 24 jaar bij Apple aan het ontwerp van de iPhone en Apple Watch. Hij zou sollicitanten hebben gevraagd echte Apple-onderdelen mee te nemen naar gesprekken voor een soort livedemonstatie. Chang Liu, een voormalige Apple-ingenieur, zou tientallen vertrouwelijke bestanden hebben gedownload voor zijn overstap naar OpenAI en andere Apple-medewerkers hebben geadviseerd over het omzeilen van beveiligingsprotocollen. **Meer dan 400 voormalige Apple-medewerkers werken nu bij OpenAI.**",
+        "Achter de rechtszaak zit io Products, een hardwarebedrijf mede-opgericht door Apples beroemde oud-ontwerper Jony Ive. OpenAI kocht het in mei 2025 voor 6,5 miljard dollar. Het doel: een AI-first apparaat bouwen dat de smartphone vervangt. Dat maakt OpenAI een **directe concurrent van de iPhone** — en verklaart waarom Apple nu zo hard terugslaat.",
+        "De les voor iedereen die bouwt op een AI-platform: het bedrijf achter jouw tools vandaag kan morgen je grootste concurrent zijn. Apple heeft dat aan den lijve ondervonden met OpenAI. En voor teams die mensen aannemen van concurrenten: rechtbanken nemen het meenemen van bedrijfsinformatie uiterst serieus — de kosten van zo'n zaak zijn enorm, ook als je wint. **Weet wie de sleutels heeft** tot het platform waarvan jij afhankelijk bent."
+      ],
+      "keyFacts": [
+        { "value": "400+", "label": "voormalige Apple-medewerkers bij OpenAI" },
+        { "value": "$6.5B", "label": "aankoopprijs io Products" },
+        { "value": "41", "label": "pagina's in Apple's aanklacht" },
+        { "value": "24 years", "label": "Tang Tans loopbaan bij Apple" }
+      ]
+    },
+    "es": {
+      "title": "Cuando tu socio de IA se convierte en tu competidor",
+      "summary": "Apple demanda a su antiguo socio OpenAI por robo de secretos de hardware, una advertencia para cualquier negocio que dependa de una plataforma de IA.",
+      "body": [
+        "En 2024, Apple integró ChatGPT en el iPhone como señal pública de colaboración. Menos de dos años después, Apple presentó una demanda de 41 páginas en un tribunal federal acusando a OpenAI de **robar sistemáticamente sus secretos de hardware**. La relación está tan deteriorada que Apple reemplazará ChatGPT por Gemini de Google en la próxima versión de Siri.",
+        "La demanda nombra a dos exingenieros de Apple. Tang Tan, actual director de hardware de OpenAI, pasó 24 años en Apple diseñando el iPhone y el Apple Watch. Según las acusaciones, pedía a los candidatos que llevaran componentes reales de Apple a las entrevistas para una demostración en vivo. Chang Liu, exingeniero de Apple, supuestamente descargó decenas de archivos confidenciales antes de irse a OpenAI y aconsejó a otros empleados de Apple cómo eludir los protocolos de seguridad. **Más de 400 exempleados de Apple trabajan ahora en OpenAI.**",
+        "Detrás de la demanda está io Products, una empresa de hardware cofundada por el legendario exdiseñador de Apple Jony Ive. OpenAI la adquirió en mayo de 2025 por 6.500 millones de dólares. El objetivo: crear un dispositivo basado en IA que reemplace al smartphone. Eso convierte a OpenAI en **competidor directo del iPhone**, lo que explica por qué Apple responde con tanta contundencia.",
+        "La lección para quienes construyen sobre plataformas de IA: la empresa detrás de tus herramientas hoy puede ser tu mayor competidor mañana. Apple lo aprendió con OpenAI. Y para los equipos que contratan personas de la competencia: los tribunales toman muy en serio llevarse información del empleo anterior — el costo de un caso así es enorme, incluso si ganas. **Conoce quién tiene las llaves** de la plataforma de la que dependes."
+      ],
+      "keyFacts": [
+        { "value": "400+", "label": "exempleados de Apple ahora en OpenAI" },
+        { "value": "$6.5B", "label": "precio de adquisición de io Products" },
+        { "value": "41", "label": "páginas en la demanda de Apple" },
+        { "value": "24 years", "label": "carrera de Tang Tan en Apple" }
+      ]
+    },
+    "fr": {
+      "title": "Quand votre partenaire IA devient votre concurrent",
+      "summary": "Apple poursuit son ancien partenaire OpenAI pour vol de secrets industriels liés au hardware — un avertissement pour toute entreprise qui dépend d'une plateforme IA.",
+      "body": [
+        "En 2024, Apple a intégré ChatGPT dans l'iPhone comme signe public d'une collaboration. Moins de deux ans plus tard, Apple a déposé une plainte de 41 pages accusant OpenAI d'avoir **volé systématiquement ses secrets industriels**. La relation s'est tellement dégradée qu'Apple remplace désormais ChatGPT par Gemini de Google dans la prochaine version de Siri.",
+        "La plainte cite deux anciens ingénieurs d'Apple. Tang Tan, actuel directeur hardware d'OpenAI, a passé 24 ans chez Apple à concevoir l'iPhone et l'Apple Watch. Il aurait demandé à des candidats d'apporter de vrais composants Apple lors d'entretiens pour les montrer en direct. Chang Liu, ancien ingénieur Apple, aurait téléchargé des dizaines de fichiers confidentiels avant de rejoindre OpenAI et aurait conseillé d'autres employés Apple sur comment contourner les protocoles de sécurité. **Plus de 400 anciens employés d'Apple travaillent désormais chez OpenAI.**",
+        "Derrière cette affaire se trouve io Products, une start-up hardware cofondée par le légendaire ex-designer d'Apple, Jony Ive. OpenAI l'a rachetée en mai 2025 pour 6,5 milliards de dollars. L'objectif : créer un appareil centré sur l'IA pour remplacer le smartphone. Cela fait d'OpenAI un **concurrent direct de l'iPhone** — et explique pourquoi Apple contre-attaque avec une telle vigueur.",
+        "La leçon pour tous ceux qui construisent sur une plateforme IA : l'entreprise derrière vos outils aujourd'hui peut devenir votre principal concurrent demain. Apple l'a appris à ses dépens avec OpenAI. Et pour les équipes qui recrutent chez des concurrents : les tribunaux prennent très au sérieux le fait d'emporter des informations confidentielles de son ancien employeur — le coût d'un tel procès est immense, même si vous gagnez. **Sachez qui détient les clés** de la plateforme dont vous dépendez."
+      ],
+      "keyFacts": [
+        { "value": "400+", "label": "anciens employés d'Apple chez OpenAI" },
+        { "value": "$6.5B", "label": "prix de rachat de io Products" },
+        { "value": "41", "label": "pages dans la plainte d'Apple" },
+        { "value": "24 years", "label": "carrière de Tang Tan chez Apple" }
+      ]
+    },
+    "ar": {
+      "title": "حين يتحول شريكك في الذكاء الاصطناعي إلى منافس",
+      "summary": "أقامت آبل دعوى قضائية ضد شريكها السابق أوبن إيه آي بتهمة سرقة أسرار الأجهزة، وهو تحذير لكل شركة تعتمد على منصة ذكاء اصطناعي.",
+      "body": [
+        "في عام 2024، دمجت آبل ChatGPT في هاتف iPhone علامةً واضحة على الشراكة. وبعد أقل من عامين، رفعت آبل دعوى قضائية مؤلفة من 41 صفحة أمام المحكمة الفيدرالية، تتهم فيها أوبن إيه آي بـ**سرقة ممنهجة لأسرار أجهزتها**. وقد تردّت العلاقة بين الشركتين إلى حد أن آبل ستستبدل ChatGPT بـGemini من غوغل في الإصدار القادم من Siri.",
+        "تُسمّي الدعوى مهندسَين سابقَين في آبل. أمضى تانغ تان، المدير الحالي للأجهزة في أوبن إيه آي، 24 عامًا في آبل يصمّم iPhone وApple Watch. ويُزعم أنه طلب من المرشحين إحضار قطع أجهزة حقيقية من آبل إلى مقابلاتهم لعرضها على المحكّمين. أما تشانغ ليو، المهندس السابق في آبل، فيُزعم أنه نزّل عشرات الملفات السرية قبل انضمامه إلى أوبن إيه آي، ونصح موظفين آخرين في آبل على كيفية التحايل على بروتوكولات الأمان. **أكثر من 400 موظف سابق في آبل يعملون الآن في أوبن إيه آي.**",
+        "خلف هذه الدعوى شركة io Products، وهي شركة ناشئة للأجهزة أسّسها المصمم الأسطوري السابق لآبل جوني إيف. اشترتها أوبن إيه آي في مايو 2025 مقابل 6.5 مليار دولار. والهدف هو بناء جهاز يعتمد الذكاء الاصطناعي أساسًا ليحل محل الهاتف الذكي. هذا ما يجعل أوبن إيه آي **منافسًا مباشرًا لهاتف iPhone** — ويُفسّر لماذا تردّ آبل بكل هذه الحدة.",
+        "الدرس لكل من يبني على منصة ذكاء اصطناعي: الشركة التي توفّر لك الأدوات اليوم قد تكون أكبر منافسيك غدًا. تعلّمت آبل هذا مع أوبن إيه آي. وللفرق التي تستقطب موظفين من الشركات المنافسة: المحاكم تأخذ نقل المعلومات السرية من جهة العمل السابقة بجدية بالغة — وتكاليف مثل هذه القضايا ضخمة حتى لو فزت. **اعرف من يملك المفاتيح** التي تعتمد عليها في منصتك."
+      ],
+      "keyFacts": [
+        { "value": "400+", "label": "موظفًا سابقًا في آبل يعملون في أوبن إيه آي" },
+        { "value": "$6.5B", "label": "سعر استحواذ أوبن إيه آي على io Products" },
+        { "value": "41", "label": "صفحة في الشكوى القضائية لآبل" },
+        { "value": "24 years", "label": "مسيرة تانغ تان في آبل" }
+      ]
+    }
+  }
+}
