@@ -1,0 +1,115 @@
+{
+  "slug": "2026-07-14-chatgpt-work-ai-agents",
+  "date": "2026-07-14",
+  "tags": ["ai", "tools", "agents"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/07/chatgpt-work.jpg",
+    "alt": "ChatGPT Work interface showing an AI agent building a finished document",
+    "credit": "Thurrott.com"
+  },
+  "sources": [
+    { "title": "Thurrott.com — OpenAI Announces ChatGPT Work and GPT-5.6", "url": "https://www.thurrott.com/a-i/openai-a-i/338707/openai-announces-chatgpt-work-and-gpt-5-6" },
+    { "title": "Digital Applied — ChatGPT Work: OpenAI's Agent That Ships Finished Work", "url": "https://www.digitalapplied.com/blog/chatgpt-work-openai-agent-launch-2026" },
+    { "title": "9to5Mac — OpenAI unveils ChatGPT Work agent, GPT-5.6 models now available", "url": "https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here/" },
+    { "title": "Tech Startups — Top Tech News Today, July 13, 2026", "url": "https://techstartups.com/2026/07/13/top-tech-news-today-july-13-2026-apple-anthropic-blackstone-meta-openai-samsung-sharefile-more/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "The AI that finishes the work, not just the chat",
+      "summary": "OpenAI's new ChatGPT Work is an AI agent that takes a goal, plans the steps, pulls data from your tools, and hands you a finished deliverable — no more just asking questions.",
+      "body": [
+        "For two years, AI was something you talked to. You typed a question and got an answer. This week, OpenAI rolled out something different: ChatGPT Work. It is an agent — a program that takes a goal, makes a plan, pulls data from your tools, and **comes back with a finished piece of work.** Not a reply. A deliverable.",
+        "The practical side is straightforward. Describe what you need — compare your top five competitors and build a slide deck, for example. ChatGPT Work connects to more than 1,400 apps and services, gathers what it needs, and builds the output. **It can run for hours without you watching.** Set it to check in at each big step, and you stay in control and can catch mistakes early.",
+        "OpenAI also released three versions of its new model, GPT-5.6: Luna (fastest and cheapest), Terra (balanced), and Sol (most powerful). ChatGPT Work charges by how much the AI reads and writes, counted in tokens — small chunks of text. Luna costs $1 per million tokens in; Sol costs $5 in and $30 out. A large research task burns through a lot of tokens. **Measure the cost before you automate something at scale.**",
+        "Early testers report cutting multi-week analysis projects down to hours. That is real — but it is the optimistic case. **Start with one task you already know how to check.** AI agents make confident mistakes — they do not know what they do not know. Run it once with approvals turned on. If it passes that test, adding a second workflow gets much easier."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "new AI model versions: Sol, Terra, and Luna" },
+        { "value": "$1–$5", "label": "price to process one million input tokens" },
+        { "value": "1,400+", "label": "apps ChatGPT Work can connect to" },
+        { "value": "$30", "label": "price per million output tokens from Sol, the top model" }
+      ]
+    },
+    "de": {
+      "title": "Die KI, die die Arbeit erledigt — nicht nur die Frage beantwortet",
+      "summary": "ChatGPT Work von OpenAI ist ein KI-Agent, der ein Ziel nimmt, die Schritte plant, Daten aus deinen Werkzeugen holt und dir ein fertiges Ergebnis liefert — keine Antworten mehr, sondern echte Ergebnisse.",
+      "body": [
+        "Jahrelang war KI etwas, mit dem man sprach. Man stellte eine Frage und bekam eine Antwort. Diese Woche hat OpenAI etwas anderes ausgerollt: ChatGPT Work. Es ist ein Agent — ein Programm, das ein Ziel entgegennimmt, einen Plan macht, Daten aus deinen Werkzeugen holt, und **kommt mit einem fertigen Ergebnis zurück.** Keine Antwort. Ein nutzbares Ergebnis.",
+        "In der Praxis ist es einfach. Man beschreibt, was man braucht — zum Beispiel die fünf größten Wettbewerber vergleichen und eine Präsentation erstellen. ChatGPT Work verbindet sich mit mehr als 1.400 Apps und Diensten, sammelt alles Nötige und erstellt das Ergebnis. **Es kann stundenlang ohne dich arbeiten.** Man kann festlegen, dass es bei jedem großen Schritt nachfragt — so behält man die Kontrolle.",
+        "OpenAI hat auch drei neue Versionen seines Modells GPT-5.6 veröffentlicht: Luna (am schnellsten und günstigsten), Terra (ausgewogen) und Sol (am leistungsstärksten). ChatGPT Work wird nach Verbrauch abgerechnet, gemessen in Tokens — kleinen Textbausteinen. Luna kostet 1 Dollar pro Million Eingabe-Tokens; Sol 5 Dollar für Eingabe und 30 Dollar für Ausgabe. Ein großer Rechercheauftrag verbraucht viele Tokens. **Miss die Kosten, bevor du etwas im großen Maßstab automatisierst.**",
+        "Erste Tester berichten, dass Analyseprojekte, die früher Wochen dauerten, jetzt in Stunden fertig sind. Das stimmt — aber es ist der günstige Fall. **Fang mit einer Aufgabe an, bei der du das Ergebnis prüfen kannst.** KI-Agenten machen selbstbewusste Fehler — sie wissen nicht, was sie nicht wissen. Lass den Agenten einmal mit Genehmigungsschritten laufen. Wenn das klappt, ist der nächste Workflow viel einfacher."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "neue KI-Modellversionen: Sol, Terra und Luna" },
+        { "value": "$1–$5", "label": "Preis pro Million Eingabe-Tokens" },
+        { "value": "1.400+", "label": "Apps, mit denen ChatGPT Work sich verbinden kann" },
+        { "value": "$30", "label": "Preis pro Million Ausgabe-Tokens beim stärksten Modell Sol" }
+      ]
+    },
+    "nl": {
+      "title": "De AI die het werk afmaakt, niet alleen de vraag beantwoordt",
+      "summary": "ChatGPT Work van OpenAI is een AI-agent die een doel neemt, de stappen plant, data uit je tools haalt en je een afgerond resultaat geeft — niet langer alleen vragen beantwoorden.",
+      "body": [
+        "Jarenlang was AI iets om mee te praten. Je stelde een vraag en kreeg een antwoord. Deze week rolde OpenAI iets anders uit: ChatGPT Work. Het is een agent — een programma dat een doel aanneemt, een plan maakt, data ophaalt uit je tools, en **komt terug met een afgerond resultaat.** Geen antwoord. Een oplevering.",
+        "In de praktijk is het eenvoudig. Je beschrijft wat je nodig hebt — bijvoorbeeld je vijf grootste concurrenten vergelijken en een presentatie maken. ChatGPT Work verbindt zich met meer dan 1.400 apps en diensten, verzamelt wat het nodig heeft en bouwt het resultaat. **Het kan urenlang zelfstandig werken.** Stel in dat het bij elke grote stap om goedkeuring vraagt, zodat jij de controle houdt.",
+        "OpenAI lanceerde ook drie versies van zijn nieuwe model, GPT-5.6: Luna (snelst en goedkoopst), Terra (gebalanceerd) en Sol (krachtigst). ChatGPT Work rekent af per gebruik, gemeten in tokens — kleine stukjes tekst. Luna kost $1 per miljoen invoer-tokens; Sol $5 in en $30 uit. Een grote onderzoekstaak verbruikt veel tokens. **Meet de kosten voordat je iets op grote schaal automatiseert.**",
+        "Vroege gebruikers melden dat analyses die weken duurden nu in uren klaar zijn. Dat klopt — maar dat is het beste geval. **Begin met een taak waarvan je weet hoe je het resultaat kunt controleren.** AI-agenten maken zelfverzekerde fouten — ze weten niet wat ze niet weten. Laat het één keer lopen met goedkeuringsstappen ingeschakeld. Als het slaagt, is de volgende workflow veel gemakkelijker."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "nieuwe AI-modelversies: Sol, Terra en Luna" },
+        { "value": "$1–$5", "label": "prijs per miljoen invoer-tokens" },
+        { "value": "1.400+", "label": "apps waarmee ChatGPT Work verbinding kan maken" },
+        { "value": "$30", "label": "prijs per miljoen uitvoer-tokens van Sol, het krachtigste model" }
+      ]
+    },
+    "es": {
+      "title": "La IA que termina el trabajo, no solo la conversación",
+      "summary": "ChatGPT Work de OpenAI es un agente de IA que toma un objetivo, planifica los pasos, obtiene datos de tus herramientas y te entrega un resultado terminado — no se trata solo de hacer preguntas.",
+      "body": [
+        "Durante dos años, la IA fue algo con lo que hablabas. Escribías una pregunta y recibías una respuesta. Esta semana, OpenAI lanzó algo distinto: ChatGPT Work. Es un agente — un programa que toma un objetivo, hace un plan, obtiene datos de tus herramientas, y **vuelve con un resultado terminado.** No una respuesta. Un entregable.",
+        "En la práctica es sencillo. Describes lo que necesitas — por ejemplo, comparar tus cinco competidores principales y hacer una presentación. ChatGPT Work se conecta a más de 1.400 apps y servicios, recopila lo que necesita y construye el resultado. **Puede trabajar durante horas sin que estés mirando.** Configúralo para que pida aprobación en cada paso importante y mantendrás el control.",
+        "OpenAI también lanzó tres versiones de su nuevo modelo, GPT-5.6: Luna (la más rápida y barata), Terra (equilibrada) y Sol (la más potente). ChatGPT Work cobra por uso, medido en tokens — pequeños fragmentos de texto. Luna cuesta $1 por millón de tokens de entrada; Sol cuesta $5 de entrada y $30 de salida. Una investigación extensa consume muchos tokens. **Mide el coste antes de automatizar algo a escala.**",
+        "Los primeros usuarios reportan que proyectos de análisis que tomaban semanas ahora se hacen en horas. Es real — pero es el caso optimista. **Empieza con una tarea que ya sabes cómo revisar.** Los agentes de IA cometen errores con confianza — no saben lo que no saben. Ejecútalo una vez con las aprobaciones activadas. Si pasa esa prueba, añadir el siguiente flujo de trabajo será mucho más fácil."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "nuevas versiones del modelo de IA: Sol, Terra y Luna" },
+        { "value": "$1–$5", "label": "precio por millón de tokens de entrada" },
+        { "value": "1.400+", "label": "apps a las que ChatGPT Work puede conectarse" },
+        { "value": "$30", "label": "precio por millón de tokens de salida del modelo Sol" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA qui livre le travail, pas seulement la réponse",
+      "summary": "ChatGPT Work d'OpenAI est un agent IA qui prend un objectif, planifie les étapes, collecte des données dans vos outils et vous remet un livrable fini — fini de simplement poser des questions.",
+      "body": [
+        "Pendant deux ans, l'IA était quelque chose à qui on parlait. On posait une question, elle donnait une réponse. Cette semaine, OpenAI a déployé quelque chose de différent : ChatGPT Work. C'est un agent — un programme qui prend un objectif, fait un plan, collecte des données dans vos outils, et **revient avec un résultat terminé.** Pas une réponse. Un livrable.",
+        "En pratique, c'est simple. Vous décrivez ce dont vous avez besoin — par exemple, comparer vos cinq principaux concurrents et faire une présentation. ChatGPT Work se connecte à plus de 1 400 applications et services, rassemble ce qu'il lui faut, et produit le résultat. **Il peut travailler pendant des heures sans intervention.** Configurez-le pour qu'il demande votre accord à chaque étape clé, et vous gardez la main.",
+        "OpenAI a aussi lancé trois versions de son nouveau modèle, GPT-5.6 : Luna (la plus rapide et la moins chère), Terra (équilibrée) et Sol (la plus puissante). ChatGPT Work facture à l'usage, mesuré en tokens — de petits morceaux de texte. Luna coûte 1 $ par million de tokens en entrée ; Sol coûte 5 $ en entrée et 30 $ en sortie. Une grande tâche de recherche consomme beaucoup de tokens. **Mesurez le coût avant d'automatiser quelque chose à grande échelle.**",
+        "Les premiers utilisateurs rapportent que des projets d'analyse qui prenaient des semaines se font désormais en quelques heures. C'est réel — mais c'est le meilleur cas. **Commencez par une tâche dont vous savez évaluer le résultat.** Les agents IA font des erreurs avec assurance — ils ne savent pas ce qu'ils ignorent. Lancez-le une fois avec les validations activées. Si ça passe ce test, ajouter un deuxième flux de travail devient bien plus simple."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "nouvelles versions du modèle IA : Sol, Terra et Luna" },
+        { "value": "$1–$5", "label": "prix par million de tokens en entrée" },
+        { "value": "1 400+", "label": "applications auxquelles ChatGPT Work peut se connecter" },
+        { "value": "$30", "label": "prix par million de tokens en sortie pour Sol, le modèle le plus puissant" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي الذي ينجز العمل، لا يكتفي بالإجابة",
+      "summary": "ChatGPT Work من OpenAI وكيل ذكاء اصطناعي يأخذ هدفًا، يخطط الخطوات، يجمع البيانات من أدواتك، ويسلمك مخرجًا جاهزًا — لم يعد الأمر مجرد طرح أسئلة.",
+      "body": [
+        "لسنوات، كان الذكاء الاصطناعي شيئًا تتحدث إليه. كنتَ تكتب سؤالًا فيعطيك إجابة. هذا الأسبوع، أطلقت OpenAI شيئًا مختلفًا: ChatGPT Work. إنه وكيل — برنامج يأخذ هدفًا، ويضع خطة، ويجمع البيانات من أدواتك، و**يعود بنتيجة عمل مكتملة.** ليس ردًّا. بل مخرجًا جاهزًا للاستخدام.",
+        "الأمر عملي وبسيط. تصف ما تحتاجه — مثلًا مقارنة أكبر خمسة منافسين لك وإنشاء عرض تقديمي. يتصل ChatGPT Work بأكثر من 1,400 تطبيق وخدمة، ويجمع ما يحتاجه، ويبني النتيجة. **يمكنه العمل لساعات دون أن تراقبه.** اضبطه ليطلب موافقتك عند كل خطوة مهمة وستبقى في السيطرة.",
+        "أطلقت OpenAI أيضًا ثلاث نسخ من نموذجها الجديد GPT-5.6: Luna الأسرع والأرخص، وTerra المتوازن، وSol الأقوى. لا يُحتسب الدفع بسعر ثابت — بل يُقاس الاستخدام بالتوكنز، وهي قطع صغيرة من النص. تُكلّف Luna دولارًا واحدًا لكل مليون توكن في الإدخال، أما Sol فتُكلّف 5 دولارات للإدخال و30 دولارًا للإخراج. المهام البحثية الكبيرة تستهلك كثيرًا من التوكنز. **قِس التكلفة قبل أن تُؤتمت شيئًا على نطاق واسع.**",
+        "يُفيد أوائل المستخدمين بأن مشاريع تحليل كانت تستغرق أسابيع باتت تنتهي في ساعات. هذا حقيقي — لكنه السيناريو المثالي. **ابدأ بمهمة تعرف كيف تتحقق من نتيجتها.** وكلاء الذكاء الاصطناعي يرتكبون أخطاء بثقة — لا يعلمون ما يجهلونه. شغّله مرة واحدة مع تفعيل خطوات الموافقة. إذا نجح الاختبار، سيكون إضافة سير عمل ثانٍ أسهل بكثير."
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "إصدارات نموذج الذكاء الاصطناعي الجديدة: Sol وTerra وLuna" },
+        { "value": "$1–$5", "label": "السعر لكل مليون توكن في الإدخال" },
+        { "value": "1,400+", "label": "تطبيقًا يمكن لـChatGPT Work الاتصال بها" },
+        { "value": "$30", "label": "السعر لكل مليون توكن في الإخراج من نموذج Sol" }
+      ]
+    }
+  }
+}
