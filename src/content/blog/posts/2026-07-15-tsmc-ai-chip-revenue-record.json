@@ -1,0 +1,118 @@
+{
+  "slug": "2026-07-15-tsmc-ai-chip-revenue-record",
+  "date": "2026-07-15",
+  "tags": ["ai"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "MacDailyNews — TSMC's record Q2 revenue surge highlights AI boom and Apple's strategic chip partnership",
+      "url": "https://macdailynews.com/2026/07/13/tsmcs-record-q2-revenue-surge-highlights-ai-boom-and-apples-strategic-chip-partnership/"
+    },
+    {
+      "title": "Vested Finance — TSMC Q2 Earnings: Record 68% June Revenue Jump",
+      "url": "https://vestedfinance.com/blog/us-stocks/tsmcs-q2-earnings-a-68-revenue-jump-and-one-big-takeaway/"
+    },
+    {
+      "title": "Build Fast With AI — AI News Today July 14 2026: 15 Biggest Stories",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The Numbers That Prove the AI Build-Out Is Real",
+      "summary": "TSMC, the company that makes the chips powering every major AI system, just posted a record $39.6 billion quarter driven almost entirely by AI demand — proving the build-out is real, not just slide decks.",
+      "body": [
+        "Taiwan Semiconductor Manufacturing Company — TSMC — makes the physical chips inside every major AI system in the world. On July 13, the company reported $39.6 billion in Q2 2026 revenue, up 36% from the same quarter a year ago and the best quarter in its nearly 40-year history. **61% of TSMC revenue now comes from AI chips.** That is not a forecast. It is a count of real orders that have been placed and paid.",
+        "The usual skeptic argument is that AI spending does not equal AI returns. But TSMC's revenue is not speculative — each dollar comes from a chip order that a company placed and paid for. Nvidia, Apple, and the largest cloud providers ordered real silicon in real quantities. **Nvidia alone locked up 60% of TSMC's advanced chip packaging** for the entire year. That kind of commitment only happens when you believe the demand is genuine.",
+        "Supply cannot keep up. TSMC's fastest production lines are sold out for the rest of the year. One analyst said simply: \"the demand supply situation in AI is still quite tight.\" TSMC is spending $52–56 billion this year to expand, building new factories across Taiwan, the United States, Japan, and Germany — and still cannot meet demand. **AI compute is scarce and getting tighter.** The advantage goes to whoever secures capacity now.",
+        "The practical conclusion is straightforward. The AI build-out is not a bet that might pay off — it is a foundation being poured, right now, at the largest scale the semiconductor industry has ever seen. For anyone still asking whether AI is worth serious investment, TSMC's numbers provide a clear answer. Companies placing chip orders at this scale are not hedging; they are committing. **The window to be early is closing.**"
+      ],
+      "keyFacts": [
+        { "value": "$39.6B", "label": "TSMC Q2 2026 revenue" },
+        { "value": "+36%", "label": "year-over-year revenue growth" },
+        { "value": "61%", "label": "of TSMC revenue from AI chips" },
+        { "value": "$52–56B", "label": "TSMC 2026 capex to expand AI capacity" }
+      ]
+    },
+    "de": {
+      "title": "Der KI-Aufbau ist real — TSMCs Rekordquartal beweist es",
+      "summary": "TSMC, das Unternehmen, das die Chips für alle großen KI-Systeme der Welt herstellt, hat gerade ein Rekordquartal mit 39,6 Milliarden Dollar Umsatz gemeldet, fast ausschließlich durch KI-Nachfrage getrieben — und damit bewiesen: der KI-Aufbau ist Realität, keine Folienpräsentation.",
+      "body": [
+        "Taiwan Semiconductor Manufacturing Company — kurz TSMC — stellt die physischen Chips her, die jede große KI-Anwendung der Welt antreiben. Am 13. Juli meldete das Unternehmen 39,6 Milliarden Dollar Umsatz im zweiten Quartal 2026 — ein Plus von 36 Prozent gegenüber dem Vorjahreszeitraum und das beste Quartal in der fast 40-jährigen Geschichte des Unternehmens. **61 Prozent des TSMC-Umsatzes stammen jetzt aus KI-Chips.** Das ist keine Prognose. Es ist eine Zählung echter Aufträge, die erteilt und bezahlt wurden.",
+        "Das übliche Gegenargument der Skeptiker lautet: KI-Ausgaben bedeuten noch keine KI-Erträge. Aber der Umsatz von TSMC ist nicht spekulativ — jeder Dollar kommt aus einem Chip-Auftrag, den ein Unternehmen platziert und bezahlt hat. Nvidia, Apple und die größten Cloud-Anbieter haben echtes Silizium in echten Mengen bestellt. **Nvidia allein hat sich 60 Prozent von TSMCs fortschrittlicher Chip-Verpackungskapazität** für das gesamte Jahr gesichert. Solche Commitments entstehen nur, wenn man wirklich an die Nachfrage glaubt.",
+        "Das Angebot kann die Nachfrage nicht decken. TSMCs schnellste Produktionslinien sind für den Rest des Jahres ausgebucht. Ein Analyst fasste es kurz zusammen: \"Die Angebots- und Nachfragesituation im KI-Bereich ist nach wie vor sehr angespannt.\" TSMC gibt 52–56 Milliarden Dollar in diesem Jahr für den Kapazitätsausbau aus — mit neuen Fabriken in Taiwan, den USA, Japan und Deutschland — und kommt der Nachfrage trotzdem nicht nach. **KI-Rechenkapazität ist knapp und wird knapper.** Der Vorteil liegt bei denen, die sich jetzt Kapazitäten sichern.",
+        "Die praktische Schlussfolgerung ist klar. Der KI-Aufbau ist keine Wette, die sich auszahlen könnte — es ist ein Fundament, das gerade gelegt wird, im größten Maßstab, den die Halbleiterindustrie je gesehen hat. Wer noch fragt, ob KI eine ernsthafte Investition wert ist, bekommt mit TSMCs Zahlen eine klare Antwort. Unternehmen, die in diesem Ausmaß Chip-Aufträge erteilen, sichern sich keine Optionen — sie setzen. **Das Fenster, früh dabei zu sein, schließt sich.**"
+      ],
+      "keyFacts": [
+        { "value": "$39,6B", "label": "TSMC-Umsatz Q2 2026" },
+        { "value": "+36 %", "label": "Umsatzwachstum im Jahresvergleich" },
+        { "value": "61 %", "label": "TSMC-Umsatzanteil aus KI-Chips" },
+        { "value": "$52–56B", "label": "TSMC-Investitionen 2026 für KI-Kapazitätsausbau" }
+      ]
+    },
+    "nl": {
+      "title": "De ai-infrastructuur is echt. TSMCs recordkwartaal bewijst het.",
+      "summary": "TSMC, het bedrijf dat de chips maakt voor alle grote AI-systemen ter wereld, rapporteerde net een record van $39,6 miljard omzet in Q2 2026, vrijwel volledig aangedreven door AI-vraag — het bewijs dat de opbouw van AI-infrastructuur realiteit is, geen belofte.",
+      "body": [
+        "Taiwan Semiconductor Manufacturing Company — TSMC — maakt de fysieke chips die elk groot AI-systeem ter wereld aandrijven. Op 13 juli rapporteerde het bedrijf $39,6 miljard omzet in het tweede kwartaal van 2026 — een stijging van 36 procent ten opzichte van een jaar eerder, en het beste kwartaal in de bijna 40-jarige geschiedenis van het bedrijf. **61 procent van de TSMC-omzet komt nu uit AI-chips.** Dat is geen prognose. Het zijn echte orders die zijn geplaatst en betaald.",
+        "Het gebruikelijke tegenargument van sceptici is dat AI-uitgaven niet automatisch AI-opbrengsten opleveren. Maar de omzet van TSMC is niet speculatief — elke dollar is afkomstig uit een chipbestelling die een bedrijf heeft geplaatst en betaald. Nvidia, Apple en de grootste cloudproviders bestelden echt silicium in echte hoeveelheden. **Nvidia alleen al reserveerde 60 procent van TSMCs geavanceerde chipverpakkingscapaciteit** voor het hele jaar. Dergelijke toezeggingen doe je alleen als je echt gelooft in de vraag.",
+        "Het aanbod kan de vraag niet bijhouden. De snelste productielijnen van TSMC zijn voor de rest van het jaar volgeboekt. Een analist zei het simpel: \"de vraag-aanbodverhouding in AI is nog steeds erg krap.\" TSMC investeert dit jaar $52–56 miljard in capaciteitsuitbreiding — met nieuwe fabrieken in Taiwan, de VS, Japan en Duitsland — en kan nog steeds niet aan de vraag voldoen. **AI-rekencapaciteit is schaars en wordt schaarser.** Het voordeel gaat naar wie nu capaciteit vastlegt.",
+        "De praktische conclusie is eenvoudig. De opbouw van AI-infrastructuur is geen gok die misschien uitbetaalt — het is een fundament dat nu wordt gelegd, op de grootste schaal die de chipindustrie ooit heeft gezien. Voor iedereen die zich nog afvraagt of AI een serieuze investering waard is, geven de cijfers van TSMC een duidelijk antwoord. Bedrijven die op deze schaal chiporders plaatsen, dekken zich niet in — ze committeren zich volledig. **Het raam om er vroeg bij te zijn, sluit zich.**"
+      ],
+      "keyFacts": [
+        { "value": "$39,6B", "label": "TSMC-omzet Q2 2026" },
+        { "value": "+36%", "label": "omzetgroei ten opzichte van vorig jaar" },
+        { "value": "61%", "label": "aandeel AI-chips in de TSMC-omzet" },
+        { "value": "$52–56B", "label": "TSMC-investeringen 2026 voor capaciteitsuitbreiding" }
+      ]
+    },
+    "es": {
+      "title": "Los números que prueban que la infraestructura de IA es real",
+      "summary": "TSMC, la empresa que fabrica los chips de todos los grandes sistemas de IA del mundo, acaba de reportar un trimestre récord de $39,6 mil millones impulsado casi por completo por la demanda de IA — demostrando que la expansión de infraestructura es un hecho, no una proyección.",
+      "body": [
+        "Taiwan Semiconductor Manufacturing Company — TSMC — fabrica los chips físicos que impulsan todos los grandes sistemas de IA del mundo. El 13 de julio, la empresa reportó $39,6 mil millones en ingresos para el segundo trimestre de 2026 — un aumento del 36% respecto al mismo período del año anterior y el mejor trimestre en sus casi 40 años de historia. **El 61% de los ingresos de TSMC proviene ahora de chips de IA.** Eso no es una previsión. Es un recuento de pedidos reales que han sido realizados y pagados.",
+        "El argumento habitual de los escépticos es que el gasto en IA no equivale a retornos de IA. Pero los ingresos de TSMC no son especulativos — cada dólar proviene de un pedido de chips que una empresa realizó y pagó. Nvidia, Apple y los principales proveedores de nube encargaron silicio real en cantidades reales. **Solo Nvidia reservó el 60% de la capacidad de empaquetado avanzado de TSMC** para todo el año. Ese tipo de compromiso solo ocurre cuando se cree genuinamente en la demanda.",
+        "La oferta no puede satisfacer la demanda. Las líneas de producción más rápidas de TSMC están agotadas para el resto del año. Un analista lo resumió así: \"la situación de oferta y demanda en la IA sigue siendo bastante tensa.\" TSMC está gastando $52–56 mil millones este año en ampliar capacidad, construyendo nuevas fábricas en Taiwán, Estados Unidos, Japón y Alemania — y aun así no puede satisfacer la demanda. **La capacidad de cómputo de IA es escasa y se vuelve más escasa.** La ventaja la tienen quienes aseguran capacidad ahora.",
+        "La conclusión práctica es directa. La expansión de la infraestructura de IA no es una apuesta que podría resultar — es un cimiento que se está vertiendo ahora, a la mayor escala que la industria de semiconductores ha visto jamás. Para cualquiera que aún pregunta si la IA vale una inversión seria, los números de TSMC dan una respuesta clara. Las empresas que hacen pedidos de chips a esta escala no están cubriendo riesgos; están comprometiéndose. **La ventana para llegar temprano se está cerrando.**"
+      ],
+      "keyFacts": [
+        { "value": "$39,6B", "label": "ingresos de TSMC Q2 2026" },
+        { "value": "+36%", "label": "crecimiento de ingresos interanual" },
+        { "value": "61%", "label": "participación de chips de IA en ingresos de TSMC" },
+        { "value": "$52–56B", "label": "capex de TSMC 2026 para ampliar capacidad de IA" }
+      ]
+    },
+    "fr": {
+      "title": "Les chiffres qui prouvent que l'infrastructure IA est bien réelle",
+      "summary": "TSMC, l'entreprise qui fabrique les puces de tous les grands systèmes d'IA dans le monde, vient d'annoncer un trimestre record à 39,6 milliards de dollars, tiré presque entièrement par la demande en IA — la preuve que le déploiement d'infrastructure n'est plus une promesse, c'est un fait.",
+      "body": [
+        "Taiwan Semiconductor Manufacturing Company — TSMC — fabrique les puces physiques qui font tourner chaque grand système d'IA dans le monde. Le 13 juillet, la société a annoncé 39,6 milliards de dollars de chiffre d'affaires au deuxième trimestre 2026 — une hausse de 36 % par rapport à la même période un an plus tôt et le meilleur trimestre de ses quelque 40 ans d'histoire. **61 % du chiffre d'affaires de TSMC provient désormais des puces IA.** Ce n'est pas une prévision. C'est le décompte de commandes réelles, passées et réglées.",
+        "L'argument habituel des sceptiques est que les dépenses en IA ne se transforment pas automatiquement en rendements. Mais les revenus de TSMC ne sont pas spéculatifs — chaque dollar correspond à une commande de puces qu'une entreprise a passée et payée. Nvidia, Apple et les plus grands fournisseurs de cloud ont commandé du silicium réel en quantités réelles. **Nvidia a à lui seul réservé 60 % de la capacité d'emballage avancé de TSMC** pour toute l'année. Ce niveau d'engagement n'existe que lorsqu'on croit profondément à la réalité de la demande.",
+        "L'offre ne suit pas. Les lignes de production les plus rapides de TSMC affichent complet pour le reste de l'année. Un analyste l'a dit simplement : « la situation d'offre et de demande dans l'IA reste encore très tendue ». TSMC investit 52 à 56 milliards de dollars cette année pour augmenter ses capacités — avec de nouvelles usines à Taïwan, aux États-Unis, au Japon et en Allemagne — et ne parvient toujours pas à répondre à la demande. **La capacité de calcul IA est rare et le devient davantage.** L'avantage ira à ceux qui sécurisent leur accès maintenant.",
+        "La conclusion pratique est claire. Le déploiement de l'infrastructure IA n'est pas un pari qui pourrait payer — c'est une fondation que l'on coule en ce moment même, à la plus grande échelle que l'industrie des semi-conducteurs n'ait jamais connue. Pour quiconque se demande encore si l'IA mérite un investissement sérieux, les chiffres de TSMC apportent une réponse nette. Les entreprises qui passent des commandes de puces à cette échelle ne cherchent pas à couvrir leurs risques — elles s'engagent pleinement. **La fenêtre pour être en avance se referme.**"
+      ],
+      "keyFacts": [
+        { "value": "39,6 Md$", "label": "chiffre d'affaires TSMC T2 2026" },
+        { "value": "+36 %", "label": "croissance du CA sur un an" },
+        { "value": "61 %", "label": "part des puces IA dans le CA de TSMC" },
+        { "value": "52–56 Md$", "label": "investissements TSMC 2026 pour élargir les capacités" }
+      ]
+    },
+    "ar": {
+      "title": "الأرقام التي تثبت أن بنية تحتية الذكاء الاصطناعي حقيقة لا وعود",
+      "summary": "أعلنت TSMC، الشركة التي تصنع الرقائق التي تشغّل جميع أنظمة الذكاء الاصطناعي الكبرى في العالم، للتو عن ربع سنوي قياسي بإيرادات 39.6 مليار دولار مدفوعةً تقريباً بالكامل بطلب رقائق الذكاء الاصطناعي — مما يثبت أن التوسع في البنية التحتية يحدث فعلاً وليس مجرد عروض تقديمية.",
+      "body": [
+        "تصنع شركة \"تايوان للصناعات التحويلية\" — TSMC — الرقائق الإلكترونية التي تشغّل كل نظام ذكاء اصطناعي كبير في العالم. في 13 يوليو، أعلنت الشركة عن إيرادات بلغت 39.6 مليار دولار في الربع الثاني من عام 2026، بارتفاع 36 بالمئة عن الفترة ذاتها من العام الماضي، وهو أفضل ربع سنوي في تاريخها الممتد قرابة أربعة عقود. **61 بالمئة من إيرادات TSMC تأتي الآن من رقائق الذكاء الاصطناعي.** ليس هذا توقعاً — بل هو عدّ لطلبيات حقيقية تم تنفيذها ودفع ثمنها.",
+        "الحجة المعتادة للمشككين هي أن الإنفاق على الذكاء الاصطناعي لا يعني بالضرورة عوائد حقيقية. لكن إيرادات TSMC ليست مضاربة — كل دولار منها ناتج عن طلبية رقائق وضعتها شركة ودفعت ثمنها. طلبت شركات Nvidia وApple وكبرى مزودي الخدمات السحابية رقائق إلكترونية حقيقية بكميات حقيقية. **احتجزت Nvidia وحدها 60 بالمئة من طاقة تغليف الرقائق المتقدمة لدى TSMC** للعام كله. هذا النوع من الالتزام لا يحدث إلا حين يكون الاعتقاد بحقيقة الطلب راسخاً.",
+        "لا يستطيع العرض مجاراة الطلب. خطوط إنتاج TSMC الأسرع ممتلئة حتى نهاية العام. قال أحد المحللين ببساطة: «وضع العرض والطلب في الذكاء الاصطناعي لا يزال ضيقاً للغاية». تنفق TSMC ما بين 52 و56 مليار دولار هذا العام لتوسيع طاقتها، ببناء مصانع جديدة في تايوان والولايات المتحدة واليابان وألمانيا — ولا تزال عاجزة عن تلبية الطلب. **طاقة الحوسبة للذكاء الاصطناعي نادرة وتزداد ندرةً.** الميزة ستكون لمن يؤمّن طاقته الحسابية الآن.",
+        "الخلاصة العملية واضحة. بناء بنية تحتية الذكاء الاصطناعي ليس رهاناً قد يُكلَّل بالنجاح — بل هو أساس يُصبّ الآن على أوسع نطاق شهدته صناعة أشباه الموصلات في تاريخها. لمن لا يزال يتساءل عن جدوى الاستثمار الجاد في الذكاء الاصطناعي، تقدّم أرقام TSMC إجابة حاسمة. الشركات التي تضع طلبيات رقائق بهذا الحجم لا تحوط مخاطرها — بل تُقدّم على الاختيار بالكامل. **نافذة التبكير في الدخول آخذة في الإغلاق.**"
+      ],
+      "keyFacts": [
+        { "value": "$39.6B", "label": "إيرادات TSMC في الربع الثاني 2026" },
+        { "value": "+36%", "label": "نمو الإيرادات مقارنةً بالعام الماضي" },
+        { "value": "61%", "label": "نسبة رقائق الذكاء الاصطناعي من إيرادات TSMC" },
+        { "value": "$52–56B", "label": "إنفاق TSMC الرأسمالي 2026 لتوسيع الطاقة" }
+      ]
+    }
+  }
+}
