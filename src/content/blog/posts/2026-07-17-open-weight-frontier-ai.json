@@ -1,0 +1,128 @@
+{
+  "slug": "2026-07-17-open-weight-frontier-ai",
+  "date": "2026-07-17",
+  "tags": ["ai", "open-source"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "TechCrunch — Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"
+    },
+    {
+      "title": "Thinking Machines Lab — Inkling: Our open-weights model",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+    },
+    {
+      "title": "Fortune — Murati's Thinking Machines releases first AI model for broad use",
+      "url": "https://fortune.com/2026/07/15/what-is-mira-murati-thinking-machines-first-ai-model-inkling/"
+    },
+    {
+      "title": "Bloomberg — Murati's Thinking Machines Releases First AI Model for Broad Use",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-15/murati-s-thinking-machines-releases-first-ai-model-for-broad-use"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Frontier AI you can own, not just rent",
+      "summary": "Thinking Machines, the startup from former OpenAI CTO Mira Murati, just released a world-class AI model anyone can download and run themselves — and that changes the math for anyone building with AI.",
+      "body": [
+        "For the past few years, building with the best AI meant renting it. You send data to OpenAI or Anthropic, pay per query, and live by their rules. This week, Thinking Machines Lab — founded by Mira Murati, the former chief technology officer of OpenAI — released Inkling: **a frontier-class AI model you can download and run yourself**. It is open-weight, meaning anyone can get the raw model files, use them, and modify them freely.",
+        "Inkling is enormous on paper — 975 billion parameters, the numbers that determine how an AI thinks — but a clever design means it only activates about 41 billion for any given task. That makes it far faster and cheaper to run than its total size suggests. In coding tests it matched the best available tools while using roughly **one-third as many tokens** — the small chunks of text an AI service counts to bill you — as competing models of equivalent power.",
+        "What makes this more than just another model launch is the strategy behind it. Thinking Machines is not racing to be the strongest model overall. It is betting that companies want **AI they can tune for their own domain** — their data, their language, their rules. An early test with investment firm Bridgewater Associates scored 84.7% on financial reasoning at roughly 14 times lower cost than a comparable closed model. That cost gap is enormous when you are processing millions of documents a month.",
+        "For anyone building software or automating work, the message is concrete. You can download Inkling from Hugging Face today, fine-tune it on your own data, and run it on your own servers — no subscription, no permission needed. **Open AI's cost and control advantage is real now**, not a future promise. The honest tradeoff: you take on the responsibility of keeping the model safe and well-behaved, which takes real engineering effort.",
+        "If your product relies on AI, this is the moment to run a real comparison. Take a workflow you currently send to a closed model, run it on Inkling, and measure quality and cost side by side. **The performance gap has closed enough to make the test worth doing** — and if the cost savings hold in your case, they could change what you are willing to pay."
+      ],
+      "keyFacts": [
+        { "value": "975B", "label": "total parameters in Inkling" },
+        { "value": "41B", "label": "parameters active per task" },
+        { "value": "84.7%", "label": "financial reasoning score (Bridgewater test)" },
+        { "value": "~14×", "label": "cheaper to run than a comparable closed model" }
+      ]
+    },
+    "de": {
+      "title": "KI der Spitzenklasse: besitzen statt mieten",
+      "summary": "Thinking Machines, das Startup von Ex-OpenAI-CTO Mira Murati, hat ein Weltklasse-KI-Modell veröffentlicht, das jeder herunterladen und selbst betreiben kann — und das verändert die Kalkulation für alle, die mit KI bauen.",
+      "body": [
+        "Wer in den letzten Jahren mit der besten KI arbeiten wollte, musste sie mieten. Daten an OpenAI oder Anthropic schicken, pro Anfrage zahlen, deren Regeln befolgen. Diese Woche veröffentlichte Thinking Machines Lab — gegründet von Mira Murati, der ehemaligen Chief Technology Officer von OpenAI — Inkling: **ein Spitzen-KI-Modell, das man herunterladen und selbst betreiben kann**. Es ist ein Open-Weight-Modell: Jeder kann die Modelldateien laden, nutzen und frei anpassen.",
+        "Inkling ist auf dem Papier gewaltig — 975 Milliarden Parameter, also die Zahlen, die bestimmen, wie eine KI denkt — doch durch ein cleveres Design aktiviert es pro Aufgabe nur rund 41 Milliarden davon. Das macht es deutlich schneller und günstiger als die Gesamtgröße vermuten lässt. In Coding-Tests erreichte es dasselbe Niveau wie die besten verfügbaren Tools, dabei verwendete es nur etwa **ein Drittel der Tokens** — die kleinen Textblöcke, die ein KI-Dienst dir in Rechnung stellt — wie vergleichbare Modelle gleicher Leistung.",
+        "Was diesen Start zu mehr als nur einer weiteren Modellankündigung macht, ist die dahinterstehende Strategie. Thinking Machines kämpft nicht darum, insgesamt das stärkste Modell zu sein. Die Wette lautet: Unternehmen wollen **KI, die sie für ihr eigenes Fachgebiet anpassen können** — mit eigenen Daten, eigener Sprache, eigenen Regeln. Ein erster Test mit der Investmentfirma Bridgewater Associates erzielte 84,7 % beim Finanz-Reasoning — bei rund 14-mal niedrigeren Kosten als ein vergleichbares geschlossenes Modell. Das ist ein enormer Vorteil, wenn man monatlich Millionen von Dokumenten verarbeitet.",
+        "Für alle, die Software bauen oder Arbeit automatisieren, ist die Botschaft klar. Inkling lässt sich heute von Hugging Face herunterladen, auf eigenen Daten feintunen und auf eigenen Servern betreiben — kein Abo, keine Genehmigung nötig. **Der Kosten- und Kontrollvorteil von offener KI ist jetzt real**, kein Versprechen für die Zukunft. Der ehrliche Preis dabei: Man übernimmt selbst die Verantwortung, das Modell sicher und zuverlässig zu halten — das erfordert echten Engineering-Aufwand.",
+        "Wer ein KI-gestütztes Produkt baut, sollte jetzt einen echten Vergleichstest machen. Einen Workflow, den man aktuell an ein geschlossenes Modell schickt, auf Inkling laufen lassen und Qualität sowie Kosten direkt gegenüberstellen. **Die Leistungslücke ist klein genug geworden, um den Test zu lohnen** — und wenn die Kosteneinsparung in der eigenen Anwendung hält, könnte das grundlegend verändern, was man bereit ist zu zahlen."
+      ],
+      "keyFacts": [
+        { "value": "975B", "label": "Parameter insgesamt in Inkling" },
+        { "value": "41B", "label": "aktive Parameter pro Aufgabe" },
+        { "value": "84,7%", "label": "Ergebnis beim Finanz-Reasoning (Bridgewater)" },
+        { "value": "~14×", "label": "günstiger als ein vergleichbares geschlossenes Modell" }
+      ]
+    },
+    "nl": {
+      "title": "Topklasse AI die je bezit, niet huurt",
+      "summary": "Thinking Machines, het startup van ex-OpenAI-CTO Mira Murati, lanceerde een wereldklasse AI-model dat iedereen kan downloaden en zelf draaien — en dat verandert de rekening voor iedereen die met AI bouwt.",
+      "body": [
+        "Wie de afgelopen jaren met de beste AI wilde werken, moest die huren. Gegevens sturen naar OpenAI of Anthropic, per vraag betalen, hun regels volgen. Deze week lanceerde Thinking Machines Lab — opgericht door Mira Murati, de voormalige CTO van OpenAI — Inkling: **een topmodel dat je zelf kunt downloaden en draaien**. Het is open-weight: iedereen kan de modelbestanden ophalen, gebruiken en vrij aanpassen.",
+        "Op papier is Inkling enorm — 975 miljard parameters, de getallen die bepalen hoe een AI denkt — maar door een slim ontwerp gebruikt het per taak slechts zo'n 41 miljard daarvan. Dat maakt het veel sneller en goedkoper dan de totale omvang doet vermoeden. Bij coderingstests behaalde het hetzelfde niveau als de beste beschikbare tools, maar met ongeveer **een derde minder tokens** — de kleine stukjes tekst die een AI-dienst je factureert — dan vergelijkbare modellen van gelijke kracht.",
+        "Wat deze lancering meer maakt dan zomaar een modelaankondiging, is de strategie erachter. Thinking Machines wil niet het sterkste model in het algemeen zijn. De weddenschap is dat bedrijven **AI willen die ze zelf kunnen aanpassen aan hun vakgebied** — met eigen data, eigen taal, eigen regels. Een eerste test bij investeringsmaatschappij Bridgewater Associates scoorde 84,7% op financieel redeneren bij ruwweg 14 keer lagere kosten dan een vergelijkbaar gesloten model. Dat kostenverschil telt zwaar als je maandelijks miljoenen documenten verwerkt.",
+        "Voor iedereen die software bouwt of werk automatiseert, is de boodschap concreet. Je kunt Inkling vandaag downloaden van Hugging Face, finetunen op je eigen data en draaien op je eigen servers — geen abonnement, geen toestemming nodig. **Het kosten- en controlevoordeel van open AI is nu werkelijkheid**, geen toekomstige belofte. De eerlijke prijs: je neemt zelf de verantwoordelijkheid voor de veiligheid en het gedrag van het model, wat echt technisch werk vraagt.",
+        "Als je product op AI leunt, is dit het moment voor een echte vergelijking. Neem een workflow die je nu naar een gesloten model stuurt, laat die op Inkling draaien, en vergelijk kwaliteit en kosten naast elkaar. **Het prestatieverschil is klein genoeg om de test te rechtvaardigen** — en als de kostenbesparing in jouw geval standhoudt, kan dat veranderen wat je bereid bent te betalen."
+      ],
+      "keyFacts": [
+        { "value": "975B", "label": "totale parameters in Inkling" },
+        { "value": "41B", "label": "actieve parameters per taak" },
+        { "value": "84,7%", "label": "score financieel redeneren (Bridgewater)" },
+        { "value": "~14×", "label": "goedkoper dan een vergelijkbaar gesloten model" }
+      ]
+    },
+    "es": {
+      "title": "IA de primer nivel que puedes poseer, no solo alquilar",
+      "summary": "Thinking Machines, el startup de la ex-CTO de OpenAI Mira Murati, acaba de lanzar un modelo de IA de clase mundial que cualquiera puede descargar y ejecutar — y eso cambia el cálculo para quien construye con IA.",
+      "body": [
+        "Durante años, trabajar con la mejor IA significaba alquilarla. Enviar datos a OpenAI o Anthropic, pagar por consulta, seguir sus reglas. Esta semana, Thinking Machines Lab — fundado por Mira Murati, exdirectora de tecnología de OpenAI — lanzó Inkling: **un modelo de IA de primer nivel que puedes descargar y ejecutar tú mismo**. Es de pesos abiertos, lo que significa que cualquiera puede obtener los archivos del modelo, usarlos y modificarlos libremente.",
+        "Sobre el papel, Inkling es enorme — 975.000 millones de parámetros, los números que determinan cómo piensa una IA — pero un diseño inteligente hace que solo active unos 41.000 millones por tarea. Eso lo hace mucho más rápido y barato de ejecutar de lo que su tamaño total sugiere. En pruebas de código igualó a las mejores herramientas disponibles usando aproximadamente **un tercio menos de tokens** — los pequeños fragmentos de texto con los que un servicio de IA te cobra — que modelos equivalentes en potencia.",
+        "Lo que hace que este lanzamiento sea más que un anuncio técnico es la estrategia detrás. Thinking Machines no busca ser el modelo más potente en general. La apuesta es que las empresas quieren **IA que puedan ajustar a su propio sector** — sus datos, su lenguaje, sus reglas. Una prueba inicial con la firma de inversión Bridgewater Associates obtuvo un 84,7 % en razonamiento financiero a un costo aproximadamente 14 veces menor que un modelo cerrado equivalente. Esa diferencia es enorme cuando se procesan millones de documentos al mes.",
+        "Para cualquiera que construya software o automatice trabajo, el mensaje es concreto. Puedes descargar Inkling hoy desde Hugging Face, ajustarlo con tus propios datos y ejecutarlo en tus propios servidores, sin suscripción ni permisos. **La ventaja de costo y control de la IA abierta es real ahora**, no una promesa futura. La contrapartida honesta: asumes la responsabilidad de mantener el modelo seguro y bien comportado, lo que requiere esfuerzo técnico real.",
+        "Si tu producto depende de la IA, este es el momento de hacer una comparación real. Toma un flujo de trabajo que actualmente envíes a un modelo cerrado, ejecútalo en Inkling y compara calidad y costo en paralelo. **La brecha de rendimiento se ha reducido lo suficiente como para que valga la pena probarlo** — y si el ahorro de costos se mantiene en tu caso, podría cambiar lo que estás dispuesto a pagar."
+      ],
+      "keyFacts": [
+        { "value": "975B", "label": "parámetros totales en Inkling" },
+        { "value": "41B", "label": "parámetros activos por tarea" },
+        { "value": "84,7%", "label": "puntuación en razonamiento financiero (Bridgewater)" },
+        { "value": "~14×", "label": "más barato que un modelo cerrado comparable" }
+      ]
+    },
+    "fr": {
+      "title": "Une IA de pointe que l'on peut posséder, pas seulement louer",
+      "summary": "Thinking Machines, le startup de l'ex-CTO d'OpenAI Mira Murati, vient de lancer un modèle d'IA de classe mondiale que n'importe qui peut télécharger et héberger soi-même — et cela change le calcul pour tous ceux qui construisent avec l'IA.",
+      "body": [
+        "Pendant des années, travailler avec les meilleures IA signifiait les louer. Envoyer ses données à OpenAI ou Anthropic, payer à la requête, respecter leurs règles. Cette semaine, Thinking Machines Lab — fondé par Mira Murati, ancienne directrice technique d'OpenAI — a lancé Inkling : **un modèle d'IA de pointe que l'on peut télécharger et héberger soi-même**. Il est open-weight, ce qui signifie que n'importe qui peut obtenir les fichiers bruts du modèle, les utiliser et les modifier librement.",
+        "Sur le papier, Inkling est immense — 975 milliards de paramètres, les valeurs qui déterminent comment une IA raisonne — mais sa conception lui permet de n'en activer qu'environ 41 milliards par tâche, ce qui le rend bien plus rapide et moins coûteux à faire tourner que sa taille totale ne le laisserait penser. Lors de tests de programmation, il a égalé les meilleurs outils disponibles en consommant environ **trois fois moins de tokens** — les petits morceaux de texte qu'un service d'IA vous facture — que des modèles de puissance équivalente.",
+        "Ce qui dépasse la simple annonce technique, c'est la stratégie qui la sous-tend. Thinking Machines ne cherche pas à être le modèle le plus puissant. Le pari est que les entreprises veulent **une IA qu'elles peuvent adapter à leur propre domaine** — leurs données, leur langage, leurs règles. Un premier test conduit avec la société d'investissement Bridgewater Associates a obtenu 84,7 % sur des tests de raisonnement financier, à un coût environ 14 fois inférieur à celui d'un modèle fermé comparable. Cet écart est considérable lorsqu'on traite des millions de documents par mois.",
+        "Pour quiconque construit des logiciels ou automatise des tâches, le message est concret. Inkling peut être téléchargé aujourd'hui depuis Hugging Face, affiné sur ses propres données et hébergé sur ses propres serveurs — sans abonnement, sans autorisation requise. **L'avantage en coût et en contrôle de l'IA ouverte est désormais réel**, pas une promesse future. La contrepartie honnête : on est soi-même responsable de la sécurité et du comportement du modèle, ce qui demande un vrai travail d'ingénierie.",
+        "Si votre produit repose sur l'IA, c'est le moment de mener une vraie comparaison. Prenez un flux de travail que vous confiez actuellement à un modèle fermé, faites-le tourner sur Inkling et comparez qualité et coût côte à côte. **L'écart de performance s'est suffisamment réduit pour que le test en vaille la peine** — et si les économies de coûts se confirment dans votre cas, elles pourraient changer ce que vous êtes prêt à payer."
+      ],
+      "keyFacts": [
+        { "value": "975B", "label": "paramètres au total dans Inkling" },
+        { "value": "41B", "label": "paramètres actifs par tâche" },
+        { "value": "84,7 %", "label": "score en raisonnement financier (Bridgewater)" },
+        { "value": "~14×", "label": "moins cher qu'un modèle fermé comparable" }
+      ]
+    },
+    "ar": {
+      "title": "ذكاء اصطناعي بمستوى الصف الأول: تملكه لا تستأجره",
+      "summary": "أصدرت Thinking Machines، الشركة الناشئة من تأسيس مديرة تقنية OpenAI السابقة ميرا موراتي، نموذج ذكاء اصطناعي بمستوى عالمي يمكن لأي شخص تنزيله وتشغيله — وهذا يغيّر الحسابات لكل من يبني بالذكاء الاصطناعي.",
+      "body": [
+        "لسنوات، كان العمل مع أفضل نماذج الذكاء الاصطناعي يعني استئجارها. ترسل بياناتك إلى OpenAI أو Anthropic، تدفع مقابل كل استعلام، وتلتزم بقواعدهم. هذا الأسبوع، أصدرت Thinking Machines Lab — التي أسستها ميرا موراتي، المديرة التقنية السابقة لـ OpenAI — نموذج Inkling: **نموذج ذكاء اصطناعي من الصف الأول يمكنك تنزيله وتشغيله بنفسك**. إنه مفتوح الأوزان، بمعنى أن أي شخص يستطيع الحصول على ملفات النموذج الخام واستخدامها وتعديلها بحرية.",
+        "على الورق، Inkling ضخم للغاية — 975 مليار معامل، وهي الأرقام التي تحدد كيف يفكر الذكاء الاصطناعي — لكن تصميمه الذكي يجعله يستخدم فقط نحو 41 مليار معامل لكل مهمة، مما يجعله أسرع وأرخص بكثير مما يوحي به حجمه الكلي. في اختبارات البرمجة حقق نفس أداء أفضل الأدوات المتاحة باستخدام **ثلث عدد الرموز تقريباً** — وهي القطع الصغيرة من النص التي تحتسبها خدمة الذكاء الاصطناعي لإصدار الفاتورة — مقارنةً بنماذج مكافئة في القدرة.",
+        "ما يجعل هذا الإصدار أكثر من مجرد إعلان تقني هو الاستراتيجية وراءه. لا تسعى Thinking Machines إلى أن تكون الأقوى في المطلق. بل تراهن على أن الشركات تريد **ذكاءً اصطناعياً يمكن تخصيصه لمجالها الخاص** — ببياناتها ولغتها وقواعدها. أثبت اختبار مبكر مع شركة الاستثمار Bridgewater Associates نتيجة 84.7% في اختبارات التفكير المالي، بتكلفة أقل بنحو 14 مرة مقارنةً بنموذج مغلق مماثل. هذا الفارق ضخم عندما تعالج ملايين الوثائق شهرياً.",
+        "لكل من يبني برمجيات أو يؤتمت عمليات، الرسالة واضحة. يمكنك تنزيل Inkling اليوم من Hugging Face، وضبطه الدقيق على بياناتك الخاصة، وتشغيله على خوادمك الخاصة — دون اشتراك أو إذن مسبق. **ميزة التكلفة والتحكم للذكاء الاصطناعي المفتوح حقيقية الآن**، لا نظرية مستقبلية. الثمن الصادق: أنت تتحمل مسؤولية ضمان أمان النموذج وحسن سلوكه، وهذا يتطلب جهداً هندسياً حقيقياً.",
+        "إذا كان منتجك يعتمد على الذكاء الاصطناعي، فهذا هو الوقت المناسب لإجراء مقارنة حقيقية. خذ سير عمل تعالجه حالياً بنموذج مغلق، شغّله على Inkling، وقارن الجودة والتكلفة جنباً إلى جنب. **الفجوة في الأداء تقلصت بما يكفي ليستحق الاختبار** — وإن تأكدت وفورات التكلفة في حالتك، قد يغيّر ذلك ما ترغب في دفعه."
+      ],
+      "keyFacts": [
+        { "value": "975B", "label": "إجمالي معاملات Inkling" },
+        { "value": "41B", "label": "معاملات نشطة لكل مهمة" },
+        { "value": "84.7%", "label": "نتيجة التفكير المالي (اختبار Bridgewater)" },
+        { "value": "~14×", "label": "أرخص من نموذج مغلق مماثل" }
+      ]
+    }
+  }
+}
