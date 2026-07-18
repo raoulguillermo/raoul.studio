@@ -1,0 +1,118 @@
+{
+  "slug": "2026-07-18-kimi-k3-free-coding-ai",
+  "date": "2026-07-18",
+  "tags": ["ai", "open-source"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Tech Startups — Top Tech News Today, July 17, 2026: Anthropic, Apple, Google, Meta, Moonshot AI, Nvidia, OpenAI & More",
+      "url": "https://techstartups.com/2026/07/17/top-tech-news-today-july-17-2026-anthropic-apple-google-meta-moonshot-ai-nvidia-more/"
+    },
+    {
+      "title": "Fortune — Markets experience new DeepSeek shock after MoonShot AI releases Kimi K3",
+      "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"
+    },
+    {
+      "title": "Fello AI — Kimi K3: Moonshot's 2.8T Open-Weight Model Explained",
+      "url": "https://felloai.com/kimi-k3/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When free AI outscores the best paid coding tools",
+      "summary": "China's Moonshot AI just released a model that topped every major paid coding tool in independent tests — and the full model goes free to download on July 27.",
+      "body": [
+        "This week, a Chinese AI startup called Moonshot AI released a model called Kimi K3 — and it just took the top spot for frontend coding in independent tests, beating every major paid AI tool. The full model will be **free to download later this month**. That matters a lot if your team is currently paying an AI company for coding help.",
+        "Most powerful AI tools are services you pay for by the query — like a taxi. Kimi K3 is different: Moonshot is releasing the model's full design to the public. Any developer can download it, run it on their own servers, and pay nothing per use. This way of sharing — called 'open-weight' — means **a free copy of a top-ranked coding AI will exist in just over a week**.",
+        "The benchmark numbers are real. On the Frontend Code Arena — a widely-used test where developers vote on which AI writes better code — Kimi K3 scored 1,679 points, beating Anthropic's Claude Fable 5 (1,631) and OpenAI's GPT-5.6 Sol (1,618). The API price is also lower: $15 per million tokens (the small chunks of text an AI reads and writes) versus around $50 for Anthropic's flagship. Anthropic's CEO said he **hadn't expected a Chinese lab to close this gap for another six months**. When the news hit on Thursday, Nvidia's stock fell and the Nasdaq 100 slipped 1% — a market shock similar to the one China's DeepSeek caused at the start of last year.",
+        "For builders and business owners, the message is simple: the cost of top-level AI coding help is falling fast, and soon a genuinely free option will rival the best paid tools. Running your own model takes some setup — you need servers and some engineering work. But if you are paying per token for AI coding today, **July 27 is worth marking in your calendar** as the day to test whether you still need to keep paying."
+      ],
+      "keyFacts": [
+        { "value": "2.8T", "label": "parameters in Kimi K3" },
+        { "value": "#1", "label": "on Frontend Code Arena, beating Fable 5 and GPT-5.6 Sol" },
+        { "value": "$15 vs $50", "label": "Kimi K3 vs Fable 5 per million output tokens" },
+        { "value": "July 27", "label": "date model weights go public" }
+      ]
+    },
+    "de": {
+      "title": "Wenn freie KI die besten bezahlten Coding-Tools übertrifft",
+      "summary": "Moonshot AI aus China hat ein Modell veröffentlicht, das in unabhängigen Tests alle führenden bezahlten Programmierwerkzeuge übertrafen — und das vollständige Modell kann ab dem 27. Juli kostenlos heruntergeladen werden.",
+      "body": [
+        "Diese Woche veröffentlichte das chinesische KI-Startup Moonshot AI ein Modell namens Kimi K3 — und es belegte sofort den ersten Platz in unabhängigen Tests für Frontend-Programmierung und übertraf dabei alle führenden bezahlten KI-Tools. Die vollständigen Modelldaten werden **Ende dieses Monats kostenlos zum Download** verfügbar sein. Das ist wichtig für jedes Team, das heute noch für KI-gestützte Programmierhilfe zahlt.",
+        "Die meisten leistungsstarken KI-Tools sind Dienste, für die man pro Anfrage zahlt — wie ein Taxi. Kimi K3 ist anders: Moonshot veröffentlicht das vollständige Modelldesign öffentlich. Jeder Entwickler kann es herunterladen, auf eigenen Servern betreiben und zahlt nichts pro Nutzung. Diese Art der Weitergabe — 'Open-Weight' genannt — bedeutet, dass **in etwas mehr als einer Woche eine kostenlose Kopie eines der besten Coding-KI-Tools existieren wird**.",
+        "Die Benchmark-Zahlen sind real. Im Frontend Code Arena — einem weitverbreiteten Test, bei dem Entwickler abstimmen, welche KI besseren Code schreibt — erzielte Kimi K3 1.679 Punkte und übertraf damit Anthropics Claude Fable 5 (1.631) und OpenAIs GPT-5.6 Sol (1.618). Auch der API-Preis ist niedriger: 15 Dollar pro eine Million Tokens (die kleinen Textblöcke, die eine KI liest und schreibt) gegenüber rund 50 Dollar für Anthropics Spitzenmodell. Der CEO von Anthropic erklärte, er **hätte nicht erwartet, dass ein chinesisches Labor diese Lücke in den nächsten sechs Monaten schließt**. Als die Nachricht am Donnerstag eintraf, fiel Nvidias Aktie und der Nasdaq 100 gab 1 % nach — ein Marktschock ähnlich dem, den Chinas DeepSeek Anfang letzten Jahres auslöste.",
+        "Für Gründer und Unternehmer ist die Botschaft klar: Die Kosten für erstklassige KI-Programmierhilfe sinken schnell, und bald wird es eine wirklich kostenlose Option geben, die den besten bezahlten Tools ebenbürtig ist. Den eigenen Modell-Betrieb einzurichten erfordert etwas Aufwand — man braucht Server und Engineering-Know-how. Aber wer heute noch pro Token für KI-Coding zahlt, **sollte den 27. Juli im Kalender markieren** — als den Tag, an dem man testet, ob man weiterhin zahlen muss."
+      ],
+      "keyFacts": [
+        { "value": "2.8T", "label": "Parameter in Kimi K3" },
+        { "value": "#1", "label": "im Frontend Code Arena, vor Fable 5 und GPT-5.6 Sol" },
+        { "value": "$15 vs $50", "label": "Kimi K3 vs Fable 5 pro Million Output-Tokens" },
+        { "value": "27. Juli", "label": "Datum der öffentlichen Modellveröffentlichung" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer gratis AI de beste betaalde codeertools verslaat",
+      "summary": "Moonshot AI uit China heeft een model uitgebracht dat in onafhankelijke tests alle grote betaalde AI-codeertools versloeg — en de volledige modelbestanden worden op 27 juli gratis te downloaden.",
+      "body": [
+        "Deze week lanceerde het Chinese AI-bedrijf Moonshot AI een model genaamd Kimi K3 — en dat nam meteen de eerste plek in bij onafhankelijke tests voor het schrijven van front-end code, waarbij alle grote betaalde AI-tools werden verslagen. De volledige modelbestanden worden **later deze maand gratis te downloaden**. Dat is relevant voor elk team dat nu betaalt voor AI-hulp bij het programmeren.",
+        "De meeste krachtige AI-tools zijn diensten die je per zoekopdracht betaalt — zoals een taxi. Kimi K3 is anders: Moonshot maakt het volledige modelontwerp openbaar. Iedere ontwikkelaar kan het downloaden, draaien op eigen servers en betaalt niets per gebruik. Deze manier van delen — 'open-weight' — betekent dat **over iets meer dan een week een gratis kopie van een topmodel voor AI-code beschikbaar is**.",
+        "De benchmarkcijfers zijn echt. Op de Frontend Code Arena — een veelgebruikte test waarbij ontwikkelaars stemmen welke AI betere code schrijft — behaalde Kimi K3 1.679 punten en versloeg daarmee Anthropics Claude Fable 5 (1.631) en OpenAIs GPT-5.6 Sol (1.618). De API-prijs is ook lager: $15 per miljoen tokens (de kleine stukjes tekst die een AI leest en schrijft) versus ongeveer $50 voor het topmodel van Anthropic. De CEO van Anthropic zei dat hij **niet had verwacht dat een Chinees lab deze kloof al zes maanden eerder zou dichten**. Toen het nieuws donderdag uitkwam, daalde het aandeel van Nvidia en gleed de Nasdaq 100 1% lager — een marktschok vergelijkbaar met die welke Chinas DeepSeek begin vorig jaar veroorzaakte.",
+        "Voor bouwers en ondernemers is de boodschap simpel: de kosten van AI-hulp op topniveau bij programmeren dalen snel, en binnenkort zal er een echt gratis optie zijn die rivaleert met de beste betaalde tools. Je eigen model draaien vraagt enige voorbereiding — je hebt servers en technisch werk nodig. Maar als je vandaag per token betaalt voor AI-code, **is 27 juli een datum om in je agenda te zetten** als de dag om te testen of je nog hoeft te blijven betalen."
+      ],
+      "keyFacts": [
+        { "value": "2.8T", "label": "parameters in Kimi K3" },
+        { "value": "#1", "label": "op Frontend Code Arena, boven Fable 5 en GPT-5.6 Sol" },
+        { "value": "$15 vs $50", "label": "Kimi K3 vs Fable 5 per miljoen output-tokens" },
+        { "value": "27 juli", "label": "datum waarop de modelgewichten gratis beschikbaar worden" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA gratuita supera a las mejores herramientas de código de pago",
+      "summary": "Moonshot AI de China acaba de lanzar un modelo que superó a todas las grandes herramientas de IA para programar en pruebas independientes — y el modelo completo se podrá descargar gratis el 27 de julio.",
+      "body": [
+        "Esta semana, la startup china de inteligencia artificial Moonshot AI lanzó un modelo llamado Kimi K3 — y acaba de ocupar el primer puesto en pruebas independientes de escritura de código frontend, superando a todas las grandes herramientas de IA de pago. Los archivos completos del modelo **podrán descargarse gratis a finales de este mes**. Eso importa si tu equipo paga hoy por ayuda de IA para programar.",
+        "La mayoría de las herramientas de IA potentes son servicios que pagas por consulta — como un taxi. Kimi K3 es distinto: Moonshot está publicando el diseño completo del modelo. Cualquier desarrollador puede descargarlo, ejecutarlo en sus propios servidores y no pagar nada por usarlo. Esta forma de compartir — llamada 'open-weight' o pesos abiertos — significa que **en algo más de una semana existirá una copia gratuita de una de las mejores IA para código**.",
+        "Los números del benchmark son reales. En el Frontend Code Arena — una prueba ampliamente usada donde los desarrolladores votan qué IA escribe mejor código — Kimi K3 obtuvo 1.679 puntos, superando a Claude Fable 5 de Anthropic (1.631) y a GPT-5.6 Sol de OpenAI (1.618). El precio de la API también es menor: $15 por millón de tokens (los pequeños fragmentos de texto que una IA lee y escribe) frente a unos $50 del modelo estrella de Anthropic. El CEO de Anthropic reconoció que **no esperaba que un laboratorio chino cerrara esta brecha hasta dentro de seis meses más**. Cuando llegó la noticia el jueves, las acciones de Nvidia cayeron y el Nasdaq 100 perdió un 1% — un shock de mercado similar al que causó DeepSeek, otra IA china, a principios del año pasado.",
+        "Para creadores y empresarios, el mensaje es claro: el costo de la mejor ayuda de IA para programar está bajando rápido, y pronto habrá una opción realmente gratuita que rivalizará con las mejores herramientas de pago. Poner en marcha tu propio modelo requiere algo de configuración — necesitas servidores y trabajo técnico. Pero si pagas por token para código AI hoy, **el 27 de julio vale la pena marcarlo en tu calendario** como el día en que probar si aún necesitas seguir pagando."
+      ],
+      "keyFacts": [
+        { "value": "2.8T", "label": "parámetros en Kimi K3" },
+        { "value": "#1", "label": "en Frontend Code Arena, por encima de Fable 5 y GPT-5.6 Sol" },
+        { "value": "$15 vs $50", "label": "Kimi K3 vs Fable 5 por millón de tokens de salida" },
+        { "value": "27 de julio", "label": "fecha en que los pesos del modelo son públicos" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA gratuite dépasse les meilleurs outils de code payants",
+      "summary": "Moonshot AI, une startup chinoise, vient de lancer un modèle qui a dominé tous les grands outils d'IA payants pour le code dans des tests indépendants — et le modèle complet sera gratuit à télécharger le 27 juillet.",
+      "body": [
+        "Cette semaine, la startup chinoise Moonshot AI a lancé un modèle appelé Kimi K3 — et il vient de prendre la première place dans des tests indépendants de programmation frontend, devançant tous les grands outils d'IA payants. Les fichiers complets du modèle seront **disponibles gratuitement en téléchargement plus tard ce mois-ci**. C'est important pour toute équipe qui paie aujourd'hui pour une aide à la programmation par IA.",
+        "La plupart des outils d'IA puissants sont des services facturés à la requête — comme un taxi. Kimi K3 est différent : Moonshot publie l'intégralité du design du modèle. N'importe quel développeur peut le télécharger, le faire tourner sur ses propres serveurs et ne rien payer par utilisation. Cette manière de partager — appelée 'open-weight' — signifie que **dans un peu plus d'une semaine, une copie gratuite de l'un des meilleurs outils d'IA pour le code existera**.",
+        "Les chiffres des benchmarks sont réels. Sur le Frontend Code Arena — un test largement utilisé où les développeurs votent pour l'IA qui écrit le meilleur code — Kimi K3 a obtenu 1 679 points, dépassant Claude Fable 5 d'Anthropic (1 631) et GPT-5.6 Sol d'OpenAI (1 618). Le prix de l'API est aussi plus bas : 15 dollars par million de tokens (les petits morceaux de texte qu'une IA lit et écrit) contre environ 50 dollars pour le modèle phare d'Anthropic. Le PDG d'Anthropic a déclaré qu'il **n'avait pas prévu qu'un laboratoire chinois comble cet écart avant encore six mois**. Quand la nouvelle est tombée jeudi, l'action Nvidia a chuté et le Nasdaq 100 a perdu 1 % — un choc de marché semblable à celui que DeepSeek, une autre IA chinoise, avait causé en début d'année dernière.",
+        "Pour les créateurs et les entrepreneurs, le message est simple : le coût d'une aide à la programmation par IA de premier niveau baisse vite, et bientôt une option vraiment gratuite rivalisera avec les meilleurs outils payants. Faire tourner son propre modèle demande quelques préparatifs — il faut des serveurs et un peu de travail technique. Mais si vous payez aujourd'hui à la requête pour de l'aide au code, **le 27 juillet mérite d'être noté dans votre agenda** comme le jour pour tester si vous avez encore besoin de continuer à payer."
+      ],
+      "keyFacts": [
+        { "value": "2.8T", "label": "paramètres dans Kimi K3" },
+        { "value": "#1", "label": "au Frontend Code Arena, devant Fable 5 et GPT-5.6 Sol" },
+        { "value": "$15 vs $50", "label": "Kimi K3 vs Fable 5 par million de tokens en sortie" },
+        { "value": "27 juillet", "label": "date à laquelle les poids du modèle sont publics" }
+      ]
+    },
+    "ar": {
+      "title": "حين يتفوق الذكاء الاصطناعي المجاني على أفضل أدوات البرمجة المدفوعة",
+      "summary": "أطلقت Moonshot AI الصينية نموذجاً تصدّر جميع أدوات كتابة الكود بالذكاء الاصطناعي المدفوعة في اختبارات مستقلة — وسيكون بالإمكان تنزيل النموذج الكامل مجاناً في 27 يوليو.",
+      "body": [
+        "هذا الأسبوع، أطلقت شركة Moonshot AI الصينية الناشئة نموذجاً يُعرف بـ Kimi K3 — وقد تصدّر الترتيب الأول في اختبارات مستقلة لكتابة كود الواجهة الأمامية، متفوقاً على جميع أدوات الذكاء الاصطناعي المدفوعة الكبرى. ملفات النموذج الكاملة ستكون **متاحة للتنزيل المجاني في وقت لاحق من هذا الشهر**. هذا أمر مهم لأي فريق يدفع اليوم مقابل مساعدة الذكاء الاصطناعي في البرمجة.",
+        "معظم أدوات الذكاء الاصطناعي القوية خدمات تدفع مقابل كل استعلام — كسيارة الأجرة. Kimi K3 مختلف: تُتيح Moonshot التصميم الكامل للنموذج للعموم. يمكن لأي مطوّر تنزيله وتشغيله على خوادمه الخاصة دون دفع أي رسوم لكل استخدام. هذه الطريقة في المشاركة — المعروفة بـ 'الأوزان المفتوحة' — تعني أن **نسخة مجانية من أحد أفضل نماذج الذكاء الاصطناعي للبرمجة ستصبح متاحة خلال أسبوع وبعض الشيء**.",
+        "أرقام الاختبارات حقيقية. في اختبار Frontend Code Arena — أحد الاختبارات الأكثر استخداماً حيث يصوّت المطوّرون على الذكاء الاصطناعي الأفضل في كتابة الكود — سجّل Kimi K3 نقاط 1,679، متجاوزاً Claude Fable 5 من Anthropic بـ 1,631 نقطة وGPT-5.6 Sol من OpenAI بـ 1,618 نقطة. سعر واجهة برمجة التطبيقات أقل أيضاً: 15 دولاراً لكل مليون رمز مميز (القطع الصغيرة من النص التي يقرأها الذكاء الاصطناعي ويكتبها) مقابل نحو 50 دولاراً لنموذج Anthropic الرائد. قال الرئيس التنفيذي لـ Anthropic إنه **لم يكن يتوقع أن يسدّ مختبر صيني هذه الفجوة في ستة أشهر إضافية**. حين وصل الخبر يوم الخميس، انخفضت أسهم Nvidia وتراجع مؤشر Nasdaq 100 بنسبة 1% — صدمة للسوق تشبه ما أحدثته DeepSeek الصينية في مطلع العام الماضي.",
+        "للمطوّرين وأصحاب الأعمال، الرسالة بسيطة: تكلفة المساعدة على مستوى الذكاء الاصطناعي الأمثل في البرمجة تنخفض بسرعة، وقريباً سيتوفر خيار مجاني حقيقي يُضاهي أفضل الأدوات المدفوعة. تشغيل النموذج الخاص بك يتطلب بعض الإعداد — تحتاج لخوادم وعمل هندسي. لكن إذا كنت تدفع اليوم لكل رمز مميز مقابل ذكاء اصطناعي للكود، **فإن 27 يوليو يستحق أن تُدوّنه في تقويمك** يوماً لاختبار ما إذا كنت لا تزال بحاجة إلى الاستمرار في الدفع."
+      ],
+      "keyFacts": [
+        { "value": "2.8T", "label": "معاملة في Kimi K3" },
+        { "value": "#1", "label": "في Frontend Code Arena، متقدماً على Fable 5 وGPT-5.6 Sol" },
+        { "value": "15$ مقابل 50$", "label": "Kimi K3 مقابل Fable 5 لكل مليون رمز في المخرجات" },
+        { "value": "27 يوليو", "label": "تاريخ إتاحة أوزان النموذج للعموم" }
+      ]
+    }
+  }
+}
