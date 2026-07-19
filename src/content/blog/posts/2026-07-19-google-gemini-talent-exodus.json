@@ -1,0 +1,123 @@
+{
+  "slug": "2026-07-19-google-gemini-talent-exodus",
+  "date": "2026-07-19",
+  "tags": ["ai"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/Gemini-3.5-Pro-cover.jpg?quality=82&strip=all&w=1500",
+    "alt": "Gemini 3.5 Pro graphic",
+    "credit": "9to5Google"
+  },
+  "sources": [
+    {
+      "title": "The Agent Report — Google Gemini 3.5 Pro Delayed to July 2026: $225B Wiped Off Alphabet as DeepMind Talent Exodus Deepens",
+      "url": "https://the-agent-report.com/2026/07/google-gemini-3-5-pro-delayed-july-2026/"
+    },
+    {
+      "title": "Bind AI — Gemini 3.5 Pro Slips to July and Four Senior Google Researchers Just Left for Anthropic",
+      "url": "https://blog.getbind.co/gemini-3-5-pro-slips-to-july-and-four-senior-google-researchers-just-left-for-anthropic/"
+    },
+    {
+      "title": "9to5Google — Gemini 3.5 Pro delays due to coding performance, upgraded Flash model in testing",
+      "url": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Talent is the real moat in AI — and Google is losing it",
+      "summary": "Google has missed three consecutive deadlines for its flagship AI model and lost four of its top researchers to rivals in the same period — proof that the people building the AI matter more than the company's name or budget.",
+      "body": [
+        "Google invented some of the math behind modern AI. The 2017 paper \"Attention Is All You Need,\" written by Google researchers, is the foundation almost every major AI system today is built on. Yet Google's own flagship model, Gemini 3.5 Pro, has now missed **three launch deadlines in a row** — first June 2026, then July 17, and now with no new date announced. The company that invented the technology is struggling to ship the product.",
+        "The technical problems have piled up. Google scrapped the first version of Gemini 3.5 Pro and rebuilt it from scratch after it kept failing tests involving code generation and complex multi-step instructions. The rebuilt version cleared those problems but hit new ones: wrong answers too often, and outputs that changed unpredictably. Meanwhile, OpenAI's GPT-5.6 and Anthropic's Fable 5 are already in customers' hands. **Every week Gemini misses its target, rivals pull further ahead.**",
+        "While the model slipped, the team started leaving. In one week in late June, four senior Gemini researchers announced their departures. Noam Shazeer — a Gemini co-lead and co-author of the original Transformer paper — joined OpenAI. John Jumper — whose AlphaFold research earned a Nobel Prize in Chemistry — joined Anthropic, along with two other senior team members. The day Shazeer's departure became public, Alphabet's share price fell roughly 5%, **wiping $225 billion from the company's value in one day**.",
+        "The lesson is not just about Google. It is about what actually determines who wins in AI. More computing power, more data, a bigger brand name — none of that stops talented people from choosing a different employer. The researchers who understand why a model works, and how to fix it when it does not, are very hard to replace. If you are building AI products or choosing which AI company to partner with, **the team behind the model matters more than the name on the door**."
+      ],
+      "keyFacts": [
+        { "value": "3rd", "label": "consecutive launch deadline missed for Gemini 3.5 Pro" },
+        { "value": "4", "label": "senior researchers who left Google in one week" },
+        { "value": "$225B", "label": "wiped from Alphabet's value in one day" },
+        { "value": "~5%", "label": "drop in Alphabet's share price" }
+      ]
+    },
+    "de": {
+      "title": "Talent ist der wahre Wettbewerbsvorteil in der KI — und Google verliert ihn",
+      "summary": "Google hat drei Starttermine für sein wichtigstes KI-Modell in Folge verpasst und in derselben Zeit vier führende Forscher an Rivalen verloren — ein Beweis dafür, dass die Menschen hinter der KI wichtiger sind als Markenname oder Budget.",
+      "body": [
+        "Google hat einige der mathematischen Grundlagen der modernen KI erfunden. Das Papier \"Attention Is All You Need\" aus dem Jahr 2017, verfasst von Google-Forschern, ist die Grundlage, auf der heute fast jedes große KI-System aufbaut. Doch Googles eigenes Flaggschiff-Modell, Gemini 3.5 Pro, hat nun **drei Starttermine in Folge verpasst** — zuerst Juni 2026, dann den 17. Juli, und jetzt ohne neuen angekündigten Termin. Das Unternehmen, das die Technologie erfunden hat, kämpft darum, das Produkt zu liefern.",
+        "Die technischen Probleme häufen sich. Google warf die erste Version von Gemini 3.5 Pro komplett weg und baute sie von Grund auf neu, weil sie bei Tests zur Code-Generierung und bei komplexen mehrstufigen Anweisungen immer wieder scheiterte. Die neu entwickelte Version bestand diese Tests, stieß aber auf neue Probleme: zu häufige Fehler und unvorhersehbar wechselnde Ausgaben. Unterdessen sind OpenAIs GPT-5.6 und Anthropics Fable 5 bereits bei den Kunden. **Jede Woche, die Gemini seinen Termin verpasst, ziehen die Rivalen weiter davon.**",
+        "Während das Modell ins Stocken geriet, begann das Team zu gehen. In einer einzigen Woche Ende Juni kündigten vier leitende Gemini-Forscher ihren Abgang an. Noam Shazeer — Gemini-Mitverantwortlicher und Co-Autor des ursprünglichen Transformer-Papiers — wechselte zu OpenAI. John Jumper — dessen AlphaFold-Forschung einen Chemie-Nobelpreis eingebracht hatte — wechselte zusammen mit zwei weiteren leitenden Teammitgliedern zu Anthropic. Als Shazeers Abgang öffentlich wurde, fiel Alphabets Aktienkurs um rund 5 % — **und vernichtete an einem einzigen Tag 225 Milliarden Dollar des Unternehmenswertes**.",
+        "Die Lehre ist nicht auf Google beschränkt. Es geht darum, was tatsächlich darüber entscheidet, wer in der KI gewinnt. Mehr Rechenleistung, mehr Daten, ein größerer Markenname — nichts davon hindert talentierte Menschen daran, einen anderen Arbeitgeber zu wählen. Die Forscher, die verstehen, warum ein Modell funktioniert und wie man es repariert, wenn es das nicht tut, sind sehr schwer zu ersetzen. Wer KI-Produkte baut oder entscheidet, mit welchem KI-Unternehmen man arbeiten möchte, sollte wissen: **Das Team hinter dem Modell zählt mehr als der Name auf der Tür**."
+      ],
+      "keyFacts": [
+        { "value": "3rd", "label": "verpasster Starttermin in Folge für Gemini 3.5 Pro" },
+        { "value": "4", "label": "leitende Forscher, die Google in einer Woche verließen" },
+        { "value": "$225B", "label": "Wertverlust bei Alphabet an einem Tag" },
+        { "value": "~5%", "label": "Kursverlust der Alphabet-Aktie" }
+      ]
+    },
+    "nl": {
+      "title": "Talent is de echte slotgracht in AI — en Google verliest het",
+      "summary": "Google heeft drie opeenvolgende deadlines voor zijn beste AI-model gemist en verloor in dezelfde periode vier toponderzoekers aan concurrenten — bewijs dat de mensen achter AI meer tellen dan een merknaam of budget.",
+      "body": [
+        "Google heeft een deel van de wiskundige basis van moderne AI uitgevonden. Het paper \"Attention Is All You Need\" uit 2017, geschreven door Google-onderzoekers, is de fundering waarop vrijwel elk groot AI-systeem vandaag de dag is gebouwd. Toch heeft Googles eigen vlaggenschip-model, Gemini 3.5 Pro, nu **drie lanceringdeadlines op rij gemist** — eerst juni 2026, dan 17 juli, en nu zonder nieuwe aangekondigde datum. Het bedrijf dat de technologie uitvond, worstelt om het product te leveren.",
+        "De technische problemen stapelen zich op. Google gooide de eerste versie van Gemini 3.5 Pro volledig weg en bouwde het van de grond af opnieuw, nadat het steeds tests over code-generatie en complexe meerstapsinstructies niet haalde. De herbouwde versie slaagde voor die tests, maar stuitte op nieuwe problemen: te vaak foutieve antwoorden en onvoorspelbaar wisselende output. Ondertussen zijn OpenAI's GPT-5.6 en Anthropic's Fable 5 al in handen van klanten. **Elke week dat Gemini zijn deadline mist, lopen rivalen verder uit.**",
+        "Terwijl het model bleef haperen, begon het team weg te gaan. In één week eind juni kondigden vier senior Gemini-onderzoekers hun vertrek aan. Noam Shazeer — Gemini-co-lead en mede-auteur van het originele Transformer-paper — trad in dienst bij OpenAI. John Jumper — wiens AlphaFold-onderzoek een Nobelprijs voor Scheikunde opleverde — vertrok naar Anthropic, samen met twee andere senior teamleden. Toen Shazeers vertrek bekend werd, daalde de Alphabet-koers met circa 5%, **en werd er op één dag $225 miljard aan bedrijfswaarde vernietigd**.",
+        "De les geldt niet alleen voor Google. Het gaat om wat er werkelijk bepaalt wie wint in AI. Meer rekenkracht, meer data, een grotere merknaam — niets daarvan weerhoudt getalenteerde mensen ervan een andere werkgever te kiezen. De onderzoekers die begrijpen waarom een model werkt, en hoe je het repareert als dat niet het geval is, zijn erg moeilijk te vervangen. Als je AI-producten bouwt of kiest met welk AI-bedrijf je wilt samenwerken, dan geldt: **het team achter het model telt meer dan de naam op de deur**."
+      ],
+      "keyFacts": [
+        { "value": "3rd", "label": "opeenvolgende lanceringdeadline gemist voor Gemini 3.5 Pro" },
+        { "value": "4", "label": "senior onderzoekers die Google in één week verlieten" },
+        { "value": "$225B", "label": "verdampt uit Alphabets waarde op één dag" },
+        { "value": "~5%", "label": "daling van Alphabets aandelenkoers" }
+      ]
+    },
+    "es": {
+      "title": "El talento es la verdadera ventaja en la IA — y Google lo está perdiendo",
+      "summary": "Google ha incumplido tres plazos consecutivos para su modelo de IA más importante y perdió cuatro de sus mejores investigadores ante rivales en el mismo período — prueba de que las personas que construyen la IA importan más que el nombre o el presupuesto.",
+      "body": [
+        "Google inventó parte de las matemáticas que sustentan la IA moderna. El artículo de 2017 \"Attention Is All You Need,\" escrito por investigadores de Google, es la base sobre la que se construye hoy casi todo gran sistema de IA. Sin embargo, el propio modelo estrella de Google, Gemini 3.5 Pro, ha incumplido ahora **tres plazos de lanzamiento consecutivos** — primero junio de 2026, luego el 17 de julio, y ahora sin nueva fecha anunciada. La empresa que inventó la tecnología tiene dificultades para entregar el producto.",
+        "Los problemas técnicos se han acumulado. Google descartó la primera versión de Gemini 3.5 Pro y la reconstruyó desde cero después de que siguiera fallando en pruebas de generación de código e instrucciones complejas de varios pasos. La versión reconstruida superó esas pruebas pero encontró otras nuevas: respuestas incorrectas con demasiada frecuencia y resultados que cambiaban de forma impredecible. Mientras tanto, GPT-5.6 de OpenAI y Fable 5 de Anthropic ya están en manos de los clientes. **Cada semana que Gemini falla su objetivo, los rivales se alejan más.**",
+        "Mientras el modelo se retrasaba, el equipo empezó a marcharse. En una sola semana a finales de junio, cuatro investigadores senior de Gemini anunciaron su salida. Noam Shazeer — co-responsable de Gemini y coautor del artículo original del Transformer — se unió a OpenAI. John Jumper — cuya investigación en AlphaFold le valió un Premio Nobel de Química — se fue a Anthropic junto con otros dos miembros senior del equipo. El día en que la marcha de Shazeer se hizo pública, las acciones de Alphabet cayeron cerca de un 5%, **borrando 225.000 millones de dólares del valor de la empresa en un solo día**.",
+        "La lección no es solo sobre Google. Es sobre qué determina realmente quién gana en la IA. Más potencia de cómputo, más datos, un nombre de marca más grande — nada de eso impide que las personas con talento elijan otro empleador. Los investigadores que entienden por qué funciona un modelo, y cómo arreglarlo cuando no lo hace, son muy difíciles de reemplazar. Si estás construyendo productos de IA o eligiendo con qué empresa de IA asociarte, **el equipo detrás del modelo importa más que el nombre en la puerta**."
+      ],
+      "keyFacts": [
+        { "value": "3rd", "label": "plazo de lanzamiento consecutivo incumplido para Gemini 3.5 Pro" },
+        { "value": "4", "label": "investigadores senior que dejaron Google en una semana" },
+        { "value": "$225B", "label": "borrados del valor de Alphabet en un día" },
+        { "value": "~5%", "label": "caída del precio de las acciones de Alphabet" }
+      ]
+    },
+    "fr": {
+      "title": "Le talent est le vrai avantage dans l'IA — et Google est en train de le perdre",
+      "summary": "Google a manqué trois délais consécutifs pour son modèle d'IA phare et a perdu quatre de ses meilleurs chercheurs au profit de rivaux dans la même période — la preuve que les personnes qui construisent l'IA comptent plus que le nom ou le budget.",
+      "body": [
+        "Google a inventé une partie des bases mathématiques de l'IA moderne. L'article de 2017 \"Attention Is All You Need,\" rédigé par des chercheurs de Google, est le fondement sur lequel presque tous les grands systèmes d'IA d'aujourd'hui sont construits. Pourtant, le propre modèle phare de Google, Gemini 3.5 Pro, a maintenant manqué **trois délais de lancement consécutifs** — d'abord juin 2026, puis le 17 juillet, et maintenant sans nouvelle date annoncée. L'entreprise qui a inventé la technologie peine à livrer le produit.",
+        "Les problèmes techniques s'accumulent. Google a complètement mis de côté la première version de Gemini 3.5 Pro et l'a reconstruite de zéro après qu'elle ait continué à échouer aux tests de génération de code et aux instructions complexes à plusieurs étapes. La version reconstruite a passé ces tests mais en a rencontré de nouveaux : trop de mauvaises réponses et des résultats qui changeaient de manière imprévisible. Pendant ce temps, GPT-5.6 d'OpenAI et Fable 5 d'Anthropic sont déjà entre les mains des clients. **Chaque semaine que Gemini rate son objectif, les rivaux prennent de l'avance.**",
+        "Pendant que le modèle prenait du retard, l'équipe a commencé à partir. En une seule semaine fin juin, quatre chercheurs seniors de Gemini ont annoncé leur départ. Noam Shazeer — coresponsable de Gemini et coauteur du papier Transformer original — a rejoint OpenAI. John Jumper — dont les travaux sur AlphaFold ont valu un prix Nobel de chimie — a rejoint Anthropic avec deux autres membres seniors de l'équipe. Le jour où le départ de Shazeer est devenu public, le cours d'Alphabet a chuté d'environ 5%, **effaçant 225 milliards de dollars de valeur en une seule journée**.",
+        "La leçon ne concerne pas seulement Google. Il s'agit de ce qui détermine vraiment qui gagne dans l'IA. Plus de puissance de calcul, plus de données, un nom de marque plus grand — rien de tout cela n'empêche les personnes talentueuses de choisir un autre employeur. Les chercheurs qui comprennent pourquoi un modèle fonctionne, et comment le réparer quand il ne fonctionne pas, sont très difficiles à remplacer. Si vous construisez des produits d'IA ou choisissez avec quelle entreprise d'IA vous associer, **l'équipe derrière le modèle compte plus que le nom sur la porte**."
+      ],
+      "keyFacts": [
+        { "value": "3rd", "label": "délai de lancement consécutif manqué pour Gemini 3.5 Pro" },
+        { "value": "4", "label": "chercheurs seniors ayant quitté Google en une semaine" },
+        { "value": "$225B", "label": "effacés de la valeur d'Alphabet en une journée" },
+        { "value": "~5%", "label": "baisse du cours de l'action Alphabet" }
+      ]
+    },
+    "ar": {
+      "title": "الموهبة هي الميزة الحقيقية في الذكاء الاصطناعي — وجوجل تخسرها",
+      "summary": "فوّتت جوجل ثلاثة مواعيد نهائية متتالية لنموذجها الرئيسي في الذكاء الاصطناعي وخسرت أربعة من أبرز باحثيها لصالح منافسين في الفترة ذاتها — دليل على أن الأشخاص الذين يبنون الذكاء الاصطناعي أهم من اسم الشركة أو ميزانيتها.",
+      "body": [
+        "ابتكرت جوجل جزءاً من الأسس الرياضية للذكاء الاصطناعي الحديث. ورقة بحثية نشرها باحثو جوجل عام 2017 بعنوان \"Attention Is All You Need\" هي الركيزة التي يُبنى عليها تقريباً كل نظام ذكاء اصطناعي كبير اليوم. ومع ذلك، أضاع نموذج جوجل الرئيسي Gemini 3.5 Pro الآن **ثلاثة مواعيد إطلاق متتالية** — أولاً يونيو 2026، ثم 17 يوليو، والآن دون تاريخ جديد معلن. الشركة التي ابتكرت التقنية تُكافح لإيصال المنتج.",
+        "المشكلات التقنية تتراكم. ألغت جوجل النسخة الأولى من Gemini 3.5 Pro كلياً وأعادت بناءها من الصفر بعد أن فشلت مراراً في اختبارات توليد الكود واتباع التعليمات المعقدة متعددة الخطوات. النسخة المعاد بناؤها اجتازت تلك الاختبارات لكنها اصطدمت بمشكلات جديدة: إجابات خاطئة كثيرة ومخرجات تتغير بشكل غير متوقع. في هذه الأثناء، GPT-5.6 من OpenAI وFable 5 من Anthropic موجودان بالفعل في أيدي العملاء. **كل أسبوع يفوّت فيه Gemini هدفه، يتقدم المنافسون أكثر.**",
+        "بينما كان النموذج يتأخر، بدأ الفريق في المغادرة. في أسبوع واحد في أواخر يونيو، أعلن أربعة من كبار باحثي Gemini عن رحيلهم. نوام شازير — أحد المسؤولين الرئيسيين عن Gemini ومؤلف مشارك في ورقة Transformer الأصلية — انضم إلى OpenAI. جون جامبر — الذي نال جائزة نوبل في الكيمياء على عمله في AlphaFold — انضم إلى Anthropic مع اثنين آخرين من كبار أعضاء الفريق. يوم أُعلن عن رحيل شازير، هبطت أسهم Alphabet بنحو 5%، **محوةً ما يعادل 225 مليار دولار من قيمة الشركة في يوم واحد**.",
+        "الدرس لا يخص جوجل وحدها. الأمر يتعلق بما يحدد فعلاً من يفوز في الذكاء الاصطناعي. المزيد من قوة الحوسبة، المزيد من البيانات، اسم علامة تجارية أكبر — لا شيء من هذا يمنع الأشخاص الموهوبين من اختيار صاحب عمل آخر. الباحثون الذين يفهمون لماذا يعمل النموذج، وكيف يُصلحونه حين لا يعمل، يصعب استبدالهم جداً. إن كنت تبني منتجات ذكاء اصطناعي أو تختار شركة ذكاء اصطناعي للشراكة معها، تذكّر: **الفريق وراء النموذج أهم من الاسم على الباب**."
+      ],
+      "keyFacts": [
+        { "value": "3rd", "label": "موعد إطلاق متتالٍ تفوّته Gemini 3.5 Pro" },
+        { "value": "4", "label": "باحثون كبار غادروا جوجل في أسبوع واحد" },
+        { "value": "$225B", "label": "محيت من قيمة Alphabet في يوم واحد" },
+        { "value": "~5%", "label": "انخفاض سعر سهم Alphabet" }
+      ]
+    }
+  }
+}
