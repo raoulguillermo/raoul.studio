@@ -1,0 +1,122 @@
+{
+  "slug": "2026-07-20-ai-model-tiers-gpt56",
+  "date": "2026-07-20",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Simon Willison — The new GPT-5.6 family: Luna, Terra, Sol",
+      "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/"
+    },
+    {
+      "title": "MarkTechPost — OpenAI Releases GPT-5.6: A Three-Tier Model Family With Programmatic Tool Calling",
+      "url": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/"
+    },
+    {
+      "title": "Finout — GPT-5.6 Pricing 2026: Sol, Terra and Luna Tiers Explained",
+      "url": "https://www.finout.io/blog/gpt-5.6-pricing-2026-sol-terra-and-luna-tiers-explained"
+    },
+    {
+      "title": "AIapps — Top AI News for July 2026: Breakthroughs, Launches & Trends",
+      "url": "https://www.aiapps.com/blog/top-ai-news-july-breakthroughs-launches-trends/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI models now come in tiers. The cheap ones are surprisingly good.",
+      "summary": "OpenAI's new three-tier model family shows that the most expensive AI is no longer always the smartest choice — and that changes the cost math for every team building with it.",
+      "body": [
+        "A few months ago, choosing an AI model meant picking the best one you could afford. That is changing fast. On July 9, OpenAI launched GPT-5.6 not as a single model but as three — Sol, Terra, and Luna — each built for a different kind of task and priced to match. The family spans a five-times price range: from $1 per million tokens (the chunks of text an AI reads and writes) for Luna, up to $5 for Sol. And the most important part: **the cheaper tiers already beat last year's frontier**.",
+        "Sol handles the hardest work: complex reasoning, security analysis, autonomous agents that run for long periods. Terra covers solid everyday production tasks at half Sol's price. Luna does fast, repetitive jobs — classifying data, writing short replies, routing requests. OpenAI claims Terra and Luna already outperform Claude Fable 5, Anthropic's previous top model, at **one-sixteenth the price with similar results**. That claim is contested on some benchmarks — Claude Fable 5 still leads on software engineering tasks — but the direction is clear: capable AI keeps getting cheaper.",
+        "OpenAI is not alone. Anthropic launched Claude Sonnet 5 at $2 per million input tokens — cheaper than Sol — and describes it as near-flagship quality. Google and xAI are building the same way. Across the board, the market has shifted from one model per lab to whole families with very different prices — and **the cost of good AI has fallen fast**.",
+        "For anyone building products or running automated workflows, the practical move is to think in tiers. Most AI calls in a real product are not hard reasoning problems — they are simple lookups, summaries, or classifications. Routing those to Luna or an equivalent cheap model, and saving Sol-class models for genuinely difficult tasks, **can cut your AI costs by 80% or more** without losing quality where it counts. The question is no longer which company has the best AI. It is whether your team is routing each job to the right model."
+      ],
+      "keyFacts": [
+        { "value": "$1–$5", "label": "per million tokens, GPT-5.6 Luna to Sol" },
+        { "value": "~1/16", "label": "OpenAI's cost claim vs. prior frontier" },
+        { "value": "$2", "label": "Claude Sonnet 5 input price per million tokens" },
+        { "value": "July 9, 2026", "label": "GPT-5.6 generally available" }
+      ]
+    },
+    "de": {
+      "title": "KI-Modelle gibt es jetzt in Stufen. Die günstigen sind überraschend gut.",
+      "summary": "OpenAIs neue dreiteilige Modellfamilie zeigt: Das teuerste KI-Modell ist nicht mehr automatisch die beste Wahl — und das könnte verändern, wie Teams mit KI bauen.",
+      "body": [
+        "Noch vor wenigen Monaten hieß KI-Modell wählen: das beste nehmen, das man sich leisten kann. Das ändert sich schnell. Am 9. Juli brachte OpenAI GPT-5.6 nicht als einzelnes Modell, sondern als drei auf den Markt — Sol, Terra und Luna — jedes für eine andere Art von Aufgabe gebaut und entsprechend bepreist. Die Familie spannt einen fünffachen Preisbereich auf: von 1 Dollar pro Million Tokens (den Textbausteinen, die eine KI liest und schreibt) für Luna bis zu 5 Dollar für Sol. Das Wichtigste dabei: **die günstigeren Stufen übertreffen bereits das frühere Spitzenmodell**.",
+        "Sol übernimmt die schwersten Aufgaben: komplexes Schlussfolgern, Sicherheitsanalysen, autonome Agenten, die lange laufen. Terra deckt solide Alltagsaufgaben zu halbem Sol-Preis ab. Luna erledigt schnelle, repetitive Arbeiten — Daten klassifizieren, kurze Antworten schreiben, Anfragen weiterleiten. OpenAI behauptet, Terra und Luna übertreffen Claude Fable 5, Anthropics bisheriges Spitzenmodell, bei **einem Sechzehntel des Preises mit ähnlichen Ergebnissen**. Diese Aussage ist bei manchen Benchmarks umstritten — Claude Fable 5 führt weiterhin bei Software-Engineering-Aufgaben — doch die Richtung ist klar: leistungsfähige KI wird immer günstiger.",
+        "OpenAI ist nicht allein. Anthropic hat Claude Sonnet 5 für 2 Dollar pro Million Eingabe-Tokens eingeführt — günstiger als Sol — und beschreibt es als nahezu Flaggschiff-Qualität. Google und xAI gehen genauso vor. Die gesamte Branche ist von einem Modell pro Anbieter zu ganzen Familien mit sehr unterschiedlichen Preisen gewechselt — und **die Kosten für gute KI sind schnell gesunken**.",
+        "Für alle, die Produkte entwickeln oder automatisierte Abläufe betreiben, lautet die praktische Konsequenz: in Stufen denken. Die meisten KI-Aufrufe in einem echten Produkt sind keine schwierigen Denkaufgaben — es sind einfache Abfragen, Zusammenfassungen oder Klassifizierungen. Wer diese an Luna oder ein gleichwertiges günstiges Modell weiterleitet und Sol-Klasse-Modelle nur für wirklich schwierige Aufgaben reserviert, **kann die KI-Kosten um 80 % oder mehr senken**, ohne an Qualität zu verlieren. Die Frage lautet nicht mehr: Welcher Anbieter hat die beste KI? Sondern: Leitet Ihr Team jede Aufgabe an das richtige Modell weiter?"
+      ],
+      "keyFacts": [
+        { "value": "$1–$5", "label": "pro Million Tokens, GPT-5.6 von Luna bis Sol" },
+        { "value": "~1/16", "label": "OpenAIs Kostenanspruch gegenüber dem früheren Spitzenmodell" },
+        { "value": "$2", "label": "Claude Sonnet 5 Eingabepreis pro Million Tokens" },
+        { "value": "July 9, 2026", "label": "GPT-5.6 allgemein verfügbar" }
+      ]
+    },
+    "nl": {
+      "title": "AI-modellen bestaan nu in niveaus. De goedkope zijn verrassend goed.",
+      "summary": "De nieuwe driedelige modelfamilie van OpenAI laat zien dat het duurste AI-model niet meer automatisch de slimste keuze is — en dat verandert de kostencalculatie voor elk team dat ermee bouwt.",
+      "body": [
+        "Nog maar een paar maanden geleden betekende een AI-model kiezen: het beste nemen dat je je kon veroorloven. Dat verandert snel. Op 9 juli lanceerde OpenAI GPT-5.6 niet als één model, maar als drie — Sol, Terra en Luna — elk gebouwd voor een ander soort taak en dienovereenkomstig geprijsd. De familie beslaat een vijfvoudig prijsbereik: van 1 dollar per miljoen tokens (de stukjes tekst die een AI leest en schrijft) voor Luna tot 5 dollar voor Sol. Het belangrijkste: **de goedkopere niveaus verslaan al het vroegere topmodel**.",
+        "Sol neemt de zwaarste taken voor zijn rekening: complex redeneren, beveiligingsanalyse, autonome agents die lang doorgaan. Terra dekt solide dagelijkse productietaken af voor de helft van Sols prijs. Luna doet snelle, repetitieve klussen — data classificeren, korte antwoorden schrijven, verzoeken doorsturen. OpenAI stelt dat Terra en Luna Claude Fable 5, het vorige topmodel van Anthropic, overtreffen voor **een zestiende van de prijs met vergelijkbare resultaten**. Die bewering is bij sommige benchmarks betwist — Claude Fable 5 leidt nog steeds op software-engineeringtaken — maar de richting is duidelijk: capabele AI wordt steeds goedkoper.",
+        "OpenAI staat er niet alleen voor. Anthropic lanceerde Claude Sonnet 5 voor 2 dollar per miljoen invoer-tokens — goedkoper dan Sol — en beschrijft het als bijna-vlaggenschip-kwaliteit. Google en xAI bouwen op dezelfde manier. Branchebreed is de verschuiving gemaakt van één model per lab naar volledige families met sterk uiteenlopende prijzen — en **de kosten van goede AI zijn snel gedaald**.",
+        "Voor iedereen die producten bouwt of geautomatiseerde workflows beheert, is de praktische stap: denken in niveaus. De meeste AI-aanroepen in een echt product zijn geen moeilijke redeneerproblemen — het zijn eenvoudige lookups, samenvattingen of classificaties. Die doorsturen naar Luna of een vergelijkbaar goedkoop model, en Sol-klasse-modellen bewaren voor echt moeilijke taken, **kan je AI-kosten met 80% of meer verlagen** zonder kwaliteitsverlies waar het telt. De vraag is niet langer welk bedrijf de beste AI heeft. Het is of jouw team elke taak naar het juiste model stuurt."
+      ],
+      "keyFacts": [
+        { "value": "$1–$5", "label": "per miljoen tokens, GPT-5.6 Luna tot Sol" },
+        { "value": "~1/16", "label": "OpenAIs kostenclaim versus het vroegere topmodel" },
+        { "value": "$2", "label": "Claude Sonnet 5 invoerprijs per miljoen tokens" },
+        { "value": "July 9, 2026", "label": "GPT-5.6 algemeen beschikbaar" }
+      ]
+    },
+    "es": {
+      "title": "Los modelos de IA ahora vienen en niveles. Los baratos son sorprendentemente buenos.",
+      "summary": "La nueva familia de modelos en tres niveles de OpenAI demuestra que el modelo más caro ya no es siempre el más inteligente — y eso cambia el cálculo de costos para cualquier equipo que trabaje con IA.",
+      "body": [
+        "Hace unos meses, elegir un modelo de IA significaba tomar el mejor que pudieras pagar. Eso está cambiando rápido. El 9 de julio, OpenAI lanzó GPT-5.6 no como un modelo único, sino como tres — Sol, Terra y Luna — cada uno diseñado para un tipo diferente de tarea y con su precio correspondiente. La familia abarca un rango de precios cinco veces mayor: de 1 dólar por millón de tokens (los fragmentos de texto que una IA lee y escribe) para Luna hasta 5 dólares para Sol. Y lo más importante: **los niveles más baratos ya superan al mejor modelo del año pasado**.",
+        "Sol está pensado para el trabajo más duro: razonamiento complejo, análisis de seguridad, agentes autónomos que operan durante largos períodos. Terra cubre tareas de producción cotidianas a la mitad del precio de Sol. Luna maneja trabajos rápidos y repetitivos — clasificar datos, redactar respuestas cortas, enrutar solicitudes. OpenAI afirma que Terra y Luna ya superan a Claude Fable 5, el anterior modelo líder de Anthropic, a **un dieciseisavo del precio con resultados similares**. Esa afirmación es debatida en algunos benchmarks — Claude Fable 5 sigue liderando en tareas de ingeniería de software — pero la dirección es clara: la IA capaz sigue abaratándose.",
+        "OpenAI no está sola. Anthropic lanzó Claude Sonnet 5 a 2 dólares por millón de tokens de entrada — más barato que Sol — y lo describe como calidad casi de modelo insignia. Google y xAI construyen de la misma manera. En toda la industria, el mercado ha pasado de un modelo por laboratorio a familias completas con precios muy distintos — y **el costo de la buena IA ha bajado rápido**.",
+        "Para quienes construyen productos o gestionan flujos de trabajo automatizados, el movimiento práctico es pensar en niveles. La mayoría de las llamadas a una IA en un producto real no son problemas de razonamiento difícil — son búsquedas simples, resúmenes o clasificaciones. Enrutar esas tareas a Luna o un modelo barato equivalente, y reservar los modelos de clase Sol solo para tareas genuinamente difíciles, **puede reducir los costos de IA en un 80% o más** sin perder calidad donde importa. La pregunta ya no es qué empresa tiene la mejor IA. Es si tu equipo está enviando cada trabajo al modelo adecuado."
+      ],
+      "keyFacts": [
+        { "value": "$1–$5", "label": "por millón de tokens, GPT-5.6 de Luna a Sol" },
+        { "value": "~1/16", "label": "coste de los niveles baratos según OpenAI vs. anterior líder" },
+        { "value": "$2", "label": "precio de entrada de Claude Sonnet 5 por millón de tokens" },
+        { "value": "July 9, 2026", "label": "disponibilidad general de GPT-5.6" }
+      ]
+    },
+    "fr": {
+      "title": "Les modèles d'IA existent maintenant par niveaux. Les moins chers sont étonnamment efficaces.",
+      "summary": "La nouvelle famille de modèles à trois niveaux d'OpenAI montre que le modèle d'IA le plus cher n'est plus toujours le meilleur choix — et cela change le calcul des coûts pour toute équipe qui construit avec l'IA.",
+      "body": [
+        "Il y a quelques mois, choisir un modèle d'IA signifiait prendre le meilleur que l'on pouvait se permettre. Cela change vite. Le 9 juillet, OpenAI a lancé GPT-5.6 non pas comme un seul modèle, mais comme trois — Sol, Terra et Luna — chacun conçu pour un type de tâche différent et tarifé en conséquence. La famille couvre un écart de prix multiplié par cinq : de 1 dollar par million de tokens (les morceaux de texte qu'une IA lit et écrit) pour Luna à 5 dollars pour Sol. Et le point essentiel : **les niveaux moins chers surpassent déjà l'ancien modèle de référence**.",
+        "Sol est conçu pour les tâches les plus difficiles : raisonnement complexe, analyse de sécurité, agents autonomes fonctionnant sur de longues périodes. Terra couvre les tâches de production courantes à la moitié du prix de Sol. Luna gère les travaux rapides et répétitifs — classer des données, rédiger des réponses courtes, router des requêtes. OpenAI affirme que Terra et Luna surpassent déjà Claude Fable 5, le précédent modèle phare d'Anthropic, à **un seizième du prix pour des résultats similaires**. Cette affirmation est contestée sur certains benchmarks — Claude Fable 5 reste en tête sur les tâches d'ingénierie logicielle — mais la direction est claire : les IA performantes coûtent de moins en moins.",
+        "OpenAI n'est pas seule. Anthropic a lancé Claude Sonnet 5 à 2 dollars par million de tokens en entrée — moins cher que Sol — et le décrit comme une qualité quasi-phare. Google et xAI construisent de la même façon. Sur l'ensemble du marché, on est passé d'un modèle par laboratoire à des familles entières avec des prix très différents — et **le coût d'une bonne IA a baissé vite**.",
+        "Pour ceux qui construisent des produits ou gèrent des flux de travail automatisés, la démarche concrète est de penser par niveaux. La plupart des appels à une IA dans un vrai produit ne sont pas des problèmes de raisonnement difficile — ce sont de simples recherches, résumés ou classifications. Router ces tâches vers Luna ou un modèle bon marché équivalent, et réserver les modèles de classe Sol aux tâches vraiment difficiles, **peut réduire vos coûts d'IA de 80 % ou plus** sans sacrifier la qualité là où elle compte. La question n'est plus de savoir quelle entreprise a la meilleure IA. C'est de savoir si votre équipe envoie chaque tâche au bon modèle."
+      ],
+      "keyFacts": [
+        { "value": "$1–$5", "label": "par million de tokens, GPT-5.6 de Luna à Sol" },
+        { "value": "~1/16", "label": "coût des niveaux bas selon OpenAI vs. ancien modèle de référence" },
+        { "value": "$2", "label": "prix d'entrée de Claude Sonnet 5 par million de tokens" },
+        { "value": "July 9, 2026", "label": "disponibilité générale de GPT-5.6" }
+      ]
+    },
+    "ar": {
+      "title": "نماذج الذكاء الاصطناعي صارت الآن بمستويات. المستويات الأرخص جيدة بشكل مفاجئ.",
+      "summary": "تُظهر عائلة نماذج OpenAI الجديدة بثلاثة مستويات أن الأغلى ثمناً لم يعد دائماً الأذكى — وهذا يغيّر حسابات التكلفة لكل فريق يبني بالذكاء الاصطناعي.",
+      "body": [
+        "قبل بضعة أشهر، كان اختيار نموذج ذكاء اصطناعي يعني أخذ الأفضل الذي تستطيع تحمّل تكلفته. هذا يتغير بسرعة. في التاسع من يوليو، أطلقت OpenAI نموذج GPT-5.6 ليس واحداً بل ثلاثة — Sol وTerra وLuna — كل منها مصمم لنوع مختلف من المهام بسعر مناسب له. تمتد الفجوة السعرية بين النماذج خمسة أضعاف: من دولار واحد لكل مليون رمز (الوحدات النصية الصغيرة التي يقرأها الذكاء الاصطناعي ويكتبها) لنموذج Luna، وصولاً إلى خمسة دولارات لنموذج Sol. والأهم: **المستويات الأرخص تتفوق فعلاً على أفضل نموذج في العام الماضي**.",
+        "Sol مخصص للمهام الأشد صعوبة: الاستدلال المعقد، وتحليل الأمن، والعوامل المستقلة التي تعمل لفترات طويلة. Terra يغطي مهام الإنتاج اليومية بنصف سعر Sol. Luna يتعامل مع الأعمال السريعة والمتكررة — تصنيف البيانات، وكتابة ردود قصيرة، وتوجيه الطلبات. تدّعي OpenAI أن Terra وLuna يتفوقان على Claude Fable 5، النموذج الرائد السابق لشركة Anthropic، بـ **واحد على ستة عشر من التكلفة بنتائج مماثلة**. هذا الادعاء محل جدل في بعض المعايير — لا يزال Claude Fable 5 يتصدر مهام هندسة البرمجيات — لكن الاتجاه واضح: الذكاء الاصطناعي القادر يزداد رخصاً.",
+        "OpenAI ليست الوحيدة. أطلقت Anthropic نموذج Claude Sonnet 5 بسعر دولارين لكل مليون رمز مُدخَل — أرخص من Sol — وتصفه بأنه ذو جودة تقترب من نماذجها الرائدة. تسير Google وxAI على الطريق نفسه. على مستوى السوق بأكمله، انتقل الأمر من نموذج واحد لكل شركة إلى عائلات كاملة بأسعار مختلفة جداً — و**تكلفة الذكاء الاصطناعي الجيد انخفضت بسرعة**.",
+        "لكل من يبني منتجات أو يدير تدفقات عمل آلية، الخطوة العملية هي التفكير بمستويات. معظم استدعاءات الذكاء الاصطناعي في منتج حقيقي ليست مسائل استدلال صعبة — بل عمليات بحث بسيطة، أو تلخيص، أو تصنيف. توجيه هذه المهام نحو Luna أو نموذج رخيص مماثل، وحجز نماذج فئة Sol للمهام الصعبة حقاً، **يمكن أن يخفض تكاليف الذكاء الاصطناعي 80% أو أكثر** دون خسارة الجودة حيث تهم. السؤال لم يعد: أي شركة تمتلك أفضل ذكاء اصطناعي؟ بل: هل يوجّه فريقك كل مهمة إلى النموذج المناسب؟"
+      ],
+      "keyFacts": [
+        { "value": "$1–$5", "label": "لكل مليون رمز، GPT-5.6 من Luna إلى Sol" },
+        { "value": "~1/16", "label": "ادعاء OpenAI بالتكلفة مقارنة بالنموذج الرائد السابق" },
+        { "value": "$2", "label": "سعر إدخال Claude Sonnet 5 لكل مليون رمز" },
+        { "value": "July 9, 2026", "label": "الإتاحة العامة لـ GPT-5.6" }
+      ]
+    }
+  }
+}
