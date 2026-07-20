@@ -244,12 +244,11 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      {/* Insights — three most recent articles, on a distinct teal section.
-          Ink text, not paper: paper on this teal is only 1.89:1, ink is 7.16:1. */}
+      {/* Insights — three most recent articles, on a distinct dark section */}
       {home.insights && insightsPosts.length > 0 ? (
         <section
           className="fullbleed"
-          style={{ background: '#65AAA4', color: '#0F0F0F' }}
+          style={{ background: '#0F0F0F', color: '#D6D9DC' }}
         >
           <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-32">
             <div className="r flex items-end justify-between gap-6 mb-8 md:mb-12">
@@ -308,7 +307,7 @@ export default async function HomePage() {
               </a>
             ) : null}
             <div className="r mt-12 md:mt-16 border-t border-current/20 pt-10 md:pt-14">
-              <NewsletterSignup strings={news} lang={lang} variant="light" />
+              <NewsletterSignup strings={news} lang={lang} variant="dark" />
             </div>
           </div>
         </section>
