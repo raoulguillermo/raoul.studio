@@ -30,6 +30,12 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 }
 .r.in { opacity: 1; transform: none; }
 
+/* Reveals are an enhancement, never a gate on reading the content: if JS never
+   runs (or the reader prefers no motion), show everything immediately. */
+@media (prefers-reduced-motion: reduce) {
+  .r { opacity: 1; transform: none; transition: none; }
+}
+
 .fullbleed {
   width: 100vw;
   margin-left: calc(50% - 50vw);

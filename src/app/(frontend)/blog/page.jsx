@@ -64,9 +64,9 @@ export default async function BlogIndexPage() {
         {posts.length === 0 ? (
           <p className="r text-lg text-mute">{blog.empty}</p>
         ) : (
-          <ul className="r divide-y divide-ink/10">
+          <ul className="divide-y divide-ink/10">
             {posts.map((p) => (
-              <li key={p.slug} className="py-8 md:py-10">
+              <li key={p.slug} className="r py-8 md:py-10">
                 <a href={`/blog/${p.slug}`} className="ul block group">
                   <div className="text-[11px] uppercase tracking-[.18em] mb-3 font-semibold text-mute">
                     {getPillarLabel(p.pillar, lang) ? (

@@ -13,7 +13,10 @@ export default function SiteEffects() {
             io.unobserve(e.target)
           }
         }),
-      { threshold: 0.15 },
+      // threshold 0 + a bottom margin, deliberately NOT a percentage of the element:
+      // an element taller than ~6.7 viewports can never show 15% of itself at once,
+      // so a percentage threshold left long lists and long articles stuck at opacity 0.
+      { threshold: 0, rootMargin: '0px 0px -10% 0px' },
     )
     document.querySelectorAll('.r').forEach((el) => io.observe(el))
 

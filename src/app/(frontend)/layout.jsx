@@ -208,6 +208,10 @@ export default async function FrontendLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <noscript>
+          {/* Reveal animations are JS-driven; without JS the content must still be readable. */}
+          <style>{`.r{opacity:1!important;transform:none!important}`}</style>
+        </noscript>
       </head>
       <body>
         <main className="max-w-[1200px] mx-auto px-6 md:px-10">{children}</main>
