@@ -244,11 +244,11 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      {/* Insights — three most recent articles, on a distinct dark section */}
+      {/* Insights — three most recent articles, on a distinct grey section */}
       {home.insights && insightsPosts.length > 0 ? (
         <section
           className="fullbleed"
-          style={{ background: '#0F0F0F', color: '#D6D9DC' }}
+          style={{ background: 'rgb(101 105 108)', color: '#D6D9DC' }}
         >
           <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-32">
             <div className="r flex items-end justify-between gap-6 mb-8 md:mb-12">
