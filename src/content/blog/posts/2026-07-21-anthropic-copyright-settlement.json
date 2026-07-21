@@ -1,0 +1,114 @@
+{
+  "slug": "2026-07-21-anthropic-copyright-settlement",
+  "date": "2026-07-21",
+  "tags": ["ai"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "SiliconAngle — Anthropic settles with authors and publishers for $1.5 billion in landmark copyright case",
+      "url": "https://siliconangle.com/2026/07/20/anthropic-settles-authors-publishers-1-5-billion-landmark-copyright-case/"
+    },
+    {
+      "title": "Bloomberg Law — Anthropic, Authors' $1.5 Billion Deal Earns Final Approval",
+      "url": "https://news.bloomberglaw.com/ip-law/anthropic-authors-1-5-billion-deal-receives-final-approval"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI's copyright bill just came due — what the $1.5 billion Anthropic settlement changes",
+      "summary": "A US court approved the biggest copyright payout in American history against an AI company, setting a precedent for five more AI giants still in court over the same issue.",
+      "body": [
+        "On Monday, a US judge approved a $1.5 billion settlement between Anthropic and the authors of more than 480,000 books — **the largest copyright class action settlement in American history**. Anthropic trained its Claude AI on those books, but it had downloaded them from illegal piracy sites, including Library Genesis, a massive archive of stolen texts.",
+        "The judge drew a careful line. Training AI on copyrighted material might still be allowed under US law — there is a legal rule called fair use that lets you copy some things without permission. But downloading those books from piracy sites first is a separate act, and **that distinction just cost $1.5 billion**. Anthropic must also destroy every pirated file it holds.",
+        "Individual authors receive roughly $3,100 per book — small for any one person, but historic as a legal precedent. **Five major AI companies still face similar suits**: OpenAI, Meta, Google, Midjourney, and Perplexity. Each of them is now calculating their risk with this settlement as the reference point.",
+        "For anyone building AI products, the message is simple: where your training data comes from is now a legal question, not just an ethical one. Courts have not banned training on copyrighted text — that debate is still going. But getting it from piracy sites is firmly off the table. **Licensed data and content that users agreed to share are the safe ground**, and knowing that is a genuine business advantage."
+      ],
+      "keyFacts": [
+        { "value": "$1.5B", "label": "total settlement — largest copyright deal in US history" },
+        { "value": "$3,100", "label": "paid to each book author" },
+        { "value": "480,000+", "label": "books covered by the deal" },
+        { "value": "5", "label": "major AI companies still facing similar suits" }
+      ]
+    },
+    "de": {
+      "title": "KI-Urheberrecht bekommt einen Preis — was die 1,5-Milliarden-Einigung von Anthropic bedeutet",
+      "summary": "Ein US-Gericht hat die größte urheberrechtliche Sammelklageeinigung der amerikanischen Geschichte gegen ein KI-Unternehmen genehmigt — und schafft damit einen Präzedenzfall für fünf weitere KI-Konzerne, die noch vor Gericht stehen.",
+      "body": [
+        "Am Montag genehmigte ein US-Richter eine Einigung über 1,5 Milliarden Dollar zwischen Anthropic und den Autoren von mehr als 480.000 Büchern — **die größte urheberrechtliche Sammelklageeinigung in der Geschichte der USA**. Anthropic hatte seinen Claude-KI auf diesen Büchern trainiert, sie jedoch von illegalen Piratenseiten heruntergeladen, darunter Library Genesis, ein riesiges Archiv gestohlener Texte.",
+        "Der Richter zog eine wichtige Grenze. Ob das Training von KI auf urheberrechtlich geschütztem Material nach US-Recht erlaubt ist — es gibt dort eine Regel namens Fair Use, die bestimmtes Kopieren ohne Genehmigung erlaubt — bleibt offen. Doch das vorherige Herunterladen dieser Bücher von Piratenseiten ist ein eigenständiger Akt, und **dieser Unterschied hat 1,5 Milliarden Dollar gekostet**. Anthropic muss außerdem alle illegal erworbenen Dateien vernichten.",
+        "Einzelne Autoren erhalten rund 3.100 Dollar pro Buch — für jeden Einzelnen wenig, als Rechtspräzedenzfall jedoch historisch bedeutsam. **Fünf große KI-Unternehmen stehen noch vor ähnlichen Klagen**: OpenAI, Meta, Google, Midjourney und Perplexity. Jedes von ihnen kalkuliert sein Risiko jetzt mit dieser Einigung als Referenzpunkt.",
+        "Für alle, die KI-Produkte entwickeln, ist die Botschaft klar: Die Frage, woher die Trainingsdaten stammen, ist jetzt eine Rechtsfrage — nicht nur eine ethische. Gerichte haben das Training mit urheberrechtlich geschützten Texten nicht verboten, diese Debatte ist noch offen. Aber deren Beschaffung über Piratenseiten ist eindeutig ausgeschlossen. **Lizenzierte Daten und Inhalte, denen Nutzer zugestimmt haben, sind der sichere Weg** — und das zu wissen ist ein echter Geschäftsvorteil."
+      ],
+      "keyFacts": [
+        { "value": "$1.5B", "label": "Gesamteinigung — größter Urheberrechtsfall in US-Geschichte" },
+        { "value": "$3,100", "label": "Zahlung pro Buchautor" },
+        { "value": "480,000+", "label": "Bücher, die durch die Einigung abgedeckt sind" },
+        { "value": "5", "label": "große KI-Unternehmen mit noch laufenden ähnlichen Klagen" }
+      ]
+    },
+    "nl": {
+      "title": "De rekening voor AI-auteursrecht is gepresenteerd — wat de $1,5 miljard-schikking van Anthropic verandert",
+      "summary": "Een Amerikaanse rechtbank keurde de grootste auteursrechtschikking in de Amerikaanse geschiedenis goed tegen een AI-bedrijf, en stelt daarmee een precedent voor vijf andere AI-giganten die nog voor de rechter staan.",
+      "body": [
+        "Maandag keurde een Amerikaanse rechter een schikking goed van $1,5 miljard tussen Anthropic en de auteurs van meer dan 480.000 boeken — **de grootste collectieve auteursrechtschikking in de Amerikaanse geschiedenis**. Anthropic trainde zijn Claude-AI op die boeken, maar had ze gedownload van illegale piraterijsites, waaronder Library Genesis, een enorm archief van gestolen teksten.",
+        "De rechter trok een duidelijke lijn. Of het trainen van AI op auteursrechtelijk beschermd materiaal is toegestaan onder Amerikaans recht — er bestaat een regel genaamd fair use die bepaald kopiëren zonder toestemming toestaat — blijft een open vraag. Maar die boeken eerst van piraterijsites halen is een afzonderlijk vergrijp, en **dat onderscheid kostte $1,5 miljard**. Anthropic moet ook elk illegaal verkregen bestand vernietigen.",
+        "Individuele auteurs ontvangen ongeveer $3.100 per boek — weinig voor één persoon, maar historisch als juridisch precedent. **Vijf grote AI-bedrijven staan nog voor vergelijkbare rechtszaken**: OpenAI, Meta, Google, Midjourney en Perplexity. Elk van hen berekent nu het risico met deze schikking als referentie.",
+        "Voor iedereen die AI-producten bouwt, is de boodschap eenvoudig: waar je trainingsdata vandaan komt, is nu een juridische vraag, niet alleen een ethische. Rechtbanken hebben training op auteursrechtelijk beschermd materiaal niet verboden — dat debat loopt nog. Maar het van piraterijsites halen is duidelijk uitgesloten. **Gelicentieerde data en content waarvoor gebruikers toestemming gaven zijn de veilige keuze**, en dat weten is een echt zakelijk voordeel."
+      ],
+      "keyFacts": [
+        { "value": "$1.5B", "label": "totale schikking — grootste auteursrechtzaak in de VS" },
+        { "value": "$3,100", "label": "uitbetaald aan elke boekauteur" },
+        { "value": "480,000+", "label": "boeken gedekt door de schikking" },
+        { "value": "5", "label": "grote AI-bedrijven met nog lopende vergelijkbare zaken" }
+      ]
+    },
+    "es": {
+      "title": "La factura de derechos de autor de la IA ya llegó — lo que cambia el acuerdo de $1.500 millones de Anthropic",
+      "summary": "Un tribunal estadounidense aprobó el mayor acuerdo de derechos de autor en la historia de EE. UU. contra una empresa de IA, sentando un precedente para cinco gigantes tecnológicos más que aún están en los tribunales.",
+      "body": [
+        "El lunes, un juez estadounidense aprobó un acuerdo de $1.500 millones entre Anthropic y los autores de más de 480.000 libros — **el mayor acuerdo de acción colectiva por derechos de autor en la historia de Estados Unidos**. Anthropic entrenó su IA Claude con esos libros, pero los había descargado de sitios de piratería ilegales, entre ellos Library Genesis, un vasto archivo de textos robados.",
+        "El juez trazó una línea clara. Que entrenar una IA con material protegido por derechos de autor sea legal en Estados Unidos — existe una norma llamada uso legítimo que permite copiar algunas cosas sin permiso — sigue siendo una cuestión abierta. Pero descargar esos libros de sitios de piratería primero es un acto distinto, y **esa distinción acaba de costar $1.500 millones**. Anthropic también debe destruir todos los archivos obtenidos ilegalmente.",
+        "Los autores individuales reciben aproximadamente $3.100 por libro — poco para cada persona, pero histórico como precedente legal. **Cinco grandes empresas de IA todavía enfrentan demandas similares**: OpenAI, Meta, Google, Midjourney y Perplexity. Cada una de ellas calcula ahora su riesgo con esta cifra como referencia.",
+        "Para quienes desarrollan productos de IA, el mensaje es claro: de dónde vienen los datos de entrenamiento es ahora una pregunta legal, no solo ética. Los tribunales no han prohibido entrenar con texto protegido por derechos de autor — ese debate continúa. Pero obtenerlos de sitios de piratería está claramente descartado. **Los datos con licencia y el contenido que los usuarios aceptaron compartir son el camino seguro**, y saberlo es una ventaja real de negocio."
+      ],
+      "keyFacts": [
+        { "value": "$1.5B", "label": "total del acuerdo — el mayor caso de derechos de autor en EE. UU." },
+        { "value": "$3,100", "label": "pagado a cada autor de libro" },
+        { "value": "480,000+", "label": "libros cubiertos por el acuerdo" },
+        { "value": "5", "label": "grandes empresas de IA con demandas similares pendientes" }
+      ]
+    },
+    "fr": {
+      "title": "La facture des droits d'auteur en IA vient de tomber — ce que change l'accord d'1,5 milliard d'Anthropic",
+      "summary": "Un tribunal américain a approuvé le plus grand accord de droits d'auteur de l'histoire des États-Unis contre une entreprise d'IA, créant un précédent pour cinq autres géants technologiques encore en procès.",
+      "body": [
+        "Lundi, un juge américain a approuvé un accord de 1,5 milliard de dollars entre Anthropic et les auteurs de plus de 480 000 livres — **le plus grand règlement de recours collectif pour droits d'auteur de l'histoire des États-Unis**. Anthropic avait entraîné son IA Claude sur ces livres, mais les avait téléchargés depuis des sites de piraterie illégaux, dont Library Genesis, une vaste archive de textes volés.",
+        "Le juge a tracé une ligne claire. La question de savoir si entraîner une IA sur du matériel protégé par le droit d'auteur est légal aux États-Unis — il existe une règle appelée usage loyal qui autorise certaines copies sans permission — reste ouverte. Mais télécharger ces livres depuis des sites pirates au préalable est un acte distinct, et **cette distinction vient de coûter 1,5 milliard de dollars**. Anthropic doit également détruire chaque fichier obtenu illégalement.",
+        "Les auteurs individuels reçoivent environ 3 100 dollars par livre — peu pour chacun, mais historique comme précédent juridique. **Cinq grandes entreprises d'IA font encore face à des poursuites similaires** : OpenAI, Meta, Google, Midjourney et Perplexity. Chacune d'elles évalue désormais son risque avec cet accord comme référence.",
+        "Pour ceux qui développent des produits d'IA, le message est simple : la provenance des données d'entraînement est désormais une question juridique, pas seulement éthique. Les tribunaux n'ont pas interdit l'entraînement sur du texte protégé par le droit d'auteur — ce débat se poursuit. Mais l'obtenir depuis des sites pirates est clairement exclu. **Les données sous licence et les contenus que les utilisateurs ont accepté de partager sont la voie sûre**, et le savoir constitue un avantage commercial réel."
+      ],
+      "keyFacts": [
+        { "value": "$1.5B", "label": "montant total — plus grand accord de droits d'auteur aux États-Unis" },
+        { "value": "$3,100", "label": "versés à chaque auteur de livre" },
+        { "value": "480,000+", "label": "livres couverts par l'accord" },
+        { "value": "5", "label": "grandes entreprises d'IA face à des poursuites similaires" }
+      ]
+    },
+    "ar": {
+      "title": "فاتورة حقوق النشر في الذكاء الاصطناعي حلّت — ما الذي تغيّره تسوية Anthropic البالغة 1.5 مليار دولار",
+      "summary": "وافقت محكمة أمريكية على أكبر تسوية لحقوق النشر في التاريخ الأمريكي ضد شركة ذكاء اصطناعي، مما يضع سابقة لخمسة عمالقة تقنية آخرين لا يزالون أمام المحاكم.",
+      "body": [
+        "يوم الاثنين، وافق قاضٍ أمريكي على تسوية بقيمة 1.5 مليار دولار بين Anthropic ومؤلفي ما يزيد على 480,000 كتاب — **أكبر تسوية دعوى جماعية لحقوق النشر في تاريخ الولايات المتحدة**. كانت Anthropic قد درّبت نموذجها Claude على هذه الكتب، إلا أنها كانت قد نزّلتها من مواقع قرصنة غير مشروعة، من بينها Library Genesis، وهو أرشيف ضخم للنصوص المسروقة.",
+        "رسم القاضي خطًّا واضحًا. مسألة ما إذا كان تدريب الذكاء الاصطناعي على مواد محمية بحقوق النشر مسموحًا به قانونًا في الولايات المتحدة — ثمة قاعدة تُسمى الاستخدام العادل تُجيز نسخ بعض المواد دون إذن — لا تزال مفتوحة. لكن تنزيل تلك الكتب من مواقع القرصنة أولًا فعلٌ مستقل بذاته، و**هذا الفارق وحده كلّف 1.5 مليار دولار**. كما يجب على Anthropic تدمير جميع الملفات المُستحصَل عليها بصورة غير مشروعة.",
+        "يحصل كل مؤلف على نحو 3,100 دولار عن كل كتاب — مبلغ متواضع للفرد، لكنه تاريخي بوصفه سابقة قانونية. **خمس شركات ذكاء اصطناعي كبرى لا تزال تواجه دعاوى مماثلة**: OpenAI وMeta وGoogle وMidjourney وPerplexity. وكل واحدة منها تقيّم الآن مخاطرها مع هذه التسوية كمرجع.",
+        "لكل من يبني منتجات الذكاء الاصطناعي، الرسالة العملية واضحة: من أين تأتي ببيانات التدريب باتت سؤالًا قانونيًّا لا أخلاقيًّا فحسب. لم تحظر المحاكم التدريب على النصوص المحمية بحقوق النشر — هذا النقاش لا يزال مستمرًّا. لكن الحصول عليها من مواقع القرصنة أمرٌ مرفوض بشكل قاطع. **البيانات المرخّصة والمحتوى الذي وافق عليه المستخدمون هما الأرضية الآمنة** — ومعرفة ذلك ميزة تجارية حقيقية."
+      ],
+      "keyFacts": [
+        { "value": "$1.5B", "label": "إجمالي التسوية — أكبر قضية حقوق نشر في تاريخ الولايات المتحدة" },
+        { "value": "$3,100", "label": "تُدفع لكل مؤلف كتاب" },
+        { "value": "480,000+", "label": "كتاب مشمول بالتسوية" },
+        { "value": "5", "label": "شركات ذكاء اصطناعي كبرى تواجه دعاوى مماثلة" }
+      ]
+    }
+  }
+}
