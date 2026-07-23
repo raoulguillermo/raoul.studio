@@ -1,0 +1,127 @@
+{
+  "slug": "2026-07-23-gemini-flash-cheaper-frontier-models",
+  "date": "2026-07-23",
+  "tags": ["ai", "google", "llm"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/07/google-ships-three-gemini-flash-models-flagship-slips.png",
+    "alt": "Google Gemini Flash model announcement graphic",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    {
+      "title": "Google Blog — Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    },
+    {
+      "title": "TechCrunch — Google releases three new Gemini models — but no 3.5 Pro",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"
+    },
+    {
+      "title": "SiliconANGLE — Google expands Gemini with cheaper models and a bug-hunter it keeps on a leash",
+      "url": "https://siliconangle.com/2026/07/21/google-expands-gemini-cheaper-models-bug-hunter-keeps-leash/"
+    },
+    {
+      "title": "Unite.AI — Google Ships Three Gemini Flash Models as Its Flagship Slips",
+      "url": "https://www.unite.ai/google-ships-three-gemini-flash-models-as-its-flagship-slips/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The everyday AI models just got cheaper — and that matters more than a flagship",
+      "summary": "Google's new Flash models use fewer tokens and cost less to run, which means AI-powered products are now cheaper to build and operate.",
+      "body": [
+        "Most news about AI focuses on the big flagship models — the ones that win benchmarks and dominate headlines. But **most real products run on smaller, faster models** called Flash, which are priced for high-volume, everyday use. On July 21, Google updated three of them.",
+        "Gemini 3.6 Flash is the headline update. Google says it uses **17% fewer output tokens** to complete the same work as its predecessor. Tokens are the small chunks of text (and code and data) that AI charges you for — fewer tokens means a lower bill. The output price dropped too, from $9 to $7.50 per million tokens.",
+        "The cheapest option, Gemini 3.5 Flash-Lite, costs just $0.30 per million input tokens and $2.50 per million output tokens. Harvey AI — a legal technology company that uses Gemini in production — reported that its workflows ran **12% faster on average** with the new model. That kind of real-world result matters more than benchmark scores.",
+        "Google's flagship Gemini 3.5 Pro is still only in limited testing, while competitors like Anthropic and OpenAI have shipped major updates. The competition at the top stays open. But for most builders who depend on Flash-tier models, **a 17% token cut adds up fast** at production scale — and now is the right moment to revisit your AI cost estimates."
+      ],
+      "keyFacts": [
+        { "value": "17%", "label": "fewer output tokens for Gemini 3.6 Flash" },
+        { "value": "$7.50", "label": "per million output tokens (down from $9)" },
+        { "value": "$0.30 / $2.50", "label": "Flash-Lite input / output price per million tokens" },
+        { "value": "12%", "label": "faster in production, reported by Harvey AI" }
+      ]
+    },
+    "de": {
+      "title": "Die KI-Modelle für den Alltag sind günstiger geworden — das zählt mehr als ein Flaggschiff",
+      "summary": "Googles neue Flash-Modelle brauchen weniger Token und kosten weniger im Betrieb — das macht KI-gestützte Produkte für alle, die sie bauen, billiger.",
+      "body": [
+        "Die meisten KI-Schlagzeilen drehen sich um die großen Flaggschiff-Modelle — jene, die Benchmarks gewinnen und Headlines machen. Aber **die meisten echten Produkte laufen auf kleineren, schnelleren Modellen** namens Flash, die für täglichen Einsatz in großem Umfang konzipiert sind. Am 21. Juli hat Google drei davon aktualisiert.",
+        "Gemini 3.6 Flash ist das wichtigste Update. Google zufolge braucht es **17 % weniger Output-Token**, um dieselbe Arbeit zu erledigen wie sein Vorgänger. Token sind die kleinen Einheiten aus Text, Code und Daten, die KI abrechnet — weniger Token bedeutet eine kleinere Rechnung. Auch der Ausgabepreis sank, von 9 auf 7,50 Dollar pro Million Token.",
+        "Die günstigste Option, Gemini 3.5 Flash-Lite, kostet nur 0,30 Dollar pro Million Eingabe-Token und 2,50 Dollar pro Million Ausgabe-Token. Harvey AI — ein Rechtstechnologie-Unternehmen, das Gemini im Echtbetrieb nutzt — berichtete, dass seine Workflows mit dem neuen Modell **im Schnitt 12 % schneller** liefen. Solche Praxisergebnisse zählen mehr als Benchmark-Punkte.",
+        "Googles Flaggschiff Gemini 3.5 Pro befindet sich noch immer nur in begrenzten Tests, während Wettbewerber wie Anthropic und OpenAI große Updates geliefert haben. Die Konkurrenz an der Spitze bleibt offen. Aber für die meisten Entwickler, die auf Flash-Modelle setzen, gilt: **17 % weniger Token summieren sich schnell** im Produktionsbetrieb — und jetzt ist der richtige Zeitpunkt, die eigenen KI-Kosten neu zu kalkulieren."
+      ],
+      "keyFacts": [
+        { "value": "17%", "label": "weniger Output-Token bei Gemini 3.6 Flash" },
+        { "value": "$7,50", "label": "pro Million Output-Token (vorher $9)" },
+        { "value": "$0,30 / $2,50", "label": "Flash-Lite Eingabe / Ausgabe pro Million Token" },
+        { "value": "12%", "label": "schneller im Echtbetrieb, laut Harvey AI" }
+      ]
+    },
+    "nl": {
+      "title": "De alledaagse AI-modellen zijn goedkoper geworden — en dat telt zwaarder dan een topmodel",
+      "summary": "Googles nieuwe Flash-modellen gebruiken minder tokens en kosten minder, waardoor AI-producten bouwen voor iedereen betaalbaarder wordt.",
+      "body": [
+        "Het meeste AI-nieuws gaat over de grote topmodellen — de modellen die benchmarks winnen en krantenkoppen halen. Maar **de meeste echte producten draaien op kleinere, snellere modellen** genaamd Flash, die geprijsd zijn voor dagelijks gebruik op grote schaal. Op 21 juli bracht Google drie van die modellen bij.",
+        "Gemini 3.6 Flash is de belangrijkste update. Volgens Google gebruikt het model **17% minder output-tokens** voor hetzelfde werk als zijn voorganger. Tokens zijn de kleine stukjes tekst, code en data waarvoor AI je rekent — minder tokens betekent een lagere rekening. De outputprijs daalde ook, van $9 naar $7,50 per miljoen tokens.",
+        "De goedkoopste optie, Gemini 3.5 Flash-Lite, kost slechts $0,30 per miljoen input-tokens en $2,50 per miljoen output-tokens. Harvey AI — een juridisch technologiebedrijf dat Gemini in productie gebruikt — rapporteerde dat zijn workflows met het nieuwe model **gemiddeld 12% sneller** verliepen. Zulke praktijkresultaten tellen zwaarder dan benchmarkscores.",
+        "Googles topmodel Gemini 3.5 Pro zit nog steeds in beperkte tests, terwijl concurrenten als Anthropic en OpenAI grote updates hebben uitgebracht. De strijd aan de top blijft open. Maar voor de meeste builders die op Flash-modellen vertrouwen geldt: **17% minder tokens telt snel op** bij productieschaal — en nu is het juiste moment om je AI-kosten opnieuw te berekenen."
+      ],
+      "keyFacts": [
+        { "value": "17%", "label": "minder output-tokens voor Gemini 3.6 Flash" },
+        { "value": "$7,50", "label": "per miljoen output-tokens (was $9)" },
+        { "value": "$0,30 / $2,50", "label": "Flash-Lite input / output per miljoen tokens" },
+        { "value": "12%", "label": "sneller in productie, volgens Harvey AI" }
+      ]
+    },
+    "es": {
+      "title": "Los modelos de IA del día a día acaban de abaratarse — y eso importa más que un modelo insignia",
+      "summary": "Los nuevos modelos Flash de Google usan menos tokens y cuestan menos, lo que abarata el desarrollo y la operación de productos con IA.",
+      "body": [
+        "La mayoría de las noticias sobre IA se centran en los grandes modelos insignia: los que ganan benchmarks y acaparan titulares. Pero **la mayoría de los productos reales funcionan con modelos más pequeños y rápidos** llamados Flash, diseñados para un uso masivo y cotidiano. El 21 de julio, Google actualizó tres de ellos.",
+        "Gemini 3.6 Flash es la actualización más destacada. Google dice que usa **un 17 % menos de tokens de salida** para completar el mismo trabajo que su predecesor. Los tokens son los pequeños fragmentos de texto, código y datos que la IA te cobra — menos tokens significa una factura más baja. El precio de salida también bajó, de $9 a $7,50 por millón de tokens.",
+        "La opción más económica, Gemini 3.5 Flash-Lite, cuesta solo $0,30 por millón de tokens de entrada y $2,50 por millón de tokens de salida. Harvey AI — una empresa de tecnología legal que usa Gemini en producción — informó que sus flujos de trabajo funcionaron **un 12 % más rápido de media** con el nuevo modelo. Ese tipo de resultado práctico importa más que los puntos de referencia.",
+        "El modelo insignia de Google, Gemini 3.5 Pro, todavía está en pruebas limitadas, mientras que competidores como Anthropic y OpenAI han lanzado grandes actualizaciones. La competencia en la cima sigue abierta. Pero para la mayoría de los desarrolladores que dependen de los modelos Flash, **una reducción del 17 % en tokens se acumula rápido** a escala de producción — y ahora es el momento adecuado para revisar tus estimaciones de costes de IA."
+      ],
+      "keyFacts": [
+        { "value": "17%", "label": "menos tokens de salida en Gemini 3.6 Flash" },
+        { "value": "$7,50", "label": "por millón de tokens de salida (antes $9)" },
+        { "value": "$0,30 / $2,50", "label": "Flash-Lite entrada / salida por millón de tokens" },
+        { "value": "12%", "label": "más rápido en producción, según Harvey AI" }
+      ]
+    },
+    "fr": {
+      "title": "Les modèles d'IA du quotidien viennent de devenir moins chers — et c'est plus important qu'un modèle phare",
+      "summary": "Les nouveaux modèles Flash de Google consomment moins de tokens et coûtent moins cher, ce qui rend le développement de produits IA moins coûteux pour tous ceux qui les construisent.",
+      "body": [
+        "La plupart des actualités sur l'IA portent sur les grands modèles phares — ceux qui remportent les benchmarks et font les manchettes. Mais **la plupart des produits réels tournent sur des modèles plus petits et rapides** appelés Flash, conçus pour un usage quotidien à grande échelle. Le 21 juillet, Google en a mis trois à jour.",
+        "Gemini 3.6 Flash est la mise à jour la plus importante. Google affirme qu'il utilise **17 % de tokens de sortie en moins** pour accomplir le même travail que son prédécesseur. Les tokens sont les petits morceaux de texte, de code et de données que l'IA vous facture — moins de tokens signifie une facture moins élevée. Le prix de sortie a également baissé, de 9 à 7,50 dollars par million de tokens.",
+        "L'option la moins chère, Gemini 3.5 Flash-Lite, coûte seulement 0,30 dollar par million de tokens d'entrée et 2,50 dollars par million de tokens de sortie. Harvey AI — une entreprise de technologie juridique utilisant Gemini en production — a rapporté que ses flux de travail ont tourné **12 % plus vite en moyenne** avec le nouveau modèle. Ce type de résultat concret compte davantage que les scores de benchmarks.",
+        "Le modèle phare de Google, Gemini 3.5 Pro, est encore en tests limités, tandis que des concurrents comme Anthropic et OpenAI ont livré des mises à jour majeures. La compétition au sommet reste ouverte. Mais pour la plupart des développeurs qui s'appuient sur les modèles Flash, **une réduction de 17 % en tokens s'accumule vite** à l'échelle de la production — et c'est maintenant le bon moment pour revoir vos estimations de coûts IA."
+      ],
+      "keyFacts": [
+        { "value": "17%", "label": "tokens de sortie en moins pour Gemini 3.6 Flash" },
+        { "value": "$7,50", "label": "par million de tokens de sortie (contre $9)" },
+        { "value": "$0,30 / $2,50", "label": "Flash-Lite entrée / sortie par million de tokens" },
+        { "value": "12%", "label": "plus rapide en production, selon Harvey AI" }
+      ]
+    },
+    "ar": {
+      "title": "نماذج الذكاء الاصطناعي اليومية باتت أرخص — وهذا أهمّ من أي نموذج رائد",
+      "summary": "النماذج الجديدة Flash من Google تستخدم رموزاً أقل وتكلّف أقل، مما يجعل بناء المنتجات المدعومة بالذكاء الاصطناعي أقل تكلفةً على الجميع.",
+      "body": [
+        "تتمحور معظم أخبار الذكاء الاصطناعي حول النماذج الكبرى المتميزة — تلك التي تتصدّر المقاييس وتحتلّ العناوين. لكن **معظم المنتجات الحقيقية تعمل على نماذج أصغر وأسرع** تُسمّى Flash، مصمَّمة للاستخدام اليومي على نطاق واسع. في 21 يوليو، أصدرت Google تحديثاً لثلاثة منها.",
+        "Gemini 3.6 Flash هو أبرز هذه التحديثات. تقول Google إنه يستخدم **17% رموزاً ناتجة أقل** لإنجاز نفس العمل مقارنةً بسابقه. الرموز — Tokens — هي الوحدات الصغيرة من النصوص والكود والبيانات التي تحتسبها نماذج الذكاء الاصطناعي في فواتيرها؛ أقل رموزاً يعني فاتورةً أقل. انخفض سعر الإخراج أيضاً من 9 إلى 7.50 دولار لكل مليون رمز.",
+        "أما الخيار الأوفر، Gemini 3.5 Flash-Lite، فيكلّف 0.30 دولار فقط لكل مليون رمز إدخال و2.50 دولار لكل مليون رمز إخراج. أفادت Harvey AI — شركة تقنية قانونية تستخدم Gemini في بيئة الإنتاج — بأن سير أعمالها بات **أسرع بنسبة 12% في المتوسط** مع النموذج الجديد. هذا النوع من النتائج الفعلية أهمّ بكثير من درجات المقاييس.",
+        "لا يزال النموذج الرائد Gemini 3.5 Pro في مرحلة الاختبار المحدود، في حين أطلق منافسون كـ Anthropic وOpenAI تحديثات كبرى. المنافسة في قمة السوق لا تزال مفتوحة. لكن بالنسبة لمعظم المطوّرين الذين يعتمدون على نماذج Flash، **توفير 17% من الرموز يتراكم بسرعة** على نطاق الإنتاج — والوقت مناسب الآن لإعادة حساب تكاليف الذكاء الاصطناعي."
+      ],
+      "keyFacts": [
+        { "value": "17%", "label": "رموز إخراج أقل في Gemini 3.6 Flash" },
+        { "value": "$7.50", "label": "لكل مليون رمز إخراج (كان $9)" },
+        { "value": "$0.30 / $2.50", "label": "Flash-Lite إدخالاً / إخراجاً لكل مليون رمز" },
+        { "value": "12%", "label": "أسرع في الإنتاج وفق Harvey AI" }
+      ]
+    }
+  }
+}
