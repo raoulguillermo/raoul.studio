@@ -139,7 +139,7 @@ export const pages = {
             text: 'Meer gebruikers, meer data, meer talen, meer features — het systeem is gebouwd om het aan te kunnen.',
           },
           {
-            text: 'We blijven betrokken. Het meeste van ons werk is langetermijn, en we behandelen wat we bouwen alsof het van onszelf is.',
+            text: 'We blijven betrokken. Het meeste van ons werk is langlopend, en we behandelen wat we bouwen alsof het van onszelf is.',
           },
         ],
       },
@@ -175,7 +175,7 @@ export const pages = {
         },
         {
           q: 'Bieden jullie ondersteuning na de lancering?',
-          a: 'Ja. Het meeste van ons werk is langetermijn: systemen zijn gebouwd om met je mee te groeien — meer gebruikers, data, talen en features — en we blijven betrokken in plaats van over te dragen en te verdwijnen.',
+          a: 'Ja. Het meeste van ons werk is langlopend: systemen zijn gebouwd om met je mee te groeien — meer gebruikers, data, talen en features — en we blijven betrokken in plaats van over te dragen en te verdwijnen.',
         },
         {
           q: 'Hoe start ik een project?',
