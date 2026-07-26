@@ -1,6 +1,7 @@
 import crypto from 'node:crypto'
 
 import clientPromise from '@/lib/mongo'
+import { loadServerLog } from '@/lib/serverlog'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -36,6 +37,17 @@ function fmtDur(sec) {
   if (m < 60) return r ? `${m}m ${r}s` : `${m}m`
   const h = Math.floor(m / 60)
   return `${h}h ${m % 60}m`
+}
+
+function fmtBytes(n) {
+  let b = Number(n) || 0
+  const u = ['B', 'KB', 'MB', 'GB', 'TB']
+  let i = 0
+  while (b >= 1024 && i < u.length - 1) {
+    b /= 1024
+    i++
+  }
+  return `${b.toFixed(b >= 10 || i === 0 ? 0 : 1)} ${u[i]}`
 }
 
 // ---------- data ----------
@@ -245,6 +257,76 @@ function Bars({ title, rows, max, render, accent = RED, empty = 'No data yet' })
   )
 }
 
+function TrafficBody({ s, grid }) {
+  const g = s.general
+  const dayMax = Math.max(1, ...s.perDay.map((x) => x.hits))
+  const panelTitle = { fontSize: 12, letterSpacing: '.12em', textTransform: 'uppercase', color: MUTE, fontWeight: 700, marginBottom: 16 }
+  return (
+    <>
+      <div style={grid(180)}>
+        <Stat label="Total requests" value={fmtNum(g.totalRequests)} sub="every hit on the server" />
+        <Stat label="Unique visitors" value={fmtNum(g.uniqueVisitors)} sub="distinct IP addresses" />
+        <Stat label="Bot / crawler hits" value={fmtNum(g.crawlerHits)} sub="known crawlers (UA)" />
+        <Stat label="Valid / failed" value={`${fmtNum(g.validRequests)} / ${fmtNum(g.failedRequests)}`} sub="2xx–3xx / 4xx–5xx" />
+        <Stat label="Not found (404)" value={fmtNum(g.notFound)} sub="often bot probes" />
+        <Stat label="Bandwidth" value={fmtBytes(g.bandwidth)} sub="served" />
+      </div>
+
+      {/* requests per day */}
+      <div style={{ ...grid(340), marginTop: 14 }}>
+        <div style={{ background: CARD, border: `1px solid ${LINE}`, borderRadius: 12, padding: 20, gridColumn: '1 / -1' }}>
+          <div style={panelTitle}>Requests per day</div>
+          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 4, height: 160 }}>
+            {s.perDay.map((x) => (
+              <div key={x.day} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, minWidth: 0 }}>
+                <div style={{ fontSize: 10, color: MUTE }}>{x.hits}</div>
+                <div
+                  title={`${x.day}: ${x.hits} requests, ${x.visitors} visitors`}
+                  style={{ width: '100%', maxWidth: 34, height: `${Math.max(2, (x.hits / dayMax) * 130)}px`, background: RED, borderRadius: '4px 4px 0 0', opacity: 0.85 }}
+                />
+                <div style={{ fontSize: 9, color: MUTE, transform: 'rotate(-45deg)', whiteSpace: 'nowrap', height: 10 }}>{x.day.slice(5)}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* pages + 404 probes */}
+      <div style={{ ...grid(340), marginTop: 14 }}>
+        <Bars
+          title="Top pages"
+          rows={s.topPages}
+          render={(r) => (
+            <span>
+              {r.method ? <span style={{ color: MUTE, fontSize: 11 }}>{r.method} </span> : null}
+              <span style={{ color: PAPER }}>{r.label}</span>
+            </span>
+          )}
+        />
+        <Bars
+          title="404 / probes (bots)"
+          rows={s.notFound}
+          accent="#e0a800"
+          empty="No 404s — clean."
+          render={(r) => <span style={{ color: PAPER }}>{r.label}</span>}
+        />
+      </div>
+
+      {/* browsers + os + referrers */}
+      <div style={{ ...grid(300), marginTop: 14 }}>
+        <Bars title="Browsers" rows={s.browsers} accent="#5b8def" render={(r) => <span style={{ color: PAPER }}>{r.label}</span>} />
+        <Bars title="Operating systems" rows={s.os} accent="#5b8def" render={(r) => <span style={{ color: PAPER }}>{r.label}</span>} />
+        <Bars title="Referring sites" rows={s.referrers} empty="No external referrers yet." render={(r) => <span style={{ color: PAPER }}>{r.label}</span>} />
+      </div>
+
+      {/* status codes */}
+      <div style={{ ...grid(340), marginTop: 14 }}>
+        <Bars title="Status codes" rows={s.statusCodes} accent="#38d39f" render={(r) => <span style={{ color: PAPER }}>{r.label}</span>} />
+      </div>
+    </>
+  )
+}
+
 function DenyPage() {
   return (
     <main style={{ maxWidth: 460, margin: '18vh auto', padding: '0 24px', textAlign: 'center' }}>
@@ -269,35 +351,94 @@ export default async function AnalyticsPage({ searchParams }) {
 
   if (!TOKEN || !safeEqual(key, TOKEN)) return <DenyPage />
 
-  const d = await loadData(range)
-  const link = (r) => `/admin/analytics?key=${encodeURIComponent(key)}&range=${r}`
+  const view = sp.view === 'traffic' ? 'traffic' : 'engagement'
 
+  const wrap = { maxWidth: 1120, margin: '0 auto', padding: '32px 22px 80px' }
+  const grid = (min) => ({ display: 'grid', gridTemplateColumns: `repeat(auto-fit, minmax(${min}px, 1fr))`, gap: 14 })
+  const viewLink = (v) => `/admin/analytics?key=${encodeURIComponent(key)}&view=${v}`
+  const link = (r) => `${viewLink('engagement')}&range=${r}`
+
+  const sourceToggle = (
+    <div style={{ display: 'flex', gap: 6, marginBottom: 18, flexWrap: 'wrap' }}>
+      {[
+        ['engagement', 'Engagement', 'in-browser · dwell & sessions'],
+        ['traffic', 'Server logs', 'every request · all bots'],
+      ].map(([v, lbl, hint]) => (
+        <a
+          key={v}
+          href={viewLink(v)}
+          title={hint}
+          style={{
+            fontSize: 13,
+            fontWeight: 700,
+            padding: '9px 16px',
+            borderRadius: 10,
+            textDecoration: 'none',
+            border: `1px solid ${v === view ? PAPER : LINE}`,
+            background: v === view ? '#222' : 'transparent',
+            color: v === view ? PAPER : MUTE,
+          }}
+        >
+          {lbl}
+        </a>
+      ))}
+    </div>
+  )
+
+  const header = (right) => (
+    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', justifyContent: 'space-between', gap: 16, marginBottom: 16 }}>
+      <div>
+        <div style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: MUTE, fontWeight: 600 }}>
+          raoul.studio · visitors
+        </div>
+        <h1 style={{ fontSize: 30, fontWeight: 800, margin: '6px 0 0' }}>Analytics</h1>
+      </div>
+      {right}
+    </div>
+  )
+
+  // ---------- Server-logs view (GoAccess) ----------
+  if (view === 'traffic') {
+    const s = await loadServerLog()
+    return (
+      <main style={wrap}>
+        {header(<span style={{ fontSize: 12, color: MUTE }}>{s.available ? `updated ${s.general.updatedAt}` : ''}</span>)}
+        {sourceToggle}
+        {!s.available ? (
+          <div style={{ background: CARD, border: `1px solid ${LINE}`, borderRadius: 12, padding: 24, color: MUTE, fontSize: 14, lineHeight: 1.6 }}>
+            {s.empty
+              ? 'The server log has not captured any requests yet. It refreshes every 15 minutes.'
+              : 'Server-log report not found yet. It is generated by the GoAccess cron every 15 minutes — check back shortly.'}
+          </div>
+        ) : (
+          <TrafficBody s={s} grid={grid} />
+        )}
+        <p style={{ color: MUTE, fontSize: 12, marginTop: 26, lineHeight: 1.7 }}>
+          Straight from the nginx server log via GoAccess — every request that hit raoul.studio, including bots and crawlers that never run JavaScript.
+          {s.available ? ` Covers ${s.general.startDate} → ${s.general.endDate}.` : ''} IPs are anonymised. Same data as the full report at{' '}
+          <span style={{ color: PAPER }}>/_stats/</span>.
+        </p>
+      </main>
+    )
+  }
+
+  // ---------- Engagement view (JS beacon) ----------
+  const d = await loadData(range)
   const dayMax = Math.max(1, ...d.byDay.map((x) => x.views))
   const botsPct =
     d.bots.total + d.bots.humans > 0
       ? Math.round((d.bots.total / (d.bots.total + d.bots.humans)) * 100)
       : 0
 
-  const wrap = { maxWidth: 1120, margin: '0 auto', padding: '32px 22px 80px' }
-  const grid = (min) => ({ display: 'grid', gridTemplateColumns: `repeat(auto-fit, minmax(${min}px, 1fr))`, gap: 14 })
-
   return (
     <main style={wrap}>
-      {/* header */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', justifyContent: 'space-between', gap: 16, marginBottom: 8 }}>
-        <div>
-          <div style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: MUTE, fontWeight: 600 }}>
-            raoul.studio · visitors
-          </div>
-          <h1 style={{ fontSize: 30, fontWeight: 800, margin: '6px 0 0' }}>Analytics</h1>
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontSize: 13, color: PAPER }}>
-            <span style={{ width: 8, height: 8, borderRadius: 99, background: d.liveNow ? '#38d39f' : MUTE, boxShadow: d.liveNow ? '0 0 0 4px rgba(56,211,159,.18)' : 'none' }} />
-            {d.liveNow} online now
-          </span>
-        </div>
-      </div>
+      {header(
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontSize: 13, color: PAPER }}>
+          <span style={{ width: 8, height: 8, borderRadius: 99, background: d.liveNow ? '#38d39f' : MUTE, boxShadow: d.liveNow ? '0 0 0 4px rgba(56,211,159,.18)' : 'none' }} />
+          {d.liveNow} online now
+        </span>,
+      )}
+      {sourceToggle}
 
       {/* range tabs */}
       <div style={{ display: 'flex', gap: 6, margin: '18px 0 22px', flexWrap: 'wrap' }}>
