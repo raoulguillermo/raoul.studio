@@ -234,19 +234,21 @@ export default async function HomePage() {
       ) : null}
 
       {/* Blog — a large title link, sized like the featured work titles */}
-      <section className="pt-4 md:pt-8 pb-12 md:pb-40">
-        <a
-          href="/blog"
-          className="r group inline-flex items-start gap-2 md:gap-6 font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
-        >
-          <span className="ul">{home.blogTitle ?? 'Blog'}</span>
-          <span
-            aria-hidden="true"
-            className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
+      <section className="fullbleed" style={{ background: '#0F0F0F', color: '#D6D9DC' }}>
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-28">
+          <a
+            href="/blog"
+            className="r group inline-flex items-start gap-2 md:gap-6 font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
           >
-            →
-          </span>
-        </a>
+            <span className="ul">{home.blogTitle ?? 'Blog'}</span>
+            <span
+              aria-hidden="true"
+              className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
+            >
+              →
+            </span>
+          </a>
+        </div>
       </section>
 
       {/* Newsletter signup — kept from the former insights block, on a distinct grey section */}
