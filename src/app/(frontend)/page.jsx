@@ -255,7 +255,7 @@ export default async function HomePage() {
       {news ? (
         <section
           className="fullbleed"
-          style={{ background: '#D6D9DC', color: '#0F0F0F' }}
+          style={{ background: '#E92316', color: '#0F0F0F' }}
         >
           <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-32">
             <NewsletterSignup strings={news} lang={lang} variant="light" />

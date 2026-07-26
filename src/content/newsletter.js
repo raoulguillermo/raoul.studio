@@ -35,7 +35,7 @@ export const NEWSLETTER_STRINGS = {
     backHome: 'Zurück zu raoul.studio',
   },
   nl: {
-    heading: 'De wekelijkse update',
+    heading: 'Volg ons laatste nieuws',
     sub: 'Eén e-mail per week — het laatste over AI, software en digitale producten, en wat het betekent voor je bedrijf.',
     placeholder: 'jij@bedrijf.com',
     button: 'Aanmelden',
