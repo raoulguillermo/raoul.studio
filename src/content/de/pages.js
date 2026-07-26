@@ -25,14 +25,14 @@ export const pages = {
     meta: {
       title: 'Über uns',
       description:
-        'Ein digitales Produktstudio, das vollständige Produkte gestaltet, baut und wachsen lässt — Strategie, Engineering, KI, Automatisierung und Marke für Fintech, Kanzleien, Agenturen und E-Commerce.',
+        'Eine Digitalagentur und ein Produktstudio aus Rotterdam, das vollständige Produkte gestaltet, baut und wachsen lässt — Strategie, Engineering, KI, Automatisierung und Marke für Fintech, Kanzleien, Agenturen und E-Commerce.',
     },
     eyebrow: 'Über uns',
     titleLine1: 'Über uns',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio ist ein digitales Produktstudio, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen. Wir verbinden Strategie, Branding, Software-Engineering, KI, Automatisierung und Infrastruktur zu Lösungen, die dauerhaften geschäftlichen Mehrwert schaffen.',
+        text: 'raoul.studio ist eine Digitalagentur und ein Produktstudio aus Rotterdam, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen. Wir verbinden Strategie, Branding, Software-Engineering, KI, Automatisierung und Infrastruktur zu Lösungen, die dauerhaften geschäftlichen Mehrwert schaffen.',
       },
       {
         text: 'Wir arbeiten partnerschaftlich mit Gründern, Start-ups und etablierten Unternehmen, um maßgeschneiderte Plattformen, KI-gestützte Tools, Commerce-Lösungen und digitale Erlebnisse zu gestalten, zu bauen und weiterzuentwickeln. Jedes Projekt gehen wir mit Produktdenken an: echte geschäftliche Herausforderungen lösen, intuitive Nutzererlebnisse schaffen und Technologie bauen, die mit dem Unternehmen mitwächst.',

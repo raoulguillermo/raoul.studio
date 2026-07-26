@@ -25,14 +25,14 @@ export const pages = {
     meta: {
       title: 'Over ons',
       description:
-        'Een digital product studio die complete producten ontwerpt, bouwt en laat groeien — strategie, engineering, AI, automatisering en merk samengebracht voor fintech, advocatuur, bureaus en e-commerce.',
+        'Een digital agency en product studio in Rotterdam die complete producten ontwerpt, bouwt en laat groeien — strategie, engineering, AI, automatisering en merk samengebracht voor fintech, advocatuur, bureaus en e-commerce.',
     },
     eyebrow: 'Over ons',
     titleLine1: 'Over ons',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is een digital product studio die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten. We combineren strategie, branding, software-engineering, AI, automatisering en infrastructuur tot oplossingen die blijvende zakelijke waarde leveren.',
+        text: 'raoul.studio is een digital agency en product studio in Rotterdam die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten. We combineren strategie, branding, software-engineering, AI, automatisering en infrastructuur tot oplossingen die blijvende zakelijke waarde leveren.',
       },
       {
         text: 'We werken samen met founders, start-ups en gevestigde bedrijven om maatwerkplatforms, AI-gedreven tools, commerce-oplossingen en digitale ervaringen te ontwerpen, te bouwen en door te ontwikkelen. Elk project pakken we aan met een productmindset: echte zakelijke uitdagingen oplossen, intuïtieve gebruikerservaringen maken en technologie bouwen die met het bedrijf meegroeit.',

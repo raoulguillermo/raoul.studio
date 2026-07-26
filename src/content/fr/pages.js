@@ -25,14 +25,14 @@ export const pages = {
     meta: {
       title: 'À propos',
       description:
-        'Un studio de produit et d’ingénierie dirigé par son fondateur, qui conçoit des logiciels sur mesure pour la fintech, le droit, les agences et l’e-commerce. Fait main, prêt pour la production, conçu pour passer à l’échelle.',
+        'Une agence digitale et un studio de produit basés à Rotterdam, qui conçoivent des logiciels sur mesure pour la fintech, le droit, les agences et l’e-commerce. Fait main, prêt pour la production, conçu pour passer à l’échelle.',
     },
     eyebrow: 'À propos',
     titleLine1: 'À propos',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio est un studio de produit digital qui aide les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs. Nous réunissons stratégie, branding, ingénierie logicielle, IA, automatisation et infrastructure pour créer des solutions qui génèrent une valeur métier durable.',
+        text: 'raoul.studio est une agence digitale et un studio de produit basés à Rotterdam qui aident les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs. Nous réunissons stratégie, branding, ingénierie logicielle, IA, automatisation et infrastructure pour créer des solutions qui génèrent une valeur métier durable.',
       },
       {
         text: 'Nous accompagnons fondateurs, start-up et entreprises établies pour concevoir, construire et faire évoluer des plateformes sur mesure, des outils propulsés par l’IA, des solutions de commerce et des expériences digitales. Chaque projet est abordé avec un état d’esprit produit : résoudre de vrais enjeux métier, créer des expériences utilisateur intuitives et bâtir une technologie capable de grandir avec l’entreprise.',
