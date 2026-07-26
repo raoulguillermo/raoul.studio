@@ -25,14 +25,14 @@ export const pages = {
     meta: {
       title: 'About',
       description:
-        'A digital product studio that designs, builds and grows complete products — combining strategy, engineering, AI, automation and brand for fintech, law, agencies and e-commerce.',
+        'A Rotterdam-based digital agency and product studio that designs, builds and grows complete products — combining strategy, engineering, AI, automation and brand for fintech, law, agencies and e-commerce.',
     },
     eyebrow: 'About',
     titleLine1: 'About',
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is a digital product studio that helps ambitious businesses turn ideas into scalable digital products. We combine strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
+        text: 'raoul.studio is a Rotterdam-based digital agency and product studio that helps ambitious businesses turn ideas into scalable digital products. We combine strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
       },
       {
         text: 'We partner with founders, startups and established companies to design, build and evolve custom platforms, AI-powered tools, commerce solutions and digital experiences. Every project is approached with a product mindset: solving real business challenges, creating intuitive user experiences and building technology that can grow alongside the business.',
