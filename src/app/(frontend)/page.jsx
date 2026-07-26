@@ -6,7 +6,6 @@ import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
-import { getPosts, getPillarLabel } from '@/content/blog'
 import { getNewsletterStrings } from '@/content/newsletter'
 import NewsletterSignup from '@/components/NewsletterSignup'
 
@@ -34,14 +33,6 @@ const FEATURED_STYLES = [
   { bg: '#E92316', fg: '#0F0F0F', numeralColor: '#0F0F0F', numeralOpacity: 0.14 }, // red / ink text
 ]
 
-function formatDate(date, lang) {
-  return new Date(date).toLocaleDateString(lang, {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })
-}
-
 export default async function HomePage() {
   const lang = await getLocale()
   const { home, header, footer, posterRail, ui, projects } = getContent(lang)
@@ -53,8 +44,6 @@ export default async function HomePage() {
     .map((it) => ({ ...it, project: projects.find((p) => p.slug === it.slug) }))
     .filter((it) => it.project)
 
-  // Insights: the three most recent articles.
-  const insightsPosts = home.insights ? getPosts(lang).slice(0, 3) : []
   const news = getNewsletterStrings(lang)
 
   // Split contact afterLink on a literal "\n" → desktop-only line break
@@ -244,71 +233,30 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      {/* Insights — three most recent articles, on a distinct grey section */}
-      {home.insights && insightsPosts.length > 0 ? (
+      {/* Blog — a large title link, sized like the featured work titles */}
+      <section className="pt-4 md:pt-8 pb-12 md:pb-40">
+        <a
+          href="/blog"
+          className="r group inline-flex items-start gap-2 md:gap-6 font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
+        >
+          <span className="ul">{home.blogTitle ?? 'Blog'}</span>
+          <span
+            aria-hidden="true"
+            className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
+          >
+            →
+          </span>
+        </a>
+      </section>
+
+      {/* Newsletter signup — kept from the former insights block, on a distinct grey section */}
+      {news ? (
         <section
           className="fullbleed"
           style={{ background: 'rgb(101 105 108)', color: '#D6D9DC' }}
         >
           <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-32">
-            <div className="r flex items-end justify-between gap-6 mb-8 md:mb-12">
-              <div>
-                <p className="text-sm mb-3 font-semibold uppercase tracking-wider opacity-60">
-                  {home.insights.label}
-                </p>
-                {home.insights.lead ? (
-                  <p className="max-w-2xl text-2xl md:text-4xl font-normal leading-snug">
-                    {home.insights.lead}
-                  </p>
-                ) : null}
-              </div>
-              {home.insights.allLabel ? (
-                <a
-                  href="/blog"
-                  className="ul hidden md:inline-block shrink-0 text-sm font-semibold uppercase tracking-wider whitespace-nowrap"
-                >
-                  {home.insights.allLabel}
-                </a>
-              ) : null}
-            </div>
-            <ul className="r border-t border-current/20 divide-y divide-current/15">
-              {insightsPosts.map((post) => {
-                const pillar = getPillarLabel(post.pillar, lang)
-                return (
-                  <li key={post.slug} className="py-6 md:py-8">
-                    <a href={`/blog/${post.slug}`} className="block group">
-                      <div className="text-[11px] uppercase tracking-[.18em] mb-2 font-semibold opacity-60">
-                        {pillar ? (
-                          <>
-                            <span className="text-accent">{pillar}</span> ·{' '}
-                          </>
-                        ) : null}
-                        {formatDate(post.date, lang)}
-                      </div>
-                      <h3 className="font-display uppercase tracking-tight2 leading-[0.98] text-2xl md:text-4xl group-hover:text-accent transition-colors">
-                        {post.title}
-                      </h3>
-                      {post.summary ? (
-                        <p className="mt-2 max-w-3xl text-base md:text-lg opacity-70">
-                          {post.summary}
-                        </p>
-                      ) : null}
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-            {home.insights.allLabel ? (
-              <a
-                href="/blog"
-                className="md:hidden ul inline-block mt-8 text-sm font-semibold uppercase tracking-wider"
-              >
-                {home.insights.allLabel}
-              </a>
-            ) : null}
-            <div className="r mt-12 md:mt-16 border-t border-current/20 pt-10 md:pt-14">
-              <NewsletterSignup strings={news} lang={lang} variant="dark" />
-            </div>
+            <NewsletterSignup strings={news} lang={lang} variant="dark" />
           </div>
         </section>
       ) : null}

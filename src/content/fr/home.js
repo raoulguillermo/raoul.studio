@@ -53,6 +53,8 @@ export const home = {
     lead: 'Réflexions sur l’IA, l’ingénierie logicielle et les produits digitaux.',
     allLabel: 'Tous les articles',
   },
+  blogTitle: 'Blog',
+
   contact: {
     eyebrow: 'Quelque chose à construire ?',
     beforeLink: 'Parlez-nous-en — ',

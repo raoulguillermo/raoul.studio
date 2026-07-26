@@ -53,6 +53,8 @@ export const home = {
     lead: 'Gedanken zu KI, Softwareentwicklung und digitalen Produkten.',
     allLabel: 'Alle Artikel',
   },
+  blogTitle: 'Blog',
+
   contact: {
     eyebrow: 'Etwas, das gebaut werden will?',
     beforeLink: 'Erzählen Sie uns davon — ',

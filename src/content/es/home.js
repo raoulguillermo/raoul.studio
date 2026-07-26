@@ -53,6 +53,8 @@ export const home = {
     lead: 'Reflexiones sobre IA, ingeniería de software y productos digitales.',
     allLabel: 'Todos los artículos',
   },
+  blogTitle: 'Blog',
+
   contact: {
     eyebrow: '¿Tienes algo que construir?',
     beforeLink: 'Cuéntanoslo — ',

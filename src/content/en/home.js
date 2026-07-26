@@ -68,6 +68,8 @@ export const home = {
     lead: 'Thoughts on AI, software engineering and digital products.',
     allLabel: 'All articles',
   },
+  blogTitle: 'Blog',
+
   contact: {
     eyebrow: 'Got something to build?',
     beforeLink: 'Tell us about it — ',

@@ -53,6 +53,8 @@ export const home = {
     lead: 'Gedachten over AI, software-engineering en digitale producten.',
     allLabel: 'Alle artikelen',
   },
+  blogTitle: 'Blog',
+
   contact: {
     eyebrow: 'Iets dat gebouwd moet worden?',
     beforeLink: 'Vertel het ons — ',
