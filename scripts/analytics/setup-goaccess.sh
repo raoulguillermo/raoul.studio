@@ -29,7 +29,10 @@ fi
 
 echo "==> 1/5  Installing goaccess…"
 if ! command -v goaccess >/dev/null 2>&1; then
-  apt-get update && apt-get install -y goaccess
+  # Wait up to 5 min for the apt/dpkg lock (e.g. if unattended-upgrades is
+  # mid-run) instead of failing instantly.
+  APT="apt-get -o DPkg::Lock::Timeout=300"
+  $APT update && $APT install -y goaccess
 fi
 echo "    goaccess $(goaccess --version | head -1 | awk '{print $NF}')"
 
