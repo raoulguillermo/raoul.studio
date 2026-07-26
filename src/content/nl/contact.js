@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Contact',
     description:
-      'Een product of platform dat gebouwd moet worden? Vertel het de studio. We reageren binnen 24 uur.',
+      'Een product of platform dat gebouwd moet worden? Vertel het de studio. Je krijgt binnen 24 uur antwoord.',
   },
   eyebrow: 'Neem contact op',
   titleLine1: 'Laten we',
@@ -36,7 +36,7 @@ export const contact = {
     items: [
       {
         q: 'Hoe snel hoor ik iets terug?',
-        a: 'Elke echte brief wordt gelezen, met een antwoord binnen 24 uur. We houden de studio klein en direct, dus wie antwoordt staat dicht bij het werk.',
+        a: 'Elke echte brief wordt gelezen, met een antwoord binnen 24 uur. De studio blijft klein en direct, dus wie antwoordt staat dicht bij het werk.',
       },
       {
         q: 'Wat moet ik in mijn bericht zetten?',
@@ -44,7 +44,7 @@ export const contact = {
       },
       {
         q: 'Waar zitten jullie, en werken jullie remote?',
-        a: 'We zitten in Nederland en werken remote met teams waar ze ook zitten. Locatie is geen belemmering — het werk is samenwerking en wordt in de openheid met je gebouwd.',
+        a: 'De studio zit in Rotterdam en werkt remote met teams waar ze ook zitten. Locatie is geen belemmering — het werk is samenwerking en wordt in de openheid met je gebouwd.',
       },
       {
         q: 'Wat voor projecten nemen jullie aan?',

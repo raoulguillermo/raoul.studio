@@ -12,7 +12,7 @@ export const pages = {
     titleLine1: 'Werk',
     titleAccent: '.',
     lead:
-      'Elk project is een echt bedrijfsprobleem, end-to-end opgelost en gebouwd om in productie te draaien. De platforms en tools die we voor klanten hebben geleverd — en de producten die we zelf bouwen en runnen.',
+      'Elk project is een echt bedrijfsprobleem, end-to-end opgelost en gebouwd om in productie te draaien. De platforms en tools die de studio voor klanten heeft geleverd — en de eigen producten die er worden gebouwd en gerund.',
     groups: {
       client: 'Klantwerk',
       product: 'Eigen producten',
@@ -32,17 +32,17 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is een digital agency en product studio in Rotterdam die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten. We combineren strategie, branding, software-engineering, AI, automatisering en infrastructuur tot oplossingen die blijvende zakelijke waarde leveren.',
+        text: 'raoul.studio is een digital agency en product studio in Rotterdam die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten. In de studio worden strategie, branding, software-engineering, AI, automatisering en infrastructuur samengebracht tot oplossingen die blijvende zakelijke waarde leveren.',
       },
       {
-        text: 'We werken samen met founders, start-ups en gevestigde bedrijven om maatwerkplatforms, AI-gedreven tools, commerce-oplossingen en digitale ervaringen te ontwerpen, te bouwen en door te ontwikkelen. Elk project pakken we aan met een productmindset: echte zakelijke uitdagingen oplossen, intuïtieve gebruikerservaringen maken en technologie bouwen die met het bedrijf meegroeit.',
+        text: 'De studio werkt samen met founders, start-ups en gevestigde bedrijven om maatwerkplatforms, AI-gedreven tools, commerce-oplossingen en digitale ervaringen te ontwerpen, te bouwen en door te ontwikkelen. Elk project wordt aangepakt met een productmindset: echte zakelijke uitdagingen oplossen, intuïtieve gebruikerservaringen maken en technologie bouwen die met het bedrijf meegroeit.',
       },
       {
-        text: 'We bouwen langdurige partnerschappen met teams die snel willen schakelen, groot durven denken en betekenisvolle digitale producten willen maken. Van het eerste idee tot de lancering — en elke iteratie die daarop volgt — werken we als verlengstuk van je team, gericht op meetbare impact via technologie.',
-        highlight: 'We bouwen langdurige partnerschappen',
+        text: 'Als studio wordt er gebouwd aan langdurige partnerschappen met teams die snel willen schakelen, groot durven denken en betekenisvolle digitale producten willen maken. Van het eerste idee tot de lancering — en elke iteratie die daarop volgt — werkt de studio als verlengstuk van je team, gericht op meetbare impact via technologie.',
+        highlight: 'Als studio wordt er gebouwd aan langdurige partnerschappen',
       },
     ],
-    servicesLabel: 'Wat we bouwen',
+    servicesLabel: 'Wat de studio bouwt',
     services: [
       { label: 'Maatwerk webplatforms & SaaS' },
       { label: 'Headless e-commerce op schaal' },
@@ -52,8 +52,8 @@ export const pages = {
       { label: 'Tweezijdige marktplaatsen' },
     ],
     systemsParagraph: [
-      'We bouwen digitale producten die zijn gemaakt om te evolueren. Elk platform staat op een stevig technisch fundament — met schaalbare architectuur, doordachte engineering en oog voor toekomstige groei. Of het nu gaat om een AI-gedreven platform, een commerce-ecosysteem of een maatwerk-bedrijfsapplicatie: we maken technologie die meegroeit met je bedrijf.',
-      'Van de eerste strategiesessie tot lang na de lancering richten we ons op digitale oplossingen die robuust en schaalbaar zijn en gemaakt om te blijven.',
+      'In de studio worden digitale producten gebouwd die zijn gemaakt om te evolueren. Elk platform staat op een stevig technisch fundament — met schaalbare architectuur, doordachte engineering en oog voor toekomstige groei. Of het nu gaat om een AI-gedreven platform, een commerce-ecosysteem of een maatwerk-bedrijfsapplicatie: er wordt technologie gemaakt die meegroeit met je bedrijf.',
+      'Van de eerste strategiesessie tot lang na de lancering ligt de focus op digitale oplossingen die robuust en schaalbaar zijn en gemaakt om te blijven.',
     ],
     manifestoLead: 'Waar strategie, AI en software',
     manifestoTail: 'samenkomen.',
@@ -71,14 +71,14 @@ export const pages = {
     titleLine1: 'Proces',
     titleAccent: '.',
     lead:
-      'Zes fasen, één principe: begrijp het systeem voor je het bouwt. We werken snel omdat het denkwerk vooraf gedaan is, niet omdat we het overslaan. Maatwerkproducten, stap voor stap gevormd.',
+      'Zes fasen, één principe: begrijp het systeem voor je het bouwt. De studio werkt snel omdat het denkwerk vooraf gedaan is, niet omdat het wordt overgeslagen. Maatwerkproducten, stap voor stap gevormd.',
     steps: [
       {
         title: 'Richting',
-        lead: 'Bepalen wat we eigenlijk bouwen.',
+        lead: 'Bepalen wat er eigenlijk gebouwd wordt.',
         body: [
           {
-            text: 'We beginnen bij het probleem, niet bij de featurelijst. Wat hapert, wat is traag, wat kost je geld — en hoe "klaar" eruitziet.',
+            text: 'De studio begint bij het probleem, niet bij de featurelijst. Wat hapert, wat is traag, wat kost je geld — en hoe "klaar" eruitziet.',
           },
           {
             text: 'Je verlaat deze fase met een heldere scope en een gedeeld beeld van waar het heen gaat. Geen verrassingen achteraf.',
@@ -90,7 +90,7 @@ export const pages = {
         lead: 'Ontwerp het systeem eronder.',
         body: [
           {
-            text: 'Voor er ook maar één scherm is, brengen we de data, de flows en de architectuur in kaart. Maatwerkproducten staan of vallen met wat eronder ligt.',
+            text: 'Voor er ook maar één scherm is, worden de data, de flows en de architectuur in kaart gebracht. Maatwerkproducten staan of vallen met wat eronder ligt.',
           },
           {
             text: 'Doe je dit goed, dan wordt al het volgende makkelijker. Doe je het fout, dan betaal je er eindeloos voor.',
@@ -102,7 +102,7 @@ export const pages = {
         lead: 'Maak het helder, maak het bruikbaar.',
         body: [
           {
-            text: 'We ontwerpen rond de echte workflow — de dagelijkse handelingen, de randgevallen, de mensen die het straks echt gebruiken.',
+            text: 'Er wordt ontworpen rond de echte workflow — de dagelijkse handelingen, de randgevallen, de mensen die het straks echt gebruiken.',
           },
           {
             text: 'Scherp, snel, geen rommel. De interface moet verdwijnen en het werk laten gebeuren.',
@@ -117,7 +117,7 @@ export const pages = {
             text: 'Op maat, zonder boilerplate-ballast. Moderne stack, schone codebase, vanaf dag één gebouwd om in productie te draaien.',
           },
           {
-            text: 'We bouwen in de openheid met je mee — je ziet voortgang zodra die landt, niet in één grote onthulling op het eind.',
+            text: 'De studio bouwt in de openheid met je mee — je ziet voortgang zodra die landt, niet in één grote onthulling op het eind.',
           },
         ],
       },
@@ -126,7 +126,7 @@ export const pages = {
         lead: 'Breng het voor echt gebruik.',
         body: [
           {
-            text: 'Echte gebruikers leggen bloot wat specs niet kunnen. We leveren, kijken en scherpen aan — snelle loops, kleine releases.',
+            text: 'Echte gebruikers leggen bloot wat specs niet kunnen. Er wordt geleverd, gekeken en aangescherpt — snelle loops, kleine releases.',
           },
           { text: 'Het product wordt elke cyclus scherper.' },
         ],
@@ -139,13 +139,13 @@ export const pages = {
             text: 'Meer gebruikers, meer data, meer talen, meer features — het systeem is gebouwd om het aan te kunnen.',
           },
           {
-            text: 'We blijven betrokken. Het meeste van ons werk is langlopend, en we behandelen wat we bouwen alsof het van onszelf is.',
+            text: 'De studio blijft betrokken. Het meeste werk is langlopend, en wat er gebouwd wordt, wordt behandeld alsof het van de studio zelf is.',
           },
         ],
       },
     ],
     howWeWork: {
-      label: 'Hoe we werken',
+      label: 'Hoe de studio werkt',
       lead: 'Direct en founder-led. Je praat met de mensen die het bouwen.',
       points: [
         { label: 'Directe communicatie' },
@@ -159,7 +159,7 @@ export const pages = {
       items: [
         {
           q: 'Wat doet raoul.studio?',
-          a: 'raoul.studio is een digital product studio. We ontwerpen, bouwen en laten maatwerkproducten groeien — webplatforms en SaaS, headless e-commerce, AI-tools en automatisering, CRMs en interne tooling, APIs en tweezijdige marktplaatsen — voor fintech, advocatenkantoren, commerciële bureaus en e-commerceteams, naast onze eigen producten.',
+          a: 'raoul.studio is een digital product studio. De studio ontwerpt, bouwt en laat maatwerkproducten groeien — webplatforms en SaaS, headless e-commerce, AI-tools en automatisering, CRMs en interne tooling, APIs en tweezijdige marktplaatsen — voor fintech, advocatenkantoren, commerciële bureaus en e-commerceteams, naast eigen producten.',
         },
         {
           q: 'Hoe werken jullie?',
@@ -167,15 +167,15 @@ export const pages = {
         },
         {
           q: 'Hoe lang duurt een project?',
-          a: 'Dat hangt af van de scope, maar we werken in snelle loops met kleine, frequente releases in plaats van één grote onthulling op het eind. Je ziet voortgang zodra die landt en het product wordt elke cyclus scherper, omdat de architectuur en richting al vaststaan voor de bouw begint.',
+          a: 'Dat hangt af van de scope, maar de studio werkt in snelle loops met kleine, frequente releases in plaats van één grote onthulling op het eind. Je ziet voortgang zodra die landt en het product wordt elke cyclus scherper, omdat de architectuur en richting al vaststaan voor de bouw begint.',
         },
         {
           q: 'Met wie werken jullie?',
-          a: 'Vooral fintech, advocatenkantoren, commerciële bureaus en e-commerceteams. Sommig werk is voor klanten, sommig zijn onze eigen producten — alles is gebouwd om in productie te draaien.',
+          a: 'Vooral fintech, advocatenkantoren, commerciële bureaus en e-commerceteams. Sommig werk is voor klanten, sommig zijn eigen producten — alles is gebouwd om in productie te draaien.',
         },
         {
           q: 'Bieden jullie ondersteuning na de lancering?',
-          a: 'Ja. Het meeste van ons werk is langlopend: systemen zijn gebouwd om met je mee te groeien — meer gebruikers, data, talen en features — en we blijven betrokken in plaats van over te dragen en te verdwijnen.',
+          a: 'Ja. Het meeste werk is langlopend: systemen zijn gebouwd om met je mee te groeien — meer gebruikers, data, talen en features — en de studio blijft betrokken in plaats van over te dragen en te verdwijnen.',
         },
         {
           q: 'Hoe start ik een project?',

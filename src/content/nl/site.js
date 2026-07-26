@@ -52,7 +52,7 @@ export const ui = {
   form: {
     sendingButton: 'versturen…',
     sendingStatus: 'Versturen…',
-    successStatus: '✓ Bericht verzonden — we reageren binnen 24 uur.',
+    successStatus: '✓ Bericht verzonden — je krijgt binnen 24 uur antwoord.',
     errorStatus:
       '✕ Er ging iets mis. Probeer het opnieuw, of mail naar hello@raoul.studio.',
     validationStatus: '✕ Controleer de gemarkeerde velden en probeer opnieuw.',
@@ -61,7 +61,7 @@ export const ui = {
 
 export const posterRail = {
   topText: 'Digital product studio',
-  middleText: 'We ontwerpen, bouwen en laten digitale bedrijven groeien.',
+  middleText: 'De studio ontwerpt, bouwt en laat digitale bedrijven groeien.',
   bottomText: 'raoul.studio',
 }
 

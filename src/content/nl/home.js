@@ -7,14 +7,14 @@ export const home = {
       'raoul.studio is een digital product studio die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten — strategie, design, software-engineering, AI, automatisering, commerce en infrastructuur.',
   },
   hero: {
-    prefix: 'Wij versnellen',
+    prefix: 'De studio versnelt',
     accent: 'digitale ambitie.',
     suffix: '',
   },
   intro:
-    'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur. We werken samen met ambitieuze oprichters en bedrijven om ideeën om te zetten in schaalbare producten.',
+    'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur. De studio werkt samen met ambitieuze oprichters en bedrijven om ideeën om te zetten in schaalbare producten.',
   pillars: {
-    label: 'Wat we doen',
+    label: 'Wat de studio doet',
     items: [
       {
         title: 'Producten',
@@ -40,7 +40,7 @@ export const home = {
   },
   featuredWork: {
     label: 'Geselecteerd werk',
-    lead: 'Hoe we ambitieuze bedrijven helpen om lastige problemen op te lossen.',
+    lead: 'Hoe de studio ambitieuze bedrijven helpt om lastige problemen op te lossen.',
     allLabel: 'Bekijk al het werk',
     items: [
       { slug: 'outdoorxl', tagline: 'Een van de grootste outdoorretailers van Europa opnieuw opgebouwd tot een modern, headless commerceplatform.', metrics: ['200K+ producten', '14 markten', 'Headless-migratie'] },

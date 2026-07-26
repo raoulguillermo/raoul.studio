@@ -17,10 +17,10 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'OutdoorXL draait op serieuze schaal: 200.000+ producten over 14+ talen en storefronts, razendsnel geserveerd met Magento en Varnish. Wij leiden de ontwikkeling en zijn eigenaar van de architectuur erachter.',
+        text: 'OutdoorXL draait op serieuze schaal: 200.000+ producten over 14+ talen en storefronts, razendsnel geserveerd met Magento en Varnish. De studio leidt de ontwikkeling en is eigenaar van de architectuur erachter.',
       },
       {
-        text: 'Nu bouwen we het headless om — Next.js en MongoDB aan de voorkant, de Magento 2-backend achter een GraphQL- en REST-laag, met custom modules die de twee verbinden en Payload CMS voor content.',
+        text: 'Nu wordt het headless omgebouwd — Next.js en MongoDB aan de voorkant, de Magento 2-backend achter een GraphQL- en REST-laag, met custom modules die de twee verbinden en Payload CMS voor content.',
       },
       {
         text: 'Het doel: de catalogus en de markten behouden, het legacy-gewicht kwijtraken. Een snellere storefront en een codebase die klaar is voor het komende decennium.',
@@ -57,7 +57,7 @@ export const projectOverrides = {
   threadly: {
     shortTag: 'saas, support',
     shortDescription:
-      'Onze eigen SaaS — een support-ticketsysteem voor supportteams, bureaus en solo-ondernemers. Gedeelde inbox, SLA-tracking, automatisering.',
+      'Eigen SaaS uit de studio — een support-ticketsysteem voor supportteams, bureaus en solo-ondernemers. Gedeelde inbox, SLA-tracking, automatisering.',
     lead:
       'Support die niet tussen wal en schip valt — een ticketsysteem voor teams, bureaus en solo-ondernemers.',
     tagsLine: 'SaaS · Support · Next.js · Node.js · MongoDB',
@@ -65,7 +65,7 @@ export const projectOverrides = {
     info: [
       { label: 'Rol', value: 'Solo-bouw & architectuur' },
       { label: 'Stack', value: 'Next.js, MongoDB, Node.js REST API' },
-      { label: 'Status', value: 'Live — ons eigen product' },
+      { label: 'Status', value: 'Live — eigen product' },
     ],
     body: [
       {
@@ -74,7 +74,7 @@ export const projectOverrides = {
       {
         text: 'Een gedeelde inbox trekt elk kanaal op één plek samen, SLA-tracking houdt reactietijden eerlijk, en automatisering neemt het repetitieve werk over zodat het team zich kan richten op de antwoorden die ertoe doen.',
       },
-      { text: 'In-house ontworpen, gebouwd en gearchitecteerd. Wij draaien er zelf ook op.' },
+      { text: 'In-house ontworpen, gebouwd en gearchitecteerd. De studio draait er zelf ook op.' },
     ],
   },
 
@@ -92,7 +92,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Lexpert Advocaten had een CRM nodig dat gevormd was rond de advocatuur, niet een generieke tool die ze moesten ombuigen. Dus bouwden we er een — cliënten en relaties beheren, ze direct factureren, en de metrics bijhouden die het kantoor sturen.',
+        text: 'Lexpert Advocaten had een CRM nodig dat gevormd was rond de advocatuur, niet een generieke tool die ze moesten ombuigen. Dus bouwde de studio er een — cliënten en relaties beheren, ze direct factureren, en de metrics bijhouden die het kantoor sturen.',
       },
       {
         text: 'Rolgebaseerde gebruikersrechten houden de juiste informatie bij de juiste mensen, en het hele systeem is naar de richting van het kantoor gebouwd, van de eerste beslissing tot de laatste.',
@@ -141,7 +141,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Smart Dossier begon in 2016 als een PHP/MySQL-documentsysteem voor Vastgoedkor. In 2026 bouwden we het om tot iets slimmers.',
+        text: 'Smart Dossier begon in 2016 als een PHP/MySQL-documentsysteem voor Vastgoedkor. In 2026 werd het omgebouwd tot iets slimmers.',
       },
       {
         text: 'Het doorzoekt de volledige tekst ín documenten — niet alleen bestandsnamen — en herstructureert grote, rommelige documentsets automatisch tot iets waar je echt doorheen kunt navigeren. AI doet het zware werk op zoeken en datastructurering.',
@@ -195,7 +195,7 @@ export const projectOverrides = {
         text: 'Het groeit ook voorbij het scherm: naar events, kleding en merch, en een platenlabel.',
       },
       {
-        text: 'We zetten het hier neer als bewijs van bereik. Hetzelfde instinct dat software levert — bouw het goed, laat het groeien voor de lange termijn — werkt net zo goed op een merk.',
+        text: 'Het staat hier als bewijs van bereik. Hetzelfde instinct dat software levert — bouw het goed, laat het groeien voor de lange termijn — werkt net zo goed op een merk.',
       },
     ],
   },
@@ -263,7 +263,7 @@ export const projectOverrides = {
     info: [
       { label: 'Rol', value: 'Solo-bouw & architectuur' },
       { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
-      { label: 'Status', value: 'Live — ons eigen product' },
+      { label: 'Status', value: 'Live — eigen product' },
     ],
     body: [
       {
@@ -273,7 +273,7 @@ export const projectOverrides = {
         text: 'Elk signaal wordt gevolgd en gelogd: entry, target en stop, en daarna de take-profit of stop-loss op het moment dat de prijs hem raakt. Het resultaat is een permanent, doorzoekbaar verslag van precies wat het systeem zag en wanneer — geen screenshots achteraf.',
       },
       {
-        text: 'End to end gebouwd — een backend op Node en MongoDB die een Next.js-dashboard voedt met live candlesticks, naar de browser gestreamd over server-sent events. Het kijkt en registreert; het plaatst geen orders. Ons eigen product, live in gebruik.',
+        text: 'End to end gebouwd — een backend op Node en MongoDB die een Next.js-dashboard voedt met live candlesticks, naar de browser gestreamd over server-sent events. Het kijkt en registreert; het plaatst geen orders. Een eigen product uit de studio, live in gebruik.',
       },
     ],
   },
