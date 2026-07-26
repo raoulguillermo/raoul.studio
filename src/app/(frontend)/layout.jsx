@@ -12,6 +12,33 @@ import { home as enHome } from '@/content/en/home'
 
 const SITE_URL = 'https://raoul.studio'
 
+// Locale-independent keyword signals. Google ignores <meta keywords>, but other
+// search/answer engines still read it, and it costs nothing. Covers the location
+// (Rotterdam), the "digital agency" search term, and common misspellings of the
+// founder's name so those queries still resolve to us.
+const KEYWORDS = [
+  'raoul.studio',
+  'Raoul Guillermo',
+  'digital agency',
+  'digital agency Rotterdam',
+  'digital product studio',
+  'software agency Rotterdam',
+  'web development Rotterdam',
+  'AI agency Rotterdam',
+  'Rotterdam',
+  'Netherlands',
+  // Common misspellings / phonetic variants of the name.
+  'Raul Guillermo',
+  'Raoel Guillermo',
+  'Raol Guillermo',
+  'Roel Guillermo',
+  'Rahul Guillermo',
+  'Raoull Guillermo',
+  'Raoule Guillermo',
+  'Raoul Guilermo',
+  'Raoul Gwillermo',
+]
+
 const OG_LOCALES = {
   en: 'en_US',
   de: 'de_DE',
@@ -33,6 +60,7 @@ export async function generateMetadata() {
     },
     description: meta.description,
     applicationName: 'raoul.studio',
+    keywords: KEYWORDS,
     openGraph: {
       type: 'website',
       siteName: 'raoul.studio',
@@ -73,6 +101,7 @@ const jsonLd = {
       '@type': ['Organization', 'ProfessionalService'],
       '@id': `${SITE_URL}/#studio`,
       name: 'raoul.studio',
+      alternateName: ['Raoul Studio', 'raoul.studio digital agency', 'Raoul Guillermo digital agency'],
       url: SITE_URL,
       description: STUDIO_DESCRIPTION,
       slogan: 'Building what’s next.',
@@ -80,12 +109,20 @@ const jsonLd = {
       telephone: '+31103073755',
       logo: `${SITE_URL}/icon.svg`,
       image: `${SITE_URL}/opengraph-image`,
-      address: { '@type': 'PostalAddress', addressCountry: 'NL' },
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Rotterdam',
+        addressRegion: 'South Holland',
+        addressCountry: 'NL',
+      },
       areaServed: [
+        { '@type': 'City', name: 'Rotterdam' },
         { '@type': 'Country', name: 'Netherlands' },
         { '@type': 'AdministrativeArea', name: 'European Union' },
       ],
       knowsAbout: [
+        'Digital agency',
+        'Digital agency in Rotterdam',
         'Digital product studio',
         'Digital strategy',
         'Product discovery',
@@ -169,8 +206,21 @@ const jsonLd = {
       '@type': 'Person',
       '@id': `${SITE_URL}/#raoul`,
       name: 'Raoul Guillermo',
+      // Common misspellings / phonetic variants so name-typo searches still resolve.
+      alternateName: [
+        'Raul Guillermo',
+        'Raoel Guillermo',
+        'Raol Guillermo',
+        'Roel Guillermo',
+        'Rahul Guillermo',
+        'Raoull Guillermo',
+        'Raoule Guillermo',
+        'Raoul Guilermo',
+        'Raoul Gwillermo',
+      ],
       jobTitle: 'Founder',
       worksFor: { '@id': `${SITE_URL}/#studio` },
+      homeLocation: { '@type': 'Place', name: 'Rotterdam, Netherlands' },
       sameAs: ['https://instagram.com/raoulguillermo'],
     },
     {
