@@ -43,8 +43,8 @@ export const contact = {
         a: 'Cuéntanos qué estás construyendo o qué te está frenando: el problema, para quién es y en qué punto estás (idea, a medio hacer, o en producción y atascado). Cuanto más concreto sea el briefing, mejor será la respuesta.',
       },
       {
-        q: '¿Dónde estáis basados y trabajáis en remoto?',
-        a: 'El estudio está basado en los Países Bajos y trabaja en remoto con equipos estén donde estén. La ubicación no es un obstáculo: el trabajo es colaborativo y se construye en abierto contigo.',
+        q: '¿Dónde estáis basados?',
+        a: 'El estudio está basado en los Países Bajos y trabaja con equipos estén donde estén. La ubicación no es un obstáculo: el trabajo es colaborativo y se construye en abierto contigo.',
       },
       {
         q: '¿Qué tipo de proyectos aceptáis?',

@@ -43,8 +43,8 @@ export const contact = {
         a: 'Tell us what you’re building or what’s slowing you down: the problem, who it’s for, and where you are now — idea, half-built, or live and stuck. The more concrete the brief, the better the reply.',
       },
       {
-        q: 'Where are you based, and do you work remotely?',
-        a: 'The studio is based in the Netherlands and works remote with teams wherever they are. Location isn’t a blocker — the work is collaborative and built in the open with you.',
+        q: 'Where are you based?',
+        a: 'The studio is based in the Netherlands and works with teams wherever they are. Location isn’t a blocker — the work is collaborative and built in the open with you.',
       },
       {
         q: 'What kinds of projects do you take on?',

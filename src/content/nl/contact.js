@@ -43,8 +43,8 @@ export const contact = {
         a: 'Vertel ons wat je bouwt of wat je tegenhoudt: het probleem, voor wie het is, en waar je nu staat — idee, half af, of live en vastgelopen. Hoe concreter de brief, hoe beter het antwoord.',
       },
       {
-        q: 'Waar zitten jullie, en werken jullie remote?',
-        a: 'De studio zit in Rotterdam en werkt remote met teams waar ze ook zitten. Locatie is geen belemmering — het werk is samenwerking en wordt in de openheid met je gebouwd.',
+        q: 'Waar zitten jullie?',
+        a: 'De studio zit in Rotterdam en werkt met teams waar ze ook zitten. Locatie is geen belemmering — het werk is samenwerking en wordt in de openheid met je gebouwd.',
       },
       {
         q: 'Wat voor projecten nemen jullie aan?',

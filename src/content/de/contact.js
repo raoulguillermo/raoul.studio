@@ -43,8 +43,8 @@ export const contact = {
         a: 'Erzählen Sie uns, was Sie bauen oder was Sie ausbremst: das Problem, für wen es ist und wo Sie gerade stehen — Idee, halbfertig oder live und festgefahren. Je konkreter das Briefing, desto besser die Antwort.',
       },
       {
-        q: 'Wo sitzen Sie, und arbeiten Sie remote?',
-        a: 'Das Studio sitzt in den Niederlanden und arbeitet remote mit Teams, wo auch immer sie sind. Der Standort ist kein Hindernis — gearbeitet wird gemeinsam und offen, an Ihrer Seite.',
+        q: 'Wo sitzen Sie?',
+        a: 'Das Studio sitzt in den Niederlanden und arbeitet mit Teams, wo auch immer sie sind. Der Standort ist kein Hindernis — gearbeitet wird gemeinsam und offen, an Ihrer Seite.',
       },
       {
         q: 'Welche Art von Projekten übernehmen Sie?',

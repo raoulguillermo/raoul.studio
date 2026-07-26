@@ -43,8 +43,8 @@ export const contact = {
         a: 'Dites-nous ce que vous construisez ou ce qui vous ralentit : le problème, à qui il s’adresse, et où vous en êtes — une idée, un projet à moitié fait, ou en ligne et bloqué. Plus le brief est concret, meilleure est la réponse.',
       },
       {
-        q: 'Où êtes-vous basés, et travaillez-vous à distance ?',
-        a: 'Le studio est basé aux Pays-Bas et travaille à distance avec les équipes où qu’elles soient. La localisation n’est pas un frein — le travail est collaboratif et construit à découvert avec vous.',
+        q: 'Où êtes-vous basés ?',
+        a: 'Le studio est basé aux Pays-Bas et travaille avec les équipes où qu’elles soient. La localisation n’est pas un frein — le travail est collaboratif et construit à découvert avec vous.',
       },
       {
         q: 'Quels types de projets prenez-vous en charge ?',

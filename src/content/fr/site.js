@@ -67,7 +67,7 @@ export const posterRail = {
 
 export const footer = {
   leftText: '© 2026 raoul.studio',
-  rightText: 'Rotterdam · UE · À distance',
+  rightText: 'Rotterdam · UE',
   phone: '+31 10 307 3755',
   phoneHref: 'tel:+31103073755',
 }
