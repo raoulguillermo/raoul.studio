@@ -43,7 +43,7 @@ export const NEWSLETTER_STRINGS = {
     success: 'Je bent erbij. Hou je inbox in de gaten.',
     error: 'Er ging iets mis. Probeer het opnieuw.',
     invalid: 'Vul een geldig e-mailadres in.',
-    consent: 'Geen spam. Altijd uit te schrijven.',
+    consent: '',
     unsubTitle: 'Uitgeschreven',
     unsubOk: 'Je bent uitgeschreven en ontvangt geen nieuwsbrieven meer.',
     unsubFail: 'We konden dat abonnement niet vinden — het is mogelijk al verwijderd.',

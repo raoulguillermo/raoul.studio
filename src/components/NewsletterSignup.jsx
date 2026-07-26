@@ -86,7 +86,9 @@ export default function NewsletterSignup({ strings, lang, variant = 'light' }) {
             aria-hidden="true"
           />
           <div className="mt-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-xs uppercase tracking-wider">
-            <span className={dark ? 'opacity-60' : 'text-mute'}>{strings.consent}</span>
+            {strings.consent ? (
+              <span className={dark ? 'opacity-60' : 'text-mute'}>{strings.consent}</span>
+            ) : null}
             {inlineMsg ? (
               <span className="text-accent font-semibold normal-case tracking-normal">
                 {inlineMsg}
