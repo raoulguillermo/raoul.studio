@@ -4,6 +4,7 @@ import MenuButton from '@/components/MenuButton'
 import MenuPanel from '@/components/MenuPanel'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import SiteEffects from '@/components/SiteEffects'
+import Analytics from '@/components/Analytics'
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { isRTL } from '@/content/i18n'
@@ -231,6 +232,7 @@ export default async function FrontendLayout({ children }) {
         />
 
         <SiteEffects />
+        <Analytics />
       </body>
     </html>
   )
