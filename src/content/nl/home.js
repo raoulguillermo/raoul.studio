@@ -7,9 +7,9 @@ export const home = {
       'raoul.studio is een digital product studio die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten — strategie, design, software-engineering, AI, automatisering, commerce en infrastructuur.',
   },
   hero: {
-    prefix: 'De studio versnelt',
-    accent: 'digitale ambitie.',
-    suffix: '',
+    prefix: 'De studio die jouw',
+    accent: 'digitale ambitie',
+    suffix: 'realiseert.',
   },
   intro:
     'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur. De studio werkt samen met ambitieuze oprichters en bedrijven om ideeën om te zetten in schaalbare producten.',
