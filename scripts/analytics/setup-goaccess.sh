@@ -5,7 +5,7 @@
 #   sudo bash scripts/analytics/setup-goaccess.sh
 #
 # What it does (idempotent — safe to re-run):
-#   1. Installs goaccess (+ apache2-utils for the login).
+#   1. Installs goaccess.
 #   2. Adds a DEDICATED access log to the raoul.studio nginx vhost, so its
 #      traffic is separated from all the other sites sharing access.log.
 #   3. Serves the report at https://raoul.studio/_stats/ behind a login
@@ -29,9 +29,8 @@ fi
 
 echo "==> 1/5  Installing goaccess…"
 if ! command -v goaccess >/dev/null 2>&1; then
-  apt-get update -qq && apt-get install -y goaccess
+  apt-get update && apt-get install -y goaccess
 fi
-command -v htpasswd >/dev/null 2>&1 || apt-get install -y apache2-utils
 echo "    goaccess $(goaccess --version | head -1 | awk '{print $NF}')"
 
 echo "==> 2/5  Dedicated access log on the raoul.studio vhost…"
@@ -75,7 +74,17 @@ if [ -f "$HTPASSWD" ]; then
   echo "    login file already exists, keeping it."
 else
   read -rp "    Choose a username for https://raoul.studio/_stats/ : " STATSUSER
-  htpasswd -c "$HTPASSWD" "$STATSUSER"      # prompts for a password
+  if command -v htpasswd >/dev/null 2>&1; then
+    htpasswd -c "$HTPASSWD" "$STATSUSER"      # prompts for a password
+  else
+    # No apache2-utils installed — generate an APR1 (MD5) hash with openssl,
+    # which nginx auth_basic accepts. The password is read without echo and
+    # piped in, so it never shows up in the process list.
+    read -rsp "    Choose a password: " STATSPASS; echo
+    HASH="$(printf '%s' "$STATSPASS" | openssl passwd -apr1 -stdin)"
+    printf '%s:%s\n' "$STATSUSER" "$HASH" > "$HTPASSWD"
+    unset STATSPASS
+  fi
   chown root:www-data "$HTPASSWD"; chmod 640 "$HTPASSWD"
 fi
 
