@@ -38,8 +38,8 @@ export const pages = {
         text: 'We werken samen met founders, start-ups en gevestigde bedrijven om maatwerkplatforms, AI-gedreven tools, commerce-oplossingen en digitale ervaringen te ontwerpen, te bouwen en door te ontwikkelen. Elk project pakken we aan met een productmindset: echte zakelijke uitdagingen oplossen, intuïtieve gebruikerservaringen maken en technologie bouwen die met het bedrijf meegroeit.',
       },
       {
-        text: 'We bouwen langetermijnpartnerschappen met teams die snel willen schakelen, groot durven denken en betekenisvolle digitale producten willen maken. Van het eerste idee tot de lancering — en elke iteratie die daarop volgt — werken we als verlengstuk van je team, gericht op meetbare impact via technologie.',
-        highlight: 'We bouwen langetermijnpartnerschappen',
+        text: 'We bouwen langdurige partnerschappen met teams die snel willen schakelen, groot durven denken en betekenisvolle digitale producten willen maken. Van het eerste idee tot de lancering — en elke iteratie die daarop volgt — werken we als verlengstuk van je team, gericht op meetbare impact via technologie.',
+        highlight: 'We bouwen langdurige partnerschappen',
       },
     ],
     servicesLabel: 'Wat we bouwen',
