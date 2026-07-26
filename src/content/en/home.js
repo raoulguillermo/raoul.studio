@@ -12,9 +12,9 @@ export const home = {
     suffix: '',
   },
   intro:
-    'From AI-powered platforms and custom software to automation, commerce, branding, and infrastructure. We partner with ambitious founders and businesses to turn ideas into scalable products.',
+    'From AI-powered platforms and custom software to automation, commerce, branding, and infrastructure. The studio partners with ambitious founders and businesses to turn ideas into scalable products.',
   pillars: {
-    label: 'What we do',
+    label: 'What the studio does',
     items: [
       {
         title: 'Products',
@@ -40,7 +40,7 @@ export const home = {
   },
   featuredWork: {
     label: 'Selected work',
-    lead: 'How we help ambitious businesses solve hard problems.',
+    lead: 'How the studio helps ambitious businesses solve hard problems.',
     allLabel: 'See all work',
     items: [
       {

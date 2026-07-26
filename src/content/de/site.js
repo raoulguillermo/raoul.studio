@@ -52,7 +52,7 @@ export const ui = {
   form: {
     sendingButton: 'wird gesendet…',
     sendingStatus: 'Wird gesendet…',
-    successStatus: '✓ Nachricht gesendet — wir antworten innerhalb von 24 h.',
+    successStatus: '✓ Nachricht gesendet — das Studio antwortet innerhalb von 24 h.',
     errorStatus:
       '✕ Da ist etwas schiefgelaufen. Bitte erneut versuchen oder an hello@raoul.studio schreiben.',
     validationStatus: '✕ Bitte die markierten Felder prüfen und erneut versuchen.',
@@ -61,7 +61,7 @@ export const ui = {
 
 export const posterRail = {
   topText: 'Digitales Produktstudio',
-  middleText: 'Wir gestalten, bauen und skalieren digitale Unternehmen.',
+  middleText: 'Das Studio gestaltet, baut und skaliert digitale Unternehmen.',
   bottomText: 'raoul.studio',
 }
 

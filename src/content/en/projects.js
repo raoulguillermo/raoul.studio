@@ -25,10 +25,10 @@ export const projects = [
     ],
     body: [
       {
-        text: 'OutdoorXL runs at serious scale: 200,000+ products across 14+ languages and storefronts, served fast with Magento and Varnish. We lead the development and own the architecture behind it.',
+        text: 'OutdoorXL runs at serious scale: 200,000+ products across 14+ languages and storefronts, served fast with Magento and Varnish. The studio leads the development and owns the architecture behind it.',
       },
       {
-        text: "Now we're rebuilding it headless — Next.js and MongoDB on the front, the Magento 2 backend behind a GraphQL and REST layer, with custom modules bridging the two and Payload CMS for content.",
+        text: "The studio is now rebuilding it headless — Next.js and MongoDB on the front, the Magento 2 backend behind a GraphQL and REST layer, with custom modules bridging the two and Payload CMS for content.",
       },
       {
         text: "The goal: keep the catalogue and the markets, lose the legacy weight. A faster storefront and a codebase that's ready for the next decade.",
@@ -82,7 +82,7 @@ export const projects = [
     titleLine2: '',
     shortTag: 'saas, support',
     shortDescription:
-      'Our own SaaS — a support-ticket system for support teams, agencies and solo operators. Shared inbox, SLA tracking, automation.',
+      'The studio’s own SaaS — a support-ticket system for support teams, agencies and solo operators. Shared inbox, SLA tracking, automation.',
     lead:
       "Support that doesn't slip through the cracks — a ticketing system for teams, agencies and solo operators.",
     tagsLine: 'SaaS · Support · Next.js · Node.js · MongoDB',
@@ -90,7 +90,7 @@ export const projects = [
     info: [
       { label: 'Role', value: 'Solo build & architecture' },
       { label: 'Stack', value: 'Next.js, MongoDB, Node.js REST API' },
-      { label: 'Status', value: 'Live — our own product' },
+      { label: 'Status', value: 'Live — the studio’s own product' },
     ],
     body: [
       {
@@ -99,7 +99,7 @@ export const projects = [
       {
         text: 'A shared inbox pulls every channel into one place, SLA tracking keeps response times honest, and automation handles the repetitive work so the team can focus on the replies that matter.',
       },
-      { text: 'Designed, built and architected in-house. We run on it too.' },
+      { text: 'Designed, built and architected in-house. The studio runs on it too.' },
     ],
   },
 
@@ -125,7 +125,7 @@ export const projects = [
     ],
     body: [
       {
-        text: 'Lexpert Advocaten needed a CRM shaped around legal practice, not a generic tool bent to fit. So we built one — managing clients and relations, billing them directly, and tracking the metrics that run the firm.',
+        text: 'Lexpert Advocaten needed a CRM shaped around legal practice, not a generic tool bent to fit. So the studio built one — managing clients and relations, billing them directly, and tracking the metrics that run the firm.',
       },
       {
         text: "Role-based user rights keep the right information with the right people, and the whole system was built to the firm's direction from the first decision to the last.",
@@ -191,7 +191,7 @@ export const projects = [
     ],
     body: [
       {
-        text: 'Smart Dossier started in 2016 as a PHP/MySQL document system for Vastgoedkor. In 2026 we rebuilt it into something smarter.',
+        text: 'Smart Dossier started in 2016 as a PHP/MySQL document system for Vastgoedkor. In 2026 the studio rebuilt it into something smarter.',
       },
       {
         text: 'It searches the full text inside documents — not just filenames — and automatically restructures large, messy document sets into something you can actually navigate. AI does the heavy lifting on search and data structuring.',
@@ -262,7 +262,7 @@ export const projects = [
         text: "It's growing beyond the screen too: into events, clothing and merch, and a record label.",
       },
       {
-        text: 'We list it here as a range-piece. The same instinct that ships software — build it properly, grow it for the long run — works just as well on a brand.',
+        text: 'It’s listed here as a range-piece. The same instinct that ships software — build it properly, grow it for the long run — works just as well on a brand.',
       },
     ],
   },
@@ -355,7 +355,7 @@ export const projects = [
     info: [
       { label: 'Role', value: 'Solo build & architecture' },
       { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
-      { label: 'Status', value: 'Live — our own tool' },
+      { label: 'Status', value: 'Live — the studio’s own tool' },
     ],
     body: [
       {
@@ -365,7 +365,7 @@ export const projects = [
         text: 'Every signal is followed and logged: entry, target and stop, then the take-profit or stop-loss the moment price reaches it. The result is a permanent, queryable record of exactly what the system saw and when — not screenshots after the fact.',
       },
       {
-        text: 'Built end to end — a Node and MongoDB backend feeding a Next.js dashboard with live candlesticks, streamed to the browser over server-sent events. It watches and records; it does not place orders. Our own tool, running live.',
+        text: 'Built end to end — a Node and MongoDB backend feeding a Next.js dashboard with live candlesticks, streamed to the browser over server-sent events. It watches and records; it does not place orders. The studio’s own tool, running live.',
       },
     ],
   },

@@ -16,10 +16,10 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'OutdoorXL tourne à grande échelle : plus de 200,000 produits sur 14+ langues et boutiques, servis vite avec Magento et Varnish. Nous menons le développement et possédons l’architecture qui le sous-tend.',
+        text: 'OutdoorXL tourne à grande échelle : plus de 200,000 produits sur 14+ langues et boutiques, servis vite avec Magento et Varnish. Le studio mène le développement et possède l’architecture qui le sous-tend.',
       },
       {
-        text: 'Nous le reconstruisons aujourd’hui en headless : Next.js et MongoDB en façade, le back-end Magento 2 derrière une couche GraphQL et REST, avec des modules sur mesure pour relier les deux et Payload CMS pour le contenu.',
+        text: 'Le studio le reconstruit aujourd’hui en headless : Next.js et MongoDB en façade, le back-end Magento 2 derrière une couche GraphQL et REST, avec des modules sur mesure pour relier les deux et Payload CMS pour le contenu.',
       },
       {
         text: 'L’objectif : garder le catalogue et les marchés, lâcher le poids du legacy. Une boutique plus rapide et une base de code prête pour la prochaine décennie.',
@@ -56,7 +56,7 @@ export const projectOverrides = {
   threadly: {
     shortTag: 'saas, support',
     shortDescription:
-      'Notre propre SaaS : un système de tickets de support pour les équipes de support, les agences et les indépendants. Boîte de réception partagée, suivi des SLA, automatisation.',
+      'Le SaaS maison du studio : un système de tickets de support pour les équipes de support, les agences et les indépendants. Boîte de réception partagée, suivi des SLA, automatisation.',
     lead:
       'Un support qui ne passe pas entre les mailles : un système de tickets pour les équipes, les agences et les indépendants.',
     tagsLine: 'SaaS · Support · Next.js · Node.js · MongoDB',
@@ -73,7 +73,7 @@ export const projectOverrides = {
       {
         text: 'Une boîte de réception partagée réunit tous les canaux au même endroit, le suivi des SLA garde les délais de réponse honnêtes, et l’automatisation se charge du travail répétitif pour que l’équipe se concentre sur les réponses qui comptent.',
       },
-      { text: 'Conçu, construit et architecturé en interne. Nous l’utilisons aussi.' },
+      { text: 'Conçu, construit et architecturé en interne. Le studio l’utilise aussi.' },
     ],
   },
 
@@ -91,7 +91,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Lexpert Advocaten avait besoin d’un CRM façonné autour de la pratique juridique, pas d’un outil générique forcé à entrer dans le moule. Nous en avons donc construit un : il gère les clients et les relations, les facture directement et suit les métriques qui font tourner le cabinet.',
+        text: 'Lexpert Advocaten avait besoin d’un CRM façonné autour de la pratique juridique, pas d’un outil générique forcé à entrer dans le moule. Le studio en a donc construit un : il gère les clients et les relations, les facture directement et suit les métriques qui font tourner le cabinet.',
       },
       {
         text: 'Les droits d’accès par rôles gardent la bonne information entre les bonnes mains, et tout le système a été construit selon la direction du cabinet, de la première décision à la dernière.',
@@ -140,7 +140,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Smart Dossier a débuté en 2016 comme un système documentaire en PHP/MySQL pour Vastgoedkor. En 2026, nous l’avons reconstruit en quelque chose de plus intelligent.',
+        text: 'Smart Dossier a débuté en 2016 comme un système documentaire en PHP/MySQL pour Vastgoedkor. En 2026, le studio l’a reconstruit en quelque chose de plus intelligent.',
       },
       {
         text: 'Il recherche le texte intégral à l’intérieur des documents, pas seulement les noms de fichiers, et restructure automatiquement de grands ensembles de documents désordonnés en quelque chose que l’on peut réellement parcourir. L’IA fait le gros du travail sur la recherche et la structuration des données.',
@@ -194,7 +194,7 @@ export const projectOverrides = {
         text: 'Elle grandit aussi au-delà de l’écran : vers les événements, les vêtements et le merch, et un label discographique.',
       },
       {
-        text: 'Nous la mentionnons ici comme preuve de polyvalence. Le même instinct qui livre du logiciel — bien le construire, le faire grandir sur le long terme — fonctionne tout aussi bien avec une marque.',
+        text: 'Le studio la mentionne ici comme preuve de polyvalence. Le même instinct qui livre du logiciel — bien le construire, le faire grandir sur le long terme — fonctionne tout aussi bien avec une marque.',
       },
     ],
   },
@@ -272,7 +272,7 @@ export const projectOverrides = {
         text: "Chaque signal est suivi et journalisé : entrée, objectif et stop, puis le take-profit ou le stop-loss à l’instant où le prix l’atteint. Résultat : un enregistrement permanent et interrogeable de ce que le système a vu, et quand — pas des captures d’écran après coup.",
       },
       {
-        text: "Construit de bout en bout — un back-end Node et MongoDB alimentant un tableau de bord Next.js avec chandeliers en direct, diffusé au navigateur en server-sent events. Il observe et enregistre ; il ne passe pas d’ordres. Notre propre outil, en production.",
+        text: "Construit de bout en bout — un back-end Node et MongoDB alimentant un tableau de bord Next.js avec chandeliers en direct, diffusé au navigateur en server-sent events. Il observe et enregistre ; il ne passe pas d’ordres. Un outil maison du studio, en production.",
       },
     ],
   },

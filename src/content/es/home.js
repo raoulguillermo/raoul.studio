@@ -7,14 +7,14 @@ export const home = {
       'raoul.studio es un estudio de producto digital que ayuda a empresas ambiciosas a convertir ideas en productos digitales escalables — estrategia, diseño, ingeniería de software, IA, automatización, commerce e infraestructura.',
   },
   hero: {
-    prefix: 'Construimos',
+    prefix: 'El estudio construye',
     accent: 'lo que viene.',
     suffix: '',
   },
   intro:
-    'Desde plataformas impulsadas por IA y software a medida hasta automatización, commerce, branding e infraestructura. Nos asociamos con fundadores y empresas ambiciosos para convertir ideas en productos escalables.',
+    'Desde plataformas impulsadas por IA y software a medida hasta automatización, commerce, branding e infraestructura. El estudio se asocia con fundadores y empresas ambiciosos para convertir ideas en productos escalables.',
   pillars: {
-    label: 'Qué hacemos',
+    label: 'Qué hace el estudio',
     items: [
       {
         title: 'Productos',
@@ -40,12 +40,12 @@ export const home = {
   },
   featuredWork: {
     label: 'Trabajo seleccionado',
-    lead: 'Cómo ayudamos a empresas ambiciosas a resolver problemas difíciles.',
+    lead: 'Cómo ayuda el estudio a empresas ambiciosas a resolver problemas difíciles.',
     allLabel: 'Ver todo el trabajo',
     items: [
-      { slug: 'outdoorxl', tagline: 'Reconstruimos uno de los mayores retailers outdoor de Europa convirtiéndolo en una plataforma de commerce moderna y headless.', metrics: ['200K+ productos', '14 mercados', 'Migración headless'] },
-      { slug: 'lexpert', tagline: 'Sustituimos las herramientas genéricas por un CRM a medida pensado en torno a cómo funciona de verdad un despacho de abogados.', metrics: ['CRM a medida', 'Facturación directa', 'Acceso por roles'] },
-      { slug: 'anonimise', tagline: 'Permitimos que un despacho de abogados ponga la IA a trabajar sin que un solo expediente de cliente salga nunca del edificio.', metrics: ['IA totalmente offline', 'Anonimización en el dispositivo', 'Conforme al RGPD por diseño'] },
+      { slug: 'outdoorxl', tagline: 'El estudio reconstruye uno de los mayores retailers outdoor de Europa convirtiéndolo en una plataforma de commerce moderna y headless.', metrics: ['200K+ productos', '14 mercados', 'Migración headless'] },
+      { slug: 'lexpert', tagline: 'El estudio sustituye las herramientas genéricas por un CRM a medida pensado en torno a cómo funciona de verdad un despacho de abogados.', metrics: ['CRM a medida', 'Facturación directa', 'Acceso por roles'] },
+      { slug: 'anonimise', tagline: 'El estudio permite que un despacho de abogados ponga la IA a trabajar sin que un solo expediente de cliente salga nunca del edificio.', metrics: ['IA totalmente offline', 'Anonimización en el dispositivo', 'Conforme al RGPD por diseño'] },
     ],
   },
   insights: {

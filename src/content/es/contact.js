@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Contacto',
     description:
-      '¿Tienes una herramienta o plataforma que construir? Cuéntaselo al estudio. Respondemos en menos de 24 h.',
+      '¿Tienes una herramienta o plataforma que construir? Cuéntaselo al estudio. El estudio responde en menos de 24 h.',
   },
   eyebrow: 'Ponte en contacto',
   titleLine1: 'Hablemos',
@@ -36,7 +36,7 @@ export const contact = {
     items: [
       {
         q: '¿En cuánto tiempo tendré respuesta?',
-        a: 'Cada briefing real se lee, con respuesta en menos de 24 horas. Mantenemos el estudio pequeño y directo, así que quien responde está cerca del trabajo.',
+        a: 'Cada briefing real se lee, con respuesta en menos de 24 horas. El estudio se mantiene pequeño y directo, así que quien responde está cerca del trabajo.',
       },
       {
         q: '¿Qué debo incluir en mi mensaje?',
@@ -44,7 +44,7 @@ export const contact = {
       },
       {
         q: '¿Dónde estáis basados y trabajáis en remoto?',
-        a: 'Estamos basados en los Países Bajos y trabajamos en remoto con equipos estén donde estén. La ubicación no es un obstáculo: el trabajo es colaborativo y se construye en abierto contigo.',
+        a: 'El estudio está basado en los Países Bajos y trabaja en remoto con equipos estén donde estén. La ubicación no es un obstáculo: el trabajo es colaborativo y se construye en abierto contigo.',
       },
       {
         q: '¿Qué tipo de proyectos aceptáis?',
@@ -52,7 +52,7 @@ export const contact = {
       },
       {
         q: '¿Cómo contacto con vosotros directamente?',
-        a: 'Escribe a hello@raoul.studio o usa el formulario de esta página. Ambos nos llegan directamente, sin capa de recepción de por medio.',
+        a: 'Escribe a hello@raoul.studio o usa el formulario de esta página. Ambos llegan directamente al estudio, sin capa de recepción de por medio.',
       },
     ],
   },

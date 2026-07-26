@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Contact',
     description:
-      'Un outil ou une plateforme à construire ? Parlez-en au studio. Nous répondons sous 24 h.',
+      'Un outil ou une plateforme à construire ? Parlez-en au studio. Le studio répond sous 24 h.',
   },
   eyebrow: 'Entrer en contact',
   titleLine1: 'On en',
@@ -36,7 +36,7 @@ export const contact = {
     items: [
       {
         q: 'Sous combien de temps aurai-je une réponse ?',
-        a: 'Chaque vrai brief est lu, avec une réponse sous 24 heures. Nous gardons le studio restreint et direct : la personne qui répond est proche du travail.',
+        a: 'Chaque vrai brief est lu, avec une réponse sous 24 heures. Le studio reste restreint et direct : la personne qui répond est proche du travail.',
       },
       {
         q: 'Que dois-je inclure dans mon message ?',
@@ -44,7 +44,7 @@ export const contact = {
       },
       {
         q: 'Où êtes-vous basés, et travaillez-vous à distance ?',
-        a: 'Nous sommes basés aux Pays-Bas et travaillons à distance avec les équipes où qu’elles soient. La localisation n’est pas un frein — le travail est collaboratif et construit à découvert avec vous.',
+        a: 'Le studio est basé aux Pays-Bas et travaille à distance avec les équipes où qu’elles soient. La localisation n’est pas un frein — le travail est collaboratif et construit à découvert avec vous.',
       },
       {
         q: 'Quels types de projets prenez-vous en charge ?',
@@ -52,7 +52,7 @@ export const contact = {
       },
       {
         q: 'Comment vous joindre directement ?',
-        a: 'Écrivez à hello@raoul.studio, ou utilisez le formulaire de cette page. Les deux nous arrivent directement — sans intermédiaire de réception.',
+        a: 'Écrivez à hello@raoul.studio, ou utilisez le formulaire de cette page. Les deux arrivent directement au studio — sans intermédiaire de réception.',
       },
     ],
   },

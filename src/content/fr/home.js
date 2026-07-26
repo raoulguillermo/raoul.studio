@@ -7,14 +7,14 @@ export const home = {
       'raoul.studio est un studio de produit digital qui aide les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs — stratégie, design, ingénierie logicielle, IA, automatisation, commerce et infrastructure.',
   },
   hero: {
-    prefix: 'Nous bâtissons',
+    prefix: 'Le studio bâtit',
     accent: 'la suite.',
     suffix: '',
   },
   intro:
-    'Des plateformes propulsées par l’IA et des logiciels sur mesure jusqu’à l’automatisation, le commerce, le branding et l’infrastructure. Nous accompagnons des fondateurs et des entreprises ambitieux pour transformer leurs idées en produits évolutifs.',
+    'Des plateformes propulsées par l’IA et des logiciels sur mesure jusqu’à l’automatisation, le commerce, le branding et l’infrastructure. Le studio accompagne des fondateurs et des entreprises ambitieux pour transformer leurs idées en produits évolutifs.',
   pillars: {
-    label: 'Ce que nous faisons',
+    label: 'Ce que fait le studio',
     items: [
       {
         title: 'Produits',
@@ -40,7 +40,7 @@ export const home = {
   },
   featuredWork: {
     label: 'Travaux sélectionnés',
-    lead: 'Comment nous aidons des entreprises ambitieuses à résoudre des problèmes complexes.',
+    lead: 'Comment le studio aide des entreprises ambitieuses à résoudre des problèmes complexes.',
     allLabel: 'Voir tous les travaux',
     items: [
       { slug: 'outdoorxl', tagline: 'Reconstruire l’un des plus grands détaillants outdoor d’Europe en une plateforme de commerce headless et moderne.', metrics: ['200K+ produits', '14 marchés', 'Migration headless'] },

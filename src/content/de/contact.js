@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Kontakt',
     description:
-      'Ein Produkt oder eine Plattform, die gebaut werden will? Erzählen Sie es dem Studio. Wir antworten innerhalb von 24 h.',
+      'Ein Produkt oder eine Plattform, die gebaut werden will? Erzählen Sie es dem Studio. Das Studio antwortet innerhalb von 24 h.',
   },
   eyebrow: 'Kontakt aufnehmen',
   titleLine1: 'Reden',
@@ -36,7 +36,7 @@ export const contact = {
     items: [
       {
         q: 'Wie schnell höre ich von Ihnen?',
-        a: 'Jedes echte Briefing wird gelesen, mit Antwort innerhalb von 24 Stunden. Wir halten das Studio klein und direkt, sodass die Person, die antwortet, nah an der Arbeit ist.',
+        a: 'Jedes echte Briefing wird gelesen, mit Antwort innerhalb von 24 Stunden. Das Studio bleibt klein und direkt, sodass die Person, die antwortet, nah an der Arbeit ist.',
       },
       {
         q: 'Was sollte ich in meine Nachricht packen?',
@@ -44,7 +44,7 @@ export const contact = {
       },
       {
         q: 'Wo sitzen Sie, und arbeiten Sie remote?',
-        a: 'Wir sitzen in den Niederlanden und arbeiten remote mit Teams, wo auch immer sie sind. Der Standort ist kein Hindernis — gearbeitet wird gemeinsam und offen, an Ihrer Seite.',
+        a: 'Das Studio sitzt in den Niederlanden und arbeitet remote mit Teams, wo auch immer sie sind. Der Standort ist kein Hindernis — gearbeitet wird gemeinsam und offen, an Ihrer Seite.',
       },
       {
         q: 'Welche Art von Projekten übernehmen Sie?',

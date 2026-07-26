@@ -6,13 +6,13 @@ export const pages = {
     meta: {
       title: 'Trabajo',
       description:
-        'Proyectos seleccionados del estudio: plataformas a medida, SaaS, herramientas de IA, e-commerce headless y CRMs para equipos de fintech, derecho y comercio, además de nuestros propios productos.',
+        'Proyectos seleccionados del estudio: plataformas a medida, SaaS, herramientas de IA, e-commerce headless y CRMs para equipos de fintech, derecho y comercio, además de los productos propios del estudio.',
     },
     eyebrow: 'Trabajo seleccionado',
     titleLine1: 'Trabajo',
     titleAccent: '.',
     lead:
-      'Cada proyecto es un problema real de negocio, resuelto de principio a fin y construido para funcionar en producción. Las plataformas y herramientas que hemos entregado para clientes, y los productos que construimos y operamos nosotros mismos.',
+      'Cada proyecto es un problema real de negocio, resuelto de principio a fin y construido para funcionar en producción. Las plataformas y herramientas que el estudio ha entregado para clientes, y los productos que construye y opera por sí mismo.',
     groups: {
       client: 'Trabajo para clientes',
       product: 'Productos propios',
@@ -32,17 +32,17 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio es una agencia digital y estudio de producto con sede en Rotterdam que ayuda a empresas ambiciosas a convertir ideas en productos digitales escalables. Combinamos estrategia, branding, ingeniería de software, IA, automatización e infraestructura para crear soluciones que aportan valor de negocio duradero.',
+        text: 'raoul.studio es una agencia digital y estudio de producto con sede en Rotterdam que ayuda a empresas ambiciosas a convertir ideas en productos digitales escalables. En el estudio se combinan estrategia, branding, ingeniería de software, IA, automatización e infraestructura para crear soluciones que aportan valor de negocio duradero.',
       },
       {
-        text: 'Nos asociamos con fundadores, startups y empresas consolidadas para diseñar, construir y hacer evolucionar plataformas a medida, herramientas impulsadas por IA, soluciones de commerce y experiencias digitales. Cada proyecto lo afrontamos con mentalidad de producto: resolver retos de negocio reales, crear experiencias de usuario intuitivas y construir tecnología que pueda crecer junto al negocio.',
+        text: 'El estudio se asocia con fundadores, startups y empresas consolidadas para diseñar, construir y hacer evolucionar plataformas a medida, herramientas impulsadas por IA, soluciones de commerce y experiencias digitales. Cada proyecto se afronta con mentalidad de producto: resolver retos de negocio reales, crear experiencias de usuario intuitivas y construir tecnología que pueda crecer junto al negocio.',
       },
       {
-        text: 'Construimos relaciones a largo plazo con equipos que quieren ir rápido, pensar en grande y crear productos digitales con sentido. Desde la primera idea hasta el lanzamiento —y cada iteración que sigue— trabajamos como una extensión de tu equipo, centrados en generar un impacto medible a través de la tecnología.',
-        highlight: 'Construimos relaciones a largo plazo',
+        text: 'El estudio construye relaciones a largo plazo con equipos que quieren ir rápido, pensar en grande y crear productos digitales con sentido. Desde la primera idea hasta el lanzamiento —y cada iteración que sigue— el estudio trabaja como una extensión de tu equipo, centrado en generar un impacto medible a través de la tecnología.',
+        highlight: 'El estudio construye relaciones a largo plazo',
       },
     ],
-    servicesLabel: 'Lo que construimos',
+    servicesLabel: 'Lo que construye el estudio',
     services: [
       { label: 'Plataformas web a medida y SaaS' },
       { label: 'E-commerce headless a gran escala' },
@@ -52,8 +52,8 @@ export const pages = {
       { label: 'Marketplaces de dos lados' },
     ],
     systemsParagraph: [
-      'Construimos productos digitales pensados para evolucionar. Cada plataforma se asienta sobre una base técnica sólida, con arquitectura escalable, ingeniería bien pensada y el crecimiento futuro en mente. Ya sea una plataforma impulsada por IA, un ecosistema de commerce o una aplicación de negocio a medida, creamos tecnología que se adapta a medida que crece tu negocio.',
-      'Desde la primera sesión de estrategia hasta mucho después del lanzamiento, nos centramos en construir soluciones digitales robustas, escalables y hechas para durar.',
+      'El estudio construye productos digitales pensados para evolucionar. Cada plataforma se asienta sobre una base técnica sólida, con arquitectura escalable, ingeniería bien pensada y el crecimiento futuro en mente. Ya sea una plataforma impulsada por IA, un ecosistema de commerce o una aplicación de negocio a medida, el estudio crea tecnología que se adapta a medida que crece tu negocio.',
+      'Desde la primera sesión de estrategia hasta mucho después del lanzamiento, el estudio se centra en construir soluciones digitales robustas, escalables y hechas para durar.',
     ],
     manifestoLead: 'Donde la estrategia, la IA y el software',
     manifestoTail: 'se encuentran.',
@@ -71,14 +71,14 @@ export const pages = {
     titleLine1: 'Proceso',
     titleAccent: '.',
     lead:
-      'Seis etapas, un principio: entender el sistema antes de construirlo. Vamos rápido porque el pensamiento se hace al principio, no porque nos lo saltemos. Productos a medida, dados forma paso a paso.',
+      'Seis etapas, un principio: entender el sistema antes de construirlo. El estudio va rápido porque el pensamiento se hace al principio, no porque se salte pasos. Productos a medida, dados forma paso a paso.',
     steps: [
       {
         title: 'Dirección',
-        lead: 'Definir qué estamos construyendo de verdad.',
+        lead: 'Definir qué se está construyendo de verdad.',
         body: [
           {
-            text: 'Empezamos por el problema, no por la lista de funcionalidades. Qué está roto, qué va lento, qué te está costando, y qué significa "terminado".',
+            text: 'El estudio empieza por el problema, no por la lista de funcionalidades. Qué está roto, qué va lento, qué te está costando, y qué significa "terminado".',
           },
           {
             text: 'Sales de esta etapa con un alcance claro y una idea compartida de adónde vamos. Sin sorpresas más adelante.',
@@ -90,7 +90,7 @@ export const pages = {
         lead: 'Diseñar el sistema que va por debajo.',
         body: [
           {
-            text: 'Antes de una sola pantalla, mapeamos los datos, los flujos y la arquitectura. Los productos a medida viven o mueren por lo que tienen debajo.',
+            text: 'Antes de una sola pantalla, el estudio mapea los datos, los flujos y la arquitectura. Los productos a medida viven o mueren por lo que tienen debajo.',
           },
           {
             text: 'Acierta aquí y todo lo que venga después será más fácil. Falla y lo pagarás para siempre.',
@@ -102,7 +102,7 @@ export const pages = {
         lead: 'Que sea claro, que sea usable.',
         body: [
           {
-            text: 'Diseñamos en torno al flujo de trabajo real: las acciones diarias, los casos límite, las personas que de verdad lo van a usar.',
+            text: 'El estudio diseña en torno al flujo de trabajo real: las acciones diarias, los casos límite, las personas que de verdad lo van a usar.',
           },
           {
             text: 'Nítido, rápido, sin ruido. La interfaz debe desaparecer y dejar que el trabajo ocurra.',
@@ -117,7 +117,7 @@ export const pages = {
             text: 'Hecho a mano, sin código de relleno. Stack moderno, base de código limpia, lista para producción desde el primer día.',
           },
           {
-            text: 'Construimos en abierto contigo: ves los avances según llegan, no en una gran revelación al final.',
+            text: 'El estudio construye en abierto contigo: ves los avances según llegan, no en una gran revelación al final.',
           },
         ],
       },
@@ -126,7 +126,7 @@ export const pages = {
         lead: 'Ponerlo frente al uso real.',
         body: [
           {
-            text: 'Los usuarios reales sacan a la luz lo que las especificaciones no pueden. Entregamos, observamos y ajustamos: ciclos cortos, lanzamientos pequeños.',
+            text: 'Los usuarios reales sacan a la luz lo que las especificaciones no pueden. El estudio entrega, observa y ajusta: ciclos cortos, lanzamientos pequeños.',
           },
           { text: 'El producto se vuelve más afinado en cada ciclo.' },
         ],
@@ -139,13 +139,13 @@ export const pages = {
             text: 'Más usuarios, más datos, más idiomas, más funcionalidades: el sistema se construyó para soportarlo.',
           },
           {
-            text: 'Nos quedamos. La mayor parte de nuestro trabajo es a largo plazo, y tratamos lo que construimos como si fuera nuestro.',
+            text: 'El estudio se queda. La mayor parte de su trabajo es a largo plazo, y trata lo que construye como si fuera suyo.',
           },
         ],
       },
     ],
     howWeWork: {
-      label: 'Cómo trabajamos',
+      label: 'Cómo trabaja el estudio',
       lead: 'Directo y dirigido por sus fundadores. Hablas con las personas que construyen la cosa.',
       points: [
         { label: 'Comunicación directa' },
@@ -159,7 +159,7 @@ export const pages = {
       items: [
         {
           q: '¿Qué hace raoul.studio?',
-          a: 'raoul.studio es un estudio de producto digital. Diseñamos, construimos y hacemos crecer productos a medida: plataformas web y SaaS, e-commerce headless, herramientas de IA y automatización, CRMs y herramientas internas, APIs y marketplaces de dos lados, para fintech, despachos de abogados, agencias comerciales y equipos de e-commerce, junto a nuestros propios productos.',
+          a: 'raoul.studio es un estudio de producto digital. Diseña, construye y hace crecer productos a medida: plataformas web y SaaS, e-commerce headless, herramientas de IA y automatización, CRMs y herramientas internas, APIs y marketplaces de dos lados, para fintech, despachos de abogados, agencias comerciales y equipos de e-commerce, junto a sus propios productos.',
         },
         {
           q: '¿Cómo trabajáis?',
@@ -167,15 +167,15 @@ export const pages = {
         },
         {
           q: '¿Cuánto tarda un proyecto?',
-          a: 'Depende del alcance, pero trabajamos en ciclos cortos con lanzamientos pequeños y frecuentes, en lugar de una gran revelación al final. Ves los avances según llegan y el producto se afina en cada ciclo, porque la arquitectura y la dirección quedan cerradas antes de empezar a construir.',
+          a: 'Depende del alcance, pero el estudio trabaja en ciclos cortos con lanzamientos pequeños y frecuentes, en lugar de una gran revelación al final. Ves los avances según llegan y el producto se afina en cada ciclo, porque la arquitectura y la dirección quedan cerradas antes de empezar a construir.',
         },
         {
           q: '¿Con quién trabajáis?',
-          a: 'Sobre todo con fintech, despachos de abogados, agencias comerciales y equipos de e-commerce. Parte del trabajo es para clientes, parte son nuestros propios productos: todo está hecho para funcionar en producción.',
+          a: 'Sobre todo con fintech, despachos de abogados, agencias comerciales y equipos de e-commerce. Parte del trabajo es para clientes, parte son sus propios productos: todo está hecho para funcionar en producción.',
         },
         {
           q: '¿Ofrecéis soporte continuo tras el lanzamiento?',
-          a: 'Sí. La mayor parte de nuestro trabajo es a largo plazo: los sistemas se construyen para crecer contigo en usuarios, datos, idiomas y funcionalidades, y seguimos implicados en lugar de entregar y desaparecer.',
+          a: 'Sí. La mayor parte del trabajo del estudio es a largo plazo: los sistemas se construyen para crecer contigo en usuarios, datos, idiomas y funcionalidades, y el estudio sigue implicado en lugar de entregar y desaparecer.',
         },
         {
           q: '¿Cómo arranco un proyecto?',

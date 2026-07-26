@@ -7,14 +7,14 @@ export const home = {
       'raoul.studio ist ein digitales Produktstudio, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen — Strategie, Design, Software-Engineering, KI, Automatisierung, Commerce und Infrastruktur.',
   },
   hero: {
-    prefix: 'Wir bauen,',
+    prefix: 'Das Studio baut,',
     accent: 'was kommt.',
     suffix: '',
   },
   intro:
-    'Von KI-gestützten Plattformen und Individualsoftware bis zu Automatisierung, Commerce, Branding und Infrastruktur. Wir arbeiten partnerschaftlich mit ambitionierten Gründern und Unternehmen, um Ideen in skalierbare Produkte zu verwandeln.',
+    'Von KI-gestützten Plattformen und Individualsoftware bis zu Automatisierung, Commerce, Branding und Infrastruktur. Das Studio arbeitet partnerschaftlich mit ambitionierten Gründern und Unternehmen, um Ideen in skalierbare Produkte zu verwandeln.',
   pillars: {
-    label: 'Was wir tun',
+    label: 'Was das Studio tut',
     items: [
       {
         title: 'Produkte',
@@ -40,12 +40,12 @@ export const home = {
   },
   featuredWork: {
     label: 'Ausgewählte Arbeiten',
-    lead: 'Wie wir ambitionierten Unternehmen helfen, schwierige Probleme zu lösen.',
+    lead: 'Wie das Studio ambitionierten Unternehmen hilft, schwierige Probleme zu lösen.',
     allLabel: 'Alle Arbeiten ansehen',
     items: [
-      { slug: 'outdoorxl', tagline: 'Wir bauen einen der größten Outdoor-Händler Europas zu einer modernen, headless Commerce-Plattform um.', metrics: ['200K+ Produkte', '14 Märkte', 'Headless-Migration'] },
-      { slug: 'lexpert', tagline: 'Wir ersetzen generische Tools durch ein maßgeschneidertes CRM, das sich an den tatsächlichen Abläufen einer Kanzlei orientiert.', metrics: ['Maßgeschneidertes CRM', 'Direkte Rechnungsstellung', 'Rollenbasierter Zugriff'] },
-      { slug: 'anonimise', tagline: 'Wir bringen eine Kanzlei dazu, KI zu nutzen, ohne dass je eine einzige Mandantenakte das Haus verlässt.', metrics: ['Vollständig offline KI', 'Schwärzung auf dem Gerät', 'DSGVO-konform by design'] },
+      { slug: 'outdoorxl', tagline: 'Das Studio baut einen der größten Outdoor-Händler Europas zu einer modernen, headless Commerce-Plattform um.', metrics: ['200K+ Produkte', '14 Märkte', 'Headless-Migration'] },
+      { slug: 'lexpert', tagline: 'Das Studio ersetzt generische Tools durch ein maßgeschneidertes CRM, das sich an den tatsächlichen Abläufen einer Kanzlei orientiert.', metrics: ['Maßgeschneidertes CRM', 'Direkte Rechnungsstellung', 'Rollenbasierter Zugriff'] },
+      { slug: 'anonimise', tagline: 'Das Studio bringt eine Kanzlei dazu, KI zu nutzen, ohne dass je eine einzige Mandantenakte das Haus verlässt.', metrics: ['Vollständig offline KI', 'Schwärzung auf dem Gerät', 'DSGVO-konform by design'] },
     ],
   },
   insights: {

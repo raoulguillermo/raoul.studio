@@ -13,7 +13,7 @@ export const menu = {
     {
       heading: '01 — الاستوديو',
       links: [
-        { label: 'من نحن', href: '/about' },
+        { label: 'عن الاستوديو', href: '/about' },
         { label: 'منهجيتنا', href: '/process' },
         { label: 'المدوّنة', href: '/blog' },
       ],
@@ -52,7 +52,7 @@ export const ui = {
   form: {
     sendingButton: 'جارٍ الإرسال…',
     sendingStatus: 'جارٍ الإرسال…',
-    successStatus: '✓ تم إرسال رسالتك — سنردّ خلال 24 ساعة.',
+    successStatus: '✓ تم إرسال رسالتك — سيردّ الاستوديو خلال 24 ساعة.',
     errorStatus:
       '✕ حدث خطأ ما. حاول مرة أخرى، أو راسلنا على hello@raoul.studio.',
     validationStatus: '✕ تحقّق من الحقول المميّزة وحاول مرة أخرى.',
@@ -61,7 +61,7 @@ export const ui = {
 
 export const posterRail = {
   topText: 'استوديو منتجات رقمية',
-  middleText: 'نصمّم ونبني وننمّي شركات رقمية.',
+  middleText: 'يصمّم الاستوديو ويبني وينمّي شركات رقمية.',
   bottomText: 'raoul.studio',
 }
 

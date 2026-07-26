@@ -17,10 +17,10 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'OutdoorXL läuft in echtem Maßstab: 200.000+ Produkte über 14+ Sprachen und Storefronts, schnell ausgeliefert mit Magento und Varnish. Wir führen die Entwicklung und verantworten die Architektur dahinter.',
+        text: 'OutdoorXL läuft in echtem Maßstab: 200.000+ Produkte über 14+ Sprachen und Storefronts, schnell ausgeliefert mit Magento und Varnish. Das Studio führt die Entwicklung und verantwortet die Architektur dahinter.',
       },
       {
-        text: 'Jetzt bauen wir es headless um — Next.js und MongoDB vorne, das Magento-2-Backend hinter einer GraphQL- und REST-Schicht, mit eigenen Modulen, die beide verbinden, und Payload CMS für die Inhalte.',
+        text: 'Jetzt baut das Studio es headless um — Next.js und MongoDB vorne, das Magento-2-Backend hinter einer GraphQL- und REST-Schicht, mit eigenen Modulen, die beide verbinden, und Payload CMS für die Inhalte.',
       },
       {
         text: 'Das Ziel: Katalog und Märkte behalten, den Altlast-Ballast loswerden. Eine schnellere Storefront und ein Code, der für das nächste Jahrzehnt bereit ist.',
@@ -57,7 +57,7 @@ export const projectOverrides = {
   threadly: {
     shortTag: 'SaaS, Support',
     shortDescription:
-      'Unser eigenes SaaS — ein Support-Ticket-System für Support-Teams, Agenturen und Einzelkämpfer. Geteilter Posteingang, SLA-Tracking, Automatisierung.',
+      'Das eigene SaaS des Studios — ein Support-Ticket-System für Support-Teams, Agenturen und Einzelkämpfer. Geteilter Posteingang, SLA-Tracking, Automatisierung.',
     lead:
       'Support, der nicht durchs Raster fällt — ein Ticketsystem für Teams, Agenturen und Einzelkämpfer.',
     tagsLine: 'SaaS · Support · Next.js · Node.js · MongoDB',
@@ -65,7 +65,7 @@ export const projectOverrides = {
     info: [
       { label: 'Rolle', value: 'Solo-Bau & Architektur' },
       { label: 'Stack', value: 'Next.js, MongoDB, Node.js REST API' },
-      { label: 'Status', value: 'Live — unser eigenes Produkt' },
+      { label: 'Status', value: 'Live — das eigene Produkt des Studios' },
     ],
     body: [
       {
@@ -74,7 +74,7 @@ export const projectOverrides = {
       {
         text: 'Ein geteilter Posteingang zieht jeden Kanal an einen Ort, SLA-Tracking hält die Antwortzeiten ehrlich, und Automatisierung übernimmt die Routine, damit das Team sich auf die Antworten konzentrieren kann, die zählen.',
       },
-      { text: 'Im Haus gestaltet, gebaut und architektiert. Wir arbeiten selbst damit.' },
+      { text: 'Im Haus gestaltet, gebaut und architektiert. Das Studio arbeitet selbst damit.' },
     ],
   },
 
@@ -92,7 +92,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Lexpert Advocaten brauchte ein CRM, das sich an der juristischen Praxis orientiert, kein Standardtool, das man passend biegt. Also haben wir eines gebaut — für die Verwaltung von Mandanten und Beziehungen, die direkte Abrechnung und das Tracking der Kennzahlen, die die Kanzlei steuern.',
+        text: 'Lexpert Advocaten brauchte ein CRM, das sich an der juristischen Praxis orientiert, kein Standardtool, das man passend biegt. Also hat das Studio eines gebaut — für die Verwaltung von Mandanten und Beziehungen, die direkte Abrechnung und das Tracking der Kennzahlen, die die Kanzlei steuern.',
       },
       {
         text: 'Rollenbasierte Nutzerrechte halten die richtigen Informationen bei den richtigen Personen, und das ganze System wurde von der ersten bis zur letzten Entscheidung nach der Richtung der Kanzlei gebaut.',
@@ -141,7 +141,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Smart Dossier startete 2016 als PHP/MySQL-Dokumentensystem für Vastgoedkor. 2026 haben wir es zu etwas Schlauerem umgebaut.',
+        text: 'Smart Dossier startete 2016 als PHP/MySQL-Dokumentensystem für Vastgoedkor. 2026 hat das Studio es zu etwas Schlauerem umgebaut.',
       },
       {
         text: 'Es durchsucht den Volltext in Dokumenten — nicht nur Dateinamen — und ordnet große, unübersichtliche Dokumentenbestände automatisch zu etwas um, durch das man tatsächlich navigieren kann. Die KI übernimmt die Schwerarbeit bei Suche und Datenstrukturierung.',
@@ -195,7 +195,7 @@ export const projectOverrides = {
         text: 'Sie wächst auch über den Bildschirm hinaus: zu Events, Kleidung und Merch sowie einem Plattenlabel.',
       },
       {
-        text: 'Wir führen sie hier als Spannweiten-Stück. Derselbe Instinkt, der Software liefert — richtig bauen, langfristig wachsen lassen — funktioniert genauso gut bei einer Marke.',
+        text: 'Das Studio führt sie hier als Spannweiten-Stück. Derselbe Instinkt, der Software liefert — richtig bauen, langfristig wachsen lassen — funktioniert genauso gut bei einer Marke.',
       },
     ],
   },
@@ -263,7 +263,7 @@ export const projectOverrides = {
     info: [
       { label: 'Rolle', value: 'Solo-Bau & Architektur' },
       { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
-      { label: 'Status', value: 'Live — unser eigenes Tool' },
+      { label: 'Status', value: 'Live — das eigene Tool des Studios' },
     ],
     body: [
       {
@@ -273,7 +273,7 @@ export const projectOverrides = {
         text: 'Jedes Signal wird verfolgt und protokolliert: Entry, Ziel und Stop, dann der Take-Profit oder Stop-Loss in dem Moment, in dem der Kurs ihn erreicht. Heraus kommt ein dauerhafter, abfragbarer Datensatz dessen, was das System genau gesehen hat und wann — keine Screenshots im Nachhinein.',
       },
       {
-        text: 'Von vorne bis hinten gebaut — ein Node- und MongoDB-Backend, das ein Next.js-Dashboard mit Live-Candlesticks speist, über Server-Sent Events in den Browser gestreamt. Es beobachtet und protokolliert; es platziert keine Orders. Unser eigenes Tool, live im Einsatz.',
+        text: 'Von vorne bis hinten gebaut — ein Node- und MongoDB-Backend, das ein Next.js-Dashboard mit Live-Candlesticks speist, über Server-Sent Events in den Browser gestreamt. Es beobachtet und protokolliert; es platziert keine Orders. Das eigene Tool des Studios, live im Einsatz.',
       },
     ],
   },

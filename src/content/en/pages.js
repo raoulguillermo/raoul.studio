@@ -6,13 +6,13 @@ export const pages = {
     meta: {
       title: 'Work',
       description:
-        'Selected projects from the studio — custom platforms, SaaS, AI tools, headless e-commerce and CRMs built for fintech, law and commercial teams, plus our own products.',
+        'Selected projects from the studio — custom platforms, SaaS, AI tools, headless e-commerce and CRMs built for fintech, law and commercial teams, plus the studio’s own products.',
     },
     eyebrow: 'Selected work',
     titleLine1: 'Work',
     titleAccent: '.',
     lead:
-      'Every project is a real business problem, solved end to end and built to run in production. The platforms and tools we’ve shipped for clients — and the products we build and run ourselves.',
+      'Every project is a real business problem, solved end to end and built to run in production. The platforms and tools the studio has shipped for clients — and the products it builds and runs itself.',
     groups: {
       client: 'Client work',
       product: 'Own products',
@@ -32,17 +32,17 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is a Rotterdam-based digital agency and product studio that helps ambitious businesses turn ideas into scalable digital products. We combine strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
+        text: 'raoul.studio is a Rotterdam-based digital agency and product studio that helps ambitious businesses turn ideas into scalable digital products. The studio brings together strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
       },
       {
-        text: 'We partner with founders, startups and established companies to design, build and evolve custom platforms, AI-powered tools, commerce solutions and digital experiences. Every project is approached with a product mindset: solving real business challenges, creating intuitive user experiences and building technology that can grow alongside the business.',
+        text: 'The studio partners with founders, startups and established companies to design, build and evolve custom platforms, AI-powered tools, commerce solutions and digital experiences. Every project is approached with a product mindset: solving real business challenges, creating intuitive user experiences and building technology that can grow alongside the business.',
       },
       {
-        text: 'We build long-term partnerships with teams that want to move fast, think big and create meaningful digital products. From the first idea to launch — and every iteration that follows — we work as an extension of your team, focused on delivering measurable impact through technology.',
-        highlight: 'We build long-term partnerships',
+        text: 'The studio builds long-term partnerships with teams that want to move fast, think big and create meaningful digital products. From the first idea to launch — and every iteration that follows — the studio works as an extension of your team, focused on delivering measurable impact through technology.',
+        highlight: 'The studio builds long-term partnerships',
       },
     ],
-    servicesLabel: 'What we build',
+    servicesLabel: 'What the studio builds',
     services: [
       { label: 'Custom web platforms & SaaS' },
       { label: 'Headless e-commerce at scale' },
@@ -52,8 +52,8 @@ export const pages = {
       { label: 'Two-sided marketplaces' },
     ],
     systemsParagraph: [
-      'We build digital products that are designed to evolve. Every platform is built on a solid technical foundation, with scalable architecture, thoughtful engineering and future growth in mind. Whether it’s an AI-powered platform, a commerce ecosystem or a custom business application, we create technology that adapts as your business grows.',
-      'From the first strategy session to long after launch, we focus on building digital solutions that are robust, scalable and made to last.',
+      'The studio builds digital products that are designed to evolve. Every platform is built on a solid technical foundation, with scalable architecture, thoughtful engineering and future growth in mind. Whether it’s an AI-powered platform, a commerce ecosystem or a custom business application, the studio creates technology that adapts as your business grows.',
+      'From the first strategy session to long after launch, the focus stays on building digital solutions that are robust, scalable and made to last.',
     ],
     manifestoLead: 'Where strategy, AI and software',
     manifestoTail: 'come together.',
@@ -71,14 +71,14 @@ export const pages = {
     titleLine1: 'Process',
     titleAccent: '.',
     lead:
-      'Six stages, one principle: understand the system before you build it. We move fast because the thinking is done up front, not because we skip it. Custom products, shaped step by step.',
+      'Six stages, one principle: understand the system before you build it. The studio moves fast because the thinking is done up front, not because it skips steps. Custom products, shaped step by step.',
     steps: [
       {
         title: 'Direction',
-        lead: 'Figure out what we’re actually building.',
+        lead: 'Figure out what’s actually being built.',
         body: [
           {
-            text: 'We start with the problem, not the feature list. What’s broken, what’s slow, what’s costing you — and what "done" looks like.',
+            text: 'The studio starts with the problem, not the feature list. What’s broken, what’s slow, what’s costing you — and what "done" looks like.',
           },
           {
             text: 'You leave this stage with a clear scope and a shared idea of where it’s headed. No surprises later.',
@@ -90,7 +90,7 @@ export const pages = {
         lead: 'Design the system underneath.',
         body: [
           {
-            text: 'Before a single screen, we map the data, the flows and the architecture. Custom products live or die on what’s underneath.',
+            text: 'Before a single screen, the studio maps the data, the flows and the architecture. Custom products live or die on what’s underneath.',
           },
           {
             text: 'Get this right and everything after it gets easier. Get it wrong and you pay for it forever.',
@@ -102,7 +102,7 @@ export const pages = {
         lead: 'Make it clear, make it usable.',
         body: [
           {
-            text: 'We design around the real workflow — the daily actions, the edge cases, the people who’ll actually use it.',
+            text: 'Design starts from the real workflow — the daily actions, the edge cases, the people who’ll actually use it.',
           },
           {
             text: 'Sharp, fast, no clutter. The interface should disappear and let the work happen.',
@@ -117,7 +117,7 @@ export const pages = {
             text: 'Hand-tailored, no boilerplate bloat. Modern stack, clean codebase, built to run in production from day one.',
           },
           {
-            text: 'We build in the open with you — you see progress as it lands, not in one big reveal at the end.',
+            text: 'The studio builds in the open with you — you see progress as it lands, not in one big reveal at the end.',
           },
         ],
       },
@@ -126,7 +126,7 @@ export const pages = {
         lead: 'Get it in front of real use.',
         body: [
           {
-            text: 'Real users surface what specs can’t. We ship, watch, and tighten — fast loops, small releases.',
+            text: 'Real users surface what specs can’t. Work ships, gets watched and tightened — fast loops, small releases.',
           },
           { text: 'The product gets sharper every cycle.' },
         ],
@@ -139,13 +139,13 @@ export const pages = {
             text: 'More users, more data, more languages, more features — the system was built to take it.',
           },
           {
-            text: 'We stick around. Most of our work is long-term, and we treat what we build like it’s ours.',
+            text: 'The studio sticks around. Most of its work is long-term, and it treats what it builds as its own.',
           },
         ],
       },
     ],
     howWeWork: {
-      label: 'How we work',
+      label: 'How the studio works',
       lead: 'Direct and founder-led. You talk to the people building the thing.',
       points: [
         { label: 'Direct communication' },
@@ -159,7 +159,7 @@ export const pages = {
       items: [
         {
           q: 'What does raoul.studio do?',
-          a: 'raoul.studio is a digital product studio. We design, build and grow custom products — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams, alongside our own products.',
+          a: 'raoul.studio is a digital product studio. The studio designs, builds and grows custom products — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams, alongside its own products.',
         },
         {
           q: 'How do you work?',
@@ -167,15 +167,15 @@ export const pages = {
         },
         {
           q: 'How long does a project take?',
-          a: 'It depends on scope, but we work in fast loops with small, frequent releases rather than one big reveal at the end. You see progress as it lands and the product gets sharper every cycle, because the architecture and direction are settled before the build starts.',
+          a: 'It depends on scope, but the studio works in fast loops with small, frequent releases rather than one big reveal at the end. You see progress as it lands and the product gets sharper every cycle, because the architecture and direction are settled before the build starts.',
         },
         {
           q: 'Who do you work with?',
-          a: 'Mostly fintech, law firms, commercial agencies and e-commerce teams. Some work is for clients, some is our own products — all of it is built to run in production.',
+          a: 'Mostly fintech, law firms, commercial agencies and e-commerce teams. Some work is for clients, some is the studio’s own products — all of it is built to run in production.',
         },
         {
           q: 'Do you offer ongoing support after launch?',
-          a: 'Yes. Most of our work is long-term: systems are built to grow with you across more users, data, languages and features, and we stay involved rather than handing off and disappearing.',
+          a: 'Yes. Most of the studio’s work is long-term: systems are built to grow with you across more users, data, languages and features, and the studio stays involved rather than handing off and disappearing.',
         },
         {
           q: 'How do I start a project?',

@@ -4,7 +4,7 @@ export const contact = {
   meta: {
     title: 'Contact',
     description:
-      'Got a product or platform to build? Tell the studio about it. We reply within 24h.',
+      'Got a product or platform to build? Tell the studio about it. The studio replies within 24h.',
   },
   eyebrow: 'Get in touch',
   titleLine1: "Let's",
@@ -36,7 +36,7 @@ export const contact = {
     items: [
       {
         q: 'How soon will I hear back?',
-        a: 'Every real brief gets read, with a reply within 24 hours. We keep the studio small and direct, so the person who answers is close to the work.',
+        a: 'Every real brief gets read, with a reply within 24 hours. The studio stays small and direct, so the person who answers is close to the work.',
       },
       {
         q: 'What should I include in my message?',
@@ -44,7 +44,7 @@ export const contact = {
       },
       {
         q: 'Where are you based, and do you work remotely?',
-        a: 'We’re based in the Netherlands and work remote with teams wherever they are. Location isn’t a blocker — the work is collaborative and built in the open with you.',
+        a: 'The studio is based in the Netherlands and works remote with teams wherever they are. Location isn’t a blocker — the work is collaborative and built in the open with you.',
       },
       {
         q: 'What kinds of projects do you take on?',

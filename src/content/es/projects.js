@@ -16,10 +16,10 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'OutdoorXL opera a escala seria: más de 200.000 productos en 14+ idiomas y tiendas, servidos rápido con Magento y Varnish. Lideramos el desarrollo y somos dueños de la arquitectura que hay detrás.',
+        text: 'OutdoorXL opera a escala seria: más de 200.000 productos en 14+ idiomas y tiendas, servidos rápido con Magento y Varnish. El estudio lidera el desarrollo y es dueño de la arquitectura que hay detrás.',
       },
       {
-        text: 'Ahora lo estamos reconstruyendo en headless: Next.js y MongoDB en el front, el backend de Magento 2 tras una capa GraphQL y REST, con módulos a medida que unen ambos y Payload CMS para el contenido.',
+        text: 'Ahora el estudio lo está reconstruyendo en headless: Next.js y MongoDB en el front, el backend de Magento 2 tras una capa GraphQL y REST, con módulos a medida que unen ambos y Payload CMS para el contenido.',
       },
       {
         text: 'El objetivo: conservar el catálogo y los mercados, soltar el peso del legacy. Una tienda más rápida y una base de código lista para la próxima década.',
@@ -56,7 +56,7 @@ export const projectOverrides = {
   threadly: {
     shortTag: 'saas, soporte',
     shortDescription:
-      'Nuestro propio SaaS: un sistema de tickets de soporte para equipos de soporte, agencias y operadores en solitario. Bandeja compartida, seguimiento de SLA, automatización.',
+      'El SaaS propio del estudio: un sistema de tickets de soporte para equipos de soporte, agencias y operadores en solitario. Bandeja compartida, seguimiento de SLA, automatización.',
     lead:
       'Soporte que no se cuela por las grietas: un sistema de tickets para equipos, agencias y operadores en solitario.',
     tagsLine: 'SaaS · Soporte · Next.js · Node.js · MongoDB',
@@ -73,7 +73,7 @@ export const projectOverrides = {
       {
         text: 'Una bandeja compartida reúne todos los canales en un solo lugar, el seguimiento de SLA mantiene honestos los tiempos de respuesta, y la automatización se encarga del trabajo repetitivo para que el equipo se centre en las respuestas que importan.',
       },
-      { text: 'Diseñado, construido y arquitecturado internamente. Nosotros también lo usamos.' },
+      { text: 'Diseñado, construido y arquitecturado internamente. El estudio también lo usa.' },
     ],
   },
 
@@ -91,7 +91,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Lexpert Advocaten necesitaba un CRM moldeado a la práctica legal, no una herramienta genérica forzada a encajar. Así que construimos uno: gestiona clientes y relaciones, les factura directamente y hace seguimiento de las métricas que mueven el despacho.',
+        text: 'Lexpert Advocaten necesitaba un CRM moldeado a la práctica legal, no una herramienta genérica forzada a encajar. Así que el estudio construyó uno: gestiona clientes y relaciones, les factura directamente y hace seguimiento de las métricas que mueven el despacho.',
       },
       {
         text: 'Los permisos de usuario por roles mantienen la información correcta con las personas correctas, y todo el sistema se construyó según la dirección del despacho, desde la primera decisión hasta la última.',
@@ -140,7 +140,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Smart Dossier empezó en 2016 como un sistema documental en PHP/MySQL para Vastgoedkor. En 2026 lo reconstruimos en algo más inteligente.',
+        text: 'Smart Dossier empezó en 2016 como un sistema documental en PHP/MySQL para Vastgoedkor. En 2026 el estudio lo reconstruyó en algo más inteligente.',
       },
       {
         text: 'Busca el texto completo dentro de los documentos, no solo los nombres de archivo, y reestructura automáticamente grandes conjuntos de documentos desordenados en algo que de verdad puedes navegar. La IA hace el trabajo pesado en búsqueda y estructuración de datos.',
@@ -194,7 +194,7 @@ export const projectOverrides = {
         text: 'También está creciendo más allá de la pantalla: hacia eventos, ropa y merch, y un sello discográfico.',
       },
       {
-        text: 'La incluimos aquí como muestra de versatilidad. El mismo instinto que entrega software —construirlo bien, hacerlo crecer a largo plazo— funciona igual de bien con una marca.',
+        text: 'El estudio la incluye aquí como muestra de versatilidad. El mismo instinto que entrega software —construirlo bien, hacerlo crecer a largo plazo— funciona igual de bien con una marca.',
       },
     ],
   },
