@@ -1,0 +1,122 @@
+{
+  "slug": "2026-07-27-kimi-k3-open-weights",
+  "date": "2026-07-27",
+  "tags": ["ai", "open-source", "self-hosting"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "TECHi — Kimi K3's open weights arrive July 27. The catch is 1.4TB",
+      "url": "https://www.techi.com/kimi-k3-open-weights-inference-economics/"
+    },
+    {
+      "title": "Interconnects.ai — Kimi K3: The open-weights escalation",
+      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation"
+    },
+    {
+      "title": "Layer3Labs — Kimi K3 Open Weights: Guide for Regulated Business",
+      "url": "https://www.layer3labs.io/open-weights/kimi-k3-open-weights-guide"
+    },
+    {
+      "title": "Kimi — Kimi K3 Tech Blog: Open Frontier Intelligence",
+      "url": "https://www.kimi.com/blog/kimi-k3"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Keeping your data in-house just got a lot more powerful",
+      "summary": "Today the world's largest open AI model released its full weights — for the first time, teams with sensitive data can run near-frontier AI on their own servers without sending anything to anyone else.",
+      "body": [
+        "Today, a Chinese startup called Moonshot AI released the full weights of Kimi K3 — a 2.8-trillion-parameter model that ranks among the top three AI systems in the world. **You can now download and run it yourself.** This is genuinely new. Until today, getting that level of AI capability meant sending your data to someone else's servers.",
+        "This matters most to teams that cannot or will not send sensitive data to a third-party cloud: law firms, banks, hospitals, government agencies. When you run a model on your own servers, your documents, contracts, and client data never leave your building. Open AI models have existed before, but none this close to the frontier. **A near-frontier AI is now self-hostable for the first time.**",
+        "The catch is real: the model's weights take up 1.4 terabytes of fast memory, even compressed. Running it needs roughly 18 high-end server chips — the kind used in large data centres, not a startup's rack. A laptop, a small cloud instance, or a single powerful workstation cannot do it. **Only organisations with serious server infrastructure can actually run it.**",
+        "Still, the direction is clear. A year ago, the best AI was entirely behind closed APIs. Today Kimi K3 sits just behind Claude Fable 5 and GPT-5.6 on standard benchmarks, and leads the field for writing front-end code. The gap between the best AI you can call and the best AI you can own is closing. If your team handles sensitive data and has real server capacity, evaluate Kimi K3 for self-hosting now. For everyone else: **the hardware floor is dropping** — twelve months from now, running frontier AI yourself will be a lot more accessible."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "total parameters" },
+        { "value": "1.4 TB", "label": "storage needed (compressed)" },
+        { "value": "#2", "label": "ranking on Vals AI Index" },
+        { "value": "~18", "label": "high-end server chips required" }
+      ]
+    },
+    "de": {
+      "title": "Daten intern zu halten wird jetzt deutlich leistungsfähiger",
+      "summary": "Heute hat das weltweit größte offene KI-Modell seine vollständigen Gewichte veröffentlicht — zum ersten Mal können Teams mit sensiblen Daten ein Fast-Frontier-Modell auf eigenen Servern betreiben, ohne etwas nach außen zu schicken.",
+      "body": [
+        "Heute hat das chinesische Startup Moonshot AI die vollständigen Gewichte von Kimi K3 veröffentlicht — einem 2,8-Billionen-Parameter-Modell, das zu den drei leistungsstärksten KI-Systemen der Welt zählt. **Du kannst es jetzt selbst herunterladen und betreiben.** Das ist wirklich neu. Bisher bedeutete dieser Leistungsstandard: Daten an fremde Server schicken.",
+        "Das zählt vor allem für Teams, die sensible Daten nicht in eine externe Cloud schicken können oder wollen: Anwaltskanzleien, Banken, Krankenhäuser, Behörden. Läuft das Modell auf eigenen Servern, verlassen Dokumente, Verträge und Kundendaten das Haus nicht. Offene KI-Modelle gab es schon — aber keines dieser Leistungsklasse. **Ein Fast-Frontier-Modell ist jetzt erstmals selbst hostbar.**",
+        "Der Haken ist real: Die Gewichte des Modells belegen selbst komprimiert 1,4 Terabyte schnellen Speichers. Der Betrieb erfordert rund 18 High-End-Server-Chips — die in großen Rechenzentren eingesetzt werden, nicht in einem Start-up-Rack. Ein Laptop, eine kleine Cloud-Instanz oder eine einzelne Workstation reicht nicht aus. **Nur Organisationen mit ernsthafter Server-Infrastruktur können es tatsächlich nutzen.**",
+        "Dennoch ist die Richtung klar. Vor einem Jahr war Spitzen-KI vollständig hinter geschlossenen APIs. Heute rangiert Kimi K3 knapp hinter Claude Fable 5 und GPT-5.6 auf Standard-Benchmarks und führt bei Frontend-Code. Der Abstand zwischen der besten KI, die man nutzen kann, und der besten KI, die man besitzen kann, schwindet. Wer sensible Daten und echte Serverkapazität hat, sollte Kimi K3 jetzt evaluieren. Für alle anderen: **die Hardware-Hürde sinkt** — in zwölf Monaten wird es deutlich zugänglicher sein, Frontier-KI selbst zu betreiben."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "Parameter insgesamt" },
+        { "value": "1.4 TB", "label": "Speicherbedarf (komprimiert)" },
+        { "value": "#2", "label": "Platzierung im Vals-AI-Ranking" },
+        { "value": "~18", "label": "benötigte High-End-Server-Chips" }
+      ]
+    },
+    "nl": {
+      "title": "Je data intern houden werd vandaag een stuk krachtiger",
+      "summary": "Vandaag publiceerde het grootste open AI-model ter wereld zijn volledige gewichten — voor het eerst kunnen teams met gevoelige data een bijna-frontier AI draaien op eigen servers zonder iets naar buiten te sturen.",
+      "body": [
+        "Vandaag heeft de Chinese startup Moonshot AI de volledige gewichten van Kimi K3 uitgebracht — een model met 2,8 biljoen parameters dat tot de drie krachtigste AI-systemen ter wereld behoort. **Je kunt het nu zelf downloaden en draaien.** Dat is echt nieuw. Tot vandaag betekende dit prestatieniveau: data naar servers van anderen sturen.",
+        "Dit telt het meest voor teams die gevoelige data niet naar een externe cloud kunnen of willen sturen: advocatenkantoren, banken, ziekenhuizen, overheidsdiensten. Als het model op eigen servers draait, verlaten documenten, contracten en klantdata het gebouw niet. Open AI-modellen bestonden al — maar geen enkel zo dicht bij de top. **Een bijna-frontier AI is nu voor het eerst zelf te hosten.**",
+        "De vangst is reëel: de gewichten van het model nemen zelfs gecomprimeerd 1,4 terabyte snel geheugen in beslag. Draaien vereist zo'n 18 high-end serverchips — het soort dat in grote datacenters wordt gebruikt, niet in een startuprek. Een laptop, kleine cloudinstantie of krachtige workstation volstaat niet. **Alleen organisaties met serieuze serverinfrastructuur kunnen het echt gebruiken.**",
+        "Toch is de richting helder. Een jaar geleden was top-AI volledig achter gesloten API's. Vandaag staat Kimi K3 net onder Claude Fable 5 en GPT-5.6 op standaard benchmarks en leidt het op het gebied van frontend-code schrijven. De kloof tussen de beste AI die je kunt aanroepen en de beste AI die je kunt bezitten wordt snel kleiner. Teams met gevoelige data en echte servercapaciteit moeten Kimi K3 nu evalueren voor eigen hosting. Voor alle anderen: **de hardwaredrempel daalt** — over twaalf maanden is het veel toegankelijker om frontier-AI zelf te draaien."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "parameters totaal" },
+        { "value": "1.4 TB", "label": "benodigde opslag (gecomprimeerd)" },
+        { "value": "#2", "label": "ranking op Vals AI Index" },
+        { "value": "~18", "label": "benodigde high-end serverchips" }
+      ]
+    },
+    "es": {
+      "title": "Guardar tus datos internamente acaba de volverse mucho más potente",
+      "summary": "Hoy el modelo de IA abierto más grande del mundo publicó sus pesos completos — por primera vez, equipos con datos sensibles pueden ejecutar una IA casi de frontera en sus propios servidores sin enviar nada al exterior.",
+      "body": [
+        "Hoy, la startup china Moonshot AI publicó los pesos completos de Kimi K3 — un modelo de 2,8 billones de parámetros que figura entre los tres sistemas de IA más potentes del mundo. **Ahora puedes descargarlo y ejecutarlo tú mismo.** Esto es genuinamente nuevo. Hasta hoy, acceder a ese nivel de capacidad significaba enviar datos a los servidores de otra empresa.",
+        "Esto importa sobre todo a los equipos que no pueden o no quieren enviar datos sensibles a una nube externa: despachos de abogados, bancos, hospitales, organismos públicos. Cuando el modelo corre en tus propios servidores, tus documentos, contratos y datos de clientes no salen de tus instalaciones. Ya había modelos abiertos, pero ninguno tan cerca de la frontera del rendimiento. **Por primera vez, una IA casi de frontera puede alojarse en servidores propios.**",
+        "El problema es real: los pesos del modelo ocupan 1,4 terabytes de memoria rápida, incluso comprimidos. Ejecutarlo requiere unos 18 chips de servidor de alto rendimiento — los que se usan en grandes centros de datos, no en el rack de una startup. Un portátil, una instancia pequeña en la nube o una estación de trabajo potente no bastan. **Solo organizaciones con infraestructura de servidores seria pueden usarlo de verdad.**",
+        "Aun así, la dirección está clara. Hace un año, la IA de primer nivel estaba totalmente detrás de APIs cerradas. Hoy Kimi K3 queda justo por debajo de Claude Fable 5 y GPT-5.6 en los principales benchmarks, y lidera en escritura de código frontend. La brecha entre la mejor IA que puedes usar y la mejor IA que puedes poseer se está cerrando. Si tu equipo maneja datos sensibles y tiene capacidad de servidor real, evalúa Kimi K3 para alojamiento propio ahora. Para los demás: **el listón del hardware está bajando** — en doce meses, ejecutar IA de frontera por cuenta propia será mucho más accesible."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "parámetros totales" },
+        { "value": "1.4 TB", "label": "almacenamiento necesario (comprimido)" },
+        { "value": "#2", "label": "posición en el índice Vals AI" },
+        { "value": "~18", "label": "chips de servidor de alto rendimiento requeridos" }
+      ]
+    },
+    "fr": {
+      "title": "Garder vos données en interne vient de devenir bien plus puissant",
+      "summary": "Aujourd'hui, le plus grand modèle d'IA open weights jamais publié a mis ses poids complets en ligne — pour la première fois, les équipes gérant des données sensibles peuvent faire tourner une IA quasi-frontière sur leurs propres serveurs, sans rien envoyer à l'extérieur.",
+      "body": [
+        "Aujourd'hui, la startup chinoise Moonshot AI a publié les poids complets de Kimi K3 — un modèle de 2,8 billions de paramètres classé parmi les trois systèmes d'IA les plus puissants au monde. **Vous pouvez désormais le télécharger et l'exécuter vous-même.** C'est réellement nouveau. Jusqu'ici, accéder à ce niveau de performance obligeait à envoyer ses données sur les serveurs d'autrui.",
+        "Cela compte surtout pour les équipes qui ne peuvent pas ou ne veulent pas envoyer des données sensibles vers un cloud externe : cabinets d'avocats, banques, hôpitaux, administrations. Quand le modèle tourne sur vos propres serveurs, vos documents, contrats et données clients ne quittent jamais vos locaux. Des modèles ouverts existaient déjà, mais aucun d'une telle puissance. **Pour la première fois, une IA quasi-frontière est auto-hébergeable.**",
+        "Le problème est réel : les poids du modèle occupent 1,4 téraoctet de mémoire rapide, même compressés. Le faire tourner nécessite environ 18 puces serveur haut de gamme — celles utilisées dans les grands centres de données, pas dans le rack d'une startup. Un ordinateur portable, une petite instance cloud ou une station de travail puissante ne suffisent pas. **Seules les organisations dotées d'une vraie infrastructure serveur peuvent réellement l'utiliser.**",
+        "La direction est pourtant claire. Il y a un an, les meilleures IA étaient entièrement derrière des API fermées. Aujourd'hui, Kimi K3 se classe juste derrière Claude Fable 5 et GPT-5.6 sur les benchmarks standard, et domine sur l'écriture de code frontend. L'écart entre la meilleure IA que vous pouvez appeler et la meilleure IA que vous pouvez posséder se referme. Si votre équipe gère des données sensibles et dispose d'une capacité serveur réelle, évaluez Kimi K3 pour l'auto-hébergement maintenant. Pour les autres : **le plancher matériel recule** — dans douze mois, faire tourner une IA frontière soi-même sera bien plus accessible."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "paramètres au total" },
+        { "value": "1.4 TB", "label": "stockage requis (compressé)" },
+        { "value": "#2", "label": "classement dans l'index Vals AI" },
+        { "value": "~18", "label": "puces serveur haut de gamme requises" }
+      ]
+    },
+    "ar": {
+      "title": "الاحتفاظ ببياناتك داخلياً أصبح أكثر قوة بكثير اليوم",
+      "summary": "أصدر أضخم نموذج ذكاء اصطناعي مفتوح في العالم أوزانه الكاملة اليوم — وللمرة الأولى، يمكن للفرق التي تتعامل مع بيانات حساسة تشغيل ذكاء اصطناعي شبه حدودي على خوادمها الخاصة دون إرسال أي شيء إلى الخارج.",
+      "body": [
+        "أصدرت الشركة الناشئة الصينية Moonshot AI اليوم الأوزان الكاملة لنموذج Kimi K3 — نموذج بـ2.8 تريليون معامل يُصنَّف ضمن أقوى ثلاثة أنظمة ذكاء اصطناعي في العالم. **يمكنك الآن تنزيله وتشغيله بنفسك.** هذا أمر جديد حقاً. حتى اليوم، كان الحصول على هذا المستوى من القدرة يعني إرسال بياناتك إلى خوادم شركة أخرى.",
+        "هذا مهم بشكل خاص للفرق التي لا تستطيع أو لا تريد إرسال بيانات حساسة إلى سحابة خارجية: مكاتب المحامين، البنوك، المستشفيات، الجهات الحكومية. حين يعمل النموذج على خوادمك الخاصة، لا تغادر وثائقك وعقودك وبيانات عملائك مبانيك أبداً. كانت هناك نماذج مفتوحة من قبل، لكن لا شيء بهذا القرب من الأداء الحدودي. **لأول مرة، يمكن استضافة ذكاء اصطناعي شبه حدودي ذاتياً.**",
+        "لكن العائق حقيقي: تشغل أوزان النموذج 1.4 تيرابايت من الذاكرة السريعة حتى بعد الضغط. يتطلب تشغيله نحو 18 شريحة خادم عالية الأداء — النوع المستخدم في مراكز البيانات الكبرى، وليس في رف شركة ناشئة صغيرة. لا يكفي جهاز محمول، أو نسخة سحابية صغيرة، أو محطة عمل قوية بمفردها. **فقط المؤسسات ذات البنية التحتية الخادمية الجادة يمكنها تشغيله فعلياً.**",
+        "ومع ذلك، فالاتجاه واضح. قبل عام، كان الذكاء الاصطناعي الأعلى مستوى كله محجوباً خلف واجهات برمجية مغلقة. اليوم يحتل Kimi K3 مرتبةً تلو Claude Fable 5 وGPT-5.6 مباشرةً في المعايير القياسية، ويتصدر في كتابة كود الواجهات الأمامية. الفجوة بين أفضل ذكاء اصطناعي يمكنك استدعاؤه وأفضل ما يمكنك امتلاكه تضيق. إن كانت فرقتك تتعامل مع بيانات حساسة وتمتلك طاقة خادم حقيقية، فقيّم Kimi K3 للاستضافة الذاتية الآن. أما البقية: **الحاجز التقني للأجهزة ينخفض** — بعد اثني عشر شهراً، سيصبح تشغيل ذكاء اصطناعي حدودي بنفسك أكثر سهولة بكثير."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "إجمالي المعاملات" },
+        { "value": "1.4 TB", "label": "التخزين المطلوب (مضغوط)" },
+        { "value": "#2", "label": "الترتيب في مؤشر Vals AI" },
+        { "value": "~18", "label": "شرائح خادم عالية الأداء مطلوبة" }
+      ]
+    }
+  }
+}
