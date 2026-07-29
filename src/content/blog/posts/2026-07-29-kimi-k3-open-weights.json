@@ -1,0 +1,115 @@
+{
+  "slug": "2026-07-29-kimi-k3-open-weights",
+  "date": "2026-07-29",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://felloai.com/wp-content/uploads/2026/07/Moonshot-Kimi-K3-open-source-model-that-beats-openai-and-anthropic.jpg",
+    "alt": "Kimi K3 model overview graphic",
+    "credit": "FelloAI"
+  },
+  "sources": [
+    { "title": "FelloAI — Kimi K3: Open Weights, Specs, Pricing and Benchmarks", "url": "https://felloai.com/kimi-k3/" },
+    { "title": "Interconnects.ai — Kimi K3: The open-weights escalation", "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation" },
+    { "title": "Digital Applied — Seven Days, Seven Model Releases: The New AI Normal", "url": "https://www.digitalapplied.com/blog/seven-days-seven-releases-july-2026-model-wave" },
+    { "title": "TECHi — Kimi K3's open weights arrive July 27: inference economics", "url": "https://www.techi.com/kimi-k3-open-weights-inference-economics/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Open AI Is No Longer Second-Best. That Changes What You Should Build On.",
+      "summary": "A Chinese company just released the biggest free-to-download AI model in the world, and it's almost as good as the best paid ones — the main hurdle now isn't quality, it's the hardware you need to run it.",
+      "body": [
+        "For most of the past two years, the best AI models were locked behind subscriptions from a handful of US companies. **The gap between open and closed AI has narrowed from six months to three** — and this week's release makes that shift impossible to ignore. On July 27, Beijing-based Moonshot AI released the full weights for Kimi K3, making the world's largest publicly downloadable AI model free to use.",
+        "Kimi K3 has 2.8 trillion total parameters — a 'mixture of experts' design where many smaller models share the work, so only about 104 billion parameters are active on any single task. On the main public benchmark that ranks AI models, it scores 57, just behind Claude Fable 5 at 60 and GPT-5.6 Sol at 59. **It ranks first among all open models, and leads in coding tasks.** Its context window — the amount of text it can read at once — is one million tokens, enough to hold five long novels.",
+        "The practical catch is the hardware. The downloaded model takes 1.4 terabytes of GPU memory to load in its compressed form, and requires a multi-node server cluster with the latest Nvidia or AMD chips. That means **self-hosting this model is an enterprise infrastructure project**, not a weekend experiment. The license is permissive for most uses, but businesses earning more than $20 million per year from AI services need a separate deal with Moonshot.",
+        "For most teams, the immediate option is the API: three dollars per million input tokens — 40 percent cheaper than GPT-5.6 Sol. That makes K3 a real option for anyone doing heavy coding, long-document analysis, or agent workflows. The market has shifted: **open AI is now close enough to the frontier that quality is no longer the deciding factor** — what matters now is data control, price, and what your team can operate. If you are currently paying premium prices for coding or long-context tasks, K3 via API is worth testing today."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "total parameters — largest open model ever" },
+        { "value": "57 vs 60", "label": "K3 vs. top closed model on intelligence benchmark" },
+        { "value": "$3 / M tokens", "label": "K3 API cost per million input tokens" },
+        { "value": "1.4 TB", "label": "storage needed to run it yourself" }
+      ]
+    },
+    "de": {
+      "title": "Open-Source-KI ist nicht mehr zweitklassig. Das verändert, worauf ihr aufbauen solltet.",
+      "summary": "Ein chinesisches Unternehmen hat soeben das weltgrößte kostenlos herunterladbare KI-Modell veröffentlicht, das fast so gut wie die besten kommerziellen Modelle ist — die eigentliche Hürde ist jetzt nicht mehr die Qualität, sondern die Hardware.",
+      "body": [
+        "Die besten KI-Modelle waren in den vergangenen zwei Jahren hinter Abonnements einer Handvoll US-Unternehmen verschlossen. **Der Abstand zwischen offener und geschlossener KI hat sich von sechs auf drei Monate halbiert** — und die Veröffentlichung dieser Woche macht diesen Wandel unübersehbar. Am 27. Juli hat das Pekinger Unternehmen Moonshot AI die vollständigen Gewichte von Kimi K3 freigegeben und damit das weltgrößte öffentlich verfügbare KI-Modell kostenlos zugänglich gemacht.",
+        "Kimi K3 besitzt 2,8 Billionen Parameter insgesamt — eine sogenannte Mixture-of-Experts-Architektur, bei der viele kleinere Modelle die Arbeit teilen, sodass pro Aufgabe nur rund 104 Milliarden Parameter aktiv sind. Im wichtigsten öffentlichen KI-Ranking erreicht das Modell 57 Punkte, gegenüber 60 für Claude Fable 5 und 59 für GPT-5.6 Sol. **Es belegt den ersten Platz unter allen offenen Modellen und führt bei Coding-Aufgaben.** Das Kontextfenster — die Textmenge, die das Modell auf einmal verarbeiten kann — umfasst eine Million Token, genug für fünf lange Romane.",
+        "Der praktische Haken liegt in der Hardware. Das heruntergeladene Modell benötigt in komprimierter Form 1,4 Terabyte GPU-Speicher und läuft auf einem Multi-Node-Cluster mit den neuesten Nvidia- oder AMD-Chips. Das bedeutet: **Den Eigenbetrieb dieses Modells sollte man als Enterprise-Infrastrukturprojekt begreifen**, nicht als Wochenendexperiment. Die Lizenz ist für die meisten Anwendungen freizügig — Unternehmen, die mehr als 20 Millionen Dollar jährlich mit KI-Diensten erwirtschaften, benötigen jedoch eine separate Vereinbarung mit Moonshot.",
+        "Für die meisten Teams ist die API die nächstliegende Option: drei Dollar pro Million Input-Token — 40 Prozent günstiger als GPT-5.6 Sol. Das macht K3 zu einer echten Wahl für alle, die viel Code schreiben, lange Dokumente analysieren oder Agenten-Workflows aufbauen. Der Markt hat sich verändert: **Offene KI steht der Spitze so nah, dass Qualität nicht mehr der entscheidende Faktor ist** — jetzt zählen Datenkontrolle, Preis und Betriebskompetenz. Wer heute Spitzenpreise für Coding- oder Langkontext-Aufgaben zahlt, sollte K3 per API ausprobieren."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "Parameter – größtes offenes Modell aller Zeiten" },
+        { "value": "57 vs 60", "label": "K3 vs. bestes geschlossenes Modell auf dem Intelligence-Benchmark" },
+        { "value": "$3 / M tokens", "label": "K3-API-Kosten pro Million Input-Token" },
+        { "value": "1.4 TB", "label": "Speicherbedarf für den Eigenbetrieb" }
+      ]
+    },
+    "nl": {
+      "title": "Open AI is niet meer de tweede keus. Dat verandert waarop je moet bouwen.",
+      "summary": "Een Chinees bedrijf heeft zojuist het grootste gratis downloadbare AI-model ter wereld uitgebracht, dat bijna even goed is als de beste betaalde modellen — de echte hindernis is niet langer kwaliteit, maar de hardware die je nodig hebt.",
+      "body": [
+        "De afgelopen twee jaar waren de beste AI-modellen afgesloten achter abonnementen bij een handvol Amerikaanse bedrijven. **De kloof tussen open en gesloten AI is teruggelopen van zes naar drie maanden** — en de release van deze week maakt die verschuiving onmogelijk te negeren. Op 27 juli publiceerde het Pekingse bedrijf Moonshot AI de volledige gewichten van Kimi K3, waarmee het grootste openbaar beschikbare AI-model ter wereld gratis te gebruiken is.",
+        "Kimi K3 heeft in totaal 2,8 biljoen parameters — een 'mixture of experts'-architectuur waarbij veel kleinere modellen de taak verdelen, zodat per opdracht slechts circa 104 miljard parameters actief zijn. Op de belangrijkste publieke AI-ranking scoort het model 57, tegenover 60 voor Claude Fable 5 en 59 voor GPT-5.6 Sol. **Het staat eerste onder alle open modellen en leidt bij coderingstaken.** Het contextvenster — de hoeveelheid tekst die het tegelijk kan lezen — bedraagt één miljoen tokens, genoeg voor vijf lange romans.",
+        "Het praktische probleem zit in de hardware. Het gedownloade model heeft in gecomprimeerde vorm 1,4 terabyte GPU-geheugen nodig en draait op een multi-node servercluster met de nieuwste Nvidia- of AMD-chips. Dat maakt **zelf hosten van dit model een serieus infrastructuurproject voor ondernemingen**, niet iets dat je in een weekend opzet. De licentie is voor de meeste toepassingen ruimhartig, maar bedrijven die meer dan 20 miljoen dollar per jaar verdienen met AI-diensten moeten een aparte overeenkomst sluiten met Moonshot.",
+        "Voor de meeste teams is de API de meest directe optie: drie dollar per miljoen invoertokens — 40 procent goedkoper dan GPT-5.6 Sol. Dat maakt K3 een serieuze keuze voor wie veel codeert, lange documenten analyseert of met agent-workflows werkt. De markt is veranderd: **open AI staat dicht genoeg bij de top dat kwaliteit niet meer de doorslag geeft** — het draait nu om databeheer, prijs en wat je team zelf kan beheren. Betaal je nu premiumtarieven voor codering of lange-contextwerk, dan is K3 via API het testen waard."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "parameters — grootste open model ooit" },
+        { "value": "57 vs 60", "label": "K3 vs. topmodel gesloten AI op de intelligentiebenchmark" },
+        { "value": "$3 / M tokens", "label": "K3 API-kosten per miljoen invoertokens" },
+        { "value": "1.4 TB", "label": "opslag nodig om het zelf te draaien" }
+      ]
+    },
+    "es": {
+      "title": "La IA abierta ya no es de segunda. Eso cambia lo que deberías usar como base.",
+      "summary": "Una empresa china acaba de lanzar el modelo de IA descargable más grande del mundo, casi tan bueno como los mejores modelos de pago — la principal barrera ya no es la calidad, sino el hardware necesario para ejecutarlo.",
+      "body": [
+        "Durante los últimos dos años, los mejores modelos de IA estuvieron bloqueados detrás de suscripciones de un puñado de empresas estadounidenses. **La brecha entre la IA abierta y la cerrada se ha reducido de seis meses a tres** — y la publicación de esta semana hace esa transición imposible de ignorar. El 27 de julio, la empresa de Pekín Moonshot AI publicó los pesos completos de Kimi K3, poniendo a disposición de todos el mayor modelo de IA descargable del mundo de forma gratuita.",
+        "Kimi K3 tiene 2,8 billones de parámetros totales — una arquitectura llamada 'mezcla de expertos', donde muchos modelos más pequeños comparten el trabajo, de modo que solo unos 104.000 millones están activos en cada tarea. En el principal ranking público de modelos de IA, K3 obtiene 57 puntos, frente a los 60 de Claude Fable 5 y los 59 de GPT-5.6 Sol. **Ocupa el primer lugar entre todos los modelos abiertos y lidera en tareas de programación.** Su ventana de contexto — la cantidad de texto que puede leer de una sola vez — es de un millón de tokens, suficiente para cinco novelas largas.",
+        "El problema práctico está en el hardware. El modelo descargado requiere 1,4 terabytes de memoria GPU en su forma comprimida, y necesita un clúster de servidores de varios nodos con los últimos chips de Nvidia o AMD. Eso significa que **alojar este modelo por tu cuenta es un proyecto de infraestructura empresarial**, no un experimento de fin de semana. La licencia es permisiva para la mayoría de usos, pero las empresas que ingresen más de 20 millones de dólares al año con servicios de IA necesitan un acuerdo aparte con Moonshot.",
+        "Para la mayoría de los equipos, la opción más inmediata es la API: tres dólares por millón de tokens de entrada — un 40% más barato que GPT-5.6 Sol. Eso convierte a K3 en una opción real para quienes hacen mucho código, análisis de documentos largos o flujos de trabajo con agentes. El mercado ha cambiado: **la IA abierta está tan cerca de la frontera que la calidad ya no es el factor decisivo** — ahora importan el control de datos, el precio y lo que tu equipo puede operar. Si estás pagando precios premium por tareas de programación o contexto largo, vale la pena probar K3 a través de la API hoy."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "parámetros totales — el mayor modelo abierto de la historia" },
+        { "value": "57 vs 60", "label": "K3 vs. mejor modelo cerrado en la referencia de inteligencia" },
+        { "value": "$3 / M tokens", "label": "coste API de K3 por millón de tokens de entrada" },
+        { "value": "1.4 TB", "label": "almacenamiento necesario para ejecutarlo tú mismo" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA ouverte n'est plus en deuxième position. Cela change ce sur quoi vous devriez construire.",
+      "summary": "Une entreprise chinoise vient de publier le plus grand modèle d'IA téléchargeable gratuitement au monde, presque aussi performant que les meilleurs modèles payants — l'obstacle principal n'est plus la qualité, mais le matériel nécessaire pour le faire tourner.",
+      "body": [
+        "Pendant la majeure partie des deux dernières années, les meilleurs modèles d'IA étaient verrouillés derrière des abonnements auprès d'une poignée d'entreprises américaines. **L'écart entre l'IA ouverte et fermée est passé de six mois à trois** — et la sortie de cette semaine rend ce changement impossible à ignorer. Le 27 juillet, la société pékinoise Moonshot AI a publié les poids complets de Kimi K3, mettant ainsi le plus grand modèle d'IA téléchargeable du monde à la disposition de tous gratuitement.",
+        "Kimi K3 compte 2,8 billions de paramètres au total — une architecture dite 'mixture of experts', où de nombreux modèles plus petits se partagent le travail, si bien que seulement environ 104 milliards sont actifs pour chaque tâche. Sur le principal classement public de modèles d'IA, K3 obtient un score de 57, contre 60 pour Claude Fable 5 et 59 pour GPT-5.6 Sol. **Il arrive premier parmi tous les modèles ouverts et domine les tâches de code.** Sa fenêtre de contexte — la quantité de texte qu'il peut traiter en une seule fois — est d'un million de tokens, l'équivalent de cinq longs romans.",
+        "L'obstacle pratique, c'est le matériel. Le modèle téléchargé nécessite 1,4 téraoctet de mémoire GPU dans sa version compressée, et doit tourner sur un cluster de serveurs multi-nœuds équipé des dernières puces Nvidia ou AMD. Cela signifie qu'**héberger ce modèle soi-même est un projet d'infrastructure d'entreprise**, pas une expérience de week-end. La licence est permissive pour la plupart des usages, mais les entreprises qui réalisent plus de 20 millions de dollars par an avec des services d'IA doivent conclure un accord séparé avec Moonshot.",
+        "Pour la plupart des équipes, l'option la plus directe reste l'API : trois dollars par million de tokens en entrée — soit 40 % de moins que GPT-5.6 Sol. K3 devient ainsi un choix crédible pour ceux qui font beaucoup de code, d'analyse de longs documents ou de workflows en mode agent. Le marché a changé : **l'IA ouverte est désormais assez proche du sommet pour que la qualité ne soit plus le critère décisif** — ce qui compte maintenant, c'est le contrôle des données, le prix et ce que votre équipe peut opérer. Si vous payez aujourd'hui des tarifs premium pour du code ou du long-contexte, tester K3 via l'API vaut vraiment le coup."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "paramètres totaux — plus grand modèle ouvert jamais publié" },
+        { "value": "57 vs 60", "label": "K3 vs. meilleur modèle fermé sur l'indice d'intelligence" },
+        { "value": "$3 / M tokens", "label": "coût API de K3 par million de tokens en entrée" },
+        { "value": "1.4 TB", "label": "stockage nécessaire pour l'héberger soi-même" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي المفتوح لم يعد في المرتبة الثانية. هذا يغيّر ما يجب أن تبني عليه.",
+      "summary": "أطلقت شركة صينية للتو أكبر نموذج ذكاء اصطناعي قابل للتنزيل مجاناً في العالم، وهو يكاد يعادل أفضل النماذج المدفوعة — العقبة الحقيقية الآن ليست الجودة، بل الأجهزة التي تحتاجها لتشغيله.",
+      "body": [
+        "طوال السنتين الماضيتين، كانت أفضل نماذج الذكاء الاصطناعي محاطة بجدران الاشتراكات المدفوعة لدى حفنة من الشركات الأمريكية. **تقلّص الفارق بين نماذج الذكاء الاصطناعي المفتوحة والمغلقة من ستة أشهر إلى ثلاثة** — وجاء إصدار هذا الأسبوع ليجعل هذا التحوّل واضحاً لا يمكن تجاهله. في السابع والعشرين من يوليو، أطلقت شركة Moonshot AI الصينية الأوزان الكاملة لنموذج Kimi K3، لتضع أكبر نموذج ذكاء اصطناعي قابل للتنزيل في العالم متاحاً للجميع مجاناً.",
+        "يضم Kimi K3 ما مجموعه 2.8 تريليون معامل — وفق بنية تُعرف بـ'مزيج الخبراء'، حيث تتشارك نماذج أصغر في العمل، فلا تعمل في أي مهمة سوى نحو 104 مليار معامل في آنٍ واحد. في أبرز تصنيف عام لنماذج الذكاء الاصطناعي، يسجّل K3 درجة 57، مقابل 60 لنموذج Claude Fable 5 و59 لـ GPT-5.6 Sol. **يحتل المرتبة الأولى بين جميع النماذج المفتوحة، ويتصدّر في مهام البرمجة.** أما نافذة السياق — أي كمية النص التي يستطيع قراءتها دفعةً واحدة — فتبلغ مليون رمز (توكن)، ما يعادل خمس روايات طويلة.",
+        "المشكلة العملية تكمن في الأجهزة. يستلزم النموذج المُنزَّل 1.4 تيرابايت من ذاكرة وحدة معالجة الرسومات في صورته المضغوطة، ويحتاج إلى مجموعة خوادم متعددة العقد مزوّدة بأحدث رقائق Nvidia أو AMD. هذا يعني أن **تشغيل هذا النموذج ذاتياً مشروع بنية تحتية على مستوى المؤسسات**، وليس تجربةً تُجرى في عطلة نهاية الأسبوع. الرخصة مرنة لمعظم الاستخدامات، غير أن الشركات التي تتجاوز إيراداتها من خدمات الذكاء الاصطناعي 20 مليون دولار سنوياً تحتاج إلى اتفاقية منفصلة مع Moonshot.",
+        "بالنسبة لمعظم الفرق، يبقى الخيار الأكثر عملية هو استخدام واجهة برمجة التطبيقات (API): ثلاثة دولارات لكل مليون رمز مدخل — أرخص بنسبة 40% من GPT-5.6 Sol. هذا يجعل K3 خياراً حقيقياً لمن يكتبون أكواداً كثيرة، أو يحللون وثائق طويلة، أو يبنون سير عمل بالذكاء الاصطناعي. **السوق قد تغيّر: بات الذكاء المفتوح قريباً كفاية من القمة حتى أن الجودة لم تعد العامل الحاسم** — المهم الآن هو التحكم في البيانات، والسعر، وما تستطيع فرقك تشغيله فعلياً. إن كنت تدفع اليوم أسعاراً مرتفعة لمهام البرمجة أو السياق الطويل، فإن تجربة K3 عبر الـ API تستحق العناء."
+      ],
+      "keyFacts": [
+        { "value": "2.8 trillion", "label": "معامل إجمالي — أكبر نموذج مفتوح على الإطلاق" },
+        { "value": "57 vs 60", "label": "K3 مقارنةً بأفضل نموذج مغلق على مؤشر الذكاء" },
+        { "value": "$3 / M tokens", "label": "تكلفة API لكل مليون رمز مدخل" },
+        { "value": "1.4 TB", "label": "مساحة التخزين المطلوبة للتشغيل الذاتي" }
+      ]
+    }
+  }
+}
