@@ -1,0 +1,109 @@
+{
+  "slug": "2026-07-31-gemini-robotics-2",
+  "date": "2026-07-31",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "Google DeepMind — Gemini Robotics 2 brings whole-body intelligence to robots", "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/" },
+    { "title": "SiliconANGLE — Google DeepMind debuts Gemini Robotics 2 model series for humanoid robots", "url": "https://siliconangle.com/2026/07/30/google-deepmind-debuts-gemini-robotics-2-model-series-humanoid-robots/" },
+    { "title": "The Next Web — Google DeepMind's Gemini Robotics 2 controls whole humanoids", "url": "https://thenextweb.com/news/gemini-robotics-2-whole-body-humanoid-control" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Teaching a robot a new job now takes hours, not months",
+      "summary": "Google's Gemini Robotics 2 can adapt to a brand-new robot body in a few hours — which changes the biggest bottleneck in commercial robotics.",
+      "body": [
+        "Building a useful robot has always needed two expensive parts: the physical machine and the software to control it. The software had to be written almost from scratch for every new robot — a process that took months. Google DeepMind released Gemini Robotics 2 on July 30, and it changes that fundamentally. The system is **a single AI that runs any robot body** — and learns a new one in just a few hours.",
+        "The system is actually three models working together. One does high-level planning, deciding what the robot should do next. Another translates those plans into precise movements, keeping the robot balanced from head to toe. A third version runs entirely on the robot's own computer, no internet required. If something goes wrong mid-task, the robot finds the last step that worked and **tries again from there**, on its own.",
+        "The results so far are uneven but real. Unscrewing a light bulb — a task that requires fingers, wrist, elbow, and full-body balance all working together — succeeded with **a 92% success rate**. Tying a trash bag worked 44% of the time. Not perfect, but a clear jump from where this technology was just a year ago.",
+        "The biggest change for anyone buying or building robotic systems is how fast the AI can transfer to new hardware. **Training takes just hours and fewer than 200 examples**, not months of custom engineering. Google provides the AI brain; hardware partners like Boston Dynamics and Apptronik supply the robot bodies. That split matters: bring in new hardware and have it running the same day. If you are evaluating robotic systems right now, ask your vendor how long retraining takes for a new machine — that number just became the most important one."
+      ],
+      "keyFacts": [
+        { "value": "92%", "label": "success rate unscrewing a light bulb" },
+        { "value": "< 200 examples", "label": "data to adapt to a new robot body" },
+        { "value": "3", "label": "AI models working together" },
+        { "value": "Jul 30, 2026", "label": "release date" }
+      ]
+    },
+    "de": {
+      "title": "Einem Roboter eine neue Aufgabe beibringen dauert jetzt Stunden, nicht Monate",
+      "summary": "Googles Gemini Robotics 2 kann sich in wenigen Stunden an einen völlig neuen Roboterkörper anpassen — das dreht die größte Kostenstelle in der kommerziellen Robotik um.",
+      "body": [
+        "Ein nützlicher Roboter hatte immer zwei teure Bestandteile: die physische Maschine und die Software zur Steuerung. Die Software musste für jeden neuen Roboter fast von Grund auf neu geschrieben werden — ein Prozess, der Monate dauerte. Google DeepMind hat am 30. Juli Gemini Robotics 2 veröffentlicht, und das ändert alles grundlegend. Das System ist **eine einzige KI, die jeden Roboterkörper steuert** — und einen neuen in wenigen Stunden erlernt.",
+        "Tatsächlich arbeiten drei Modelle zusammen. Eines übernimmt die übergeordnete Planung und entscheidet, was als Nächstes zu tun ist. Ein anderes übersetzt diese Pläne in präzise Bewegungen und hält den Roboter von Kopf bis Fuß im Gleichgewicht. Eine dritte Version läuft vollständig auf dem eingebauten Computer des Roboters, ohne Internetverbindung. Geht etwas mitten im Ablauf schief, sucht der Roboter den letzten erfolgreichen Schritt und **beginnt von dort neu**, ganz ohne menschliche Hilfe.",
+        "Die Ergebnisse sind bisher uneinheitlich, aber real. Eine Glühbirne herausschrauben — eine Aufgabe, bei der Finger, Handgelenk, Ellbogen und das gesamte Körpergleichgewicht zusammenspielen müssen — **gelang mit einer Erfolgsquote von 92 %**. Eine Mülltüte zuzubinden funktionierte in 44 % der Fälle. Nicht perfekt, aber ein deutlicher Sprung gegenüber dem Stand der Technologie vor einem Jahr.",
+        "Die größte Veränderung für alle, die Robotersysteme kaufen oder entwickeln, ist die Geschwindigkeit, mit der die KI auf neue Hardware übertragen werden kann. **Das Training dauert nur Stunden und braucht weniger als 200 Beispiele**, statt monatelanger maßgeschneiderter Entwicklung. Google liefert das KI-Gehirn; Hardwarepartner wie Boston Dynamics und Apptronik stellen die Roboterkörper. Diese Trennung ist entscheidend: Neue Hardware einführen und noch am selben Tag in Betrieb nehmen. Wer jetzt Robotersysteme bewertet, sollte seinen Anbieter fragen, wie lange das Umlernen auf eine neue Maschine dauert — diese Zahl ist ab sofort die wichtigste."
+      ],
+      "keyFacts": [
+        { "value": "92%", "label": "Erfolgsquote beim Herausschrauben einer Glühbirne" },
+        { "value": "< 200 examples", "label": "Beispiele zum Anpassen an einen neuen Roboterkörper" },
+        { "value": "3", "label": "zusammenarbeitende KI-Modelle" },
+        { "value": "Jul 30, 2026", "label": "Veröffentlichungsdatum" }
+      ]
+    },
+    "nl": {
+      "title": "Een robot een nieuwe taak leren kost nu uren, niet maanden",
+      "summary": "Googles Gemini Robotics 2 kan zich in enkele uren aanpassen aan een compleet nieuw robotlichaam — en dat verandert de grootste bottleneck in commerciële robotica.",
+      "body": [
+        "Een nuttige robot bouwen vereiste altijd twee dure onderdelen: de fysieke machine en de software om hem te besturen. Die software moest voor elke nieuwe robot bijna helemaal opnieuw worden geschreven — een proces dat maanden duurde. Google DeepMind bracht op 30 juli Gemini Robotics 2 uit, en dat verandert alles fundamenteel. Het systeem is **één AI voor elk robotlichaam** — en leert een nieuw lichaam in slechts een paar uur.",
+        "In werkelijkheid werken drie modellen samen. Eén doet de planning op hoog niveau en beslist wat de robot vervolgens moet doen. Een ander vertaalt die plannen naar precieze bewegingen en houdt de robot in balans van kop tot teen. Een derde versie draait volledig op de ingebouwde computer van de robot, zonder internetverbinding. Als er iets misgaat tijdens een taak, zoekt de robot de laatste stap die goed ging en **gaat opnieuw verder vanaf dat punt**, helemaal zelfstandig.",
+        "De resultaten zijn tot nu toe wisselend maar echt. Een gloeilamp losdraaien — een taak waarbij vingers, pols, elleboog en het volledige lichaamsevenwicht samenwerken — lukte met **een slagingspercentage van 92%**. Een vuilniszak dichtknopen slaagde in 44% van de gevallen. Niet perfect, maar een duidelijke stap vooruit ten opzichte van een jaar geleden.",
+        "De grootste verandering voor iedereen die robotsystemen koopt of bouwt is hoe snel de AI naar nieuwe hardware kan overstappen. **Training duurt maar een paar uur en minder dan 200 voorbeelden**, in plaats van maanden maatwerk-engineering. Google levert het AI-brein; hardwarepartners zoals Boston Dynamics en Apptronik leveren de robotlichamen. Die scheiding is belangrijk: nieuwe hardware inzetten en die nog dezelfde dag laten werken. Als je nu robotsystemen evalueert, vraag je leverancier hoelang omscholen naar een nieuwe machine duurt — dat getal is nu het belangrijkste."
+      ],
+      "keyFacts": [
+        { "value": "92%", "label": "slagingspercentage bij het losdraaien van een gloeilamp" },
+        { "value": "< 200 examples", "label": "voorbeelden om aan een nieuw robotlichaam te adapteren" },
+        { "value": "3", "label": "samenwerkende AI-modellen" },
+        { "value": "Jul 30, 2026", "label": "releasedatum" }
+      ]
+    },
+    "es": {
+      "title": "Enseñarle al robot un nuevo trabajo ahora lleva horas, no meses",
+      "summary": "El nuevo Gemini Robotics 2 de Google puede adaptarse a un cuerpo robótico completamente distinto en pocas horas, lo que elimina el mayor cuello de botella de la robótica comercial.",
+      "body": [
+        "Construir un robot útil siempre requirió dos partes costosas: la máquina física y el software para controlarla. Ese software tenía que escribirse casi desde cero para cada nuevo robot, un proceso que llevaba meses. Google DeepMind lanzó Gemini Robotics 2 el 30 de julio, y eso cambia todo de raíz. El sistema es **una sola IA que controla cualquier cuerpo robótico** — y aprende uno nuevo en pocas horas.",
+        "En realidad son tres modelos que trabajan juntos. Uno se encarga de la planificación general y decide qué debe hacer el robot a continuación. Otro traduce esos planes en movimientos precisos, manteniendo al robot equilibrado de la cabeza a los pies. Una tercera versión funciona completamente en el propio ordenador del robot, sin conexión a internet. Si algo sale mal durante una tarea, el robot localiza el último paso correcto y **vuelve a intentarlo desde ahí**, solo.",
+        "Los resultados son desiguales hasta ahora, pero reales. Desenroscar una bombilla — una tarea que exige coordinar dedos, muñeca, codo y el equilibrio corporal completo — tuvo **un 92 % de éxito**. Atar una bolsa de basura funcionó el 44 % de las veces. No son cifras perfectas, pero representan un salto claro respecto a donde estaba esta tecnología hace un año.",
+        "El mayor cambio para quienes compran o desarrollan sistemas robóticos es la velocidad con que la IA puede transferirse a nuevo hardware. **El entrenamiento lleva solo horas y menos de 200 ejemplos**, en lugar de meses de ingeniería personalizada. Google proporciona el cerebro de IA; socios de hardware como Boston Dynamics y Apptronik suministran los cuerpos de los robots. Esa separación importa: incorpora nuevo hardware y tenlo funcionando el mismo día. Si ahora estás evaluando sistemas robóticos, pregunta a tu proveedor cuánto tarda reentrenar para una máquina nueva — ese número acaba de convertirse en el más importante."
+      ],
+      "keyFacts": [
+        { "value": "92%", "label": "tasa de éxito desatornillando una bombilla" },
+        { "value": "< 200 examples", "label": "ejemplos para adaptarse a un cuerpo robótico nuevo" },
+        { "value": "3", "label": "modelos de IA que trabajan juntos" },
+        { "value": "Jul 30, 2026", "label": "fecha de lanzamiento" }
+      ]
+    },
+    "fr": {
+      "title": "Apprendre un nouveau travail à un robot prend maintenant des heures, pas des mois",
+      "summary": "Le nouveau Gemini Robotics 2 de Google peut s'adapter à un corps de robot entièrement différent en quelques heures — ce qui supprime le principal obstacle de la robotique commerciale.",
+      "body": [
+        "Construire un robot utile a toujours nécessité deux parties coûteuses : la machine physique et le logiciel pour la piloter. Ce logiciel devait être réécrit presque de zéro pour chaque nouveau robot — un processus qui prenait des mois. Google DeepMind a sorti Gemini Robotics 2 le 30 juillet, et cela change tout fondamentalement. Le système est **une seule IA pour n'importe quel corps de robot** — et en apprend un nouveau en quelques heures.",
+        "En réalité, trois modèles travaillent ensemble. L'un assure la planification générale et décide ce que le robot doit faire ensuite. Un autre traduit ces plans en mouvements précis, maintenant l'équilibre du robot de la tête aux pieds. Une troisième version fonctionne entièrement sur l'ordinateur embarqué du robot, sans connexion Internet. Si quelque chose se passe mal en cours de tâche, le robot identifie la dernière étape réussie et **reprend à partir de là**, tout seul.",
+        "Les résultats sont inégaux jusqu'à présent, mais bien réels. Dévisser une ampoule — une tâche qui exige de coordonner les doigts, le poignet, le coude et l'équilibre de tout le corps — **a réussi dans 92 % des cas**. Nouer un sac-poubelle a fonctionné dans 44 % des cas. Ce ne sont pas des chiffres parfaits, mais ils représentent un vrai bond en avant par rapport à il y a un an.",
+        "Le changement le plus important pour ceux qui achètent ou développent des systèmes robotiques est la vitesse à laquelle l'IA peut passer à un nouveau matériel. **L'entraînement ne prend que quelques heures et moins de 200 exemples**, au lieu de mois d'ingénierie sur mesure. Google fournit le cerveau IA ; des partenaires matériels comme Boston Dynamics et Apptronik fournissent les corps des robots. Cette séparation est cruciale : intégrez du nouveau matériel et faites-le fonctionner le jour même. Si vous évaluez des systèmes robotiques en ce moment, demandez à votre fournisseur combien de temps prend le réentraînement pour une nouvelle machine — ce chiffre vient de devenir le plus important."
+      ],
+      "keyFacts": [
+        { "value": "92%", "label": "taux de réussite pour dévisser une ampoule" },
+        { "value": "< 200 examples", "label": "exemples pour s'adapter à un nouveau corps de robot" },
+        { "value": "3", "label": "modèles d'IA collaborant ensemble" },
+        { "value": "Jul 30, 2026", "label": "date de sortie" }
+      ]
+    },
+    "ar": {
+      "title": "تعليم الروبوت وظيفة جديدة بات يستغرق ساعات لا أشهراً",
+      "summary": "نظام Gemini Robotics 2 الجديد من Google يمكنه التكيّف مع جسم روبوت مختلف تماماً في ساعات، مما يزيل أكبر عقبة في مجال الروبوتات التجارية.",
+      "body": [
+        "بناء روبوت مفيد كان دائماً يتطلب جزأين مكلفَين: الآلة المادية والبرنامج الذي يُشغّلها. وكان على ذلك البرنامج أن يُكتب من الصفر تقريباً لكل روبوت جديد، وهو مسار كان يستغرق أشهراً. أطلقت Google DeepMind في 30 يوليو نظام Gemini Robotics 2، وهذا يغيّر كل شيء جذرياً. النظام هو **ذكاء اصطناعي واحد يعمل على أي جسم روبوت** — ويتعلّم جسماً جديداً في غضون ساعات قليلة.",
+        "في الواقع، ثلاثة نماذج تعمل معاً. أحدها يتولى التخطيط عالي المستوى ويقرر ما يجب على الروبوت فعله بعد ذلك. وآخر يترجم تلك الخطط إلى حركات دقيقة، محافظاً على توازن الروبوت من رأسه إلى قدميه. ونسخة ثالثة تعمل بالكامل على الحاسوب المدمج في الروبوت دون الحاجة إلى إنترنت. إذا سارت الأمور بشكل خاطئ في منتصف المهمة، يعود الروبوت إلى آخر خطوة صحيحة و**يحاول مجدداً من هناك**، وحده دون تدخل بشري.",
+        "النتائج حتى الآن متفاوتة لكنها حقيقية. خلع مصباح كهربائي — مهمة تستلزم تنسيقاً بين الأصابع والمعصم والكوع وتوازن الجسم بالكامل — نجحت **بنسبة نجاح 92٪**. وأما ربط كيس القمامة فقد نجح في 44٪ من الحالات. ليست أرقاماً مثالية، لكنها تمثل قفزة واضحة عما كانت عليه هذه التقنية قبل عام.",
+        "أهم تغيير لمن يشترون أنظمة روبوتية أو يبنونها هو السرعة التي يمكن للذكاء الاصطناعي أن ينتقل بها إلى أجهزة جديدة. **التدريب يستغرق ساعات فقط وأقل من 200 مثال**، لا أشهراً من الهندسة المخصصة. تقدّم Google الدماغ الذكي؛ فيما يوفّر شركاء الأجهزة مثل Boston Dynamics وApptronik أجسام الروبوتات. هذا الفصل مهم: ادخل بأجهزة جديدة وشغّلها في اليوم ذاته. إن كنت تقيّم أنظمة روبوتية الآن، اسأل مورّدك كم يستغرق إعادة التدريب على آلة جديدة — هذا الرقم أصبح للتو الأهم."
+      ],
+      "keyFacts": [
+        { "value": "92%", "label": "نسبة نجاح خلع مصباح كهربائي" },
+        { "value": "< 200 examples", "label": "مثال لتكيّف الذكاء مع جسم روبوت جديد" },
+        { "value": "3", "label": "نماذج ذكاء اصطناعي تعمل معاً" },
+        { "value": "Jul 30, 2026", "label": "تاريخ الإصدار" }
+      ]
+    }
+  }
+}
