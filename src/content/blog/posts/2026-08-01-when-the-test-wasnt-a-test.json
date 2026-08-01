@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-01-when-the-test-wasnt-a-test",
+  "date": "2026-08-01",
+  "tags": ["ai", "ai-safety", "security"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Anthropic — Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+    },
+    {
+      "title": "Forbes — Anthropic's Claude Models Broke Into Three Real Companies",
+      "url": "https://www.forbes.com/sites/craigsmith/2026/07/31/anthropics-claude-models-broke-into-three-real-companies/"
+    },
+    {
+      "title": "CyberScoop — Anthropic says its AI accidentally hacked three companies during safety tests",
+      "url": "https://cyberscoop.com/anthropic-claude-ai-hacks-real-companies/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When the AI didn't know the test was real",
+      "summary": "Anthropic disclosed that three of its Claude models accidentally broke into real companies during safety tests — a warning every team building with AI agents needs to take seriously.",
+      "body": [
+        "In April 2026, Anthropic ran routine security tests on three of its Claude AI models. The task was a 'capture the flag' exercise — a standard, realistic hacking challenge used to measure a model's capabilities. The models were told they had no internet access. But a mistake by the outside testing firm meant the models were **actually connected to the live internet** — and nobody, not the models and not the humans running the tests, knew it.",
+        "The models did what they were trained to do: complete the task. One found a real company that shared a name with its fake target, guessed weak passwords, and pulled hundreds of rows of data from a live database. Another built a malicious software package and uploaded it to PyPI — a public code library used by millions of developers. **Fifteen real machines ran it within an hour**, including one at a cybersecurity firm. Two of the three affected companies had no idea anything had happened until Anthropic called them on July 27.",
+        "Anthropic reviewed 141,006 evaluation runs after the incidents came to light. Only six were problematic — all linked to one testing partner. The models were not acting out of malice. They were doing exactly the job they were given. **The problem was a broken assumption** — that the test environment was sealed off from the real world. It was not.",
+        "For any team building or deploying AI agents — and that is a fast-growing group — this is a clear signal. Treat your testing environment as if it might be connected, because it might be. Networks need to be truly air-gapped before an AI is let loose. Permissions need to be reviewed before a test starts, not after. **The stronger AI gets, the costlier a leaky sandbox.** Anthropic halted all cybersecurity evaluations on July 23 and is bringing in independent reviewers — the right response, and the right model for anyone working with powerful AI."
+      ],
+      "keyFacts": [
+        { "value": "141,006", "label": "evaluation runs reviewed" },
+        { "value": "3", "label": "companies breached, 2 unaware until notified" },
+        { "value": "15", "label": "real machines that ran the AI-written malicious package" },
+        { "value": "April 2026", "label": "when the incidents occurred" }
+      ]
+    },
+    "de": {
+      "title": "Als die KI nicht wusste, dass der Test echt war",
+      "summary": "Anthropic hat offengelegt, dass drei seiner Claude-Modelle bei Sicherheitstests versehentlich in echte Unternehmen eingedrungen sind — eine Warnung, die jedes Team, das KI-Agenten einsetzt, ernst nehmen muss.",
+      "body": [
+        "Im April 2026 führte Anthropic Routinetests an drei seiner Claude-KI-Modelle durch. Die Aufgabe war eine 'Capture the Flag'-Übung — eine realistische Hacking-Herausforderung, die standardmäßig dazu dient, die Fähigkeiten eines Modells zu messen. Den Modellen wurde gesagt, sie hätten keinen Internetzugang. Doch ein Fehler des externen Testunternehmens sorgte dafür, dass die Modelle **tatsächlich mit dem echten Internet verbunden waren** — und niemand wusste davon, weder die Modelle noch die Testbetreiber.",
+        "Die Modelle taten, was sie gelernt hatten: die Aufgabe erfüllen. Eines fand ein echtes Unternehmen mit demselben Namen wie das fiktive Ziel, erriet schwache Passwörter und rief hunderte Datensätze aus einer echten Datenbank ab. Ein anderes baute ein schädliches Software-Paket und lud es auf PyPI hoch — eine öffentliche Code-Bibliothek, die von Millionen Entwicklern genutzt wird. **Fünfzehn echte Rechner führten es innerhalb einer Stunde aus**, darunter einer bei einem Cybersicherheitsunternehmen. Zwei der drei betroffenen Unternehmen hatten nichts bemerkt, bis Anthropic sie am 27. Juli kontaktierte.",
+        "Anthropic überprüfte 141.006 Evaluierungsläufe, nachdem die Vorfälle bekannt wurden. Nur sechs waren problematisch — alle verbunden mit demselben Testpartner. Die Modelle handelten nicht böswillig. Sie erledigten genau die Aufgabe, die ihnen gestellt wurde. **Das Problem war eine falsche Annahme** — dass die Testumgebung vom echten Internet abgeschirmt war. Das war sie nicht.",
+        "Für jedes Team, das KI-Agenten entwickelt oder einsetzt — eine schnell wachsende Gruppe — ist dies ein klares Signal. Behandle deine Testumgebung so, als könnte sie verbunden sein, weil es so sein könnte. Netzwerke müssen wirklich isoliert sein, bevor eine KI losgelassen wird. Berechtigungen müssen vor einem Test geprüft werden, nicht danach. **Je stärker die KI wird, desto teurer ist ein undichter Sandkasten.** Anthropic hat am 23. Juli alle Cybersicherheits-Evaluierungen eingestellt und zieht unabhängige Prüfer hinzu — die richtige Reaktion, und das richtige Modell für alle, die mit leistungsstarker KI arbeiten."
+      ],
+      "keyFacts": [
+        { "value": "141,006", "label": "überprüfte Evaluierungsläufe" },
+        { "value": "3", "label": "gehackte Unternehmen, 2 ohne eigenes Wissen" },
+        { "value": "15", "label": "echte Rechner, die das KI-Paket ausführten" },
+        { "value": "April 2026", "label": "Zeitpunkt der Vorfälle" }
+      ]
+    },
+    "nl": {
+      "title": "Toen de AI niet wist dat de test echt was",
+      "summary": "Anthropic maakte bekend dat drie Claude-modellen bij beveiligingstests per ongeluk echte bedrijven hebben gehackt — een waarschuwing die elk team dat met AI-agenten werkt serieus moet nemen.",
+      "body": [
+        "In april 2026 voerde Anthropic routinetests uit op drie van zijn Claude AI-modellen. De opdracht was een 'capture the flag'-oefening — een realistische hackopdracht die standaard wordt gebruikt om de capaciteiten van een model te meten. De modellen kregen te horen dat ze geen internettoegang hadden. Maar een fout van het externe testbedrijf zorgde ervoor dat de modellen **in werkelijkheid verbonden waren met het echte internet** — en niemand wist het, niet de modellen, niet de mensen die de tests uitvoerden.",
+        "De modellen deden wat ze getraind waren te doen: de taak uitvoeren. Een van de modellen vond een echt bedrijf met dezelfde naam als het nep-doel, raadde zwakke wachtwoorden en haalde honderden rijen data op uit een live database. Een ander bouwde een schadelijk softwarepakket en uploadde dat naar PyPI — een publieke codebibliotheek die miljoenen ontwikkelaars gebruiken. **Vijftien echte machines voerden het binnen een uur uit**, waaronder een bij een cybersecuritybedrijf. Twee van de drie getroffen bedrijven hadden niets gemerkt totdat Anthropic ze op 27 juli belde.",
+        "Anthropic bekeek 141.006 evaluatieruns nadat de incidenten aan het licht kwamen. Slechts zes waren problematisch — allemaal gekoppeld aan dezelfde testpartner. De modellen handelden niet kwaadwillend. Ze voerden precies de taak uit die ze kregen. **Het probleem was een verkeerde aanname** — dat de testomgeving afgeschermd was van de echte wereld. Dat bleek niet zo te zijn.",
+        "Voor elk team dat AI-agenten bouwt of inzet — een snel groeiende groep — is dit een duidelijk signaal. Behandel je testomgeving alsof die verbonden kan zijn, want dat kan zo zijn. Netwerken moeten echt geïsoleerd zijn voordat een AI losgelaten wordt. Rechten moeten worden gecontroleerd vóór een test begint, niet erna. **Hoe sterker AI wordt, hoe kostbaarder een lekke sandbox.** Anthropic staakte op 23 juli alle cybersecurity-evaluaties en haalt onafhankelijke reviewers erbij — de juiste reactie, en het juiste model voor iedereen die met krachtige AI werkt."
+      ],
+      "keyFacts": [
+        { "value": "141,006", "label": "evaluatieruns doorgelicht" },
+        { "value": "3", "label": "bedrijven gehackt, 2 onwetend tot kennisgeving" },
+        { "value": "15", "label": "echte machines die het kwaadaardig pakket uitvoerden" },
+        { "value": "April 2026", "label": "wanneer de incidenten plaatsvonden" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA no sabía que el test era real",
+      "summary": "Anthropic reveló que tres de sus modelos Claude accedieron accidentalmente a sistemas de empresas reales durante pruebas de seguridad — una advertencia que todo equipo que trabaja con agentes de IA debe tomar en serio.",
+      "body": [
+        "En abril de 2026, Anthropic realizaba pruebas de seguridad de rutina en tres de sus modelos de IA Claude. La tarea era un ejercicio de 'captura la bandera' — un reto de hacking realista que se usa habitualmente para medir las capacidades de un modelo. A los modelos se les dijo que no tenían acceso a internet. Sin embargo, un error del equipo de pruebas externo hizo que los modelos estuvieran **en realidad conectados al internet real** — y nadie lo sabía, ni los modelos ni los operadores.",
+        "Los modelos hicieron lo que estaban entrenados para hacer: completar la tarea. Uno encontró una empresa real con el mismo nombre que el objetivo ficticio, adivinó contraseñas débiles y extrajo cientos de filas de datos de una base de datos en producción. Otro construyó un paquete de software malicioso y lo subió a PyPI — una biblioteca de código pública usada por millones de desarrolladores. **Quince máquinas reales lo ejecutaron en menos de una hora**, incluyendo una en una empresa de ciberseguridad. Dos de las tres empresas afectadas no sabían nada hasta que Anthropic las contactó el 27 de julio.",
+        "Anthropic revisó 141.006 ejecuciones de evaluación tras conocerse los incidentes. Solo seis fueron problemáticas — todas vinculadas al mismo socio de pruebas. Los modelos no actuaron con mala intención. Estaban haciendo exactamente el trabajo que se les había encomendado. **El problema era una suposición errónea** — que el entorno de prueba estaba aislado del mundo real. No lo estaba.",
+        "Para cualquier equipo que construya o despliegue agentes de IA — un grupo que crece rápido — este es un aviso claro. Trata tu entorno de prueba como si pudiera estar conectado, porque podría estarlo. Las redes deben estar verdaderamente aisladas antes de soltar una IA. Los permisos deben revisarse antes de que empiece el test, no después. **Cuanto más capaz se vuelve la IA, más caro resulta un sandbox con fugas.** Anthropic suspendió todas las evaluaciones de ciberseguridad el 23 de julio y está incorporando revisores independientes — la respuesta correcta, y el modelo a seguir para todos los que trabajan con IA de alto nivel."
+      ],
+      "keyFacts": [
+        { "value": "141,006", "label": "ejecuciones de evaluación revisadas" },
+        { "value": "3", "label": "empresas comprometidas, 2 sin saberlo" },
+        { "value": "15", "label": "máquinas reales que ejecutaron el paquete malicioso" },
+        { "value": "April 2026", "label": "cuando ocurrieron los incidentes" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA ne savait pas que le test était réel",
+      "summary": "Anthropic a révélé que trois de ses modèles Claude ont accidentellement pénétré dans de vraies entreprises lors de tests de sécurité — un avertissement que toute équipe travaillant avec des agents IA doit prendre au sérieux.",
+      "body": [
+        "En avril 2026, Anthropic menait des tests de sécurité de routine sur trois de ses modèles d'IA Claude. La mission était un exercice 'capture the flag' — un défi de hacking réaliste utilisé couramment pour mesurer les capacités d'un modèle. Les modèles ont été informés qu'ils n'avaient pas accès à internet. Mais une erreur du prestataire de test externe a fait que les modèles étaient **en réalité connectés au vrai internet** — et personne ne le savait, ni les modèles, ni les opérateurs.",
+        "Les modèles ont fait ce pour quoi ils étaient entraînés : accomplir la mission. L'un d'eux a trouvé une vraie entreprise portant le même nom que la cible fictive, a deviné des mots de passe faibles et a extrait des centaines de lignes de données d'une base de production. Un autre a créé un package logiciel malveillant et l'a téléversé sur PyPI — une bibliothèque de code publique utilisée par des millions de développeurs. **Quinze vraies machines l'ont exécuté en moins d'une heure**, dont une appartenant à une entreprise de cybersécurité. Deux des trois entreprises touchées n'avaient rien détecté avant qu'Anthropic les contacte le 27 juillet.",
+        "Anthropic a examiné 141 006 exécutions d'évaluation après que les incidents ont été découverts. Seules six étaient problématiques — toutes liées au même partenaire de test. Les modèles n'ont pas agi par malveillance. Ils accomplissaient exactement la tâche qu'on leur avait assignée. **Le problème était une hypothèse fausse** — que l'environnement de test était isolé du monde réel. Ce n'était pas le cas.",
+        "Pour toute équipe qui construit ou déploie des agents IA — un groupe qui grandit vite — c'est un signal clair. Traitez votre environnement de test comme s'il pouvait être connecté, parce que c'est possible. Les réseaux doivent être véritablement isolés avant de lâcher une IA. Les permissions doivent être vérifiées avant le début d'un test, pas après. **Plus l'IA devient puissante, plus un sandbox qui fuit coûte cher.** Anthropic a suspendu toutes ses évaluations de cybersécurité le 23 juillet et fait appel à des réviseurs indépendants — la bonne réponse, et le bon modèle à suivre pour tous ceux qui travaillent avec une IA performante."
+      ],
+      "keyFacts": [
+        { "value": "141,006", "label": "exécutions d'évaluation passées en revue" },
+        { "value": "3", "label": "entreprises compromises, 2 sans le savoir" },
+        { "value": "15", "label": "vraies machines ayant exécuté le package malveillant" },
+        { "value": "April 2026", "label": "quand les incidents ont eu lieu" }
+      ]
+    },
+    "ar": {
+      "title": "حين لم يعلم الذكاء الاصطناعي أن الاختبار كان حقيقياً",
+      "summary": "كشفت أنثروبيك أن ثلاثة من نماذج كلود اخترقت شركات حقيقية عن طريق الخطأ أثناء اختبارات الأمان — تحذير يجب أن يأخذه بجدية كل فريق يبني تطبيقات بعوامل الذكاء الاصطناعي.",
+      "body": [
+        "في أبريل 2026، كانت شركة أنثروبيك تُجري اختبارات أمنية اعتيادية على ثلاثة من نماذج الذكاء الاصطناعي كلود. كانت المهمة تمرين 'التقاط العلم' — تحدٍّ واقعي مُتخيَّل للاختراق يُستخدم لقياس قدرات النموذج. قيل للنماذج إنها لا تملك وصولاً إلى الإنترنت. لكن خطأً من شركة الاختبار الخارجية جعل النماذج **في الواقع متصلة بالإنترنت الحقيقي** — ولم يعلم أحد بذلك، لا النماذج ولا القائمون على الاختبارات.",
+        "فعلت النماذج ما دُرِّبت عليه: إنجاز المهمة. وجد أحدها شركة حقيقية تحمل الاسم ذاته للهدف الوهمي، وخمّن كلمات مرور ضعيفة، وسحب مئات السجلات من قاعدة بيانات إنتاجية حقيقية. أما نموذج آخر فقد بنى حزمة برمجية ضارة ورفعها إلى PyPI — مكتبة كود عامة يستخدمها ملايين المطورين. **نزّلت خمسة عشر جهازاً حقيقياً الحزمة وشغّلتها في أقل من ساعة**، من بينها جهاز في شركة للأمن السيبراني. لم تكن اثنتان من الشركات الثلاث المتضررة تعلمان بأي شيء حتى اتصلت بهما أنثروبيك في 27 يوليو.",
+        "راجعت أنثروبيك 141,006 جلسة تقييم بعد الكشف عن الحوادث. ست جلسات فقط كانت إشكالية — جميعها مرتبطة بشريك اختبار واحد. لم تتصرف النماذج بنية ضارة. كانت تُنجز بدقة المهمة التي أُسندت إليها. **كانت المشكلة افتراضاً خاطئاً** — أن بيئة الاختبار معزولة عن العالم الحقيقي. لم تكن كذلك.",
+        "لأي فريق يبني أو يُطلق عوامل الذكاء الاصطناعي — وهو مجموعة تتنامى بسرعة — هذه إشارة واضحة. تعامل مع بيئة الاختبار كأنها قد تكون متصلة، لأن ذلك ممكن. يجب أن تكون الشبكات معزولة فعلياً قبل إطلاق الذكاء الاصطناعي. يجب مراجعة الصلاحيات قبل بدء الاختبار لا بعده. **كلما قوي الذكاء الاصطناعي، ارتفعت تكلفة بيئة الاختبار المُسرِّبة.** علّقت أنثروبيك جميع تقييمات الأمن السيبراني في 23 يوليو وتستعين بمراجعين مستقلين — الاستجابة الصحيحة، والنموذج الأمثل لكل من يعمل مع ذكاء اصطناعي قوي."
+      ],
+      "keyFacts": [
+        { "value": "141,006", "label": "جلسة تقييم تمت مراجعتها" },
+        { "value": "3", "label": "شركات اخترقتها النماذج، 2 لم تعلم حتى الإخطار" },
+        { "value": "15", "label": "جهاز حقيقي نزّل الحزمة الضارة وشغّلها" },
+        { "value": "April 2026", "label": "وقت وقوع الحوادث" }
+      ]
+    }
+  }
+}
