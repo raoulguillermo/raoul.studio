@@ -1,0 +1,124 @@
+{
+  "slug": "2026-08-02-openai-gpt56-luna-price-cut",
+  "date": "2026-08-02",
+  "tags": ["ai", "pricing", "openai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Yahoo Finance — OpenAI Just Cut GPT-5.6 Luna's Price by 80 Percent – and That Tells You Where the Pressure Is Coming From",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-just-cut-gpt-5-013753910.html"
+    },
+    {
+      "title": "Build Fast With AI — AI News Today July 31 2026: 16 Biggest Stories",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-31-2026"
+    },
+    {
+      "title": "Basic Tutorials — GPT-5.6: OpenAI Cuts Prices, Luna Becomes 80% Cheaper",
+      "url": "https://basic-tutorials.com/news/gpt-5-6-openai-cuts-prices-luna-becomes-80-cheaper/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What an 80% AI Price Drop in Three Weeks Actually Means",
+      "summary": "OpenAI slashed the price of its budget AI model by 80% in just three weeks — pushed by Chinese competition — and that changes which high-volume tasks are worth building.",
+      "body": [
+        "Three weeks after OpenAI launched its new GPT-5.6 model family, it cut the price of the budget model — Luna — by 80 percent. Prices do fall in tech, but this fast, this sharply, tells you something: the race for AI is now **a price war, not a performance contest**.",
+        "Tokens are the small units of text an AI reads and writes. Luna used to cost $1 for every million input tokens. Now it costs 20 cents. Send a million messages through the API each day and your monthly bill just fell **by tens of thousands of dollars**. Tasks that seemed too expensive to automate a month ago are not anymore.",
+        "OpenAI did not do this out of generosity. Data from OpenRouter — a platform that routes AI requests to different providers — showed Chinese models handling **nearly half of all enterprise AI traffic** there. DeepSeek, the biggest Chinese competitor, charges a fraction of US prices. OpenAI had to respond, and fast.",
+        "There is an interesting detail in how the cut was funded. OpenAI says its flagship model, Sol, helped find the efficiency gains — **by rewriting its own production code** — reducing the cost of running itself by around 20 percent. AI is now helping cut the price of AI.",
+        "For anyone building products, the practical takeaway is simple: if you shelved a high-volume AI task because the numbers did not work, run them again. Summarizing emails, screening applications, moderating content — these need millions of AI calls a month. At 20 cents per million tokens, **the math on most of those tasks now works**."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "price cut for Luna in three weeks" },
+        { "value": "$0.20", "label": "Luna's new cost per million input tokens" },
+        { "value": "46%", "label": "enterprise AI traffic on OpenRouter going to Chinese models" },
+        { "value": "3 weeks", "label": "from GPT-5.6 launch to major repricing" }
+      ]
+    },
+    "de": {
+      "title": "Was ein Preissturz von 80 % in drei Wochen wirklich bedeutet",
+      "summary": "OpenAI hat den Preis seines günstigsten KI-Modells in drei Wochen um 80 % gesenkt — getrieben von chinesischer Konkurrenz — und das verändert, welche Aufgaben sich zu automatisieren lohnen.",
+      "body": [
+        "Drei Wochen nach dem Start der neuen GPT-5.6-Modellfamilie senkte OpenAI den Preis des günstigsten Modells — Luna — um 80 Prozent. Preise fallen in der Tech-Branche, aber so schnell und so drastisch sagt dir das etwas: Der KI-Wettbewerb ist jetzt **ein Preiskampf, kein Leistungswettbewerb**.",
+        "Tokens sind die kleinen Textbausteine, die eine KI liest und schreibt. Luna kostete früher 1 Dollar pro Million Eingabe-Tokens. Jetzt sind es 20 Cent. Wer täglich eine Million Nachrichten über die API sendet, spart damit **zehntausende Dollar pro Monat**. Aufgaben, die vor einem Monat zu teuer zum Automatisieren schienen, sind es jetzt nicht mehr.",
+        "OpenAI handelt nicht aus Großzügigkeit. Daten von OpenRouter — einer Plattform, die KI-Anfragen weiterleitet — zeigen, dass chinesische Modelle **fast die Hälfte des gesamten Unternehmens-KI-Verkehrs** dort abwickeln. DeepSeek, der bekannteste chinesische Konkurrent, bietet Preise weit unter US-Anbietern. OpenAI musste schnell reagieren.",
+        "Interessant ist, wie die Preissenkung finanziert wurde. OpenAI gibt an, sein Flaggschiffmodell Sol habe die Effizienzgewinne mitgefunden — **indem es seinen eigenen Produktionscode umschrieb** — und die Betriebskosten um rund 20 Prozent gesenkt. KI hilft jetzt dabei, den Preis für KI zu drücken.",
+        "Für alle, die Produkte bauen, ist die Schlussfolgerung einfach: Wer eine KI-Aufgabe mit hohem Volumen aufgeschoben hat, weil die Zahlen nicht stimmten, sollte jetzt neu rechnen. E-Mails zusammenfassen, Bewerbungen sichten, Inhalte moderieren — das braucht Millionen KI-Anfragen pro Monat. Bei 20 Cent pro Million Tokens **stimmt die Rechnung für die meisten dieser Aufgaben jetzt**."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "Preissenkung für Luna in drei Wochen" },
+        { "value": "$0.20", "label": "Lunas neuer Preis pro Million Eingabe-Tokens" },
+        { "value": "46%", "label": "Unternehmens-KI-Verkehr auf OpenRouter für chinesische Modelle" },
+        { "value": "3 weeks", "label": "vom GPT-5.6-Launch bis zur großen Preissenkung" }
+      ]
+    },
+    "nl": {
+      "title": "Wat een prijsdaling van 80% in drie weken werkelijk betekent",
+      "summary": "OpenAI verlaagde de prijs van zijn goedkoopste AI-model binnen drie weken met 80% — aangedreven door Chinese concurrentie — en dat verandert welke taken de moeite waard zijn om te automatiseren.",
+      "body": [
+        "Drie weken na de lancering van de nieuwe GPT-5.6-modellenreeks verlaagde OpenAI de prijs van het goedkoopste model — Luna — met 80 procent. Prijzen dalen in de tech, maar zo snel en zo scherp vertelt je iets: de race om AI is nu **een prijzenoorlog, geen prestatiecompetitie**.",
+        "Tokens zijn de kleine tekstbrokken die een AI leest en schrijft. Luna kostte vroeger 1 dollar per miljoen invoertokens. Nu is dat 20 cent. Stuur je dagelijks een miljoen berichten via de API, dan is je maandrekening nu **tienduizenden dollars lager**. Taken die een maand geleden te duur waren om te automatiseren, zijn dat nu niet meer.",
+        "OpenAI doet dit niet uit vrijgevigheid. Gegevens van OpenRouter — een platform dat AI-verzoeken doorstuurt naar verschillende aanbieders — tonen dat Chinese modellen **bijna de helft van al het zakelijke AI-verkeer** daar afhandelen. DeepSeek, de grootste Chinese concurrent, rekent een fractie van wat Amerikaanse aanbieders vragen. OpenAI moest snel reageren.",
+        "Er is een interessant detail over hoe de verlaging werd gefinancierd. OpenAI zegt dat zijn vlaggenschipmodel Sol de efficiëntieverbeteringen mede heeft ontdekt — **door zijn eigen productiecode te herschrijven** — en daarmee de operationele kosten met zo'n 20 procent verlaagde. AI helpt nu de prijs van AI te drukken.",
+        "Voor iedereen die producten bouwt, is de praktische conclusie simpel: als je een hoog-volume AI-taak hebt uitgesteld omdat de cijfers niet klopten, reken het dan opnieuw uit. E-mails samenvatten, sollicitaties beoordelen, content modereren — dat vraagt miljoenen AI-aanroepen per maand. Bij 20 cent per miljoen tokens **kloppen de cijfers voor de meeste van die taken nu**."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "prijsdaling voor Luna in drie weken" },
+        { "value": "$0.20", "label": "Lunas nieuwe kosten per miljoen invoertokens" },
+        { "value": "46%", "label": "zakelijk AI-verkeer op OpenRouter naar Chinese modellen" },
+        { "value": "3 weeks", "label": "van GPT-5.6-lancering tot grote prijsverlaging" }
+      ]
+    },
+    "es": {
+      "title": "Qué significa realmente una caída de precio del 80% en tres semanas",
+      "summary": "OpenAI redujo el precio de su modelo de IA más económico un 80% en tres semanas — impulsado por la competencia china — y eso cambia qué tareas de alto volumen vale la pena automatizar.",
+      "body": [
+        "Tres semanas después del lanzamiento de la nueva familia de modelos GPT-5.6, OpenAI rebajó el precio del modelo económico — Luna — un 80 por ciento. Los precios caen en tecnología, pero tan rápido y tan bruscamente, eso dice algo: la carrera por la IA es ahora **una guerra de precios, no una competencia de rendimiento**.",
+        "Los tokens son las pequeñas unidades de texto que una IA lee y escribe. Luna costaba antes 1 dólar por millón de tokens de entrada. Ahora cuesta 20 centavos. Envía un millón de mensajes al día por la API y tu factura mensual acaba de bajar **decenas de miles de dólares**. Las tareas que parecían demasiado caras para automatizar hace un mes ya no lo son.",
+        "OpenAI no hizo esto por generosidad. Datos de OpenRouter — una plataforma que dirige solicitudes de IA a distintos proveedores — muestran que los modelos chinos manejan **casi la mitad de todo el tráfico empresarial de IA** allí. DeepSeek, el mayor competidor chino, cobra una fracción de lo que cobran los proveedores estadounidenses. OpenAI tenía que responder, y rápido.",
+        "Hay un detalle interesante sobre cómo se financió la rebaja. OpenAI dice que su modelo insignia, Sol, ayudó a encontrar las ganancias de eficiencia — **reescribiendo su propio código de producción** — y redujo así su costo de funcionamiento en torno a un 20 por ciento. La IA está ayudando ahora a bajar el precio de la IA.",
+        "Para quienes construyen productos, la conclusión práctica es sencilla: si dejaste aparcada una tarea de IA de alto volumen porque los números no cuadraban, vuélvelos a calcular. Resumir correos, filtrar solicitudes, moderar contenidos — todo eso requiere millones de llamadas de IA al mes. A 20 centavos por millón de tokens, **los números funcionan para la mayoría de esas tareas ahora**."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "reducción de precio de Luna en tres semanas" },
+        { "value": "$0.20", "label": "nuevo costo de Luna por millón de tokens de entrada" },
+        { "value": "46%", "label": "tráfico empresarial de IA en OpenRouter hacia modelos chinos" },
+        { "value": "3 weeks", "label": "del lanzamiento de GPT-5.6 al primer gran recorte" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que signifie vraiment une baisse de prix de 80 % en trois semaines",
+      "summary": "OpenAI a réduit de 80 % le prix de son modèle d'IA d'entrée de gamme en trois semaines — sous la pression de la concurrence chinoise — et cela change quelles tâches à fort volume valent la peine d'être automatisées.",
+      "body": [
+        "Trois semaines après le lancement de la nouvelle famille de modèles GPT-5.6, OpenAI a réduit le prix du modèle d'entrée de gamme — Luna — de 80 pour cent. Les prix baissent dans la tech, mais aussi vite et aussi brutalement, cela indique quelque chose : la course à l'IA est maintenant **une guerre des prix, pas une compétition de performance**.",
+        "Les tokens sont les petites unités de texte qu'une IA lit et écrit. Luna coûtait avant 1 dollar par million de tokens en entrée. Maintenant, c'est 20 centimes. Envoyez un million de messages par jour via l'API et votre facture mensuelle vient de baisser **de dizaines de milliers de dollars**. Les tâches qui semblaient trop chères à automatiser il y a un mois ne le sont plus.",
+        "OpenAI n'a pas fait ça par générosité. Des données d'OpenRouter — une plateforme qui achemine les requêtes IA vers différents fournisseurs — montrent que les modèles chinois traitent **près de la moitié de tout le trafic IA enterprise** là-bas. DeepSeek, le plus grand concurrent chinois, facture une fraction de ce que facturent les fournisseurs américains. OpenAI devait réagir, et vite.",
+        "Il y a un détail intéressant sur la façon dont la baisse a été financée. OpenAI dit que son modèle phare, Sol, a contribué à trouver les gains d'efficacité — **en réécrivant son propre code de production** — réduisant ainsi son coût de fonctionnement d'environ 20 pour cent. L'IA aide désormais à faire baisser le prix de l'IA.",
+        "Pour ceux qui construisent des produits, la conclusion pratique est simple : si vous avez mis de côté une tâche IA à fort volume parce que les chiffres ne fonctionnaient pas, refaites le calcul. Résumer des e-mails, filtrer des candidatures, modérer du contenu — tout cela nécessite des millions d'appels IA par mois. À 20 centimes par million de tokens, **les chiffres fonctionnent pour la plupart de ces tâches maintenant**."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "baisse de prix de Luna en trois semaines" },
+        { "value": "$0.20", "label": "nouveau coût de Luna par million de tokens en entrée" },
+        { "value": "46%", "label": "trafic IA enterprise sur OpenRouter vers les modèles chinois" },
+        { "value": "3 weeks", "label": "du lancement de GPT-5.6 au premier grand recalibrage tarifaire" }
+      ]
+    },
+    "ar": {
+      "title": "ما الذي يعنيه فعلاً انخفاض السعر بنسبة 80% في ثلاثة أسابيع",
+      "summary": "خفّضت شركة OpenAI سعر نموذج الذكاء الاصطناعي الأرخص لديها بنسبة 80% في ثلاثة أسابيع — تحت ضغط المنافسة الصينية — وهذا يُغيّر أي المهام ذات الحجم الكبير يستحق بناؤها.",
+      "body": [
+        "بعد ثلاثة أسابيع فقط من إطلاق عائلة نماذج GPT-5.6 الجديدة، خفّضت شركة OpenAI سعر النموذج الأرخص — Luna — بنسبة 80 بالمئة. الأسعار تنخفض في عالم التقنية، لكن بهذه السرعة وبهذه الحدّة يقول لك شيئاً: السباق نحو الذكاء الاصطناعي أصبح **حرب أسعار لا تنافساً في الأداء**.",
+        "التوكينز هي الوحدات النصية الصغيرة التي يقرأها الذكاء الاصطناعي ويكتبها. كان Luna يكلّف دولاراً واحداً لكل مليون توكن مدخل. الآن يكلّف 20 سنتاً. أرسل مليون رسالة يومياً عبر الـ API وستجد أن فاتورتك الشهرية انخفضت **بعشرات الآلاف من الدولارات**. المهام التي بدت مكلفة جداً للأتمتة قبل شهر لم تعد كذلك.",
+        "لم تفعل OpenAI هذا من باب الكرم. بيانات من OpenRouter — منصة توجّه طلبات الذكاء الاصطناعي إلى مزودين مختلفين — تُظهر أن النماذج الصينية تتعامل مع **قرابة نصف كل حركة الذكاء الاصطناعي للشركات** هناك. DeepSeek، أبرز المنافسين الصينيين، يُقدّم أسعاراً بكسر مما يتقاضاه المزودون الأمريكيون. كان على OpenAI الرد، وبسرعة.",
+        "ثمة تفصيل لافت في كيفية تمويل هذا الخفض. تقول OpenAI إن نموذجها الرائد Sol ساعد في إيجاد مكاسب الكفاءة — **بإعادة كتابة كود الإنتاج الخاص به** — مما خفّض تكلفة تشغيله بنحو 20 بالمئة. الذكاء الاصطناعي يساعد الآن في تخفيض سعر الذكاء الاصطناعي.",
+        "لمن يبني منتجات، الخلاصة العملية بسيطة: إن كنت قد أجّلت مهمة ذكاء اصطناعي بحجم كبير لأن الأرقام لم تستقم، أعد حسابها الآن. تلخيص رسائل البريد، فرز الطلبات، مراجعة المحتوى — كل ذلك يحتاج ملايين استدعاءات الذكاء الاصطناعي شهرياً. بـ20 سنتاً لكل مليون توكن، **الأرقام تنجح الآن لمعظم هذه المهام**."
+      ],
+      "keyFacts": [
+        { "value": "80%", "label": "انخفاض سعر Luna في ثلاثة أسابيع" },
+        { "value": "$0.20", "label": "التكلفة الجديدة لـ Luna لكل مليون توكن مدخل" },
+        { "value": "46%", "label": "حصة النماذج الصينية من حركة الذكاء الاصطناعي للشركات على OpenRouter" },
+        { "value": "3 weeks", "label": "من إطلاق GPT-5.6 إلى أول تخفيض كبير للأسعار" }
+      ]
+    }
+  }
+}
