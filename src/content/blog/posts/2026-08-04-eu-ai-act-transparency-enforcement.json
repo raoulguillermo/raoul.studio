@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-04-eu-ai-act-transparency-enforcement",
+  "date": "2026-08-04",
+  "tags": ["ai", "regulation", "eu"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "European Commission — Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+    },
+    {
+      "title": "The AI Journal — EU AI Act Enforcement Expands on 2 August 2026: Are Your AI Systems Compliant?",
+      "url": "https://aijourn.com/eu-ai-act-enforcement-expands-on-2-august-2026-are-your-ai-systems-compliant/"
+    },
+    {
+      "title": "Informed Clearly — EU AI Act Goes Live: What August 2026 Enforcement Means for Global Tech",
+      "url": "https://informedclearly.com/en/ai/58459/eu-ai-act-enforcement-august-2026"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Every AI Chatbot Used in Europe Must Now Say It Is Not Human",
+      "summary": "Two days ago Europe started enforcing a rule that any AI system talking to people must disclose that it is AI — and the rule reaches any company whose product is used by EU customers, wherever that company is based.",
+      "body": [
+        "Two days ago, on August 2, a new rule switched on across Europe. Any AI chatbot or automated system that talks to people now has to say, clearly, that it is not a human. Videos, images, and audio made with AI have to carry a visible label. The content also needs a hidden, machine-readable mark so software can detect it later. **Europe just made AI disclosure the law.**",
+        "This is not just a European problem. The EU AI Act has extraterritorial reach — meaning **if any of your users are in the EU, the rule applies to you**, whether your company is in San Francisco, Shanghai, or Amsterdam. Over 180 organizations have already signed a Code of Practice on AI content transparency. The EU's AI Office and national authorities are now empowered to investigate, request documents, and impose fines.",
+        "The fines are serious. Companies that break the transparency rules face penalties of up to €15 million or 3% of their worldwide revenue, whichever is larger. For banned practices — like AI that manipulates people without their knowledge — the ceiling jumps to €35 million or 7% of global revenue. **Fewer than one in ten companies have even started listing their AI systems**, let alone checking if they comply.",
+        "If you are building anything with an AI chat interface — a support bot, a sales assistant, an onboarding tool — and any of your users might be in Europe, you need a disclosure. A clear 'You are talking to an AI' message at the start of a conversation is the baseline. AI-generated images, video, or audio shown to users need a visible label. **The time to build this in is now** — before an enforcement letter arrives."
+      ],
+      "keyFacts": [
+        { "value": "2 Aug 2026", "label": "EU AI Act transparency enforcement started" },
+        { "value": "180+", "label": "organizations signed the transparency code" },
+        { "value": "€35M or 7%", "label": "max fine for banned AI practices" },
+        { "value": "< 10%", "label": "firms that have inventoried their AI systems" }
+      ]
+    },
+    "de": {
+      "title": "Jeder KI-Chatbot in Europa muss sich jetzt als KI zu erkennen geben",
+      "summary": "Seit dem 2. August schreibt ein neues EU-Gesetz vor, dass jedes KI-System, das mit Menschen kommuniziert, offenlegen muss, dass es keine Person ist — und das gilt für jedes Unternehmen, dessen Produkt EU-Nutzer erreicht.",
+      "body": [
+        "Seit dem 2. August gilt in Europa eine neue Regel. Jeder KI-Chatbot oder jedes automatisierte System, das mit Menschen kommuniziert, muss klar angeben, dass es kein Mensch ist. Videos, Bilder und Audiodateien, die mit KI erstellt wurden, müssen sichtbar gekennzeichnet sein. Außerdem braucht der Inhalt eine versteckte, maschinenlesbare Markierung, damit Software ihn später erkennen kann. **Europa hat KI-Transparenz zum Gesetz gemacht.**",
+        "Das ist kein rein europäisches Problem. Das EU-KI-Gesetz gilt extraterritorial — das bedeutet: **Wenn auch nur ein einziger deiner Nutzer in der EU lebt, gilt die Regel für dich**, egal ob dein Unternehmen in San Francisco, Shanghai oder Amsterdam sitzt. Über 180 Organisationen haben bereits einen Verhaltenskodex zur Transparenz von KI-Inhalten unterzeichnet. Das KI-Büro der EU und die nationalen Behörden können nun ermitteln, Dokumente anfordern und Bußgelder verhängen.",
+        "Die Strafen sind ernst zu nehmen. Unternehmen, die gegen die Transparenzpflichten verstoßen, riskieren Bußgelder von bis zu 15 Millionen Euro oder 3 % ihres weltweiten Umsatzes — je nachdem, was höher ist. Bei verbotenen Praktiken — also KI, die Menschen ohne ihr Wissen manipuliert — steigt die Obergrenze auf 35 Millionen Euro oder 7 % des globalen Umsatzes. **Weniger als jedes zehnte Unternehmen hat überhaupt damit begonnen, seine KI-Systeme zu erfassen**, geschweige denn auf Konformität zu prüfen.",
+        "Wenn du ein Produkt mit einer KI-Chat-Oberfläche baust — einen Support-Bot, einen Verkaufsassistenten, ein Onboarding-Tool — und auch nur einige deiner Nutzer in Europa sein könnten, brauchst du eine klare Offenlegung. Eine einfache Meldung wie 'Sie sprechen mit einer KI' zu Beginn des Gesprächs ist das Minimum. KI-generierte Bilder, Videos oder Audiodateien, die Nutzern gezeigt werden, benötigen eine sichtbare Kennzeichnung. **Jetzt ist der richtige Zeitpunkt, das einzubauen** — bevor ein Durchsetzungsschreiben eintrifft."
+      ],
+      "keyFacts": [
+        { "value": "2 Aug 2026", "label": "Beginn der KI-Transparenz-Durchsetzung" },
+        { "value": "180+", "label": "Unterzeichner des Verhaltenskodex" },
+        { "value": "€35 Mio. oder 7%", "label": "Höchststrafe bei verbotenen KI-Praktiken" },
+        { "value": "< 10%", "label": "Unternehmen mit erfassten KI-Systemen" }
+      ]
+    },
+    "nl": {
+      "title": "Elke AI-chatbot in Europa moet nu zeggen dat hij geen mens is",
+      "summary": "Twee dagen geleden begon Europa met het handhaven van een regel die vereist dat elk AI-systeem dat met mensen praat, duidelijk maakt dat het AI is — en die regel geldt voor elk bedrijf waarvan het product door EU-gebruikers wordt gebruikt.",
+      "body": [
+        "Twee dagen geleden, op 2 augustus, trad in Europa een nieuwe regel in werking. Elke AI-chatbot of geautomatiseerd systeem dat met mensen praat, moet nu duidelijk zeggen dat het geen mens is. Video's, afbeeldingen en audio die met AI zijn gemaakt, moeten zichtbaar worden gelabeld. De inhoud heeft ook een verborgen, machineleesbaar merkteken nodig zodat software het later kan detecteren. **Europa heeft AI-transparantie de wet gemaakt.**",
+        "Dit is niet alleen een Europees probleem. De EU AI-wet heeft extraterritoriale werking — dat betekent: **als ook maar één van jouw gebruikers in de EU woont, geldt de regel voor jou**, of je bedrijf nu in San Francisco, Shanghai of Amsterdam zit. Meer dan 180 organisaties hebben al een gedragscode voor transparantie van AI-inhoud ondertekend. Het AI-kantoor van de EU en de nationale autoriteiten kunnen nu onderzoeken, documenten opvragen en boetes opleggen.",
+        "De boetes zijn serieus. Bedrijven die de transparantieregels overtreden, riskeren boetes tot €15 miljoen of 3% van hun wereldwijde omzet, wat het hoogst is. Voor verboden praktijken — AI die mensen onbewust manipuleert — loopt dat op tot €35 miljoen of 7% van de wereldwijde omzet. **Minder dan één op de tien bedrijven is zelfs begonnen met het inventariseren van hun AI-systemen**, laat staan het controleren op naleving.",
+        "Als je iets bouwt met een AI-chat-interface — een supportbot, een verkoophelper, een onboarding-tool — en sommige van je gebruikers bevinden zich mogelijk in Europa, heb je een melding nodig. Een duidelijk bericht zoals 'U praat met een AI' aan het begin van een gesprek is het minimum. Door AI gegenereerde afbeeldingen, video's of audio die aan gebruikers worden getoond, hebben een zichtbaar label nodig. **Nu is het moment om dit in te bouwen** — voordat er een handhavingsbrief arriveert."
+      ],
+      "keyFacts": [
+        { "value": "2 Aug 2026", "label": "start van EU AI-transparantiehandhaving" },
+        { "value": "180+", "label": "organisaties die de gedragscode ondertekenden" },
+        { "value": "€35M of 7%", "label": "maximale boete voor verboden AI-praktijken" },
+        { "value": "< 10%", "label": "bedrijven die hun AI-systemen hebben geïnventariseerd" }
+      ]
+    },
+    "es": {
+      "title": "Todo chatbot de IA en Europa debe decir ahora que no es humano",
+      "summary": "Hace dos días, Europa comenzó a aplicar una norma que obliga a cualquier sistema de IA que hable con personas a identificarse como tal — y la norma alcanza a cualquier empresa cuyo producto sea utilizado por clientes de la UE.",
+      "body": [
+        "Hace dos días, el 2 de agosto, entró en vigor en Europa una nueva norma. Cualquier chatbot de IA o sistema automatizado que hable con personas debe ahora indicar claramente que no es un humano. Los vídeos, imágenes y audios creados con IA deben llevar una etiqueta visible. El contenido también necesita una marca oculta y legible por máquina para que el software pueda detectarlo más adelante. **Europa acaba de convertir la transparencia de la IA en ley.**",
+        "Esto no es solo un problema europeo. La Ley de IA de la UE tiene alcance extraterritorial — lo que significa que **si alguno de tus usuarios está en la UE, la norma te aplica**, ya sea que tu empresa esté en San Francisco, Shanghái o Ámsterdam. Más de 180 organizaciones ya han firmado un Código de Buenas Prácticas sobre transparencia de contenidos generados por IA. La Oficina de IA de la UE y las autoridades nacionales ahora pueden investigar, solicitar documentos e imponer multas.",
+        "Las multas son serias. Las empresas que incumplan las reglas de transparencia se arriesgan a sanciones de hasta 15 millones de euros o el 3% de su facturación mundial, la cifra que sea mayor. Para prácticas prohibidas — IA que manipula a personas sin su conocimiento — el límite sube a 35 millones de euros o el 7% de los ingresos globales. **Menos de una de cada diez empresas ha empezado siquiera a inventariar sus sistemas de IA**, y mucho menos a verificar si cumplen la norma.",
+        "Si estás construyendo algo con una interfaz de chat de IA — un bot de soporte, un asistente de ventas, una herramienta de incorporación — y algunos de tus usuarios podrían estar en Europa, necesitas una declaración. Un mensaje claro del tipo 'Estás hablando con una IA' al inicio de la conversación es el mínimo. Las imágenes, vídeos o audios generados por IA que se muestren a los usuarios necesitan una etiqueta visible. **El momento de incorporar esto es ahora** — antes de que llegue una carta de cumplimiento."
+      ],
+      "keyFacts": [
+        { "value": "2 Aug 2026", "label": "inicio de la aplicación de la norma de transparencia" },
+        { "value": "180+", "label": "organizaciones que firmaron el código de conducta" },
+        { "value": "€35M o 7%", "label": "multa máxima por prácticas prohibidas" },
+        { "value": "< 10%", "label": "empresas que han inventariado sus sistemas de IA" }
+      ]
+    },
+    "fr": {
+      "title": "Tout chatbot IA en Europe doit désormais dire qu'il n'est pas humain",
+      "summary": "Il y a deux jours, l'Europe a commencé à appliquer une règle obligeant tout système IA qui parle à des personnes à se déclarer comme tel — et cette règle s'applique à toute entreprise dont le produit est utilisé par des clients européens.",
+      "body": [
+        "Il y a deux jours, le 2 août, une nouvelle règle est entrée en vigueur en Europe. Tout chatbot ou système automatisé qui interagit avec des personnes doit désormais indiquer clairement qu'il n'est pas un humain. Les vidéos, images et fichiers audio créés par une IA doivent être étiquetés de façon visible. Le contenu doit aussi comporter une marque cachée, lisible par machine, afin que des logiciels puissent le détecter ultérieurement. **L'Europe vient de rendre la transparence de l'IA obligatoire par la loi.**",
+        "Ce n'est pas seulement un problème européen. La loi européenne sur l'IA a une portée extraterritoriale — ce qui signifie que **si ne serait-ce qu'un seul de vos utilisateurs se trouve dans l'UE, la règle vous concerne**, que votre entreprise soit à San Francisco, Shanghai ou Amsterdam. Plus de 180 organisations ont déjà signé un Code de bonne pratique sur la transparence des contenus générés par IA. Le Bureau de l'IA de l'UE et les autorités nationales peuvent désormais enquêter, demander des documents et infliger des amendes.",
+        "Les sanctions sont sérieuses. Les entreprises qui enfreignent les règles de transparence risquent des amendes pouvant atteindre 15 millions d'euros ou 3 % de leur chiffre d'affaires mondial, selon le montant le plus élevé. Pour les pratiques interdites — une IA qui manipule des personnes à leur insu — le plafond monte à 35 millions d'euros ou 7 % du chiffre d'affaires mondial. **Moins d'une entreprise sur dix a même commencé à recenser ses systèmes d'IA**, sans parler de vérifier leur conformité.",
+        "Si vous construisez un produit avec une interface de chat IA — un bot de support, un assistant commercial, un outil d'intégration — et que certains de vos utilisateurs pourraient se trouver en Europe, vous avez besoin d'une divulgation. Un simple message du type « Vous parlez à une IA » au début de la conversation est le minimum. Les images, vidéos ou fichiers audio générés par IA montrés aux utilisateurs nécessitent une étiquette visible. **Le moment de l'intégrer, c'est maintenant** — avant de recevoir une lettre de mise en conformité."
+      ],
+      "keyFacts": [
+        { "value": "2 Aug 2026", "label": "début de l'application des règles de transparence" },
+        { "value": "180+", "label": "organisations signataires du code de conduite" },
+        { "value": "€35M ou 7%", "label": "amende maximale pour pratiques IA interdites" },
+        { "value": "< 10%", "label": "entreprises ayant inventorié leurs systèmes d'IA" }
+      ]
+    },
+    "ar": {
+      "title": "كل روبوت محادثة في أوروبا ملزم الآن بالإفصاح عن كونه ذكاءً اصطناعياً",
+      "summary": "قبل يومين، بدأت أوروبا بتطبيق قاعدة تُلزم أي نظام ذكاء اصطناعي يتحدث مع الناس بالإفصاح عن هويته — وتسري هذه القاعدة على أي شركة يصل منتجها إلى مستخدمين داخل الاتحاد الأوروبي.",
+      "body": [
+        "قبل يومين، في الثاني من أغسطس، دخلت قاعدة جديدة حيّز التنفيذ في أوروبا. أي روبوت محادثة أو نظام آلي يتحدث مع الناس يجب أن يُفصح بوضوح بأنه ليس إنساناً. مقاطع الفيديو والصور والتسجيلات الصوتية المُنتجة بالذكاء الاصطناعي يجب أن تحمل علامة مرئية. كما يجب أن يحتوي المحتوى على علامة مخفية قابلة للقراءة آلياً حتى تتمكن البرمجيات من الكشف عنها لاحقاً. **جعلت أوروبا الشفافية في الذكاء الاصطناعي قانوناً.**",
+        "هذه ليست مشكلة أوروبية حصراً. لقانون الذكاء الاصطناعي الأوروبي نطاق تطبيق يتجاوز حدوده — وهذا يعني أنه **إن كان أي من مستخدميك داخل الاتحاد الأوروبي، فالقانون يسري عليك**، سواء كانت شركتك في سان فرانسيسكو أو شنغهاي أو أمستردام. وقّعت أكثر من 180 منظمة على مدونة قواعد السلوك الخاصة بشفافية محتوى الذكاء الاصطناعي. ويملك مكتب الذكاء الاصطناعي الأوروبي والسلطات الوطنية الآن صلاحية التحقيق وطلب المستندات وفرض الغرامات.",
+        "الغرامات جدية. تواجه الشركات التي تنتهك قواعد الشفافية غرامات تصل إلى 15 مليون يورو أو 3% من إيراداتها العالمية، أيهما أعلى. أما الممارسات المحظورة — كالذكاء الاصطناعي الذي يتلاعب بالناس دون علمهم — فيرتفع السقف إلى 35 مليون يورو أو 7% من الإيرادات العالمية. **أقل من شركة واحدة من كل عشر بدأت حتى في جرد أنظمة الذكاء الاصطناعي لديها**، ناهيك عن التحقق من امتثالها.",
+        "إن كنت تبني منتجاً يحتوي على واجهة دردشة ذكاء اصطناعي — بوت دعم، مساعد مبيعات، أداة تأهيل — وقد يكون بعض مستخدميك في أوروبا، فأنت بحاجة إلى إفصاح واضح. رسالة بسيطة مثل 'أنت تتحدث إلى ذكاء اصطناعي' في بداية المحادثة هي الحد الأدنى. الصور ومقاطع الفيديو والتسجيلات الصوتية المُنتجة بالذكاء الاصطناعي التي تُعرض على المستخدمين تحتاج إلى علامة مرئية. **الوقت المناسب لتضمين ذلك هو الآن** — قبل أن يصلك خطاب تنفيذ."
+      ],
+      "keyFacts": [
+        { "value": "2 Aug 2026", "label": "تاريخ بدء تطبيق قواعد الشفافية" },
+        { "value": "180+", "label": "منظمة وقّعت على مدونة السلوك" },
+        { "value": "€35M أو 7%", "label": "أقصى غرامة على الممارسات المحظورة" },
+        { "value": "< 10%", "label": "شركات أجرت جرداً لأنظمة الذكاء الاصطناعي" }
+      ]
+    }
+  }
+}
