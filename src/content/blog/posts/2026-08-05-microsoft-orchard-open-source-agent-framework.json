@@ -1,0 +1,123 @@
+{
+  "slug": "2026-08-05-microsoft-orchard-open-source-agent-framework",
+  "date": "2026-08-05",
+  "tags": ["ai", "agents"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/Orchard-BlogHeroFeature-1400x788_NEW.jpg",
+    "alt": "Microsoft Orchard framework showing isolated training containers for AI agents across multiple task domains",
+    "credit": "Microsoft Research"
+  },
+  "sources": [
+    {
+      "title": "Microsoft Research — Orchard: An open framework for scalable agentic AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
+    },
+    {
+      "title": "InfoQ — Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+      "url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/"
+    },
+    {
+      "title": "EdTech Innovation Hub — Microsoft Research releases Orchard framework for scalable AI agent training",
+      "url": "https://www.edtechinnovationhub.com/news/microsoft-research-releases-orchard-framework-for-scalable-ai-agent-training"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Why most of your AI agent code isn't actually AI",
+      "summary": "Microsoft just open-sourced the scaffolding that every AI agent team rebuilds from scratch — and its models already rival systems ten times larger.",
+      "body": [
+        "On August 3, Microsoft Research released Orchard, an open-source framework for training and running AI agents — software that can take actions on its own, like writing code or browsing the web, rather than just answering questions. Almost every team that has tried to build one hits the same wall: **the hardest part isn't the AI itself**.",
+        "One analysis of production agent code found that around **98 percent is infrastructure** — tool permissions, memory management, error handling, and recovery logic — not the actual decision-making AI. On top of that, most teams trained their agents in simplified test environments that looked nothing like the real tools those agents would use in production. When deployed, they underperformed.",
+        "Orchard removes both obstacles. It provides the infrastructure layer ready-made and lets agents train directly inside real-world tools — code editors, web browsers, personal-assistant apps — so what they learn in training actually holds up in the real world. Early results are strong: the Orchard-SWE model scored 69.7 percent on SWE-bench Verified, a tough software-engineering benchmark, **with roughly 3 billion parameters, rivaling systems ten times larger**.",
+        "For any team building agents — to automate workflows, handle customer requests, or power a coding assistant — Orchard removes the need to write that infrastructure from scratch. It is open source and on GitHub today. **Stop rebuilding the scaffolding; Orchard already did it.**"
+      ],
+      "keyFacts": [
+        { "value": "98.4%", "label": "of typical agent code that is infrastructure, not AI logic" },
+        { "value": "69.7%", "label": "SWE-bench Verified score for Orchard-SWE" },
+        { "value": "68.4%", "label": "average web task success for Orchard-GUI" },
+        { "value": "~3B", "label": "parameters, rivaling agent systems ten times larger" }
+      ]
+    },
+    "de": {
+      "title": "Warum der größte Teil deines KI-Agenten-Codes keine KI ist",
+      "summary": "Microsoft hat das Gerüst, das jedes Agenten-Team von Grund auf neu baut, als Open Source veröffentlicht — und die Modelle übertreffen bereits Systeme, die zehnmal größer sind.",
+      "body": [
+        "Am 3. August veröffentlichte Microsoft Research Orchard, ein Open-Source-Framework zum Trainieren und Betreiben von KI-Agenten — Software, die selbstständig handeln kann, wie Code schreiben oder im Web surfen, statt nur Fragen zu beantworten. Fast jedes Team, das so etwas gebaut hat, stößt auf dieselbe Hürde: **Der schwierigste Teil ist nicht die KI selbst.**",
+        "Eine Analyse echter Agentensysteme ergab, dass rund **98 Prozent des Codes aus Infrastruktur besteht** — Tool-Berechtigungen, Speicherverwaltung, Fehlerbehandlung und Wiederherstellungslogik — und nicht aus der eigentlichen Entscheidungslogik. Dazu kam ein weiteres Problem: Die meisten Teams trainierten ihre Agenten in vereinfachten Testumgebungen, die den echten Tools in der Praxis in nichts ähnelten. Das führte zu schwächerer Leistung im echten Einsatz.",
+        "Orchard löst beide Probleme. Es stellt die Infrastrukturschicht fertig bereit und lässt Agenten direkt in echten Werkzeugen trainieren — Code-Editoren, Webbrowser, Assistenz-Apps — damit das Gelernte in der Praxis tatsächlich gilt. Frühe Ergebnisse sind überzeugend: Das Orchard-SWE-Modell erzielte 69,7 Prozent auf SWE-bench Verified, einem anspruchsvollen Software-Engineering-Test, **mit rund 3 Milliarden Parametern — ebenbürtig mit Systemen, die zehnmal größer sind**.",
+        "Für jedes Team, das Agenten entwickelt — zur Automatisierung von Abläufen, zur Bearbeitung von Kundenanfragen oder als Coding-Assistent — nimmt Orchard die Notwendigkeit weg, diese Infrastruktur selbst zu schreiben. Es ist Open Source und heute auf GitHub verfügbar. **Hör auf, das Gerüst neu zu bauen — Orchard hat es bereits getan.**"
+      ],
+      "keyFacts": [
+        { "value": "98.4%", "label": "des typischen Agenten-Codes, der Infrastruktur ist, keine KI-Logik" },
+        { "value": "69.7%", "label": "SWE-bench-Verified-Score für Orchard-SWE" },
+        { "value": "68.4%", "label": "Erfolgsquote bei Web-Aufgaben für Orchard-GUI" },
+        { "value": "~3B", "label": "Parameter — ebenbürtig mit Systemen, die zehnmal größer sind" }
+      ]
+    },
+    "nl": {
+      "title": "Waarom het grootste deel van je AI-agent-code geen AI is",
+      "summary": "Microsoft heeft het raamwerk dat elk agentteam opnieuw bouwt als open source gepubliceerd — en de modellen evenaren al systemen die tien keer zo groot zijn.",
+      "body": [
+        "Op 3 augustus publiceerde Microsoft Research Orchard, een open-source framework om AI-agenten te trainen en te draaien — software die zelfstandig acties kan ondernemen, zoals code schrijven of op het web surfen, in plaats van alleen vragen te beantwoorden. Bijna elk team dat zoiets heeft gebouwd, stuit op dezelfde muur: **het moeilijkste deel is niet de AI zelf**.",
+        "Een analyse van echte productie-agentsystemen liet zien dat zo'n **98 procent van de code infrastructuur is** — toolpermissies, geheugenbeheer, foutafhandeling en herstellogica — niet de eigenlijke beslissingslogica. Daar bovenop trainden de meeste teams hun agenten in vereenvoudigde testomgevingen die in niets leken op de echte tools die in productie worden gebruikt. Bij de echte inzet viel de prestatie dan ook tegen.",
+        "Orchard lost beide problemen op. Het biedt de infrastructuurlaag kant-en-klaar aan en laat agenten trainen direct in echte omgevingen — code-editors, webbrowsers, persoonlijke-assistent-apps — zodat wat ze leren ook in de praktijk standhoudt. De vroege resultaten zijn sterk: het Orchard-SWE-model scoorde 69,7 procent op SWE-bench Verified, een zwaar software-engineering-benchmark, **met zo'n 3 miljard parameters, vergelijkbaar met systemen tien keer zo groot**.",
+        "Voor elk team dat agenten bouwt — voor workflowautomatisering, klantvragen of een codeerassistent — neemt Orchard de noodzaak weg om die infrastructuur zelf te schrijven. Het is open source en vandaag beschikbaar op GitHub. **Stop met het opnieuw bouwen van het raamwerk; Orchard heeft dat al gedaan.**"
+      ],
+      "keyFacts": [
+        { "value": "98.4%", "label": "van typische agentcode die infrastructuur is, geen AI-logica" },
+        { "value": "69.7%", "label": "SWE-bench Verified-score voor Orchard-SWE" },
+        { "value": "68.4%", "label": "gemiddeld succespercentage voor webtaken van Orchard-GUI" },
+        { "value": "~3B", "label": "parameters, vergelijkbaar met systemen tien keer zo groot" }
+      ]
+    },
+    "es": {
+      "title": "Por qué la mayor parte del código de tu agente de IA no es IA",
+      "summary": "Microsoft acaba de publicar como código abierto el andamiaje que cada equipo de agentes reconstruye desde cero — y sus modelos ya rivalizan con sistemas diez veces más grandes.",
+      "body": [
+        "El 3 de agosto, Microsoft Research publicó Orchard, un framework de código abierto para entrenar y ejecutar agentes de IA — software que puede tomar acciones por sí solo, como escribir código o navegar por la web, en lugar de simplemente responder preguntas. Casi todos los equipos que han intentado construir uno se topan con la misma pared: **la parte más difícil no es la IA en sí**.",
+        "Un análisis de sistemas de agentes en producción real encontró que alrededor del **98 por ciento del código es infraestructura** — permisos de herramientas, gestión de memoria, manejo de errores y lógica de recuperación — no la toma de decisiones. Además, la mayoría de los equipos entrenaban sus agentes en entornos de prueba simplificados que no se parecían en nada a las herramientas reales de producción. Al desplegarse, el rendimiento caía.",
+        "Orchard elimina ambos obstáculos. Proporciona la capa de infraestructura ya hecha y permite que los agentes entrenen directamente dentro de herramientas reales — editores de código, navegadores web, apps de asistente personal — para que lo que aprenden en entrenamiento se sostenga en el mundo real. Los resultados iniciales son sólidos: el modelo Orchard-SWE alcanzó un 69,7% en SWE-bench Verified, un exigente benchmark de ingeniería de software, **con aproximadamente 3 000 millones de parámetros, rivalizando con sistemas diez veces más grandes**.",
+        "Para cualquier equipo que construya agentes — para automatizar flujos de trabajo, atender solicitudes de clientes o impulsar un asistente de código — Orchard elimina la necesidad de escribir esa infraestructura desde cero. Es de código abierto y está disponible hoy en GitHub. **Deja de reconstruir los cimientos; Orchard ya lo hizo.**"
+      ],
+      "keyFacts": [
+        { "value": "98.4%", "label": "del código típico de agentes que es infraestructura, no lógica de IA" },
+        { "value": "69.7%", "label": "puntuación en SWE-bench Verified para Orchard-SWE" },
+        { "value": "68.4%", "label": "tasa media de éxito en tareas web para Orchard-GUI" },
+        { "value": "~3B", "label": "parámetros, rivaliza con sistemas diez veces más grandes" }
+      ]
+    },
+    "fr": {
+      "title": "Pourquoi la majeure partie de votre code d'agent IA n'est pas de l'IA",
+      "summary": "Microsoft vient de publier en open source le socle que chaque équipe d'agents reconstruit de zéro — et ses modèles rivalisent déjà avec des systèmes dix fois plus grands.",
+      "body": [
+        "Le 3 août, Microsoft Research a publié Orchard, un framework open source pour entraîner et déployer des agents IA — des logiciels capables d'agir par eux-mêmes, comme écrire du code ou naviguer sur le web, plutôt que simplement répondre à des questions. Presque toutes les équipes qui ont tenté d'en construire un se heurtent au même obstacle : **la partie la plus difficile n'est pas l'IA elle-même**.",
+        "Une analyse de systèmes d'agents en production réelle a révélé qu'environ **98 % du code est de l'infrastructure** — permissions des outils, gestion de la mémoire, traitement des erreurs et logique de récupération — pas la prise de décision. Par ailleurs, la plupart des équipes entraînaient leurs agents dans des environnements de test simplifiés qui ne ressemblaient pas aux vrais outils de production. Une fois déployés, les performances étaient décevantes.",
+        "Orchard supprime ces deux obstacles. Il fournit la couche d'infrastructure prête à l'emploi et permet aux agents de s'entraîner directement dans des outils réels — éditeurs de code, navigateurs web, applications d'assistant personnel — pour que ce qu'ils apprennent en entraînement tienne vraiment en production. Les premiers résultats sont solides : le modèle Orchard-SWE a atteint 69,7 % sur SWE-bench Verified, un benchmark difficile de génie logiciel, **avec environ 3 milliards de paramètres, rivalisant avec des systèmes dix fois plus grands**.",
+        "Pour toute équipe qui construit des agents — pour automatiser des flux de travail, traiter des demandes clients ou alimenter un assistant de code — Orchard supprime la nécessité d'écrire cette infrastructure de zéro. Il est open source et disponible dès aujourd'hui sur GitHub. **Arrêtez de reconstruire les fondations ; Orchard l'a déjà fait.**"
+      ],
+      "keyFacts": [
+        { "value": "98.4%", "label": "du code d'agent typique qui est de l'infrastructure, pas de la logique IA" },
+        { "value": "69.7%", "label": "score SWE-bench Verified pour Orchard-SWE" },
+        { "value": "68.4%", "label": "taux de réussite moyen sur les tâches web pour Orchard-GUI" },
+        { "value": "~3B", "label": "paramètres, rivalisant avec des systèmes dix fois plus grands" }
+      ]
+    },
+    "ar": {
+      "title": "لماذا معظم كود وكيل الذكاء الاصطناعي لديك ليس ذكاءً اصطناعياً في الحقيقة",
+      "summary": "أصدرت Microsoft مفتوح المصدر الأساسيات التي يعيد كل فريق بناءها من الصفر — ونماذجها تُنافس بالفعل أنظمة أضخم بعشرة أضعاف.",
+      "body": [
+        "في 3 أغسطس، أصدرت مختبرات أبحاث Microsoft نظام Orchard، إطار عمل مفتوح المصدر لتدريب وكلاء الذكاء الاصطناعي وتشغيلها — برامج قادرة على اتخاذ إجراءات بمفردها، ككتابة الكود أو تصفح الإنترنت، بدلاً من مجرد الإجابة على الأسئلة. تصطدم كل الفرق التي تحاول بناء شيء كهذا بالعقبة ذاتها: **الجزء الأصعب ليس الذكاء الاصطناعي نفسه**.",
+        "كشف تحليل لأنظمة وكلاء حقيقية في الإنتاج أن نحو **98 بالمئة من الكود هو بنية تحتية** — أذونات الأدوات، وإدارة الذاكرة، ومعالجة الأخطاء، ومنطق الاسترداد — لا منطق اتخاذ القرار. فوق ذلك، اعتادت معظم الفرق تدريب وكلائها في بيئات اختبار مبسّطة لا تشبه الأدوات الحقيقية في الإنتاج. وعند النشر الفعلي، كانت النتائج دون المستوى.",
+        "يزيل Orchard كلا العقبتين. يوفّر طبقة البنية التحتية جاهزة، ويتيح للوكلاء التدريب مباشرةً داخل أدوات حقيقية — محررات الكود، ومتصفحات الإنترنت، وتطبيقات المساعد الشخصي — حتى يصمد ما يتعلمونه في الواقع. النتائج الأولى قوية: حقق نموذج Orchard-SWE نسبة 69.7% على اختبار SWE-bench Verified الصعب في هندسة البرمجيات، **بنحو 3 مليارات معامل فقط، مُنافساً أنظمة أضخم بعشرة أضعاف**.",
+        "لأي فريق يبني وكلاء — لأتمتة سير العمل، أو معالجة طلبات العملاء، أو تشغيل مساعد برمجة — يزيل Orchard الحاجة إلى كتابة تلك البنية التحتية من الصفر. وهو مفتوح المصدر ومتاح اليوم على GitHub. **توقف عن إعادة بناء الأساسيات؛ Orchard فعل ذلك بالفعل.**"
+      ],
+      "keyFacts": [
+        { "value": "98.4%", "label": "من كود الوكيل النموذجي الذي هو بنية تحتية لا منطق ذكاء اصطناعي" },
+        { "value": "69.7%", "label": "نتيجة SWE-bench Verified لنموذج Orchard-SWE" },
+        { "value": "68.4%", "label": "متوسط نجاح مهام الإنترنت لنموذج Orchard-GUI" },
+        { "value": "~3B", "label": "معاملات تُنافس أنظمة أضخم بعشرة أضعاف" }
+      ]
+    }
+  }
+}
