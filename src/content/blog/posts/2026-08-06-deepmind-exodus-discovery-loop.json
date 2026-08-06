@@ -1,0 +1,114 @@
+{
+  "slug": "2026-08-06-deepmind-exodus-discovery-loop",
+  "date": "2026-08-06",
+  "tags": ["ai", "research", "startups"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/08/jeff-dean-leaves-google-discovery-loop.png",
+    "alt": "Jeff Dean and the Discovery Loop founding team",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    { "title": "Fortune — Demis Hassabis steps down from Google DeepMind CEO role amid a major AI leadership shake-up", "url": "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" },
+    { "title": "The Next Web — Google DeepMind shakeup: Gemini co-leads quit for a startup", "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop" },
+    { "title": "Unite.AI — Jeff Dean Leaves Google to Automate the Scientific Method With Discovery Loop", "url": "https://www.unite.ai/jeff-dean-leaves-google-to-automate-the-scientific-method-with-discovery-loop/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "The architects of Google's AI just quit to automate all of science",
+      "summary": "Four of Google's most senior AI researchers left to found Discovery Loop, a startup betting that AI can run scientific experiments on its own — and where those researchers place their careers tells you where AI is really heading.",
+      "body": [
+        "On August 5, Google confirmed that four of its most important AI researchers are leaving. Jeff Dean, who spent **27 years at Google** and helped build everything from Search infrastructure to Gemini, is co-founding a new startup called Discovery Loop. He's joined by Sanjay Ghemawat, Oriol Vinyals, and Quoc Le — all senior architects of the systems that made Google's AI what it is today.",
+        "Discovery Loop's goal is to automate science itself. The idea is simple: scientific progress is slow not because researchers lack skill, but because there aren't enough of them to run enough experiments fast enough. If an AI can design, run, and learn from experiments on its own, **discovery could move dramatically faster**. The company is starting with machine-learning research, then plans to tackle drug discovery, chip design, and clean energy.",
+        "The funding backing Discovery Loop is serious. Radical Ventures and Khosla Ventures co-led the round, joined by Lightspeed, Kleiner Perkins, and Alphabet itself — which also gives the new company a year of free cloud computing. **Alphabet's stock fell about 5%** on the day of the announcement, to $362.31, a sign that markets saw these departures as a real loss, not a routine reshuffle.",
+        "The clearest takeaway for founders and builders: the people with the deepest knowledge of modern AI are betting their next decade on autonomous scientific research, not on better chatbots. **The race to automate discovery has begun.** Whether that delivers breakthroughs in medicine, energy, or AI itself, the researchers who know these systems best think it is the most important problem to work on right now."
+      ],
+      "keyFacts": [
+        { "value": "27", "label": "years Jeff Dean spent at Google" },
+        { "value": "4", "label": "senior AI researchers who left at once" },
+        { "value": "~5%", "label": "drop in Alphabet's share price on the news" },
+        { "value": "Radical Ventures & Khosla Ventures", "label": "Discovery Loop's lead investors" }
+      ]
+    },
+    "de": {
+      "title": "Die Architekten von Googles KI haben gekündigt — um die gesamte Wissenschaft zu automatisieren",
+      "summary": "Vier der bedeutendsten KI-Forscher von Google haben das Unternehmen verlassen, um Discovery Loop zu gründen — ein Startup, das darauf wettet, dass KI wissenschaftliche Experimente selbst durchführen kann. Wohin sie ihre Karriere setzen, zeigt, wohin KI wirklich steuert.",
+      "body": [
+        "Am 5. August bestätigte Google, dass vier seiner wichtigsten KI-Forscher das Unternehmen verlassen. Jeff Dean, der **27 Jahre bei Google** verbrachte und am Aufbau von allem mitwirkte — von der Such-Infrastruktur bis hin zu Gemini —, ist Mitgründer eines neuen Startups namens Discovery Loop. Mit dabei sind Sanjay Ghemawat, Oriol Vinyals und Quoc Le — allesamt leitende Architekten der Systeme, die Googles KI ausmachen.",
+        "Das Ziel von Discovery Loop: die Wissenschaft selbst automatisieren. Die Idee ist einfach — wissenschaftlicher Fortschritt ist nicht deshalb langsam, weil Forschern die Fähigkeit fehlt, sondern weil es nicht genug von ihnen gibt, um genug Experimente schnell genug durchzuführen. Wenn eine KI Experimente eigenständig entwerfen, ausführen und daraus lernen kann, **könnte die Forschung dramatisch schneller werden**. Das Unternehmen beginnt mit maschinellem Lernen und will sich dann der Medikamentenentwicklung, dem Chip-Design und der sauberen Energie widmen.",
+        "Die Finanzierung ist beachtlich. Radical Ventures und Khosla Ventures führten die Runde gemeinsam an, begleitet von Lightspeed, Kleiner Perkins und Alphabet selbst — das dem Startup zudem ein Jahr lang kostenloses Cloud-Computing zur Verfügung stellt. **Die Alphabet-Aktie fiel am Tag der Ankündigung um rund 5 %** auf 362,31 Dollar — ein Zeichen dafür, dass die Märkte diesen Abgang als echten Verlust werteten, nicht als routinemäßige Umstrukturierung.",
+        "Die wichtigste Erkenntnis für Gründer und Entwickler: Die Menschen mit dem tiefsten Wissen über moderne KI setzen ihr nächstes Jahrzehnt auf autonome wissenschaftliche Forschung — nicht auf bessere Chatbots. **Das Rennen um die Automatisierung von Entdeckungen hat begonnen.** Ob das Durchbrüche in Medizin, Energie oder KI selbst bringt — die Forscher, die diese Systeme am besten kennen, halten es für das wichtigste Problem, das es jetzt zu lösen gilt."
+      ],
+      "keyFacts": [
+        { "value": "27", "label": "Jahre, die Jeff Dean bei Google verbrachte" },
+        { "value": "4", "label": "leitende KI-Forscher, die auf einmal gingen" },
+        { "value": "~5%", "label": "Rückgang des Alphabet-Aktienkurses" },
+        { "value": "Radical Ventures & Khosla Ventures", "label": "Hauptinvestoren von Discovery Loop" }
+      ]
+    },
+    "nl": {
+      "title": "De bouwers van Googles AI stapten op — om de hele wetenschap te automatiseren",
+      "summary": "Vier van Googles meest senior AI-onderzoekers vertrokken om Discovery Loop op te richten, een startup die erop wedt dat AI zelf wetenschappelijke experimenten kan uitvoeren — en waar zij hun carrière op inzetten, vertelt je waar AI werkelijk naartoe gaat.",
+      "body": [
+        "Op 5 augustus bevestigde Google dat vier van zijn meest invloedrijke AI-onderzoekers vertrekken. Jeff Dean, die **27 jaar bij Google** werkte en meehielp alles te bouwen — van de zoekinfrastructuur tot Gemini —, richt samen met anderen Discovery Loop op. Hij wordt vergezeld door Sanjay Ghemawat, Oriol Vinyals en Quoc Le — stuk voor stuk hoofdarchitecten van de systemen die Googles AI groot maakten.",
+        "Het doel van Discovery Loop is de wetenschap zelf automatiseren. De gedachte is simpel: wetenschappelijke vooruitgang is niet traag omdat onderzoekers tekortschieten, maar omdat er simpelweg niet genoeg van hen zijn om snel genoeg voldoende experimenten uit te voeren. Als een AI experimenten zelf kan ontwerpen, uitvoeren en ervan leren, **kan wetenschap dramatisch sneller gaan**. Het bedrijf begint met onderzoek naar machine learning en wil daarna geneesmiddelenontdekking, chipdesign en schone energie aanpakken.",
+        "De financiering achter Discovery Loop is indrukwekkend. Radical Ventures en Khosla Ventures leidden de ronde samen, met deelname van Lightspeed, Kleiner Perkins en Alphabet zelf — dat de startup ook een jaar gratis cloudcomputing geeft. **Het Alphabet-aandeel daalde op de dag van de aankondiging met ongeveer 5%** naar $362,31 — een signaal dat de markten dit vertrek zagen als een echte klap, geen gewone reorganisatie.",
+        "De duidelijkste les voor oprichters en bouwers: de mensen met de diepste kennis van moderne AI zetten hun volgende decennium in op autonome wetenschappelijke research, niet op betere chatbots. **De race om ontdekkingen te automatiseren is begonnen.** Of dat nu doorbraken oplevert in geneeskunde, energie of de AI zelf — de onderzoekers die deze systemen het best kennen, vinden dit nu het belangrijkste probleem om aan te werken."
+      ],
+      "keyFacts": [
+        { "value": "27", "label": "jaar dat Jeff Dean bij Google werkte" },
+        { "value": "4", "label": "senior AI-onderzoekers die tegelijk vertrokken" },
+        { "value": "~5%", "label": "daling van de Alphabet-beurskoers" },
+        { "value": "Radical Ventures & Khosla Ventures", "label": "hoofdinvesteerders in Discovery Loop" }
+      ]
+    },
+    "es": {
+      "title": "Los arquitectos de la IA de Google renunciaron para automatizar toda la ciencia",
+      "summary": "Cuatro de los investigadores de IA más importantes de Google se fueron para fundar Discovery Loop, una startup que apuesta a que la IA pueda conducir sus propios experimentos científicos — y dónde ponen su carrera esos investigadores te dice hacia dónde va realmente la IA.",
+      "body": [
+        "El 5 de agosto, Google confirmó que cuatro de sus investigadores de IA más influyentes se van de la empresa. Jeff Dean, que pasó **27 años en Google** y ayudó a construir de todo — desde la infraestructura de búsqueda hasta Gemini —, cofunda una nueva startup llamada Discovery Loop. Le acompañan Sanjay Ghemawat, Oriol Vinyals y Quoc Le, todos arquitectos clave de los sistemas que hicieron grande la IA de Google.",
+        "El objetivo de Discovery Loop es automatizar la ciencia misma. La idea es sencilla: el avance científico no es lento porque los investigadores carezcan de habilidad, sino porque no hay suficientes para ejecutar suficientes experimentos con rapidez. Si una IA puede diseñar, ejecutar y aprender de experimentos por sí sola, **el ritmo de los descubrimientos podría acelerarse enormemente**. La empresa empieza con investigación en aprendizaje automático y planea abordar después el descubrimiento de fármacos, el diseño de chips y la energía limpia.",
+        "El respaldo financiero es contundente. Radical Ventures y Khosla Ventures co-lideraron la ronda, acompañados de Lightspeed, Kleiner Perkins y el propio Alphabet, que además ofrece a la startup un año de computación en la nube gratuita. **La acción de Alphabet cayó alrededor de un 5%** el día del anuncio, hasta los 362,31 dólares — una señal de que los mercados vieron estas salidas como una pérdida real, no como una reorganización rutinaria.",
+        "La conclusión más clara para fundadores y desarrolladores: las personas que más saben sobre la IA moderna están apostando su próxima década a la investigación científica autónoma, no a mejores chatbots. **La carrera por automatizar los descubrimientos ha comenzado.** Ya sea en medicina, energía o la propia IA, los investigadores que mejor conocen estos sistemas creen que este es el problema más importante a resolver ahora."
+      ],
+      "keyFacts": [
+        { "value": "27", "label": "años de Jeff Dean en Google" },
+        { "value": "4", "label": "investigadores senior de IA que se fueron a la vez" },
+        { "value": "~5%", "label": "caída en el precio de la acción de Alphabet" },
+        { "value": "Radical Ventures & Khosla Ventures", "label": "inversores líderes de Discovery Loop" }
+      ]
+    },
+    "fr": {
+      "title": "Les architectes de l'IA de Google ont démissionné pour automatiser toute la science",
+      "summary": "Quatre des chercheurs en IA les plus importants de Google sont partis fonder Discovery Loop, une startup qui parie que l'IA peut conduire elle-même des expériences scientifiques — et là où ils misent leur carrière indique clairement où va vraiment l'IA.",
+      "body": [
+        "Le 5 août, Google a confirmé le départ de quatre de ses chercheurs en IA les plus influents. Jeff Dean, qui a passé **27 ans chez Google** et participé à la construction de tout — de l'infrastructure de recherche à Gemini —, cofonde un nouveau startup appelé Discovery Loop. Il est accompagné de Sanjay Ghemawat, Oriol Vinyals et Quoc Le, tous architectes principaux des systèmes qui ont fait la force de l'IA de Google.",
+        "L'objectif de Discovery Loop : automatiser la science elle-même. L'idée est simple — le progrès scientifique n'est pas lent parce que les chercheurs manquent de talent, mais parce qu'il n'y en a pas assez pour mener suffisamment d'expériences assez vite. Si une IA peut concevoir, exécuter et tirer des leçons d'expériences de manière autonome, **la découverte scientifique pourrait s'accélérer considérablement**. L'entreprise commence par la recherche en apprentissage automatique, avant de s'attaquer à la découverte de médicaments, à la conception de puces et à l'énergie propre.",
+        "Le financement est à la hauteur. Radical Ventures et Khosla Ventures ont co-mené le tour de table, rejoints par Lightspeed, Kleiner Perkins et Alphabet lui-même — qui offre en plus à la startup un an de cloud computing gratuit. **L'action Alphabet a chuté d'environ 5%** le jour de l'annonce, à 362,31 dollars — signe que les marchés ont perçu ces départs comme une perte réelle, et non comme une simple réorganisation.",
+        "La leçon la plus claire pour les fondateurs et les développeurs : les personnes qui connaissent le mieux l'IA moderne misent leur prochaine décennie sur la recherche scientifique autonome — pas sur de meilleurs chatbots. **La course à l'automatisation de la découverte a commencé.** Que cela se traduise par des avancées en médecine, en énergie ou dans l'IA elle-même, les chercheurs qui maîtrisent le mieux ces systèmes estiment que c'est le problème le plus important à résoudre maintenant."
+      ],
+      "keyFacts": [
+        { "value": "27", "label": "années de Jeff Dean chez Google" },
+        { "value": "4", "label": "chercheurs IA seniors partis en même temps" },
+        { "value": "~5%", "label": "chute du cours de l'action Alphabet" },
+        { "value": "Radical Ventures & Khosla Ventures", "label": "investisseurs principaux de Discovery Loop" }
+      ]
+    },
+    "ar": {
+      "title": "مهندسو الذكاء الاصطناعي في Google استقالوا لأتمتة العلوم بأسرها",
+      "summary": "غادر أربعة من أبرز باحثي الذكاء الاصطناعي في Google لتأسيس Discovery Loop، شركة ناشئة تراهن على قدرة الذكاء الاصطناعي على إجراء التجارب العلمية بنفسه — وأين يضع هؤلاء الباحثون مسيرتهم المهنية يخبرك أين يتجه الذكاء الاصطناعي فعلاً.",
+      "body": [
+        "في الخامس من أغسطس، أكّدت Google مغادرة أربعة من أبرز باحثيها في مجال الذكاء الاصطناعي. جيف دين، الذي أمضى **27 عاماً في Google** وساهم في بناء كل شيء — من البنية التحتية للبحث إلى Gemini —، يشارك في تأسيس شركة ناشئة جديدة اسمها Discovery Loop. وينضم إليه سانجاي غيماوات وأوريول فينيالز وكووك لي — وهم مهندسون رئيسيون في الأنظمة التي جعلت ذكاء Google الاصطناعي ما هو عليه اليوم.",
+        "هدف Discovery Loop هو أتمتة العلوم ذاتها. الفكرة بسيطة: التقدم العلمي ليس بطيئاً لأن الباحثين يفتقرون إلى المهارة، بل لأنه لا يوجد منهم ما يكفي لإجراء ما يكفي من التجارب بالسرعة الكافية. إذا استطاع الذكاء الاصطناعي تصميم التجارب وتنفيذها والتعلم منها باستقلالية، **فقد يتسارع إيقاع الاكتشاف العلمي بشكل كبير**. ستبدأ الشركة بالبحث في تعلّم الآلة، ثم تخطط للتوجه نحو اكتشاف الأدوية وتصميم الرقائق والطاقة النظيفة.",
+        "التمويل الداعم لـ Discovery Loop ضخم. قادت Radical Ventures وKhosla Ventures جولة التمويل معاً، بمشاركة Lightspeed وKleiner Perkins وAlphabet نفسها — التي توفّر للشركة الناشئة أيضاً عاماً من الحوسبة السحابية المجانية. **انخفض سهم Alphabet بحوالي 5%** يوم الإعلان إلى 362.31 دولاراً — مما يدل على أن الأسواق رأت في هذه المغادرات خسارة حقيقية، لا مجرد إعادة هيكلة روتينية.",
+        "أوضح استنتاج للمؤسسين والمطورين: الأشخاص الأكثر دراية بالذكاء الاصطناعي الحديث يراهنون بعقدهم القادم على البحث العلمي المستقل — لا على مساعدين محادثة أفضل. **سباق أتمتة الاكتشاف قد بدأ.** سواء أفضى ذلك إلى اختراقات في الطب أو الطاقة أو الذكاء الاصطناعي نفسه، فإن الباحثين الأكثر فهماً لهذه الأنظمة يرون أن هذه هي أهم مشكلة يجب العمل على حلها الآن."
+      ],
+      "keyFacts": [
+        { "value": "27", "label": "عاماً قضاها جيف دين في Google" },
+        { "value": "4", "label": "باحثون كبار في الذكاء الاصطناعي غادروا دفعة واحدة" },
+        { "value": "~5%", "label": "انخفاض سعر سهم Alphabet" },
+        { "value": "Radical Ventures & Khosla Ventures", "label": "المستثمرون الرئيسيون في Discovery Loop" }
+      ]
+    }
+  }
+}
