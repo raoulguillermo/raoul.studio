@@ -1,0 +1,119 @@
+{
+  "slug": "2026-08-07-unitree-humanoid-robot-ipo",
+  "date": "2026-08-07",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/08/deepseek-buys-into-unitrees-shanghai-ipo-in-humanoid-ai-pact.png",
+    "alt": "Unitree humanoid robot and DeepSeek AI partnership",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    {
+      "title": "Unite.AI — DeepSeek Buys Into Unitree's Shanghai IPO in Humanoid AI Pact",
+      "url": "https://www.unite.ai/deepseek-buys-into-unitrees-shanghai-ipo-in-humanoid-ai-pact/"
+    },
+    {
+      "title": "Caixin Global — Unitree Robotics Prices Shanghai IPO at 61 Billion Yuan Valuation",
+      "url": "https://www.caixinglobal.com/2026-08-07/unitree-robotics-prices-shanghai-ipo-at-61-billion-yuan-valuation-102472090.html"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Humanoid Robots Just Got a Public Price Tag",
+      "summary": "Unitree, a Chinese robotics company, just became the first mainland Chinese humanoid robot maker to go public — and its numbers show this is already a real, profitable business, not a science project.",
+      "body": [
+        "A Chinese robotics company called Unitree just listed on the Shanghai stock exchange. Its main product is humanoid robots — machines that walk on two legs, use their hands, and respond to spoken instructions. This is not just another tech listing. **Unitree is the first mainland Chinese humanoid robot IPO** — meaning it now has a daily share price, public accounts, and shareholders to answer to. The technology has crossed a line.",
+        "The numbers say investors believe this is real. Unitree priced its shares at 150.8 yuan each, giving the company a $9 billion valuation. The institutional tranche was oversubscribed 2,600 times — investors offered to buy far more than was available. The company is already profitable: 591 million yuan in net profit last year on 1.7 billion yuan of revenue. **Gross margins above 60%** — the kind usually seen in software companies, not in makers of physical hardware.",
+        "Who else joined is as interesting as the listing itself. DeepSeek, the Chinese AI lab that surprised the world with its lean and efficient models, invested $20 million and signed a deal to jointly build AI specifically for Unitree's robots. Tencent also participated. **DeepSeek's AI meets Unitree's robots**: that is the same formula US companies like Tesla and Figure are racing toward — the best AI brain inside the best robot body. China just made it official.",
+        "For anyone running a business that depends on physical work — logistics, warehousing, manufacturing — **the timeline is compressing fast**. A company that barely existed a decade ago is now worth $9 billion and backed by some of China's biggest technology names. When markets put a public price on a technology, they are saying it is no longer a science project. Watch the quarterly numbers from here."
+      ],
+      "keyFacts": [
+        { "value": "$9B", "label": "Unitree's IPO valuation" },
+        { "value": "2,600×", "label": "oversubscribed by institutional investors" },
+        { "value": "60%+", "label": "gross margin on robot sales" },
+        { "value": "4×", "label": "revenue growth in 2025" }
+      ]
+    },
+    "de": {
+      "title": "Humanoide Roboter bekommen ein Börsenpreisschild",
+      "summary": "Unitree, ein chinesisches Robotikunternehmen, wurde zum ersten Hersteller humanoider Roboter aus dem chinesischen Festland, der an die Börse geht — und seine Zahlen zeigen, dass dies bereits ein echtes, profitables Geschäft ist und kein Forschungsprojekt.",
+      "body": [
+        "Ein chinesisches Robotikunternehmen namens Unitree wurde soeben an der Shanghaier Börse notiert. Sein Hauptprodukt sind humanoide Roboter — Maschinen, die auf zwei Beinen gehen, ihre Hände benutzen und auf gesprochene Anweisungen reagieren. Das ist nicht nur ein weiterer Tech-Börsengang. **Unitree ist der erste Börsengang eines humanoiden Roboterherstellers in Festlandchina** — das Unternehmen hat nun einen täglichen Aktienkurs, öffentliche Bilanzen und Aktionäre, denen es Rechenschaft schuldet. Die Technologie hat eine Grenze überschritten.",
+        "Die Zahlen zeigen, dass Investoren das ernst nehmen. Unitree hat seine Aktien zu 150,8 Yuan je Stück angeboten, was das Unternehmen mit neun Milliarden Dollar bewertet. Das institutionelle Tranchen war 2.600-fach überzeichnet — Investoren wollten weit mehr kaufen als verfügbar war. Das Unternehmen ist bereits profitabel: 591 Millionen Yuan Nettogewinn letztes Jahr bei 1,7 Milliarden Yuan Umsatz. **Bruttomarge über 60%** — die Art von Marge, die man eher bei Softwareunternehmen erwartet, nicht bei Herstellern physischer Hardware.",
+        "Wer sich noch beteiligt hat, ist mindestens genauso interessant. DeepSeek, das chinesische KI-Labor, das die Welt mit seinen effizienten Modellen überraschte, investierte 20 Millionen Dollar und unterzeichnete einen Vertrag zur gemeinsamen Entwicklung von KI speziell für Unitrees Roboter. Auch Tencent ist dabei. **DeepSeeks KI trifft auf Unitrees Roboter**: Das ist genau die Formel, auf die US-Unternehmen wie Tesla und Figure hinarbeiten — das beste KI-Gehirn im besten Roboterkörper. China hat das jetzt offiziell gemacht.",
+        "Für jeden, der ein Unternehmen mit körperlicher Arbeit betreibt — Logistik, Lagerhaltung, Fertigung — **verdichtet sich der Zeitplan rapide**. Ein Unternehmen, das vor einem Jahrzehnt kaum existierte, ist heute neun Milliarden Dollar wert und wird von einigen der größten chinesischen Technologiekonzerne unterstützt. Wenn Märkte einer Technologie einen öffentlichen Preis geben, sagen sie damit: Das ist kein Forschungsprojekt mehr. Beobachten Sie die Quartalszahlen von nun an."
+      ],
+      "keyFacts": [
+        { "value": "$9B", "label": "Börsenbewertung von Unitree" },
+        { "value": "2,600×", "label": "Überzeichnung durch institutionelle Anleger" },
+        { "value": "60%+", "label": "Bruttomarge beim Roboterverkauf" },
+        { "value": "4×", "label": "Umsatzwachstum im Jahr 2025" }
+      ]
+    },
+    "nl": {
+      "title": "Humanoïde robots krijgen een beursprijskaartje",
+      "summary": "Unitree, een Chinees roboticabedrijf, is als eerste fabrikant van humanoïde robots op het vasteland van China naar de beurs gegaan — en zijn cijfers laten zien dat dit al een echt, winstgevend bedrijf is en geen wetenschappelijk project.",
+      "body": [
+        "Een Chinees roboticabedrijf genaamd Unitree is zojuist genoteerd op de beurs van Shanghai. Zijn hoofdproduct zijn humanoïde robots — machines die op twee benen lopen, hun handen gebruiken en reageren op gesproken instructies. Dit is niet zomaar een technologiebeursgang. **Unitree is de eerste humanoïde robot-IPO op het vasteland van China** — het bedrijf heeft nu een dagelijkse aandelenkoers, publieke jaarrekeningen en aandeelhouders aan wie het verantwoording moet afleggen. De technologie heeft een grens overschreden.",
+        "De cijfers tonen aan dat beleggers dit serieus nemen. Unitree heeft zijn aandelen geprijsd op 150,8 yuan per stuk, wat het bedrijf een waarde van 9 miljard dollar geeft. Het institutionele deel was 2.600 keer overtekend — beleggers wilden veel meer kopen dan er beschikbaar was. Het bedrijf is al winstgevend: 591 miljoen yuan nettowinst vorig jaar op 1,7 miljard yuan omzet. **Brutomarges boven de 60%** — het soort marge dat je normaal bij softwarebedrijven ziet, niet bij fabrikanten van fysieke hardware.",
+        "Wie er verder bij betrokken is, is minstens zo interessant als de beursgang zelf. DeepSeek, het Chinese AI-lab dat de wereld verraste met zijn efficiënte modellen, investeerde 20 miljoen dollar en tekende een deal om gezamenlijk AI te ontwikkelen speciaal voor Unitrees robots. Tencent deed ook mee. **DeepSeeks AI ontmoet Unitrees robots**: dat is precies de formule waarnaar Amerikaanse bedrijven als Tesla en Figure streven — het beste AI-brein in het beste robotlichaam. China heeft dit nu officieel gemaakt.",
+        "Voor iedereen die een bedrijf runt dat afhankelijk is van fysiek werk — logistiek, warehousing, productie — **comprimeert de tijdlijn zich razendsnel**. Een bedrijf dat een decennium geleden nauwelijks bestond, is nu 9 miljard dollar waard en wordt gesteund door enkele van China's grootste technologiebedrijven. Wanneer markten een openbare prijs geven aan een technologie, zeggen ze daarmee: dit is geen wetenschappelijk project meer. Houd de kwartaalcijfers voortaan in de gaten."
+      ],
+      "keyFacts": [
+        { "value": "$9B", "label": "Unitree's IPO-waardering" },
+        { "value": "2,600×", "label": "overtekend door institutionele beleggers" },
+        { "value": "60%+", "label": "brutomarge op robotverkopen" },
+        { "value": "4×", "label": "omzetgroei in 2025" }
+      ]
+    },
+    "es": {
+      "title": "Los robots humanoides acaban de cotizar en bolsa",
+      "summary": "Unitree, una empresa china de robótica, se ha convertido en el primer fabricante de robots humanoides del territorio continental chino en salir a bolsa, y sus cifras demuestran que ya es un negocio real y rentable, no un experimento científico.",
+      "body": [
+        "Una empresa china de robótica llamada Unitree acaba de cotizar en la bolsa de valores de Shanghái. Su producto principal son los robots humanoides — máquinas que caminan sobre dos piernas, usan las manos y obedecen instrucciones habladas. Esto no es simplemente otra salida a bolsa tecnológica. **Unitree es la primera IPO de robots humanoides en China continental** — la empresa tiene ahora un precio diario en bolsa, cuentas públicas y accionistas ante quienes rendir cuentas. La tecnología ha cruzado una línea.",
+        "Los números indican que los inversores lo toman en serio. Unitree fijó el precio de sus acciones en 150,8 yuanes cada una, lo que valora la empresa en 9.000 millones de dólares. El tramo institucional estuvo sobresuscrito 2.600 veces — los inversores quisieron comprar mucho más de lo que había disponible. La empresa ya es rentable: 591 millones de yuanes de beneficio neto el año pasado sobre ingresos de 1.700 millones de yuanes. **Márgenes brutos por encima del 60%** — el tipo de margen que se suele ver en empresas de software, no en fabricantes de hardware físico.",
+        "Quién más se sumó es igual de interesante que la propia cotización. DeepSeek, el laboratorio chino de IA que sorprendió al mundo con sus modelos eficientes, invirtió 20 millones de dólares y firmó un acuerdo para desarrollar conjuntamente IA específicamente para los robots de Unitree. Tencent también participó. **La IA de DeepSeek se une a los robots de Unitree**: esa es la misma fórmula que empresas estadounidenses como Tesla y Figure persiguen — el mejor cerebro de IA dentro del mejor cuerpo robótico. China acaba de hacerlo oficial.",
+        "Para cualquiera que dirija un negocio que dependa del trabajo físico — logística, almacenes, fabricación — **el plazo se está acortando a gran velocidad**. Una empresa que apenas existía hace una década vale ahora 9.000 millones de dólares y cuenta con el respaldo de algunos de los mayores nombres tecnológicos de China. Cuando los mercados ponen un precio público a una tecnología, están diciendo: ya no es un proyecto científico. Siga de cerca los resultados trimestrales a partir de ahora."
+      ],
+      "keyFacts": [
+        { "value": "$9B", "label": "valoración de Unitree en bolsa" },
+        { "value": "2,600×", "label": "veces sobresuscrito por inversores institucionales" },
+        { "value": "60%+", "label": "margen bruto en ventas de robots" },
+        { "value": "4×", "label": "crecimiento de ingresos en 2025" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots humanoïdes viennent d'obtenir une cotation boursière",
+      "summary": "Unitree, une entreprise chinoise de robotique, est devenue le premier fabricant de robots humanoïdes coté en Bourse sur le continent chinois — et ses chiffres montrent que c'est déjà un vrai business rentable, pas un projet de recherche.",
+      "body": [
+        "Une entreprise chinoise appelée Unitree vient de s'introduire en Bourse à Shanghai. Son produit principal : des robots humanoïdes — des machines qui marchent sur deux jambes, utilisent leurs mains et répondent à des instructions vocales. Ce n'est pas une simple introduction en Bourse de plus. **Unitree est la première IPO d'un fabricant de robots humanoïdes en Chine continentale** — l'entreprise dispose désormais d'un cours boursier quotidien, de comptes publics et d'actionnaires à qui rendre des comptes. La technologie vient de franchir un cap.",
+        "Les chiffres montrent que les investisseurs prennent cela au sérieux. Unitree a fixé le prix de ses actions à 150,8 yuans pièce, valorisant l'entreprise à 9 milliards de dollars. La tranche institutionnelle a été sursouscrite 2 600 fois — les investisseurs ont voulu acheter bien plus que ce qui était disponible. L'entreprise est déjà rentable : 591 millions de yuans de bénéfice net l'an dernier pour 1,7 milliard de yuans de chiffre d'affaires. **Marges brutes supérieures à 60%** — le genre de marge qu'on associe habituellement aux logiciels, pas aux fabricants de matériel physique.",
+        "Qui d'autre a participé est tout aussi intéressant que l'introduction elle-même. DeepSeek, le laboratoire d'IA chinois qui a surpris le monde avec ses modèles efficaces et sobres, a investi 20 millions de dollars et signé un accord pour développer conjointement une IA dédiée aux robots d'Unitree. Tencent a également participé. **L'IA de DeepSeek s'associe aux robots d'Unitree** : c'est la même formule que des entreprises américaines comme Tesla et Figure cherchent à réaliser — le meilleur cerveau IA dans le meilleur corps robotique. La Chine vient d'officialiser cette alliance.",
+        "Pour quiconque dirige une entreprise qui dépend du travail physique — logistique, entrepôts, fabrication — **le calendrier se resserre rapidement**. Une entreprise qui n'existait presque pas il y a dix ans vaut aujourd'hui 9 milliards de dollars et est soutenue par certains des plus grands noms technologiques de Chine. Quand les marchés attribuent un prix public à une technologie, ils disent : ce n'est plus un projet de recherche. Surveillez les résultats trimestriels à partir de maintenant."
+      ],
+      "keyFacts": [
+        { "value": "$9B", "label": "valorisation de l'IPO d'Unitree" },
+        { "value": "2,600×", "label": "fois sursouscrite par les institutionnels" },
+        { "value": "60%+", "label": "marge brute sur la vente de robots" },
+        { "value": "4×", "label": "croissance du chiffre d'affaires en 2025" }
+      ]
+    },
+    "ar": {
+      "title": "روبوتات شبيهة بالإنسان تدخل البورصة للمرة الأولى",
+      "summary": "أصبحت شركة Unitree الصينية للروبوتات أول شركة متخصصة في الروبوتات الآدمية تُدرج أسهمها في بورصة صينية داخلية، وأرقامها تُثبت أنها نشاط تجاري حقيقي ومربح، لا مجرد مشروع بحثي.",
+      "body": [
+        "أدرجت شركة صينية للروبوتات تُدعى Unitree أسهمها للتو في بورصة شنغهاي. منتجها الرئيسي روبوتات آدمية — آلات تمشي على قدمين وتستخدم يديها وتستجيب للتعليمات الصوتية. هذا ليس مجرد إدراج تقني عادي. **Unitree هي أول طرح عام أولي لمصنّع روبوتات آدمية في الصين القارية** — الشركة تمتلك الآن سعراً يومياً للأسهم وحسابات علنية ومساهمين تُقدّم لهم تقاريرها. لقد تجاوزت هذه التكنولوجيا عتبة لم تُجاوَز من قبل.",
+        "تقول الأرقام إن المستثمرين يأخذون هذا بجدية. حدّدت Unitree سعر سهمها بـ 150.8 يوان، ما يُقيّم الشركة بـ 9 مليارات دولار. وتجاوزت الطلبات المؤسسية عرض الأسهم بمقدار 2,600 ضعف — أي أن المستثمرين طالبوا بأضعاف ما هو متاح. والشركة مربحة أصلاً: 591 مليون يوان صافي ربح العام الماضي على إيرادات بلغت 1.7 مليار يوان. **هوامش ربح إجمالية تتجاوز 60%** — النوع المعتاد في شركات البرمجيات، لا في صناعة الأجهزة المادية.",
+        "من شارك في الطرح لا يقل إثارةً عن الطرح نفسه. استثمر DeepSeek، المختبر الصيني للذكاء الاصطناعي الذي فاجأ العالم بنماذجه الكفؤة، 20 مليون دولار ووقّع اتفاقية لتطوير نماذج ذكاء اصطناعي مشتركة مخصصة لروبوتات Unitree. كما شارك Tencent في الطرح. **ذكاء DeepSeek الاصطناعي يلتقي بروبوتات Unitree**: هذه هي الصيغة ذاتها التي تسعى إليها شركات أمريكية كـ Tesla وFigure — أفضل عقل اصطناعي داخل أفضل جسد آلي. أرست الصين هذه الشراكة رسمياً.",
+        "لكل من يدير عملاً تجارياً يعتمد على العمل الجسدي — لوجستيات، مستودعات، تصنيع — **الجدول الزمني يتسارع بسرعة**. شركة بالكاد كانت موجودة قبل عقد تُساوى اليوم 9 مليارات دولار، وتحظى بدعم بعض أكبر أسماء التكنولوجيا في الصين. حين تضع الأسواق سعراً علنياً على تقنية ما، فهي تقول: لم يعد هذا مشروعاً علمياً. تابعوا الأرقام الفصلية من الآن فصاعداً."
+      ],
+      "keyFacts": [
+        { "value": "$9B", "label": "قيمة طرح Unitree في البورصة" },
+        { "value": "2,600×", "label": "ضعفاً تجاوزت طلبات المؤسسيين العرض المتاح" },
+        { "value": "60%+", "label": "هامش الربح الإجمالي على مبيعات الروبوتات" },
+        { "value": "4×", "label": "نمو الإيرادات في 2025" }
+      ]
+    }
+  }
+}
