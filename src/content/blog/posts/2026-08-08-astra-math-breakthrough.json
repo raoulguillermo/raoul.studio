@@ -1,0 +1,123 @@
+{
+  "slug": "2026-08-08-astra-math-breakthrough",
+  "date": "2026-08-08",
+  "tags": ["ai", "research"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/08/openaiatramaths.png",
+    "alt": "Abstract visualization representing mathematical proof structures",
+    "credit": "SiliconAngle"
+  },
+  "sources": [
+    {
+      "title": "The Next Web — OpenAI says its next model, Astra, has solved ten open problems in mathematics",
+      "url": "https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups"
+    },
+    {
+      "title": "SiliconAngle — OpenAI's Astra solves 10 long-open math problems and publishes the proofs",
+      "url": "https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/"
+    },
+    {
+      "title": "Forbes — OpenAI's Astra Solved 10 Decades-Old Math Problems For $2,000",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/08/03/openais-astra-solved-10-decades-old-math-problems-for-just-2000/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI Can Now Do Original Science. The Cost of Breakthroughs Just Fell.",
+      "summary": "OpenAI's next model solved ten research-grade math problems that stumped experts for decades — all for about $2,000 — which means the cost of original AI-powered research just dropped to almost nothing.",
+      "body": [
+        "OpenAI's next model, called Astra, just solved ten mathematics problems that experts could not crack for at least a decade — some for much longer. This is not AI summarizing things it learned from books. **AI can now produce results that did not exist before**. That is a meaningful shift.",
+        "The problems came from deep mathematics: things like how to pack balls as tightly as possible in a thousand dimensions, or how to make certain types of encryption codes more efficient. Astra solved all ten for about $2,000 in compute time — roughly what a small business pays for a month of software subscriptions. Every solution is published as a 249-page document on GitHub, with **every proof step checked by machine** using a tool called Lean 4. A computer verified every single line, so no one has to take OpenAI's word for it.",
+        "The cost is the real story. Tim Gowers, a mathematician who has won the highest prize in his field, said he would recommend one of the proofs for a top journal. That kind of expert-level quality normally means years of work from a small specialist team. **$2,000 for ten research breakthroughs** is a number that changes how you think about knowledge work. Industries that already depend on formal verification — chip design, cryptography, safety-critical software — can now run that checking automatically.",
+        "The point is not that AI will replace researchers. It is that AI can now help find answers that no human had yet found. If your business depends on R&D — in any field where being right and being able to prove it matters — **the price of discovery just fell dramatically**. Start thinking now about where AI fits into your research process, not after a competitor already has."
+      ],
+      "keyFacts": [
+        { "value": "10", "label": "open math problems solved" },
+        { "value": "~$2,000", "label": "compute cost for all 10 solutions" },
+        { "value": "249 pages", "label": "published manuscript of verified proofs" },
+        { "value": "1999", "label": "year oldest solved problem was first posed" }
+      ]
+    },
+    "de": {
+      "title": "KI kann jetzt echte Wissenschaft betreiben. Der Preis für Entdeckungen ist gerade gefallen.",
+      "summary": "OpenAIs nächstes Modell löste zehn mathematische Forschungsprobleme, an denen Experten jahrzehntelang scheiterten — alles für rund 2.000 Dollar — was bedeutet, dass originäre KI-Forschung für fast jedes Team erschwinglich wird.",
+      "body": [
+        "OpenAIs nächstes Modell, Astra, hat soeben zehn mathematische Probleme gelöst, an denen Experten seit mindestens einem Jahrzehnt — manche noch viel länger — gescheitert sind. Das ist keine KI, die Dinge zusammenfasst, die sie aus Büchern gelernt hat. **KI kann jetzt Ergebnisse erzeugen, die vorher nicht existierten**. Das ist ein echter Wandel.",
+        "Die Probleme kamen aus den Tiefen der Mathematik: Wie packt man Kugeln in tausend Dimensionen möglichst dicht? Wie lassen sich bestimmte Verschlüsselungscodes effizienter gestalten? Astra löste alle zehn für etwa 2.000 Dollar Rechenzeit — ungefähr das, was ein kleines Unternehmen monatlich für Software-Abonnements ausgibt. Jede Lösung ist in einem 249-seitigen Dokument auf GitHub veröffentlicht, wobei **jeder Beweisschritt maschinell geprüft** wurde — mit einem Tool namens Lean 4. Ein Computer hat jede einzelne Zeile überprüft.",
+        "Die Kosten sind die eigentliche Geschichte. Tim Gowers, ein Mathematiker, der den höchsten Preis seines Fachs gewonnen hat, würde einen der Beweise für eine Spitzenzeitschrift empfehlen. Diese Art der Expertenvalidierung bedeutet normalerweise jahrelange Arbeit eines kleinen Teams. **2.000 Dollar für zehn Forschungsdurchbrüche** — diese Zahl verändert, wie man über Wissensarbeit denkt. Branchen, die bereits auf formale Verifikation angewiesen sind — Chip-Design, Kryptographie, Sicherheitssoftware — können diese Prüfvorgänge jetzt automatisch durchführen.",
+        "Der Punkt ist nicht, dass KI Forscher ersetzen wird. Der Punkt ist, dass KI jetzt helfen kann, Antworten zu finden, die noch kein Mensch gefunden hatte. Wenn Ihr Unternehmen auf Forschung angewiesen ist — in jedem Bereich, wo es darauf ankommt, recht zu haben und es beweisen zu können — **ist der Preis für Entdeckungen dramatisch gesunken**. Fangen Sie jetzt an zu überlegen, wo KI in Ihren Forschungsprozess passt, nicht erst wenn ein Wettbewerber das schon getan hat."
+      ],
+      "keyFacts": [
+        { "value": "10", "label": "gelöste mathematische Forschungsprobleme" },
+        { "value": "~$2,000", "label": "Rechenkosten für alle 10 Lösungen" },
+        { "value": "249 pages", "label": "Manuskript mit verifizierten Beweisen" },
+        { "value": "1999", "label": "Jahr, in dem das älteste gelöste Problem gestellt wurde" }
+      ]
+    },
+    "nl": {
+      "title": "AI kan nu echte wetenschap bedrijven. De prijs van doorbraken is zojuist gedaald.",
+      "summary": "Het volgende model van OpenAI loste tien wiskundige onderzoeksproblemen op waar experts tientallen jaren niet uitkwamen — voor zo'n $2.000 — wat betekent dat origineel AI-onderzoek voor bijna elk team bereikbaar wordt.",
+      "body": [
+        "Het volgende model van OpenAI, Astra, heeft zojuist tien wiskundige problemen opgelost die experts al minstens een decennium niet konden kraken — sommige veel langer. Dit is geen AI die samenvat wat ze uit boeken heeft geleerd. **AI kan nu resultaten produceren die eerder niet bestonden**. Dat is een echte verschuiving.",
+        "De problemen kwamen uit de diepere wiskunde: hoe pak je bollen zo dicht mogelijk in duizend dimensies? Hoe maak je bepaalde soorten versleutelingscodes efficiënter? Astra loste alle tien op voor ongeveer $2.000 aan rekentijd — ongeveer wat een klein bedrijf per maand aan software-abonnementen uitgeeft. Elke oplossing staat gepubliceerd in een document van 249 pagina's op GitHub, waarbij **elke bewijsstap door een machine is gecontroleerd** met een tool genaamd Lean 4. Een computer heeft elke regel geverifieerd.",
+        "De kosten zijn het echte verhaal. Tim Gowers, een wiskundige die de hoogste prijs in zijn vakgebied heeft gewonnen, zou één van de bewijzen aanbevelen voor een toptijdschrift. Dat soort expertkwaliteit betekent normaal jaren werk van een klein gespecialiseerd team. **$2.000 voor tien onderzoeksdoorbraken** is een getal dat verandert hoe je denkt over kenniswerk. Sectoren die al afhankelijk zijn van formele verificatie — chipdesign, cryptografie, veiligheidssoftware — kunnen die controles nu automatisch uitvoeren.",
+        "Het gaat er niet om dat AI onderzoekers zal vervangen. Het gaat erom dat AI nu kan helpen antwoorden te vinden die nog geen mens had gevonden. Als uw bedrijf afhankelijk is van R&D — in elk vakgebied waar het telt om gelijk te hebben én dat te kunnen bewijzen — **is de prijs van ontdekking dramatisch gedaald**. Begin nu na te denken over waar AI past in uw onderzoeksproces, niet nadat een concurrent dat al heeft gedaan."
+      ],
+      "keyFacts": [
+        { "value": "10", "label": "wiskundige onderzoeksproblemen opgelost" },
+        { "value": "~$2,000", "label": "rekenkosten voor alle 10 oplossingen" },
+        { "value": "249 pages", "label": "gepubliceerd manuscript met geverifieerde bewijzen" },
+        { "value": "1999", "label": "jaar van het oudste opgeloste probleem" }
+      ]
+    },
+    "es": {
+      "title": "La IA ya puede hacer ciencia original. El coste de los descubrimientos acaba de caer.",
+      "summary": "El próximo modelo de OpenAI resolvió diez problemas matemáticos de investigación con los que los expertos llevaban décadas atascados — todo por unos $2.000 — lo que convierte la investigación original con IA en algo asequible para casi cualquier equipo.",
+      "body": [
+        "El próximo modelo de OpenAI, llamado Astra, acaba de resolver diez problemas matemáticos que los expertos no pudieron descifrar durante al menos una década — algunos durante mucho más tiempo. Esto no es una IA que resume lo que aprendió en libros. **La IA ahora puede producir resultados que antes no existían**. Eso es un cambio real.",
+        "Los problemas venían de las profundidades de las matemáticas: ¿cómo empaquetar esferas lo más densamente posible en mil dimensiones? ¿Cómo hacer ciertos tipos de códigos de cifrado más eficientes? Astra los resolvió todos por unos $2.000 en tiempo de cómputo — más o menos lo que una pequeña empresa paga al mes en suscripciones de software. Cada solución está publicada en un documento de 249 páginas en GitHub, con **cada paso de la demostración verificado por máquina** usando una herramienta llamada Lean 4. Un ordenador comprobó cada línea.",
+        "El coste es la verdadera historia. Tim Gowers, un matemático que ha ganado el mayor premio de su campo, dijo que recomendaría una de las demostraciones para una revista de primer nivel. Ese tipo de calidad experta normalmente implica años de trabajo de un pequeño equipo especializado. **$2.000 por diez avances de investigación** es un número que cambia cómo se piensa en el trabajo del conocimiento. Los sectores que ya dependen de la verificación formal — diseño de chips, criptografía, software crítico para la seguridad — ahora pueden ejecutar esa comprobación automáticamente.",
+        "La cuestión no es que la IA vaya a reemplazar a los investigadores. Es que la IA ahora puede ayudar a encontrar respuestas que ningún ser humano había encontrado aún. Si su negocio depende de la I+D — en cualquier campo donde importa tener razón y poder demostrarlo — **el precio del descubrimiento acaba de bajar drásticamente**. Empiece a pensar ahora dónde encaja la IA en su proceso de investigación, no después de que un competidor ya lo haya hecho."
+      ],
+      "keyFacts": [
+        { "value": "10", "label": "problemas matemáticos de investigación resueltos" },
+        { "value": "~$2,000", "label": "coste de cómputo para las 10 soluciones" },
+        { "value": "249 pages", "label": "manuscrito publicado con demostraciones verificadas" },
+        { "value": "1999", "label": "año en que se planteó el problema más antiguo resuelto" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA peut désormais faire de la science originale. Le coût des découvertes vient de chuter.",
+      "summary": "Le prochain modèle d'OpenAI a résolu dix problèmes mathématiques de recherche sur lesquels les experts butaient depuis des décennies — pour environ 2 000 dollars — ce qui rend la recherche originale par IA accessible à presque toute équipe.",
+      "body": [
+        "Le prochain modèle d'OpenAI, appelé Astra, vient de résoudre dix problèmes mathématiques que les experts ne pouvaient pas résoudre depuis au moins une décennie — certains depuis bien plus longtemps. Ce n'est pas une IA qui résume ce qu'elle a appris dans des livres. **L'IA peut désormais produire des résultats qui n'existaient pas auparavant**. C'est un vrai changement.",
+        "Les problèmes venaient des profondeurs des mathématiques : comment empiler des sphères aussi densément que possible en mille dimensions ? Comment rendre certains types de codes de chiffrement plus efficaces ? Astra les a tous résolus pour environ 2 000 dollars de temps de calcul — à peu près ce qu'une petite entreprise dépense par mois en abonnements logiciels. Chaque solution est publiée dans un document de 249 pages sur GitHub, avec **chaque étape de preuve vérifiée par machine** grâce à un outil appelé Lean 4. Un ordinateur a vérifié chaque ligne.",
+        "Le coût est la vraie histoire. Tim Gowers, un mathématicien qui a remporté le plus grand prix de son domaine, a dit qu'il recommanderait l'une des preuves pour une revue de premier plan. Ce type de qualité experte nécessite normalement des années de travail d'une petite équipe spécialisée. **2 000 dollars pour dix avancées de recherche**, c'est un chiffre qui change la façon de penser le travail de la connaissance. Les secteurs qui dépendent déjà de la vérification formelle — conception de puces, cryptographie, logiciels de sécurité — peuvent désormais effectuer ces vérifications automatiquement.",
+        "L'enjeu n'est pas que l'IA remplacera les chercheurs. C'est qu'elle peut maintenant aider à trouver des réponses qu'aucun être humain n'avait encore trouvées. Si votre entreprise dépend de la R&D — dans tout domaine où il faut avoir raison et pouvoir le prouver — **le prix de la découverte vient de chuter de façon spectaculaire**. Commencez dès maintenant à réfléchir à la place de l'IA dans votre processus de recherche, et non pas après qu'un concurrent l'ait déjà fait."
+      ],
+      "keyFacts": [
+        { "value": "10", "label": "problèmes mathématiques de recherche résolus" },
+        { "value": "~$2,000", "label": "coût de calcul pour les 10 solutions" },
+        { "value": "249 pages", "label": "manuscrit publié de preuves vérifiées" },
+        { "value": "1999", "label": "année de formulation du plus ancien problème résolu" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي بات قادراً على إنتاج علم أصيل. تكلفة الاكتشافات انخفضت للتو.",
+      "summary": "حلّ نموذج OpenAI القادم عشرة مسائل رياضية بحثية عجز عنها الخبراء لعقود — بتكلفة نحو $2,000 — مما يجعل البحث الأصيل بالذكاء الاصطناعي في متناول أي فريق.",
+      "body": [
+        "نموذج OpenAI القادم، المسمى Astra، حلّ للتو عشرة مسائل رياضية عجز الخبراء عن حلّها لمدة عقد على الأقل — وبعضها لفترات أطول بكثير. هذا ليس ذكاءً اصطناعياً يلخّص ما تعلّمه من كتب. **الذكاء الاصطناعي قادر الآن على إنتاج نتائج لم تكن موجودة من قبل**. هذا تحوّل حقيقي.",
+        "جاءت المسائل من أعماق الرياضيات: كيف تُرصّ الكرات بأكبر كثافة ممكنة في ألف بُعد؟ كيف تُجعل أنواع معينة من رموز التشفير أكثر كفاءة؟ حلّ Astra جميعها بتكلفة حوسبة تبلغ نحو $2,000 — تقريباً ما تدفعه شركة صغيرة شهرياً مقابل اشتراكات البرمجيات. كل حل منشور في وثيقة مكوّنة من 249 صفحة على GitHub، مع **التحقق الآلي من كل خطوة في البرهان** باستخدام أداة تدعى Lean 4. فحص الحاسوب كل سطر بعينه.",
+        "التكلفة هي القصة الحقيقية. تيم غاورز، عالم رياضيات حاز على أرفع جائزة في مجاله، أفاد بأنه سيوصي بأحد البراهين للنشر في مجلة متخصصة رائدة. هذا النوع من الجودة العلمية يستلزم عادةً سنوات من عمل فريق متخصص صغير. **$2,000 مقابل عشرة اكتشافات بحثية** رقمٌ يغيّر طريقة التفكير في العمل المعرفي. القطاعات التي تعتمد أصلاً على التحقق الرسمي — تصميم الرقائق، والتشفير، وبرمجيات السلامة — تستطيع الآن إجراء هذه الفحوصات تلقائياً.",
+        "المسألة ليست في أن الذكاء الاصطناعي سيحلّ محلّ الباحثين. المسألة أنه قادر الآن على المساعدة في إيجاد إجابات لم يعثر عليها أي إنسان بعد. إذا كان عملك يعتمد على البحث والتطوير — في أي مجال يهمّ فيه الصواب وإثباته — **فإن تكلفة الاكتشاف انخفضت انخفاضاً حاداً**. ابدأ الآن في التفكير في كيفية دمج الذكاء الاصطناعي في عملية بحثك، ولا تنتظر حتى يفعل ذلك أحد منافسيك."
+      ],
+      "keyFacts": [
+        { "value": "10", "label": "مسائل رياضية بحثية تم حلها" },
+        { "value": "~$2,000", "label": "تكلفة الحوسبة لجميع الحلول العشرة" },
+        { "value": "249 pages", "label": "مخطوطة منشورة مع براهين موثّقة" },
+        { "value": "1999", "label": "عام طرح أقدم مسألة تم حلها" }
+      ]
+    }
+  }
+}
