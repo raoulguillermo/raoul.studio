@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-10-nvidia-nooa-agent-framework",
+  "date": "2026-08-10",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "MarkTechPost — NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class",
+      "url": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/"
+    },
+    {
+      "title": "The New Stack — Nvidia's NOOA makes an agent one Python class",
+      "url": "https://thenewstack.io/nvidia-nooa-agent-framework/"
+    },
+    {
+      "title": "AIToolsRecap — AI News August 9 2026: NVIDIA NOOA Open-Source Agent Framework, Anthropic $1.5B Enterprise JV",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-august-09-2026"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Building an AI Agent Is Now One Python Class",
+      "summary": "NVIDIA released NOOA, an open-source framework that lets any developer write a full AI agent as a single Python class — at roughly half the token cost of comparable tools.",
+      "body": [
+        "Building AI agents — software that plans and carries out multi-step tasks on its own — has meant learning heavyweight frameworks, writing separate config files, and wiring together a lot of boilerplate. NVIDIA just released NOOA, an open-source library that replaces all of that with a single Python class. **An agent is a Python class**: methods are actions the AI can take, docstrings become the instructions the model reads, and fields hold the agent's memory.",
+        "That is not just cleaner code — it also cuts costs. Agents built with NOOA use roughly half as many tokens as comparable open frameworks — about 1.1 million per task instead of 2.2 million — which maps directly to lower API bills. They make **around 28 model calls per task, compared to 66** for similar tools. On SWE-bench Verified, the main benchmark for coding agents, NOOA scored 82.2%, ahead of most open alternatives.",
+        "The key trick is how NOOA handles data. Most frameworks dump large data structures into the model's context window — that is expensive and can confuse the model. NOOA keeps objects alive in a Python environment and only shows the model a short summary — about 30 tokens per object. The model acts on real, **live data without being overwhelmed by it.** Two execution modes are available: a single structured call for simpler tasks, and an iterative loop where the model writes and runs code until the job is done.",
+        "Any team building AI-powered software should test NOOA today. It is Apache 2.0 licensed and installs with one command: pip install nooa. One important caveat: it is still an alpha research preview, and its code-execution feature is a security risk without proper isolation. **Test it inside a container or VM** — never directly on a production server. For prototyping, internal tools, and coding workflows, this is one of the most practical starting points available right now."
+      ],
+      "keyFacts": [
+        { "value": "82.2%", "label": "score on the main coding-agent benchmark" },
+        { "value": "Half the cost", "label": "fewer tokens vs. comparable agent frameworks" },
+        { "value": "28", "label": "average model calls per task (vs. 66 for similar tools)" },
+        { "value": "Apache 2.0", "label": "open-source license" }
+      ]
+    },
+    "de": {
+      "title": "Einen KI-Agenten bauen: jetzt eine einzige Python-Klasse",
+      "summary": "NVIDIA hat NOOA veröffentlicht, ein quelloffenes Framework, das es erlaubt, einen vollständigen KI-Agenten als eine einzige Python-Klasse zu schreiben — bei etwa halb so vielen Token-Kosten wie vergleichbare Tools.",
+      "body": [
+        "KI-Agenten zu bauen — Software, die eigenständig mehrstufige Aufgaben plant und ausführt — war bislang mit komplexen Frameworks, separaten Konfigurationsdateien und viel Boilerplate-Code verbunden. NVIDIA hat jetzt NOOA veröffentlicht, eine quelloffene Bibliothek, die das alles durch eine einzige Python-Klasse ersetzt. **Ein Agent ist eine Python-Klasse**: Methoden sind Aktionen, Docstrings werden zu Anweisungen für das Modell, und Felder speichern den Zustand des Agenten.",
+        "Das ist nicht nur saubererer Code — es senkt auch die Kosten. Mit NOOA gebaute Agenten verbrauchen etwa halb so viele Token wie vergleichbare Open-Source-Frameworks — rund 1,1 Millionen pro Aufgabe statt 2,2 Millionen. Sie machen **etwa 28 Modellaufrufe pro Aufgabe, gegenüber 66** bei ähnlichen Tools. Auf SWE-bench Verified, dem wichtigsten Benchmark für Coding-Agenten, erzielte NOOA 82,2 % — besser als die meisten offenen Alternativen.",
+        "Der entscheidende Trick liegt in der Datenverarbeitung. Die meisten Frameworks laden große Datenstrukturen direkt in das Kontextfenster des Modells — das ist teuer und kann das Modell verwirren. NOOA hält Objekte in einer Python-Umgebung lebendig und zeigt dem Modell nur eine kurze Zusammenfassung — etwa 30 Token pro Objekt. Das Modell agiert auf echten, **lebenden Daten ohne von ihnen überwältigt zu werden.** Zwei Ausführungsmodi stehen zur Wahl: ein einzelner strukturierter Aufruf für einfachere Aufgaben und eine iterative Schleife, in der das Modell Code schreibt und ausführt, bis die Aufgabe erledigt ist.",
+        "Jedes Team, das KI-gestützte Software entwickelt, sollte NOOA heute testen. Es ist unter Apache 2.0 lizenziert und mit einem einzigen Befehl installierbar: pip install nooa. Wichtiger Vorbehalt: Es handelt sich noch um eine Alpha-Forschungsvorschau, und die Code-Ausführung ist ohne Isolation ein Sicherheitsrisiko. **Testen Sie es immer in einem Container oder einer VM** — nie direkt auf einem Produktionsserver. Für Prototypen, interne Tools und Coding-Workflows ist NOOA derzeit einer der praktischsten Einstiegspunkte."
+      ],
+      "keyFacts": [
+        { "value": "82,2 %", "label": "Score im wichtigsten Coding-Agenten-Benchmark" },
+        { "value": "Halb so viel", "label": "Token-Verbrauch gegenüber vergleichbaren Frameworks" },
+        { "value": "28", "label": "Modellaufrufe pro Aufgabe (vs. 66 bei ähnlichen Tools)" },
+        { "value": "Apache 2.0", "label": "Open-Source-Lizenz" }
+      ]
+    },
+    "nl": {
+      "title": "Een AI-agent bouwen is nu één Python-klasse",
+      "summary": "NVIDIA heeft NOOA uitgebracht, een open-source framework waarmee elke ontwikkelaar een volledige AI-agent kan schrijven als één Python-klasse — bij ongeveer de helft van de tokenkosten van vergelijkbare tools.",
+      "body": [
+        "AI-agenten bouwen — software die zelfstandig meerstappige taken plant en uitvoert — vereiste tot nu toe complexe frameworks, aparte configuratiebestanden en veel herhalende code. NVIDIA heeft NOOA uitgebracht, een open-source bibliotheek die dat allemaal vervangt door één Python-klasse. **Een agent is een Python-klasse**: methoden zijn acties, docstrings worden instructies voor het model, en velden slaan de geheugeninhoud van de agent op.",
+        "Dit is niet alleen nettere code — het verlaagt ook de kosten. Agenten gebouwd met NOOA gebruiken ongeveer half zoveel tokens als vergelijkbare open-source frameworks — circa 1,1 miljoen per taak in plaats van 2,2 miljoen. Ze doen **gemiddeld 28 modeloproepen per taak, tegenover 66** bij vergelijkbare tools. Op SWE-bench Verified, de belangrijkste benchmark voor codeeragenten, scoorde NOOA 82,2% — beter dan de meeste open alternatieven.",
+        "De slimme truc zit in hoe NOOA data verwerkt. De meeste frameworks dumpen grote datastructuren in het contextvenster van het model — dat is duur en kan het model in de war brengen. NOOA houdt objecten actief in een Python-omgeving en toont het model alleen een korte samenvatting — zo'n 30 tokens per object. Het model werkt met echte, **live data zonder er door overweldigd te raken.** Twee uitvoeringsmodi zijn beschikbaar: één gestructureerde aanroep voor eenvoudigere taken, en een iteratieve lus waarbij het model code schrijft en uitvoert totdat de taak klaar is.",
+        "Elk team dat AI-software bouwt, zou NOOA vandaag moeten uitproberen. Het is Apache 2.0 gelicenseerd en met één commando te installeren: pip install nooa. Belangrijke kanttekening: het is nog een alpha-onderzoekspreview en de code-uitvoering is een beveiligingsrisico zonder isolatie. **Test het altijd in een container of VM** — nooit rechtstreeks op een productieserver. Voor prototyping, interne tools en codeerworkflows is dit nu een van de meest praktische startpunten."
+      ],
+      "keyFacts": [
+        { "value": "82,2%", "label": "score op de voornaamste codeeragent-benchmark" },
+        { "value": "Helft minder", "label": "tokens vs. vergelijkbare agent-frameworks" },
+        { "value": "28", "label": "modeloproepen per taak (vs. 66 bij vergelijkbare tools)" },
+        { "value": "Apache 2.0", "label": "open-source licentie" }
+      ]
+    },
+    "es": {
+      "title": "Construir un agente de IA es ahora una sola clase de Python",
+      "summary": "NVIDIA ha lanzado NOOA, un framework de código abierto que permite a cualquier desarrollador escribir un agente de IA completo como una única clase de Python — con aproximadamente la mitad del coste en tokens que las herramientas comparables.",
+      "body": [
+        "Construir agentes de IA — software que planifica y ejecuta tareas complejas de forma autónoma — ha requerido hasta ahora aprender frameworks complejos, escribir archivos de configuración separados y mucho código repetitivo. NVIDIA acaba de lanzar NOOA, una librería de código abierto que simplifica todo eso en una única clase de Python. **Un agente es una clase de Python**: los métodos son acciones, los docstrings se convierten en instrucciones para el modelo, y los campos almacenan la memoria del agente.",
+        "Esto no es solo código más limpio — también reduce los costes. Los agentes construidos con NOOA usan aproximadamente la mitad de tokens que frameworks de código abierto comparables — alrededor de 1,1 millones por tarea en lugar de 2,2 millones. Realizan **unas 28 llamadas al modelo por tarea, frente a 66** en herramientas similares. En SWE-bench Verified, el principal benchmark para agentes de codificación, NOOA obtuvo un 82,2% — por encima de la mayoría de las alternativas abiertas.",
+        "El truco clave está en cómo NOOA maneja los datos. La mayoría de los frameworks vuelcan grandes estructuras de datos directamente en la ventana de contexto del modelo — lo que es costoso y puede confundirlo. NOOA mantiene los objetos activos en un entorno Python y muestra al modelo solo un resumen breve — unos 30 tokens por objeto. El modelo actúa sobre datos reales y **en vivo sin verse desbordado por ellos.** Hay dos modos de ejecución: una llamada estructurada para tareas simples, y un bucle iterativo donde el modelo escribe y ejecuta código hasta completar la tarea.",
+        "Cualquier equipo que construya software con IA debería probarlo hoy. NOOA tiene licencia Apache 2.0 y se instala con un solo comando: pip install nooa. Advertencia importante: sigue siendo una versión alpha de investigación y la ejecución de código es un riesgo de seguridad sin aislamiento. **Pruébalo siempre dentro de un contenedor o VM** — nunca directamente en un servidor de producción. Para prototipos, herramientas internas y flujos de trabajo de codificación, es uno de los puntos de partida más prácticos disponibles ahora mismo."
+      ],
+      "keyFacts": [
+        { "value": "82,2%", "label": "puntuación en el principal benchmark de agentes de codificación" },
+        { "value": "La mitad", "label": "de tokens vs. frameworks de agentes comparables" },
+        { "value": "28", "label": "llamadas al modelo por tarea (vs. 66 en herramientas similares)" },
+        { "value": "Apache 2.0", "label": "licencia de código abierto" }
+      ]
+    },
+    "fr": {
+      "title": "Un agent IA, c'est désormais une simple classe Python",
+      "summary": "NVIDIA a publié NOOA, un framework open source qui permet à tout développeur d'écrire un agent IA complet sous forme d'une seule classe Python — pour environ deux fois moins de tokens que les outils comparables.",
+      "body": [
+        "Construire des agents IA — des logiciels qui planifient et exécutent des tâches complexes de manière autonome — nécessitait jusqu'ici d'apprendre des frameworks lourds, d'écrire des fichiers de configuration séparés et beaucoup de code répétitif. NVIDIA vient de publier NOOA, une bibliothèque open source qui remplace tout cela par une seule classe Python. **Un agent est une classe Python** : les méthodes sont des actions, les docstrings deviennent les instructions du modèle, et les champs stockent la mémoire de l'agent.",
+        "Ce n'est pas seulement du code plus propre — cela réduit aussi les coûts. Les agents construits avec NOOA consomment environ deux fois moins de tokens que les frameworks open source comparables — environ 1,1 million par tâche au lieu de 2,2 millions. Ils effectuent **environ 28 appels au modèle par tâche, contre 66** pour des outils similaires. Sur SWE-bench Verified, le principal benchmark pour les agents de codage, NOOA a obtenu 82,2% — devant la plupart des alternatives open source.",
+        "L'astuce clé réside dans la gestion des données. La plupart des frameworks chargent de grandes structures de données directement dans la fenêtre de contexte du modèle — c'est coûteux et peut perturber le modèle. NOOA maintient les objets actifs dans un environnement Python et ne montre au modèle qu'un bref résumé — environ 30 tokens par objet. Le modèle agit sur des **données réelles et vivantes sans en être submergé.** Deux modes d'exécution sont disponibles : un appel structuré unique pour les tâches simples, et une boucle itérative où le modèle écrit et exécute du code jusqu'à l'achèvement de la tâche.",
+        "Toute équipe qui développe des logiciels alimentés par l'IA devrait tester NOOA dès aujourd'hui. Il est sous licence Apache 2.0 et s'installe en une seule commande : pip install nooa. Mise en garde importante : c'est encore une préversion de recherche alpha, et l'exécution de code est un risque de sécurité sans isolation. **Testez-le toujours dans un conteneur ou une VM** — jamais directement sur un serveur de production. Pour les prototypes, les outils internes et les workflows de codage, c'est l'un des points de départ les plus pratiques disponibles aujourd'hui."
+      ],
+      "keyFacts": [
+        { "value": "82,2%", "label": "score sur le principal benchmark d'agents de codage" },
+        { "value": "Deux fois moins", "label": "de tokens vs. frameworks d'agents comparables" },
+        { "value": "28", "label": "appels au modèle par tâche (vs. 66 pour des outils similaires)" },
+        { "value": "Apache 2.0", "label": "licence open source" }
+      ]
+    },
+    "ar": {
+      "title": "بناء وكيل ذكاء اصطناعي بات مجرد كلاس Python واحد",
+      "summary": "أطلقت NVIDIA إطار العمل NOOA مفتوح المصدر، الذي يتيح لأي مطور كتابة وكيل ذكاء اصطناعي كامل بكلاس Python واحد — بنصف تكلفة الرموز تقريبًا مقارنةً بالأدوات المماثلة.",
+      "body": [
+        "بناء وكلاء الذكاء الاصطناعي — البرمجيات التي تخطط وتنفذ مهام متعددة الخطوات بصورة مستقلة — كان يستلزم تعلم أطر عمل معقدة وكتابة ملفات إعداد منفصلة وكميات كبيرة من الكود المتكرر. أطلقت NVIDIA للتو NOOA، مكتبة مفتوحة المصدر تختصر كل ذلك في كلاس Python واحد. **الوكيل هو كلاس Python**: الدوال هي الإجراءات، والـ docstrings تصبح تعليمات للنموذج، والحقول تحفظ ذاكرة الوكيل.",
+        "هذا ليس مجرد كود أنظف — بل يخفض التكاليف أيضًا. يستهلك الوكلاء المبنيون بـ NOOA نصف عدد الرموز تقريبًا مقارنةً بأطر المصدر المفتوح المماثلة — نحو 1.1 مليون رمز للمهمة الواحدة بدلاً من 2.2 مليون. كما ينفذون **نحو 28 استدعاءً للنموذج لكل مهمة، مقابل 66** في الأدوات المشابهة. على معيار SWE-bench Verified، أهم مقياس لوكلاء البرمجة، حقق NOOA نسبة 82.2% — متفوقًا على معظم البدائل المفتوحة.",
+        "السر الجوهري هو طريقة NOOA في التعامل مع البيانات. معظم الأطر تكدس هياكل البيانات الكبيرة مباشرةً في نافذة السياق للنموذج — وهو أمر مكلف وقد يربكه. تحافظ NOOA على الكائنات حية في بيئة Python وتعرض للنموذج ملخصًا مختصرًا فحسب — نحو 30 رمزًا لكل كائن. يعمل النموذج على **بيانات حقيقية وحية دون أن تُرهقه.** يتوفر وضعان للتنفيذ: استدعاء منظم واحد للمهام البسيطة، وحلقة تكرارية يكتب فيها النموذج الكود وينفذه حتى اكتمال المهمة.",
+        "لكل فريق يبني برمجيات مدعومة بالذكاء الاصطناعي، يستحق NOOA التجربة اليوم. ترخيصه Apache 2.0 ويُثبَّت بأمر واحد: pip install nooa. تنبيه مهم: لا يزال نسخة بحثية تجريبية، وتنفيذ الكود دون عزل يُشكّل خطرًا أمنيًا. **جربه دائمًا داخل حاوية أو آلة افتراضية** — لا على خادم إنتاجي مباشرة. لأعمال النمذجة الأولية والأدوات الداخلية وسير عمل البرمجة، يُعد هذا أحد أعملي نقاط البداية المتاحة حاليًا."
+      ],
+      "keyFacts": [
+        { "value": "82.2%", "label": "نسبة النجاح في أهم معيار لوكلاء البرمجة" },
+        { "value": "نصف التكلفة", "label": "رموز أقل مقارنةً بأطر العمل المماثلة" },
+        { "value": "28", "label": "استدعاءً للنموذج لكل مهمة (مقابل 66 في الأدوات المشابهة)" },
+        { "value": "Apache 2.0", "label": "رخصة مفتوحة المصدر" }
+      ]
+    }
+  }
+}
