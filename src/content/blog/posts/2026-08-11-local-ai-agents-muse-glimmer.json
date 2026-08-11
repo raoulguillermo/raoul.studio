@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-11-local-ai-agents-muse-glimmer",
+  "date": "2026-08-11",
+  "tags": ["ai", "open-source", "agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "MarkTechPost — Meta AI Releases Muse Glimmer: A 30B Open-Weights Agentic Model That Runs on One Consumer GPU",
+      "url": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/"
+    },
+    {
+      "title": "DEV Community — Meta's Muse Glimmer: A 30B Open-Weight Model Built for Local AI Agents",
+      "url": "https://dev.to/jamilxt/metas-muse-glimmer-a-30b-open-weight-model-built-for-local-ai-agents-dkj"
+    },
+    {
+      "title": "AI Weekly — AI News Today, August 10, 2026",
+      "url": "https://aiweekly.co/ai-news-today"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The AI That Runs on Your Own Machine Is Now Good Enough to Matter",
+      "summary": "Meta's new open model runs on a single consumer GPU, handles complex agent tasks, and costs nothing per query — a real shift for any business that cares about privacy or API bills.",
+      "body": [
+        "Until last week, running a genuinely capable AI agent meant sending your data to someone else's server and paying for every query. Meta changed that on August 10 when it released Muse Glimmer — **a capable AI that runs entirely on your own hardware**. It is free to use commercially under the Apache 2.0 license. No monthly fees, no per-token charges, no usage caps.",
+        "Muse Glimmer has 30 billion parameters — a measure of how much it has learned. That is large enough to handle real work: calling tools, reading long documents, writing and running code, and judging its own outputs. On the main agent benchmark (MCP Atlas), it scores 75.5, against 54.2 for Google's Gemma4-31B and 62.5 for Qwen3.6-27B. **It beats similar-sized rivals at the work agents actually do.** It fits on a 24 GB graphics card — the kind found in a mid-range gaming PC or a recent MacBook Pro.",
+        "For businesses in law, finance, or health, the privacy angle is the biggest deal. Every document you send to a cloud AI is data you hand to another company's server. With Muse Glimmer, **your data never has to leave your building.** A law firm can run contract-review agents, a fintech team can check compliance logic, a clinic can analyse patient notes — all on a machine they own and control.",
+        "The cost model changes too. Cloud APIs charge by the token — the small chunks of text the model reads and writes. An agent that retries, loops, or runs hundreds of checks a day can rack up a surprising bill. With a local model, **the cost becomes fixed**: buy the hardware once, run it as much as you need. If your agent volume is growing or your data is sensitive, Muse Glimmer is worth a test run this week — the weights are free to download from Hugging Face."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "parameters in the model" },
+        { "value": "24 GB", "label": "GPU memory needed to run it" },
+        { "value": "75.5", "label": "agent benchmark score (MCP Atlas)" },
+        { "value": "Apache 2.0", "label": "license — free for commercial use" }
+      ]
+    },
+    "de": {
+      "title": "Das KI-Modell, das auf Ihrem eigenen Rechner läuft, ist jetzt gut genug, um relevant zu sein",
+      "summary": "Metas neues offenes Modell läuft auf einer einzelnen Consumer-Grafikkarte, bewältigt komplexe Agentenaufgaben und kostet nichts pro Anfrage — ein echter Wendepunkt für Unternehmen, denen Datenschutz oder API-Kosten wichtig sind.",
+      "body": [
+        "Bis letzte Woche bedeutete der Betrieb eines wirklich leistungsfähigen KI-Agenten: Daten an einen fremden Server schicken und für jede Anfrage zahlen. Meta hat das am 10. August mit der Veröffentlichung von Muse Glimmer geändert — **ein leistungsfähiges KI-Modell, das vollständig auf Ihrer eigenen Hardware läuft**. Es ist unter der Apache-2.0-Lizenz kostenlos für kommerzielle Zwecke nutzbar. Keine monatlichen Gebühren, keine Token-Kosten, keine Nutzungslimits.",
+        "Muse Glimmer hat 30 Milliarden Parameter — ein Maß dafür, wie viel es gelernt hat. Das ist groß genug für echte Arbeit: Tools aufrufen, lange Dokumente lesen, Code schreiben und ausführen und die eigenen Ausgaben beurteilen. Beim wichtigsten Agenten-Benchmark (MCP Atlas) erzielt es 75,5 Punkte, gegenüber 54,2 für Googles Gemma4-31B und 62,5 für Qwen3.6-27B. **Es übertrifft gleich große Konkurrenten bei den Aufgaben, die Agenten wirklich erledigen.** Es passt auf eine 24-GB-Grafikkarte — wie sie in einem mittelklassigen Gaming-PC oder einem aktuellen MacBook Pro zu finden ist.",
+        "Für Unternehmen in Recht, Finanzen oder Gesundheit ist das Datenschutzargument am gewichtigsten. Jedes Dokument, das Sie an eine Cloud-KI senden, ist Daten, die Sie dem Server eines anderen Unternehmens übergeben haben. Mit Muse Glimmer **müssen Ihre Daten Ihr Unternehmen nie verlassen**. Eine Anwaltskanzlei kann Vertragsanalyse-Agenten betreiben, ein Fintech-Team kann Compliance-Logik prüfen, eine Klinik kann Patientennotizen analysieren — alles auf einem Rechner, den sie besitzen und kontrollieren.",
+        "Das Kostenmodell ändert sich ebenfalls. Cloud-APIs berechnen nach Token — den kleinen Textstücken, die das Modell liest und schreibt. Ein Agent, der wiederholt versucht, in Schleifen läuft oder täglich Hunderte von Prüfungen durchführt, kann überraschend hohe Kosten verursachen. Bei einem lokalen Modell **werden die Kosten zu einer festen Größe**: Hardware einmal kaufen, so oft nutzen wie nötig. Wenn Ihr Agentenvolumen wächst oder Ihre Daten sensibel sind, lohnt sich ein Test mit Muse Glimmer diese Woche — die Gewichte sind kostenlos von Hugging Face herunterzuladen."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "Parameter im Modell" },
+        { "value": "24 GB", "label": "GPU-Speicher zum Betrieb erforderlich" },
+        { "value": "75.5", "label": "Agenten-Benchmark-Wert (MCP Atlas)" },
+        { "value": "Apache 2.0", "label": "Lizenz — kostenlos für kommerzielle Nutzung" }
+      ]
+    },
+    "nl": {
+      "title": "De AI die op je eigen machine draait is nu goed genoeg om er toe te doen",
+      "summary": "Meta's nieuwe open model draait op één consumer-GPU, handelt complexe agenten-taken af en kost niets per aanvraag — een echte kentering voor bedrijven die privacy of API-kosten serieus nemen.",
+      "body": [
+        "Tot vorige week betekende het draaien van een écht capabele AI-agent: je data sturen naar andermans server en betalen voor elke aanvraag. Meta veranderde dat op 10 augustus met de release van Muse Glimmer — **een capabele AI die volledig op je eigen hardware draait**. Het is gratis voor commercieel gebruik onder de Apache 2.0-licentie. Geen maandelijkse kosten, geen kosten per token, geen gebruikslimieten.",
+        "Muse Glimmer heeft 30 miljard parameters — een maat voor hoeveel het heeft geleerd. Dat is groot genoeg voor echt werk: tools aanroepen, lange documenten lezen, code schrijven en uitvoeren, en de eigen output beoordelen. Op de belangrijkste agenten-benchmark (MCP Atlas) scoort het 75.5, tegenover 54.2 voor Google's Gemma4-31B en 62.5 voor Qwen3.6-27B. **Het presteert beter dan vergelijkbare modellen bij het werk dat agenten echt doen.** Het past op een 24 GB grafische kaart — zoals je vindt in een middenklasse gaming-pc of een recente MacBook Pro.",
+        "Voor bedrijven in recht, financiën of zorg is het privacy-argument het grootst. Elk document dat je naar een cloud-AI stuurt, is data die je aan de server van een ander bedrijf overhandigt. Met Muse Glimmer **hoeft je data je gebouw nooit te verlaten**. Een advocatenkantoor kan agenten voor contractreview draaien, een fintech-team kan compliancelogica controleren, een kliniek kan patiëntaantekeningen analyseren — allemaal op een machine die ze zelf bezitten en beheren.",
+        "Het kostenmodel verandert ook. Cloud-API's rekenen per token — de kleine stukjes tekst die het model leest en schrijft. Een agent die opnieuw probeert, in loops draait of honderden controles per dag uitvoert, kan een verrassend hoge rekening opleveren. Met een lokaal model **worden de kosten vast**: hardware eenmalig aanschaffen, zo veel gebruiken als nodig. Als je agentvolume groeit of je data gevoelig is, is Muse Glimmer deze week een test waard — de gewichten zijn gratis te downloaden van Hugging Face."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "parameters in het model" },
+        { "value": "24 GB", "label": "GPU-geheugen nodig om het te draaien" },
+        { "value": "75.5", "label": "agenten-benchmarkscore (MCP Atlas)" },
+        { "value": "Apache 2.0", "label": "licentie — gratis voor commercieel gebruik" }
+      ]
+    },
+    "es": {
+      "title": "La IA que corre en tu propia máquina ya es suficientemente buena para importar",
+      "summary": "El nuevo modelo abierto de Meta funciona en una sola GPU de consumo, maneja tareas complejas de agentes y no cuesta nada por consulta — un cambio real para cualquier negocio que cuide su privacidad o sus facturas de API.",
+      "body": [
+        "Hasta la semana pasada, ejecutar un agente de IA verdaderamente capaz significaba una cosa: enviar tus datos al servidor de otra empresa y pagar por cada consulta. Meta cambió eso el 10 de agosto con el lanzamiento de Muse Glimmer — **una IA capaz que funciona completamente en tu propio hardware**. Es de uso comercial gratuito bajo la licencia Apache 2.0. Sin cuotas mensuales, sin cargos por token, sin límites de uso.",
+        "Muse Glimmer tiene 30 mil millones de parámetros — una medida de cuánto ha aprendido. Eso es suficientemente grande para trabajo real: llamar herramientas, leer documentos largos, escribir y ejecutar código, y evaluar sus propias salidas. En el principal benchmark de agentes (MCP Atlas), obtiene 75.5, frente a 54.2 de Gemma4-31B de Google y 62.5 de Qwen3.6-27B. **Supera a rivales del mismo tamaño en las tareas que los agentes realmente realizan.** Cabe en una tarjeta gráfica de 24 GB — del tipo que se encuentra en un PC de gaming de gama media o un MacBook Pro reciente.",
+        "Para empresas en derecho, finanzas o salud, el argumento de privacidad es el más importante. Cada documento que envías a una IA en la nube es información que le entregas al servidor de otra compañía. Con Muse Glimmer, **tus datos nunca tienen que salir de tu edificio**. Un bufete puede ejecutar agentes de revisión de contratos, un equipo fintech puede verificar lógica de cumplimiento, una clínica puede analizar notas de pacientes — todo en una máquina que poseen y controlan.",
+        "El modelo de costos también cambia. Las API en la nube cobran por token — los pequeños fragmentos de texto que el modelo lee y escribe. Un agente que reintenta, entra en bucles o ejecuta cientos de verificaciones al día puede generar una factura sorprendentemente alta. Con un modelo local, **el costo se vuelve fijo**: compra el hardware una vez, úsalo tanto como necesites. Si tu volumen de agentes está creciendo o tus datos son sensibles, Muse Glimmer vale la pena probarlo esta semana — los pesos son gratuitos para descargar desde Hugging Face."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "parámetros del modelo" },
+        { "value": "24 GB", "label": "memoria GPU necesaria para ejecutarlo" },
+        { "value": "75.5", "label": "puntuación en benchmark de agentes (MCP Atlas)" },
+        { "value": "Apache 2.0", "label": "licencia — gratuita para uso comercial" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA qui tourne sur votre propre machine est désormais assez bonne pour compter",
+      "summary": "Le nouveau modèle ouvert de Meta fonctionne sur un seul GPU grand public, gère des tâches complexes d'agents et ne coûte rien par requête — un vrai changement pour toute entreprise soucieuse de confidentialité ou de factures API.",
+      "body": [
+        "Jusqu'à la semaine dernière, faire tourner un agent IA vraiment capable signifiait une chose : envoyer vos données sur le serveur d'une autre entreprise et payer pour chaque requête. Meta a changé cela le 10 août avec la sortie de Muse Glimmer — **une IA capable qui fonctionne entièrement sur votre propre matériel**. Elle est libre d'utilisation commerciale sous licence Apache 2.0. Pas d'abonnement mensuel, pas de frais par token, pas de limites d'usage.",
+        "Muse Glimmer compte 30 milliards de paramètres — une mesure de ce qu'il a appris. C'est suffisamment grand pour du vrai travail : appeler des outils, lire de longs documents, écrire et exécuter du code, et évaluer ses propres résultats. Sur le principal benchmark d'agents (MCP Atlas), il obtient 75.5, contre 54.2 pour Gemma4-31B de Google et 62.5 pour Qwen3.6-27B. **Il surpasse les modèles de taille similaire sur les tâches que les agents font vraiment.** Il tient sur une carte graphique de 24 Go — comme on en trouve dans un PC de jeu milieu de gamme ou un MacBook Pro récent.",
+        "Pour les entreprises du droit, de la finance ou de la santé, l'argument de confidentialité est le plus important. Chaque document que vous envoyez à une IA cloud est une donnée que vous confiez au serveur d'une autre société. Avec Muse Glimmer, **vos données n'ont jamais à quitter vos locaux**. Un cabinet d'avocats peut faire tourner des agents d'analyse de contrats, une équipe fintech peut vérifier la logique de conformité, une clinique peut analyser des notes de patients — tout cela sur une machine qu'elle possède et contrôle.",
+        "Le modèle économique change aussi. Les API cloud facturent au token — les petits morceaux de texte que le modèle lit et écrit. Un agent qui réessaie, tourne en boucle ou effectue des centaines de vérifications par jour peut générer une facture étonnamment élevée. Avec un modèle local, **le coût devient fixe** : achetez le matériel une fois, utilisez-le autant que nécessaire. Si votre volume d'agents augmente ou si vos données sont sensibles, Muse Glimmer mérite un test cette semaine — les poids sont gratuits à télécharger sur Hugging Face."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "paramètres du modèle" },
+        { "value": "24 GB", "label": "mémoire GPU nécessaire" },
+        { "value": "75.5", "label": "score benchmark agents (MCP Atlas)" },
+        { "value": "Apache 2.0", "label": "licence — gratuite pour usage commercial" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي الذي يعمل على جهازك الخاص أصبح الآن جيدًا بما يكفي ليُحدث فرقًا",
+      "summary": "نموذج ميتا المفتوح الجديد يعمل على بطاقة رسومية واحدة للمستهلكين، ويتعامل مع مهام الوكلاء المعقدة دون تكلفة لكل استعلام — تحوّل حقيقي لأي عمل يهتم بالخصوصية أو فواتير واجهة برمجة التطبيقات.",
+      "body": [
+        "حتى الأسبوع الماضي، كان تشغيل وكيل ذكاء اصطناعي قادر حقًا يعني شيئًا واحدًا: إرسال بياناتك إلى خادم شركة أخرى والدفع مقابل كل استعلام. غيّرت ميتا ذلك في العاشر من أغسطس بإطلاق Muse Glimmer — **نموذج ذكاء اصطناعي قادر يعمل بالكامل على أجهزتك الخاصة**. وهو متاح للاستخدام التجاري المجاني بموجب رخصة Apache 2.0. لا رسوم شهرية، ولا تكاليف لكل رمز، ولا حدود للاستخدام.",
+        "يحتوي Muse Glimmer على 30 مليار معامل — مقياس لما تعلّمه. هذا كافٍ للعمل الحقيقي: استدعاء الأدوات، وقراءة المستندات الطويلة، وكتابة الكود وتنفيذه، وتقييم مخرجاته الخاصة. في المعيار الرئيسي للوكلاء (MCP Atlas)، يحصل على 75.5، مقارنة بـ 54.2 لـ Gemma4-31B من Google و62.5 لـ Qwen3.6-27B. **يتفوق على المنافسين المماثلين في المهام التي تؤديها وكلاء الذكاء الاصطناعي فعليًا**. يتناسب مع بطاقة رسومات سعتها 24 جيجابايت — من النوع الموجود في حاسوب ألعاب متوسط المستوى أو MacBook Pro حديث.",
+        "بالنسبة للشركات في مجالات القانون والمال والصحة، تبرز قيمة الخصوصية أكثر من غيرها. كل مستند ترسله إلى ذكاء اصطناعي سحابي هو بيانات تسلّمها لخادم شركة أخرى. مع Muse Glimmer، **بياناتك لا تغادر مبناك أبدًا**. يمكن لمكتب محاماة تشغيل وكلاء لمراجعة العقود، ويمكن لفريق تقنية مالية التحقق من منطق الامتثال، ويمكن لعيادة تحليل ملاحظات المرضى — كل ذلك على جهاز يمتلكونه ويتحكمون فيه.",
+        "يتغير نموذج التكلفة أيضًا. تفرض واجهات برمجة التطبيقات السحابية رسومًا لكل رمز — القطع الصغيرة من النص التي يقرأها النموذج ويكتبها. يمكن لوكيل يعيد المحاولة أو يعمل في حلقات أو ينفّذ مئات الفحوصات يوميًا أن يُراكم فاتورة مفاجئة. مع نموذج محلي، **تصبح التكلفة ثابتة**: اشترِ الجهاز مرة واحدة، واستخدمه بقدر ما تحتاج. إذا كان حجم وكلائك في ازدياد أو كانت بياناتك حساسة، فإن Muse Glimmer يستحق التجربة هذا الأسبوع — الأوزان متاحة للتنزيل مجانًا من Hugging Face."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "معامل في النموذج" },
+        { "value": "24 GB", "label": "ذاكرة GPU المطلوبة لتشغيله" },
+        { "value": "75.5", "label": "درجة معيار الوكلاء (MCP Atlas)" },
+        { "value": "Apache 2.0", "label": "الرخصة — مجانية للاستخدام التجاري" }
+      ]
+    }
+  }
+}
