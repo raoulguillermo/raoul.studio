@@ -1,0 +1,109 @@
+{
+  "slug": "2026-08-14-meta-muse-glimmer-local-ai",
+  "date": "2026-08-14",
+  "tags": ["ai", "open-source"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "MarkTechPost — Meta AI Releases Muse Glimmer: A 30B Open-Weights Agentic Model That Runs on One Consumer GPU", "url": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/" },
+    { "title": "Phoronix — Meta Publishes Muse Glimmer As 30B Open Agentic Model", "url": "https://www.phoronix.com/news/Meta-Muse-Glimmer" },
+    { "title": "AI Weekly — Meta open-sources Muse Glimmer, a 30B on-device agent model", "url": "https://aiweekly.co/alerts/meta-open-sources-muse-glimmer-a-30b-on-device-agent-model" }
+  ],
+  "locales": {
+    "en": {
+      "title": "When a Powerful AI Costs Nothing Per Use",
+      "summary": "Meta just released a powerful AI that anyone can run on their own hardware for free, and that changes how much it costs to build AI-powered products.",
+      "body": [
+        "Running a capable AI used to mean paying an API bill every time it ran — fractions of a cent per chunk of text, and those fractions **add up fast at scale**. Meta released Muse Glimmer on August 10 under an Apache 2.0 license: a 30-billion-parameter model built for real agentic tasks, free to use commercially, and designed to run on a single consumer graphics card.",
+        "Muse Glimmer is built for the kind of work where an AI takes a goal, breaks it into steps, calls tools, and keeps going until it is done. It handles text and images, supports **coding, document analysis, and function-calling**, and fits on a 24 GB graphics card after compression. Meta reports a SWE-Bench Pro score of 51.2 — a benchmark that measures how well the model fixes real software bugs — which puts it in range of paid frontier models.",
+        "Apache 2.0 is the important part. Many 'open' AI models carry restrictions: no commercial use above a certain scale, no modifications. Apache 2.0 has none of those. For teams where **data must stay on your own servers** — in finance, law, or healthcare — this is the first time a model this capable has been available without strings attached.",
+        "The practical step is to run a cost comparison. Muse Glimmer will not beat the biggest paid models on every task, but for internal tools, coding assistants, or workflows that fire hundreds of times a day, **running your own model may now cost less** than paying per token. It is available now on Hugging Face and works with ollama 0.32.7 and later."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "parameters, distilled to fit a single GPU" },
+        { "value": "Apache 2.0", "label": "license — free for commercial use" },
+        { "value": "24 GB", "label": "GPU memory to run it on your own hardware" },
+        { "value": "51.2", "label": "coding benchmark score (SWE-Bench Pro)" }
+      ]
+    },
+    "de": {
+      "title": "Wenn ein leistungsfähiges KI-Modell nichts pro Anfrage kostet",
+      "summary": "Meta hat ein leistungsstarkes KI-Modell veröffentlicht, das jeder kostenlos auf eigener Hardware betreiben kann — das könnte die Kosten für KI-Produkte deutlich senken.",
+      "body": [
+        "Einen leistungsfähigen KI-Dienst zu nutzen bedeutete bisher immer, pro Anfrage zu bezahlen — winzige Beträge pro Textabschnitt, die sich **bei hohem Volumen schnell summieren**. Meta veröffentlichte Muse Glimmer am 10. August unter der Apache-2.0-Lizenz: ein 30-Milliarden-Parameter-Modell für echte agentische Aufgaben, kostenlos für die kommerzielle Nutzung und konzipiert für den Betrieb auf einer einzelnen Consumer-Grafikkarte.",
+        "Muse Glimmer ist für die Arbeit ausgelegt, bei der eine KI ein Ziel übernimmt, es in Schritte aufteilt, Tools aufruft und so lange weitermacht, bis alles erledigt ist. Es verarbeitet Text und Bilder, unterstützt **Coding, Dokumentenanalyse und Funktionsaufrufe** und passt nach Komprimierung auf eine 24-GB-Grafikkarte. Meta meldet einen SWE-Bench-Pro-Score von 51,2 — ein Benchmark, der misst, wie gut das Modell echte Software-Bugs behebt — und liegt damit im Bereich kostenpflichtiger Frontier-Modelle.",
+        "Apache 2.0 ist der entscheidende Punkt. Viele 'offene' KI-Modelle tragen Einschränkungen: keine kommerzielle Nutzung ab einer bestimmten Größe, keine Modifikationen. Apache 2.0 hat keine davon. Für Teams, bei denen **Daten auf eigenen Servern bleiben müssen** — in Fintech, Recht oder Gesundheitswesen — ist es das erste Mal, dass ein Modell dieser Leistungsklasse ohne Bedingungen verfügbar ist.",
+        "Der praktische Schritt ist ein Kostenvergleich. Muse Glimmer schlägt die größten kostenpflichtigen Modelle nicht bei jeder Aufgabe, aber für interne Tools, Coding-Assistenten oder Workflows, die hunderte Male täglich laufen, **kann das eigene Modell jetzt günstiger sein** als ein bezahlter API-Dienst. Es ist jetzt auf Hugging Face verfügbar und funktioniert mit ollama 0.32.7 und höher."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "Parameter, verdichtet für eine einzelne GPU" },
+        { "value": "Apache 2.0", "label": "Lizenz — kostenlos für kommerzielle Nutzung" },
+        { "value": "24 GB", "label": "GPU-Speicher für den lokalen Betrieb" },
+        { "value": "51.2", "label": "Coding-Benchmark-Score (SWE-Bench Pro)" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer een krachtig AI-model niets per aanvraag kost",
+      "summary": "Meta heeft een krachtig AI-model uitgebracht dat iedereen gratis op eigen hardware kan draaien — dat verandert hoeveel het kost om AI-producten te bouwen.",
+      "body": [
+        "Een krachtige AI inzetten betekende altijd een API-rekening betalen — kleine fracties per tekstfragment, maar die **lopen snel op bij grote volumes**. Meta bracht Muse Glimmer uit op 10 augustus onder een Apache 2.0-licentie: een model van 30 miljard parameters, gebouwd voor echte agentische taken, gratis voor commercieel gebruik en ontworpen om op één consumentengrafische kaart te draaien.",
+        "Muse Glimmer is gebouwd voor werk waarbij een AI een doel oppakt, het opsplitst in stappen, tools aanroept en doorgaat totdat het klaar is. Het verwerkt tekst en afbeeldingen, ondersteunt **codering, documentanalyse en functieaanroepen** en past na compressie op een 24 GB grafische kaart. Meta rapporteert een SWE-Bench Pro-score van 51,2 — een benchmark die meet hoe goed het model echte softwarefouten oplost — wat het in de buurt brengt van betaalde frontiermodellen.",
+        "Apache 2.0 is het cruciale punt. Veel 'open' AI-modellen beperken commercieel gebruik boven een bepaalde schaal of staan geen aanpassingen toe. Dit model niet. Voor teams waarbij **data op eigen servers moet blijven** — in fintech, juridische diensten of zorg — is dit de eerste keer dat een model van dit niveau zonder beperkingen beschikbaar is.",
+        "De praktische stap is een kostenvergelijking maken. Muse Glimmer verslaat de grootste betaalde modellen niet bij elke taak, maar voor interne tools, codeerassistenten of workflows die honderden keren per dag worden uitgevoerd, **kan een eigen model nu goedkoper zijn** dan betalen per token. Het staat nu op Hugging Face en werkt met ollama 0.32.7 en later."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "parameters, samengeperst voor één GPU" },
+        { "value": "Apache 2.0", "label": "licentie — vrij voor commercieel gebruik" },
+        { "value": "24 GB", "label": "GPU-geheugen om lokaal te draaien" },
+        { "value": "51.2", "label": "codering-benchmarkscore (SWE-Bench Pro)" }
+      ]
+    },
+    "es": {
+      "title": "Cuando un modelo de IA potente no cuesta nada por uso",
+      "summary": "Meta lanzó un potente modelo de IA que cualquiera puede ejecutar gratis en su propio hardware, lo que cambia cuánto cuesta construir productos con IA.",
+      "body": [
+        "Usar una IA capaz significaba antes pagar una factura de API cada vez — fracciones de céntimo por fragmento de texto, y esas fracciones **se acumulan rápido a escala**. Meta lanzó Muse Glimmer el 10 de agosto con licencia Apache 2.0: un modelo de 30.000 millones de parámetros pensado para tareas agénticas reales, libre para uso comercial y diseñado para correr en una sola tarjeta gráfica de consumo.",
+        "Muse Glimmer está hecho para el trabajo donde una IA toma un objetivo, lo divide en pasos, llama a herramientas y sigue hasta terminar. Procesa texto e imágenes, soporta **programación, análisis de documentos y llamadas a funciones**, y cabe en una tarjeta gráfica de 24 GB tras la compresión. Meta reporta una puntuación de 51,2 en SWE-Bench Pro — un benchmark que mide qué tan bien el modelo corrige errores reales de software — lo que lo sitúa cerca de los modelos de pago más avanzados.",
+        "La licencia Apache 2.0 es el punto clave. Muchos modelos de IA 'abiertos' restringen el uso comercial a partir de cierta escala o no permiten modificaciones. Este no tiene esas restricciones. Para equipos donde **los datos deben quedarse en tus propios servidores** — en fintech, derecho o salud — es la primera vez que un modelo tan capaz está disponible sin condiciones.",
+        "El paso práctico es hacer una comparación de costos. Muse Glimmer no supera a los grandes modelos de pago en todas las tareas, pero para herramientas internas, asistentes de código o flujos de trabajo que se ejecutan cientos de veces al día, **tener tu propio modelo puede costar menos** que pagar por token. Ya está en Hugging Face y funciona con ollama 0.32.7 en adelante."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "parámetros, comprimido para una sola GPU" },
+        { "value": "Apache 2.0", "label": "licencia — gratis para uso comercial" },
+        { "value": "24 GB", "label": "memoria GPU para ejecutarlo localmente" },
+        { "value": "51.2", "label": "puntuación en benchmark de programación (SWE-Bench Pro)" }
+      ]
+    },
+    "fr": {
+      "title": "Quand un modèle d'IA puissant ne coûte rien par requête",
+      "summary": "Meta a publié un modèle d'IA puissant que n'importe qui peut faire tourner gratuitement sur ses propres machines, ce qui change combien coûte la création de produits IA.",
+      "body": [
+        "Utiliser une IA capable voulait dire payer une facture d'API à chaque exécution — des fractions de centime par fragment de texte qui **s'accumulent vite à grande échelle**. Meta a publié Muse Glimmer le 10 août sous licence Apache 2.0 : un modèle de 30 milliards de paramètres pensé pour des tâches agentiques réelles, libre pour un usage commercial et conçu pour tourner sur une seule carte graphique grand public.",
+        "Muse Glimmer est construit pour les tâches où une IA doit prendre un objectif, le décomposer en étapes, appeler des outils et continuer jusqu'à la fin. Il traite texte et images, gère **le code, l'analyse de documents et les appels de fonctions**, et tient sur une carte graphique de 24 Go après compression. Meta annonce un score de 51,2 sur SWE-Bench Pro — un benchmark qui mesure la capacité du modèle à corriger de vrais bugs logiciels — ce qui le place dans la même gamme que des modèles payants avancés.",
+        "La licence Apache 2.0 est l'essentiel. Beaucoup de modèles d'IA dits 'ouverts' restreignent l'usage commercial au-delà d'une certaine taille ou interdisent les modifications. Celui-ci n'a pas ces limites. Pour les équipes où **les données ne peuvent pas quitter vos propres serveurs** — en fintech, droit ou santé — c'est la première fois qu'un modèle aussi performant est disponible sans conditions.",
+        "La démarche pratique est de comparer les coûts. Muse Glimmer ne bat pas les grands modèles payants sur toutes les tâches, mais pour des outils internes, des assistants de code ou des workflows qui tournent des centaines de fois par jour, **utiliser son propre modèle peut revenir moins cher** que payer au token. Il est disponible sur Hugging Face et fonctionne avec ollama 0.32.7 et versions ultérieures."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "paramètres, compressé pour un seul GPU" },
+        { "value": "Apache 2.0", "label": "licence — libre pour usage commercial" },
+        { "value": "24 GB", "label": "mémoire GPU pour le faire tourner localement" },
+        { "value": "51.2", "label": "score sur le benchmark de code (SWE-Bench Pro)" }
+      ]
+    },
+    "ar": {
+      "title": "حين لا يُكلّفك الذكاء الاصطناعي القوي شيئاً لكل استخدام",
+      "summary": "أطلقت ميتا نموذج ذكاء اصطناعي قوياً يمكن لأي شخص تشغيله مجاناً على أجهزته الخاصة، مما يغيّر تكاليف بناء المنتجات المعتمدة على الذكاء الاصطناعي.",
+      "body": [
+        "استخدام الذكاء الاصطناعي القوي كان يعني دائماً دفع فاتورة لكل طلب — كسور صغيرة من السنت لكل مقطع نصي، وهذه الكسور **تتراكم بسرعة على نطاق واسع**. أطلقت ميتا نموذج Muse Glimmer في العاشر من أغسطس تحت رخصة Apache 2.0: نموذج بـ30 مليار معامل مصمم لأداء مهام وكيلية حقيقية، مجاني للاستخدام التجاري، ومصمم للعمل على بطاقة رسومات استهلاكية واحدة.",
+        "صُمّم Muse Glimmer للعمل الذي يحتاج فيه الذكاء الاصطناعي إلى تحديد هدف وتقسيمه إلى خطوات واستدعاء أدوات والمتابعة حتى الانتهاء. يعالج النصوص والصور، ويدعم **البرمجة وتحليل المستندات واستدعاء الدوال**، ويعمل على بطاقة رسومات بسعة 24 جيجابايت بعد الضغط. تُفيد ميتا بتحقيقه درجة 51.2 على معيار SWE-Bench Pro — الذي يقيس قدرة النموذج على تصحيح أخطاء برامج حقيقية — مما يضعه في مستوى النماذج التجارية المتقدمة.",
+        "رخصة Apache 2.0 هي النقطة الجوهرية. كثير من نماذج الذكاء الاصطناعي «المفتوحة» تفرض قيوداً: لا استخدام تجارياً فوق حجم معين، ولا تعديلات. هذا النموذج لا يفعل ذلك. للفرق التي **يجب أن تبقى البيانات على خوادمها** — في التكنولوجيا المالية والقانون والرعاية الصحية — هذه المرة الأولى التي يتاح فيها نموذج بهذا المستوى دون قيود.",
+        "الخطوة العملية هي إجراء مقارنة للتكاليف. لن يتفوق Muse Glimmer على أكبر النماذج المدفوعة في كل مهمة، لكن للأدوات الداخلية ومساعدي البرمجة وسير العمل التي تُنفَّذ مئات المرات يومياً، **قد يكون تشغيل نموذجك الخاص أرخص** من الدفع لكل استخدام. النموذج متاح الآن على Hugging Face ويعمل مع ollama الإصدار 0.32.7 وما بعده."
+      ],
+      "keyFacts": [
+        { "value": "30B", "label": "معامل، مضغوط ليناسب بطاقة رسومات واحدة" },
+        { "value": "Apache 2.0", "label": "رخصة مفتوحة ومجانية للاستخدام التجاري" },
+        { "value": "24 GB", "label": "ذاكرة GPU اللازمة للتشغيل المحلي" },
+        { "value": "51.2", "label": "درجة معيار البرمجة (SWE-Bench Pro)" }
+      ]
+    }
+  }
+}
