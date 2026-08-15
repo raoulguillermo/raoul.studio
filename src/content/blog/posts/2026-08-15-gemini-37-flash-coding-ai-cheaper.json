@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-15-gemini-37-flash-coding-ai-cheaper",
+  "date": "2026-08-15",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "DataCamp — Gemini 3.7 Flash: Features, Benchmarks & Pricing",
+      "url": "https://www.datacamp.com/blog/gemini-3-7-flash"
+    },
+    {
+      "title": "FelloAI — Gemini 3.7 Flash: Pricing, Benchmarks and What Changed",
+      "url": "https://felloai.com/gemini-3-7-flash/"
+    },
+    {
+      "title": "TechStartups — Top Tech News Today, August 14, 2026",
+      "url": "https://techstartups.com/2026/08/14/top-tech-news-today-august-14-2026-apple-anthropic-deepseek-google-ibm-pony-ai-openai-spacex-uber-more/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "A better AI for coding arrived at half price. Test it before January.",
+      "summary": "Google's new Gemini 3.7 Flash is dramatically better at coding tasks and available at half its normal price until the end of 2026 — but it still fails on most complex, multi-step work.",
+      "body": [
+        "Google just made one of the biggest single-version jumps in AI coding performance. On August 13, the company released Gemini 3.7 Flash — a model that **jumped dramatically on every coding test** compared to its predecessor, released just 23 days earlier. On DeepSWE, a benchmark that simulates real software engineering work, the score climbed from 49% to 65.3%. Another test, AutomationBench, nearly doubled from 17% to 30.4%.",
+        "The price is what makes this news matter right now for anyone building software. Until December 31, 2026, Google charges $0.75 per million tokens — tokens are the little chunks of text an AI reads and writes, roughly three-quarters of a word each. That is **half the normal price until January**, when the rate doubles to $1.50. The next five months are the best window to build with this model and measure how much it helps your real work.",
+        "There is an important limit. Even at this better level, Gemini 3.7 Flash **still fails on most complex, multi-step tasks** — the kind where you ask an AI agent to handle a whole project from start to finish. AutomationBench nearly doubled, which sounds big, but seven out of ten complex attempts still fail. And for now, users in Europe cannot access the consumer version at all, with no timeline given.",
+        "In practice, Gemini 3.7 Flash works well for single-step coding jobs: writing a function, reviewing a pull request, generating tests, or explaining code you have not seen before. **The right time to test is now**, while the introductory price holds. Run it on your actual work — the gap between AI coding tools shifts every few weeks, and hands-on tests tell you more than any leaderboard."
+      ],
+      "keyFacts": [
+        { "value": "65.3%", "label": "score on the DeepSWE software engineering benchmark" },
+        { "value": "$0.75 / 1M tokens", "label": "input price through December 31, 2026" },
+        { "value": "340 tokens/sec", "label": "output speed — fastest of 186 models tested" },
+        { "value": "23 days", "label": "time between Gemini 3.6 Flash and 3.7 Flash" }
+      ]
+    },
+    "de": {
+      "title": "Googles neue Coding-KI ist deutlich besser — und bis Januar günstiger",
+      "summary": "Googles neues Gemini 3.7 Flash ist bei Programmieraufgaben deutlich besser geworden und bis Ende 2026 zum halben Normalpreis erhältlich — aber es scheitert noch bei den meisten komplexen Mehrschrittaufgaben.",
+      "body": [
+        "Google hat gerade einen der größten Versionssprünge in der KI-Programmierleistung hingelegt. Am 13. August veröffentlichte das Unternehmen Gemini 3.7 Flash — ein Modell, das im Vergleich zu seinem Vorgänger von vor nur 23 Tagen **bei jedem Coding-Test deutlich zulegte**: Beim DeepSWE-Benchmark, der echte Software-Engineering-Aufgaben simuliert, stieg die Punktzahl von 49 % auf 65,3 %. Ein weiterer Test, AutomationBench, hat sich fast verdoppelt — von 17 % auf 30,4 %.",
+        "Der Preis ist das, was diese Nachricht für alle mit einem Team besonders relevant macht. Bis zum 31. Dezember 2026 berechnet Google 0,75 US-Dollar pro Million Tokens — Tokens sind die kleinen Textbausteine, die eine KI liest und schreibt, etwa drei Viertel eines Wortes. Das ist **der halbe Normalpreis bis Januar**, wenn der Satz auf 1,50 Dollar verdoppelt. Die nächsten fünf Monate sind das beste Zeitfenster, um mit diesem Modell zu bauen und zu messen, wie nützlich es wirklich ist.",
+        "Es gibt eine wichtige Einschränkung. Selbst auf diesem verbesserten Niveau **scheitert es noch bei den meisten komplexen Mehrschrittaufgaben** — also bei Projekten, bei denen eine KI eine ganze Aufgabe von Anfang bis Ende übernehmen soll. AutomationBench hat sich fast verdoppelt, was groß klingt, aber sieben von zehn komplexen Versuchen schlagen noch fehl. Und in Europa ist die Consumer-Version derzeit gar nicht verfügbar.",
+        "In der Praxis eignet sich Gemini 3.7 Flash gut für einzelne Coding-Aufgaben: Funktionen schreiben, Pull Requests reviewen, Tests generieren oder unbekannten Code erklären. **Der richtige Zeitpunkt zum Testen ist jetzt**, solange der Einführungspreis gilt. Messen Sie es an Ihren echten Aufgaben — der Abstand zwischen KI-Tools verändert sich alle paar Wochen, und eigene Tests sagen mehr als jede Bestenliste."
+      ],
+      "keyFacts": [
+        { "value": "65.3%", "label": "Punktzahl beim DeepSWE-Benchmark für Software-Engineering" },
+        { "value": "$0.75 / 1M tokens", "label": "Eingabepreis bis 31. Dezember 2026" },
+        { "value": "340 tokens/sec", "label": "Ausgabegeschwindigkeit — schnellstes von 186 getesteten Modellen" },
+        { "value": "23 days", "label": "Zeit zwischen Gemini 3.6 Flash und 3.7 Flash" }
+      ]
+    },
+    "nl": {
+      "title": "Googles nieuwe coding-AI is een stuk beter — en goedkoper tot januari",
+      "summary": "Googles nieuwe Gemini 3.7 Flash is dramatisch verbeterd voor programmeertaken en kost tot eind 2026 de helft van de normale prijs — maar faalt nog steeds bij de meeste complexe meerstappentaken.",
+      "body": [
+        "Google heeft zojuist een van de grootste versiesprungen in AI-codingprestaties gemaakt. Op 13 augustus lanceerde het bedrijf Gemini 3.7 Flash — een model dat vergeleken met zijn voorganger van slechts 23 dagen eerder **op elke codingtest een grote sprong maakte**: op DeepSWE, een benchmark die echte software-engineeringtaken simuleert, steeg de score van 49% naar 65,3%. Een andere test, AutomationBench, verdubbelde bijna van 17% naar 30,4%.",
+        "De prijs is wat dit nieuws nu relevant maakt voor iedereen die software bouwt. Tot 31 december 2026 rekent Google $0,75 per miljoen tokens — tokens zijn de kleine stukjes tekst die een AI leest en schrijft, ongeveer drie kwart van een woord. Dat is **de helft van de normale prijs tot januari**, wanneer het tarief verdubbelt naar $1,50. De komende vijf maanden zijn het beste moment om met dit model te bouwen en te meten hoe nuttig het echt is.",
+        "Er is een belangrijke beperking. Zelfs op dit verbeterde niveau **faalt Gemini 3.7 Flash nog steeds bij de meeste complexe meerstappentaken** — die waarbij je een AI vraagt een heel project van begin tot eind te beheren. AutomationBench verdubbelde bijna, wat veel klinkt, maar zeven van de tien complexe pogingen mislukken nog steeds. En in Europa is de consumentenversie voorlopig helemaal niet beschikbaar.",
+        "In de praktijk is Gemini 3.7 Flash een sterk instrument voor enkelvoudige codingtaken: een functie schrijven, een pull request reviewen, tests genereren of onbekende code uitleggen. **Het juiste moment om te testen is nu**, zolang de introductieprijs geldt. Test het op je echte taken — het verschil tussen AI-tools verandert elke paar weken, en eigen tests zeggen meer dan welke benchmark dan ook."
+      ],
+      "keyFacts": [
+        { "value": "65.3%", "label": "score op de DeepSWE-benchmark voor software-engineering" },
+        { "value": "$0.75 / 1M tokens", "label": "inputprijs tot 31 december 2026" },
+        { "value": "340 tokens/sec", "label": "outputsnelheid — snelste van 186 geteste modellen" },
+        { "value": "23 days", "label": "tijd tussen Gemini 3.6 Flash en 3.7 Flash" }
+      ]
+    },
+    "es": {
+      "title": "La nueva IA de programación de Google es mucho mejor — y más barata hasta enero",
+      "summary": "El nuevo Gemini 3.7 Flash de Google ha mejorado enormemente en tareas de programación y cuesta la mitad hasta finales de 2026, pero todavía falla en la mayoría de las tareas complejas de varios pasos.",
+      "body": [
+        "Google acaba de dar uno de los mayores saltos en rendimiento de IA para programación en una sola versión. El 13 de agosto, la empresa lanzó Gemini 3.7 Flash — un modelo que **dio un gran salto en todos los tests de programación** comparado con su versión anterior, lanzada apenas 23 días antes. En DeepSWE, un benchmark que simula trabajo real de ingeniería de software, la puntuación subió del 49 % al 65,3 %. Otro test, AutomationBench, casi se duplicó del 17 % al 30,4 %.",
+        "El precio es lo que hace que esta noticia importe ahora mismo a cualquiera que construya software. Hasta el 31 de diciembre de 2026, Google cobra $0,75 por millón de tokens — los tokens son los pequeños trozos de texto que una IA lee y escribe, aproximadamente tres cuartas partes de una palabra. Eso es **la mitad del precio normal hasta enero**, cuando la tarifa se duplica a $1,50. Los próximos cinco meses son la mejor ventana para construir con este modelo y medir cuánto ayuda de verdad.",
+        "Hay un límite importante. Incluso a este nivel mejorado, Gemini 3.7 Flash **todavía falla en la mayoría de las tareas complejas de varios pasos** — las que requieren que un agente de IA gestione un proyecto completo de principio a fin. AutomationBench casi se duplicó, lo que suena a mucho, pero siete de cada diez intentos complejos siguen fallando. Y por ahora, los usuarios en Europa no pueden acceder a la versión de consumo.",
+        "En la práctica, Gemini 3.7 Flash es una herramienta sólida para tareas individuales de programación: escribir una función, revisar un pull request, generar tests o explicar código desconocido. **El momento adecuado para probarlo es ahora**, mientras el precio introductorio esté vigente. Pruébalo en tu trabajo real — la brecha entre las herramientas de IA cambia cada pocas semanas, y los tests propios dicen más que cualquier clasificación."
+      ],
+      "keyFacts": [
+        { "value": "65.3%", "label": "puntuación en el benchmark DeepSWE de ingeniería de software" },
+        { "value": "$0.75 / 1M tokens", "label": "precio de entrada hasta el 31 de diciembre de 2026" },
+        { "value": "340 tokens/sec", "label": "velocidad de salida — el más rápido de 186 modelos probados" },
+        { "value": "23 days", "label": "tiempo entre Gemini 3.6 Flash y 3.7 Flash" }
+      ]
+    },
+    "fr": {
+      "title": "Le nouveau modèle IA de Google pour le code est bien meilleur — et moins cher jusqu'en janvier",
+      "summary": "Le nouveau Gemini 3.7 Flash de Google s'est nettement amélioré sur les tâches de codage et coûte moitié prix jusqu'à fin 2026, mais il échoue encore sur la plupart des tâches complexes en plusieurs étapes.",
+      "body": [
+        "Google vient de réaliser l'un des plus grands bonds d'une version à l'autre dans les performances d'IA pour le codage. Le 13 août, la société a lancé Gemini 3.7 Flash — un modèle qui **a réalisé un bond spectaculaire sur tous les tests de codage** par rapport à sa version précédente, sortie seulement 23 jours plus tôt. Sur DeepSWE, un benchmark simulant de vraies tâches de développement logiciel, le score est passé de 49 % à 65,3 %. Un autre test, AutomationBench, a presque doublé, de 17 % à 30,4 %.",
+        "Le prix est ce qui rend cette nouvelle importante maintenant pour toute personne qui construit des logiciels. Jusqu'au 31 décembre 2026, Google facture 0,75 $ par million de tokens — les tokens sont les petits morceaux de texte qu'une IA lit et écrit, soit environ trois quarts d'un mot. C'est **la moitié du prix normal jusqu'en janvier**, quand le tarif doublera à 1,50 $. Les cinq prochains mois sont la meilleure fenêtre pour construire avec ce modèle et mesurer ce qu'il apporte vraiment.",
+        "Il y a une limite importante. Même à ce niveau amélioré, Gemini 3.7 Flash **échoue encore sur la plupart des tâches complexes en plusieurs étapes** — celles où l'on demande à un agent IA de gérer un projet entier de bout en bout. AutomationBench a presque doublé, ce qui semble beaucoup, mais sept tentatives complexes sur dix échouent encore. Et pour l'instant, les utilisateurs en Europe n'ont pas accès à la version grand public.",
+        "En pratique, Gemini 3.7 Flash est un outil solide pour les tâches de codage simples : écrire une fonction, relire un pull request, générer des tests ou expliquer du code inconnu. **Le bon moment pour tester est maintenant**, pendant que le tarif d'introduction est en vigueur. Testez-le sur votre vrai travail — l'écart entre les outils IA évolue toutes les quelques semaines, et les tests concrets en disent plus que n'importe quel classement."
+      ],
+      "keyFacts": [
+        { "value": "65.3%", "label": "score sur le benchmark DeepSWE d'ingénierie logicielle" },
+        { "value": "$0.75 / 1M tokens", "label": "prix d'entrée jusqu'au 31 décembre 2026" },
+        { "value": "340 tokens/sec", "label": "vitesse de sortie — le plus rapide des 186 modèles testés" },
+        { "value": "23 days", "label": "temps entre Gemini 3.6 Flash et 3.7 Flash" }
+      ]
+    },
+    "ar": {
+      "title": "نموذج Google الجديد للذكاء الاصطناعي في البرمجة أصبح أفضل بكثير — وسعره النصف حتى يناير",
+      "summary": "يُحقق نموذج Gemini 3.7 Flash الجديد من Google تحسينات ضخمة في مهام البرمجة وسعره النصف حتى نهاية 2026، لكنه لا يزال يفشل في معظم المهام المعقدة متعددة الخطوات.",
+      "body": [
+        "حققت Google للتو أحد أكبر القفزات في أداء الذكاء الاصطناعي للبرمجة من إصدار لآخر. في 13 أغسطس، أطلقت الشركة نموذج Gemini 3.7 Flash — نموذج **حقق قفزة كبيرة في جميع اختبارات البرمجة** مقارنةً بسلفه الذي صدر قبل 23 يومًا فقط. في معيار DeepSWE الذي يحاكي مهام هندسة البرمجيات الحقيقية، ارتفعت الدرجة من 49% إلى 65.3%. واختبار آخر، AutomationBench، تضاعف تقريبًا من 17% إلى 30.4%.",
+        "ما يجعل هذا الخبر مهمًا الآن لكل من يبني برمجيات هو السعر. حتى 31 ديسمبر 2026، تتقاضى Google 0.75 دولار لكل مليون توكن — والتوكن هي القطع النصية الصغيرة التي يقرأها النموذج ويكتبها، وتعادل تقريبًا ثلاثة أرباع كلمة. هذا **نصف السعر المعتاد حتى يناير**، حين يتضاعف السعر إلى 1.50 دولار. الأشهر الخمسة القادمة هي أفضل فرصة للبناء بهذا النموذج وقياس مدى فائدته الحقيقية.",
+        "ثمة حد مهم ينبغي معرفته. حتى عند هذا المستوى المحسّن، **لا يزال Gemini 3.7 Flash يفشل في معظم المهام المعقدة متعددة الخطوات** — تلك التي تطلب فيها من وكيل ذكاء اصطناعي إدارة مشروع كامل من البداية إلى النهاية. تضاعف AutomationBench تقريبًا، وهذا يبدو كبيرًا، لكن سبعة من كل عشرة محاولات معقدة لا تزال تفشل. وحتى الآن، لا يستطيع المستخدمون في أوروبا الوصول إلى النسخة الاستهلاكية.",
+        "من الناحية العملية، يُعدّ Gemini 3.7 Flash أداة قوية للمهام البرمجية الفردية: كتابة دالة، ومراجعة طلب سحب، وتوليد الاختبارات، وشرح كود غير مألوف. **الوقت المناسب للاختبار هو الآن**، ريثما يظل سعر الإطلاق ساريًا. جرّبه على عملك الحقيقي — الفجوة بين أدوات الذكاء الاصطناعي تتغير كل بضعة أسابيع، والاختبار الشخصي يخبرك أكثر من أي قائمة تصنيف."
+      ],
+      "keyFacts": [
+        { "value": "65.3%", "label": "الدرجة في معيار DeepSWE لهندسة البرمجيات" },
+        { "value": "$0.75 / 1M tokens", "label": "سعر الإدخال حتى 31 ديسمبر 2026" },
+        { "value": "340 tokens/sec", "label": "سرعة الإخراج — الأسرع بين 186 نموذجًا اختُبر" },
+        { "value": "23 days", "label": "الوقت بين Gemini 3.6 Flash و3.7 Flash" }
+      ]
+    }
+  }
+}
