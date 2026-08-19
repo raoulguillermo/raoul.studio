@@ -87,4 +87,16 @@ export const infographics = {
     volatility: 'Volatility',
     logged: 'Logged + streamed', // streamed over SSE
   },
+  tododo: {
+    caption: 'One list, every device',
+    task: 'Task',
+    swipeRight: 'Swipe right', // gesture → completes the task
+    swipeLeft: 'Swipe left', // gesture → deletes the task
+    done: 'Done',
+    deleted: 'Deleted',
+    lists: 'Lists',
+    synced: 'Synced', // over the REST API
+    iphone: 'iPhone + widget',
+    mac: 'Mac menu bar',
+  },
 }

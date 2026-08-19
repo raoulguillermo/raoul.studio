@@ -420,6 +420,38 @@ function Dfns({ t }) {
 
 /* ------------------------------ registry ------------------------------ */
 
+function Tododo({ t }) {
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      {/* the two gestures the app is built around */}
+      <Flow
+        steps={[
+          <div className="flex flex-col items-center gap-2">
+            <Chip>{t.swipeLeft}</Chip>
+            <Box>{t.deleted}</Box>
+          </div>,
+          <Box accent>{t.task}</Box>,
+          <div className="flex flex-col items-center gap-2">
+            <Chip accent>{t.swipeRight}</Chip>
+            <Box>{t.done} ✓</Box>
+          </div>,
+        ]}
+      />
+      {/* one account, two clients */}
+      <Flow
+        steps={[
+          <Box>{t.iphone}</Box>,
+          <div className="flex flex-col items-center gap-2">
+            <Box accent>{t.lists}</Box>
+            <Chip>{t.synced}</Chip>
+          </div>,
+          <Box>{t.mac}</Box>,
+        ]}
+      />
+    </div>
+  )
+}
+
 const RENDERERS = {
   outdoorxl: OutdoorXL,
   aboutspace: AboutSpace,
@@ -432,6 +464,7 @@ const RENDERERS = {
   'no-cms': NoCMS,
   anonimise: Anonimise,
   dfns: Dfns,
+  tododo: Tododo,
 }
 
 function pad2(n) {
