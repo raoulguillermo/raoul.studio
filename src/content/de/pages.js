@@ -191,14 +191,14 @@ export const pages = {
     meta: {
       title: 'Datenschutz',
       description:
-        'Wie raoul.studio mit personenbezogenen Daten auf der Website und in der Tododo-App umgeht: was wir erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
+        'Wie raoul.studio mit personenbezogenen Daten auf der Website und in der Poofy-App umgeht: was wir erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
     },
     eyebrow: 'Rechtliches',
     titleLine1: 'Datenschutz',
     titleAccent: '.',
     updated: 'Zuletzt aktualisiert — August 2026',
     intro:
-      'Diese Richtlinie erklärt, welche personenbezogenen Daten raoul.studio erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Sie gilt für diese Website und für die Apps, die das Studio betreibt, einschließlich der Aufgaben-App Tododo für iPhone und Mac. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben, denjenigen zu antworten, die uns kontaktieren, und Ihre Aufgaben synchron zu halten.',
+      'Diese Richtlinie erklärt, welche personenbezogenen Daten raoul.studio erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Sie gilt für diese Website und für die Apps, die das Studio betreibt, einschließlich der Aufgaben-App Poofy für iPhone und Mac. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben, denjenigen zu antworten, die uns kontaktieren, und Ihre Aufgaben synchron zu halten.',
     sections: [
       {
         heading: 'Wer wir sind',
@@ -219,9 +219,9 @@ export const pages = {
         ],
       },
       {
-        heading: 'Tododo — die iPhone- und Mac-App',
+        heading: 'Poofy — die iPhone- und Mac-App',
         body: [
-          'Tododo ist die eigene Aufgaben-App des Studios für iPhone und Mac. Sie benötigt ein Konto, damit Ihre Listen von einem Gerät zum anderen mitwandern, und dieses Konto ist der einzige Grund, warum sie überhaupt etwas über Sie speichert.',
+          'Poofy ist die eigene Aufgaben-App des Studios für iPhone und Mac. Sie benötigt ein Konto, damit Ihre Listen von einem Gerät zum anderen mitwandern, und dieses Konto ist der einzige Grund, warum sie überhaupt etwas über Sie speichert.',
         ],
         points: [
           'Konto: Ihre E-Mail-Adresse und — wenn Sie sich mit einem Passwort registrieren — eine gehashte Version dieses Passworts. Das Passwort selbst wird nie gespeichert und kann nicht zurückgelesen werden.',
@@ -231,15 +231,15 @@ export const pages = {
         ],
       },
       {
-        heading: 'Wie Tododo Google-Daten nutzt',
+        heading: 'Wie Poofy Google-Daten nutzt',
         body: [
-          'Die Anmeldung mit Google wird ausschließlich als Möglichkeit angeboten, Ihr Konto zu identifizieren. Tododo fragt bei Google nur Ihre E-Mail-Adresse und Ihr Basisprofil ab. Die App fordert keinen Zugriff auf Gmail, Drive, Kalender, Kontakte, Fotos oder einen anderen Google-Dienst an und kann in Ihrem Google-Konto nichts lesen, schreiben oder löschen.',
-          'Die Verwendung von Informationen, die Tododo über Google-APIs erhält, entspricht der Google API Services User Data Policy einschließlich der Limited-Use-Anforderungen. Von Google erhaltene Informationen werden ausschließlich für die Anmeldefunktion verwendet. Sie werden nie verkauft, nie für Werbung oder Profiling genutzt, nie an Dritte weitergegeben außer soweit dies für den Betrieb des Dienstes nötig ist oder das Gesetz es verlangt, und nie zum Training von KI-Modellen verwendet.',
+          'Die Anmeldung mit Google wird ausschließlich als Möglichkeit angeboten, Ihr Konto zu identifizieren. Poofy fragt bei Google nur Ihre E-Mail-Adresse und Ihr Basisprofil ab. Die App fordert keinen Zugriff auf Gmail, Drive, Kalender, Kontakte, Fotos oder einen anderen Google-Dienst an und kann in Ihrem Google-Konto nichts lesen, schreiben oder löschen.',
+          'Die Verwendung von Informationen, die Poofy über Google-APIs erhält, entspricht der Google API Services User Data Policy einschließlich der Limited-Use-Anforderungen. Von Google erhaltene Informationen werden ausschließlich für die Anmeldefunktion verwendet. Sie werden nie verkauft, nie für Werbung oder Profiling genutzt, nie an Dritte weitergegeben außer soweit dies für den Betrieb des Dienstes nötig ist oder das Gesetz es verlangt, und nie zum Training von KI-Modellen verwendet.',
           'Ihre Aufgaben gehören Ihnen. Wir lesen sie zu keinem anderen Zweck, als sie zu speichern und Ihnen zurückzugeben, wir geben sie nicht weiter und wir nutzen sie nicht für Werbung oder zum Training von Modellen.',
         ],
       },
       {
-        heading: 'Ihr Tododo-Konto löschen',
+        heading: 'Ihr Poofy-Konto löschen',
         body: [
           'Sie können Ihr Konto und alles darin direkt in der App löschen: Öffnen Sie das ⋯-Menü, wählen Sie „Delete account“ und bestätigen Sie. Das Konto, seine Listen und seine Aufgaben sind damit sofort gelöscht, und das lässt sich nicht rückgängig machen.',
           'Sie können Ihr Konto und alles darin jederzeit löschen lassen, indem Sie von der Adresse des Kontos aus eine E-Mail an hello@raoul.studio schreiben. Wir löschen das Konto, seine Listen und seine Aufgaben. Die Anmeldung mit Google lässt sich außerdem jederzeit in den Sicherheitseinstellungen Ihres Google-Kontos trennen, die Anmeldung mit Apple unter „Anmelden mit Apple“ in Ihren Apple-ID-Einstellungen; dadurch ist keine weitere Anmeldung mehr möglich — schreiben Sie uns zusätzlich, wenn auch die Daten selbst gelöscht werden sollen.',
@@ -264,22 +264,22 @@ export const pages = {
         body: ['Wir halten die Zahl der Dritten klein. Diejenigen, die Ihre Daten verarbeiten könnten, sind:'],
         points: [
           'SendGrid (Twilio Inc.) — stellt die E-Mail aus dem Kontaktformular an uns zu. Ihr Name, Ihre E-Mail und Ihre Nachricht laufen darüber.',
-          'Google (Google Ireland Limited) — nur wenn Sie in Tododo „Weiter mit Google“ wählen. Google führt die Anmeldung durch und übermittelt uns Ihre E-Mail-Adresse und Ihr Basisprofil. Was auf Google’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Google.',
-          'Apple (Apple Distribution International Ltd.) — nur wenn Sie in Tododo „Anmelden mit Apple“ wählen. Apple führt die Anmeldung durch und übermittelt uns eine Kennung Ihres Apple-Kontos sowie eine E-Mail-Adresse, die eine Relay-Adresse von Apple sein kann. Was auf Apple’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Apple.',
-          'DigitalOcean — stellt die Server und die Managed-Datenbank in Amsterdam bereit, auf denen die Website und alle Tododo-Konten, -Listen und -Aufgaben gespeichert werden.',
-          'Unsere eigenen Server — die Website und die Tododo-API laufen auf von uns verwalteter Infrastruktur, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
+          'Google (Google Ireland Limited) — nur wenn Sie in Poofy „Weiter mit Google“ wählen. Google führt die Anmeldung durch und übermittelt uns Ihre E-Mail-Adresse und Ihr Basisprofil. Was auf Google’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Google.',
+          'Apple (Apple Distribution International Ltd.) — nur wenn Sie in Poofy „Anmelden mit Apple“ wählen. Apple führt die Anmeldung durch und übermittelt uns eine Kennung Ihres Apple-Kontos sowie eine E-Mail-Adresse, die eine Relay-Adresse von Apple sein kann. Was auf Apple’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Apple.',
+          'DigitalOcean — stellt die Server und die Managed-Datenbank in Amsterdam bereit, auf denen die Website und alle Poofy-Konten, -Listen und -Aufgaben gespeichert werden.',
+          'Unsere eigenen Server — die Website und die Poofy-API laufen auf von uns verwalteter Infrastruktur, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
         ],
       },
       {
         heading: 'Wo Ihre Daten liegen',
         body: [
-          'Website-Daten sowie Tododo-Konten, -Listen und -Aufgaben werden in der EU gespeichert, auf Servern und einer Managed-Datenbank in Amsterdam. Verbindungen zur Website und zur Tododo-API sind bei der Übertragung verschlüsselt, und der Zugriff auf die Datenbank ist beschränkt.',
+          'Website-Daten sowie Poofy-Konten, -Listen und -Aufgaben werden in der EU gespeichert, auf Servern und einer Managed-Datenbank in Amsterdam. Verbindungen zur Website und zur Poofy-API sind bei der Übertragung verschlüsselt, und der Zugriff auf die Datenbank ist beschränkt.',
         ],
       },
       {
         heading: 'Internationale Übermittlungen',
         body: [
-          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. DigitalOcean hat seinen Hauptsitz ebenfalls in den USA, auch wenn die Server mit Ihren Daten in Amsterdam stehen. Wo eine Übermittlung außerhalb der EU stattfindet, ist sie durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert. Google und Apple bieten die Anmeldung in Tododo über ihre irischen Gesellschaften an; eine Übermittlung auf ihrer Seite unterliegt ihren eigenen Richtlinien und Garantien.',
+          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. DigitalOcean hat seinen Hauptsitz ebenfalls in den USA, auch wenn die Server mit Ihren Daten in Amsterdam stehen. Wo eine Übermittlung außerhalb der EU stattfindet, ist sie durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert. Google und Apple bieten die Anmeldung in Poofy über ihre irischen Gesellschaften an; eine Übermittlung auf ihrer Seite unterliegt ihren eigenen Richtlinien und Garantien.',
         ],
       },
       {
@@ -341,14 +341,14 @@ export const pages = {
     titleAccent: '.',
     updated: 'Zuletzt aktualisiert — August 2026',
     intro:
-      'Diese Bedingungen beschreiben, wie raoul.studio mit seinen Kunden arbeitet — was wir liefern, wie wir arbeiten und wer wofür verantwortlich ist — und wie Sie die Apps nutzen dürfen, die das Studio selbst betreibt, etwa Tododo. Wir haben sie in klarer Sprache verfasst: Sie sollen fair sein und gelesen werden.',
+      'Diese Bedingungen beschreiben, wie raoul.studio mit seinen Kunden arbeitet — was wir liefern, wie wir arbeiten und wer wofür verantwortlich ist — und wie Sie die Apps nutzen dürfen, die das Studio selbst betreibt, etwa Poofy. Wir haben sie in klarer Sprache verfasst: Sie sollen fair sein und gelesen werden.',
     sections: [
       {
         heading: 'Einleitung',
         body: [
           'Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für alle Leistungen, Angebote, Vorschläge, Abonnements, Aufträge und Vereinbarungen zwischen raoul.studio („das Studio“, „wir“, „uns“) und seinen Kunden („der Kunde“, „Sie“). Sie gelten, sofern wir nicht schriftlich etwas anderes vereinbart haben.',
           'raoul.studio ist ein digitales Produktstudio mit Sitz in den Niederlanden, geführt von Raoul Guillermo. Sie erreichen uns unter hello@raoul.studio. Mit der Annahme eines Angebots, der Unterzeichnung einer Vereinbarung oder der Beauftragung, mit der Arbeit zu beginnen, stimmen Sie diesen Bedingungen zu.',
-          'Diese Bedingungen bestehen aus zwei Teilen. Das meiste im Folgenden betrifft Kundenprojekte. Die Abschnitte unter „Nutzung der eigenen Apps des Studios“ weiter unten gelten stattdessen, wenn Sie eine App nutzen, die das Studio auf eigene Rechnung betreibt — derzeit Tododo, die Todo-App für iPhone und Mac. Sie müssen kein Kunde sein, um diese Apps zu nutzen.',
+          'Diese Bedingungen bestehen aus zwei Teilen. Das meiste im Folgenden betrifft Kundenprojekte. Die Abschnitte unter „Nutzung der eigenen Apps des Studios“ weiter unten gelten stattdessen, wenn Sie eine App nutzen, die das Studio auf eigene Rechnung betreibt — derzeit Poofy, die Todo-App für iPhone und Mac. Sie müssen kein Kunde sein, um diese Apps zu nutzen.',
         ],
       },
       {
@@ -573,8 +573,8 @@ export const pages = {
       {
         heading: 'Nutzung der eigenen Apps des Studios',
         body: [
-          'Neben der Kundenarbeit betreibt das Studio eigene Apps — derzeit Tododo, eine Todo-App für iPhone und Mac. Dieser Abschnitt und die folgenden gelten für Sie als Nutzerin oder Nutzer dieser Apps, unabhängig davon, ob Sie auch Kunde sind. Weichen sie von den kundenbezogenen Abschnitten oben ab, gehen diese Abschnitte für Ihre Nutzung der Apps vor.',
-          'Tododo wird kostenlos und für den persönlichen Gebrauch bereitgestellt. Die Nutzung erfordert ein Konto, und mit dessen Anlage akzeptieren Sie diese Bedingungen. Wie die Apps mit Ihren personenbezogenen Daten umgehen, steht in unserer Datenschutzerklärung.',
+          'Neben der Kundenarbeit betreibt das Studio eigene Apps — derzeit Poofy, eine Todo-App für iPhone und Mac. Dieser Abschnitt und die folgenden gelten für Sie als Nutzerin oder Nutzer dieser Apps, unabhängig davon, ob Sie auch Kunde sind. Weichen sie von den kundenbezogenen Abschnitten oben ab, gehen diese Abschnitte für Ihre Nutzung der Apps vor.',
+          'Poofy wird kostenlos und für den persönlichen Gebrauch bereitgestellt. Die Nutzung erfordert ein Konto, und mit dessen Anlage akzeptieren Sie diese Bedingungen. Wie die Apps mit Ihren personenbezogenen Daten umgehen, steht in unserer Datenschutzerklärung.',
         ],
       },
       {

@@ -371,13 +371,13 @@ export const projects = [
   },
 
   {
-    slug: 'tododo',
+    slug: 'poofy',
     category: 'product',
     number: 12,
     year: '2026',
     status: 'live',
-    titlePlain: 'Tododo',
-    titleLine1: 'Tododo',
+    titlePlain: 'Poofy',
+    titleLine1: 'Poofy',
     titleLine2: '',
     shortTag: 'todo app, ios & mac',
     shortDescription:
@@ -393,7 +393,7 @@ export const projects = [
     ],
     body: [
       {
-        text: 'Tododo is a todo app for keeping track of tasks — write them down, tick them off, throw them away. It runs as an iPhone app with a home-screen widget and as a Mac menu-bar app, and the same lists appear on both.',
+        text: 'Poofy is a todo app for keeping track of tasks — write them down, tick them off, throw them away. It runs as an iPhone app with a home-screen widget and as a Mac menu-bar app, and the same lists appear on both.',
       },
       {
         text: 'The whole thing is built around gestures rather than buttons. Swipe a task right to complete it, left to delete it, drag to reorder, tap to edit in place. New tasks land on top, and the list is coloured as a heat map — the most urgent work sits at the hot end so priority is something you see rather than read.',
@@ -402,7 +402,7 @@ export const projects = [
         text: 'Tasks are grouped into lists, so work, home and side projects stay apart. Everything is stored against your own account and synced through a REST API, which is what lets you add something on the phone and find it waiting in the Mac menu bar.',
       },
       {
-        text: 'You can create an account with an email address and password, or use Continue with Google. Signing in with Google is used only to identify your account: Tododo reads your email address and basic profile, and nothing else. It requests no access to Gmail, Drive, Calendar, Contacts or any other Google service, and your tasks are never shared with third parties. Accounts and their data can be deleted on request.',
+        text: 'You can create an account with an email address and password, or use Continue with Google. Signing in with Google is used only to identify your account: Poofy reads your email address and basic profile, and nothing else. It requests no access to Gmail, Drive, Calendar, Contacts or any other Google service, and your tasks are never shared with third parties. Accounts and their data can be deleted on request.',
       },
       {
         text: 'Built end to end in-house — SwiftUI on both platforms, sharing one model and API client, against a Node.js and Express REST API backed by MongoDB. The studio runs its own day-to-day on it.',

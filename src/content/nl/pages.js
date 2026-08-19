@@ -191,14 +191,14 @@ export const pages = {
     meta: {
       title: 'Privacybeleid',
       description:
-        'Hoe raoul.studio met persoonsgegevens omgaat op de website en in de Tododo-app: wat we verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
+        'Hoe raoul.studio met persoonsgegevens omgaat op de website en in de Poofy-app: wat we verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
     },
     eyebrow: 'Juridisch',
     titleLine1: 'Privacy',
     titleAccent: '.',
     updated: 'Laatst bijgewerkt — augustus 2026',
     intro:
-      'Dit beleid legt uit welke persoonsgegevens raoul.studio verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. Het geldt voor deze website en voor de apps die de studio draait, waaronder de Tododo-takenapp voor iPhone en Mac. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien, de mensen die contact opnemen te beantwoorden en je taken gesynchroniseerd te houden.',
+      'Dit beleid legt uit welke persoonsgegevens raoul.studio verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. Het geldt voor deze website en voor de apps die de studio draait, waaronder de Poofy-takenapp voor iPhone en Mac. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien, de mensen die contact opnemen te beantwoorden en je taken gesynchroniseerd te houden.',
     sections: [
       {
         heading: 'Wie we zijn',
@@ -219,9 +219,9 @@ export const pages = {
         ],
       },
       {
-        heading: 'Tododo — de iPhone- en Mac-app',
+        heading: 'Poofy — de iPhone- en Mac-app',
         body: [
-          'Tododo is de eigen takenapp van de studio voor iPhone en Mac. Er is een account nodig zodat je lijsten met je meegaan van het ene apparaat naar het andere, en dat account is de enige reden dat de app iets over je bewaart.',
+          'Poofy is de eigen takenapp van de studio voor iPhone en Mac. Er is een account nodig zodat je lijsten met je meegaan van het ene apparaat naar het andere, en dat account is de enige reden dat de app iets over je bewaart.',
         ],
         points: [
           'Account: je e-mailadres en — als je je met een wachtwoord registreert — een gehashte versie van dat wachtwoord. Het wachtwoord zelf wordt nooit opgeslagen en kan niet worden teruggelezen.',
@@ -231,15 +231,15 @@ export const pages = {
         ],
       },
       {
-        heading: 'Hoe Tododo Google-gegevens gebruikt',
+        heading: 'Hoe Poofy Google-gegevens gebruikt',
         body: [
-          'Inloggen met Google wordt puur aangeboden als manier om je account te identificeren. Tododo vraagt Google alleen om je e-mailadres en basisprofiel. De app vraagt geen toegang tot Gmail, Drive, Agenda, Contacten, Foto’s of enige andere Google-dienst, en kan niets in je Google-account lezen, schrijven of verwijderen.',
-          'Het gebruik door Tododo van informatie die via Google API’s wordt ontvangen, voldoet aan het Google API Services User Data Policy, inclusief de Limited Use-vereisten. Informatie van Google wordt uitsluitend gebruikt om de inlogfunctie te bieden. Ze wordt nooit verkocht, nooit gebruikt voor advertenties of profilering, nooit doorgegeven aan derden behalve waar dat nodig is om de dienst te leveren of waar de wet dat vereist, en nooit gebruikt om AI-modellen te trainen.',
+          'Inloggen met Google wordt puur aangeboden als manier om je account te identificeren. Poofy vraagt Google alleen om je e-mailadres en basisprofiel. De app vraagt geen toegang tot Gmail, Drive, Agenda, Contacten, Foto’s of enige andere Google-dienst, en kan niets in je Google-account lezen, schrijven of verwijderen.',
+          'Het gebruik door Poofy van informatie die via Google API’s wordt ontvangen, voldoet aan het Google API Services User Data Policy, inclusief de Limited Use-vereisten. Informatie van Google wordt uitsluitend gebruikt om de inlogfunctie te bieden. Ze wordt nooit verkocht, nooit gebruikt voor advertenties of profilering, nooit doorgegeven aan derden behalve waar dat nodig is om de dienst te leveren of waar de wet dat vereist, en nooit gebruikt om AI-modellen te trainen.',
           'Je taken zijn van jou. We lezen ze niet voor enig ander doel dan ze op te slaan en aan jou terug te geven, we delen ze niet, en we gebruiken ze niet voor advertenties of om modellen te trainen.',
         ],
       },
       {
-        heading: 'Je Tododo-account verwijderen',
+        heading: 'Je Poofy-account verwijderen',
         body: [
           'Je kunt je account en alles erin in de app zelf verwijderen: open het ⋯-menu, kies “Delete account” en bevestig. Het account, de lijsten en de taken zijn dan meteen weg, en dat is niet terug te draaien.',
           'Je kunt je account en alles erin op elk moment laten verwijderen door te mailen naar hello@raoul.studio vanaf het adres van het account. We verwijderen het account, de lijsten en de taken. Inloggen met Google kun je ook op elk moment loskoppelen via de beveiligingsinstellingen van je Google-account, en Inloggen met Apple via “Inloggen met Apple” in je Apple ID-instellingen; daarmee stopt verder inloggen — mail ons daarnaast als je wilt dat de gegevens zelf worden verwijderd.',
@@ -264,22 +264,22 @@ export const pages = {
         body: ['We houden het aantal derde partijen klein. Degenen die je gegevens mogelijk verwerken zijn:'],
         points: [
           'SendGrid (Twilio Inc.) — bezorgt de e-mail van het contactformulier bij ons. Je naam, e-mailadres en bericht gaan hier doorheen.',
-          'Google (Google Ireland Limited) — alleen als je in Tododo voor “Doorgaan met Google” kiest. Google verzorgt het inloggen en geeft ons je e-mailadres en basisprofiel door. Wat er aan Google’s kant gebeurt, valt onder het privacybeleid van Google zelf.',
-          'Apple (Apple Distribution International Ltd.) — alleen als je in Tododo voor “Inloggen met Apple” kiest. Apple verzorgt het inloggen en geeft ons een identificatie van je Apple-account en een e-mailadres door, dat een privérelay-adres van Apple kan zijn. Wat er aan Apple’s kant gebeurt, valt onder het privacybeleid van Apple zelf.',
-          'DigitalOcean — levert de servers en de managed database in Amsterdam waar de website en alle Tododo-accounts, -lijsten en -taken worden opgeslagen.',
-          'Onze eigen servers — de website en de Tododo-API draaien op infrastructuur die we zelf beheren, en contactinzendingen worden daar in onze database opgeslagen.',
+          'Google (Google Ireland Limited) — alleen als je in Poofy voor “Doorgaan met Google” kiest. Google verzorgt het inloggen en geeft ons je e-mailadres en basisprofiel door. Wat er aan Google’s kant gebeurt, valt onder het privacybeleid van Google zelf.',
+          'Apple (Apple Distribution International Ltd.) — alleen als je in Poofy voor “Inloggen met Apple” kiest. Apple verzorgt het inloggen en geeft ons een identificatie van je Apple-account en een e-mailadres door, dat een privérelay-adres van Apple kan zijn. Wat er aan Apple’s kant gebeurt, valt onder het privacybeleid van Apple zelf.',
+          'DigitalOcean — levert de servers en de managed database in Amsterdam waar de website en alle Poofy-accounts, -lijsten en -taken worden opgeslagen.',
+          'Onze eigen servers — de website en de Poofy-API draaien op infrastructuur die we zelf beheren, en contactinzendingen worden daar in onze database opgeslagen.',
         ],
       },
       {
         heading: 'Waar je gegevens staan',
         body: [
-          'Websitegegevens en Tododo-accounts, -lijsten en -taken worden in de EU opgeslagen, op servers en een managed database in Amsterdam. Verbindingen met de site en met de Tododo-API zijn versleuteld, en de toegang tot de database is beperkt.',
+          'Websitegegevens en Poofy-accounts, -lijsten en -taken worden in de EU opgeslagen, op servers en een managed database in Amsterdam. Verbindingen met de site en met de Poofy-API zijn versleuteld, en de toegang tot de database is beperkt.',
         ],
       },
       {
         heading: 'Internationale doorgifte',
         body: [
-          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. DigitalOcean heeft eveneens zijn hoofdkantoor in de VS, al staan de servers met jouw gegevens in Amsterdam. Waar doorgifte buiten de EU plaatsvindt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie. Google en Apple verzorgen het inloggen in Tododo via hun Ierse entiteiten; doorgifte aan hun kant valt onder hun eigen beleid en waarborgen.',
+          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. DigitalOcean heeft eveneens zijn hoofdkantoor in de VS, al staan de servers met jouw gegevens in Amsterdam. Waar doorgifte buiten de EU plaatsvindt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie. Google en Apple verzorgen het inloggen in Poofy via hun Ierse entiteiten; doorgifte aan hun kant valt onder hun eigen beleid en waarborgen.',
         ],
       },
       {
@@ -341,14 +341,14 @@ export const pages = {
     titleAccent: '.',
     updated: 'Laatst bijgewerkt — augustus 2026',
     intro:
-      'Deze voorwaarden beschrijven hoe raoul.studio met klanten werkt — wat we leveren, hoe we werken en wie waarvoor verantwoordelijk is — en hoe je de apps mag gebruiken die de studio zelf draait, zoals Tododo. We hebben ze in gewone taal geschreven: ze zijn bedoeld om eerlijk te zijn, en om gelezen te worden.',
+      'Deze voorwaarden beschrijven hoe raoul.studio met klanten werkt — wat we leveren, hoe we werken en wie waarvoor verantwoordelijk is — en hoe je de apps mag gebruiken die de studio zelf draait, zoals Poofy. We hebben ze in gewone taal geschreven: ze zijn bedoeld om eerlijk te zijn, en om gelezen te worden.',
     sections: [
       {
         heading: 'Inleiding',
         body: [
           'Deze algemene voorwaarden ("Voorwaarden") gelden voor alle diensten, offertes, voorstellen, abonnementen, opdrachten en overeenkomsten tussen raoul.studio ("de Studio", "wij", "ons") en haar klanten ("de Klant", "jij"). Ze zijn van toepassing tenzij we schriftelijk iets anders zijn overeengekomen.',
           'raoul.studio is een digitale productstudio in Nederland, gerund door Raoul Guillermo. Je bereikt ons op hello@raoul.studio. Door een Voorstel te accepteren, een Overeenkomst te ondertekenen of ons opdracht te geven te beginnen, ga je akkoord met deze Voorwaarden.',
-          'Deze Voorwaarden bestaan uit twee delen. Het meeste hieronder gaat over opdrachten voor klanten. De secties onder “De eigen apps van de studio gebruiken”, verderop, gelden in plaats daarvan als je een app gebruikt die de Studio voor eigen rekening draait — op dit moment Tododo, de todo-app voor iPhone en Mac. Je hoeft geen Klant te zijn om die apps te gebruiken.',
+          'Deze Voorwaarden bestaan uit twee delen. Het meeste hieronder gaat over opdrachten voor klanten. De secties onder “De eigen apps van de studio gebruiken”, verderop, gelden in plaats daarvan als je een app gebruikt die de Studio voor eigen rekening draait — op dit moment Poofy, de todo-app voor iPhone en Mac. Je hoeft geen Klant te zijn om die apps te gebruiken.',
         ],
       },
       {
@@ -573,8 +573,8 @@ export const pages = {
       {
         heading: 'De eigen apps van de studio gebruiken',
         body: [
-          'Naast klantwerk draait de Studio haar eigen apps — op dit moment Tododo, een todo-app voor iPhone en Mac. Deze sectie en de secties die erop volgen gelden voor jou als gebruiker van die apps, of je nu ook Klant bent of niet. Waar ze afwijken van de klantgerichte secties hierboven, gaan deze secties voor op jouw gebruik van de apps.',
-          'Tododo is gratis en voor persoonlijk gebruik. Je hebt er een account voor nodig, en door er een aan te maken accepteer je deze Voorwaarden. Hoe de apps met je persoonsgegevens omgaan, staat in ons privacybeleid.',
+          'Naast klantwerk draait de Studio haar eigen apps — op dit moment Poofy, een todo-app voor iPhone en Mac. Deze sectie en de secties die erop volgen gelden voor jou als gebruiker van die apps, of je nu ook Klant bent of niet. Waar ze afwijken van de klantgerichte secties hierboven, gaan deze secties voor op jouw gebruik van de apps.',
+          'Poofy is gratis en voor persoonlijk gebruik. Je hebt er een account voor nodig, en door er een aan te maken accepteer je deze Voorwaarden. Hoe de apps met je persoonsgegevens omgaan, staat in ons privacybeleid.',
         ],
       },
       {

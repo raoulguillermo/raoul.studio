@@ -420,7 +420,7 @@ function Dfns({ t }) {
 
 /* ------------------------------ registry ------------------------------ */
 
-function Tododo({ t }) {
+function Poofy({ t }) {
   return (
     <div className="flex flex-col gap-8 md:gap-10">
       {/* the two gestures the app is built around */}
@@ -464,7 +464,7 @@ const RENDERERS = {
   'no-cms': NoCMS,
   anonimise: Anonimise,
   dfns: Dfns,
-  tododo: Tododo,
+  poofy: Poofy,
 }
 
 function pad2(n) {

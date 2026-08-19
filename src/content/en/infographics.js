@@ -87,7 +87,7 @@ export const infographics = {
     volatility: 'Volatility',
     logged: 'Logged + streamed', // streamed over SSE
   },
-  tododo: {
+  poofy: {
     caption: 'One list, every device',
     task: 'Task',
     swipeRight: 'Swipe right', // gesture → completes the task
