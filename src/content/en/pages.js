@@ -191,14 +191,14 @@ export const pages = {
     meta: {
       title: 'Privacy Policy',
       description:
-        'How raoul.studio handles personal data: what we collect through the contact form, why, who processes it, how long we keep it and your rights under the GDPR.',
+        'How raoul.studio handles personal data across the website and the Tododo app: what we collect, why, who processes it, how long we keep it and your rights under the GDPR.',
     },
     eyebrow: 'Legal',
     titleLine1: 'Privacy',
     titleAccent: '.',
-    updated: 'Last updated — June 2026',
+    updated: 'Last updated — August 2026',
     intro:
-      'This policy explains what personal data raoul.studio collects, why we collect it, and what rights you have over it. We keep data collection to the minimum needed to run the studio and reply to the people who get in touch.',
+      'This policy explains what personal data raoul.studio collects, why we collect it, and what rights you have over it. It covers this website and the apps the studio runs, including the Tododo todo app for iPhone and Mac. We keep data collection to the minimum needed to run the studio, reply to the people who get in touch, and keep your tasks in sync.',
     sections: [
       {
         heading: 'Who we are',
@@ -220,6 +220,32 @@ export const pages = {
         ],
       },
       {
+        heading: 'Tododo — the iPhone and Mac app',
+        body: [
+          'Tododo is the studio’s own todo app for iPhone and Mac. It needs an account so your lists can follow you from one device to the other, and that account is the only reason it holds anything about you.',
+        ],
+        points: [
+          'Account: your email address, and — if you register with a password — a hashed version of that password. The password itself is never stored and cannot be read back.',
+          'Continue with Google: if you sign in with Google, we receive your email address, your basic profile information and your Google account ID. We use them for one thing — to create your account and recognise you next time.',
+          'Your content: the lists and tasks you write, whether each task is done, and the order you put them in.',
+        ],
+      },
+      {
+        heading: 'How Tododo uses Google data',
+        body: [
+          'Signing in with Google is offered purely as a way to identify your account. Tododo asks Google only for your email address and basic profile. It requests no access to Gmail, Drive, Calendar, Contacts, Photos or any other Google service, and it cannot read, write or delete anything in your Google account.',
+          'Tododo’s use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Information received from Google is used only to provide the sign-in feature. It is never sold, never used for advertising or profiling, never transferred to third parties except as needed to run the service or where the law requires it, and never used to train AI models.',
+          'Your tasks are yours. We do not read them for any purpose beyond storing them and serving them back to you, we do not share them, and we do not use them for advertising or to train models.',
+        ],
+      },
+      {
+        heading: 'Deleting your Tododo account',
+        body: [
+          'You can have your account and everything in it removed at any time by emailing hello@raoul.studio from the address the account uses. We delete the account, its lists and its tasks. Signing in with Google can also be disconnected at any time from your Google account’s security settings, which stops any further sign-in — email us as well if you want the data itself deleted.',
+          'We keep account data for as long as the account exists, and no longer.',
+        ],
+      },
+      {
         heading: 'Why we use it, and our legal basis',
         body: [
           'We use your contact details and message for one thing: to read and reply to your enquiry. The legal basis is our legitimate interest in responding to people who contact us, and taking steps at your request before any possible agreement.',
@@ -237,13 +263,21 @@ export const pages = {
         body: ['We keep the number of third parties small. The ones that may handle your data are:'],
         points: [
           'SendGrid (Twilio Inc.) — delivers the contact-form email to us. Your name, email and message pass through it.',
-          'Our own servers — the website is hosted on infrastructure we manage, and contact submissions are stored in our database there.',
+          'Google (Google Ireland Limited) — only if you choose “Continue with Google” in Tododo. Google runs the sign-in and tells us your email address and basic profile. What happens on Google’s side is governed by Google’s own privacy policy.',
+          'DigitalOcean — provides the servers and the managed database, in Amsterdam, where the website and all Tododo accounts, lists and tasks are stored.',
+          'Our own servers — the website and the Tododo API run on infrastructure we manage, and contact submissions are stored in our database there.',
+        ],
+      },
+      {
+        heading: 'Where your data lives',
+        body: [
+          'Website data and Tododo accounts, lists and tasks are stored in the EU, on servers and a managed database in Amsterdam. Connections to the site and to the Tododo API are encrypted in transit, and access to the database is restricted.',
         ],
       },
       {
         heading: 'International transfers',
         body: [
-          'SendGrid (Twilio) is a US company, so sending a contact email may involve transferring your data outside the EU. Where that happens, it is covered by appropriate safeguards such as the European Commission’s Standard Contractual Clauses.',
+          'SendGrid (Twilio) is a US company, so sending a contact email may involve transferring your data outside the EU. DigitalOcean is likewise US-headquartered, although the servers holding your data are in Amsterdam. Where a transfer outside the EU happens, it is covered by appropriate safeguards such as the European Commission’s Standard Contractual Clauses.',
         ],
       },
       {

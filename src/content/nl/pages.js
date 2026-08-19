@@ -191,14 +191,14 @@ export const pages = {
     meta: {
       title: 'Privacybeleid',
       description:
-        'Hoe raoul.studio met persoonsgegevens omgaat: wat we via het contactformulier verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
+        'Hoe raoul.studio met persoonsgegevens omgaat op de website en in de Tododo-app: wat we verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
     },
     eyebrow: 'Juridisch',
     titleLine1: 'Privacy',
     titleAccent: '.',
-    updated: 'Laatst bijgewerkt — juni 2026',
+    updated: 'Laatst bijgewerkt — augustus 2026',
     intro:
-      'Dit beleid legt uit welke persoonsgegevens raoul.studio verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien en de mensen die contact opnemen te beantwoorden.',
+      'Dit beleid legt uit welke persoonsgegevens raoul.studio verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. Het geldt voor deze website en voor de apps die de studio draait, waaronder de Tododo-takenapp voor iPhone en Mac. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien, de mensen die contact opnemen te beantwoorden en je taken gesynchroniseerd te houden.',
     sections: [
       {
         heading: 'Wie we zijn',
@@ -219,6 +219,32 @@ export const pages = {
         ],
       },
       {
+        heading: 'Tododo — de iPhone- en Mac-app',
+        body: [
+          'Tododo is de eigen takenapp van de studio voor iPhone en Mac. Er is een account nodig zodat je lijsten met je meegaan van het ene apparaat naar het andere, en dat account is de enige reden dat de app iets over je bewaart.',
+        ],
+        points: [
+          'Account: je e-mailadres en — als je je met een wachtwoord registreert — een gehashte versie van dat wachtwoord. Het wachtwoord zelf wordt nooit opgeslagen en kan niet worden teruggelezen.',
+          'Doorgaan met Google: als je met Google inlogt, ontvangen we je e-mailadres, je basisprofielgegevens en je Google-account-ID. We gebruiken die voor één ding — je account aanmaken en je de volgende keer herkennen.',
+          'Jouw inhoud: de lijsten en taken die je schrijft, of een taak af is, en de volgorde waarin je ze zet.',
+        ],
+      },
+      {
+        heading: 'Hoe Tododo Google-gegevens gebruikt',
+        body: [
+          'Inloggen met Google wordt puur aangeboden als manier om je account te identificeren. Tododo vraagt Google alleen om je e-mailadres en basisprofiel. De app vraagt geen toegang tot Gmail, Drive, Agenda, Contacten, Foto’s of enige andere Google-dienst, en kan niets in je Google-account lezen, schrijven of verwijderen.',
+          'Het gebruik door Tododo van informatie die via Google API’s wordt ontvangen, voldoet aan het Google API Services User Data Policy, inclusief de Limited Use-vereisten. Informatie van Google wordt uitsluitend gebruikt om de inlogfunctie te bieden. Ze wordt nooit verkocht, nooit gebruikt voor advertenties of profilering, nooit doorgegeven aan derden behalve waar dat nodig is om de dienst te leveren of waar de wet dat vereist, en nooit gebruikt om AI-modellen te trainen.',
+          'Je taken zijn van jou. We lezen ze niet voor enig ander doel dan ze op te slaan en aan jou terug te geven, we delen ze niet, en we gebruiken ze niet voor advertenties of om modellen te trainen.',
+        ],
+      },
+      {
+        heading: 'Je Tododo-account verwijderen',
+        body: [
+          'Je kunt je account en alles erin op elk moment laten verwijderen door te mailen naar hello@raoul.studio vanaf het adres van het account. We verwijderen het account, de lijsten en de taken. Inloggen met Google kun je ook op elk moment loskoppelen via de beveiligingsinstellingen van je Google-account, waarmee verder inloggen stopt — mail ons daarnaast als je wilt dat de gegevens zelf worden verwijderd.',
+          'We bewaren accountgegevens zolang het account bestaat, en niet langer.',
+        ],
+      },
+      {
         heading: 'Waarom we het gebruiken, en onze grondslag',
         body: [
           'We gebruiken je contactgegevens en bericht voor één ding: je vraag lezen en beantwoorden. De grondslag is ons gerechtvaardigd belang om te reageren op mensen die contact met ons opnemen, en om op jouw verzoek stappen te zetten vóór een eventuele overeenkomst.',
@@ -236,13 +262,21 @@ export const pages = {
         body: ['We houden het aantal derde partijen klein. Degenen die je gegevens mogelijk verwerken zijn:'],
         points: [
           'SendGrid (Twilio Inc.) — bezorgt de e-mail van het contactformulier bij ons. Je naam, e-mailadres en bericht gaan hier doorheen.',
-          'Onze eigen servers — de website draait op infrastructuur die we zelf beheren, en contactinzendingen worden daar in onze database opgeslagen.',
+          'Google (Google Ireland Limited) — alleen als je in Tododo voor “Doorgaan met Google” kiest. Google verzorgt het inloggen en geeft ons je e-mailadres en basisprofiel door. Wat er aan Google’s kant gebeurt, valt onder het privacybeleid van Google zelf.',
+          'DigitalOcean — levert de servers en de managed database in Amsterdam waar de website en alle Tododo-accounts, -lijsten en -taken worden opgeslagen.',
+          'Onze eigen servers — de website en de Tododo-API draaien op infrastructuur die we zelf beheren, en contactinzendingen worden daar in onze database opgeslagen.',
+        ],
+      },
+      {
+        heading: 'Waar je gegevens staan',
+        body: [
+          'Websitegegevens en Tododo-accounts, -lijsten en -taken worden in de EU opgeslagen, op servers en een managed database in Amsterdam. Verbindingen met de site en met de Tododo-API zijn versleuteld, en de toegang tot de database is beperkt.',
         ],
       },
       {
         heading: 'Internationale doorgifte',
         body: [
-          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. Waar dat gebeurt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie.',
+          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. DigitalOcean heeft eveneens zijn hoofdkantoor in de VS, al staan de servers met jouw gegevens in Amsterdam. Waar doorgifte buiten de EU plaatsvindt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie.',
         ],
       },
       {

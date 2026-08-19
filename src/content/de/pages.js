@@ -191,14 +191,14 @@ export const pages = {
     meta: {
       title: 'Datenschutz',
       description:
-        'Wie raoul.studio mit personenbezogenen Daten umgeht: was wir über das Kontaktformular erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
+        'Wie raoul.studio mit personenbezogenen Daten auf der Website und in der Tododo-App umgeht: was wir erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
     },
     eyebrow: 'Rechtliches',
     titleLine1: 'Datenschutz',
     titleAccent: '.',
-    updated: 'Zuletzt aktualisiert — Juni 2026',
+    updated: 'Zuletzt aktualisiert — August 2026',
     intro:
-      'Diese Richtlinie erklärt, welche personenbezogenen Daten raoul.studio erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben und denjenigen zu antworten, die uns kontaktieren.',
+      'Diese Richtlinie erklärt, welche personenbezogenen Daten raoul.studio erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Sie gilt für diese Website und für die Apps, die das Studio betreibt, einschließlich der Aufgaben-App Tododo für iPhone und Mac. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben, denjenigen zu antworten, die uns kontaktieren, und Ihre Aufgaben synchron zu halten.',
     sections: [
       {
         heading: 'Wer wir sind',
@@ -219,6 +219,32 @@ export const pages = {
         ],
       },
       {
+        heading: 'Tododo — die iPhone- und Mac-App',
+        body: [
+          'Tododo ist die eigene Aufgaben-App des Studios für iPhone und Mac. Sie benötigt ein Konto, damit Ihre Listen von einem Gerät zum anderen mitwandern, und dieses Konto ist der einzige Grund, warum sie überhaupt etwas über Sie speichert.',
+        ],
+        points: [
+          'Konto: Ihre E-Mail-Adresse und — wenn Sie sich mit einem Passwort registrieren — eine gehashte Version dieses Passworts. Das Passwort selbst wird nie gespeichert und kann nicht zurückgelesen werden.',
+          'Weiter mit Google: Wenn Sie sich mit Google anmelden, erhalten wir Ihre E-Mail-Adresse, Ihre Basis-Profildaten und Ihre Google-Konto-ID. Wir nutzen sie für eine Sache — Ihr Konto anzulegen und Sie beim nächsten Mal wiederzuerkennen.',
+          'Ihre Inhalte: die Listen und Aufgaben, die Sie schreiben, ob eine Aufgabe erledigt ist, und die Reihenfolge, in die Sie sie bringen.',
+        ],
+      },
+      {
+        heading: 'Wie Tododo Google-Daten nutzt',
+        body: [
+          'Die Anmeldung mit Google wird ausschließlich als Möglichkeit angeboten, Ihr Konto zu identifizieren. Tododo fragt bei Google nur Ihre E-Mail-Adresse und Ihr Basisprofil ab. Die App fordert keinen Zugriff auf Gmail, Drive, Kalender, Kontakte, Fotos oder einen anderen Google-Dienst an und kann in Ihrem Google-Konto nichts lesen, schreiben oder löschen.',
+          'Die Verwendung von Informationen, die Tododo über Google-APIs erhält, entspricht der Google API Services User Data Policy einschließlich der Limited-Use-Anforderungen. Von Google erhaltene Informationen werden ausschließlich für die Anmeldefunktion verwendet. Sie werden nie verkauft, nie für Werbung oder Profiling genutzt, nie an Dritte weitergegeben außer soweit dies für den Betrieb des Dienstes nötig ist oder das Gesetz es verlangt, und nie zum Training von KI-Modellen verwendet.',
+          'Ihre Aufgaben gehören Ihnen. Wir lesen sie zu keinem anderen Zweck, als sie zu speichern und Ihnen zurückzugeben, wir geben sie nicht weiter und wir nutzen sie nicht für Werbung oder zum Training von Modellen.',
+        ],
+      },
+      {
+        heading: 'Ihr Tododo-Konto löschen',
+        body: [
+          'Sie können Ihr Konto und alles darin jederzeit löschen lassen, indem Sie von der Adresse des Kontos aus eine E-Mail an hello@raoul.studio schreiben. Wir löschen das Konto, seine Listen und seine Aufgaben. Die Anmeldung mit Google lässt sich außerdem jederzeit in den Sicherheitseinstellungen Ihres Google-Kontos trennen, wodurch keine weitere Anmeldung mehr möglich ist — schreiben Sie uns zusätzlich, wenn auch die Daten selbst gelöscht werden sollen.',
+          'Wir speichern Kontodaten so lange, wie das Konto besteht, und nicht länger.',
+        ],
+      },
+      {
         heading: 'Wozu wir sie nutzen und unsere Rechtsgrundlage',
         body: [
           'Wir nutzen Ihre Kontaktdaten und Nachricht für eine Sache: um Ihre Anfrage zu lesen und zu beantworten. Rechtsgrundlage ist unser berechtigtes Interesse, Menschen zu antworten, die uns kontaktieren, sowie die Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage hin.',
@@ -236,13 +262,21 @@ export const pages = {
         body: ['Wir halten die Zahl der Dritten klein. Diejenigen, die Ihre Daten verarbeiten könnten, sind:'],
         points: [
           'SendGrid (Twilio Inc.) — stellt die E-Mail aus dem Kontaktformular an uns zu. Ihr Name, Ihre E-Mail und Ihre Nachricht laufen darüber.',
-          'Unsere eigenen Server — die Website wird auf von uns verwalteter Infrastruktur gehostet, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
+          'Google (Google Ireland Limited) — nur wenn Sie in Tododo „Weiter mit Google“ wählen. Google führt die Anmeldung durch und übermittelt uns Ihre E-Mail-Adresse und Ihr Basisprofil. Was auf Google’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Google.',
+          'DigitalOcean — stellt die Server und die Managed-Datenbank in Amsterdam bereit, auf denen die Website und alle Tododo-Konten, -Listen und -Aufgaben gespeichert werden.',
+          'Unsere eigenen Server — die Website und die Tododo-API laufen auf von uns verwalteter Infrastruktur, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
+        ],
+      },
+      {
+        heading: 'Wo Ihre Daten liegen',
+        body: [
+          'Website-Daten sowie Tododo-Konten, -Listen und -Aufgaben werden in der EU gespeichert, auf Servern und einer Managed-Datenbank in Amsterdam. Verbindungen zur Website und zur Tododo-API sind bei der Übertragung verschlüsselt, und der Zugriff auf die Datenbank ist beschränkt.',
         ],
       },
       {
         heading: 'Internationale Übermittlungen',
         body: [
-          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. Wo das geschieht, ist es durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert.',
+          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. DigitalOcean hat seinen Hauptsitz ebenfalls in den USA, auch wenn die Server mit Ihren Daten in Amsterdam stehen. Wo eine Übermittlung außerhalb der EU stattfindet, ist sie durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert.',
         ],
       },
       {

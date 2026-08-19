@@ -191,14 +191,14 @@ export const pages = {
     meta: {
       title: 'Política de privacidad',
       description:
-        'Cómo trata raoul.studio los datos personales: qué recogemos a través del formulario de contacto, por qué, quién los procesa, cuánto los conservamos y tus derechos bajo el RGPD.',
+        'Cómo trata raoul.studio los datos personales en el sitio web y en la app Tododo: qué recogemos, por qué, quién los procesa, cuánto los conservamos y tus derechos bajo el RGPD.',
     },
     eyebrow: 'Legal',
     titleLine1: 'Privacidad',
     titleAccent: '.',
-    updated: 'Última actualización — junio de 2026',
+    updated: 'Última actualización — agosto de 2026',
     intro:
-      'Esta política explica qué datos personales recoge raoul.studio, por qué los recogemos y qué derechos tienes sobre ellos. Limitamos la recogida de datos al mínimo necesario para llevar el estudio y responder a quienes nos escriben.',
+      'Esta política explica qué datos personales recoge raoul.studio, por qué los recogemos y qué derechos tienes sobre ellos. Cubre este sitio web y las apps que el estudio mantiene, incluida la app de tareas Tododo para iPhone y Mac. Limitamos la recogida de datos al mínimo necesario para llevar el estudio, responder a quienes nos escriben y mantener tus tareas sincronizadas.',
     sections: [
       {
         heading: 'Quiénes somos',
@@ -219,6 +219,32 @@ export const pages = {
         ],
       },
       {
+        heading: 'Tododo — la app para iPhone y Mac',
+        body: [
+          'Tododo es la app de tareas propia del estudio para iPhone y Mac. Necesita una cuenta para que tus listas te acompañen de un dispositivo a otro, y esa cuenta es la única razón por la que guarda algo sobre ti.',
+        ],
+        points: [
+          'Cuenta: tu dirección de correo y —si te registras con contraseña— una versión cifrada (hash) de esa contraseña. La contraseña en sí nunca se almacena y no puede recuperarse.',
+          'Continuar con Google: si inicias sesión con Google, recibimos tu dirección de correo, la información básica de tu perfil y tu ID de cuenta de Google. Los usamos para una sola cosa: crear tu cuenta y reconocerte la próxima vez.',
+          'Tu contenido: las listas y tareas que escribes, si cada tarea está hecha, y el orden en que las colocas.',
+        ],
+      },
+      {
+        heading: 'Cómo usa Tododo los datos de Google',
+        body: [
+          'Iniciar sesión con Google se ofrece únicamente como forma de identificar tu cuenta. Tododo solo pide a Google tu dirección de correo y tu perfil básico. No solicita acceso a Gmail, Drive, Calendar, Contactos, Fotos ni a ningún otro servicio de Google, y no puede leer, escribir ni borrar nada en tu cuenta de Google.',
+          'El uso por parte de Tododo de la información recibida de las API de Google se ajusta a la Google API Services User Data Policy, incluidos sus requisitos de Uso Limitado (Limited Use). La información recibida de Google se utiliza únicamente para ofrecer el inicio de sesión. Nunca se vende, nunca se usa para publicidad ni elaboración de perfiles, nunca se transfiere a terceros salvo lo necesario para prestar el servicio o cuando lo exija la ley, y nunca se usa para entrenar modelos de IA.',
+          'Tus tareas son tuyas. No las leemos con ningún fin más allá de almacenarlas y devolvértelas, no las compartimos y no las usamos para publicidad ni para entrenar modelos.',
+        ],
+      },
+      {
+        heading: 'Eliminar tu cuenta de Tododo',
+        body: [
+          'Puedes solicitar que se eliminen tu cuenta y todo su contenido en cualquier momento escribiendo a hello@raoul.studio desde la dirección de la cuenta. Eliminamos la cuenta, sus listas y sus tareas. El inicio de sesión con Google también puede desconectarse en cualquier momento desde los ajustes de seguridad de tu cuenta de Google, lo que impide seguir accediendo; escríbenos además si quieres que se borren los datos.',
+          'Conservamos los datos de la cuenta mientras la cuenta exista, y no más.',
+        ],
+      },
+      {
         heading: 'Para qué los usamos, y nuestra base legal',
         body: [
           'Usamos tus datos de contacto y tu mensaje para una sola cosa: leer y responder a tu consulta. La base legal es nuestro interés legítimo en responder a quienes nos contactan y en dar los pasos que solicites antes de un posible acuerdo.',
@@ -236,13 +262,21 @@ export const pages = {
         body: ['Mantenemos reducido el número de terceros. Los que pueden tratar tus datos son:'],
         points: [
           'SendGrid (Twilio Inc.) — nos entrega el correo del formulario de contacto. Tu nombre, correo y mensaje pasan por él.',
-          'Nuestros propios servidores — el sitio web se aloja en infraestructura que gestionamos, y los envíos de contacto se almacenan en nuestra base de datos allí.',
+          'Google (Google Ireland Limited) — solo si eliges “Continuar con Google” en Tododo. Google gestiona el inicio de sesión y nos comunica tu dirección de correo y tu perfil básico. Lo que ocurre del lado de Google se rige por la propia política de privacidad de Google.',
+          'DigitalOcean — proporciona los servidores y la base de datos gestionada, en Ámsterdam, donde se almacenan el sitio web y todas las cuentas, listas y tareas de Tododo.',
+          'Nuestros propios servidores — el sitio web y la API de Tododo se ejecutan en infraestructura que gestionamos, y los envíos de contacto se almacenan en nuestra base de datos allí.',
+        ],
+      },
+      {
+        heading: 'Dónde se guardan tus datos',
+        body: [
+          'Los datos del sitio web y las cuentas, listas y tareas de Tododo se almacenan en la UE, en servidores y una base de datos gestionada en Ámsterdam. Las conexiones con el sitio y con la API de Tododo van cifradas en tránsito, y el acceso a la base de datos está restringido.',
         ],
       },
       {
         heading: 'Transferencias internacionales',
         body: [
-          'SendGrid (Twilio) es una empresa estadounidense, por lo que enviar un correo de contacto puede implicar transferir tus datos fuera de la UE. Cuando eso ocurre, está cubierto por garantías adecuadas como las Cláusulas Contractuales Tipo de la Comisión Europea.',
+          'SendGrid (Twilio) es una empresa estadounidense, por lo que enviar un correo de contacto puede implicar transferir tus datos fuera de la UE. DigitalOcean también tiene su sede en EE. UU., aunque los servidores que guardan tus datos están en Ámsterdam. Cuando se produce una transferencia fuera de la UE, está cubierta por garantías adecuadas como las Cláusulas Contractuales Tipo de la Comisión Europea.',
         ],
       },
       {
