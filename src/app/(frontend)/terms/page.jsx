@@ -6,9 +6,10 @@ import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { pages as enPages } from '@/content/en/pages'
 
-// The Terms are maintained in English (the canonical legal version). Locales that
-// have not translated them fall back to the English `terms` object, so the page
-// always renders regardless of the active language.
+// The Terms are translated per locale; English remains the canonical legal
+// version (see the "Language of these terms" section). Any locale that has not
+// translated them falls back to the English `terms` object, so the page always
+// renders regardless of the active language.
 function getTerms(pages) {
   return pages.terms || enPages.terms
 }

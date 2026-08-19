@@ -329,4 +329,329 @@ export const pages = {
     directEmail: 'hello@raoul.studio',
     posterRailMiddle: 'Datenschutz · Rechtliches',
   },
+  terms: {
+    slug: 'terms',
+    meta: {
+      title: 'Allgemeine Geschäftsbedingungen',
+      description:
+        'Die Bedingungen, zu denen raoul.studio mit Kunden arbeitet und seine eigenen Apps betreibt: Leistungsumfang, Zahlung, geistiges Eigentum, Konten, zulässige Nutzung, Haftung und mehr — in klarer Sprache, nach niederländischem Recht.',
+    },
+    eyebrow: 'Rechtliches',
+    titleLine1: 'AGB',
+    titleAccent: '.',
+    updated: 'Zuletzt aktualisiert — August 2026',
+    intro:
+      'Diese Bedingungen beschreiben, wie raoul.studio mit seinen Kunden arbeitet — was wir liefern, wie wir arbeiten und wer wofür verantwortlich ist — und wie Sie die Apps nutzen dürfen, die das Studio selbst betreibt, etwa Tododo. Wir haben sie in klarer Sprache verfasst: Sie sollen fair sein und gelesen werden.',
+    sections: [
+      {
+        heading: 'Einleitung',
+        body: [
+          'Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für alle Leistungen, Angebote, Vorschläge, Abonnements, Aufträge und Vereinbarungen zwischen raoul.studio („das Studio“, „wir“, „uns“) und seinen Kunden („der Kunde“, „Sie“). Sie gelten, sofern wir nicht schriftlich etwas anderes vereinbart haben.',
+          'raoul.studio ist ein digitales Produktstudio mit Sitz in den Niederlanden, geführt von Raoul Guillermo. Sie erreichen uns unter hello@raoul.studio. Mit der Annahme eines Angebots, der Unterzeichnung einer Vereinbarung oder der Beauftragung, mit der Arbeit zu beginnen, stimmen Sie diesen Bedingungen zu.',
+          'Diese Bedingungen bestehen aus zwei Teilen. Das meiste im Folgenden betrifft Kundenprojekte. Die Abschnitte unter „Nutzung der eigenen Apps des Studios“ weiter unten gelten stattdessen, wenn Sie eine App nutzen, die das Studio auf eigene Rechnung betreibt — derzeit Tododo, die Todo-App für iPhone und Mac. Sie müssen kein Kunde sein, um diese Apps zu nutzen.',
+        ],
+      },
+      {
+        heading: 'Begriffsbestimmungen',
+        body: ['In diesen Bedingungen haben die folgenden Begriffe die folgende Bedeutung:'],
+        points: [
+          'Studio — raoul.studio, der Anbieter der Leistungen.',
+          'Kunde — die natürliche oder juristische Person, die eine Vereinbarung mit dem Studio schließt.',
+          'Projekt — die Arbeit, die das Studio zu erbringen zusagt, wie in einem Angebot oder einer Vereinbarung beschrieben.',
+          'Leistungen (Deliverables) — die Designs, Software, der Code, die Dokumentation, Inhalte oder sonstigen Materialien, die das Studio liefert.',
+          'Angebot — jedes Angebot, jede Schätzung, Leistungsbeschreibung oder Offerte des Studios.',
+          'Vereinbarung — das angenommene Angebot zusammen mit diesen Bedingungen und etwaigen schriftlichen Absprachen zwischen den Parteien.',
+          'Geistiges Eigentum — alle Rechte an Software, Designs, Texten, Methoden und Know-how, einschließlich Urheberrecht, Datenbankrechten, Marken und Geschäftsgeheimnissen.',
+          'Vertrauliche Informationen — nicht öffentliche Informationen, die eine Partei der anderen offenlegt und die als vertraulich gekennzeichnet sind oder vernünftigerweise als vertraulich zu verstehen sind.',
+          'Drittleistungen — Produkte oder Dienste anderer Anbieter als des Studios, etwa Hosting, Cloud, Zahlungsdienste, KI- oder API-Anbieter.',
+          'KI-Dienste — Dienste, die künstliche Intelligenz, maschinelles Lernen oder die automatisierte Erzeugung von Inhalten, Code, Text oder Entscheidungen einsetzen.',
+        ],
+      },
+      {
+        heading: 'Geltungsbereich',
+        body: [
+          'Diese Bedingungen gelten für jedes Angebot, jede Vereinbarung und jedes Projekt sowie für Folge- oder Zusatzarbeiten, sofern nicht ausdrücklich schriftlich etwas anderes vereinbart ist.',
+          'Diese Bedingungen gehen etwaigen Einkaufs-, Beschaffungs- oder sonstigen allgemeinen Bedingungen des Kunden vor. Der Geltung der Bedingungen des Kunden wird ausdrücklich widersprochen, sofern wir sie nicht schriftlich anerkannt haben.',
+          'Ist eine Bestimmung dieser Bedingungen unwirksam oder undurchsetzbar oder wird sie es, bleiben die übrigen Bestimmungen vollständig wirksam; die unwirksame Bestimmung wird durch eine wirksame ersetzt, die ihrem Zweck möglichst nahekommt.',
+        ],
+      },
+      {
+        heading: 'Angebote & Vorschläge',
+        body: ['Sofern nicht anders angegeben:'],
+        points: [
+          'Angebote sind freibleibend und verpflichten das Studio erst, wenn beide Parteien sie angenommen haben.',
+          'Ein Angebot gilt 30 Tage ab Datum; danach kann es geändert oder zurückgezogen werden.',
+          'Preise können sich vor Annahme eines Angebots ändern — etwa durch Änderungen des Leistungsumfangs, Kosten Dritter oder Steuern.',
+          'Alle Preise verstehen sich zuzüglich Umsatzsteuer und etwaiger Kosten Dritter, sofern nicht anders angegeben.',
+          'Offensichtliche Irrtümer und Schreibfehler in einem Angebot binden das Studio nicht.',
+        ],
+      },
+      {
+        heading: 'Projektumfang',
+        body: [
+          'Das Studio erbringt die im angenommenen Angebot beschriebene Arbeit. Alles, was dort nicht ausdrücklich enthalten ist, liegt außerhalb des Umfangs.',
+          'Arbeiten außerhalb des Umfangs — einschließlich zusätzlicher Funktionen, Integrationen oder Anforderungen — können zusätzliches Budget, eine geänderte Planung oder ein separates Angebot erfordern, bevor sie ausgeführt werden.',
+        ],
+      },
+      {
+        heading: 'Änderungswünsche',
+        body: [
+          'Wünscht der Kunde zusätzliche Funktionen, Überarbeitungen, neue Anforderungen oder geänderte Prioritäten, bewertet das Studio die Auswirkungen auf Umfang, Planung und Preis.',
+          'Änderungen werden erst nach Einigung ausgeführt. Das Studio kann Zeitpläne und Honorare entsprechend anpassen und ist nicht verpflichtet, mit geänderten Arbeiten vor der Einigung zu beginnen.',
+        ],
+      },
+      {
+        heading: 'Mitwirkung des Kunden',
+        body: [
+          'Ein Projekt lebt von der Mitwirkung des Kunden. Der Kunde stellt Folgendes rechtzeitig und vollständig bereit. Vom Kunden verursachte Verzögerungen verlängern die Planung entsprechend; das Studio haftet nicht für daraus entstehende Verzögerungen oder Kosten:',
+        ],
+        points: [
+          'zutreffende und vollständige Informationen;',
+          'Inhalte, Assets, Markenmaterialien und Zugangsdaten;',
+          'zeitnahes Feedback, Freigaben und Entscheidungen;',
+          'eine oder mehrere entscheidungsbefugte Personen;',
+          'das Testen und Prüfen von Leistungen auf Anfrage.',
+        ],
+      },
+      {
+        heading: 'Lieferung',
+        body: [
+          'Vom Studio genannte Termine oder Planungen sind Schätzungen und keine festen Fristen, sofern nicht ausdrücklich schriftlich eine feste Frist als solche vereinbart wurde („fatale termijn“).',
+          'Angemessene Verzögerungen stellen keine Vertragsverletzung dar. Wird eine Verzögerung durch den Kunden oder durch Drittleistungen verursacht, verlängert sich der vereinbarte Zeitplan entsprechend.',
+        ],
+      },
+      {
+        heading: 'Abnahme',
+        body: ['Sofern nicht anders vereinbart:'],
+        points: [
+          'Leistungen gelten als abgenommen, wenn der Kunde nicht innerhalb von zehn (10) Werktagen nach Lieferung schriftlich begründete Mängel meldet.',
+          'Geringfügige Mängel, die die Nutzung nicht wesentlich beeinträchtigen, rechtfertigen keine Zurückweisung und werden im normalen Arbeitsablauf behoben.',
+          'Die Inbetriebnahme einer Leistung oder ihr Einsatz in der Produktion gilt als Abnahme.',
+        ],
+      },
+      {
+        heading: 'Zahlungsbedingungen',
+        body: ['Sofern im Angebot nicht anders vereinbart:'],
+        points: [
+          'Das Studio kann vor Arbeitsbeginn eine Anzahlung verlangen und nach Meilensteinen oder wiederkehrend (Retainer oder Abonnement) abrechnen.',
+          'Rechnungen sind innerhalb von vierzehn (14) Tagen ab Rechnungsdatum zahlbar.',
+          'Alle Beträge verstehen sich zuzüglich Umsatzsteuer, die gegebenenfalls berechnet wird.',
+          'Wird eine Rechnung nicht fristgerecht bezahlt, befindet sich der Kunde ohne weitere Mahnung in Verzug, und ab Fälligkeit gelten die gesetzlichen (Handels-)Zinsen nach niederländischem Recht.',
+          'Der Kunde schuldet alle angemessenen gerichtlichen und außergerichtlichen Inkassokosten, die zur Beitreibung überfälliger Beträge anfallen.',
+          'Das Studio kann Arbeiten, Hosting, Wartung und Support aussetzen, solange Rechnungen offen sind.',
+        ],
+      },
+      {
+        heading: 'Aussetzung',
+        body: [
+          'Kommt der Kunde einer Zahlungs- oder anderen wesentlichen Pflicht nicht nach, kann das Studio seine Leistungen aussetzen — einschließlich Entwicklung, Hosting, Wartung und Support — bis der Kunde seine Pflichten erfüllt hat.',
+          'Die Aussetzung befreit den Kunden nicht von seinen Zahlungspflichten, und das Studio haftet nicht für Schäden aus einer rechtmäßigen Aussetzung.',
+        ],
+      },
+      {
+        heading: 'Geistiges Eigentum',
+        body: [
+          'Mit vollständiger Zahlung aller für ein Projekt geschuldeten Beträge erhält der Kunde das Eigentum an den eigens für ihn erstellten Leistungen oder die ausdrücklich dafür vereinbarte Lizenz. Bis zur vollständigen Zahlung verbleiben alle Rechte beim Studio.',
+          'Das Studio behält alle Rechte des geistigen Eigentums an allem, was keine eigens erstellte Leistung ist, einschließlich, aber nicht beschränkt auf Methodiken, interne Frameworks, wiederverwendbaren Code, Bibliotheken, SDKs, Vorlagen, Architektur, KI-Workflows, Automatisierungs-Frameworks, Entwicklungswerkzeuge, Know-how, Konzepte und bereits bestehende Software.',
+          'Werden solche zurückbehaltenen Materialien in eine Leistung integriert, erhält der Kunde eine nicht ausschließliche, nicht übertragbare Lizenz, sie als Teil dieser Leistung zu nutzen, erwirbt daran jedoch kein Eigentum.',
+          'Es steht dem Studio frei, das allgemeine Wissen, die Fähigkeiten, Techniken und Erfahrungen aus einem Projekt für andere Kunden und Zwecke zu nutzen.',
+        ],
+      },
+      {
+        heading: 'Open-Source-Software',
+        body: [
+          'Leistungen können Open-Source-Software enthalten, die unter ihren eigenen Lizenzbedingungen bereitgestellt wird. Diese Lizenzen regeln die Nutzung der Open-Source-Komponenten durch den Kunden; das Studio übernimmt dafür keine Gewährleistung oder Freistellung, die über diese Lizenzen hinausgeht.',
+        ],
+      },
+      {
+        heading: 'Drittleistungen',
+        body: [
+          'Projekte stützen sich häufig auf Drittleistungen wie Hosting, Cloud-Anbieter, Zahlungsdienstleister, KI-Anbieter, APIs und CMS-Plattformen. Für diese gelten deren eigene Bedingungen, die der Kunde, soweit einschlägig, akzeptiert.',
+          'Soweit gesetzlich zulässig haftet das Studio nicht für Drittleistungen und übernimmt dafür keine Gewähr, einschließlich:',
+        ],
+        points: [
+          'Ausfälle, Downtime oder verminderte Leistung;',
+          'Preisänderungen oder eingestellte Dienste;',
+          'Änderungen von Bedingungen, Richtlinien oder APIs;',
+          'Sicherheitsvorfälle, Datenverlust oder Datenschutzverletzungen.',
+        ],
+      },
+      {
+        heading: 'KI-Dienste',
+        body: [
+          'KI-Dienste beruhen auf probabilistischen und statistischen Modellen. Ihre Ausgaben entstehen automatisiert und sind naturgemäß unsicher.',
+          'Ausgaben von KI-Diensten können Ungenauigkeiten, erfundene („halluzinierte“) Informationen, unvollständige oder veraltete Informationen oder für einen bestimmten Zweck ungeeignete Ergebnisse enthalten.',
+          'Der Kunde bleibt in vollem Umfang dafür verantwortlich, KI-generierte Ausgaben zu prüfen, zu validieren und freizugeben, bevor er sich darauf verlässt oder sie produktiv einsetzt, und dafür, dass ihre Nutzung geltendem Recht entspricht.',
+          'Das Studio erbringt KI-Dienste nach bestem Bemühen und übernimmt keine Gewähr für Richtigkeit, Vollständigkeit, sachliche Korrektheit, Rechtskonformität, Eignung für einen Zweck oder geschäftliche Ergebnisse KI-generierter Ausgaben.',
+        ],
+      },
+      {
+        heading: 'Sicherheit',
+        body: [
+          'Das Studio trifft wirtschaftlich angemessene technische und organisatorische Maßnahmen, um die von ihm verarbeiteten Systeme und Daten zu schützen.',
+          'Kein digitales System, keine Software und kein Onlinedienst kann jedoch als vollständig sicher garantiert werden. Soweit gesetzlich zulässig garantiert das Studio nichts und haftet nicht für Sicherheitsvorfälle außerhalb seines zumutbaren Einflussbereichs — darunter Cyberangriffe, Zero-Day-Schwachstellen, Phishing, Schadsoftware, Cloud- oder Hosting-Ausfälle sowie Internet- oder Netzwerkstörungen.',
+        ],
+      },
+      {
+        heading: 'Vertraulichkeit',
+        body: [
+          'Jede Partei behandelt die Vertraulichen Informationen der anderen vertraulich, nutzt sie nur für den Zweck des Projekts und schützt sie mit angemessener Sorgfalt.',
+          'Dies gilt nicht für Informationen, die ohne Verstoß öffentlich sind oder werden, die eine Partei bereits rechtmäßig besaß oder die aufgrund von Gesetz, Verordnung oder gerichtlicher Anordnung offengelegt werden müssen — in diesem Fall informiert die offenlegende Partei, soweit zulässig, vorab.',
+        ],
+      },
+      {
+        heading: 'Datenschutz',
+        body: [
+          'Das Studio verarbeitet personenbezogene Daten gemäß seiner Datenschutzerklärung, die auf dieser Website verfügbar ist.',
+          'Der Kunde ist und bleibt verantwortlich für die personenbezogenen Daten, die er bereitstellt oder über die Leistungen verarbeitet, einschließlich einer Rechtsgrundlage für diese Verarbeitung. Verarbeitet das Studio personenbezogene Daten im Auftrag des Kunden, schließen die Parteien, soweit erforderlich, einen gesonderten Auftragsverarbeitungsvertrag.',
+        ],
+      },
+      {
+        heading: 'Wartung & Support',
+        body: ['Wartung und Support werden nur erbracht, wenn dies ausdrücklich vereinbart ist. Sofern nicht anders vereinbart:'],
+        points: [
+          'Enthalten: Fehlerbehebung gemessen an der vereinbarten Spezifikation, Monitoring und die in der Vereinbarung beschriebene Wartung.',
+          'Nicht enthalten: neue Funktionen, Redesigns, neue Integrationen sowie Beratung oder Arbeiten außerhalb der Vereinbarung — diese werden gesondert angeboten.',
+        ],
+      },
+      {
+        heading: 'Gewährleistung',
+        body: [
+          'Das Studio erbringt seine Leistungen mit angemessener Sachkunde und Sorgfalt, und die Leistungen entsprechen zum Zeitpunkt der Lieferung im Wesentlichen der vereinbarten Spezifikation. Dies ist die ausschließliche Gewährleistung des Kunden.',
+          'Soweit gesetzlich zulässig gibt das Studio keine weiteren Zusicherungen und garantiert nicht, dass Software unterbrechungs- oder fehlerfrei läuft, mit künftigen Systemen oder Änderungen Dritter kompatibel bleibt oder ein bestimmtes wirtschaftliches Ergebnis erzielt.',
+        ],
+      },
+      {
+        heading: 'Haftungsbeschränkung',
+        body: [
+          'Soweit nach geltendem Recht zulässig ist die Gesamthaftung des Studios aus oder im Zusammenhang mit einem Projekt auf den Betrag begrenzt, den der Kunde für dieses konkrete Projekt in den zwölf (12) Monaten vor dem haftungsauslösenden Ereignis gezahlt hat.',
+          'Das Studio haftet nicht für mittelbare Schäden oder Folgeschäden, einschließlich entgangenen Gewinns, entgangener Umsätze, entgangener Geschäfte oder Chancen, Rufschädigung, Verlust oder Beschädigung von Daten, Downtime oder Betriebsunterbrechung.',
+          'Eine Haftung des Studios entsteht nur, wenn der Kunde den Verzug schriftlich anzeigt, eine angemessene Frist zur Behebung setzt und das Studio dennoch nicht leistet — es sei denn, eine Behebung ist dauerhaft unmöglich.',
+          'Nichts in diesen Bedingungen schließt eine Haftung aus oder begrenzt sie, die nach niederländischem Recht nicht ausgeschlossen oder begrenzt werden kann, einschließlich der Haftung für Vorsatz oder bewusste Leichtfertigkeit („opzet of bewuste roekeloosheid“) der Leitung des Studios.',
+        ],
+      },
+      {
+        heading: 'Freistellung',
+        body: [
+          'Der Kunde stellt das Studio von allen Ansprüchen Dritter, Schäden, Kosten und Aufwendungen (einschließlich angemessener Rechtsverfolgungskosten) frei, die entstehen aus oder zusammenhängen mit:',
+        ],
+        points: [
+          'vom Kunden gelieferten Inhalten, Materialien oder Anweisungen;',
+          'der Verletzung geistigen Eigentums oder anderer Rechte Dritter durch vom Kunden gelieferte Materialien;',
+          'rechtswidrigen, rechtsverletzenden oder unsachgemäßen Anweisungen;',
+          'dem Missbrauch der Leistungen oder einer anderen als der vorgesehenen Nutzung;',
+          'rechtswidrigen Aktivitäten des Kunden oder Verstößen gegen geltendes Recht.',
+        ],
+      },
+      {
+        heading: 'Höhere Gewalt',
+        body: [
+          'Das Studio haftet nicht für Nichterfüllung oder Verzögerungen aufgrund von Umständen außerhalb seines zumutbaren Einflussbereichs („overmacht“), darunter Naturkatastrophen, extremes Wetter, Pandemien und Epidemien, Streiks, Krieg oder Unruhen, behördliche Maßnahmen, Internet- oder Telekommunikationsausfälle, Ausfälle von Cloud-, Hosting- oder anderen Lieferanten, Ausfälle von KI-Anbietern und Cyberangriffe.',
+          'Während höherer Gewalt ruhen die Pflichten der Parteien. Dauert die Situation länger als sechzig (60) Tage, kann jede Partei die Vereinbarung für den betroffenen Teil schriftlich und ohne Haftung beenden; bereits erbrachte Arbeiten bleiben zahlbar.',
+        ],
+      },
+      {
+        heading: 'Beendigung',
+        body: [
+          'Jede Partei kann eine Vereinbarung mit angemessener schriftlicher Frist ordentlich beenden, vorbehaltlich einer für Retainer oder Abonnements vereinbarten Mindestlaufzeit.',
+          'Jede Partei kann fristlos beenden, wenn die andere eine wesentliche Pflicht verletzt und dies nicht innerhalb angemessener Frist nach schriftlicher Aufforderung behebt, oder bei Insolvenz, Zahlungsaufschub oder Zahlungsunfähigkeit der anderen Partei.',
+          'Bei Beendigung bezahlt der Kunde alle bis zum Wirksamkeitsdatum erbrachten Arbeiten und eingegangenen Kosten. Bestimmungen, die ihrer Natur nach fortgelten sollen — darunter geistiges Eigentum, Vertraulichkeit, Haftung und anwendbares Recht — bleiben in Kraft.',
+        ],
+      },
+      {
+        heading: 'Portfoliorechte',
+        body: [
+          'Sofern nicht ausdrücklich schriftlich anders vereinbart, darf das Studio den Kunden nennen und abgeschlossene, öffentlich veröffentlichte Arbeiten zeigen — einschließlich Screenshots, Beschreibungen sowie Name und Logo des Kunden — in seinem Portfolio, auf seiner Website und in Marketingmaterialien, unter Wahrung Vertraulicher Informationen.',
+        ],
+      },
+      {
+        heading: 'Abwerbeverbot',
+        body: [
+          'Während eines Projekts und für zwölf (12) Monate nach dessen Abschluss wird der Kunde ohne vorherige schriftliche Zustimmung des Studios keine am Projekt beteiligten Mitarbeitenden, Auftragnehmer oder Freelancer des Studios unmittelbar oder mittelbar abwerben, einstellen oder beauftragen.',
+        ],
+      },
+      {
+        heading: 'Nutzung der eigenen Apps des Studios',
+        body: [
+          'Neben der Kundenarbeit betreibt das Studio eigene Apps — derzeit Tododo, eine Todo-App für iPhone und Mac. Dieser Abschnitt und die folgenden gelten für Sie als Nutzerin oder Nutzer dieser Apps, unabhängig davon, ob Sie auch Kunde sind. Weichen sie von den kundenbezogenen Abschnitten oben ab, gehen diese Abschnitte für Ihre Nutzung der Apps vor.',
+          'Tododo wird kostenlos und für den persönlichen Gebrauch bereitgestellt. Die Nutzung erfordert ein Konto, und mit dessen Anlage akzeptieren Sie diese Bedingungen. Wie die Apps mit Ihren personenbezogenen Daten umgehen, steht in unserer Datenschutzerklärung.',
+        ],
+      },
+      {
+        heading: 'Ihr App-Konto',
+        body: [
+          'Sie müssen in der Lage sein, einen verbindlichen Vertrag zu schließen, um ein Konto anzulegen. Liegt Ihr Alter unter der Altersgrenze, ab der Sie in Ihrem Land selbst in Onlinedienste einwilligen dürfen, fragen Sie zuerst einen Elternteil oder Erziehungsberechtigten.',
+        ],
+        points: [
+          'Verwenden Sie eine E-Mail-Adresse, über die Sie tatsächlich verfügen, und halten Sie sie aktuell.',
+          'Halten Sie Ihr Passwort — oder das Google- oder Apple-Konto, mit dem Sie sich anmelden — sicher. Aktivitäten über Ihr Konto liegen in Ihrer Verantwortung.',
+          'Ein Konto ist für eine Person. Teilen Sie Ihre Zugangsdaten nicht und lassen Sie niemanden sonst Ihr Konto nutzen.',
+          'Schreiben Sie an hello@raoul.studio, wenn Sie vermuten, dass jemand anderes Zugriff auf Ihr Konto erlangt hat.',
+        ],
+      },
+      {
+        heading: 'Zulässige Nutzung der Apps',
+        body: ['Bei der Nutzung der Apps verpflichten Sie sich, nicht:'],
+        points: [
+          'gegen das Gesetz zu verstoßen oder rechtswidrige Inhalte zu speichern;',
+          'zu versuchen, auf Konto, Daten oder Inhalte einer anderen Person zuzugreifen;',
+          'die Apps oder ihre API zu untersuchen, zu scannen, zu überlasten oder zu stören oder gesetzte Limits zu umgehen;',
+          'den Dienst zurückzuentwickeln oder zu kopieren, außer wo das Gesetz dies ausdrücklich erlaubt;',
+          'die Apps zum Versand von Spam oder Schadsoftware oder zur Erzeugung automatisierten Massenverkehrs zu nutzen.',
+        ],
+      },
+      {
+        heading: 'Ihre Inhalte in den Apps',
+        body: [
+          'Ihre Listen und Aufgaben gehören Ihnen. Sie behalten alle Rechte daran, die Sie bereits haben, und das Studio beansprucht daran kein Eigentum.',
+          'Sie räumen dem Studio nur die Erlaubnis ein, die es zum Betrieb des Dienstes braucht: Ihre Inhalte zu speichern und sie an Ihre eigenen Geräte zu übertragen und dort anzuzeigen. Nichts darüber hinaus. Wir nutzen Ihre Inhalte nicht für Werbung und nicht zum Training von KI-Modellen.',
+          'Sie sind für das verantwortlich, was Sie in die Apps eingeben. Bewahren Sie eine eigene Kopie von allem auf, dessen Verlust Sie sich nicht leisten können — die Apps sind eine Aufgabenliste, kein Backup-Dienst.',
+        ],
+      },
+      {
+        heading: 'Verfügbarkeit der Apps',
+        body: [
+          'Die Apps werden „wie besehen“ und „wie verfügbar“ bereitgestellt, ohne jegliche Gewährleistung. Das Studio sagt keine bestimmte Verfügbarkeit zu und kann Funktionen jederzeit ändern, aussetzen oder einstellen.',
+          'Entscheidet sich das Studio, eine App ganz einzustellen, kündigt es dies mit angemessenem Vorlauf per E-Mail an die Adresse Ihres Kontos an und gibt Ihnen eine angemessene Gelegenheit, Ihre Inhalte zu sichern, sofern die Umstände dies nicht wirklich verhindern.',
+        ],
+      },
+      {
+        heading: 'Sperrung und Beendigung Ihrer Nutzung',
+        body: [
+          'Sie können die Nutzung einer App jederzeit beenden und Ihr Konto samt allen Inhalten über das ⋯-Menü in der App löschen oder per E-Mail an hello@raoul.studio von der Adresse des Kontos aus. Die Löschung ist endgültig und kann nicht rückgängig gemacht werden.',
+          'Das Studio kann ein Konto sperren oder schließen, das gegen diese Bedingungen verstößt, rechtswidrig genutzt wird oder den Dienst oder andere Nutzende gefährdet. Wo dies angemessen ist, nennen wir den Grund und geben Ihnen zuvor Gelegenheit zur Abhilfe.',
+        ],
+      },
+      {
+        heading: 'Haftung für die Apps',
+        body: [
+          'Die Apps sind kostenlose Software für den persönlichen Gebrauch. Soweit gesetzlich zulässig haftet das Studio nicht für verlorene oder beschädigte Inhalte, Downtime, unbefugten Zugriff oder mittelbare Schäden und Folgeschäden aus Ihrer Nutzung — oder der Unmöglichkeit der Nutzung — der Apps.',
+          'Nichts in diesem Abschnitt beschränkt eine Haftung, die gesetzlich nicht ausgeschlossen werden kann, einschließlich der Haftung für Vorsatz oder grobe Fahrlässigkeit, oder zwingende Rechte, die Ihnen als Verbraucherin oder Verbraucher zustehen.',
+        ],
+      },
+      {
+        heading: 'Anwendbares Recht & Streitigkeiten',
+        body: [
+          'Auf diese Bedingungen und jede Vereinbarung ist ausschließlich niederländisches Recht anwendbar. Die Anwendung des UN-Kaufrechts (CISG) ist ausgeschlossen.',
+          'Streitigkeiten, die nicht einvernehmlich beigelegt werden können, werden ausschließlich dem zuständigen Gericht der Rechtbank Rotterdam, Niederlande, vorgelegt, sofern zwingendes Recht nichts anderes bestimmt.',
+          'Nutzen Sie die Apps als Verbraucherin oder Verbraucher, nimmt Ihnen dies weder den Schutz des zwingenden Verbraucherrechts Ihres Wohnsitzlandes noch das Recht, dessen Gerichte anzurufen.',
+        ],
+      },
+      {
+        heading: 'Sprache dieser Bedingungen',
+        body: [
+          'Diese Bedingungen liegen in mehreren Sprachen vor. Die englische Fassung ist die verbindliche; weicht eine Übersetzung davon ab, geht der englische Text vor.',
+        ],
+      },
+      {
+        heading: 'Änderungen dieser Bedingungen',
+        body: [
+          'Das Studio kann diese Bedingungen von Zeit zu Zeit aktualisieren. Für ein Projekt gilt die bei Projektbeginn geltende Fassung. Wenn wir diese Bedingungen aktualisieren, aktualisieren wir das Datum oben auf dieser Seite.',
+        ],
+      },
+    ],
+    directLabel: 'Fragen zu diesen Bedingungen',
+    directEmail: 'hello@raoul.studio',
+    posterRailMiddle: 'AGB · Rechtliches',
+  },
 }

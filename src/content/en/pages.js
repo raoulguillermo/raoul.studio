@@ -640,6 +640,12 @@ export const pages = {
         ],
       },
       {
+        heading: 'Language of these terms',
+        body: [
+          'These Terms are available in several languages. The English version is the binding text; where a translation differs, the English text prevails.',
+        ],
+      },
+      {
         heading: 'Changes to these terms',
         body: [
           'The Studio may update these Terms from time to time. The version in force at the start of a Project applies to that Project. When we update these Terms, we update the date at the top of this page.',

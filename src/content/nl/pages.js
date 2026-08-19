@@ -329,4 +329,329 @@ export const pages = {
     directEmail: 'hello@raoul.studio',
     posterRailMiddle: 'Privacy · Juridisch',
   },
+  terms: {
+    slug: 'terms',
+    meta: {
+      title: 'Algemene voorwaarden',
+      description:
+        'De voorwaarden waaronder raoul.studio met klanten werkt en zijn eigen apps draait: scope, betaling, intellectueel eigendom, accounts, toegestaan gebruik, aansprakelijkheid en meer — in gewone taal, naar Nederlands recht.',
+    },
+    eyebrow: 'Juridisch',
+    titleLine1: 'Voorwaarden',
+    titleAccent: '.',
+    updated: 'Laatst bijgewerkt — augustus 2026',
+    intro:
+      'Deze voorwaarden beschrijven hoe raoul.studio met klanten werkt — wat we leveren, hoe we werken en wie waarvoor verantwoordelijk is — en hoe je de apps mag gebruiken die de studio zelf draait, zoals Tododo. We hebben ze in gewone taal geschreven: ze zijn bedoeld om eerlijk te zijn, en om gelezen te worden.',
+    sections: [
+      {
+        heading: 'Inleiding',
+        body: [
+          'Deze algemene voorwaarden ("Voorwaarden") gelden voor alle diensten, offertes, voorstellen, abonnementen, opdrachten en overeenkomsten tussen raoul.studio ("de Studio", "wij", "ons") en haar klanten ("de Klant", "jij"). Ze zijn van toepassing tenzij we schriftelijk iets anders zijn overeengekomen.',
+          'raoul.studio is een digitale productstudio in Nederland, gerund door Raoul Guillermo. Je bereikt ons op hello@raoul.studio. Door een Voorstel te accepteren, een Overeenkomst te ondertekenen of ons opdracht te geven te beginnen, ga je akkoord met deze Voorwaarden.',
+          'Deze Voorwaarden bestaan uit twee delen. Het meeste hieronder gaat over opdrachten voor klanten. De secties onder “De eigen apps van de studio gebruiken”, verderop, gelden in plaats daarvan als je een app gebruikt die de Studio voor eigen rekening draait — op dit moment Tododo, de todo-app voor iPhone en Mac. Je hoeft geen Klant te zijn om die apps te gebruiken.',
+        ],
+      },
+      {
+        heading: 'Definities',
+        body: ['In deze Voorwaarden betekenen de volgende woorden het volgende:'],
+        points: [
+          'Studio — raoul.studio, de aanbieder van de diensten.',
+          'Klant — de natuurlijke persoon of rechtspersoon die een Overeenkomst met de Studio aangaat.',
+          'Project — het werk dat de Studio afspreekt uit te voeren, zoals beschreven in een Voorstel of Overeenkomst.',
+          'Deliverables — de ontwerpen, software, code, documentatie, content of andere materialen die de Studio oplevert.',
+          'Voorstel — elke offerte, raming, opdrachtomschrijving of aanbieding van de Studio.',
+          'Overeenkomst — het geaccepteerde Voorstel samen met deze Voorwaarden en eventuele schriftelijke afspraken tussen partijen.',
+          'Intellectueel eigendom — alle rechten op software, ontwerpen, teksten, methodes en knowhow, waaronder auteursrecht, databankrechten, merkrechten en bedrijfsgeheimen.',
+          'Vertrouwelijke informatie — niet-openbare informatie die de ene partij aan de andere verstrekt en die als vertrouwelijk is aangemerkt of redelijkerwijs als vertrouwelijk moet worden opgevat.',
+          'Diensten van derden — producten of diensten van andere partijen dan de Studio, zoals hosting, cloud, betalingen, AI of API-aanbieders.',
+          'AI-diensten — diensten die gebruikmaken van kunstmatige intelligentie, machine learning of het automatisch genereren van content, code, tekst of beslissingen.',
+        ],
+      },
+      {
+        heading: 'Toepasselijkheid',
+        body: [
+          'Deze Voorwaarden gelden voor elk Voorstel, elke Overeenkomst en elk Project, en voor vervolg- of meerwerk, tenzij uitdrukkelijk schriftelijk anders is afgesproken.',
+          'Deze Voorwaarden gaan voor op inkoop- of andere algemene voorwaarden van de Klant. De toepasselijkheid van de voorwaarden van de Klant wordt uitdrukkelijk van de hand gewezen, tenzij wij die schriftelijk hebben aanvaard.',
+          'Is een bepaling van deze Voorwaarden ongeldig of niet afdwingbaar, dan blijven de overige bepalingen volledig van kracht en wordt de ongeldige bepaling vervangen door een geldige bepaling die de strekking ervan zo dicht mogelijk benadert.',
+        ],
+      },
+      {
+        heading: 'Offertes & voorstellen',
+        body: ['Tenzij anders vermeld:'],
+        points: [
+          'Voorstellen zijn vrijblijvend en binden de Studio pas als beide partijen ze hebben aanvaard.',
+          'Een Voorstel is 30 dagen geldig vanaf de datum ervan; daarna kan het worden herzien of ingetrokken.',
+          'Prijzen kunnen vóór aanvaarding van een Voorstel wijzigen — bijvoorbeeld door wijzigingen in de scope, kosten van derden of belastingen.',
+          'Alle prijzen zijn exclusief btw en kosten van derden, tenzij anders vermeld.',
+          'Kennelijke vergissingen en schrijffouten in een Voorstel binden de Studio niet.',
+        ],
+      },
+      {
+        heading: 'Scope van het project',
+        body: [
+          'De Studio voert het werk uit dat in het aanvaarde Voorstel staat beschreven. Alles wat daarin niet uitdrukkelijk is opgenomen, valt buiten de scope.',
+          'Werk buiten de scope — waaronder extra functies, integraties of eisen — kan extra budget, een herziene planning of een apart Voorstel vergen voordat het wordt uitgevoerd.',
+        ],
+      },
+      {
+        heading: 'Wijzigingsverzoeken',
+        body: [
+          'Vraagt de Klant om extra functies, revisies, nieuwe eisen of andere prioriteiten, dan beoordeelt de Studio de gevolgen voor scope, planning en prijs.',
+          'Wijzigingen worden pas uitgevoerd na akkoord. De Studio mag planning en tarieven aanpassen aan een wijziging en is niet verplicht met gewijzigd werk te beginnen voordat overeenstemming is bereikt.',
+        ],
+      },
+      {
+        heading: 'Verantwoordelijkheden van de klant',
+        body: [
+          'Een Project staat of valt met de medewerking van de Klant. De Klant zorgt ervoor dat het volgende tijdig en volledig beschikbaar is. Vertraging door de Klant verlengt de planning navenant, en de Studio is niet aansprakelijk voor de daaruit voortvloeiende vertraging of kosten:',
+        ],
+        points: [
+          'juiste en volledige informatie;',
+          'content, assets, merkmaterialen en toegangsgegevens;',
+          'tijdige feedback, goedkeuringen en beslissingen;',
+          'een of meer bevoegde beslissers;',
+          'het testen en beoordelen van Deliverables wanneer daarom wordt gevraagd.',
+        ],
+      },
+      {
+        heading: 'Levering',
+        body: [
+          'Data of planningen die de Studio noemt zijn indicatief en geen harde deadlines, tenzij uitdrukkelijk schriftelijk een fatale termijn is afgesproken.',
+          'Redelijke vertraging levert geen tekortkoming op. Wordt vertraging veroorzaakt door de Klant of door Diensten van derden, dan schuift de afgesproken planning navenant op.',
+        ],
+      },
+      {
+        heading: 'Acceptatie',
+        body: ['Tenzij anders afgesproken:'],
+        points: [
+          'Deliverables gelden als aanvaard als de Klant niet binnen tien (10) werkdagen na levering schriftelijk onderbouwde gebreken meldt.',
+          'Kleine gebreken die het gebruik niet wezenlijk in de weg staan, rechtvaardigen geen afkeuring en worden in het normale werkproces opgelost.',
+          'Het in gebruik nemen van een Deliverable, of het gebruik ervan in productie, geldt als aanvaarding.',
+        ],
+      },
+      {
+        heading: 'Betalingsvoorwaarden',
+        body: ['Tenzij in het Voorstel anders is afgesproken:'],
+        points: [
+          'De Studio kan een aanbetaling verlangen voordat het werk begint, en kan factureren per mijlpaal of periodiek (retainer of abonnement).',
+          'Facturen zijn betaalbaar binnen veertien (14) dagen na factuurdatum.',
+          'Alle bedragen zijn exclusief btw, die waar van toepassing in rekening wordt gebracht.',
+          'Wordt een factuur niet op tijd betaald, dan is de Klant zonder nadere ingebrekestelling in verzuim en is vanaf de vervaldatum de wettelijke (handels)rente naar Nederlands recht verschuldigd.',
+          'De Klant is alle redelijke gerechtelijke en buitengerechtelijke incassokosten verschuldigd die worden gemaakt om achterstallige bedragen te innen.',
+          'De Studio mag werk, hosting, onderhoud en support opschorten zolang facturen openstaan.',
+        ],
+      },
+      {
+        heading: 'Opschorting',
+        body: [
+          'Komt de Klant een betalings- of andere wezenlijke verplichting niet na, dan mag de Studio haar diensten opschorten — waaronder ontwikkeling, hosting, onderhoud en support — totdat de Klant aan zijn verplichtingen heeft voldaan.',
+          'Opschorting ontslaat de Klant niet van zijn betalingsverplichtingen, en de Studio is niet aansprakelijk voor schade door een rechtmatige opschorting.',
+        ],
+      },
+      {
+        heading: 'Intellectueel eigendom',
+        body: [
+          'Na volledige betaling van alle voor een Project verschuldigde bedragen verkrijgt de Klant de eigendom van, of de uitdrukkelijk overeengekomen licentie op, de op maat gemaakte Deliverables. Tot volledige betaling blijven alle rechten bij de Studio.',
+          'De Studio behoudt alle intellectuele eigendomsrechten op alles wat geen op maat gemaakte Deliverable is, waaronder maar niet beperkt tot haar methodieken, interne frameworks, herbruikbare code, libraries, SDK’s, templates, architectuur, AI-workflows, automatiseringsframeworks, ontwikkeltools, knowhow, concepten en bestaande software.',
+          'Worden zulke behouden materialen in een Deliverable verwerkt, dan krijgt de Klant een niet-exclusieve, niet-overdraagbare licentie om ze als onderdeel van die Deliverable te gebruiken, maar verkrijgt daarop geen eigendom.',
+          'Het staat de Studio vrij de algemene kennis, vaardigheden, technieken en ervaring die zij tijdens een Project opdoet, voor andere klanten en doeleinden te gebruiken.',
+        ],
+      },
+      {
+        heading: 'Opensourcesoftware',
+        body: [
+          'Deliverables kunnen opensourcesoftware bevatten, die onder haar eigen licentievoorwaarden wordt geleverd. Die licenties bepalen hoe de Klant de opensourcecomponenten mag gebruiken, en de Studio geeft daarop geen garantie of vrijwaring die verder gaat dan wat die licenties bieden.',
+        ],
+      },
+      {
+        heading: 'Diensten van derden',
+        body: [
+          'Projecten leunen vaak op Diensten van derden zoals hosting, cloudaanbieders, betaaldienstverleners, AI-aanbieders, API’s en CMS-platformen. Daarop gelden hun eigen voorwaarden, die de Klant waar relevant aanvaardt.',
+          'Voor zover de wet dat toestaat is de Studio niet aansprakelijk voor, en geeft zij geen garantie op, Diensten van derden, waaronder:',
+        ],
+        points: [
+          'storingen, downtime of verminderde prestaties;',
+          'prijswijzigingen of beëindigde diensten;',
+          'wijzigingen in voorwaarden, beleid of API’s;',
+          'beveiligingsincidenten, dataverlies of datalekken.',
+        ],
+      },
+      {
+        heading: 'AI-diensten',
+        body: [
+          'AI-diensten zijn gebaseerd op probabilistische en statistische modellen. Hun output wordt automatisch gegenereerd en is inherent onzeker.',
+          'Output van AI-diensten kan onjuistheden bevatten, verzonnen ("gehallucineerde") informatie, onvolledige of verouderde informatie, of resultaten die ongeschikt zijn voor een bepaald doel.',
+          'De Klant blijft volledig verantwoordelijk voor het controleren, valideren en goedkeuren van AI-output voordat hij erop vertrouwt of die in productie gebruikt, en voor het naleven van toepasselijke wetgeving daarbij.',
+          'De Studio levert AI-diensten op basis van een inspanningsverplichting en garandeert niets over de juistheid, volledigheid, feitelijke correctheid, wettelijke naleving, geschiktheid voor een doel of bedrijfsresultaten van AI-output.',
+        ],
+      },
+      {
+        heading: 'Beveiliging',
+        body: [
+          'De Studio treft commercieel redelijke technische en organisatorische maatregelen om de systemen en gegevens die zij verwerkt te beschermen.',
+          'Geen enkel digitaal systeem, stuk software of onlinedienst is echter gegarandeerd volledig veilig. Voor zover de wet dat toestaat garandeert de Studio niets over, en is zij niet aansprakelijk voor, beveiligingsincidenten buiten haar redelijke invloedssfeer — waaronder cyberaanvallen, zerodaykwetsbaarheden, phishing, malware, cloud- of hostingstoringen en internet- of netwerkuitval.',
+        ],
+      },
+      {
+        heading: 'Geheimhouding',
+        body: [
+          'Elke partij houdt de Vertrouwelijke informatie van de ander geheim, gebruikt die alleen voor het Project en beschermt die met redelijke zorg.',
+          'Dit geldt niet voor informatie die zonder schending openbaar is of wordt, die een partij al rechtmatig had, of die op grond van wet, regelgeving of rechterlijk bevel moet worden verstrekt — in welk geval de verstrekkende partij, waar dat mag, vooraf bericht geeft.',
+        ],
+      },
+      {
+        heading: 'Privacy',
+        body: [
+          'De Studio verwerkt persoonsgegevens volgens haar privacybeleid, dat op deze website staat.',
+          'De Klant is en blijft verantwoordelijk voor de persoonsgegevens die hij aanlevert of via de Deliverables verwerkt, waaronder een geldige grondslag voor die verwerking. Verwerkt de Studio persoonsgegevens namens de Klant, dan sluiten partijen waar vereist een aparte verwerkersovereenkomst.',
+        ],
+      },
+      {
+        heading: 'Onderhoud & support',
+        body: ['Onderhoud en support worden alleen geleverd als dat uitdrukkelijk is afgesproken. Tenzij anders afgesproken:'],
+        points: [
+          'Inbegrepen: het oplossen van bugs ten opzichte van de afgesproken specificatie, monitoring en het onderhoud dat in de Overeenkomst staat.',
+          'Uitgesloten: nieuwe functies, redesigns, nieuwe integraties en advies of werk buiten de Overeenkomst — die worden apart geoffreerd.',
+        ],
+      },
+      {
+        heading: 'Garanties',
+        body: [
+          'De Studio verricht haar diensten met redelijke vakkundigheid en zorg, en Deliverables voldoen bij levering wezenlijk aan de afgesproken specificatie. Dit is de enige garantie die de Klant krijgt.',
+          'Voor zover de wet dat toestaat geeft de Studio geen andere garanties en garandeert zij niet dat software ononderbroken of foutloos werkt, dat die compatibel blijft met toekomstige systemen of wijzigingen van derden, of dat die een bepaald commercieel resultaat oplevert.',
+        ],
+      },
+      {
+        heading: 'Beperking van aansprakelijkheid',
+        body: [
+          'Voor zover de wet dat maximaal toestaat is de totale aansprakelijkheid van de Studio uit of in verband met een Project beperkt tot het bedrag dat de Klant voor dat specifieke Project heeft betaald in de twaalf (12) maanden vóór de gebeurtenis die tot de aansprakelijkheid leidt.',
+          'De Studio is niet aansprakelijk voor indirecte schade of gevolgschade, waaronder gederfde winst, gemiste omzet, gemiste business of kansen, reputatieschade, verlies of beschadiging van gegevens, downtime of bedrijfsstilstand.',
+          'Aansprakelijkheid van de Studio ontstaat alleen als de Klant het verzuim schriftelijk meldt, een redelijke termijn geeft om het te herstellen, en de Studio alsnog niet nakomt — tenzij herstel blijvend onmogelijk is.',
+          'Niets in deze Voorwaarden sluit aansprakelijkheid uit of beperkt die, waar dat naar Nederlands recht niet is toegestaan, waaronder aansprakelijkheid voor opzet of bewuste roekeloosheid van de leiding van de Studio.',
+        ],
+      },
+      {
+        heading: 'Vrijwaring',
+        body: [
+          'De Klant vrijwaart de Studio en houdt haar schadeloos tegen alle aanspraken van derden, schade, kosten en uitgaven (waaronder redelijke juridische kosten) die voortvloeien uit of samenhangen met:',
+        ],
+        points: [
+          'content, materialen of instructies die de Klant aanlevert;',
+          'inbreuk op intellectuele eigendomsrechten of andere rechten van derden door materialen van de Klant;',
+          'onrechtmatige, inbreukmakende of onjuiste instructies;',
+          'misbruik van de Deliverables, of ander gebruik dan bedoeld;',
+          'onwettige activiteiten van de Klant of schending van toepasselijke wetgeving.',
+        ],
+      },
+      {
+        heading: 'Overmacht',
+        body: [
+          'De Studio is niet aansprakelijk voor niet-nakoming of vertraging door omstandigheden buiten haar redelijke invloedssfeer (overmacht), waaronder natuurrampen, extreem weer, pandemieën en epidemieën, stakingen, oorlog of onrust, overheidsmaatregelen, internet- of telecomstoringen, storingen bij cloud-, hosting- of andere leveranciers, uitval bij AI-aanbieders en cyberaanvallen.',
+          'Tijdens overmacht zijn de verplichtingen van partijen opgeschort. Duurt de situatie langer dan zestig (60) dagen, dan mag elke partij de Overeenkomst voor het getroffen deel schriftelijk beëindigen, zonder aansprakelijkheid, terwijl reeds verricht werk verschuldigd blijft.',
+        ],
+      },
+      {
+        heading: 'Beëindiging',
+        body: [
+          'Elke partij mag een Overeenkomst opzeggen met een redelijke schriftelijke opzegtermijn, met inachtneming van een eventueel afgesproken minimumduur bij retainers of abonnementen.',
+          'Elke partij mag met onmiddellijke ingang beëindigen als de ander wezenlijk tekortschiet en dat niet binnen een redelijke termijn na schriftelijke aanmaning herstelt, of bij faillissement, surseance van betaling of insolventie van de ander.',
+          'Bij beëindiging betaalt de Klant al het verrichte werk en de aangegane kosten tot de einddatum. Bepalingen die naar hun aard moeten voortduren — waaronder intellectueel eigendom, geheimhouding, aansprakelijkheid en toepasselijk recht — blijven gelden.',
+        ],
+      },
+      {
+        heading: 'Portfoliorechten',
+        body: [
+          'Tenzij uitdrukkelijk schriftelijk anders afgesproken, mag de Studio de Klant noemen en afgerond, openbaar uitgebracht werk tonen — waaronder schermafbeeldingen, beschrijvingen en de naam en het logo van de Klant — in haar portfolio, op haar website en in marketingmateriaal, met inachtneming van Vertrouwelijke informatie.',
+        ],
+      },
+      {
+        heading: 'Geen overname van personeel',
+        body: [
+          'Tijdens een Project en gedurende twaalf (12) maanden na afronding neemt de Klant geen medewerker, opdrachtnemer of freelancer van de Studio die bij het Project betrokken was direct of indirect in dienst of onder de arm, zonder voorafgaande schriftelijke toestemming van de Studio.',
+        ],
+      },
+      {
+        heading: 'De eigen apps van de studio gebruiken',
+        body: [
+          'Naast klantwerk draait de Studio haar eigen apps — op dit moment Tododo, een todo-app voor iPhone en Mac. Deze sectie en de secties die erop volgen gelden voor jou als gebruiker van die apps, of je nu ook Klant bent of niet. Waar ze afwijken van de klantgerichte secties hierboven, gaan deze secties voor op jouw gebruik van de apps.',
+          'Tododo is gratis en voor persoonlijk gebruik. Je hebt er een account voor nodig, en door er een aan te maken accepteer je deze Voorwaarden. Hoe de apps met je persoonsgegevens omgaan, staat in ons privacybeleid.',
+        ],
+      },
+      {
+        heading: 'Je app-account',
+        body: [
+          'Je moet een bindende overeenkomst kunnen aangaan om een account te maken. Ben je jonger dan de leeftijd waarop je in jouw land zelf toestemming mag geven voor onlinediensten, vraag dan eerst een ouder of voogd.',
+        ],
+        points: [
+          'Gebruik een e-mailadres waar je echt over beschikt, en houd het actueel.',
+          'Houd je wachtwoord — of het Google- of Apple-account waarmee je inlogt — veilig. Wat er via jouw account gebeurt, is jouw verantwoordelijkheid.',
+          'Een account is voor één persoon. Deel je inloggegevens niet en laat niemand anders je account gebruiken.',
+          'Mail hello@raoul.studio als je denkt dat iemand anders toegang tot je account heeft gekregen.',
+        ],
+      },
+      {
+        heading: 'Toegestaan gebruik van de apps',
+        body: ['Bij het gebruik van de apps ga je ermee akkoord dat je niet:'],
+        points: [
+          'de wet overtreedt of onrechtmatige content opslaat;',
+          'probeert bij het account, de gegevens of de content van een andere gebruiker te komen;',
+          'de apps of hun API onderzoekt, scant, overbelast of verstoort, of ingestelde limieten omzeilt;',
+          'de dienst reverse-engineert of kopieert, behalve waar de wet dat uitdrukkelijk toestaat;',
+          'de apps gebruikt om spam of malware te versturen of om geautomatiseerd bulkverkeer te genereren.',
+        ],
+      },
+      {
+        heading: 'Jouw content in de apps',
+        body: [
+          'Je lijsten en taken zijn van jou. Je behoudt alle rechten die je erop hebt, en de Studio claimt er geen eigendom op.',
+          'Je geeft de Studio alleen de toestemming die nodig is om de dienst te draaien: je content opslaan en die naar je eigen apparaten sturen en daar tonen. Verder niets. We gebruiken je content niet voor advertenties en niet om AI-modellen te trainen.',
+          'Je bent zelf verantwoordelijk voor wat je in de apps zet. Bewaar een eigen kopie van alles wat je niet kunt missen — de apps zijn een takenlijst, geen back-updienst.',
+        ],
+      },
+      {
+        heading: 'Beschikbaarheid van de apps',
+        body: [
+          'De apps worden geleverd "as is" en "as available", zonder enige garantie. De Studio belooft geen bepaalde beschikbaarheid en mag functies op elk moment wijzigen, opschorten of intrekken.',
+          'Besluit de Studio een app helemaal te stoppen, dan geeft zij dat redelijke tijd van tevoren per e-mail door op het adres van je account, met een redelijke gelegenheid om je content op te halen, tenzij de omstandigheden dat echt onmogelijk maken.',
+        ],
+      },
+      {
+        heading: 'Opschorting en stoppen met de apps',
+        body: [
+          'Je kunt op elk moment stoppen met een app, en je account en alles erin verwijderen via het ⋯-menu in de app of door te mailen naar hello@raoul.studio vanaf het adres van het account. Verwijderen is definitief en niet terug te draaien.',
+          'De Studio mag een account opschorten of sluiten dat deze Voorwaarden schendt, onrechtmatig wordt gebruikt of de dienst of andere gebruikers in gevaar brengt. Waar dat redelijk is, vertellen we waarom en krijg je eerst de kans het recht te zetten.',
+        ],
+      },
+      {
+        heading: 'Aansprakelijkheid voor de apps',
+        body: [
+          'De apps zijn gratis software voor persoonlijk gebruik. Voor zover de wet dat toestaat is de Studio niet aansprakelijk voor verloren of beschadigde content, downtime, ongeoorloofde toegang of indirecte schade of gevolgschade door je gebruik van — of het niet kunnen gebruiken van — de apps.',
+          'Niets in deze sectie beperkt aansprakelijkheid die wettelijk niet kan worden uitgesloten, waaronder aansprakelijkheid voor opzet of grove schuld, noch de dwingende rechten die je als consument hebt.',
+        ],
+      },
+      {
+        heading: 'Toepasselijk recht & geschillen',
+        body: [
+          'Op deze Voorwaarden en elke Overeenkomst is uitsluitend Nederlands recht van toepassing. De toepasselijkheid van het Weens Koopverdrag (CISG) is uitgesloten.',
+          'Geschillen die niet in onderling overleg worden opgelost, worden uitsluitend voorgelegd aan de bevoegde rechter van de Rechtbank Rotterdam, Nederland, tenzij dwingend recht anders bepaalt.',
+          'Gebruik je de apps als consument, dan doet dit geen afbreuk aan de bescherming van het dwingende consumentenrecht van je woonland of aan je recht om een procedure te starten bij de rechter daar.',
+        ],
+      },
+      {
+        heading: 'Taal van deze voorwaarden',
+        body: [
+          'Deze Voorwaarden zijn in meerdere talen beschikbaar. De Engelse versie is de bindende tekst; wijkt een vertaling daarvan af, dan gaat de Engelse tekst voor.',
+        ],
+      },
+      {
+        heading: 'Wijzigingen in deze voorwaarden',
+        body: [
+          'De Studio kan deze Voorwaarden van tijd tot tijd bijwerken. De versie die gold bij de start van een Project geldt voor dat Project. Werken we deze Voorwaarden bij, dan werken we de datum boven aan deze pagina bij.',
+        ],
+      },
+    ],
+    directLabel: 'Vragen over deze voorwaarden',
+    directEmail: 'hello@raoul.studio',
+    posterRailMiddle: 'Voorwaarden · Juridisch',
+  },
 }
