@@ -333,20 +333,21 @@ export const pages = {
     meta: {
       title: 'Terms & Conditions',
       description:
-        'The terms on which raoul.studio works with its clients: scope, payment, intellectual property, AI services, liability and more — in plain English, under Dutch law.',
+        'The terms on which raoul.studio works with its clients and runs its own apps: scope, payment, intellectual property, accounts, acceptable use, liability and more — in plain English, under Dutch law.',
     },
     eyebrow: 'Legal',
     titleLine1: 'Terms',
     titleAccent: '.',
-    updated: 'Last updated — June 2026',
+    updated: 'Last updated — August 2026',
     intro:
-      'These Terms set out how raoul.studio works with its clients — what we deliver, how we work, and who is responsible for what. We’ve written them in plain English: they’re meant to be fair, and to be read.',
+      'These Terms set out how raoul.studio works with its clients — what we deliver, how we work, and who is responsible for what — and how you may use the apps the studio runs, such as Tododo. We’ve written them in plain English: they’re meant to be fair, and to be read.',
     sections: [
       {
         heading: 'Introduction',
         body: [
           'These Terms & Conditions ("Terms") govern all services, quotations, proposals, subscriptions, orders and agreements between raoul.studio ("the Studio", "we", "us") and its clients ("the Client", "you"). They apply unless we have agreed otherwise in writing.',
           'raoul.studio is a digital product studio based in the Netherlands, run by Raoul Guillermo. You can reach us at hello@raoul.studio. By accepting a Proposal, signing an Agreement, or instructing us to begin work, you agree to these Terms.',
+          'These Terms have two parts. Most of what follows concerns client engagements. The sections grouped under “Using the studio’s own apps”, further down, apply instead if you use an app the Studio runs for its own account — currently Tododo, the todo app for iPhone and Mac. You do not need to be a Client to use those apps.',
         ],
       },
       {
@@ -569,10 +570,70 @@ export const pages = {
         ],
       },
       {
+        heading: 'Using the studio’s own apps',
+        body: [
+          'Alongside client work, the Studio runs its own apps — currently Tododo, a todo app for iPhone and Mac. This section and the ones that follow it apply to you as a user of those apps, whether or not you are also a Client. Where they differ from the client-facing sections above, these sections govern your use of the apps.',
+          'Tododo is provided free of charge and for personal use. Using it requires an account, and by creating one you accept these Terms. How the apps handle your personal data is set out in our Privacy Policy.',
+        ],
+      },
+      {
+        heading: 'Your app account',
+        body: [
+          'You must be able to enter into a binding agreement to create an account. If you are below the age at which you can consent to online services in your country, ask a parent or guardian first.',
+        ],
+        points: [
+          'Use an email address you actually control, and keep it accurate.',
+          'Keep your password — or the Google account you sign in with — secure. Activity through your account is your responsibility.',
+          'An account is for one person. Do not share your credentials or let someone else use your account.',
+          'Email hello@raoul.studio if you think someone else has gained access to your account.',
+        ],
+      },
+      {
+        heading: 'Acceptable use of the apps',
+        body: ['When using the apps, you agree not to:'],
+        points: [
+          'break the law, or store content that is unlawful;',
+          'attempt to reach another user’s account, data or content;',
+          'probe, scan, overload or disrupt the apps or their API, or work around any limits placed on them;',
+          'reverse-engineer or copy the service, except where the law expressly allows it;',
+          'use the apps to send spam or malware, or to generate automated bulk traffic.',
+        ],
+      },
+      {
+        heading: 'Your content in the apps',
+        body: [
+          'Your lists and tasks are yours. You keep every right you already have in them, and the Studio claims no ownership of them.',
+          'You grant the Studio only the permission it needs to run the service: to store your content and to transmit and display it back to you on your own devices. Nothing beyond that. We do not use your content for advertising, and we do not use it to train AI models.',
+          'You are responsible for what you put into the apps. Keep your own copy of anything you cannot afford to lose — the apps are a todo list, not a backup service.',
+        ],
+      },
+      {
+        heading: 'Availability of the apps',
+        body: [
+          'The apps are provided on an "as is" and "as available" basis, without warranty of any kind. The Studio does not promise any particular level of uptime, and may change, suspend or withdraw features at any time.',
+          'If the Studio decides to discontinue an app altogether, it will give reasonable advance notice by email to the address on your account, along with a reasonable opportunity to retrieve your content, unless circumstances genuinely prevent that.',
+        ],
+      },
+      {
+        heading: 'Suspension and ending your use',
+        body: [
+          'You can stop using an app whenever you like, and have your account and everything in it deleted by emailing hello@raoul.studio from the account’s own address. Deletion is permanent and cannot be undone.',
+          'The Studio may suspend or close an account that breaches these Terms, is used unlawfully, or puts the service or other users at risk. Where it is reasonable to do so, we will tell you why and give you the chance to put it right first.',
+        ],
+      },
+      {
+        heading: 'Liability for the apps',
+        body: [
+          'The apps are free software for personal use. To the fullest extent permitted by law, the Studio is not liable for lost or corrupted content, downtime, unauthorised access, or any indirect or consequential loss arising from your use of — or inability to use — the apps.',
+          'Nothing in this section limits liability that cannot lawfully be excluded, including liability for intent or gross negligence, nor any mandatory rights you have as a consumer.',
+        ],
+      },
+      {
         heading: 'Governing law & disputes',
         body: [
           'These Terms and any Agreement are governed exclusively by Dutch law. The applicability of the UN Convention on Contracts for the International Sale of Goods (CISG) is excluded.',
           'Any dispute that cannot be resolved amicably will be submitted exclusively to the competent court of the Rechtbank Rotterdam, the Netherlands, unless mandatory law provides otherwise.',
+          'If you use the apps as a consumer, this does not deprive you of the protection of the mandatory consumer law of your country of residence, or of your right to bring proceedings before its courts.',
         ],
       },
       {
