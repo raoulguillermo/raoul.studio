@@ -226,6 +226,7 @@ export const pages = {
         points: [
           'Account: je e-mailadres en — als je je met een wachtwoord registreert — een gehashte versie van dat wachtwoord. Het wachtwoord zelf wordt nooit opgeslagen en kan niet worden teruggelezen.',
           'Doorgaan met Google: als je met Google inlogt, ontvangen we je e-mailadres, je basisprofielgegevens en je Google-account-ID. We gebruiken die voor één ding — je account aanmaken en je de volgende keer herkennen.',
+          'Doorgaan met Apple: als je met Apple inlogt, ontvangen we een vaste identificatie van je Apple-account en je e-mailadres — een privérelay-adres als je voor “Verberg mijn e-mailadres” koos. Apple stuurt het e-mailadres alleen de eerste keer dat je de app toestemming geeft; daarna herkennen we je aan die identificatie.',
           'Jouw inhoud: de lijsten en taken die je schrijft, of een taak af is, en de volgorde waarin je ze zet.',
         ],
       },
@@ -240,7 +241,8 @@ export const pages = {
       {
         heading: 'Je Tododo-account verwijderen',
         body: [
-          'Je kunt je account en alles erin op elk moment laten verwijderen door te mailen naar hello@raoul.studio vanaf het adres van het account. We verwijderen het account, de lijsten en de taken. Inloggen met Google kun je ook op elk moment loskoppelen via de beveiligingsinstellingen van je Google-account, waarmee verder inloggen stopt — mail ons daarnaast als je wilt dat de gegevens zelf worden verwijderd.',
+          'Je kunt je account en alles erin in de app zelf verwijderen: open het ⋯-menu, kies “Delete account” en bevestig. Het account, de lijsten en de taken zijn dan meteen weg, en dat is niet terug te draaien.',
+          'Je kunt je account en alles erin op elk moment laten verwijderen door te mailen naar hello@raoul.studio vanaf het adres van het account. We verwijderen het account, de lijsten en de taken. Inloggen met Google kun je ook op elk moment loskoppelen via de beveiligingsinstellingen van je Google-account, en Inloggen met Apple via “Inloggen met Apple” in je Apple ID-instellingen; daarmee stopt verder inloggen — mail ons daarnaast als je wilt dat de gegevens zelf worden verwijderd.',
           'We bewaren accountgegevens zolang het account bestaat, en niet langer.',
         ],
       },
@@ -263,6 +265,7 @@ export const pages = {
         points: [
           'SendGrid (Twilio Inc.) — bezorgt de e-mail van het contactformulier bij ons. Je naam, e-mailadres en bericht gaan hier doorheen.',
           'Google (Google Ireland Limited) — alleen als je in Tododo voor “Doorgaan met Google” kiest. Google verzorgt het inloggen en geeft ons je e-mailadres en basisprofiel door. Wat er aan Google’s kant gebeurt, valt onder het privacybeleid van Google zelf.',
+          'Apple (Apple Distribution International Ltd.) — alleen als je in Tododo voor “Inloggen met Apple” kiest. Apple verzorgt het inloggen en geeft ons een identificatie van je Apple-account en een e-mailadres door, dat een privérelay-adres van Apple kan zijn. Wat er aan Apple’s kant gebeurt, valt onder het privacybeleid van Apple zelf.',
           'DigitalOcean — levert de servers en de managed database in Amsterdam waar de website en alle Tododo-accounts, -lijsten en -taken worden opgeslagen.',
           'Onze eigen servers — de website en de Tododo-API draaien op infrastructuur die we zelf beheren, en contactinzendingen worden daar in onze database opgeslagen.',
         ],
@@ -276,7 +279,7 @@ export const pages = {
       {
         heading: 'Internationale doorgifte',
         body: [
-          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. DigitalOcean heeft eveneens zijn hoofdkantoor in de VS, al staan de servers met jouw gegevens in Amsterdam. Waar doorgifte buiten de EU plaatsvindt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie.',
+          'SendGrid (Twilio) is een Amerikaans bedrijf, dus het versturen van een contact-e-mail kan inhouden dat je gegevens buiten de EU worden doorgegeven. DigitalOcean heeft eveneens zijn hoofdkantoor in de VS, al staan de servers met jouw gegevens in Amsterdam. Waar doorgifte buiten de EU plaatsvindt, is dit gedekt door passende waarborgen zoals de modelcontractbepalingen van de Europese Commissie. Google en Apple verzorgen het inloggen in Tododo via hun Ierse entiteiten; doorgifte aan hun kant valt onder hun eigen beleid en waarborgen.',
         ],
       },
       {

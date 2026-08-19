@@ -227,6 +227,7 @@ export const pages = {
         points: [
           'Account: your email address, and — if you register with a password — a hashed version of that password. The password itself is never stored and cannot be read back.',
           'Continue with Google: if you sign in with Google, we receive your email address, your basic profile information and your Google account ID. We use them for one thing — to create your account and recognise you next time.',
+          'Continue with Apple: if you sign in with Apple, we receive a stable identifier for your Apple account and your email address — a private relay address if you chose “Hide My Email”. Apple only sends the email the first time you authorise the app; after that the identifier is what recognises you.',
           'Your content: the lists and tasks you write, whether each task is done, and the order you put them in.',
         ],
       },
@@ -241,7 +242,8 @@ export const pages = {
       {
         heading: 'Deleting your Tododo account',
         body: [
-          'You can have your account and everything in it removed at any time by emailing hello@raoul.studio from the address the account uses. We delete the account, its lists and its tasks. Signing in with Google can also be disconnected at any time from your Google account’s security settings, which stops any further sign-in — email us as well if you want the data itself deleted.',
+          'You can delete your account and everything in it from inside the app: open the ⋯ menu, choose “Delete account” and confirm. The account, its lists and its tasks are removed straight away, and it cannot be undone.',
+          'You can have your account and everything in it removed at any time by emailing hello@raoul.studio from the address the account uses. We delete the account, its lists and its tasks. Signing in with Google can also be disconnected at any time from your Google account’s security settings, and Sign in with Apple under “Sign in with Apple” in your Apple ID settings; that stops any further sign-in, so email us as well if you want the data itself deleted.',
           'We keep account data for as long as the account exists, and no longer.',
         ],
       },
@@ -264,6 +266,7 @@ export const pages = {
         points: [
           'SendGrid (Twilio Inc.) — delivers the contact-form email to us. Your name, email and message pass through it.',
           'Google (Google Ireland Limited) — only if you choose “Continue with Google” in Tododo. Google runs the sign-in and tells us your email address and basic profile. What happens on Google’s side is governed by Google’s own privacy policy.',
+          'Apple (Apple Distribution International Ltd.) — only if you choose “Sign in with Apple” in Tododo. Apple runs the sign-in and tells us an identifier for your Apple account and an email address, which may be one of Apple’s private relay addresses. What happens on Apple’s side is governed by Apple’s own privacy policy.',
           'DigitalOcean — provides the servers and the managed database, in Amsterdam, where the website and all Tododo accounts, lists and tasks are stored.',
           'Our own servers — the website and the Tododo API run on infrastructure we manage, and contact submissions are stored in our database there.',
         ],
@@ -277,7 +280,7 @@ export const pages = {
       {
         heading: 'International transfers',
         body: [
-          'SendGrid (Twilio) is a US company, so sending a contact email may involve transferring your data outside the EU. DigitalOcean is likewise US-headquartered, although the servers holding your data are in Amsterdam. Where a transfer outside the EU happens, it is covered by appropriate safeguards such as the European Commission’s Standard Contractual Clauses.',
+          'SendGrid (Twilio) is a US company, so sending a contact email may involve transferring your data outside the EU. DigitalOcean is likewise US-headquartered, although the servers holding your data are in Amsterdam. Where a transfer outside the EU happens, it is covered by appropriate safeguards such as the European Commission’s Standard Contractual Clauses. Google and Apple provide the Tododo sign-in through their Irish entities; any transfer that happens on their side is governed by their own policies and safeguards.',
         ],
       },
       {
@@ -583,7 +586,7 @@ export const pages = {
         ],
         points: [
           'Use an email address you actually control, and keep it accurate.',
-          'Keep your password — or the Google account you sign in with — secure. Activity through your account is your responsibility.',
+          'Keep your password — or the Google or Apple account you sign in with — secure. Activity through your account is your responsibility.',
           'An account is for one person. Do not share your credentials or let someone else use your account.',
           'Email hello@raoul.studio if you think someone else has gained access to your account.',
         ],
@@ -617,7 +620,7 @@ export const pages = {
       {
         heading: 'Suspension and ending your use',
         body: [
-          'You can stop using an app whenever you like, and have your account and everything in it deleted by emailing hello@raoul.studio from the account’s own address. Deletion is permanent and cannot be undone.',
+          'You can stop using an app whenever you like, and delete your account and everything in it from the ⋯ menu inside the app, or by emailing hello@raoul.studio from the account’s own address. Deletion is permanent and cannot be undone.',
           'The Studio may suspend or close an account that breaches these Terms, is used unlawfully, or puts the service or other users at risk. Where it is reasonable to do so, we will tell you why and give you the chance to put it right first.',
         ],
       },

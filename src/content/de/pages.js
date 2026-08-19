@@ -226,6 +226,7 @@ export const pages = {
         points: [
           'Konto: Ihre E-Mail-Adresse und — wenn Sie sich mit einem Passwort registrieren — eine gehashte Version dieses Passworts. Das Passwort selbst wird nie gespeichert und kann nicht zurückgelesen werden.',
           'Weiter mit Google: Wenn Sie sich mit Google anmelden, erhalten wir Ihre E-Mail-Adresse, Ihre Basis-Profildaten und Ihre Google-Konto-ID. Wir nutzen sie für eine Sache — Ihr Konto anzulegen und Sie beim nächsten Mal wiederzuerkennen.',
+          'Weiter mit Apple: Wenn Sie sich mit Apple anmelden, erhalten wir eine feste Kennung Ihres Apple-Kontos und Ihre E-Mail-Adresse — eine Relay-Adresse, wenn Sie „E-Mail-Adresse verbergen“ gewählt haben. Apple übermittelt die E-Mail-Adresse nur bei der ersten Autorisierung; danach erkennt Sie diese Kennung wieder.',
           'Ihre Inhalte: die Listen und Aufgaben, die Sie schreiben, ob eine Aufgabe erledigt ist, und die Reihenfolge, in die Sie sie bringen.',
         ],
       },
@@ -240,7 +241,8 @@ export const pages = {
       {
         heading: 'Ihr Tododo-Konto löschen',
         body: [
-          'Sie können Ihr Konto und alles darin jederzeit löschen lassen, indem Sie von der Adresse des Kontos aus eine E-Mail an hello@raoul.studio schreiben. Wir löschen das Konto, seine Listen und seine Aufgaben. Die Anmeldung mit Google lässt sich außerdem jederzeit in den Sicherheitseinstellungen Ihres Google-Kontos trennen, wodurch keine weitere Anmeldung mehr möglich ist — schreiben Sie uns zusätzlich, wenn auch die Daten selbst gelöscht werden sollen.',
+          'Sie können Ihr Konto und alles darin direkt in der App löschen: Öffnen Sie das ⋯-Menü, wählen Sie „Delete account“ und bestätigen Sie. Das Konto, seine Listen und seine Aufgaben sind damit sofort gelöscht, und das lässt sich nicht rückgängig machen.',
+          'Sie können Ihr Konto und alles darin jederzeit löschen lassen, indem Sie von der Adresse des Kontos aus eine E-Mail an hello@raoul.studio schreiben. Wir löschen das Konto, seine Listen und seine Aufgaben. Die Anmeldung mit Google lässt sich außerdem jederzeit in den Sicherheitseinstellungen Ihres Google-Kontos trennen, die Anmeldung mit Apple unter „Anmelden mit Apple“ in Ihren Apple-ID-Einstellungen; dadurch ist keine weitere Anmeldung mehr möglich — schreiben Sie uns zusätzlich, wenn auch die Daten selbst gelöscht werden sollen.',
           'Wir speichern Kontodaten so lange, wie das Konto besteht, und nicht länger.',
         ],
       },
@@ -263,6 +265,7 @@ export const pages = {
         points: [
           'SendGrid (Twilio Inc.) — stellt die E-Mail aus dem Kontaktformular an uns zu. Ihr Name, Ihre E-Mail und Ihre Nachricht laufen darüber.',
           'Google (Google Ireland Limited) — nur wenn Sie in Tododo „Weiter mit Google“ wählen. Google führt die Anmeldung durch und übermittelt uns Ihre E-Mail-Adresse und Ihr Basisprofil. Was auf Google’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Google.',
+          'Apple (Apple Distribution International Ltd.) — nur wenn Sie in Tododo „Anmelden mit Apple“ wählen. Apple führt die Anmeldung durch und übermittelt uns eine Kennung Ihres Apple-Kontos sowie eine E-Mail-Adresse, die eine Relay-Adresse von Apple sein kann. Was auf Apple’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Apple.',
           'DigitalOcean — stellt die Server und die Managed-Datenbank in Amsterdam bereit, auf denen die Website und alle Tododo-Konten, -Listen und -Aufgaben gespeichert werden.',
           'Unsere eigenen Server — die Website und die Tododo-API laufen auf von uns verwalteter Infrastruktur, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
         ],
@@ -276,7 +279,7 @@ export const pages = {
       {
         heading: 'Internationale Übermittlungen',
         body: [
-          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. DigitalOcean hat seinen Hauptsitz ebenfalls in den USA, auch wenn die Server mit Ihren Daten in Amsterdam stehen. Wo eine Übermittlung außerhalb der EU stattfindet, ist sie durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert.',
+          'SendGrid (Twilio) ist ein US-Unternehmen, daher kann der Versand einer Kontakt-E-Mail eine Übermittlung Ihrer Daten außerhalb der EU bedeuten. DigitalOcean hat seinen Hauptsitz ebenfalls in den USA, auch wenn die Server mit Ihren Daten in Amsterdam stehen. Wo eine Übermittlung außerhalb der EU stattfindet, ist sie durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert. Google und Apple bieten die Anmeldung in Tododo über ihre irischen Gesellschaften an; eine Übermittlung auf ihrer Seite unterliegt ihren eigenen Richtlinien und Garantien.',
         ],
       },
       {

@@ -226,6 +226,7 @@ export const pages = {
         points: [
           'Cuenta: tu dirección de correo y —si te registras con contraseña— una versión cifrada (hash) de esa contraseña. La contraseña en sí nunca se almacena y no puede recuperarse.',
           'Continuar con Google: si inicias sesión con Google, recibimos tu dirección de correo, la información básica de tu perfil y tu ID de cuenta de Google. Los usamos para una sola cosa: crear tu cuenta y reconocerte la próxima vez.',
+          'Continuar con Apple: si inicias sesión con Apple, recibimos un identificador estable de tu cuenta de Apple y tu dirección de correo — una dirección de reenvío privado si elegiste “Ocultar mi correo”. Apple solo envía el correo la primera vez que autorizas la app; a partir de ahí es ese identificador el que te reconoce.',
           'Tu contenido: las listas y tareas que escribes, si cada tarea está hecha, y el orden en que las colocas.',
         ],
       },
@@ -240,7 +241,8 @@ export const pages = {
       {
         heading: 'Eliminar tu cuenta de Tododo',
         body: [
-          'Puedes solicitar que se eliminen tu cuenta y todo su contenido en cualquier momento escribiendo a hello@raoul.studio desde la dirección de la cuenta. Eliminamos la cuenta, sus listas y sus tareas. El inicio de sesión con Google también puede desconectarse en cualquier momento desde los ajustes de seguridad de tu cuenta de Google, lo que impide seguir accediendo; escríbenos además si quieres que se borren los datos.',
+          'Puedes eliminar tu cuenta y todo su contenido desde la propia app: abre el menú ⋯, elige “Delete account” y confirma. La cuenta, sus listas y sus tareas se borran al instante, y no se puede deshacer.',
+          'Puedes solicitar que se eliminen tu cuenta y todo su contenido en cualquier momento escribiendo a hello@raoul.studio desde la dirección de la cuenta. Eliminamos la cuenta, sus listas y sus tareas. El inicio de sesión con Google también puede desconectarse en cualquier momento desde los ajustes de seguridad de tu cuenta de Google, y el inicio de sesión con Apple desde “Iniciar sesión con Apple” en los ajustes de tu ID de Apple; eso impide seguir accediendo, así que escríbenos además si quieres que se borren los datos.',
           'Conservamos los datos de la cuenta mientras la cuenta exista, y no más.',
         ],
       },
@@ -263,6 +265,7 @@ export const pages = {
         points: [
           'SendGrid (Twilio Inc.) — nos entrega el correo del formulario de contacto. Tu nombre, correo y mensaje pasan por él.',
           'Google (Google Ireland Limited) — solo si eliges “Continuar con Google” en Tododo. Google gestiona el inicio de sesión y nos comunica tu dirección de correo y tu perfil básico. Lo que ocurre del lado de Google se rige por la propia política de privacidad de Google.',
+          'Apple (Apple Distribution International Ltd.) — solo si eliges “Iniciar sesión con Apple” en Tododo. Apple gestiona el inicio de sesión y nos comunica un identificador de tu cuenta de Apple y una dirección de correo, que puede ser una dirección de reenvío privado de Apple. Lo que ocurre del lado de Apple se rige por la propia política de privacidad de Apple.',
           'DigitalOcean — proporciona los servidores y la base de datos gestionada, en Ámsterdam, donde se almacenan el sitio web y todas las cuentas, listas y tareas de Tododo.',
           'Nuestros propios servidores — el sitio web y la API de Tododo se ejecutan en infraestructura que gestionamos, y los envíos de contacto se almacenan en nuestra base de datos allí.',
         ],
@@ -276,7 +279,7 @@ export const pages = {
       {
         heading: 'Transferencias internacionales',
         body: [
-          'SendGrid (Twilio) es una empresa estadounidense, por lo que enviar un correo de contacto puede implicar transferir tus datos fuera de la UE. DigitalOcean también tiene su sede en EE. UU., aunque los servidores que guardan tus datos están en Ámsterdam. Cuando se produce una transferencia fuera de la UE, está cubierta por garantías adecuadas como las Cláusulas Contractuales Tipo de la Comisión Europea.',
+          'SendGrid (Twilio) es una empresa estadounidense, por lo que enviar un correo de contacto puede implicar transferir tus datos fuera de la UE. DigitalOcean también tiene su sede en EE. UU., aunque los servidores que guardan tus datos están en Ámsterdam. Cuando se produce una transferencia fuera de la UE, está cubierta por garantías adecuadas como las Cláusulas Contractuales Tipo de la Comisión Europea. Google y Apple prestan el inicio de sesión de Tododo a través de sus entidades irlandesas; cualquier transferencia que ocurra de su lado se rige por sus propias políticas y garantías.',
         ],
       },
       {
