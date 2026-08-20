@@ -1,0 +1,122 @@
+{
+  "slug": "2026-08-20-unitree-ipo-humanoid-robot",
+  "date": "2026-08-20",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "Forbes — Unitree Begins Trading Tomorrow In Shanghai After 8000 Times IPO Demand",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/08/18/unitree-starts-trading-tomorrow-in-shanghai-after-8000x-ipo-demand/"
+    },
+    {
+      "title": "Bloomberg — Unitree Robotics Set to Debut After $904 Million Shanghai IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo"
+    },
+    {
+      "title": "South China Morning Post — Unitree Robotics surges 629% to US$66 billion valuation in Shanghai share debut",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364499/unitree-robotics-surges-629-us66-billion-valuation-shanghai-share-debut"
+    },
+    {
+      "title": "Fortune — Unitree, famous for its dancing robots, surges by 460% on its trading debut",
+      "url": "https://fortune.com/2026/08/19/unitree-china-dancing-robots-ipo-trading-surge-valuation/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The Humanoid Robot Industry Just Got Its First Public Price Tag",
+      "summary": "Unitree Robotics, the world's biggest humanoid robot maker, debuted on the Shanghai stock market on August 19 and surged 460% in a single day — a sign that the bet on physical AI is now very real.",
+      "body": [
+        "On August 19, **the first humanoid robot company to list on mainland China's stock market** made its debut. Unitree Robotics, which makes robots that can walk, run and jump, priced its IPO at a $9 billion valuation. By the time trading closed, investors had pushed that to around $50 billion — a 460% single-day gain. More than 8,000 retail investors lined up to buy every available share.",
+        "This is not a company selling a dream. Unitree has delivered around 18,000 robots to real customers and made $235 million in revenue last year — **growing 335% in a single year**. Its profit margins are nearly 60%, which is exceptional for a hardware company. Nearly half its sales come from outside China, including about 18% from the United States.",
+        "A 460% first-day jump raises an obvious question: is this a bubble? The comparison to private competitors makes the case for the bulls. Figure AI, a US startup, is privately valued at $39 billion **despite shipping far fewer robots**. Unitree ended the day valued higher — profitable, and already at scale. The market seems to be saying that real robot makers are still undervalued even at these prices.",
+        "For anyone building or backing technology right now, this is a signal worth acting on. **Physical AI has become a mainstream investment theme.** The humanoid robot category now has public prices, audited accounts, and an army of investors. Whether your business touches manufacturing, logistics, healthcare, or any repetitive physical work, the next few years will bring serious competition from robots. Map where that changes your costs — before your competitors do."
+      ],
+      "keyFacts": [
+        { "value": "460%", "label": "first-day share price gain" },
+        { "value": "8,000×", "label": "retail investors per available share" },
+        { "value": "$235M", "label": "Unitree's 2025 revenue" },
+        { "value": "18,000", "label": "robots already delivered" }
+      ]
+    },
+    "de": {
+      "title": "Humanoide Roboter bekommen ihren ersten echten Börsenwert",
+      "summary": "Unitree Robotics, der weltgrößte Hersteller humanoider Roboter, feierte am 19. August seinen Börsengang — und der Kurs stieg am ersten Handelstag um 460 Prozent.",
+      "body": [
+        "Am 19. August debütierte **das erste humanoide Roboterunternehmen an der Börse des chinesischen Festlands**. Unitree Robotics, das Roboter herstellt, die gehen, rennen und springen können, startete seinen Börsengang mit einer Bewertung von 9 Milliarden Dollar. Bis zum Handelsschluss hatten Investoren den Wert auf rund 50 Milliarden Dollar getrieben — ein Tagesgewinn von 460 Prozent. Mehr als 8.000 Privatanleger stritten sich um jede verfügbare Aktie.",
+        "Dies ist kein Unternehmen, das nur Versprechen verkauft. Unitree hat bereits rund 18.000 Roboter an echte Kunden geliefert und im vergangenen Jahr 235 Millionen Dollar Umsatz erzielt — **mit einem Wachstum von 335 Prozent in einem einzigen Jahr**. Die Gewinnmargen liegen bei fast 60 Prozent, was für ein Hardwareunternehmen außergewöhnlich ist. Fast die Hälfte der Umsätze kommt aus dem Ausland, davon rund 18 Prozent aus den USA.",
+        "Ein Kursanstieg von 460 Prozent am ersten Tag wirft eine offensichtliche Frage auf: Ist das eine Blase? Der Vergleich mit privaten Wettbewerbern spricht dagegen. Das US-Startup Figure AI wird privat mit 39 Milliarden Dollar bewertet — **obwohl es weit weniger Roboter ausgeliefert hat**. Unitree schloss den Handelstag mit einem höheren Wert ab, profitabel und bereits in großem Maßstab tätig. Der Markt scheint zu sagen: Echte Roboterhersteller sind auch zu diesen Preisen noch erschwinglich.",
+        "Für alle, die heute Technologie aufbauen oder finanzieren, ist dies ein klares Signal. **Physische KI ist ein Mainstream-Investmentthema geworden.** Die Kategorie humanoider Roboter hat jetzt Börsenpreise, geprüfte Bilanzen und ein Heer von Investoren. Ob Ihr Unternehmen in der Fertigung, Logistik oder Gesundheitsversorgung tätig ist — die nächsten Jahre werden ernsthafte Konkurrenz durch Roboter bringen. Analysieren Sie jetzt, wie das Ihre Kosten verändert, bevor es Ihre Mitbewerber tun."
+      ],
+      "keyFacts": [
+        { "value": "460%", "label": "Kurssteigerung am ersten Handelstag" },
+        { "value": "8.000×", "label": "Privatanleger pro verfügbarer Aktie" },
+        { "value": "235 Mio. $", "label": "Umsatz von Unitree im Jahr 2025" },
+        { "value": "18.000", "label": "bereits ausgelieferte Roboter" }
+      ]
+    },
+    "nl": {
+      "title": "De humanoïde robotindustrie heeft nu een echte beurswaarde",
+      "summary": "Unitree Robotics, de grootste maker van humanoïde robots ter wereld, ging op 19 augustus naar de beurs en zag zijn koers op de eerste dag met 460% stijgen — een teken dat de weddenschap op fysieke AI nu heel reëel is.",
+      "body": [
+        "Op 19 augustus debuteerde **het eerste humanoïde robotbedrijf op de aandelenmarkt van het Chinese vasteland**. Unitree Robotics, maker van robots die kunnen lopen, rennen en springen, ging naar de beurs met een waardering van 9 miljard dollar. Tegen het einde van de handelsdag hadden beleggers die opgedreven tot ongeveer 50 miljard dollar — een stijging van 460% op één dag. Meer dan 8.000 retailbeleggers streden om elk beschikbaar aandeel.",
+        "Dit is geen bedrijf dat dromen verkoopt. Unitree heeft al zo'n 18.000 robots afgeleverd aan echte klanten en maakte vorig jaar 235 miljoen dollar omzet — **een groei van 335% in één jaar**. De winstmarges liggen op bijna 60%, wat uitzonderlijk is voor een hardwarebedrijf. Bijna de helft van de omzet komt uit het buitenland, waarvan ongeveer 18% uit de Verenigde Staten.",
+        "Een stijging van 460% op de eerste handelsdag roept een voor de hand liggende vraag op: is dit een zeepbel? De vergelijking met private concurrenten pleit van niet. Het Amerikaanse startup Figure AI heeft een private waardering van 39 miljard dollar — **terwijl het veel minder robots heeft afgeleverd**. Unitree sloot de dag hoger af, winstgevend en al actief op schaal. De markt lijkt te zeggen dat echte robotmakers zelfs op deze prijzen nog gunstig geprijsd zijn.",
+        "Voor iedereen die vandaag technologie bouwt of financiert, is dit een signaal om op te acteren. **Fysieke AI is een mainstream investeringsthema geworden.** De categorie humanoïde robots heeft nu beurskoersen, gecontroleerde cijfers en een leger investeerders. Of uw bedrijf nu in productie, logistiek of zorg zit — de komende jaren zal er serieuze concurrentie van robots komen. Breng in kaart hoe dat uw kostprijsstructuur verandert, vóór uw concurrenten dat doen."
+      ],
+      "keyFacts": [
+        { "value": "460%", "label": "koersstijging op de eerste handelsdag" },
+        { "value": "8.000×", "label": "retailbeleggers per beschikbaar aandeel" },
+        { "value": "$235M", "label": "omzet van Unitree in 2025" },
+        { "value": "18.000", "label": "al afgeleverde robots" }
+      ]
+    },
+    "es": {
+      "title": "La industria de robots humanoides acaba de obtener su primer precio real en bolsa",
+      "summary": "Unitree Robotics, el mayor fabricante de robots humanoides del mundo, debutó en bolsa el 19 de agosto con una subida del 460% en el primer día de cotización — una señal de que la apuesta por la IA física ya es muy real.",
+      "body": [
+        "El 19 de agosto debutó en bolsa **la primera empresa de robots humanoides en cotizar en el mercado continental chino**. Unitree Robotics, que fabrica robots capaces de caminar, correr y saltar, fijó su valoración inicial en 9.000 millones de dólares. Al cierre de la jornada, los inversores la habían llevado a cerca de 50.000 millones — una subida del 460% en un solo día. Más de 8.000 inversores particulares competían por cada acción disponible.",
+        "No es una empresa que venda promesas. Unitree ya ha entregado unos 18.000 robots a clientes reales y generó 235 millones de dólares en ingresos el año pasado — **creciendo un 335% en un solo año**. Sus márgenes de beneficio rondan el 60%, algo excepcional para una empresa de hardware. Casi la mitad de sus ventas provienen de fuera de China, incluyendo aproximadamente un 18% de Estados Unidos.",
+        "Una subida del 460% el primer día plantea una pregunta obvia: ¿es una burbuja? La comparación con competidores privados sugiere que no. Figure AI, una startup estadounidense, está valorada en 39.000 millones de dólares en privado **a pesar de haber entregado muchos menos robots**. Unitree cerró el día con una valoración mayor, siendo rentable y operando ya a gran escala. El mercado parece decir que los fabricantes de robots reales siguen siendo una buena apuesta incluso a estos precios.",
+        "Para quienes construyen o financian tecnología hoy, esta es una señal que merece atención. **La IA física se ha convertido en un tema de inversión convencional.** La categoría de robots humanoides ya tiene precios bursátiles, cuentas auditadas y un ejército de inversores. Si su negocio toca la fabricación, la logística, la sanidad o cualquier trabajo físico repetitivo, los próximos años traerán competencia seria de los robots. Identifique ahora cómo eso cambia su estructura de costes, antes de que lo hagan sus competidores."
+      ],
+      "keyFacts": [
+        { "value": "460%", "label": "subida del precio el primer día de cotización" },
+        { "value": "8.000×", "label": "inversores particulares por acción disponible" },
+        { "value": "235 M$", "label": "ingresos de Unitree en 2025" },
+        { "value": "18.000", "label": "robots ya entregados" }
+      ]
+    },
+    "fr": {
+      "title": "L'industrie des robots humanoïdes vient d'obtenir son premier prix en bourse",
+      "summary": "Unitree Robotics, le plus grand fabricant de robots humanoïdes au monde, est entré en bourse le 19 août et a bondi de 460% lors de la première journée — un signe que le pari sur l'IA physique est maintenant très concret.",
+      "body": [
+        "Le 19 août, **la première entreprise de robots humanoïdes à entrer en bourse sur le marché continental chinois** a fait ses débuts. Unitree Robotics, qui fabrique des robots capables de marcher, courir et sauter, a valorisé son introduction en bourse à 9 milliards de dollars. À la clôture des marchés, les investisseurs avaient poussé ce chiffre à environ 50 milliards — soit une hausse de 460% en une seule journée. Plus de 8.000 investisseurs particuliers se battaient pour chaque action disponible.",
+        "Ce n'est pas une entreprise qui vend des promesses. Unitree a déjà livré environ 18.000 robots à de vrais clients et a réalisé 235 millions de dollars de chiffre d'affaires l'an dernier — **avec une croissance de 335% en un an**. Ses marges bénéficiaires avoisinent les 60%, ce qui est exceptionnel pour une entreprise matérielle. Près de la moitié de ses ventes proviennent de l'étranger, dont environ 18% des États-Unis.",
+        "Une hausse de 460% le premier jour soulève une question évidente : est-ce une bulle ? La comparaison avec les concurrents non cotés plaide contre cette hypothèse. Figure AI, une startup américaine, est valorisée à 39 milliards de dollars en privé **malgré un nombre bien inférieur de robots livrés**. Unitree a terminé la journée avec une valorisation supérieure, tout en étant rentable et déjà à grande échelle. Le marché semble dire que les vrais fabricants de robots sont encore bien valorisés même à ces prix.",
+        "Pour quiconque construit ou finance de la technologie aujourd'hui, c'est un signal à ne pas ignorer. **L'IA physique est devenue un thème d'investissement courant.** La catégorie des robots humanoïdes dispose maintenant de cours boursiers, de comptes audités et d'une armée d'investisseurs. Que votre activité touche à la fabrication, à la logistique, à la santé ou à tout travail physique répétitif, les prochaines années verront une concurrence sérieuse venant des robots. Analysez dès maintenant l'impact sur votre structure de coûts, avant que vos concurrents ne le fassent."
+      ],
+      "keyFacts": [
+        { "value": "460%", "label": "hausse du cours boursier le premier jour" },
+        { "value": "8.000×", "label": "investisseurs particuliers par action disponible" },
+        { "value": "235 M$", "label": "chiffre d'affaires d'Unitree en 2025" },
+        { "value": "18.000", "label": "robots déjà livrés" }
+      ]
+    },
+    "ar": {
+      "title": "صناعة الروبوتات الإنسانية تحصل أخيراً على سعرها الحقيقي في البورصة",
+      "summary": "يونيتري روبوتيكس، أكبر مصنّع للروبوتات الإنسانية في العالم، طرحت أسهمها للاكتتاب في 19 أغسطس وارتفعت بنسبة 460% في أول يوم تداول — مؤشر على أن الرهان على الذكاء الاصطناعي المادي أصبح حقيقة راسخة.",
+      "body": [
+        "في التاسع عشر من أغسطس، **أصبحت أول شركة روبوتات إنسانية تُدرج أسهمها في بورصة البر الصيني الرئيسي**. شركة يونيتري روبوتيكس، التي تصنع روبوتات قادرة على المشي والجري والقفز، طرحت أسهمها بتقييم بلغ 9 مليارات دولار. وبحلول نهاية جلسة التداول، دفع المستثمرون هذا الرقم إلى نحو 50 مليار دولار، أي ارتفاعاً بنسبة 460% في يوم واحد. وتنافس أكثر من 8.000 مستثمر من الأفراد للحصول على كل سهم متاح.",
+        "هذه ليست شركة تبيع وعوداً. سلّمت يونيتري نحو 18.000 روبوت لعملاء حقيقيين، وحققت 235 مليون دولار من الإيرادات العام الماضي، **بنمو بلغ 335% في سنة واحدة**. وتصل هوامش أرباحها إلى قرابة 60%، وهو رقم استثنائي بالنسبة لشركة أجهزة. وتأتي نحو نصف مبيعاتها من خارج الصين، منها قرابة 18% من الولايات المتحدة.",
+        "يطرح ارتفاع بنسبة 460% في اليوم الأول سؤالاً بديهياً: هل هذه فقاعة؟ المقارنة مع المنافسين غير المدرجين تدحض هذا الاستنتاج. شركة Figure AI الأمريكية الناشئة مُقيَّمة بـ39 مليار دولار بشكل خاص **رغم أنها سلّمت روبوتات أقل بكثير**. أنهت يونيتري اليوم بتقييم أعلى، وهي مربحة وتعمل على نطاق واسع بالفعل. يبدو أن السوق يقول: صانعو الروبوتات الحقيقيون لا يزالون بسعر مناسب حتى بهذه الأرقام.",
+        "لكل من يبني أو يموّل التقنية اليوم، هذه إشارة تستحق التحرك. **أصبح الذكاء الاصطناعي المادي موضوعاً استثمارياً سائداً.** تمتلك فئة الروبوتات الإنسانية الآن أسعار بورصة وحسابات مدققة وجيشاً من المستثمرين. سواء أكان عملك في التصنيع أم اللوجستيات أم الرعاية الصحية أم أي عمل جسدي متكرر، ستشهد السنوات القادمة منافسة جادة من الروبوتات. ارسم الآن أين يغير ذلك هيكل تكاليفك — قبل أن يفعل منافسوك."
+      ],
+      "keyFacts": [
+        { "value": "460%", "label": "ارتفاع سعر السهم في اليوم الأول" },
+        { "value": "8,000×", "label": "مستثمر مقابل كل سهم متاح" },
+        { "value": "235 مليون $", "label": "إيرادات يونيتري عام 2025" },
+        { "value": "18,000", "label": "روبوت تم تسليمه بالفعل" }
+      ]
+    }
+  }
+}
