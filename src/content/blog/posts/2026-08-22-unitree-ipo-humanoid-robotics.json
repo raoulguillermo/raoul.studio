@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-22-unitree-ipo-humanoid-robotics",
+  "date": "2026-08-22",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "South China Morning Post — Unitree Robotics surges 629% to US$66 billion valuation in Shanghai share debut",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364499/unitree-robotics-surges-629-us66-billion-valuation-shanghai-share-debut"
+    },
+    {
+      "title": "Caixin Global — Chinese Robot-Maker Unitree Soars 629% in Shanghai Debut",
+      "url": "https://www.caixinglobal.com/2026-08-19/chinese-robot-maker-unitree-soars-629-in-shanghai-debut-102475578.html"
+    },
+    {
+      "title": "Value Add VC — Unitree IPO: +629% on Day One — $53B Valuation (Aug 19)",
+      "url": "https://valueaddvc.com/unitree-ipo-tracker"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "A Robot Maker's $66 Billion Debut Just Told the World Something Important",
+      "summary": "When China's Unitree Robotics went public and shares jumped 629% in a single day, investors made one thing clear: humanoid robots are about to become a real industry, and the money is already moving.",
+      "body": [
+        "On Tuesday, a company that builds humanoid robots started trading in Shanghai. By the end of the day, shares had risen 629% from the offer price, briefly valuing the company at over $66 billion. Unitree — officially called Yushu Technology — is the first company focused entirely on humanoid robots to list on a major stock exchange. When a company that makes walking robots can pull off a debut like this, **the money believes humanoid robots are real.**",
+        "What makes Unitree unusual is that it is actually profitable and shipping real products. In 2025 it shipped more than 5,500 humanoid robots — more than any other company in the world — and earned $235 million in revenue, up 335% from the year before. Yet investors priced it at nearly 1,300 times its annual profit on day one — around 50 times what a typical stable company trades at. **Buyers are paying for what robots will become**, not what the business earns today.",
+        "The global picture makes this even clearer. In the US, Agility Robotics is going public at a valuation of around $2.5 billion — less than 4% of Unitree's closing market cap. Meanwhile, 30 to 50 other Chinese robotics firms are already preparing their own stock listings. **Capital is racing into humanoid robotics** at the speed that usually means a new industry has truly arrived, not one that is almost arriving.",
+        "For anyone building software — warehouse tools, logistics platforms, scheduling systems — this is the moment to think about how your product fits into a world with far more robots. The investment wave funds the hardware, and the hardware creates demand for all the software around it. Do not wait for the robots to be everywhere before starting. **Build the robot layer now**, while there is still space to be early."
+      ],
+      "keyFacts": [
+        { "value": "629%", "label": "first-day share price surge (intraday)" },
+        { "value": "$66B", "label": "valuation at market close" },
+        { "value": "5,500+", "label": "humanoid robots shipped in 2025" },
+        { "value": "~1,300×", "label": "price-to-earnings ratio at debut" }
+      ]
+    },
+    "de": {
+      "title": "Was der Börsenstart eines Roboterherstellers für 66 Milliarden Dollar der Welt sagt",
+      "summary": "Als Unitree Robotics aus China an die Börse ging und die Aktien an einem einzigen Tag um 629 % stiegen, schickten Investoren eine klare Botschaft: Humanoide Roboter stehen kurz davor, eine echte Industrie zu werden – und das Kapital bewegt sich bereits.",
+      "body": [
+        "Am Dienstag begann ein Unternehmen, das humanoide Roboter baut, in Shanghai zu handeln. Bis Handelsende waren die Aktien um 629 % gegenüber dem Ausgabepreis gestiegen und bewerteten das Unternehmen zeitweise mit über 66 Milliarden Dollar. Unitree – offiziell Yushu Technology – ist das erste Unternehmen, das sich ausschließlich auf humanoide Roboter konzentriert und an einer großen Börse notiert. Wenn ein Unternehmen, das laufende Roboter baut, so einen Börsenstart hinlegen kann, **glaubt das Kapital daran, dass humanoide Roboter real sind.**",
+        "Was Unitree besonders macht: Es ist tatsächlich profitabel und liefert echte Produkte. 2025 lieferte es mehr als 5.500 humanoide Roboter – mehr als jedes andere Unternehmen weltweit – und erzielte 235 Millionen Dollar Umsatz, ein Plus von 335 % gegenüber dem Vorjahr. Dennoch bewerteten Investoren die Aktie am ersten Tag mit fast dem 1.300-fachen des Jahresgewinns – rund 50-mal so viel wie bei einem typischen stabilen Unternehmen. **Käufer zahlen dafür, was Roboter werden**, nicht dafür, was das Unternehmen heute verdient.",
+        "Das globale Bild macht das noch deutlicher. In den USA geht Agility Robotics mit einer Bewertung von rund 2,5 Milliarden Dollar an die Börse – weniger als 4 % von Unitrees Schlusskurs-Marktkapitalisierung. Gleichzeitig bereiten 30 bis 50 weitere chinesische Robotikunternehmen eigene Börsengänge vor. **Kapital strömt in humanoide Robotik** in dem Tempo, das normalerweise bedeutet, dass eine neue Industrie wirklich angekommen ist – nicht fast.",
+        "Für alle, die Software bauen – Lagerverwaltungstools, Logistikplattformen, Planungssysteme – ist jetzt der Moment, darüber nachzudenken, wie das eigene Produkt in einer Welt mit viel mehr Robotern funktioniert. Die Investitionswelle finanziert die Hardware, und die Hardware schafft Nachfrage nach der Software, die sie umgibt. Nicht warten, bis die Roboter überall sind. **Jetzt die Roboter-Schicht aufbauen**, solange es noch Raum gibt, früh dran zu sein."
+      ],
+      "keyFacts": [
+        { "value": "629%", "label": "Kursanstieg am ersten Handelstag (Intraday)" },
+        { "value": "$66B", "label": "Unternehmensbewertung bei Börsenschluss" },
+        { "value": "5,500+", "label": "ausgelieferte humanoide Roboter in 2025" },
+        { "value": "~1,300×", "label": "Kurs-Gewinn-Verhältnis beim Börsenstart" }
+      ]
+    },
+    "nl": {
+      "title": "Wat de beursgang van een robotbouwer voor $66 miljard de wereld vertelt",
+      "summary": "Toen Unitree Robotics uit China naar de beurs ging en de aandelen op één dag 629% stegen, maakten beleggers één ding duidelijk: humanoïde robots staan op het punt een echte industrie te worden – en het geld beweegt zich al.",
+      "body": [
+        "Op dinsdag begon een bedrijf dat humanoïde robots bouwt te handelen in Shanghai. Tegen het einde van de dag waren de aandelen 629% gestegen ten opzichte van de introductieprijs, waarmee het bedrijf kortstondig werd gewaardeerd op meer dan $66 miljard. Unitree – officieel Yushu Technology – is het eerste bedrijf dat zich volledig richt op humanoïde robots en op een grote beurs noteert. Wanneer een bedrijf dat lopende robots maakt zo'n debuut kan neerzetten, **gelooft het kapitaal dat humanoïde robots echt zijn.**",
+        "Wat Unitree bijzonder maakt, is dat het daadwerkelijk winstgevend is en echte producten levert. In 2025 leverde het meer dan 5.500 humanoïde robots – meer dan enig ander bedrijf ter wereld – en verdiende het $235 miljoen aan omzet, een groei van 335% ten opzichte van het jaar ervoor. Toch waardeerden beleggers het aandeel op de eerste dag op bijna 1.300 keer de jaarwinst – ongeveer 50 keer wat een typisch stabiel bedrijf handelt. **Kopers betalen voor wat robots zullen worden**, niet voor wat het bedrijf vandaag verdient.",
+        "Het wereldwijde beeld maakt dit nog duidelijker. In de VS gaat Agility Robotics naar de beurs met een waardering van ongeveer $2,5 miljard – minder dan 4% van Unitree's slotkoers-marktkapitalisatie. Ondertussen bereiden 30 tot 50 andere Chinese roboticabedrijven hun eigen beursgangen voor. **Kapitaal stroomt naar humanoïde robotica** in het tempo dat gewoonlijk betekent dat een nieuwe industrie echt is aangekomen, niet bijna.",
+        "Voor iedereen die software bouwt – tools voor magazijnen, logistiekplatforms, planningssystemen – is dit het moment om na te denken over hoe jouw product past in een wereld met veel meer robots. De investeringsgolf financiert de hardware, en de hardware creëert vraag naar de software eromheen. Niet wachten tot de robots overal zijn. **Bouw de robotlaag nu**, terwijl er nog ruimte is om vroeg te zijn."
+      ],
+      "keyFacts": [
+        { "value": "629%", "label": "koersstijging op de eerste handelsdag (intraday)" },
+        { "value": "$66B", "label": "waardering bij marktsluit" },
+        { "value": "5,500+", "label": "humanoïde robots geleverd in 2025" },
+        { "value": "~1,300×", "label": "koers-winstverhouding bij debuut" }
+      ]
+    },
+    "es": {
+      "title": "Lo que la salida a bolsa de $66.000 millones de un fabricante de robots le dice al mundo",
+      "summary": "Cuando la china Unitree Robotics salió a bolsa y sus acciones subieron un 629% en un día, los inversores dejaron algo muy claro: los robots humanoides están a punto de convertirse en una industria real, y el dinero ya se está moviendo.",
+      "body": [
+        "El martes, una empresa que fabrica robots humanoides comenzó a cotizar en Shanghái. Al final del día, sus acciones habían subido un 629% respecto al precio de salida, valorando brevemente a la empresa en más de $66.000 millones. Unitree — oficialmente Yushu Technology — es la primera empresa dedicada por completo a los robots humanoides en cotizar en una bolsa importante. Cuando una empresa que fabrica robots que caminan logra un debut así, **el dinero cree que los robots humanoides son reales.**",
+        "Lo que hace especial a Unitree es que es rentable de verdad y entrega productos reales. En 2025 entregó más de 5.500 robots humanoides — más que cualquier otra empresa en el mundo — y obtuvo $235 millones en ingresos, un crecimiento del 335% respecto al año anterior. Aun así, los inversores la valoraron el primer día a casi 1.300 veces su beneficio anual — unas 50 veces más que una empresa estable típica. **Los compradores pagan por lo que serán los robots**, no por lo que gana el negocio hoy.",
+        "El panorama global lo deja aún más claro. En EE.UU., Agility Robotics sale a bolsa con una valoración de unos $2.500 millones — menos del 4% de la capitalización de cierre de Unitree. Mientras tanto, entre 30 y 50 empresas chinas de robótica ya se preparan para sus propias salidas a bolsa. **El capital corre hacia la robótica humanoide** a la velocidad que suele significar que una nueva industria ha llegado de verdad, no que está a punto de llegar.",
+        "Para cualquiera que desarrolle software — herramientas para almacenes, plataformas logísticas, sistemas de planificación — este es el momento de pensar en cómo tu producto encaja en un mundo con muchos más robots. La ola de inversión financia el hardware, y el hardware crea demanda del software que lo rodea. No esperes a que los robots estén en todas partes. **Construye la capa de robots ahora**, mientras aún hay espacio para llegar pronto."
+      ],
+      "keyFacts": [
+        { "value": "629%", "label": "subida del precio en el primer día (intradía)" },
+        { "value": "$66B", "label": "valoración al cierre del mercado" },
+        { "value": "5,500+", "label": "robots humanoides entregados en 2025" },
+        { "value": "~1,300×", "label": "ratio precio-beneficio en el debut" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que l'introduction en bourse à $66 milliards d'un fabricant de robots dit au monde",
+      "summary": "Quand Unitree Robotics de Chine est entré en bourse et que ses actions ont bondi de 629 % en un jour, les investisseurs ont envoyé un message clair : les robots humanoïdes sont sur le point de devenir une vraie industrie, et l'argent est déjà en mouvement.",
+      "body": [
+        "Mardi, une entreprise qui fabrique des robots humanoïdes a commencé à coter à Shanghai. En fin de journée, ses actions avaient grimpé de 629 % par rapport au prix d'introduction, valorisant brièvement la société à plus de 66 milliards de dollars. Unitree — officiellement Yushu Technology — est la première entreprise entièrement dédiée aux robots humanoïdes à entrer sur une grande place boursière. Quand une entreprise qui fabrique des robots marchants réussit un tel premier jour, **l'argent croit que les robots humanoïdes sont réels.**",
+        "Ce qui rend Unitree particulier, c'est qu'elle est réellement rentable et livre de vrais produits. En 2025, elle a livré plus de 5.500 robots humanoïdes — plus que toute autre entreprise dans le monde — et réalisé 235 millions de dollars de chiffre d'affaires, en hausse de 335 % par rapport à l'année précédente. Pourtant, les investisseurs ont valorisé l'action à près de 1.300 fois son bénéfice annuel le premier jour — environ 50 fois ce que vaut une entreprise stable ordinaire. **Les acheteurs paient pour ce que les robots deviendront**, pas pour ce que l'entreprise gagne aujourd'hui.",
+        "Le tableau mondial le rend encore plus clair. Aux États-Unis, Agility Robotics entre en bourse à une valorisation d'environ 2,5 milliards de dollars — moins de 4 % de la capitalisation de clôture d'Unitree. Pendant ce temps, 30 à 50 autres entreprises chinoises de robotique préparent déjà leurs propres introductions en bourse. **Les capitaux affluent vers la robotique humanoïde** à la vitesse qui signifie généralement qu'une nouvelle industrie est vraiment arrivée, pas qu'elle arrive bientôt.",
+        "Pour tous ceux qui développent des logiciels — outils pour entrepôts, plateformes logistiques, systèmes de planification — c'est le moment de réfléchir à la façon dont votre produit s'intègre dans un monde avec beaucoup plus de robots. La vague d'investissement finance le matériel, et le matériel crée la demande pour les logiciels autour. N'attendez pas que les robots soient partout. **Construisez la couche robot maintenant**, pendant qu'il y a encore de la place pour être en avance."
+      ],
+      "keyFacts": [
+        { "value": "629%", "label": "hausse du cours le premier jour (intraday)" },
+        { "value": "$66B", "label": "valorisation à la clôture du marché" },
+        { "value": "5,500+", "label": "robots humanoïdes livrés en 2025" },
+        { "value": "~1,300×", "label": "ratio cours/bénéfice au premier jour" }
+      ]
+    },
+    "ar": {
+      "title": "ماذا يخبرنا طرح شركة روبوتات بـ 66 مليار دولار في البورصة؟",
+      "summary": "عندما طرحت شركة Unitree Robotics الصينية أسهمها في البورصة وارتفعت 629% في يوم واحد، أرسل المستثمرون رسالة واضحة: الروبوتات الإنسانية على وشك أن تصبح صناعة حقيقية، والأموال تتحرك بالفعل.",
+      "body": [
+        "يوم الثلاثاء، بدأت شركة تصنع روبوتات تشبه الإنسان بالتداول في شنغهاي. بحلول نهاية اليوم، ارتفعت أسهمها 629% عن سعر الطرح، مما أعطاها قيمة سوقية تجاوزت 66 مليار دولار لفترة وجيزة. Unitree — المعروفة رسمياً بـ Yushu Technology — هي أول شركة تعمل حصراً في مجال الروبوتات الإنسانية تُدرج في بورصة كبرى. حين تنجح شركة تصنع روبوتات تمشي في تحقيق مثل هذا الانطلاق، **فالمال يؤمن بأن الروبوتات الإنسانية حقيقية.**",
+        "ما يجعل Unitree استثنائية أنها فعلاً مربحة وتوصّل منتجات حقيقية. في 2025، سلّمت أكثر من 5,500 روبوت إنساني — أكثر من أي شركة أخرى في العالم — وحققت إيرادات 235 مليون دولار، بنمو 335% مقارنة بالعام السابق. ومع ذلك، قيّم المستثمرون السهم في يومه الأول بما يقارب 1,300 ضعف أرباحها السنوية — نحو 50 ضعف ما تتداول به شركة مستقرة عادية. **المشترون يدفعون لما ستصير عليه الروبوتات**، لا لما يكسبه العمل اليوم.",
+        "الصورة العالمية تزيد الأمر وضوحاً. في الولايات المتحدة، تدخل Agility Robotics البورصة بتقييم نحو 2.5 مليار دولار — أي أقل من 4% من القيمة السوقية لـ Unitree عند الإغلاق. في الوقت ذاته، تستعد ما بين 30 و50 شركة صينية للروبوتات لإدراجها في هونغ كونغ. **الأموال تتدفق نحو الروبوتات الإنسانية** بالسرعة التي تعني عادةً أن صناعة جديدة قد وصلت فعلاً، لا أنها قادمة قريباً.",
+        "لمن يبني برامج — أدوات للمستودعات، منصات لوجستية، أنظمة جدولة — هذه هي اللحظة للتفكير في كيفية ارتباط منتجك بعالم يضم روبوتات أكثر بكثير. موجة الاستثمار تموّل الأجهزة، والأجهزة تخلق الطلب على البرامج المحيطة بها. لا تنتظر حتى تنتشر الروبوتات في كل مكان. **ابنِ طبقة الروبوتات الآن**، ما زال هناك وقت لتكون من السبّاقين."
+      ],
+      "keyFacts": [
+        { "value": "629%", "label": "ارتفاع سعر السهم في اليوم الأول (داخل الجلسة)" },
+        { "value": "$66B", "label": "القيمة السوقية عند إغلاق البورصة" },
+        { "value": "5,500+", "label": "روبوت إنساني تم تسليمه في 2025" },
+        { "value": "~1,300×", "label": "نسبة السعر إلى الأرباح عند الإدراج" }
+      ]
+    }
+  }
+}
