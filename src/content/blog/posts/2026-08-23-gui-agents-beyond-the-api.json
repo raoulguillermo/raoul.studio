@@ -1,0 +1,110 @@
+{
+  "slug": "2026-08-23-gui-agents-beyond-the-api",
+  "date": "2026-08-23",
+  "tags": ["ai", "agents", "automation"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "Tongyi MAI — Qwen-UI-Agent Technical Report", "url": "https://tongyi-mai.github.io/Qwen-UI-Agent/" },
+    { "title": "Digitalphablet — Alibaba Launches Qwen-UI-Agent, Surpassing GPT-5.6 and Claude 4.8", "url": "https://digitalphablet.com/ai/alibaba-launches-qwen-ui-agent-surpassing-gpt-5-6-and-claude-4-8/" },
+    { "title": "Developers Digest — Qwen-UI-Agent Points at the Next GUI Agent Runtime", "url": "https://www.developersdigest.tech/blog/qwen-ui-agent-gui-agents-runtime" },
+    { "title": "AI Agent Store — AI Agents News, Week of August 22, 2026", "url": "https://aiagentstore.ai/ai-agent-news/this-week" }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI Can Now Use Any Software — No API Required",
+      "summary": "Alibaba's new Qwen-UI-Agent can operate phones, computers, and websites just like a person does, and it already outperforms rival AI from OpenAI and Anthropic.",
+      "body": [
+        "Most business automation runs through APIs — the hidden links that let apps talk to each other. If a tool has no API, there is no easy way in. **That barrier is starting to fall**. A new kind of AI — called a GUI agent — can look at a screen and operate software exactly as a person would: clicking, typing, and navigating step by step.",
+        "On August 20, Alibaba released Qwen-UI-Agent. It can control phones, computers, websites, and command-line tools — all in the same session. On the MobileWorld test, which measures real-device navigation, **it outscored every rival model tested**, including GPT-5.6 (by 12 points) and Claude Opus 4.8 (by nearly 15). The model was trained on data from more than 100 phones and 150 apps.",
+        "The practical change this unlocks is significant. Any software a person can use, an AI agent can now potentially run. **Legacy tools with no API, niche industry software, even ordinary websites** all become candidates for automation. A finance team could automate work in old spreadsheet software. A law firm could pull data from a case management tool. An e-commerce team could run competitor price checks across any site without a special integration.",
+        "If you are building or running something that depends on software connections, this is worth a test right now. Pick one workflow that still needs a human to click through it. Try a screen-aware agent on it. **The list of automatable tasks just got much longer** — and starting is simpler than building a custom integration from scratch."
+      ],
+      "keyFacts": [
+        { "value": "82.1%", "label": "MobileWorld benchmark score" },
+        { "value": "12 points", "label": "ahead of OpenAI GPT-5.6" },
+        { "value": "100+", "label": "phones in training data" },
+        { "value": "Aug 20", "label": "release date" }
+      ]
+    },
+    "de": {
+      "title": "KI bedient jetzt jede Software — ganz ohne API",
+      "summary": "Alibabas neuer Qwen-UI-Agent kann Smartphones, Computer und Websites genau wie ein Mensch bedienen — und übertrifft damit bereits Konkurrenzmodelle von OpenAI und Anthropic.",
+      "body": [
+        "Die meisten Automatisierungen laufen über APIs — die unsichtbaren Verbindungen zwischen Apps. Fehlt eine solche Schnittstelle, gibt es keinen einfachen Weg hinein. **Diese Hürde beginnt zu fallen**. Eine neue Art von KI — GUI-Agenten genannt — kann jetzt einen Bildschirm ablesen und Software genauso bedienen wie ein Mensch: klicken, tippen, Schritt für Schritt navigieren.",
+        "Am 20. August veröffentlichte Alibaba Qwen-UI-Agent. Er steuert Smartphones, Computer, Websites und Kommandozeilenwerkzeuge — alles in einer Sitzung. Im MobileWorld-Test, der echte Gerätebedienung misst, **übertraf er alle getesteten Konkurrenzmodelle**, darunter GPT-5.6 (um 12 Punkte) und Claude Opus 4.8 (um fast 15). Das Modell wurde mit Daten von mehr als 100 Smartphones und 150 Apps trainiert.",
+        "Die praktische Auswirkung ist erheblich. Jede Software, die ein Mensch bedienen kann, kann ein KI-Agent jetzt potenziell ausführen. **Alte Tools ohne API, Nischensoftware, ja selbst gewöhnliche Websites** werden zu Kandidaten für die Automatisierung. Ein Finanzteam könnte Aufgaben in veralteter Tabellenkalkulations-Software automatisieren. Eine Kanzlei könnte Daten aus Fallmanagementsystemen ziehen. Ein E-Commerce-Team könnte Preisvergleiche auf beliebigen Websites durchführen.",
+        "Wenn dein Produkt auf Software-Verbindungen angewiesen ist, lohnt sich ein Test jetzt. Nimm einen Prozess, der noch menschliche Klicks erfordert. Probiere einen bildschirmgesteuerten Agenten darauf aus. **Die Liste automatisierbarer Aufgaben ist gerade deutlich länger geworden** — und der Einstieg ist einfacher als eine eigene Schnittstelle von Grund auf zu bauen."
+      ],
+      "keyFacts": [
+        { "value": "82.1%", "label": "MobileWorld-Benchmark-Ergebnis" },
+        { "value": "12 points", "label": "Vorsprung vor GPT-5.6" },
+        { "value": "100+", "label": "Smartphones im Trainingsdatensatz" },
+        { "value": "Aug 20", "label": "Veröffentlichungsdatum" }
+      ]
+    },
+    "nl": {
+      "title": "AI bedient nu alle software — zonder API",
+      "summary": "Alibaba's nieuwe Qwen-UI-Agent kan telefoons, computers en websites besturen zoals een mens dat doet — en presteert al beter dan concurrerende modellen van OpenAI en Anthropic.",
+      "body": [
+        "De meeste automatisering in bedrijven loopt via API's — de verborgen verbindingen tussen apps. Als een tool geen API heeft, is er geen makkelijke ingang. **Die drempel begint te verdwijnen**. Een nieuw soort AI — GUI-agents — kan nu een scherm bekijken en software bedienen zoals een mens dat zou doen: klikken, typen en stap voor stap navigeren.",
+        "Op 20 augustus bracht Alibaba Qwen-UI-Agent uit. Het model kan telefoons, computers, websites en commandoregeltools aansturen — allemaal in dezelfde sessie. Op de MobileWorld-test, die echte apparaatbediening meet, **scoorde het beter dan alle geteste concurrerende modellen**, waaronder GPT-5.6 (met 12 punten) en Claude Opus 4.8 (met bijna 15). Het model werd getraind op data van meer dan 100 telefoons en 150 apps.",
+        "De praktische verandering is groot. Alle software die een mens kan gebruiken, kan een AI-agent nu potentieel uitvoeren. **Verouderde tools zonder API, niche-software, zelfs gewone websites** worden kandidaten voor automatisering. Een financeteam kan taken in oude spreadsheetprogramma's automatiseren. Een advocatenkantoor kan data ophalen uit zaakbeheersoftware. Een e-commerceteam kan prijsvergelijkingen doen op elke website, zonder speciale koppeling.",
+        "Als je iets bouwt of beheert dat afhankelijk is van software-koppelingen, is dit het moment om te testen. Kies een workflow die nog steeds menselijke klikken vereist. Probeer er een schermgestuurd agent op. **De lijst van automatiseerbare taken is zojuist veel langer geworden** — en de drempel is lager dan het bouwen van een maatwerkkoppeling."
+      ],
+      "keyFacts": [
+        { "value": "82.1%", "label": "MobileWorld-benchmarkscore" },
+        { "value": "12 points", "label": "voorsprong op GPT-5.6" },
+        { "value": "100+", "label": "telefoons in trainingsdata" },
+        { "value": "Aug 20", "label": "releasedatum" }
+      ]
+    },
+    "es": {
+      "title": "La IA ya puede usar cualquier software — sin necesidad de API",
+      "summary": "El nuevo Qwen-UI-Agent de Alibaba puede controlar teléfonos, ordenadores y sitios web exactamente como lo haría una persona — y ya supera a los modelos de OpenAI y Anthropic.",
+      "body": [
+        "La mayoría de la automatización empresarial funciona a través de APIs — los canales invisibles que conectan aplicaciones entre sí. Si una herramienta no tiene una, no hay forma sencilla de acceder. **Esa barrera está empezando a caer**. Un nuevo tipo de IA — llamada agente de interfaz gráfica o GUI agent — puede ahora mirar una pantalla y manejar software exactamente como lo haría una persona: haciendo clic, escribiendo y navegando paso a paso.",
+        "El 20 de agosto, Alibaba lanzó Qwen-UI-Agent. Puede controlar teléfonos, ordenadores, sitios web y herramientas de línea de comandos — todo en la misma sesión. En la prueba MobileWorld, que mide la navegación real en dispositivos, **superó a todos los modelos rivales probados**, incluido GPT-5.6 (por 12 puntos) y Claude Opus 4.8 (por casi 15). El modelo fue entrenado con datos de más de 100 teléfonos y 150 aplicaciones.",
+        "El cambio práctico que esto permite es significativo. Cualquier software que una persona pueda usar, un agente de IA ahora puede potencialmente ejecutarlo. **Herramientas antiguas sin API, software especializado, incluso sitios web comunes** se convierten en candidatos para la automatización. Un equipo de finanzas puede automatizar tareas en hojas de cálculo heredadas. Un bufete puede extraer datos de un sistema de gestión de casos. Un equipo de e-commerce puede hacer comparativas de precios en cualquier sitio sin necesidad de integración especial.",
+        "Si estás construyendo o gestionando algo que depende de conexiones entre software, vale la pena probarlo ahora. Elige un proceso que aún requiere que alguien haga clic manualmente. Prueba un agente capaz de ver la pantalla. **La lista de tareas automatizables acaba de crecer mucho** — y empezar es más sencillo que construir una integración personalizada desde cero."
+      ],
+      "keyFacts": [
+        { "value": "82.1%", "label": "puntuación en MobileWorld" },
+        { "value": "12 points", "label": "de ventaja sobre GPT-5.6" },
+        { "value": "100+", "label": "teléfonos en los datos de entrenamiento" },
+        { "value": "Aug 20", "label": "fecha de lanzamiento" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA peut désormais utiliser n'importe quel logiciel — sans API",
+      "summary": "Le nouvel agent Qwen-UI-Agent d'Alibaba peut piloter téléphones, ordinateurs et sites web comme un humain — et il surpasse déjà les modèles concurrents d'OpenAI et d'Anthropic.",
+      "body": [
+        "La plupart des automatisations d'entreprise passent par des API — ces canaux invisibles qui relient les applications. Sans API, il n'existe pas de moyen simple d'entrer dans un outil. **Cette barrière commence à tomber**. Une nouvelle catégorie d'IA — appelée agent GUI — peut maintenant regarder un écran et utiliser un logiciel exactement comme le ferait un humain : clics, saisie, navigation pas à pas.",
+        "Le 20 août, Alibaba a lancé Qwen-UI-Agent. Il peut contrôler des téléphones, des ordinateurs, des sites web et des outils en ligne de commande — le tout dans la même session. Sur le test MobileWorld, qui mesure la navigation réelle sur appareil, **il a surpassé tous les modèles rivaux testés**, dont GPT-5.6 (de 12 points) et Claude Opus 4.8 (de près de 15). Le modèle a été entraîné sur des données provenant de plus de 100 téléphones et 150 applications.",
+        "Le changement pratique est important. Tout logiciel qu'un humain peut utiliser, un agent IA peut désormais potentiellement le faire tourner. **Les vieux outils sans API, les logiciels de niche, voire les sites web ordinaires** deviennent des candidats à l'automatisation. Une équipe finance pourrait automatiser des tâches dans un ancien tableur. Un cabinet juridique pourrait extraire des données d'un logiciel de gestion des dossiers. Une équipe e-commerce pourrait comparer les prix sur n'importe quel site sans intégration spécifique.",
+        "Si vous développez ou gérez un produit qui repose sur des connexions logicielles, c'est le moment de tester. Choisissez un processus qui nécessite encore des clics humains. Essayez un agent capable de voir l'écran. **La liste des tâches automatisables vient de s'allonger considérablement** — et le point de départ est plus simple que de construire une intégration sur mesure de zéro."
+      ],
+      "keyFacts": [
+        { "value": "82.1%", "label": "score sur le benchmark MobileWorld" },
+        { "value": "12 points", "label": "d'avance sur GPT-5.6" },
+        { "value": "100+", "label": "téléphones dans les données d'entraînement" },
+        { "value": "Aug 20", "label": "date de lancement" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي يستطيع الآن استخدام أي برنامج — دون الحاجة إلى واجهة برمجية",
+      "summary": "وكيل Qwen-UI-Agent الجديد من Alibaba يستطيع التحكم في الهواتف والحواسيب والمواقع الإلكترونية تمامًا كما يفعل الإنسان — وهو يتفوق بالفعل على نماذج OpenAI وAnthropic.",
+      "body": [
+        "تعتمد معظم أتمتة الأعمال على واجهات برمجية تُسمى API — وهي القنوات الخفية التي تربط التطبيقات ببعضها. إذا لم يوفر أحد البرامج هذه الواجهة، لا توجد طريقة سهلة للدخول إليه. **هذا الحاجز بدأ يتراجع**. صنف جديد من الذكاء الاصطناعي — يُعرف بوكيل الواجهة الرسومية — بات يستطيع النظر إلى الشاشة وتشغيل البرامج تمامًا كما يفعل الإنسان: نقرًا وكتابةً وتنقلًا خطوة بخطوة.",
+        "في 20 أغسطس، أطلقت Alibaba نموذج Qwen-UI-Agent. يستطيع هذا الوكيل التحكم في الهواتف والحواسيب والمواقع الإلكترونية وأدوات سطر الأوامر — كل ذلك في جلسة واحدة. في اختبار MobileWorld الذي يقيس التنقل الفعلي على الأجهزة، **تفوّق على جميع النماذج المنافسة المختبَرة**، بما فيها GPT-5.6 (بفارق 12 نقطة) وClaude Opus 4.8 (بقرابة 15 نقطة). دُرِّب النموذج على بيانات من أكثر من 100 هاتف و150 تطبيقًا.",
+        "التغيير العملي الذي يتيحه هذا التطور كبير. أي برنامج يستطيع الإنسان استخدامه، يمكن لوكيل الذكاء الاصطناعي الآن تشغيله بشكل محتمل. **الأدوات القديمة بلا واجهة برمجية، والبرامج المتخصصة، حتى المواقع الإلكترونية العادية** تصبح جميعًا مرشحةً للأتمتة. فريق المالية يمكنه أتمتة العمل في برامج جداول بيانات قديمة. مكتب محاماة يمكنه استخراج بيانات من برنامج إدارة القضايا. فريق التجارة الإلكترونية يمكنه مقارنة الأسعار على أي موقع دون أي تكامل خاص.",
+        "إذا كنت تبني أو تدير منتجًا يعتمد على ربط البرامج ببعضها، فهذا هو الوقت المناسب للتجربة. اختر سير عمل لا يزال يحتاج إلى نقرات بشرية. جرّب عليه وكيلًا قادرًا على رؤية الشاشة. **قائمة المهام القابلة للأتمتة طالت للتو بشكل كبير** — ونقطة البداية أبسط من بناء تكامل مخصص من الصفر."
+      ],
+      "keyFacts": [
+        { "value": "82.1%", "label": "النتيجة في اختبار MobileWorld" },
+        { "value": "12 points", "label": "نقطة تفوق على GPT-5.6" },
+        { "value": "100+", "label": "هاتف في بيانات التدريب" },
+        { "value": "Aug 20", "label": "تاريخ الإطلاق" }
+      ]
+    }
+  }
+}
