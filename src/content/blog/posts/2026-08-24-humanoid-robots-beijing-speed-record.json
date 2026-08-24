@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-24-humanoid-robots-beijing-speed-record",
+  "date": "2026-08-24",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "The Irish Times — Chinese robots beat Usain Bolt's 100m world record at Beijing games",
+      "url": "https://www.irishtimes.com/world/asia-pacific/2026/08/23/chinese-robots-beat-usain-bolts-100m-world-record-at-beijing-games/"
+    },
+    {
+      "title": "Forbes — The Humanoid Robot Games Events Are A Market Map",
+      "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/19/the-world-humanoid-robot-games-events-are-a-market-map/"
+    },
+    {
+      "title": "Humanoid Daily — Humanoid Robotics & AI News",
+      "url": "https://humanoid.press/humanoid-daily/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What it means that robots now run faster than Usain Bolt",
+      "summary": "Humanoid robots are now fast enough to beat the world's greatest sprinter — and that tells you something important about how quickly the physical side of automation is arriving.",
+      "body": [
+        "This week in Beijing, a humanoid robot called Tiangong Ultra **ran 100 metres in 9.39 seconds** — faster than Usain Bolt's world record of 9.58 seconds. Two thousand and fifty-six robots competed, from 666 teams across 16 countries. One year ago, the same robot ran the same race in 21.50 seconds. That is not a small step forward. It is a step change in roughly twelve months.",
+        "The run was not clean. Tiangong Ultra slammed into a safety mat at the finish line. A rival robot, Lightning, clocked 9.47 seconds, then collapsed and had to be carried off the track. These machines now move faster than any human alive — but they still lose control in the final metres. The gap between peak speed and **reliable, repeatable performance** is real, and honest observers say it matters.",
+        "But the one-year improvement is the story worth watching. Cutting the 100-metre time by two-thirds in a single development cycle is not incremental progress — it mirrors what happened with AI software a few years ago, when capabilities that seemed years away arrived in months. China has made humanoid robotics a national priority. The games are designed as a public checkpoint: **30 athletic events plus 20 real-world work scenarios** covering warehousing, retail, food service, assembly, and household tasks — showing exactly where companies plan to deploy these machines.",
+        "If you run or build a business where physical tasks — picking, packing, moving, assembling — are still done by people, the time to think about this is now, not in three years. The robots competing in Beijing this week are not prototypes. The same companies making them **are already taking orders for factory and warehouse deployment**. The question is not whether physical AI will reach your industry. It is who decides when."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "Tiangong Ultra's 100m time (vs. Bolt's 9.58s)" },
+        { "value": "21.50s", "label": "last year's winning 100m time — same robot" },
+        { "value": "2,056", "label": "robots at the 2026 games in Beijing" },
+        { "value": "2.88m", "label": "high jump cleared by X-Humanoid (human record: 2.45m)" }
+      ]
+    },
+    "de": {
+      "title": "Was es bedeutet, dass Roboter jetzt schneller laufen als Usain Bolt",
+      "summary": "Humanoide Roboter sind schnell genug geworden, um den schnellsten Menschen der Welt zu schlagen — und das zeigt, wie nah die Automatisierung körperlicher Arbeit wirklich ist.",
+      "body": [
+        "Diese Woche ließ in Peking ein humanoider Roboter namens Tiangong Ultra **100 Meter in 9,39 Sekunden hinter sich** — schneller als Usain Bolts Weltrekord von 9,58 Sekunden. 2.056 Roboter aus 666 Teams und 16 Ländern traten an. Vor einem Jahr lief derselbe Roboter dieselbe Strecke in 21,50 Sekunden. Das ist kein kleiner Fortschritt. Das ist ein echter Sprung in zwölf Monaten.",
+        "Es war kein perfekter Lauf. Tiangong Ultra krachte ins Sicherheitspolster am Ziel. Ein Konkurrenzroboter namens Lightning lief 9,47 Sekunden, brach danach zusammen und musste abtransportiert werden. Diese Maschinen bewegen sich jetzt schneller als jeder Mensch — aber sie verlieren in den letzten Metern noch die Kontrolle. Der Abstand zwischen Spitzengeschwindigkeit und **zuverlässiger, wiederholbarer Leistung** ist real.",
+        "Die Verbesserung innerhalb eines Jahres ist jedoch die eigentlich wichtige Geschichte. Den 100-Meter-Rekord in einem einzigen Entwicklungszyklus um zwei Drittel zu verkürzen ist kein schrittweiser Fortschritt — es erinnert an das, was vor einigen Jahren in der KI-Software geschah, als Fähigkeiten, die weit entfernt schienen, plötzlich in Monaten kamen. China hat humanoide Robotik zur nationalen Priorität erklärt. Die Spiele selbst sind als öffentlicher Kontrollpunkt angelegt: **30 sportliche Wettkämpfe und 20 praxisnahe Arbeitsszenarien** in Lagerhaltung, Handel, Gastronomie, Montage und Haushalt — und zeigen genau, wo diese Maschinen eingesetzt werden sollen.",
+        "Wer ein Unternehmen führt oder aufbaut, in dem körperliche Aufgaben — Greifen, Verpacken, Bewegen, Montieren — noch von Menschen erledigt werden, sollte jetzt darüber nachdenken, nicht in drei Jahren. Die Roboter, die diese Woche in Peking antreten, sind keine Prototypen. Die Unternehmen, die sie bauen, **nehmen bereits Bestellungen für den Fabrik- und Lagereinsatz an**. Die Frage ist nicht ob. Sondern wer das Wann bestimmt."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "100-Meter-Zeit von Tiangong Ultra (vs. Bolts 9,58 s)" },
+        { "value": "21.50s", "label": "Gewinnzeit im Vorjahr — selber Roboter" },
+        { "value": "2.056", "label": "Roboter bei den Spielen 2026 in Peking" },
+        { "value": "2,88 m", "label": "Hochsprung-Bestleistung von X-Humanoid (Menschenrekord: 2,45 m)" }
+      ]
+    },
+    "nl": {
+      "title": "Wat het betekent dat robots nu sneller rennen dan Usain Bolt",
+      "summary": "Humanoïde robots zijn nu snel genoeg om de snelste mens ter wereld te verslaan — en dat laat zien hoe dichtbij automatisering van fysiek werk écht is.",
+      "body": [
+        "Deze week rende in Peking een humanoïde robot genaamd Tiangong Ultra **100 meter in 9,39 seconden** — sneller dan Usain Bolts wereldrecord van 9,58 seconden. Er deden 2.056 robots mee van 666 teams uit 16 landen. Een jaar geleden liep dezelfde robot dezelfde afstand in 21,50 seconden. Dat is geen kleine vooruitgang. Dat is een echte sprong in twaalf maanden.",
+        "Het was geen vlekkeloze run. Tiangong Ultra knalde in de veiligheidsmat bij de finish. Een rivaliserende robot, Lightning, liep 9,47 seconden maar stortte daarna in en moest van de baan gedragen worden. Deze machines bewegen nu sneller dan welke mens ook — maar ze verliezen nog de controle in de laatste meters. De kloof tussen topsnelheid en **betrouwbare, herhaalbare prestaties** is reëel.",
+        "Maar de verbetering binnen één jaar is het echte verhaal. De 100 meter in één ontwikkelcyclus met twee derde terugbrengen is geen geleidelijke vooruitgang — het lijkt op wat er een paar jaar geleden met AI-software gebeurde, toen mogelijkheden die jaren weg leken er in maanden waren. China heeft humanoïde robotica tot nationale prioriteit verheven. De spelen zelf zijn ontworpen als publiek controlepunt: **30 sportevenementen en 20 praktijkscenario's** voor magazijnen, retail, horeca, montage en huishouden — precies de sectoren waar bedrijven deze machines willen inzetten.",
+        "Als jij een bedrijf runt of bouwt waar fysieke taken — sorteren, inpakken, bewegen, assembleren — nog door mensen gedaan worden, is nu het moment om dit serieus te nemen, niet over drie jaar. De robots die deze week in Peking strijden zijn geen prototypes. Dezelfde bedrijven die ze bouwen, **nemen al bestellingen aan voor fabriek- en magazijninzet**. De vraag is niet óf fysieke AI jouw sector bereikt. De vraag is wie bepaalt wanneer."
+      ],
+      "keyFacts": [
+        { "value": "9,39s", "label": "100m-tijd van Tiangong Ultra (vs. Bolts 9,58s)" },
+        { "value": "21,50s", "label": "winnende 100m-tijd vorig jaar — zelfde robot" },
+        { "value": "2.056", "label": "robots op de 2026-spelen in Peking" },
+        { "value": "2,88m", "label": "hoogsprong door X-Humanoid (menselijk record: 2,45m)" }
+      ]
+    },
+    "es": {
+      "title": "Qué significa que los robots ya corran más rápido que Usain Bolt",
+      "summary": "Los robots humanoides son ahora lo suficientemente rápidos como para superar al ser humano más veloz del mundo — y eso revela cuánto ha avanzado la automatización del trabajo físico.",
+      "body": [
+        "Esta semana en Pekín, un robot humanoide llamado Tiangong Ultra **recorrió 100 metros en 9,39 segundos** — más rápido que el récord mundial de Usain Bolt de 9,58 segundos. En total compitieron 2.056 robots de 666 equipos de 16 países. Hace un año, el mismo robot recorrió la misma distancia en 21,50 segundos. No es un avance pequeño. Es un salto real en doce meses.",
+        "La carrera no fue perfecta. Tiangong Ultra chocó contra la colchoneta de seguridad al llegar a la meta. Un robot rival, Lightning, terminó en 9,47 segundos, pero luego se desplomó y tuvo que ser retirado en camilla. Estas máquinas ahora se mueven más rápido que cualquier ser humano — pero aún pierden el control en los últimos metros. La diferencia entre la velocidad máxima y un **rendimiento fiable y repetible** es real.",
+        "Pero la mejora en un solo año es la historia que importa. Reducir el tiempo de los 100 metros en dos tercios en un único ciclo de desarrollo no es un avance gradual — se parece a lo que ocurrió con el software de IA hace unos años, cuando capacidades que parecían estar a años de distancia llegaron en meses. China ha convertido la robótica humanoide en una prioridad nacional. Los propios juegos están diseñados como un punto de control público: **30 eventos deportivos y 20 escenarios de trabajo real** en logística, comercio, hostelería, ensamblaje y tareas domésticas — mostrando exactamente dónde planean desplegar estas máquinas.",
+        "Si diriges o construyes una empresa donde las tareas físicas — seleccionar, empacar, mover, ensamblar — todavía las realizan personas, el momento de pensar en esto es ahora, no dentro de tres años. Los robots que compiten esta semana en Pekín no son prototipos. Las mismas empresas que los fabrican **ya aceptan pedidos para su despliegue en fábricas y almacenes**. La pregunta no es si la IA física llegará a tu sector. Es quién decide cuándo."
+      ],
+      "keyFacts": [
+        { "value": "9,39s", "label": "tiempo de Tiangong Ultra en 100m (vs. 9,58s de Bolt)" },
+        { "value": "21,50s", "label": "tiempo ganador en 100m el año pasado — mismo robot" },
+        { "value": "2.056", "label": "robots en los juegos de 2026 en Pekín" },
+        { "value": "2,88m", "label": "salto en alto de X-Humanoid (récord humano: 2,45m)" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que ça change que des robots courent maintenant plus vite qu'Usain Bolt",
+      "summary": "Les robots humanoïdes battent désormais l'homme le plus rapide du monde — et ça dit beaucoup sur la vitesse à laquelle l'automatisation des tâches physiques arrive vraiment.",
+      "body": [
+        "Cette semaine à Pékin, un robot humanoïde appelé Tiangong Ultra **a parcouru 100 mètres en 9,39 secondes** — plus vite que le record mondial d'Usain Bolt de 9,58 secondes. Au total, 2 056 robots issus de 666 équipes de 16 pays ont participé. Il y a un an, le même robot parcourait la même distance en 21,50 secondes. Ce n'est pas un progrès minime. C'est un bond réel en douze mois à peine.",
+        "Ce n'était pas une course parfaite. Tiangong Ultra a percuté le matelas de sécurité à l'arrivée. Un robot concurrent, Lightning, a couru en 9,47 secondes avant de s'effondrer et d'être évacué sur une civière. Ces machines vont maintenant plus vite que n'importe quel être humain — mais elles perdent encore le contrôle dans les derniers mètres. L'écart entre la vitesse de pointe et des **performances fiables et reproductibles** reste bien réel.",
+        "Mais l'amélioration en un an est la vraie histoire. Réduire le temps du 100 mètres de deux tiers en un seul cycle de développement, ce n'est pas une progression graduelle — ça ressemble à ce qui s'est passé dans l'IA logicielle il y a quelques années, quand des capacités qui semblaient à des années de distance sont arrivées en quelques mois. La Chine a fait de la robotique humanoïde une priorité nationale. Les jeux eux-mêmes sont conçus comme un point de contrôle public : **30 épreuves sportives et 20 scénarios de travail réel** couvrant la logistique, le commerce, la restauration, l'assemblage et les tâches ménagères — révélant exactement où les entreprises prévoient de déployer ces machines.",
+        "Si vous dirigez ou construisez une entreprise où des tâches physiques — trier, emballer, déplacer, assembler — sont encore effectuées par des personnes, c'est maintenant qu'il faut y réfléchir, pas dans trois ans. Les robots qui s'affrontent cette semaine à Pékin ne sont pas des prototypes. Les mêmes entreprises qui les fabriquent **prennent déjà des commandes pour des déploiements en usine et en entrepôt**. La question n'est pas de savoir si l'IA physique atteindra votre secteur. C'est de savoir qui décide du quand."
+      ],
+      "keyFacts": [
+        { "value": "9,39s", "label": "temps de Tiangong Ultra sur 100m (vs. 9,58s de Bolt)" },
+        { "value": "21,50s", "label": "temps gagnant sur 100m l'an dernier — même robot" },
+        { "value": "2 056", "label": "robots aux jeux 2026 à Pékin" },
+        { "value": "2,88m", "label": "hauteur franchie par X-Humanoid (record humain : 2,45m)" }
+      ]
+    },
+    "ar": {
+      "title": "ماذا يعني أن الروبوتات أصبحت أسرع من أوساين بولت",
+      "summary": "الروبوتات الإنسانية الشكل باتت تتفوق على أسرع إنسان في التاريخ — وهذا يكشف كم اقتربت أتمتة العمل الجسدي بالفعل.",
+      "body": [
+        "في بكين هذا الأسبوع، **أتمّ روبوت إنساني الشكل يُدعى تيانغونغ أولترا 100 متر في 9.39 ثانية** — أسرع من الرقم القياسي العالمي لأوساين بولت البالغ 9.58 ثانية. شارك في المنافسات 2,056 روبوتاً من 666 فريقاً في 16 دولة. قبل عام واحد فقط، سجّل الروبوت ذاته 21.50 ثانية في السباق نفسه. هذا ليس تقدماً هامشياً، بل قفزة حقيقية في اثني عشر شهراً.",
+        "لم تكن السباقة مثالية. اصطدم تيانغونغ أولترا بالوسادة الواقية عند خط النهاية. أما روبوت منافس يُعرف بـ«لايتنينغ»، فقد أتمّ السباق في 9.47 ثانية قبل أن ينهار ويُحمل بعيداً. هذه الآلات باتت تتحرك بسرعة تفوق أي إنسان — لكنها لا تزال تفقد السيطرة في الأمتار الأخيرة. الهوة بين السرعة القصوى و**الأداء الموثوق والمتكرر** لا تزال قائمة.",
+        "غير أن التحسّن خلال عام واحد هو القصة التي تستحق الانتباه. تقليص زمن الـ100 متر بمقدار الثلثين في دورة تطوير واحدة ليس تقدماً تدريجياً — بل يشبه ما حدث في برمجيات الذكاء الاصطناعي قبل سنوات، حين جاءت قدرات كانت تبدو بعيدة المنال في غضون أشهر. جعلت الصين الروبوتات الإنسانية الشكل أولوية وطنية. والألعاب ذاتها مصمَّمة بوصفها نقطة مراجعة علنية: **30 فعالية رياضية و20 سيناريو عمل واقعي** تشمل المستودعات والتجزئة والتموين والتجميع والمهام المنزلية — مما يكشف بدقة أين تعتزم الشركات نشر هذه الآلات.",
+        "إذا كنت تدير أو تبني شركة لا تزال فيها المهام الجسدية — الفرز والتعبئة والنقل والتجميع — حكراً على البشر، فالوقت المناسب للتفكير في هذا هو الآن، لا بعد ثلاث سنوات. الروبوتات المتنافسة في بكين هذا الأسبوع ليست نماذج أولية. الشركات التي تصنعها **تقبل بالفعل طلبات النشر في المصانع والمستودعات**. السؤال ليس هل ستصل الأتمتة الجسدية إلى قطاعك. السؤال هو من سيقرر متى."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "وقت تيانغونغ أولترا في 100م (مقابل 9.58 ثانية لبولت)" },
+        { "value": "21.50s", "label": "الوقت الفائز في 100م العام الماضي — الروبوت نفسه" },
+        { "value": "2,056", "label": "الروبوتات المشاركة في ألعاب 2026 ببكين" },
+        { "value": "2.88m", "label": "ارتفاع القفز الذي حققه X-Humanoid (الرقم الإنساني: 2.45م)" }
+      ]
+    }
+  }
+}
