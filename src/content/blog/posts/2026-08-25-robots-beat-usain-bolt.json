@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-25-robots-beat-usain-bolt",
+  "date": "2026-08-25",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "ABC News — Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
+      "url": "https://abcnews.com/Technology/wireStory/chinese-humanoid-robots-smash-human-records-100m-sprint-135868967"
+    },
+    {
+      "title": "CGTN — Chinese humanoid robot runs 100m in 9.39 seconds, breaks Bolt's record",
+      "url": "https://news.cgtn.com/news/2026-08-23/Chinese-humanoid-robot-runs-100m-in-9-39-seconds-breaks-Bolt-s-record-1PQ8JT8u3Kw/p.html"
+    },
+    {
+      "title": "Humanoid Press — Humanoid Daily (World Humanoid Robot Games 2026 coverage)",
+      "url": "https://humanoid.press/humanoid-daily/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Robots Just Beat Usain Bolt — and Then Crashed Into a Wall",
+      "summary": "At the World Humanoid Robot Games in Beijing this week, a robot ran the 100 metres faster than any human ever has — but couldn't stop at the finish line.",
+      "body": [
+        "This week in Beijing, a humanoid robot called Tiangong Ultra ran 100 metres in 9.39 seconds — faster than Usain Bolt's world record of 9.58 seconds, set in 2009. Another robot cleared a 2.88-metre standing high jump, beating the human world record by 43 centimetres. More than 2,000 robots from 660 teams across 16 countries competed at the second World Humanoid Robot Games, and the results were hard to dismiss: **robots just broke records that humans spent decades setting**.",
+        "What makes this more than a spectacle is the speed of progress. At the first edition of these games, just one year ago, the winning 100-metre time was more than twice as slow. In one year, the robots cut that time by more than half. **The hardware is improving faster than almost anyone predicted**, and the gap between robot and human physical performance keeps closing.",
+        "But there is a catch. Right after Tiangong Ultra crossed the finish line, it could not slow down and collided with the safety barriers at the end of the track. Experts at the event were clear: these robots are **still mostly built for demonstrations and research**, not for running a production line or a warehouse. The problems that remain are doing a job reliably for hours, handling unexpected situations, and being consistent enough to actually deploy.",
+        "For anyone thinking about putting robots to work in their business, this week's records are a useful signal — but not the one the headlines suggest. The hardware has genuinely surpassed human physical capability. **What's missing now is not speed, it's reliability.** If a vendor pitches a robot by its best benchmark number, also ask: what does it do when it needs to stop, or when something goes slightly wrong? That is where deployment actually lives."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "Tiangong Ultra's 100m time (Bolt's record: 9.58s)" },
+        { "value": "38.15s", "label": "robot 400m time (human record: 43.03s)" },
+        { "value": "2.88m", "label": "robot high jump (human record: 2.45m)" },
+        { "value": "2,000+", "label": "robots competing from 16 countries" }
+      ]
+    },
+    "de": {
+      "title": "Roboter schlagen Usain Bolt — und prallen dann gegen eine Wand",
+      "summary": "Bei den World Humanoid Robot Games in Peking lief ein Roboter diese Woche die 100 Meter schneller als je ein Mensch — aber konnte an der Ziellinie nicht bremsen.",
+      "body": [
+        "In Peking lief in dieser Woche ein humanoider Roboter namens Tiangong Ultra 100 Meter in 9,39 Sekunden — schneller als Usain Bolts Weltrekord von 9,58 Sekunden aus dem Jahr 2009. Ein anderer Roboter überwand eine Hochsprungmarke von 2,88 Metern aus dem Stand, 43 Zentimeter mehr als der menschliche Weltrekord. Mehr als 2.000 Roboter aus 660 Teams und 16 Ländern traten bei den zweiten World Humanoid Robot Games an, und die Ergebnisse sprachen für sich: **Roboter haben soeben Rekorde gebrochen, die Menschen jahrzehntelang gebraucht haben, um sie aufzustellen**.",
+        "Bemerkenswert ist dabei das Tempo des Fortschritts. Bei der ersten Ausgabe vor nur einem Jahr war die schnellste 100-Meter-Zeit mehr als doppelt so langsam. In einem einzigen Jahr haben die Roboter diese Zeit auf mehr als die Hälfte reduziert. **Die Hardware verbessert sich schneller, als fast jeder vorhergesagt hat**, und der Abstand zwischen Roboter und Mensch schrumpft weiter.",
+        "Aber es gibt einen entscheidenden Haken. Unmittelbar nachdem Tiangong Ultra die Ziellinie überquert hatte, konnte er nicht abbremsen und prallte gegen die Sicherheitsbarrieren am Streckenende. Experten machten es auf der Veranstaltung klar: Diese Roboter sind **noch hauptsächlich für Demonstrationen und Forschung gebaut**, nicht für den Einsatz in Produktion oder Lagerhaltung. Die offenen Herausforderungen sind: Zuverlässigkeit über lange Schichten, der Umgang mit unvorhergesehenen Situationen und die Konsistenz, die für einen echten Einsatz nötig ist.",
+        "Für alle, die überlegen, Roboter in ihrem Unternehmen einzusetzen, sind die Rekorde dieser Woche ein nützliches Signal — aber nicht das, was die Schlagzeilen vermuten lassen. Die Hardware hat die menschliche körperliche Leistungsfähigkeit tatsächlich übertroffen. **Was jetzt fehlt, ist nicht Geschwindigkeit, sondern Zuverlässigkeit.** Wenn ein Anbieter einen Roboter mit seiner besten Kennzahl anpreist, fragen Sie auch: Was passiert, wenn er bremsen muss oder etwas schiefläuft? Genau dort spielt sich der echte Einsatz ab."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "100-m-Zeit von Tiangong Ultra (Bolts Rekord: 9,58s)" },
+        { "value": "38.15s", "label": "Roboter-400-m-Zeit (menschlicher Rekord: 43,03s)" },
+        { "value": "2.88m", "label": "Roboter-Hochsprung (menschlicher Rekord: 2,45m)" },
+        { "value": "2.000+", "label": "Roboter aus 16 Ländern beim Wettbewerb" }
+      ]
+    },
+    "nl": {
+      "title": "Robots versloegen Usain Bolt — en botsten daarna tegen een muur",
+      "summary": "Op de World Humanoid Robot Games in Beijing liep een robot deze week de 100 meter sneller dan welk mens dan ook — maar kon niet stoppen bij de finish.",
+      "body": [
+        "Deze week in Beijing liep een humanoïde robot genaamd Tiangong Ultra de 100 meter in 9,39 seconden — sneller dan Usain Bolts wereldrecord van 9,58 seconden uit 2009. Een andere robot sprong vanuit stilstand 2,88 meter hoog, 43 centimeter meer dan het menselijk wereldrecord. Meer dan 2.000 robots van 660 teams uit 16 landen namen deel aan de tweede World Humanoid Robot Games, en de cijfers waren moeilijk te negeren: **robots hebben zojuist records gebroken die mensen tientallen jaren nodig hadden om te zetten**.",
+        "Wat dit meer dan een schouwspel maakt, is hoe snel het gaat. Bij de eerste editie, slechts een jaar geleden, was de snelste 100-metertijd meer dan twee keer zo langzaam. In één jaar tijd halveerden de robots die tijd. **De hardware verbetert sneller dan bijna iedereen had voorspeld**, en het verschil tussen robot en mens op het gebied van lichamelijke prestaties blijft krimpen.",
+        "Maar er is een belangrijk voorbehoud. Direct nadat Tiangong Ultra de finishlijn passeerde, kon hij niet vertragen en botste hij tegen de veiligheidsbarrières aan het einde van de baan. Experts waren op het evenement duidelijk: deze robots zijn **nog grotendeels gebouwd voor demonstraties en onderzoek**, niet voor een productielijn of een magazijn. De openstaande uitdagingen zijn: betrouwbaarheid over lange diensten, omgaan met onverwachte situaties, en consistent genoeg zijn voor een echte inzet.",
+        "Voor wie overweegt robots in te zetten in zijn bedrijf, zijn de records van deze week een nuttig signaal — maar niet het signaal dat de krantenkoppen suggereren. De hardware heeft menselijke lichamelijke capaciteit werkelijk overtroffen. **Wat nu ontbreekt is niet snelheid, maar betrouwbaarheid.** Als een leverancier een robot aanprijst op zijn beste prestatiemeting, vraag dan ook: wat doet hij als hij moet stoppen, of als er iets misgaat? Daar speelt de échte inzet zich af."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "100m-tijd van Tiangong Ultra (Bolts record: 9,58s)" },
+        { "value": "38.15s", "label": "robot 400m-tijd (menselijk record: 43,03s)" },
+        { "value": "2.88m", "label": "robothoogspring (menselijk record: 2,45m)" },
+        { "value": "2.000+", "label": "robots uit 16 landen aan de start" }
+      ]
+    },
+    "es": {
+      "title": "Los robots superaron a Usain Bolt — y luego chocaron contra una valla",
+      "summary": "En los Juegos Mundiales de Robots Humanoides en Pekín esta semana, un robot corrió los 100 metros más rápido que cualquier ser humano — pero no pudo frenar en la meta.",
+      "body": [
+        "Esta semana en Pekín, un robot humanoide llamado Tiangong Ultra corrió 100 metros en 9,39 segundos — más rápido que el récord mundial de Usain Bolt de 9,58 segundos, establecido en 2009. Otro robot superó los 2,88 metros en salto de altura desde parado, 43 centímetros por encima del récord humano. Más de 2.000 robots de 660 equipos de 16 países compitieron en los segundos Juegos Mundiales de Robots Humanoides, y los resultados eran difíciles de ignorar: **los robots acaban de batir marcas que los humanos tardaron décadas en establecer**.",
+        "Lo que hace esto más que un espectáculo es la velocidad del progreso. En la primera edición, hace solo un año, el mejor tiempo en los 100 metros era más del doble de lento. En un año, los robots redujeron ese tiempo a la mitad. **El hardware mejora más rápido de lo que casi nadie predijo**, y la diferencia entre robots y humanos en rendimiento físico sigue reduciéndose.",
+        "Pero hay un detalle importante. Justo después de que Tiangong Ultra cruzara la línea de meta, no pudo frenar y chocó con las vallas de seguridad al final de la pista. Los expertos presentes fueron claros: estos robots **todavía están pensados principalmente para demostraciones e investigación**, no para gestionar una línea de producción. Los problemas pendientes son: funcionar de forma fiable durante horas, manejar situaciones inesperadas y ser lo suficientemente constante para un despliegue real.",
+        "Para cualquiera que esté pensando en incorporar robots a su negocio, los récords de esta semana son una señal útil — pero no la que sugieren los titulares. El hardware ha superado genuinamente la capacidad física humana. **Lo que falta ahora no es velocidad, sino fiabilidad.** Si un proveedor presenta un robot por su mejor cifra de rendimiento, pregunta también: ¿qué hace cuando necesita detenerse o cuando algo sale mal? Ahí es donde se juega el despliegue real."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "tiempo de Tiangong Ultra en 100m (récord de Bolt: 9,58s)" },
+        { "value": "38.15s", "label": "tiempo de robot en 400m (récord humano: 43,03s)" },
+        { "value": "2.88m", "label": "salto de altura robot (récord humano: 2,45m)" },
+        { "value": "2.000+", "label": "robots de 16 países en competencia" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots viennent de battre Usain Bolt — puis ils ont percuté une barrière",
+      "summary": "Aux Jeux mondiaux des robots humanoïdes à Pékin cette semaine, un robot a couru le 100 mètres plus vite que n'importe quel être humain — mais n'a pas pu s'arrêter à la ligne d'arrivée.",
+      "body": [
+        "Cette semaine à Pékin, un robot humanoïde appelé Tiangong Ultra a parcouru 100 mètres en 9,39 secondes — plus vite que le record du monde d'Usain Bolt de 9,58 secondes, établi en 2009. Un autre robot a franchi la barre du saut en hauteur à 2,88 mètres depuis l'arrêt, 43 centimètres au-dessus du record humain. Plus de 2 000 robots issus de 660 équipes de 16 pays ont participé aux deuxièmes Jeux mondiaux des robots humanoïdes, et les résultats étaient difficiles à ignorer : **les robots viennent de battre des records qu'il a fallu des décennies aux humains pour établir**.",
+        "Ce qui rend cela plus qu'un spectacle, c'est la rapidité du progrès. À la première édition, il y a tout juste un an, le meilleur temps au 100 mètres était plus de deux fois plus lent. En un an, les robots ont réduit ce temps de moitié. **Le matériel progresse plus vite que presque personne ne l'avait prédit**, et l'écart entre les robots et les humains en matière de performance physique continue de se réduire.",
+        "Mais il y a un bémol. Juste après que Tiangong Ultra eut franchi la ligne d'arrivée, il n'a pas pu décélérer et a percuté les barrières de sécurité au bout de la piste. Les experts présents ont été clairs : ces robots **sont encore principalement conçus pour des démonstrations et de la recherche**, et non pour faire tourner une chaîne de production. Les défis qui subsistent sont : la fiabilité sur de longues plages horaires, la gestion de situations imprévues et la constance nécessaire à un déploiement réel.",
+        "Pour ceux qui envisagent d'intégrer des robots dans leur activité, les records de cette semaine sont un signal utile — mais pas celui que les titres laissent entendre. Le matériel a véritablement dépassé les capacités physiques humaines. **Ce qui manque désormais, ce n'est pas la vitesse, c'est la fiabilité.** Si un fournisseur vante un robot en citant son meilleur chiffre de performance, demandez aussi : que fait-il quand il doit s'arrêter ou quand quelque chose tourne mal ? C'est là que se joue vraiment le déploiement."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "temps de Tiangong Ultra au 100m (record de Bolt : 9,58s)" },
+        { "value": "38.15s", "label": "temps du robot au 400m (record humain : 43,03s)" },
+        { "value": "2.88m", "label": "saut en hauteur robot (record humain : 2,45m)" },
+        { "value": "2 000+", "label": "robots de 16 pays en compétition" }
+      ]
+    },
+    "ar": {
+      "title": "الروبوتات تتفوق على أوسان بولت — ثم تصطدم بسياج الأمان",
+      "summary": "في بطولة العالم للروبوتات الآدمية في بكين هذا الأسبوع، ركض روبوت مسافة 100 متر أسرع من أي إنسان على الإطلاق — لكنه لم يستطع التوقف عند خط النهاية.",
+      "body": [
+        "هذا الأسبوع في بكين، أتمّ روبوت آدمي يُعرف بـ«تيانغونغ ألترا» مسافة 100 متر في 9.39 ثانية — أسرع من الرقم القياسي العالمي لأوسان بولت البالغ 9.58 ثانية والمسجّل عام 2009. وتجاوز روبوت آخر ارتفاع 2.88 متر في القفز العالي من الوقوف، متخطيًا الرقم القياسي البشري بنحو 43 سنتيمترًا. شارك في البطولة العالمية الثانية للروبوتات الآدمية أكثر من 2000 روبوت من 660 فريقًا وستة عشر دولة، والأرقام كانت صعبة التجاهل: **الروبوتات كسرت للتو أرقامًا قياسية أمضى البشر عقودًا في تحقيقها**.",
+        "ما يجعل هذا أكثر من مجرد عرض مبهر هو سرعة التقدم. في النسخة الأولى من البطولة قبل عام واحد فقط، كان أسرع وقت في 100 متر أبطأ بأكثر من الضعف. في عام واحد، قلّصت الروبوتات هذا الوقت إلى النصف. **تتطور أجهزة الروبوتات بوتيرة أسرع مما توقعه أحد تقريبًا**، ويستمر تضيّق الفارق بين الروبوت والإنسان في الأداء الجسدي.",
+        "غير أن ثمة تحفظًا مهمًا. بعد عبور «تيانغونغ ألترا» خط النهاية مباشرةً، لم يستطع التباطؤ واصطدم بحواجز الأمان في نهاية المضمار. كان خبراء الحدث واضحين: **هذه الروبوتات لا تزال مصممة أساسًا للعروض والبحث العلمي**، وليس لتشغيل خطوط الإنتاج أو المستودعات. التحديات الحقيقية المتبقية هي: الموثوقية خلال ساعات طويلة، والتعامل مع المواقف غير المتوقعة، والاتساق الكافي للنشر الفعلي.",
+        "لمن يفكر في توظيف روبوتات في نشاطه التجاري، تُعدّ أرقام هذا الأسبوع إشارة مفيدة — لكنها ليست تلك التي توحي بها العناوين. لقد تجاوزت الأجهزة القدرة البشرية الجسدية فعلًا. **ما ينقص الآن ليس السرعة، بل الموثوقية.** إذا قدّم مورّد روبوته برقم أداء قياسي، اسأل أيضًا: ماذا يفعل حين يحتاج إلى التوقف، أو حين يسير شيء بشكل خاطئ؟ هناك يكمن التحدي الحقيقي للنشر."
+      ],
+      "keyFacts": [
+        { "value": "9.39s", "label": "زمن تيانغونغ ألترا في 100م (رقم بولت: 9.58ث)" },
+        { "value": "38.15s", "label": "زمن الروبوت في 400م (الرقم البشري: 43.03ث)" },
+        { "value": "2.88m", "label": "قفز الروبوت العالي (الرقم البشري: 2.45م)" },
+        { "value": "2,000+", "label": "روبوت من 16 دولة في المسابقة" }
+      ]
+    }
+  }
+}
