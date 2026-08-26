@@ -1,0 +1,118 @@
+{
+  "slug": "2026-08-26-robots-beat-bolt-cant-pick-beans",
+  "date": "2026-08-26",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "ABC News — Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
+      "url": "https://abcnews.com/Technology/wireStory/chinese-humanoid-robots-smash-human-records-100m-sprint-135868967"
+    },
+    {
+      "title": "Gizmodo — The Robots Beat Usain Bolt, Then Met Their Match: Beans",
+      "url": "https://gizmodo.com/world-humanoid-robot-games-beijing-bean-counting-records-2000802290"
+    },
+    {
+      "title": "Beijing Government — 2nd World Humanoid Robot Games Underway in Beijing: Robots Break Multiple Records",
+      "url": "https://english.beijing.gov.cn/beijinginfo/sci/latesttrends/202608/t20260825_4836357.html"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Beating Bolt Is Easy. Picking Up a Bean Is the Hard Part.",
+      "summary": "Humanoid robots in Beijing just ran faster than any human alive, but whether they can do factory work is still the question that matters for businesses.",
+      "body": [
+        "This week in Beijing, humanoid robots competed at the second World Humanoid Robot Games — and one of them **ran 100 metres in 9.39 seconds**. Usain Bolt's world record, set in 2009, is 9.58 seconds. That same robot cleared a standing high jump of 2.88 metres, above the human high-jump world record of 2.45 metres. More than 2,000 robots from 16 countries competed across 51 events.",
+        "But here is what matters if you work with robots. The same platforms that sprint faster than the fastest human alive **couldn't reliably pick up beans with tweezers** or open a lid. The games included eight dexterity events — connecting cables, unpacking boxes, assembling power tools — and those results were far less impressive than the sprint times.",
+        "The scoring rules make the gap plain. Robots that finished tasks fully on their own scored full points. Robots that needed a human to remotely control them **scored only half**. That tells you where the technology actually sits: fast legs, unsteady hands.",
+        "The pace of improvement is what should get your attention. Last year's best 100-metre time was 21.5 seconds. This year it fell to 9.39 — **from 21 seconds to 9 in a single year**. If dexterity closes even a fraction of that gap over the next twelve months, the case for humanoid robots in physical work changes fast. Watch the dexterity scores next year — not the sprint times."
+      ],
+      "keyFacts": [
+        { "value": "9.39 s", "label": "fastest 100m time by a humanoid robot" },
+        { "value": "2.88 m", "label": "standing high jump height (human record: 2.45 m)" },
+        { "value": "2,000+", "label": "robots competing from 16 countries" },
+        { "value": "138%", "label": "increase in competing teams from last year" }
+      ]
+    },
+    "de": {
+      "title": "Bolt schlagen ist einfach. Eine Bohne aufheben ist das eigentliche Problem.",
+      "summary": "Humanoide Roboter liefen diese Woche in Peking schneller als je ein Mensch — doch ob sie Fabrikarbeit übernehmen können, bleibt die entscheidende Frage für Unternehmen.",
+      "body": [
+        "Diese Woche traten in Peking humanoide Roboter bei den zweiten World Humanoid Robot Games an — und einer von ihnen **lief 100 Meter in 9,39 Sekunden**. Usain Bolts Weltrekord aus dem Jahr 2009 liegt bei 9,58 Sekunden. Derselbe Roboter übersprang auch 2,88 Meter im Standspringen — mehr als der menschliche Hochsprungweltrekord von 2,45 Metern. Über 2.000 Roboter aus 16 Ländern traten in 51 Disziplinen an.",
+        "Doch hier liegt das Entscheidende für alle, die mit Robotern arbeiten. Dieselben Plattformen, die schneller sprinten als der schnellste Mensch, **konnten Bohnen mit einer Pinzette kaum zuverlässig aufheben** oder einen Deckel öffnen. Die Spiele umfassten acht Geschicklichkeitswettbewerbe — Kabel verbinden, Kisten auspacken, Werkzeug montieren — mit weit weniger beeindruckenden Ergebnissen als bei den Sprintzeiten.",
+        "Die Wertungsregeln zeigen, wo die Technologie steht. Roboter, die Aufgaben vollständig autonom abschlossen, erhielten volle Punkte. Wer ferngesteuert wurde, **bekam nur die Hälfte**. Das sagt alles: schnelle Beine, unsichere Hände.",
+        "Was wirklich aufhorchen lässt, ist das Entwicklungstempo. Letztes Jahr lag die beste 100-Meter-Zeit bei 21,5 Sekunden. Dieses Jahr fiel sie auf 9,39 — **von 21 auf 9 Sekunden in einem einzigen Jahr**. Wenn sich die Feinmotorik auch nur annähernd so schnell verbessert, verändert sich die Wirtschaftlichkeit humanoider Roboter in der Industrie rasch. Achten Sie nächstes Jahr auf die Geschicklichkeitsergebnisse — nicht auf die Sprintzeiten."
+      ],
+      "keyFacts": [
+        { "value": "9.39 s", "label": "schnellste 100-m-Zeit eines humanoiden Roboters" },
+        { "value": "2.88 m", "label": "Höhe des Standspringens (Menschenrekord: 2,45 m)" },
+        { "value": "2,000+", "label": "teilnehmende Roboter aus 16 Ländern" },
+        { "value": "138%", "label": "mehr Teams als im Vorjahr" }
+      ]
+    },
+    "nl": {
+      "title": "Bolt verslaan is makkelijk. Een boon oppakken niet.",
+      "summary": "Humanoïde robots in Peking liepen deze week sneller dan enig mens ooit — maar of ze fabriekswerk aankunnen, blijft de echte vraag voor bedrijven.",
+      "body": [
+        "Deze week streden humanoïde robots in Peking tijdens de tweede World Humanoid Robot Games — en een van hen **liep 100 meter in 9,39 seconden**. Usain Bolts wereldrecord uit 2009 staat op 9,58 seconden. Diezelfde robot sprong ook 2,88 meter hoog vanuit stilstand, boven het menselijke hoogterecord van 2,45 meter. Meer dan 2.000 robots uit 16 landen namen deel aan 51 onderdelen.",
+        "Maar dit is wat telt voor iedereen die met robots werkt. Dezelfde platforms die sneller sprinten dan de snelste mens **konden nauwelijks betrouwbaar boontjes met een pincet oppakken** of een deksel openen. De spelen omvatten acht behendigheidsonderdelen — kabels aansluiten, dozen uitpakken, gereedschap monteren — met resultaten die ver achterbleven bij de sprinttijden.",
+        "De scoringsregels maken de kloof zichtbaar. Robots die taken volledig zelfstandig voltooiden, kregen volle punten. Robots die op afstand werden bestuurd, **kregen slechts de helft**. Dat vertelt je waar de technologie nu staat: snelle benen, onvaste handen.",
+        "De snelheid van verbetering is wat je aandacht moet trekken. Vorig jaar was de beste 100-metertijd 21,5 seconden. Dit jaar daalde die naar 9,39 — **van 21 naar 9 seconden in één jaar**. Als de fijne motoriek ook maar een fractie zo snel verbetert, verschuift de business case voor humanoïde robots in fysiek werk snel. Let volgend jaar op de behendigheidsscores — niet op de sprinttijden."
+      ],
+      "keyFacts": [
+        { "value": "9.39 s", "label": "snelste 100m-tijd van een humanoïde robot" },
+        { "value": "2.88 m", "label": "hoogte van de staande sprong (menselijk record: 2,45 m)" },
+        { "value": "2,000+", "label": "deelnemende robots uit 16 landen" },
+        { "value": "138%", "label": "meer teams dan vorig jaar" }
+      ]
+    },
+    "es": {
+      "title": "Superar a Bolt es fácil. Recoger un frijol, no tanto.",
+      "summary": "Los robots humanoides en Pekín corrieron esta semana más rápido que cualquier ser humano, pero si pueden hacer trabajo de fábrica sigue siendo la pregunta que importa para los negocios.",
+      "body": [
+        "Esta semana en Pekín, robots humanoides compitieron en los segundos World Humanoid Robot Games — y uno de ellos **corrió 100 metros en 9,39 segundos**. El récord mundial de Usain Bolt, establecido en 2009, es de 9,58 segundos. Ese mismo robot también saltó 2,88 metros de altura desde parado, por encima del récord mundial de salto en alto de 2,45 metros. Más de 2.000 robots de 16 países compitieron en 51 pruebas.",
+        "Pero aquí está lo que importa para quien trabaja con robots. Las mismas plataformas que corren más rápido que el ser humano más veloz **no pudieron recoger frijoles con pinzas de forma fiable** ni abrir una tapa. Los juegos incluyeron ocho pruebas de destreza — conectar cables, desempacar cajas, ensamblar herramientas — con resultados mucho menos impresionantes que los tiempos de carrera.",
+        "Las reglas de puntuación dejan claro dónde estamos. Los robots que completaron tareas de forma totalmente autónoma obtuvieron puntos completos. Los que necesitaron control remoto **obtuvieron solo la mitad**. Eso resume bien el estado real de la tecnología: piernas rápidas, manos poco firmes.",
+        "El ritmo de mejora es lo que debería llamar tu atención. El mejor tiempo de 100 metros del año pasado fue de 21,5 segundos. Este año cayó a 9,39 — **de 21 segundos a 9 en un solo año**. Si la destreza mejora aunque sea a una fracción de ese ritmo, el caso de negocio para los robots humanoides en el trabajo físico cambia rápido. El año que viene, mira los resultados de las pruebas de destreza — no los tiempos de carrera."
+      ],
+      "keyFacts": [
+        { "value": "9.39 s", "label": "tiempo más rápido en 100m de un robot humanoide" },
+        { "value": "2.88 m", "label": "altura del salto vertical desde parado (récord humano: 2,45 m)" },
+        { "value": "2,000+", "label": "robots participantes de 16 países" },
+        { "value": "138%", "label": "más equipos que el año pasado" }
+      ]
+    },
+    "fr": {
+      "title": "Battre Bolt, c'est facile. Ramasser un haricot, c'est une autre histoire.",
+      "summary": "Des robots humanoïdes à Pékin ont couru plus vite que tout être humain cette semaine — mais la question de savoir s'ils peuvent vraiment travailler en usine reste entière pour les entreprises.",
+      "body": [
+        "Cette semaine à Pékin, des robots humanoïdes ont participé aux deuxièmes World Humanoid Robot Games — et l'un d'eux **a couru le 100 mètres en 9,39 secondes**. Le record du monde d'Usain Bolt, établi en 2009, est de 9,58 secondes. Le même robot a également franchi 2,88 mètres en hauteur depuis l'arrêt, au-dessus du record mondial humain en saut en hauteur de 2,45 mètres. Plus de 2 000 robots de 16 pays ont concouru dans 51 épreuves.",
+        "Mais voilà ce qui compte vraiment pour ceux qui travaillent avec des robots. Les mêmes plateformes qui courent plus vite que n'importe quel être humain **n'ont pas réussi à ramasser des haricots avec une pince de manière fiable** ni à ouvrir un couvercle. Les jeux comprenaient huit épreuves d'adresse — brancher des câbles, déballer des boîtes, assembler des outils — avec des résultats bien moins impressionnants que les chronos de sprint.",
+        "Les règles de notation disent tout. Les robots qui accomplissaient des tâches entièrement en autonomie obtenaient la totalité des points. Ceux qui nécessitaient un contrôle à distance **n'en recevaient que la moitié**. C'est là où en est la technologie : des jambes rapides, des mains peu sûres.",
+        "C'est la trajectoire qui devrait retenir votre attention. L'an dernier, le meilleur temps sur 100 mètres était de 21,5 secondes. Cette année, il est tombé à 9,39 — **de 21 secondes à 9 en seulement un an**. Si la dextérité progresse même à une fraction de ce rythme, le modèle économique des robots humanoïdes pour le travail physique changera vite. L'an prochain, regardez les scores des épreuves d'adresse — pas les chronos de sprint."
+      ],
+      "keyFacts": [
+        { "value": "9.39 s", "label": "meilleur temps au 100m pour un robot humanoïde" },
+        { "value": "2.88 m", "label": "hauteur du saut depuis l'arrêt (record humain : 2,45 m)" },
+        { "value": "2,000+", "label": "robots participants de 16 pays" },
+        { "value": "138%", "label": "plus d'équipes que l'année précédente" }
+      ]
+    },
+    "ar": {
+      "title": "التغلب على بولت سهل. التقاط حبة فول — ليس كذلك.",
+      "summary": "جرت روبوتات بشرية في بكين هذا الأسبوع أسرع من أي إنسان في التاريخ — لكن ما إذا كانت قادرة على العمل في المصانع يبقى السؤال الحقيقي للشركات.",
+      "body": [
+        "في بكين هذا الأسبوع، تنافست روبوتات بشرية في الألعاب العالمية الثانية للروبوتات البشرية — وواحدة منها **قطعت 100 متر في 9.39 ثانية**. الرقم القياسي العالمي لأوسين بولت، المسجّل عام 2009، هو 9.58 ثانية. الروبوت ذاته قفز أيضًا 2.88 مترًا ارتفاعًا من الثبات، متجاوزًا الرقم القياسي الإنساني في القفز العالي البالغ 2.45 مترًا. شارك أكثر من 2000 روبوت من 16 دولة في 51 منافسة.",
+        "لكن هنا يكمن ما يهم كل من يعمل مع الروبوتات. المنصات ذاتها التي تسبق أسرع إنسان **لم تستطع التقاط حبات الفول بملاقط بشكل موثوق** أو فتح غطاء. تضمّنت الألعاب ثماني منافسات للمهارة اليدوية — توصيل كابلات، فك تعبئة صناديق، تجميع أدوات — وجاءت نتائجها أقل إثارة بكثير من أوقات السباق.",
+        "قواعد التسجيل تكشف الواقع. الروبوتات التي أنجزت المهام بشكل مستقل تمامًا حصلت على النقاط كاملة. أما التي احتاجت إلى تحكّم عن بُعد **فلم تحصل إلا على النصف**. هذا يخبرك أين تقف التكنولوجيا فعليًا: أرجل سريعة، وأيدي غير مستقرة.",
+        "المسار هو ما يجب أن يلفت انتباهك. أفضل وقت على 100 متر العام الماضي كان 21.5 ثانية. هذا العام انخفض إلى 9.39 — **من 21 ثانية إلى 9 في عام واحد**. إذا تحسّنت المهارة اليدوية حتى بجزء من هذه السرعة، سيتغيّر الجدوى التجاري للروبوتات البشرية في العمل المادي بسرعة. العام القادم، راقب نتائج مهام الدقة — لا أوقات السباق."
+      ],
+      "keyFacts": [
+        { "value": "9.39 s", "label": "أسرع وقت لروبوت بشري في 100 متر" },
+        { "value": "2.88 m", "label": "ارتفاع القفز العمودي من الثبات (الرقم الإنساني: 2.45 م)" },
+        { "value": "2,000+", "label": "روبوت مشارك من 16 دولة" },
+        { "value": "138%", "label": "زيادة في الفرق مقارنة بالعام الماضي" }
+      ]
+    }
+  }
+}
