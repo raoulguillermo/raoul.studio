@@ -1,0 +1,127 @@
+{
+  "slug": "2026-08-27-thomson-reuters-thomson-llm-proprietary-data",
+  "date": "2026-08-27",
+  "tags": ["ai"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Thomson-Reuters-building.jpg",
+    "alt": "Thomson Reuters office building exterior",
+    "credit": "SiliconANGLE"
+  },
+  "sources": [
+    {
+      "title": "Thomson Reuters — Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model"
+    },
+    {
+      "title": "SiliconANGLE — Thomson Reuters launches proprietary AI model for legal work",
+      "url": "https://siliconangle.com/2026/08/24/thomson-reuters-launches-proprietary-ai-model-for-legal-work/"
+    },
+    {
+      "title": "Law.com — Thomson Reuters Launches Proprietary LLM Thomson, Updates CoCounsel",
+      "url": "https://www.law.com/legaltechnews/2026/08/24/thomson-reuters-launches-proprietary-llm-thomson-updates-cocounsel/"
+    },
+    {
+      "title": "LawNext — Thomson Reuters Launches Thomson, Its Own Proprietary LLM Trained on Westlaw and Practical Law Content",
+      "url": "https://www.lawnext.com/2026/08/thomson-reuters-launches-thomson-its-own-proprietary-llm-trained-on-westlaw-and-practical-law-content.html"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What a $40M legal AI says about building with your own data",
+      "summary": "Thomson Reuters built an AI model called Thomson for $40 million that rivals the world's best, proving that the right data matters far more than a giant budget.",
+      "body": [
+        "Thomson Reuters, the company behind Westlaw legal research and Reuters news, just launched its own AI model called Thomson. On legal tasks, it holds its own against the most powerful AI models in the world — and the whole thing cost $40 million to build. The actual training run, the step where the model learns from data, cost roughly **$450,000 to complete**. Compare that to the billions OpenAI and Google spend, and the difference is striking.",
+        "Thomson Reuters did not start from zero. They took a strong open-source AI model — freely available online — and specialized it deeply. They trained it on decades of their own content: Westlaw case law, legal documents, Reuters news, and financial records from Checkpoint. Hundreds of their own subject-matter experts helped shape how it answers questions. Its first job is **helping lawyers review documents faster** in their CoCounsel legal tool.",
+        "The key shift is this: you do not need the biggest budget to build a great AI model. You need the right data. Frontier labs spend billions training on almost everything on the internet. Thomson Reuters spent far less, but used some of the best-curated legal content in the world. On legal tasks, Thomson performs as well as or better than models that cost far more. **The right data beats the biggest budget.**",
+        "Thomson Reuters has barely started. The model was trained on less than 10% of their content library, and there is more to come. If you run a business with years of structured, specialized data — legal files, medical records, financial reports, customer conversations — this is a clear signal: **your data may be worth building on**. Take a good open-source foundation, specialize it for your domain, and you may end up with something more useful than any off-the-shelf API."
+      ],
+      "keyFacts": [
+        { "value": "$40M", "label": "total cost to build Thomson" },
+        { "value": "~$450K", "label": "final training run cost" },
+        { "value": "<10%", "label": "of TR's content used so far" },
+        { "value": "2 years", "label": "time spent building the model" }
+      ]
+    },
+    "de": {
+      "title": "Was Thomsons 40-Millionen-Dollar-KI über den Aufbau mit eigenen Daten verrät",
+      "summary": "Thomson Reuters hat für 40 Millionen Dollar ein KI-Modell namens Thomson gebaut, das mit den besten Modellen der Welt mithalten kann — und beweist, dass gute Daten mehr zählen als ein riesiges Budget.",
+      "body": [
+        "Thomson Reuters, das Unternehmen hinter der juristischen Datenbank Westlaw und der Nachrichtenagentur Reuters, hat sein eigenes KI-Modell namens Thomson auf den Markt gebracht. Bei juristischen Aufgaben hält es mit den leistungsstärksten KI-Modellen der Welt mit — und das Ganze kostete 40 Millionen Dollar. Der eigentliche Trainingsvorgang, bei dem das Modell aus Daten lernt, kostete rund **450.000 Dollar**. OpenAI und Google geben Milliarden aus — der Unterschied ist bemerkenswert.",
+        "Thomson Reuters hat nicht bei null angefangen. Sie nahmen ein leistungsstarkes Open-Source-KI-Modell — kostenlos online verfügbar — und spezialisierten es tiefgreifend. Trainiert wurde es auf jahrzehntelangen eigenen Inhalten: Westlaw-Rechtsprechung, juristische Dokumente, Reuters-Nachrichten und Finanzdaten aus Checkpoint. Hunderte eigener Fachexperten halfen, die Antwortqualität zu verbessern. Erster Einsatz: **Anwälten bei der schnelleren Dokumentenprüfung helfen** im CoCounsel-Tool.",
+        "Die entscheidende Erkenntnis: Man braucht kein riesiges Budget, um ein gutes KI-Modell zu bauen. Man braucht die richtigen Daten. Frontier-Labs geben Milliarden für das Training auf fast allem im Internet aus. Thomson Reuters hat weit weniger ausgegeben — aber die weltweit am besten kuratierten juristischen Inhalte verwendet. Bei juristischen Aufgaben schneidet Thomson genauso gut oder besser ab als Modelle, die weitaus mehr kosten. **Die richtigen Daten schlagen das größte Budget.**",
+        "Thomson Reuters hat kaum angefangen. Das Modell wurde mit weniger als 10 % ihrer Inhaltsbibliothek trainiert — es kommt noch viel mehr. Wer ein Unternehmen führt, das über strukturierte, spezialisierte Daten verfügt — Rechtsdokumente, Patientenakten, Finanzberichte, Kundengespräche — erhält hier ein klares Signal: **Die eigenen Daten könnten die Basis für etwas Wertvolles sein**. Eine gute Open-Source-Grundlage nehmen, für die eigene Domäne spezialisieren — und man erhält vielleicht etwas Nützlicheres als jede Standard-API."
+      ],
+      "keyFacts": [
+        { "value": "$40M", "label": "Gesamtkosten für den Aufbau von Thomson" },
+        { "value": "~$450K", "label": "Kosten des finalen Trainings" },
+        { "value": "<10%", "label": "des Inhalts bisher genutzt" },
+        { "value": "2 years", "label": "Entwicklungsdauer des Modells" }
+      ]
+    },
+    "nl": {
+      "title": "Wat een juridische AI van 40 miljoen dollar leert over bouwen met je eigen data",
+      "summary": "Thomson Reuters bouwde een AI-model genaamd Thomson voor 40 miljoen dollar dat de beste modellen ter wereld bijhoudt, en bewijst dat de juiste data veel meer waard is dan een groot budget.",
+      "body": [
+        "Thomson Reuters, het bedrijf achter juridische database Westlaw en persbureau Reuters, heeft zijn eigen AI-model gelanceerd: Thomson. Op juridische taken houdt het stand tegenover de krachtigste AI-modellen ter wereld — en het bouwen ervan kostte 40 miljoen dollar. De feitelijke trainingsstap, waarbij het model van data leert, kostte ongeveer **450.000 dollar**. OpenAI en Google geven daar miljarden aan uit — het verschil is opvallend.",
+        "Thomson Reuters begon niet van nul. Ze namen een sterk open-source AI-model — gratis online beschikbaar — en specialiseerden het grondig. Het werd getraind op decennia aan eigen content: Westlaw-rechtspraak, juridische documenten, Reuters-nieuws en financiële data van Checkpoint. Honderden eigen vakexperts hielpen de antwoordkwaliteit te verbeteren. Eerste toepassing: **advocaten helpen documenten sneller te beoordelen** in hun CoCounsel-tool.",
+        "De kern van de verschuiving: je hebt geen enorm budget nodig om een goed AI-model te bouwen. Je hebt de juiste data nodig. Frontier-labs geven miljarden uit om op bijna alles op internet te trainen. Thomson Reuters gaf veel minder uit, maar gebruikte 's werelds best gecureerde juridische content. Op juridische taken presteert Thomson net zo goed of beter dan modellen die veel meer kosten. **De juiste data verslaat het grootste budget.**",
+        "Thomson Reuters is nog maar net begonnen. Het model werd getraind op minder dan 10% van hun contentbibliotheek — er komt nog veel meer. Als je een bedrijf runt met jaren aan gestructureerde, gespecialiseerde data — juridische dossiers, medische dossiers, financiële rapporten, klantgesprekken — is dit een duidelijk signaal: **jouw data kan de moeite waard zijn om op te bouwen**. Neem een goede open-source basis, specialiseer die voor jouw domein, en je eindigt misschien met iets nuttiger dan welke standaard-API dan ook."
+      ],
+      "keyFacts": [
+        { "value": "$40M", "label": "totale kosten om Thomson te bouwen" },
+        { "value": "~$450K", "label": "kosten van de uiteindelijke trainingsstap" },
+        { "value": "<10%", "label": "van TR's content tot nu toe gebruikt" },
+        { "value": "2 years", "label": "bouwtijd van het model" }
+      ]
+    },
+    "es": {
+      "title": "Lo que una IA legal de 40 millones de dólares revela sobre construir con tus propios datos",
+      "summary": "Thomson Reuters construyó un modelo de IA llamado Thomson por 40 millones de dólares que rivaliza con los mejores del mundo, demostrando que los datos correctos valen más que un presupuesto enorme.",
+      "body": [
+        "Thomson Reuters, la empresa detrás de Westlaw y de la agencia Reuters, acaba de lanzar su propio modelo de inteligencia artificial: Thomson. En tareas legales, compite con los modelos de IA más poderosos del mundo — y todo costó 40 millones de dólares. El proceso real de entrenamiento, donde el modelo aprende de los datos, costó aproximadamente **450.000 dólares**. OpenAI y Google gastan miles de millones en lo mismo — la diferencia es notable.",
+        "Thomson Reuters no empezó desde cero. Tomaron un sólido modelo de IA de código abierto — disponible gratis en línea — y lo especializaron profundamente. Lo entrenaron con décadas de contenido propio: jurisprudencia de Westlaw, documentos legales, noticias de Reuters y datos financieros de Checkpoint. Cientos de sus propios expertos ayudaron a mejorar la calidad de las respuestas. Su primer uso: **ayudar a los abogados a revisar documentos más rápido** en su herramienta CoCounsel.",
+        "El cambio clave es este: no necesitas el presupuesto más grande para construir un buen modelo de IA. Necesitas los datos correctos. Los grandes laboratorios gastan miles de millones entrenando sobre casi todo lo que existe en internet. Thomson Reuters gastó mucho menos, pero usó algunos de los mejores contenidos legales del mundo. En tareas legales, Thomson rinde igual o mejor que modelos que cuestan mucho más. **Los datos correctos superan al mayor presupuesto.**",
+        "Thomson Reuters apenas ha empezado. El modelo fue entrenado con menos del 10% de su biblioteca de contenidos — hay mucho más por venir. Si gestionas una empresa con años de datos estructurados y especializados — archivos legales, historiales médicos, informes financieros, conversaciones con clientes — esta es una señal clara: **tus datos pueden valer la pena para construir sobre ellos**. Toma una buena base de código abierto, especialízala para tu dominio, y puede que obtengas algo más útil que cualquier API genérica."
+      ],
+      "keyFacts": [
+        { "value": "$40M", "label": "coste total para construir Thomson" },
+        { "value": "~$450K", "label": "coste del entrenamiento final" },
+        { "value": "<10%", "label": "del contenido de TR utilizado hasta ahora" },
+        { "value": "2 years", "label": "tiempo de desarrollo del modelo" }
+      ]
+    },
+    "fr": {
+      "title": "Ce qu'un modèle IA juridique à 40 millions de dollars révèle sur la valeur de vos propres données",
+      "summary": "Thomson Reuters a construit un modèle IA appelé Thomson pour 40 millions de dollars qui rivalise avec les meilleurs au monde, prouvant que les bonnes données comptent plus qu'un budget colossal.",
+      "body": [
+        "Thomson Reuters, l'entreprise derrière la base de données juridique Westlaw et l'agence Reuters, vient de lancer son propre modèle d'intelligence artificielle : Thomson. Sur les tâches juridiques, il rivalise avec les modèles d'IA les plus puissants du monde — et tout cela a coûté 40 millions de dollars. La phase d'entraînement réelle, celle où le modèle apprend à partir des données, a coûté environ **450 000 dollars**. OpenAI et Google dépensent des milliards pour la même chose — la différence est frappante.",
+        "Thomson Reuters n'est pas parti de zéro. Ils ont pris un modèle d'IA open source performant — disponible gratuitement en ligne — et l'ont spécialisé en profondeur. Il a été entraîné sur des décennies de contenus propriétaires : jurisprudence Westlaw, documents juridiques, actualités Reuters et données financières de Checkpoint. Des centaines de leurs propres experts ont contribué à améliorer la qualité des réponses. Première application : **aider les avocats à analyser les documents plus vite** dans leur outil CoCounsel.",
+        "Le changement essentiel est celui-ci : il ne faut pas le plus gros budget pour construire un bon modèle d'IA. Il faut les bonnes données. Les grands laboratoires dépensent des milliards pour s'entraîner sur presque tout ce qui existe sur internet. Thomson Reuters a dépensé bien moins, mais a utilisé certains des meilleurs contenus juridiques au monde. Sur les tâches juridiques, Thomson performe aussi bien ou mieux que des modèles qui coûtent bien plus cher. **Les bonnes données l'emportent sur le plus gros budget.**",
+        "Thomson Reuters n'en est qu'au début. Le modèle a été entraîné sur moins de 10 % de leur bibliothèque de contenus — la suite arrive. Si vous gérez une entreprise assise sur des années de données structurées et spécialisées — dossiers juridiques, dossiers médicaux, rapports financiers, conversations clients — c'est un signal clair : **vos données méritent peut-être d'être valorisées**. Prenez une bonne base open source, spécialisez-la pour votre domaine, et vous obtiendrez peut-être quelque chose de plus utile que n'importe quelle API généraliste."
+      ],
+      "keyFacts": [
+        { "value": "$40M", "label": "coût total pour construire Thomson" },
+        { "value": "~$450K", "label": "coût de la phase d'entraînement finale" },
+        { "value": "<10%", "label": "du contenu de TR utilisé jusqu'ici" },
+        { "value": "2 years", "label": "temps de développement du modèle" }
+      ]
+    },
+    "ar": {
+      "title": "ما يكشفه نموذج الذكاء الاصطناعي القانوني بـ40 مليون دولار عن قيمة بياناتك الخاصة",
+      "summary": "طوّرت Thomson Reuters نموذج ذكاء اصطناعي اسمه Thomson بـ40 مليون دولار يضاهي أقوى النماذج في العالم، مما يُثبت أن البيانات الصحيحة أهم بكثير من الميزانية الضخمة.",
+      "body": [
+        "أطلقت Thomson Reuters، مالكة قاعدة البيانات القانونية Westlaw ووكالة Reuters للأنباء، نموذج ذكاء اصطناعي خاصًا باسم Thomson. في المهام القانونية، يُنافس هذا النموذج أقوى نماذج الذكاء الاصطناعي في العالم — وقد كلّف بناؤه 40 مليون دولار. أما مرحلة التدريب الفعلية، حيث يتعلم النموذج من البيانات، فقد تكلّفت ما يقارب **450 ألف دولار**. تُنفق شركات مثل OpenAI وGoogle مليارات على ذلك — والفرق لافت للنظر.",
+        "لم تبدأ Thomson Reuters من الصفر. اعتمدت على نموذج ذكاء اصطناعي مفتوح المصدر — متاح مجانًا عبر الإنترنت — وخصّصته بعمق. دُرِّب النموذج على عقود من المحتوى الخاص بالشركة: أحكام قضائية من Westlaw، ووثائق قانونية، وأخبار Reuters، وبيانات مالية من Checkpoint. أسهم مئات المتخصصين في تحسين جودة الإجابات. التطبيق الأول: **مساعدة المحامين على مراجعة المستندات بشكل أسرع** في أداتهم CoCounsel.",
+        "التحوّل الجوهري هو هذا: لست بحاجة إلى أكبر ميزانية لبناء نموذج ذكاء اصطناعي ممتاز. ما تحتاجه هو البيانات الصحيحة. تُنفق المختبرات الكبرى مليارات في التدريب على كل ما يوجد على الإنترنت تقريبًا. أنفقت Thomson Reuters أقل بكثير، لكنها استخدمت أجود المحتويات القانونية في العالم. في المهام القانونية، يؤدي Thomson أداءً مماثلاً أو أفضل من نماذج أعلى تكلفةً بكثير. **البيانات الصحيحة تتفوق على الميزانية الأضخم.**",
+        "لم تبدأ Thomson Reuters إلا بجزء يسير مما تملك. دُرِّب النموذج على أقل من 10% من مكتبة محتواها — والمزيد قادم. إذا كنت تدير شركة تمتلك سنوات من البيانات المنظّمة والمتخصصة — ملفات قانونية، سجلات طبية، تقارير مالية، محادثات مع العملاء — فهذه إشارة واضحة: **قد تكون بياناتك تستحق البناء عليها**. ابدأ بنموذج مفتوح المصدر قوي، وخصّصه لمجالك، وستحصل على شيء أكثر قيمةً من أي واجهة برمجية عامة."
+      ],
+      "keyFacts": [
+        { "value": "$40M", "label": "التكلفة الإجمالية لبناء Thomson" },
+        { "value": "~$450K", "label": "تكلفة مرحلة التدريب الأخيرة" },
+        { "value": "<10%", "label": "من محتوى TR المستخدم حتى الآن" },
+        { "value": "2 years", "label": "مدة تطوير النموذج" }
+      ]
+    }
+  }
+}
