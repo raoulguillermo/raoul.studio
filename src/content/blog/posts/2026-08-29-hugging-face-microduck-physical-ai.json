@@ -1,0 +1,115 @@
+{
+  "slug": "2026-08-29-hugging-face-microduck-physical-ai",
+  "date": "2026-08-29",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "TechCrunch — Hugging Face is selling a cute $399 open-source duck robot, Microduck", "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/" },
+    { "title": "The Register — Hugging Face offers $399 robot duck to help you quack the AI code", "url": "https://www.theregister.com/ai-and-ml/2026/08/27/hugging-face-offers-399-robot-duck-to-help-you-quack-the-ai-code/5293011" },
+    { "title": "Pollen Robotics — Microduck product page", "url": "https://pollen-robotics.com/microduck/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Physical AI just got cheap enough to try",
+      "summary": "Hugging Face's $399 Microduck robot lets any developer train real robot behaviors at home, making physical AI experimentation accessible for the first time.",
+      "body": [
+        "Building AI software is cheap — you pay for an API call and some compute. Building AI that actually works in the physical world has always needed expensive hardware most small teams could never justify. **That barrier just dropped.** Hugging Face, the open-source AI company, launched the Microduck: a 25-centimeter, duck-shaped robot you can pre-order for $399 and train yourself with reinforcement learning.",
+        "The Microduck is not a toy you watch from a distance. **It is a real robotics platform** — 15 motors, a camera, lidar (a sensor that measures distances with laser light), and two motion sensors. It walks, crouches, grabs objects with its beak, and rights itself when it tips over. It ships with seven pre-trained behaviors and can run new ones in real time. It even roller skates, if you buy the $39 accessory pack.",
+        "What makes it different is the software. **The full training stack is open-source** under the Apache 2.0 license, meaning anyone can read, change, or build on it. Developers write new behaviors inside a simulator — a free, software copy of the robot — and then push those behaviors to the physical device. Hugging Face calls it sim-to-real transfer. That is how professional robotics labs work. Now it runs on a $399 duck.",
+        "Hugging Face bought French robotics startup Pollen Robotics in April 2025 to build exactly this: hardware cheap enough that developers everywhere can experiment. The bet is that a community of builders will train the duck to do useful things — sorting mail, monitoring spaces, carrying small objects — and then share those trained behaviors openly. **The real asset is the community building around it**, not any single robot.",
+        "If your product or business might one day involve physical spaces — a warehouse, a clinic, a shop floor — now is a genuinely good time to understand how robot training works. You do not need a research lab. **The starting price is $399**, the code is on GitHub, and delivery is before Christmas."
+      ],
+      "keyFacts": [
+        { "value": "$399", "label": "starting price" },
+        { "value": "25 cm", "label": "robot height" },
+        { "value": "15", "label": "motors on board" },
+        { "value": "7", "label": "behaviors included at launch" }
+      ]
+    },
+    "de": {
+      "title": "Physische KI ist jetzt erschwinglich genug zum Ausprobieren",
+      "summary": "Hugging Faces 399-Dollar-Roboter Microduck ermöglicht es jedem Entwickler, echte Roboterverhalten zu trainieren — das macht physische KI erstmals für alle zugänglich.",
+      "body": [
+        "Software-KI zu entwickeln ist günstig — man zahlt für einen API-Aufruf und ein bisschen Rechenleistung. Robotik-KI, die tatsächlich in der physischen Welt funktioniert, brauchte bisher teure Hardware, die sich die meisten kleinen Teams nie leisten konnten. **Diese Hürde ist gerade gefallen.** Hugging Face, das Open-Source-KI-Unternehmen, hat den Microduck vorgestellt: einen 25 Zentimeter großen, entenförmigen Roboter, den man für 399 Dollar vorbestellen und selbst mit Reinforcement Learning trainieren kann.",
+        "Der Microduck ist kein Spielzeug, das man nur von der Seite anschaut. **Er ist eine echte Robotikplattform** — 15 Motoren, eine Kamera, Lidar (ein Sensor, der Abstände mit Laserlicht misst) und zwei Bewegungssensoren. Er geht, hockt, greift Objekte mit seinem Schnabel und richtet sich selbst auf, wenn er umfällt. Er wird mit sieben vortrainierten Verhaltensweisen geliefert und kann neue in Echtzeit ausführen. Mit dem 39-Dollar-Zubehörpaket kann er sogar Rollschuhe tragen.",
+        "Was ihn unterscheidet, ist die Software. **Der gesamte Trainings-Stack ist Open Source** — unter der Apache-2.0-Lizenz, was bedeutet, dass ihn jeder lesen, verändern oder darauf aufbauen kann. Entwickler schreiben neue Verhaltensweisen in einem Simulator — einer kostenlosen Software-Kopie des Roboters — und übertragen diese Verhaltensweisen dann auf das physische Gerät. Hugging Face nennt das Sim-to-Real-Transfer. So arbeiten professionelle Robotik-Labore. Jetzt läuft das auf einem 399-Dollar-Entchen.",
+        "Hugging Face kaufte das französische Robotik-Startup Pollen Robotics im April 2025, um genau das zu bauen: Hardware, die günstig genug ist, damit Entwickler überall experimentieren können. Die Wette lautet, dass eine Gemeinschaft von Bauherren die Ente trainiert, nützliche Dinge zu tun — Post sortieren, Räume überwachen, kleine Objekte tragen — und diese trainierten Verhaltensweisen dann offen teilt. **Das eigentliche Kapital ist die Community, die drum herum entsteht**, nicht ein einzelner Roboter.",
+        "Wenn Ihr Produkt oder Unternehmen eines Tages physische Räume einbeziehen könnte — ein Lager, eine Klinik, eine Verkaufsfläche — ist jetzt ein wirklich guter Zeitpunkt zu verstehen, wie Robotertraining funktioniert. Sie brauchen kein Forschungslabor. **Der Einstiegspreis beträgt 399 Dollar**, der Code liegt auf GitHub, und die Lieferung erfolgt vor Weihnachten."
+      ],
+      "keyFacts": [
+        { "value": "$399", "label": "Einstiegspreis" },
+        { "value": "25 cm", "label": "Roboterhöhe" },
+        { "value": "15", "label": "verbaute Motoren" },
+        { "value": "7", "label": "vortrainierte Verhaltensweisen" }
+      ]
+    },
+    "nl": {
+      "title": "Fysieke AI is nu goedkoop genoeg om mee te experimenteren",
+      "summary": "Met de $399 Microduck-robot van Hugging Face kan elke ontwikkelaar thuis echte robotgedragingen trainen, waardoor fysieke AI voor het eerst voor iedereen toegankelijk is.",
+      "body": [
+        "AI-software bouwen is goedkoop — je betaalt voor een API-aanroep en wat rekenkracht. AI die echt werkt in de fysieke wereld heeft altijd dure hardware nodig gehad die de meeste kleine teams zich nooit konden veroorloven. **Die drempel is zojuist weggevallen.** Hugging Face, het open-source AI-bedrijf, lanceerde de Microduck: een 25 centimeter grote, eendvormige robot die je kunt voorbestellen voor $399 en zelf kunt trainen met reinforcement learning.",
+        "De Microduck is geen speelgoed dat je alleen van een afstand bekijkt. **Het is een echt roboticaplatform** — 15 motoren, een camera, lidar (een sensor die afstanden meet met laserlicht) en twee bewegingssensoren. Hij loopt, hurkt, pakt objecten op met zijn snavel en richt zichzelf weer op als hij omvalt. Hij wordt geleverd met zeven voorgetrainde gedragingen en kan nieuwe in realtime uitvoeren. Met het accessoirepakket van $39 kan hij zelfs rolschaatsen.",
+        "Wat hem onderscheidt, is de software. **De volledige trainingsstack is open-source** onder de Apache 2.0-licentie, wat betekent dat iedereen deze kan lezen, aanpassen of erop voortbouwen. Ontwikkelaars schrijven nieuwe gedragingen in een simulator — een gratis softwarekopie van de robot — en sturen die gedragingen vervolgens naar het fysieke apparaat. Hugging Face noemt dit sim-to-real-overdracht. Zo werken professionele roboticalabs. Nu draait dat op een eend van $399.",
+        "Hugging Face kocht in april 2025 het Franse robotica-startup Pollen Robotics om precies dit te bouwen: hardware die goedkoop genoeg is voor ontwikkelaars overal ter wereld om mee te experimenteren. De inzet is dat een gemeenschap van bouwers de eend traint voor nuttige taken — post sorteren, ruimtes bewaken, kleine objecten verplaatsen — en die getrainde gedragingen vervolgens openlijk deelt. **Het echte kapitaal is de community die er omheen wordt gebouwd**, niet één enkele robot.",
+        "Als uw product of bedrijf ooit te maken krijgt met fysieke ruimtes — een magazijn, een kliniek, een winkelvloer — is dit een echt goed moment om te begrijpen hoe robottraining werkt. U heeft geen onderzoekslab nodig. **De instapprijs is $399**, de code staat op GitHub en levering is voor kerst."
+      ],
+      "keyFacts": [
+        { "value": "$399", "label": "instapprijs" },
+        { "value": "25 cm", "label": "hoogte van de robot" },
+        { "value": "15", "label": "motoren aan boord" },
+        { "value": "7", "label": "meegeleverde gedragingen bij lancering" }
+      ]
+    },
+    "es": {
+      "title": "La IA física ya es lo suficientemente barata para experimentar",
+      "summary": "El robot Microduck de $399 de Hugging Face permite a cualquier desarrollador entrenar comportamientos robóticos reales en casa, haciendo accesible la IA física por primera vez.",
+      "body": [
+        "Construir software de IA es barato — pagas por una llamada a una API y algo de cómputo. Construir IA que funcione realmente en el mundo físico siempre ha requerido hardware costoso que la mayoría de los equipos pequeños nunca pudo justificar. **Esa barrera acaba de caer.** Hugging Face, la empresa de IA de código abierto, lanzó el Microduck: un robot en forma de pato de 25 centímetros que puedes preordenar por $399 y entrenar tú mismo con aprendizaje por refuerzo.",
+        "El Microduck no es un juguete que observas desde lejos. **Es una plataforma robótica real** — 15 motores, una cámara, lidar (un sensor que mide distancias con luz láser) y dos sensores de movimiento. Camina, se agacha, agarra objetos con su pico y se levanta solo cuando cae. Viene con siete comportamientos preentrenados y puede ejecutar nuevos en tiempo real. Con el paquete de accesorios de $39, incluso puede patinar sobre ruedas.",
+        "Lo que lo distingue es el software. **La pila de entrenamiento completa es de código abierto** bajo la licencia Apache 2.0, lo que significa que cualquiera puede leerla, modificarla o construir sobre ella. Los desarrolladores escriben nuevos comportamientos dentro de un simulador — una copia de software gratuita del robot — y luego envían esos comportamientos al dispositivo físico. Hugging Face lo llama transferencia sim-to-real. Así trabajan los laboratorios de robótica profesionales. Ahora funciona en un pato de $399.",
+        "Hugging Face compró la startup francesa de robótica Pollen Robotics en abril de 2025 para construir exactamente esto: hardware lo suficientemente barato para que los desarrolladores de todo el mundo puedan experimentar. La apuesta es que una comunidad de creadores entrenará al pato para hacer cosas útiles — clasificar correo, monitorear espacios, transportar objetos pequeños — y luego compartirá esos comportamientos entrenados abiertamente. **El verdadero valor es la comunidad que se construye a su alrededor**, no un robot individual.",
+        "Si tu producto o empresa algún día podría involucrarse con espacios físicos — un almacén, una clínica, una planta de trabajo — ahora es un buen momento para entender cómo funciona el entrenamiento de robots. No necesitas un laboratorio de investigación. **El precio de entrada es $399**, el código está en GitHub y la entrega es antes de Navidad."
+      ],
+      "keyFacts": [
+        { "value": "$399", "label": "precio inicial" },
+        { "value": "25 cm", "label": "altura del robot" },
+        { "value": "15", "label": "motores a bordo" },
+        { "value": "7", "label": "comportamientos incluidos al lanzamiento" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA physique est enfin assez abordable pour expérimenter",
+      "summary": "Le robot Microduck à 399 $ de Hugging Face permet à n'importe quel développeur d'entraîner de vrais comportements robotiques chez soi, rendant l'IA physique accessible pour la première fois.",
+      "body": [
+        "Développer des logiciels d'IA est bon marché — on paie un appel API et un peu de puissance de calcul. Construire une IA qui fonctionne réellement dans le monde physique a toujours nécessité du matériel coûteux que la plupart des petites équipes ne pouvaient jamais se permettre. **Cette barrière vient de tomber.** Hugging Face, la société d'IA open source, a lancé le Microduck : un robot en forme de canard de 25 centimètres que vous pouvez précommander pour 399 $ et entraîner vous-même avec l'apprentissage par renforcement.",
+        "Le Microduck n'est pas un jouet qu'on regarde de loin. **C'est une vraie plateforme robotique** — 15 moteurs, une caméra, un lidar (un capteur qui mesure les distances avec de la lumière laser) et deux capteurs de mouvement. Il marche, s'accroupit, attrape des objets avec son bec et se relève tout seul quand il tombe. Il est livré avec sept comportements pré-entraînés et peut en exécuter de nouveaux en temps réel. Avec le pack d'accessoires à 39 $, il peut même faire du patin à roulettes.",
+        "Ce qui le distingue, c'est le logiciel. **La pile d'entraînement complète est open-source** sous licence Apache 2.0, ce qui signifie que n'importe qui peut la lire, la modifier ou construire dessus. Les développeurs écrivent de nouveaux comportements dans un simulateur — une copie logicielle gratuite du robot — puis transfèrent ces comportements vers l'appareil physique. Hugging Face appelle cela le transfert sim-to-real. C'est ainsi que travaillent les laboratoires de robotique professionnels. Maintenant, ça tourne sur un canard à 399 $.",
+        "Hugging Face a racheté la startup française de robotique Pollen Robotics en avril 2025 pour construire exactement cela : du matériel suffisamment bon marché pour que les développeurs du monde entier puissent expérimenter. Le pari est qu'une communauté de créateurs entraînera le canard à faire des choses utiles — trier le courrier, surveiller des espaces, transporter de petits objets — puis partagera ces comportements entraînés librement. **Le vrai capital, c'est la communauté qui se construit autour**, pas un seul robot.",
+        "Si votre produit ou votre entreprise pourrait un jour impliquer des espaces physiques — un entrepôt, une clinique, un espace de vente — c'est maintenant un bon moment pour comprendre comment fonctionne l'entraînement des robots. Vous n'avez pas besoin d'un laboratoire de recherche. **Le prix d'entrée est de 399 $**, le code est sur GitHub et la livraison est avant Noël."
+      ],
+      "keyFacts": [
+        { "value": "$399", "label": "prix de départ" },
+        { "value": "25 cm", "label": "hauteur du robot" },
+        { "value": "15", "label": "moteurs embarqués" },
+        { "value": "7", "label": "comportements inclus au lancement" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي المادي أصبح رخيصاً بما يكفي للتجربة",
+      "summary": "روبوت Microduck بسعر 399 دولار من Hugging Face يتيح لأي مطوّر تدريب سلوكيات روبوتية حقيقية في المنزل، مما يجعل الذكاء الاصطناعي المادي في متناول الجميع للمرة الأولى.",
+      "body": [
+        "بناء برامج الذكاء الاصطناعي رخيص — تدفع مقابل استدعاء API وبعض القوة الحسابية. أما بناء ذكاء اصطناعي يعمل فعلاً في العالم المادي، فقد احتاج دائماً إلى أجهزة مكلفة لم تتمكن معظم الفرق الصغيرة من تحمّل تكلفتها. **هذا الحاجز سقط للتو.** أطلقت شركة Hugging Face، منصة الذكاء الاصطناعي مفتوحة المصدر، روبوت Microduck: روبوت على شكل بطة بارتفاع 25 سنتيمتراً يمكن طلبه مسبقاً بسعر 399 دولاراً وتدريبه بنفسك باستخدام التعلم التعزيزي.",
+        "Microduck ليس لعبة تراقبها من بعيد. **إنها منصة روبوتية حقيقية** — 15 محركاً وكاميرا وليدار (جهاز استشعار يقيس المسافات بضوء الليزر) وجهازَي استشعار للحركة. يمشي، ويجلس القرفصاء، ويمسك الأشياء بمنقاره، ويعيد نفسه للوقوف حين يسقط. يأتي مع سبعة سلوكيات مدرّبة مسبقاً ويمكنه تنفيذ سلوكيات جديدة في الوقت الفعلي. مع حزمة الإكسسوارات بسعر 39 دولاراً، يستطيع حتى التزلج بعجلات.",
+        "ما يميّزه هو البرنامج. **حزمة التدريب الكاملة مفتوحة المصدر** بموجب رخصة Apache 2.0، مما يعني أن أي شخص يمكنه قراءتها أو تعديلها أو البناء عليها. يكتب المطورون سلوكيات جديدة داخل محاكٍ — نسخة برمجية مجانية من الروبوت — ثم ينقلون تلك السلوكيات إلى الجهاز المادي. تسمّي Hugging Face هذا النقل من المحاكاة إلى الواقع بـ sim-to-real. هكذا تعمل مختبرات الروبوتات الاحترافية. الآن يعمل ذلك على بطة بـ 399 دولاراً.",
+        "اشترت Hugging Face شركة Pollen Robotics الفرنسية الناشئة في أبريل 2025 لبناء هذا بالضبط: أجهزة رخيصة بما يكفي ليتمكن المطورون في كل مكان من التجربة. الرهان هو أن مجتمعاً من المطورين سيدرّبون البطة على فعل أشياء مفيدة — فرز البريد ومراقبة المساحات ونقل الأشياء الصغيرة — ثم يشاركون تلك السلوكيات المدرَّبة بشكل مفتوح. **الأصل الحقيقي هو المجتمع الذي يتشكّل حوله**، لا روبوت واحد بعينه.",
+        "إذا كان منتجك أو عملك قد يتضمن يوماً ما فضاءات مادية — مستودع أو عيادة أو أرضية بيع — فهذا وقت جيد حقاً لفهم كيفية عمل تدريب الروبوتات. لا تحتاج إلى مختبر بحثي. **سعر البداية 399 دولار**، والكود موجود على GitHub، والتسليم قبل عيد الميلاد."
+      ],
+      "keyFacts": [
+        { "value": "$399", "label": "سعر البداية" },
+        { "value": "25 cm", "label": "ارتفاع الروبوت" },
+        { "value": "15", "label": "محركات مدمجة" },
+        { "value": "7", "label": "سلوكيات مضمّنة عند الإطلاق" }
+      ]
+    }
+  }
+}
