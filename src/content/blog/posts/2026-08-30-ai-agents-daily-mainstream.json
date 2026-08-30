@@ -1,0 +1,124 @@
+{
+  "slug": "2026-08-30-ai-agents-daily-mainstream",
+  "date": "2026-08-30",
+  "tags": ["ai", "agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Temporal — The State of Development 2026: AI Agents",
+      "url": "https://temporal.io/reports/state-of-development-2026"
+    },
+    {
+      "title": "MartechSeries — Temporal Reveals 70.8% Leap in AI Agent Use Among Engineers",
+      "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/temporal-releases-the-2026-state-of-development-report-ai-agents-revealing-a-70-8-leap-in-ai-agent-use-among-engineers/"
+    },
+    {
+      "title": "AI Agent Store — AI Agents News, Week of August 29, 2026",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI Agents Are Now a Daily Habit. Making Them Reliable Is the New Problem.",
+      "summary": "A new survey of 550+ engineers shows that 80.8% now use AI agents every day — but most teams are hitting real reliability and cost problems that slow them down.",
+      "body": [
+        "For most software teams, AI agents are no longer something to try out — they are **part of everyday work**. A new survey of more than 550 engineers, published this week by Temporal, found that 80.8% now use AI agents every single day, up from 47.3% just one year ago. That jump — nearly 71% in twelve months — is not gradual adoption. It is a fundamental change in how software gets built.",
+        "But daily use does not mean smooth use. More than four in ten engineers said they hit agent-related problems every day. Teams struggle most with three things: keeping track of what an agent was doing when something went wrong, debugging failures, and keeping costs in check. The shift **from adoption to reliability** is now the story. The teams pulling ahead are not simply the ones who moved fastest — they are the ones who treated those three problems seriously from the start.",
+        "Cost matters more than most teams expect. Nearly 80% of engineers say **token costs are already limiting** what they can do. Tokens are the tiny chunks of text that AI models read and write — and every model charges for them. A team running agents all day can rack up large bills fast, and right now those bills are cutting real projects short before they reach their potential.",
+        "The most striking number in the report: 92.3% of engineers have tried to build software they would previously have just bought. Agents are **changing the build-versus-buy decision** for small teams. A startup that once purchased a scheduling tool or an analytics product can now have one engineer build a working version in a week, with agents doing most of the heavy lifting.",
+        "If your team is not yet using agents every day, you are behind the typical engineering team. But speed alone is not the advantage — the businesses winning right now are those that treated **reliability, cost controls, and clear ownership** as first-class problems from day one."
+      ],
+      "keyFacts": [
+        { "value": "80.8%", "label": "engineers using AI agents every day" },
+        { "value": "70.8%", "label": "year-over-year jump in daily agent use" },
+        { "value": "41.1%", "label": "hit agent-related problems every single day" },
+        { "value": "92.3%", "label": "tried building software they used to buy" }
+      ]
+    },
+    "de": {
+      "title": "KI-Agenten sind jetzt Alltag. Sie zuverlässig zu betreiben ist das neue Problem.",
+      "summary": "Eine neue Umfrage unter mehr als 550 Entwicklern zeigt: 80,8 % nutzen KI-Agenten täglich — aber die meisten kämpfen mit echten Zuverlässigkeits- und Kostenproblemen.",
+      "body": [
+        "Für die meisten Software-Teams sind KI-Agenten nichts mehr zum Ausprobieren — sie sind **Teil des täglichen Arbeitens**. Eine neue Umfrage unter mehr als 550 Entwicklern, diese Woche von Temporal veröffentlicht, ergab: 80,8 % nutzen KI-Agenten jeden einzelnen Tag, gegenüber 47,3 % noch vor einem Jahr. Dieser Sprung — knapp 71 % in zwölf Monaten — ist keine langsame Einführung. Es ist ein grundlegender Wandel in der Art, wie Software gebaut wird.",
+        "Aber täglich nutzen bedeutet nicht problemlos nutzen. Mehr als vier von zehn Entwicklern stoßen täglich auf agentenbezogene Probleme. Teams kämpfen am meisten mit drei Dingen: nachvollziehen, was ein Agent gerade tat, als etwas schiefging; Fehler debuggen; und Kosten im Griff behalten. Die Verschiebung **von Einführung zu Zuverlässigkeit** ist jetzt die eigentliche Geschichte. Die Teams, die vorne liegen, sind nicht die schnellsten — sondern die, die diese drei Probleme von Anfang an ernst nahmen.",
+        "Kosten spielen eine größere Rolle, als die meisten Teams erwarten. Fast 80 % der Entwickler sagen, dass **Token-Kosten bereits einschränken**, was sie tun können. Token sind die kleinen Textbausteine, die KI-Modelle lesen und schreiben — und jedes Modell berechnet dafür Gebühren. Ein Team, das den ganzen Tag Agenten laufen lässt, kann schnell hohe Rechnungen anhäufen, die echte Projekte frühzeitig ausbremsen.",
+        "Die überraschendste Zahl im Bericht: 92,3 % der Entwickler haben versucht, Software zu bauen, die sie vorher einfach gekauft hätten. Agenten **verändern die Entscheidung zwischen Bauen und Kaufen** für kleine Teams. Ein Startup, das früher ein Planungstool oder ein Analyseprodukt kaufte, kann jetzt einen Entwickler in einer Woche eine funktionierende Version bauen lassen — Agenten erledigen dabei den Großteil der Arbeit.",
+        "Wenn Ihr Team Agenten noch nicht täglich einsetzt, liegt es bereits hinter dem Durchschnitt zurück. Aber Schnelligkeit allein ist kein Vorteil — die Unternehmen, die jetzt gewinnen, sind jene, die **Zuverlässigkeit, Kostenkontrolle und klare Verantwortlichkeiten** von Anfang an als erstrangige Probleme behandelt haben."
+      ],
+      "keyFacts": [
+        { "value": "80.8%", "label": "Entwickler, die KI-Agenten täglich nutzen" },
+        { "value": "70.8%", "label": "Anstieg der täglichen Nutzung im Jahresvergleich" },
+        { "value": "41.1%", "label": "haben täglich Agent-Probleme" },
+        { "value": "92.3%", "label": "haben Software gebaut, die sie früher kauften" }
+      ]
+    },
+    "nl": {
+      "title": "AI-agents zijn nu dagelijkse routine. Ze betrouwbaar houden is het nieuwe probleem.",
+      "summary": "Een nieuw onderzoek onder meer dan 550 ontwikkelaars toont dat 80,8% dagelijks AI-agents gebruikt — maar de meeste teams stuiten op echte betrouwbaarheids- en kostenproblemen.",
+      "body": [
+        "Voor de meeste softwareteams zijn AI-agents geen experiment meer — ze zijn **onderdeel van het dagelijkse werk**. Een nieuw onderzoek onder meer dan 550 ontwikkelaars, deze week gepubliceerd door Temporal, laat zien dat 80,8% nu elke dag AI-agents gebruikt, tegenover 47,3% een jaar geleden. Die sprong — bijna 71% in twaalf maanden — is geen geleidelijke adoptie. Het is een fundamentele verandering in hoe software wordt gebouwd.",
+        "Maar dagelijks gebruik betekent niet probleemvrij gebruik. Meer dan vier op de tien ontwikkelaars zeggen elke dag problemen met agents te ondervinden. Teams worstelen het meest met drie dingen: bijhouden wat een agent deed toen er iets misging, fouten opsporen, en kosten in de hand houden. De verschuiving **van adoptie naar betrouwbaarheid** is nu het echte verhaal. De teams die vooroplopen, zijn niet simpelweg de snelsten — maar de teams die deze drie problemen van meet af aan serieus namen.",
+        "Kosten zijn belangrijker dan de meeste teams verwachten. Bijna 80% van de ontwikkelaars zegt dat **tokenkosten al beperken** wat ze kunnen doen. Tokens zijn de kleine tekstbrokken die AI-modellen lezen en schrijven — en elk model rekent daarvoor. Een team dat de hele dag agents draait, kan snel grote rekeningen oplopen die echte projecten vroegtijdig stilleggen.",
+        "Het meest opvallende getal in het rapport: 92,3% van de ontwikkelaars heeft geprobeerd software te bouwen die ze eerder gewoon zouden hebben gekocht. Agents **veranderen de build-of-koop-beslissing** voor kleine teams. Een startup die vroeger een plannings- of analyseproduct kocht, kan nu één ontwikkelaar in een week een werkende versie laten bouwen, met agents die het zware werk doen.",
+        "Als je team agents nog niet dagelijks gebruikt, loop je al achter op het gemiddelde engineeringteam. Maar snelheid alleen is geen voordeel — de bedrijven die nu winnen, zijn die welke **betrouwbaarheid, kostenbeheer en duidelijk eigenaarschap** vanaf dag één als serieuze problemen behandelden."
+      ],
+      "keyFacts": [
+        { "value": "80.8%", "label": "ontwikkelaars die dagelijks AI-agents gebruiken" },
+        { "value": "70.8%", "label": "jaar-op-jaar stijging in dagelijks agentgebruik" },
+        { "value": "41.1%", "label": "lopen dagelijks tegen agentproblemen aan" },
+        { "value": "92.3%", "label": "bouwden software die ze vroeger kochten" }
+      ]
+    },
+    "es": {
+      "title": "Los agentes de IA ya son parte del día a día. Hacerlos fiables es el nuevo reto.",
+      "summary": "Una nueva encuesta a más de 550 desarrolladores muestra que el 80,8% usa agentes de IA cada día — pero la mayoría enfrenta problemas reales de fiabilidad y costes.",
+      "body": [
+        "Para la mayoría de los equipos de software, los agentes de IA ya no son algo que probar — son **parte del trabajo diario**. Una nueva encuesta a más de 550 desarrolladores, publicada esta semana por Temporal, encontró que el 80,8% usa agentes de IA cada día, frente al 47,3% hace solo un año. Ese salto — casi un 71% en doce meses — no es una adopción gradual. Es un cambio fundamental en cómo se construye el software.",
+        "Pero usar agentes todos los días no significa usarlos sin problemas. Más de cuatro de cada diez desarrolladores dicen encontrar problemas relacionados con agentes cada día. Los equipos luchan sobre todo con tres cosas: saber qué estaba haciendo un agente cuando algo salió mal, depurar fallos y mantener los costes bajo control. El cambio **de la adopción a la fiabilidad** es ahora la verdadera historia. Los equipos que van adelante no son los más rápidos — son los que tomaron esos tres problemas en serio desde el principio.",
+        "Los costes importan más de lo que la mayoría espera. Casi el 80% de los desarrolladores dice que **los costes de tokens ya los limitan**. Los tokens son los pequeños fragmentos de texto que los modelos de IA leen y escriben — y cada modelo cobra por ellos. Un equipo que usa agentes todo el día puede acumular facturas altas rápidamente, y esas facturas están frenando proyectos reales antes de que lleguen a su potencial.",
+        "El dato más llamativo del informe: el 92,3% de los desarrolladores ha intentado construir software que antes simplemente habrían comprado. Los agentes están **cambiando la decisión entre construir y comprar** para los equipos pequeños. Una startup que antes compraba una herramienta de planificación o un producto de análisis puede ahora tener a un desarrollador construyendo una versión funcional en una semana, con agentes haciendo la mayor parte del trabajo.",
+        "Si tu equipo aún no usa agentes todos los días, ya estás por detrás del equipo de ingeniería típico. Pero la velocidad sola no es la ventaja — las empresas que están ganando ahora son las que trataron **la fiabilidad, el control de costes y la responsabilidad clara** como problemas de primer orden desde el principio."
+      ],
+      "keyFacts": [
+        { "value": "80.8%", "label": "desarrolladores que usan agentes de IA a diario" },
+        { "value": "70.8%", "label": "crecimiento interanual del uso diario de agentes" },
+        { "value": "41.1%", "label": "encuentran problemas con agentes cada día" },
+        { "value": "92.3%", "label": "construyeron software que antes compraban" }
+      ]
+    },
+    "fr": {
+      "title": "Les agents IA font désormais partie du quotidien. Les rendre fiables est le nouveau défi.",
+      "summary": "Un nouveau rapport révèle que 80,8 % des développeurs utilisent des agents IA chaque jour — mais la plupart se heurtent à de vrais problèmes de fiabilité et de coûts.",
+      "body": [
+        "Pour la plupart des équipes logicielles, les agents IA ne sont plus quelque chose à tester — **ils font partie du travail quotidien**. Une nouvelle enquête auprès de plus de 550 développeurs, publiée cette semaine par Temporal, révèle que 80,8 % utilisent désormais des agents IA chaque jour, contre 47,3 % il y a un an. Ce bond — près de 71 % en douze mois — n'est pas une adoption progressive. C'est un changement fondamental dans la façon de construire les logiciels.",
+        "Mais utiliser des agents chaque jour ne signifie pas les utiliser sans problème. Plus de quatre développeurs sur dix disent rencontrer chaque jour des problèmes liés aux agents. Les équipes peinent surtout sur trois points : suivre ce qu'un agent faisait quand quelque chose a mal tourné, déboguer les erreurs, et maîtriser les coûts. Le passage **de l'adoption à la fiabilité** est désormais l'enjeu central. Les équipes qui s'en sortent le mieux ne sont pas les plus rapides — ce sont celles qui ont pris ces trois problèmes au sérieux dès le départ.",
+        "Les coûts comptent plus que la plupart des équipes ne le pensent. Près de 80 % des développeurs disent que **les coûts de tokens freinent déjà** ce qu'ils peuvent faire. Les tokens sont les petits morceaux de texte que les modèles IA lisent et écrivent — et chaque modèle les facture. Une équipe qui fait tourner des agents toute la journée peut accumuler des factures élevées rapidement, et ces factures bloquent de vrais projets avant qu'ils n'atteignent leur potentiel.",
+        "Le chiffre le plus frappant du rapport : 92,3 % des développeurs ont essayé de construire un logiciel qu'ils auraient auparavant simplement acheté. Les agents **changent l'équation entre construire et acheter** pour les petites équipes. Une startup qui achetait autrefois un outil de planification ou un produit d'analyse peut désormais demander à un développeur de construire une version fonctionnelle en une semaine, les agents faisant l'essentiel du travail.",
+        "Si votre équipe n'utilise pas encore d'agents chaque jour, vous êtes déjà en retard sur l'équipe d'ingénierie typique. Mais la rapidité seule n'est pas l'avantage — les entreprises qui réussissent aujourd'hui sont celles qui ont traité **la fiabilité, la maîtrise des coûts et la responsabilité claire** comme des problèmes de premier ordre dès le départ."
+      ],
+      "keyFacts": [
+        { "value": "80.8%", "label": "développeurs utilisant des agents IA chaque jour" },
+        { "value": "70.8%", "label": "hausse annuelle de l'utilisation quotidienne d'agents" },
+        { "value": "41.1%", "label": "rencontrent des problèmes d'agents chaque jour" },
+        { "value": "92.3%", "label": "ont construit des logiciels qu'ils achetaient avant" }
+      ]
+    },
+    "ar": {
+      "title": "وكلاء الذكاء الاصطناعي باتوا عادةً يومية. جعلها موثوقة هو التحدي الجديد.",
+      "summary": "كشف استطلاع جديد شمل أكثر من 550 مطوراً أن 80.8% يستخدمون وكلاء الذكاء الاصطناعي يومياً — لكن معظم الفرق تصطدم بمشكلات حقيقية في الموثوقية والتكاليف.",
+      "body": [
+        "لم تعد وكلاء الذكاء الاصطناعي شيئاً تتجرب فيه معظم فرق البرمجيات — بل أصبحت **جزءاً من العمل اليومي**. كشف استطلاع جديد شمل أكثر من 550 مطوراً، نشرته Temporal هذا الأسبوع، أن 80.8% يستخدمون وكلاء الذكاء الاصطناعي كل يوم، مقارنةً بـ 47.3% قبل عام واحد فقط. هذه القفزة — قرابة 71% في اثني عشر شهراً — ليست تبنياً تدريجياً. إنها تحول جذري في طريقة بناء البرمجيات.",
+        "لكن الاستخدام اليومي لا يعني الاستخدام السلس. أكثر من أربعة من كل عشرة مطورين يقولون إنهم يصطدمون بمشكلات مرتبطة بالوكلاء كل يوم. تعاني الفرق أكثر من ثلاثة أشياء: تتبع ما كان يفعله الوكيل حين يحدث خطأ، وتصحيح الأعطال، والسيطرة على التكاليف. التحول **من التبني إلى الموثوقية** هو القصة الحقيقية الآن. الفرق المتقدمة ليست الأسرع — بل تلك التي أخذت هذه المشكلات الثلاث بجدية منذ البداية.",
+        "التكاليف أهم مما تتوقع معظم الفرق. يقول قرابة 80% من المطورين إن **تكاليف الرموز تقيّد فعلياً** ما يستطيعون فعله. الرموز هي الأجزاء الصغيرة من النص التي تقرأها نماذج الذكاء الاصطناعي وتكتبها، وكل نموذج يحتسب رسوماً عليها. فريق يشغّل وكلاء طوال اليوم قد تتراكم عليه فواتير ضخمة بسرعة، وهذه الفواتير تعيق مشاريع حقيقية قبل أن تبلغ إمكاناتها.",
+        "الرقم الأكثر إثارةً في التقرير: 92.3% من المطورين حاولوا بناء برمجيات كانوا سيشترونها في السابق. الوكلاء **يغيّرون معادلة البناء مقابل الشراء** للفرق الصغيرة. شركة ناشئة كانت تشتري أداة جدولة أو منتج تحليل يمكنها الآن أن تطلب من مطور واحد بناء نسخة عاملة خلال أسبوع، مع قيام الوكلاء بمعظم العمل الشاق.",
+        "إن لم يكن فريقك يستخدم الوكلاء يومياً بعد، فأنت متأخر عن متوسط فرق الهندسة. لكن السرعة وحدها ليست الميزة — الشركات الرابحة الآن هي تلك التي عاملت **الموثوقية وضبط التكاليف والمسؤولية الواضحة** باعتبارها مشكلات أساسية من اليوم الأول."
+      ],
+      "keyFacts": [
+        { "value": "80.8%", "label": "مطورون يستخدمون وكلاء الذكاء الاصطناعي يومياً" },
+        { "value": "70.8%", "label": "نمو سنوي في الاستخدام اليومي للوكلاء" },
+        { "value": "41.1%", "label": "يصطدمون بمشكلات يومية مع الوكلاء" },
+        { "value": "92.3%", "label": "جربوا بناء برمجيات كانوا سيشترونها" }
+      ]
+    }
+  }
+}
