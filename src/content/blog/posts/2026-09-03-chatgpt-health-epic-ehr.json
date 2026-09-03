@@ -1,0 +1,119 @@
+{
+  "slug": "2026-09-03-chatgpt-health-epic-ehr",
+  "date": "2026-09-03",
+  "tags": ["ai", "healthcare"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/09/openai-connects-epic-health-records-public-data-chatgpt-healthcare.jpg",
+    "alt": "ChatGPT Health and Epic electronic health record integration",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    {
+      "title": "TechCrunch — ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/"
+    },
+    {
+      "title": "Unite.AI — OpenAI Connects Epic Health Records and Public Data to ChatGPT",
+      "url": "https://www.unite.ai/openai-connects-epic-health-records-and-public-data-to-chatgpt/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI Can Now Read Your Doctor's Notes — Here's What Actually Changes",
+      "summary": "OpenAI connected ChatGPT to Epic, the system holding 325 million patients' medical records, making AI a real clinical tool for the first time.",
+      "body": [
+        "Something big happened in healthcare this week. OpenAI connected ChatGPT to Epic — the computer system that stores medical records for **325 million patients** across the US. Starting September 1, doctors at hospitals like UCSF, Cedars-Sinai and HCA Healthcare can open a patient file and ask ChatGPT to summarize it, pull up recent test results or prepare handover notes — without ever switching screens.",
+        "The hardest part of AI in healthcare was never the technology. It was getting close to patient data safely. Doctors have always had to open several systems, read pages of notes and piece the story together by hand. Now a HIPAA-compliant AI — one that meets the legal rules for handling medical records — can do that work in seconds. It is read-only, meaning it can look but not write, so **the doctor makes every final call**.",
+        "OpenAI did not just flip a switch. Physicians in 60 countries reviewed **more than 700,000 AI responses** and rated 99.1% of them safe across 27 different clinical situations. A separate test gave the system a 93% accuracy rating across five different data sources. Those are not small numbers.",
+        "For anyone building software for hospitals or clinics, the ground just shifted. ChatGPT is now inside the clinical workflow. The question is no longer 'should we add AI?' — **that question has already been answered**. The real work is building alongside what is already there. For teams in law, finance or any other regulated field, this is what comes next: when a platform-level AI arrives with a compliance wrapper and safety data, it does not wait."
+      ],
+      "keyFacts": [
+        { "value": "325M", "label": "patients in Epic's system" },
+        { "value": "99.1%", "label": "safety rating in physician reviews" },
+        { "value": "700,000+", "label": "AI responses reviewed by doctors" },
+        { "value": "9", "label": "official health data sources in the plugin" }
+      ]
+    },
+    "de": {
+      "title": "KI kann jetzt Ihre Arztnotizen lesen — was das wirklich ändert",
+      "summary": "OpenAI hat ChatGPT mit Epic verbunden, dem System mit den Patientenakten von 325 Millionen Menschen, und macht KI damit erstmals zu einem echten Werkzeug in der klinischen Praxis.",
+      "body": [
+        "Diese Woche ist etwas Bedeutendes im Gesundheitswesen passiert. OpenAI hat ChatGPT mit Epic verbunden — dem System, das Patientenakten von **325 Millionen Patienten** in den USA speichert. Seit dem 1. September können Ärzte in Kliniken wie UCSF, Cedars-Sinai und HCA Healthcare eine Patientenakte öffnen und ChatGPT bitten, sie zusammenzufassen, Testergebnisse hervorzuheben oder Übergabenotizen vorzubereiten — ohne den Bildschirm zu wechseln.",
+        "Das schwierigste an KI im Gesundheitswesen war nie die Technologie selbst, sondern der sichere Zugang zu Patientendaten. Ärzte mussten bisher mehrere Systeme öffnen, seitenweise Notizen lesen und sich selbst ein Bild machen. Jetzt kann eine HIPAA-konforme KI — eine, die die gesetzlichen Regeln für die Verarbeitung von Patientendaten erfüllt — diese Arbeit in Sekunden erledigen. Das System kann nur lesen, nicht schreiben: **die letzte Entscheidung trifft immer der Arzt**.",
+        "OpenAI hat das nicht einfach so eingeschaltet. Ärzte aus 60 Ländern haben **mehr als 700.000 KI-Antworten** geprüft und 99,1 % davon in 27 klinischen Situationen als sicher eingestuft. Ein gesonderter Test ergab eine Genauigkeitsrate von 93 % über fünf verschiedene Datenquellen hinweg. Das sind keine kleinen Zahlen.",
+        "Wer Software für Kliniken entwickelt, muss umdenken. ChatGPT ist jetzt Teil des klinischen Arbeitsablaufs. Die Frage lautet nicht mehr 'Sollen wir KI einsetzen?' — **diese Frage ist schon beantwortet**. Es geht jetzt darum, neben dem zu bauen, was bereits da ist. Teams in Recht, Finanzen und anderen regulierten Bereichen sollten genau hinschauen: Wenn eine plattformbasierte KI mit Compliance-Zertifikat und Sicherheitsdaten kommt, wartet sie nicht."
+      ],
+      "keyFacts": [
+        { "value": "325M", "label": "Patienten im Epic-System" },
+        { "value": "99.1%", "label": "Sicherheitsbewertung durch Ärzte" },
+        { "value": "700.000+", "label": "von Ärzten geprüfte KI-Antworten" },
+        { "value": "9", "label": "offizielle Gesundheitsdatenquellen im Plugin" }
+      ]
+    },
+    "nl": {
+      "title": "AI kan nu de notities van je dokter lezen — dit verandert er echt",
+      "summary": "OpenAI koppelde ChatGPT aan Epic, het systeem met patiëntgegevens van 325 miljoen mensen, waarmee AI voor het eerst een echt hulpmiddel in de klinische praktijk wordt.",
+      "body": [
+        "Deze week is er iets belangrijks gebeurd in de gezondheidszorg. OpenAI koppelde ChatGPT aan Epic — het systeem dat patiëntgegevens van **325 miljoen patiënten** in de VS bewaart. Vanaf 1 september kunnen artsen in ziekenhuizen als UCSF, Cedars-Sinai en HCA Healthcare een patiëntdossier openen en ChatGPT vragen het samen te vatten, recente testresultaten op te zoeken of overdrachtsnotities voor te bereiden — zonder van scherm te wisselen.",
+        "Het moeilijkste aan AI in de zorg was nooit de technologie. Het was de veilige toegang tot patiëntgegevens. Artsen moesten altijd meerdere systemen openen, pagina's met notities lezen en zelf het verhaal samenstellen. Nu kan een HIPAA-conforme AI — een die voldoet aan de wettelijke regels voor medische gegevens — dat werk in seconden doen. Het systeem kan alleen lezen, niet schrijven: **de arts neemt altijd de eindbeslissing**.",
+        "OpenAI heeft dit niet zomaar uitgerold. Artsen uit 60 landen beoordeelden **meer dan 700.000 AI-antwoorden** en gaven 99,1% ervan een veiligheidsstempel in 27 klinische situaties. Een apart onderzoek gaf het systeem een nauwkeurigheidspercentage van 93% over vijf databronnen. Dat zijn geen kleine getallen.",
+        "Voor iedereen die software bouwt voor ziekenhuizen is het speelveld veranderd. ChatGPT zit nu in de klinische workflow. De vraag is niet meer 'moeten we AI toevoegen?' — **die vraag is al beantwoord**. De echte uitdaging is nu bouwen naast wat er al is. Teams in recht, financiën en andere gereguleerde sectoren mogen dit goed in de gaten houden: platform-AI met een compliance-certificaat en veiligheidsdata beweegt snel."
+      ],
+      "keyFacts": [
+        { "value": "325M", "label": "patiënten in het Epic-systeem" },
+        { "value": "99.1%", "label": "veiligheidsscore in artsbeoordelingen" },
+        { "value": "700.000+", "label": "AI-antwoorden beoordeeld door artsen" },
+        { "value": "9", "label": "officiële gezondheidsdatabronnen in de plugin" }
+      ]
+    },
+    "es": {
+      "title": "La IA ahora puede leer las notas de tu médico — esto es lo que cambia",
+      "summary": "OpenAI conectó ChatGPT con Epic, el sistema que almacena registros de 325 millones de pacientes, convirtiendo la IA por primera vez en una herramienta real dentro de la consulta clínica.",
+      "body": [
+        "Esta semana ocurrió algo importante en el sector de la salud. OpenAI conectó ChatGPT con Epic — el sistema que almacena los registros médicos de **325 millones de pacientes** en Estados Unidos. Desde el 1 de septiembre, los médicos de hospitales como UCSF, Cedars-Sinai y HCA Healthcare pueden abrir el expediente de un paciente y pedirle a ChatGPT que lo resuma, busque resultados recientes de análisis o prepare notas de traspaso — todo sin cambiar de pantalla.",
+        "El mayor obstáculo de la IA en la sanidad nunca fue la tecnología. Fue el acceso seguro a los datos de los pacientes. Los médicos siempre han tenido que abrir varios sistemas, leer páginas de notas y armar el cuadro clínico por su cuenta. Ahora una IA con cumplimiento HIPAA — que sigue las normas legales para manejar datos médicos — puede hacer ese trabajo en segundos. Solo puede leer, no escribir: **el médico toma siempre la decisión final**.",
+        "OpenAI no lo lanzó sin evidencia. Médicos de 60 países revisaron **más de 700.000 respuestas de la IA** y calificaron el 99,1% como seguras en 27 situaciones clínicas distintas. Una prueba separada dio al sistema una precisión del 93% en cinco fuentes de datos. No son cifras menores.",
+        "Para quienes desarrollan software para hospitales o clínicas, el terreno acaba de cambiar. ChatGPT ya está dentro del flujo de trabajo clínico. La pregunta ya no es '¿deberíamos añadir IA?' — **esa pregunta ya tiene respuesta**. Ahora se trata de cómo construir junto a lo que ya existe. Los equipos de derecho, finanzas y otros sectores regulados deberían prestar atención: cuando una IA de plataforma llega con sus credenciales de cumplimiento y datos de seguridad, no espera."
+      ],
+      "keyFacts": [
+        { "value": "325M", "label": "pacientes en el sistema Epic" },
+        { "value": "99.1%", "label": "índice de seguridad en las revisiones médicas" },
+        { "value": "700.000+", "label": "respuestas de IA revisadas por médicos" },
+        { "value": "9", "label": "fuentes oficiales de datos de salud en el plugin" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA peut maintenant lire les notes de votre médecin — ce qui change vraiment",
+      "summary": "OpenAI a connecté ChatGPT à Epic, le système qui gère les dossiers de 325 millions de patients, faisant de l'IA un véritable outil clinique pour la première fois.",
+      "body": [
+        "Quelque chose d'important s'est produit dans le secteur de la santé cette semaine. OpenAI a connecté ChatGPT à Epic — le système qui stocke les dossiers médicaux de **325 millions de patients** aux États-Unis. Depuis le 1er septembre, les médecins de grands hôpitaux comme l'UCSF, Cedars-Sinai et HCA Healthcare peuvent ouvrir un dossier patient et demander à ChatGPT de le résumer, de retrouver des résultats d'analyses récents ou de préparer des notes de passation — sans jamais changer d'écran.",
+        "Le plus grand obstacle à l'IA dans les soins de santé n'a jamais été la technologie. C'était l'accès sécurisé aux données des patients. Les médecins ont toujours dû ouvrir plusieurs systèmes, lire des pages de notes et reconstituer le tableau clinique par eux-mêmes. Aujourd'hui, une IA conforme HIPAA — qui respecte les règles légales de gestion des données médicales — peut faire ce travail en quelques secondes. Elle ne peut que lire, pas écrire : **c'est toujours le médecin qui décide**.",
+        "OpenAI n'a pas lancé cela à la légère. Des médecins de 60 pays ont évalué **plus de 700 000 réponses de l'IA** et en ont jugé 99,1 % sûres dans 27 situations cliniques différentes. Un test séparé a donné au système un taux de précision de 93 % sur cinq sources de données. Ce ne sont pas de petits chiffres.",
+        "Pour ceux qui développent des logiciels pour les hôpitaux et les cliniques, les règles viennent de changer. ChatGPT est maintenant intégré dans le flux de travail clinique. La question n'est plus 'faut-il ajouter de l'IA ?' — **cette question est déjà résolue**. Il s'agit maintenant de savoir comment construire aux côtés de ce qui existe déjà. Les équipes du droit, de la finance et de tout autre secteur réglementé feraient bien d'y prêter attention : quand une IA de plateforme arrive avec ses certifications de conformité et ses données de sécurité, elle n'attend personne."
+      ],
+      "keyFacts": [
+        { "value": "325M", "label": "patients dans le système Epic" },
+        { "value": "99.1%", "label": "taux de sécurité dans les évaluations médicales" },
+        { "value": "700 000+", "label": "réponses IA évaluées par des médecins" },
+        { "value": "9", "label": "sources officielles de données de santé dans le plugin" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي يمكنه الآن قراءة ملاحظات طبيبك — إليك ما يتغير فعلاً",
+      "summary": "ربط OpenAI نظام ChatGPT بـ Epic، المنصة التي تحتوي على سجلات 325 مليون مريض، مما يجعل الذكاء الاصطناعي أداةً حقيقية في العمل الطبي لأول مرة.",
+      "body": [
+        "حدث شيء مهم في قطاع الصحة هذا الأسبوع. ربطت OpenAI نظام ChatGPT بـ Epic — المنصة التي تخزّن السجلات الطبية لـ **325 مليون مريض** في الولايات المتحدة. اعتبارًا من الأول من سبتمبر، بات بإمكان الأطباء في مستشفيات كبرى مثل UCSF وCedars-Sinai وHCA Healthcare فتح ملف المريض وطلب من ChatGPT تلخيصه، أو استرجاع نتائج الفحوصات الأخيرة، أو إعداد ملاحظات التسليم — كل ذلك دون تبديل الشاشات.",
+        "لم يكن العائق الأكبر أمام الذكاء الاصطناعي في الرعاية الصحية هو التقنية نفسها، بل كان الوصول الآمن إلى بيانات المرضى. اضطر الأطباء دائمًا إلى فتح أنظمة متعددة وقراءة صفحات من الملاحظات وتجميع الصورة السريرية بأنفسهم. الآن يستطيع ذكاء اصطناعي متوافق مع قانون HIPAA — وهو القانون الأمريكي الذي ينظّم التعامل مع البيانات الطبية — إنجاز هذه المهمة في ثوانٍ. الجهاز يقرأ فقط، لا يكتب: **القرار النهائي يبقى بيد الطبيب دائمًا**.",
+        "لم تطلق OpenAI هذه الميزة دون دليل. راجع أطباء من 60 دولة **أكثر من 700,000 استجابة للذكاء الاصطناعي** وصنّفوا 99.1% منها آمنة في 27 حالة سريرية مختلفة. وأظهر اختبار منفصل دقةً بنسبة 93% عبر خمسة مصادر بيانات. هذه ليست أرقامًا صغيرة.",
+        "على كل من يطوّر برمجيات للمستشفيات أو العيادات أن يُعيد حساباته. أصبح ChatGPT جزءًا من سير العمل السريري الآن. لم تعد السؤال الحقيقي هو «هل يجب أن نضيف ذكاءً اصطناعيًا؟» — **هذا السؤال وجد إجابته بالفعل**. المهمة الحقيقية الآن هي كيف تبني إلى جانب ما هو موجود أصلًا. وعلى الفرق العاملة في القانون والتمويل والقطاعات المنظّمة الأخرى أن ترقب: حين تصل منصة ذكاء اصطناعي مدعومة ببيانات الامتثال والسلامة، فهي لا تنتظر أحدًا."
+      ],
+      "keyFacts": [
+        { "value": "325M", "label": "مريض في منظومة Epic" },
+        { "value": "99.1%", "label": "تقييم السلامة في مراجعات الأطباء" },
+        { "value": "700,000+", "label": "استجابة للذكاء الاصطناعي راجعها الأطباء" },
+        { "value": "9", "label": "مصادر بيانات صحية رسمية في المكوّن الإضافي" }
+      ]
+    }
+  }
+}
