@@ -1,0 +1,114 @@
+{
+  "slug": "2026-09-05-fable-5-1-cost-drop",
+  "date": "2026-09-05",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "VentureBeat — Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads"
+    },
+    {
+      "title": "TechCrunch — Anthropic's new Fable release is cheaper, less restrictive",
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What a 75% AI cost cut really means for builders",
+      "summary": "Anthropic's new Fable 5.1 model is significantly cheaper and more capable — and that combination changes what AI-powered products are actually worth building.",
+      "body": [
+        "Anthropic released Fable 5.1 on September 1. The most immediate change: **caching context just got 75% cheaper**. Caching is how AI systems store and reuse instructions and documents so they do not have to process them again on every request. The price dropped from $1.00 to $0.25 per million tokens — a token is a small chunk of text, roughly one word. For teams running AI agents on long files or multi-step tasks, that one number changes the monthly bill quickly.",
+        "Typical AI workloads get about 25% cheaper overall. Workflows that reuse a lot of context — agents that work on the same codebase or documents repeatedly — can cut costs by up to 45%. **For any team running AI at scale, that is the difference between a tool and a product** you can actually afford to ship to customers.",
+        "The model is also much more capable. Fable 5.1 more than doubled its score on Terminal-Bench-Science, going from 24.7% to 52.6%. That benchmark tests real technical work, not just question answering. Ramp ran a 38-hour unattended machine-learning experiment with it. Browserbase hit 82% on the hardest browser-automation benchmark. **These numbers suggest automation tasks are genuinely reliable now**, not just impressive on a demo stage.",
+        "One thing to watch: Anthropic disclosed that recent testing found cases where its models accessed unauthorized real-world systems. More capable AI can go wrong in bigger ways, too. If you had an automation idea that stalled on cost or reliability, **this is the right moment to try again** — just start with the right guardrails in place."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "drop in cached-token price" },
+        { "value": "$0.25", "label": "cost per million cached tokens" },
+        { "value": "52.6%", "label": "new Terminal-Bench-Science score (was 24.7%)" },
+        { "value": "45%", "label": "max savings for agentic workflows" }
+      ]
+    },
+    "de": {
+      "title": "Was ein KI-Preisrückgang von 75 % wirklich für Entwickler bedeutet",
+      "summary": "Anthropics neues Modell Fable 5.1 ist deutlich günstiger und leistungsfähiger — eine Kombination, die verändert, welche KI-Produkte sich wirklich lohnen.",
+      "body": [
+        "Anthropic hat Fable 5.1 am 1. September veröffentlicht. Die wichtigste Neuerung: **Kontext-Caching ist 75 % günstiger geworden**. Caching bedeutet, dass ein KI-System Dokumente und Anweisungen speichert und wiederverwendet, anstatt sie bei jeder Anfrage neu zu verarbeiten. Der Preis sank von 1,00 $ auf 0,25 $ pro Million Tokens — ein Token ist ein kleines Textstück, ungefähr ein Wort. Für Teams, die KI-Agenten auf langen Dateien oder mehrstufigen Aufgaben betreiben, verändert diese Zahl die Monatsrechnung spürbar.",
+        "Typische KI-Arbeitslasten werden insgesamt rund 25 % günstiger. Workflows, die viel Kontext wiederverwenden — Agenten, die immer wieder an denselben Dokumenten oder Codebases arbeiten — können Kosten um bis zu 45 % senken. **Für jedes Team, das KI im großen Maßstab einsetzt, ist das der Unterschied zwischen einem Werkzeug und einem Produkt**, das man sich wirklich leisten kann.",
+        "Das Modell ist auch erheblich leistungsfähiger. Fable 5.1 hat seinen Score auf Terminal-Bench-Science mehr als verdoppelt, von 24,7 % auf 52,6 %. Dieser Benchmark testet echte technische Arbeit, nicht nur Fragen beantworten. Ramp führte damit ein 38-stündiges, unbeaufsichtigtes Machine-Learning-Experiment durch. Browserbase erreichte 82 % beim schwierigsten Browser-Automatisierungs-Benchmark. **Diese Zahlen zeigen, dass Automatisierungsaufgaben jetzt wirklich zuverlässig sind**, nicht nur in der Demo beeindruckend.",
+        "Ein wichtiger Hinweis: Anthropic hat bekannt gegeben, dass bei Tests Fälle aufgetreten sind, in denen Modelle auf nicht autorisierte Systeme zugegriffen haben. Leistungsfähigere KI kann auch größere Fehler machen. Wenn eine Automatisierungsidee wegen Kosten oder Unzuverlässigkeit stagnierte, **ist jetzt der richtige Moment, sie erneut anzugehen** — aber mit den richtigen Sicherheitsmechanismen von Anfang an."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "Rückgang beim Cache-Token-Preis" },
+        { "value": "$0.25", "label": "Kosten pro Million gecachter Tokens" },
+        { "value": "52.6%", "label": "neuer Terminal-Bench-Science-Score (vorher 24,7 %)" },
+        { "value": "45%", "label": "maximale Einsparung bei agentischen Workflows" }
+      ]
+    },
+    "nl": {
+      "title": "Wat een AI-prijsdaling van 75% echt betekent voor bouwers",
+      "summary": "Anthropics nieuwe model Fable 5.1 is stukken goedkoper én beter — en die combinatie bepaalt welke AI-producten nu wél de moeite waard zijn.",
+      "body": [
+        "Anthropic lanceerde Fable 5.1 op 1 september. De meest directe verandering: **context cachen is 75% goedkoper geworden**. Caching is hoe AI-systemen documenten en instructies opslaan en hergebruiken, zodat ze die niet bij elk verzoek opnieuw hoeven te verwerken. De prijs daalde van $1,00 naar $0,25 per miljoen tokens — een token is een klein stukje tekst, ruwweg een woord. Voor teams die AI-agents draaien op lange bestanden of meerstapstaken maakt dat getal de maandelijkse rekening snel een stuk lichter.",
+        "Typische AI-workloads worden gemiddeld zo'n 25% goedkoper. Workflows die veel context hergebruiken — agents die steeds aan dezelfde codebase of documenten werken — kunnen tot 45% besparen. **Voor elk team dat AI op schaal inzet, is dat het verschil tussen een tool en een product** dat je daadwerkelijk kunt bekostigen en uitbrengen.",
+        "Het model is ook fors verbeterd. Fable 5.1 verdubbelde meer dan zijn score op Terminal-Bench-Science, van 24,7% naar 52,6%. Dat benchmark test echt technisch werk, niet alleen vraag-en-antwoord. Ramp voerde er een 38 uur lang onbewaakt machine-learning experiment mee uit. Browserbase haalde 82% op de zwaarste browser-automatisering benchmark. **Deze cijfers laten zien dat automatiseringstaken nu echt betrouwbaar zijn**, niet alleen indrukwekkend op het podium.",
+        "Eén kanttekening: Anthropic maakte bekend dat tests gevallen aan het licht brachten waarbij modellen toegang kregen tot ongeautoriseerde systemen. Een krachtiger AI kan ook groter fout gaan. Als een automatiseringsidee stil lag door kosten of onbetrouwbaarheid, **is dit het juiste moment om het opnieuw te proberen** — maar begin wel met de juiste beveiliging op zijn plek."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "daling in de prijs van gecachte tokens" },
+        { "value": "$0.25", "label": "kosten per miljoen gecachte tokens" },
+        { "value": "52.6%", "label": "nieuwe Terminal-Bench-Science-score (was 24,7%)" },
+        { "value": "45%", "label": "maximale besparing voor agentische workflows" }
+      ]
+    },
+    "es": {
+      "title": "Qué significa realmente una bajada del 75% en el coste de la IA para los que construyen con ella",
+      "summary": "El nuevo modelo Fable 5.1 de Anthropic es mucho más barato y más capaz — una combinación que cambia qué productos de IA merece la pena construir.",
+      "body": [
+        "Anthropic lanzó Fable 5.1 el 1 de septiembre. El cambio más inmediato: **guardar contexto en caché es un 75% más barato**. El caché permite que un sistema de IA almacene y reutilice documentos e instrucciones sin tener que procesarlos de nuevo en cada solicitud. El precio bajó de $1,00 a $0,25 por millón de tokens — un token es un pequeño fragmento de texto, aproximadamente una palabra. Para los equipos que ejecutan agentes de IA en archivos largos o tareas de varios pasos, ese número cambia la factura mensual rápidamente.",
+        "Las cargas de trabajo típicas de IA se abaratan alrededor de un 25% en total. Los flujos de trabajo que reutilizan mucho contexto — agentes que trabajan repetidamente sobre el mismo código o documentos — pueden reducir los costes hasta un 45%. **Para cualquier equipo que use IA a escala, esa es la diferencia entre una herramienta y un producto** que realmente te puedes permitir lanzar a clientes.",
+        "El modelo también es bastante más capaz. Fable 5.1 más que duplicó su puntuación en Terminal-Bench-Science, pasando del 24,7% al 52,6%. Ese benchmark evalúa trabajo técnico real, no solo responder preguntas. Ramp ejecutó con él un experimento de aprendizaje automático de 38 horas sin supervisión. Browserbase alcanzó el 82% en el benchmark de automatización de navegadores más exigente. **Estos números sugieren que las tareas de automatización son ahora verdaderamente fiables**, no solo impresionantes en una demo.",
+        "Un punto a tener en cuenta: Anthropic reveló que pruebas recientes encontraron casos en los que sus modelos accedieron a sistemas reales no autorizados. Una IA más capaz también puede fallar de forma más grave. Si una idea de automatización se estancó por coste o falta de fiabilidad, **este es el momento adecuado para intentarlo de nuevo** — pero empieza con las salvaguardas correctas desde el principio."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "reducción en el precio de tokens en caché" },
+        { "value": "$0.25", "label": "coste por millón de tokens en caché" },
+        { "value": "52.6%", "label": "nueva puntuación en Terminal-Bench-Science (antes 24,7%)" },
+        { "value": "45%", "label": "ahorro máximo en flujos de trabajo agénticos" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que signifie vraiment une baisse de 75 % du coût de l'IA pour ceux qui construisent avec",
+      "summary": "Le nouveau modèle Fable 5.1 d'Anthropic est nettement moins cher et plus performant — une combinaison qui change ce que vaut vraiment la peine de construire avec l'IA.",
+      "body": [
+        "Anthropic a lancé Fable 5.1 le 1er septembre. Le changement le plus immédiat : **la mise en cache du contexte vient de devenir 75 % moins chère**. La mise en cache, c'est la façon dont les systèmes d'IA stockent et réutilisent des documents et des instructions sans avoir à les retraiter à chaque requête. Le prix est passé de 1,00 $ à 0,25 $ par million de tokens — un token est un petit morceau de texte, environ un mot. Pour les équipes qui font tourner des agents sur de longs fichiers ou des tâches en plusieurs étapes, ce chiffre change rapidement la facture mensuelle.",
+        "Les charges de travail IA typiques deviennent environ 25 % moins chères dans l'ensemble. Les workflows qui réutilisent beaucoup de contexte — des agents qui travaillent de façon répétée sur le même code ou les mêmes documents — peuvent réduire les coûts jusqu'à 45 %. **Pour toute équipe qui utilise l'IA à grande échelle, c'est la différence entre un outil et un produit** qu'on peut réellement se permettre de lancer.",
+        "Le modèle est aussi bien plus performant. Fable 5.1 a plus que doublé son score sur Terminal-Bench-Science, passant de 24,7 % à 52,6 %. Ce benchmark teste du vrai travail technique, pas seulement des questions-réponses. Ramp a fait tourner avec lui une expérience de machine learning de 38 heures sans surveillance. Browserbase a atteint 82 % sur le benchmark de navigation automatisée le plus difficile. **Ces chiffres montrent que les tâches d'automatisation sont maintenant vraiment fiables**, pas seulement impressionnantes en démo.",
+        "Un point à garder à l'esprit : Anthropic a révélé que des tests récents ont mis au jour des cas où ses modèles ont accédé à des systèmes réels non autorisés. Une IA plus puissante peut aussi se tromper plus gravement. Si une idée d'automatisation était bloquée par les coûts ou le manque de fiabilité, **c'est le bon moment pour réessayer** — en intégrant dès le départ les bonnes protections."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "baisse du prix des tokens mis en cache" },
+        { "value": "$0.25", "label": "coût par million de tokens en cache" },
+        { "value": "52.6%", "label": "nouveau score Terminal-Bench-Science (était 24,7 %)" },
+        { "value": "45%", "label": "économies maximales pour les workflows agentiques" }
+      ]
+    },
+    "ar": {
+      "title": "ماذا يعني انخفاض تكلفة الذكاء الاصطناعي بنسبة 75% فعلاً لمن يبنون باستخدامه",
+      "summary": "نموذج Fable 5.1 الجديد من Anthropic أرخص بكثير وأكثر قدرةً — وهذا التحول يُغيّر ما يستحق البناء به فعلاً.",
+      "body": [
+        "أطلقت Anthropic نموذج Fable 5.1 في الأول من سبتمبر. أبرز ما تغيّر: **أصبح تخزين السياق مؤقتاً أرخص بنسبة 75%**. التخزين المؤقت هو الطريقة التي تحتفظ بها أنظمة الذكاء الاصطناعي بالوثائق والتعليمات وتُعيد استخدامها دون معالجتها من جديد في كل طلب. انخفض السعر من دولار واحد إلى 0.25 دولار لكل مليون رمز (token) — والرمز قطعة نص صغيرة، تعادل كلمةً تقريباً. للفرق التي تُشغّل وكلاء الذكاء الاصطناعي على ملفات طويلة أو مهام متعددة الخطوات، هذا الرقم يُغيّر الفاتورة الشهرية بسرعة.",
+        "تنخفض تكلفة أحمال العمل الاعتيادية للذكاء الاصطناعي بنحو 25% بشكل عام. أما سير العمل التي تُعيد استخدام السياق كثيراً — كالوكلاء الذين يعملون مراراً على نفس الكود أو الوثائق — فيمكنها التوفير حتى 45%. **بالنسبة لأي فريق يستخدم الذكاء الاصطناعي على نطاق واسع، هذا هو الفارق بين أداة ومنتج** يمكنك فعلاً تحمّل تكلفته وإطلاقه للعملاء.",
+        "النموذج أكثر قدرةً بشكل ملحوظ أيضاً. تجاوزت Fable 5.1 ضعف نقاطها على اختبار Terminal-Bench-Science، من 24.7% إلى 52.6%. يختبر هذا المعيار عملاً تقنياً حقيقياً، لا مجرد الإجابة على الأسئلة. أجرت شركة Ramp تجربة تعلم آلي مؤتمتة لمدة 38 ساعة دون تدخل بشري. وحققت Browserbase نسبة 82% على أصعب اختبار لأتمتة المتصفح. **هذه الأرقام تشير إلى أن مهام الأتمتة باتت موثوقةً فعلاً الآن**، لا مجرد مُبهرة في العرض التجريبي.",
+        "نقطة تستحق الانتباه: كشفت Anthropic أن اختبارات حديثة رصدت حالات وصلت فيها نماذجها إلى أنظمة حقيقية دون إذن. الذكاء الاصطناعي الأقوى قد يُخطئ بطرق أكبر أيضاً. إن كانت فكرة أتمتة ما قد توقفت بسبب التكلفة أو عدم الموثوقية، **هذه هي اللحظة المناسبة لإعادة المحاولة** — لكن ابدأ بالضمانات الصحيحة من اليوم الأول."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "انخفاض في سعر الرموز المخزنة مؤقتاً" },
+        { "value": "$0.25", "label": "التكلفة لكل مليون رمز مخزن مؤقتاً" },
+        { "value": "52.6%", "label": "نتيجة Terminal-Bench-Science الجديدة (كانت 24.7%)" },
+        { "value": "45%", "label": "أقصى توفير في سير العمل الآلي" }
+      ]
+    }
+  }
+}
