@@ -1,0 +1,115 @@
+{
+  "slug": "2026-09-06-gpt-6-astra-computer-operator",
+  "date": "2026-09-06",
+  "tags": ["ai", "automation"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "eesel AI — GPT-6 Astra: what it does, what it costs, and the catch", "url": "https://www.eesel.ai/blog/gpt-6-astra" },
+    { "title": "OpenRouter — GPT-6 Astra API Pricing & Benchmarks", "url": "https://openrouter.ai/openai/gpt-6-astra" },
+    { "title": "DataCamp — GPT-6 Astra: Features, Benchmarks, and Pricing", "url": "https://www.datacamp.com/blog/gpt-6-astra" }
+  ],
+  "locales": {
+    "en": {
+      "title": "What it means when AI can operate your computer on its own",
+      "summary": "OpenAI's new GPT-6 Astra can run a computer by itself — and that changes what AI automation is actually good for.",
+      "body": [
+        "OpenAI shipped GPT-6 Astra on September 3. It is not just a smarter chatbot. It is **built to operate a computer on its own** — clicking, typing, navigating apps — without anyone guiding each step. OpenAI calls it their most intelligent and aligned model. But the more useful description is simpler: it can get things done on a screen by itself.",
+        "The benchmarks show why this matters. On OSWorld 2.0 — a test that measures how well an AI completes real desktop tasks — Astra scored 72.6% and finished those tasks 47% faster than the previous version. On ARC-AGI-3, a general problem-solving test, it scored 99.9%. These numbers **cross a threshold where automated computer work becomes practical**, not just impressive in a demo.",
+        "There is a deliberate caution built in. Astra scored 100% on ExploitBench, a cybersecurity test. OpenAI locked the most sensitive features behind a special access program, rating this the first model it considers a \"Critical\" cybersecurity risk — because it **can find unknown security flaws in protected systems on its own.** The power that makes it useful also demands careful handling.",
+        "The price reflects the ambition. Astra costs $10 per million input tokens and $50 per million output tokens — **roughly 2.5 times the cost of the previous flagship.** It uses fewer steps to complete a task, so the total cost per job may still be reasonable. But this is a model built for high-value, complex work — not for cheap, high-volume tasks.",
+        "The practical shift is worth acting on now. **If you have a repeatable, computer-based task** — moving data between systems, running a research workflow, filling structured reports — Astra is strong enough to test in a real process, not just a demo. The question is no longer whether AI can do it. The question is where it fits and what it costs."
+      ],
+      "keyFacts": [
+        { "value": "$10 / $50", "label": "per million tokens, input / output" },
+        { "value": "72.6%", "label": "desktop task completion rate (OSWorld 2.0)" },
+        { "value": "99.9%", "label": "score on ARC-AGI-3 reasoning benchmark" },
+        { "value": "2.5×", "label": "price increase vs. previous flagship" }
+      ]
+    },
+    "de": {
+      "title": "Was es bedeutet, wenn eine KI Ihren Computer selbst bedient",
+      "summary": "OpenAIs neues GPT-6 Astra kann einen Computer eigenständig steuern — das verändert, wofür KI-Automatisierung wirklich geeignet ist.",
+      "body": [
+        "OpenAI hat GPT-6 Astra am 3. September veröffentlicht. Es ist nicht einfach ein schlauerer Chatbot. Es ist **dafür gebaut, einen Computer selbständig zu bedienen** — klicken, tippen, in Apps navigieren — ohne dass jemand jeden Schritt begleitet. OpenAI nennt es ihr intelligentestes und verlässlichstes Modell. Die nützlichere Beschreibung ist einfacher: Es kann Aufgaben auf einem Bildschirm alleine erledigen.",
+        "Die Benchmarks zeigen, warum das wichtig ist. Im OSWorld-2.0-Test — der misst, wie gut eine KI echte Desktop-Aufgaben erledigt — erzielte Astra 72,6 % und schloss Aufgaben 47 % schneller ab als die Vorgängerversion. Beim ARC-AGI-3-Test, einem allgemeinen Problemlösungstest, erreichte es 99,9 %. Diese Zahlen **überschreiten eine Schwelle, ab der automatisierte Computerarbeit praktisch wird** — nicht nur eindrucksvoll in einer Demo.",
+        "Es gibt eine eingebaute Vorsicht. Astra erzielte beim Cybersicherheitstest ExploitBench 100 %. OpenAI hat die empfindlichsten Funktionen hinter einem Sonderzugangsprogramm gesperrt und stuft dieses als erstes Modell ein, das sie als kritisches Cybersicherheitsrisiko betrachten — weil es **eigenständig unbekannte Sicherheitslücken in geschützten Systemen finden kann.** Die Stärke, die es nützlich macht, verlangt auch sorgfältigen Umgang.",
+        "Der Preis spiegelt den Anspruch wider. Astra kostet 10 US-Dollar pro Million Eingabe-Tokens und 50 US-Dollar pro Million Ausgabe-Tokens — **ungefähr das 2,5-Fache des vorherigen Flaggschiffs.** Da es weniger Schritte braucht, um eine Aufgabe abzuschließen, kann der Gesamtpreis pro Aufgabe trotzdem vertretbar sein. Aber es ist ein Modell für hochwertige, komplexe Arbeit — nicht für billiges Massenvolumen.",
+        "Der praktische Wandel verdient jetzt konkretes Handeln. **Wenn Sie eine wiederholbare, computerbasierte Aufgabe haben** — Daten zwischen Systemen verschieben, einen Rechercheworkflow durchführen, strukturierte Berichte ausfüllen — ist Astra stark genug, um es in einem echten Prozess zu testen, nicht nur als Prototyp. Die Frage ist nicht mehr, ob KI das kann. Die Frage ist, wo es passt und was es kostet."
+      ],
+      "keyFacts": [
+        { "value": "$10 / $50", "label": "pro Million Tokens, Eingabe / Ausgabe" },
+        { "value": "72.6%", "label": "Erfolgsquote bei Desktop-Aufgaben (OSWorld 2.0)" },
+        { "value": "99.9%", "label": "Wertung im ARC-AGI-3-Benchmark" },
+        { "value": "2.5×", "label": "Preiserhöhung gegenüber dem Vorgänger" }
+      ]
+    },
+    "nl": {
+      "title": "Wat het betekent als een AI uw computer zelfstandig kan bedienen",
+      "summary": "OpenAIs nieuwe GPT-6 Astra kan een computer zelfstandig besturen — en dat verandert waarvoor AI-automatisering echt geschikt is.",
+      "body": [
+        "OpenAI heeft GPT-6 Astra op 3 september uitgebracht. Het is niet zomaar een slimmere chatbot. Het is **gebouwd om een computer zelfstandig te bedienen** — klikken, typen, navigeren in apps — zonder dat iemand elke stap begeleidt. OpenAI noemt het hun meest intelligente en betrouwbare model. De handigste omschrijving is simpeler: het kan taken op een scherm zelf afhandelen.",
+        "De benchmarks laten zien waarom dit belangrijk is. Op OSWorld 2.0 — een test die meet hoe goed een AI echte desktoptaken uitvoert — scoorde Astra 72,6% en voltooide taken 47% sneller dan de vorige versie. Op ARC-AGI-3, een algemene probleemoplossingstest, haalde het 99,9%. Deze cijfers **overschrijden een drempel waarop geautomatiseerd computerwerk praktisch wordt** — niet alleen indrukwekkend in een demo.",
+        "Er zit een bewuste voorzichtigheid in. Astra scoorde 100% op ExploitBench, een cybersecuritytest. OpenAI vergrendelde de gevoeligste functies achter een speciaal toegangsprogramma en bestempelt dit als het eerste model dat zij als een kritiek cybersecurityrisico beschouwen — omdat het **zelf onbekende beveiligingslekken in beschermde systemen kan vinden.** De kracht die het nuttig maakt, vereist ook zorgvuldige omgang.",
+        "De prijs weerspiegelt de ambitie. Astra kost $10 per miljoen invoertokens en $50 per miljoen uitvoertokens — **ongeveer 2,5 keer de prijs van het vorige vlaggenschip.** Omdat het efficiënter werkt en minder stappen nodig heeft, kan de totale kosten per taak toch meevallen. Maar dit is een model voor hoogwaardige, complexe taken — niet voor goedkoop bulkwerk.",
+        "De praktische verschuiving verdient nu actie. **Als u een herhaalbare, computergebaseerde taak heeft** — gegevens verplaatsen tussen systemen, een onderzoeksworkflow uitvoeren, gestructureerde rapporten invullen — is Astra sterk genoeg om in een echt proces te testen, niet alleen als prototype. De vraag is niet meer of AI het kan. De vraag is waar het past en wat het kost."
+      ],
+      "keyFacts": [
+        { "value": "$10 / $50", "label": "per miljoen tokens, invoer / uitvoer" },
+        { "value": "72.6%", "label": "slagingspercentage desktoptaken (OSWorld 2.0)" },
+        { "value": "99.9%", "label": "score op ARC-AGI-3-benchmark" },
+        { "value": "2.5×", "label": "prijsstijging t.o.v. het vorige vlaggenschip" }
+      ]
+    },
+    "es": {
+      "title": "Qué cambia cuando una IA puede manejar tu ordenador sola",
+      "summary": "El nuevo GPT-6 Astra de OpenAI puede operar un ordenador por sí solo — y eso cambia para qué sirve realmente la automatización con IA.",
+      "body": [
+        "OpenAI lanzó GPT-6 Astra el 3 de septiembre. No es simplemente un chatbot más inteligente. Está **construido para operar un ordenador por sí solo** — hacer clic, escribir, navegar por aplicaciones — sin que nadie guíe cada paso. OpenAI lo llama su modelo más inteligente y alineado. Pero la descripción más útil es más simple: puede realizar tareas en una pantalla él mismo.",
+        "Los benchmarks explican por qué esto importa. En OSWorld 2.0 — una prueba que mide qué tan bien una IA completa tareas reales de escritorio — Astra obtuvo un 72,6% y terminó las tareas un 47% más rápido que la versión anterior. En ARC-AGI-3, una prueba de resolución general de problemas, alcanzó un 99,9%. Estas cifras **cruzan un umbral donde el trabajo automatizado con ordenadores se vuelve práctico** — no solo impresionante en una demo.",
+        "Hay una cautela deliberada incorporada. Astra obtuvo un 100% en ExploitBench, una prueba de ciberseguridad. OpenAI bloqueó las funciones más sensibles detrás de un programa de acceso especial, calificándolo como el primer modelo que considera un riesgo de ciberseguridad «crítico» — porque **puede encontrar vulnerabilidades desconocidas en sistemas protegidos por sí solo.** El poder que lo hace útil también exige un manejo cuidadoso.",
+        "El precio refleja la ambición. Astra cuesta 10 dólares por millón de tokens de entrada y 50 dólares por millón de salida — **aproximadamente 2,5 veces el costo del modelo anterior.** Como es eficiente y necesita menos pasos para terminar una tarea, el costo total puede seguir siendo manejable. Pero es un modelo para trabajo complejo y de alto valor — no para tareas masivas y baratas.",
+        "El cambio práctico merece acción ahora. **Si tienes una tarea repetible basada en ordenador** — mover datos entre sistemas, ejecutar un flujo de investigación, rellenar informes estructurados — Astra ya es lo suficientemente potente para probarlo en un proceso real, no solo en un prototipo. La pregunta ya no es si la IA puede hacerlo. La pregunta es dónde encaja y qué cuesta."
+      ],
+      "keyFacts": [
+        { "value": "$10 / $50", "label": "por millón de tokens, entrada / salida" },
+        { "value": "72.6%", "label": "tasa de éxito en tareas de escritorio (OSWorld 2.0)" },
+        { "value": "99.9%", "label": "puntuación en el benchmark ARC-AGI-3" },
+        { "value": "2.5×", "label": "aumento de precio frente al modelo anterior" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que ça change quand une IA peut utiliser votre ordinateur seule",
+      "summary": "Le nouveau GPT-6 Astra d'OpenAI peut piloter un ordinateur de façon autonome — et ça change vraiment ce à quoi l'automatisation par IA sert.",
+      "body": [
+        "OpenAI a sorti GPT-6 Astra le 3 septembre. Ce n'est pas simplement un chatbot plus performant. Il est **conçu pour utiliser un ordinateur en toute autonomie** — cliquer, taper, naviguer dans des applications — sans que personne guide chaque étape. OpenAI le présente comme son modèle le plus intelligent et le mieux aligné. Mais la description la plus utile est plus simple : il peut gérer des tâches à l'écran tout seul.",
+        "Les benchmarks expliquent pourquoi c'est important. Sur OSWorld 2.0 — un test qui mesure à quel point une IA accomplit de vraies tâches sur un bureau — Astra a obtenu 72,6 % et a terminé ces tâches 47 % plus vite que la version précédente. Sur ARC-AGI-3, un test de résolution de problèmes général, il a atteint 99,9 %. Ces chiffres **franchissent un seuil où l'automatisation informatique devient réellement utile** — pas seulement impressionnante en démonstration.",
+        "Une prudence délibérée est intégrée. Astra a obtenu 100 % sur ExploitBench, un test de cybersécurité. OpenAI a verrouillé les fonctionnalités les plus sensibles derrière un programme d'accès spécial, classant ce modèle comme le premier qu'il considère comme un risque de cybersécurité « critique » — parce qu'il **peut trouver des failles inconnues dans des systèmes protégés tout seul.** La puissance qui le rend utile exige aussi une gestion prudente.",
+        "Le prix reflète l'ambition. Astra coûte 10 dollars par million de tokens en entrée et 50 dollars par million en sortie — **environ 2,5 fois le prix du modèle précédent.** Comme il est efficace et nécessite moins d'étapes pour terminer une tâche, le coût total par travail peut rester raisonnable. Mais c'est un modèle pour des travaux complexes et à forte valeur — pas pour des tâches en volume bon marché.",
+        "Le changement pratique mérite d'agir maintenant. **Si vous avez une tâche répétable basée sur un ordinateur** — déplacer des données entre systèmes, exécuter un flux de recherche, remplir des rapports structurés — Astra est déjà assez puissant pour le tester dans un vrai processus, pas seulement dans un prototype. La question n'est plus de savoir si l'IA peut le faire. La question est de savoir où ça s'intègre et ce que ça coûte."
+      ],
+      "keyFacts": [
+        { "value": "$10 / $50", "label": "par million de tokens, entrée / sortie" },
+        { "value": "72.6%", "label": "taux de réussite sur les tâches de bureau (OSWorld 2.0)" },
+        { "value": "99.9%", "label": "score sur le benchmark ARC-AGI-3" },
+        { "value": "2.5×", "label": "hausse de prix par rapport au modèle précédent" }
+      ]
+    },
+    "ar": {
+      "title": "ماذا يتغيّر حين يستطيع الذكاء الاصطناعي تشغيل حاسوبك وحده",
+      "summary": "نموذج GPT-6 Astra الجديد من OpenAI يستطيع تشغيل الحاسوب باستقلالية — وهذا يغيّر ما تصلح له أتمتة الذكاء الاصطناعي فعلاً.",
+      "body": [
+        "أطلقت OpenAI نموذج GPT-6 Astra في الثالث من سبتمبر. إنه ليس مجرد روبوت محادثة أكثر ذكاءً. إنه **مصمَّم لتشغيل الحاسوب باستقلالية تامة** — النقر والكتابة والتنقل بين التطبيقات — دون أن يوجّهه أحد في كل خطوة. تصفه OpenAI بأنه أذكى نموذج بنته. لكن الوصف الأكثر فائدة أبسط: يستطيع إنجاز المهام على الشاشة بنفسه.",
+        "المعايير تشرح سبب أهمية ذلك. في اختبار OSWorld 2.0 — الذي يقيس مدى قدرة الذكاء الاصطناعي على إنجاز مهام حقيقية على سطح المكتب — حقق Astra نسبة 72,6% وأنجز المهام بسرعة أكبر بنسبة 47% مقارنة بالإصدار السابق. وفي اختبار ARC-AGI-3 لحل المشكلات العامة، وصل إلى 99,9%. هذه الأرقام **تتجاوز عتبة يصبح فيها تشغيل الحاسوب آليًا أمرًا عمليًا** — لا مجرد مثير للإعجاب في العروض التوضيحية.",
+        "ثمة حذر متعمد مدمج في النموذج. حقق Astra نسبة 100% في اختبار ExploitBench للأمن السيبراني. قيّدت OpenAI الميزات الأكثر حساسية خلف برنامج وصول خاص، وصنّفت هذا النموذج أول ما تعدّه خطرًا سيبرانيًا «حرجًا» — لأنه **يستطيع اكتشاف ثغرات أمنية مجهولة في أنظمة محمية وحده.** القدرة التي تجعله مفيدًا تستوجب أيضًا التعامل معه بعناية.",
+        "السعر يعكس الطموح. يتقاضى Astra 10 دولارات لكل مليون رمز إدخال و50 دولارًا لكل مليون رمز إخراج — **ما يعادل نحو 2,5 ضعف سعر النموذج السابق.** بما أنه كفوء ويحتاج إلى خطوات أقل لإنجاز المهمة، قد تظل التكلفة الإجمالية لكل مهمة معقولة. لكنه نموذج للأعمال المعقدة وعالية القيمة، لا للمهام الضخمة الرخيصة.",
+        "التحوّل العملي يستحق اتخاذ إجراء الآن. **إذا كانت لديك مهمة متكررة تعتمد على الحاسوب** — نقل البيانات بين الأنظمة، أو تشغيل سير عمل بحثي، أو ملء تقارير منظمة — فإن Astra بات قويًا بما يكفي للاختبار في عملية حقيقية، لا في نموذج أولي فحسب. لم تعد السؤال هو ما إذا كان الذكاء الاصطناعي قادرًا على ذلك. السؤال الآن هو أين يناسب وما تكلفته."
+      ],
+      "keyFacts": [
+        { "value": "$10 / $50", "label": "لكل مليون رمز، إدخال / إخراج" },
+        { "value": "72.6%", "label": "معدل إنجاز مهام سطح المكتب (OSWorld 2.0)" },
+        { "value": "99.9%", "label": "النتيجة في معيار ARC-AGI-3" },
+        { "value": "2.5×", "label": "ارتفاع السعر مقارنة بالنموذج السابق" }
+      ]
+    }
+  }
+}
