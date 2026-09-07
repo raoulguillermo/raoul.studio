@@ -1,0 +1,116 @@
+{
+  "slug": "2026-09-07-gpt-6-astra-computer-use-automation",
+  "date": "2026-09-07",
+  "tags": ["ai", "openai", "automation"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "Fortune — OpenAI launches GPT-6 Astra, its most powerful model yet, and touts its ability to use your computer", "url": "https://fortune.com/2026/09/03/openai-debuts-gpt-6-astra-computer-use-greg-brockman-says-start-of-agi/" },
+    { "title": "Al Jazeera — OpenAI unveils GPT-6 Astra amid rising scrutiny and safety concerns", "url": "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety" },
+    { "title": "9to5Mac — OpenAI releasing major upgrade to ChatGPT and Codex with GPT-6 Astra", "url": "https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/" },
+    { "title": "Axios — OpenAI releases new model GPT-6 Astra, says it may represent AGI", "url": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman" }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI Can Run Your Computer, Automation Means Something Different",
+      "summary": "OpenAI's GPT-6 Astra can use a computer like a person — at nearly twice the speed of its predecessor — and that changes what automating work actually means for any business.",
+      "body": [
+        "OpenAI released a model this week called GPT-6 Astra that can use a computer the way you do — opening files, filling forms, browsing websites, writing code — but at nearly twice the speed of the previous version. This is **not just a better chatbot**. It is a system that can handle an entire workflow from start to finish, without a person clicking through each step.",
+        "The numbers behind it are striking. Astra scored 99.9% on ARC-AGI-3 — a test built to measure human-level reasoning — while the previous model scored just 7.8% on the same test. It also got a perfect score on a cybersecurity benchmark that mimics real-world attacks. OpenAI's president Greg Brockman said the model may mark **the start of the AGI era**, meaning AI that can handle general problems the way a person can.",
+        "For anyone running a business or building software, this matters because **automation can now reach tasks that needed judgment**, not just repetition. The kind of work that takes ten browser tabs and half an afternoon — researching, pulling data, writing a summary — is now something an AI system can handle end-to-end, with a person watching but not doing every step.",
+        "There is a real safety catch, though. Astra is the first model OpenAI has flagged as reaching a critical cybersecurity threshold — it can find and exploit security flaws in systems without being told how, step by step. That makes it powerful for defenders, but risky if misused. **Getting safety right is now as urgent as the capability itself.** OpenAI is rolling it out in stages, starting with vetted organisations.",
+        "If your business runs on repetitive digital work — data entry, research, document processing, customer communications — the question is no longer whether AI can handle it. The question is how to set it up and supervise it well."
+      ],
+      "keyFacts": [
+        { "value": "99.9%", "label": "score on the ARC-AGI-3 reasoning test" },
+        { "value": "2×", "label": "faster at computer-use tasks than the previous model" },
+        { "value": "$10", "label": "API cost per million input tokens" },
+        { "value": "100,000+", "label": "GPUs used to train the model" }
+      ]
+    },
+    "de": {
+      "title": "Wenn KI deinen Computer bedienen kann, bedeutet Automatisierung etwas anderes",
+      "summary": "OpenAIs GPT-6 Astra kann einen Computer wie ein Mensch bedienen — mit fast doppelter Geschwindigkeit gegenüber dem Vorgänger — und das verändert, was Arbeit zu automatisieren wirklich bedeutet.",
+      "body": [
+        "OpenAI hat diese Woche ein Modell namens GPT-6 Astra veröffentlicht, das einen Computer so bedienen kann wie du — Dateien öffnen, Formulare ausfüllen, Websites durchsuchen, Code schreiben —, aber mit fast doppelter Geschwindigkeit gegenüber dem Vorgänger. Das ist **nicht einfach ein besserer Chatbot**. Es ist ein System, das einen ganzen Arbeitsablauf von Anfang bis Ende übernehmen kann, ohne dass ein Mensch jeden Schritt selbst anklicken muss.",
+        "Die Zahlen dahinter sind beeindruckend. Astra hat beim ARC-AGI-3-Test — einem Maßstab für menschliches Denkvermögen — 99,9 % erreicht, während das Vorgängermodell nur 7,8 % erzielte. Beim Cybersecurity-Benchmark erzielte es eine perfekte Punktzahl. OpenAIs Präsident Greg Brockman sagte, das Modell könnte **den Beginn der AGI-Ära markieren** — also die Zeit, in der KI allgemeine Probleme so löst wie ein Mensch.",
+        "Für alle, die ein Unternehmen führen oder Software entwickeln, ist das wichtig, weil **Automatisierung jetzt Aufgaben erreicht, die Urteilsvermögen erfordern**, nicht nur Wiederholung. Die Arbeit, die zehn Browser-Tabs und einen halben Nachmittag braucht — recherchieren, Daten zusammenstellen, einen Bericht schreiben — kann ein KI-System jetzt vollständig erledigen, während ein Mensch nur noch überwacht.",
+        "Es gibt aber einen wichtigen Sicherheitsvorbehalt. Astra ist das erste Modell, das OpenAI als kritisch für Cybersicherheit eingestuft hat — es kann Sicherheitslücken in Systemen eigenständig finden und ausnutzen. Das ist für Verteidiger wertvoll, aber bei Missbrauch gefährlich. **Sicherheit ist jetzt genauso dringend wie die Fähigkeit selbst.** OpenAI rollt das Modell schrittweise aus, beginnend mit geprüften Organisationen.",
+        "Wenn dein Unternehmen auf sich wiederholende digitale Arbeit angewiesen ist — Dateneingabe, Recherche, Dokumentenverarbeitung, Kundenkommunikation — lautet die Frage nicht mehr, ob KI das übernehmen kann. Die Frage ist, wie man es sicher einrichtet und gut überwacht."
+      ],
+      "keyFacts": [
+        { "value": "99,9 %", "label": "Punktzahl beim ARC-AGI-3-Denktest" },
+        { "value": "2×", "label": "schneller bei Computer-Aufgaben als der Vorgänger" },
+        { "value": "10 $", "label": "API-Kosten pro Million Eingabe-Token" },
+        { "value": "100.000+", "label": "GPUs für das Training verwendet" }
+      ]
+    },
+    "nl": {
+      "title": "Als AI je computer kan bedienen, betekent automatisering iets anders",
+      "summary": "OpenAIs GPT-6 Astra kan een computer bedienen zoals jij dat doet — met bijna dubbele snelheid — en dat verandert wat 'werk automatiseren' echt betekent voor elk bedrijf.",
+      "body": [
+        "OpenAI bracht deze week een model uit genaamd GPT-6 Astra dat een computer kan bedienen zoals jij dat doet — bestanden openen, formulieren invullen, websites bezoeken, code schrijven —, maar met bijna twee keer de snelheid van de vorige versie. Dit is **niet zomaar een betere chatbot**. Het is een systeem dat een hele werkstroom van begin tot eind kan afhandelen, zonder dat een mens elke stap zelf hoeft te klikken.",
+        "De cijfers zijn indrukwekkend. Astra scoorde 99,9% op de ARC-AGI-3-test — een maatstaf voor menselijk redeneren — terwijl het vorige model slechts 7,8% haalde. Op een cybersecuritybenchmark behaalde het een perfecte score. OpenAI-president Greg Brockman zei dat het model **het begin van het AGI-tijdperk kan markeren**: AI die algemene problemen oplost zoals een mens.",
+        "Voor iedereen die een bedrijf leidt of software bouwt is dit belangrijk, omdat **automatisering nu taken bereikt die oordeelsvermogen vereisen**, niet alleen herhaling. Het werk dat tien browsertabs en een halve middag kost — onderzoeken, data samenvatten, een rapport schrijven — kan een AI-systeem nu volledig afhandelen terwijl een mens toekijkt.",
+        "Er zit wel een serieuze veiligheidskant aan. Astra is het eerste model dat OpenAI als kritisch voor cybersecurity heeft aangemerkt — het kan zelfstandig beveiligingsgaten vinden en misbruiken. Dat is waardevol voor verdedigers, maar gevaarlijk bij verkeerd gebruik. **Veiligheid is nu even urgent als de mogelijkheden zelf.** OpenAI rolt het model stapsgewijs uit, te beginnen bij gecontroleerde organisaties.",
+        "Als jouw bedrijf draait op terugkerend digitaal werk — gegevensinvoer, onderzoek, documentverwerking, klantcommunicatie — is de vraag niet meer of AI dat aankan. De vraag is hoe je het veilig inricht en goed bewaakt."
+      ],
+      "keyFacts": [
+        { "value": "99,9%", "label": "score op de ARC-AGI-3-redeneertest" },
+        { "value": "2×", "label": "sneller bij computertaken dan de vorige versie" },
+        { "value": "$10", "label": "API-kosten per miljoen invoertokens" },
+        { "value": "100.000+", "label": "GPU's gebruikt voor de training" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA puede usar tu computadora, la automatización significa algo distinto",
+      "summary": "GPT-6 Astra de OpenAI puede usar una computadora como lo haría una persona — con casi el doble de velocidad — y eso cambia lo que automatizar el trabajo significa de verdad para cualquier empresa.",
+      "body": [
+        "Esta semana OpenAI lanzó un modelo llamado GPT-6 Astra que puede usar una computadora igual que tú: abrir archivos, rellenar formularios, navegar por páginas web, escribir código, pero con casi el doble de velocidad respecto a la versión anterior. Esto **no es solo un chatbot mejorado**. Es un sistema que puede gestionar un flujo de trabajo completo de principio a fin, sin que una persona tenga que hacer clic en cada paso.",
+        "Los números hablan por sí solos. Astra obtuvo un 99,9 % en ARC-AGI-3 — una prueba diseñada para medir el razonamiento humano —, mientras que el modelo anterior solo llegó al 7,8 %. También sacó una puntuación perfecta en un benchmark de ciberseguridad que imita ataques reales. El presidente de OpenAI, Greg Brockman, dijo que este modelo puede marcar **el inicio de la era de la IAG**, es decir, una IA capaz de resolver problemas generales como lo haría una persona.",
+        "Para quien dirige un negocio o construye software, esto importa porque **la automatización ya alcanza tareas que antes necesitaban criterio**, no solo repetición. El trabajo que consume diez pestañas del navegador y una tarde entera — investigar, extraer datos, redactar un resumen — ahora un sistema de IA puede hacerlo de principio a fin, con una persona supervisando pero sin ejecutar cada paso.",
+        "También hay una advertencia de seguridad importante. Astra es el primer modelo que OpenAI ha clasificado como crítico en ciberseguridad: puede detectar y explotar vulnerabilidades en sistemas sin que nadie le indique cómo hacerlo paso a paso. Eso es poderoso para los defensores, pero peligroso si se usa mal. **La seguridad es ahora tan urgente como la capacidad misma.** OpenAI lo está desplegando de forma progresiva, empezando por organizaciones verificadas.",
+        "Si tu negocio depende de trabajo digital repetitivo — entrada de datos, investigación, procesamiento de documentos, comunicación con clientes —, la pregunta ya no es si la IA puede hacerlo. La pregunta es cómo configurarlo bien y supervisarlo con cuidado."
+      ],
+      "keyFacts": [
+        { "value": "99,9 %", "label": "puntuación en el test de razonamiento ARC-AGI-3" },
+        { "value": "2×", "label": "más rápido en tareas informáticas que la versión anterior" },
+        { "value": "$10", "label": "coste de API por millón de tokens de entrada" },
+        { "value": "100.000+", "label": "GPUs usadas para el entrenamiento" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA peut piloter votre ordinateur, l'automatisation prend un autre sens",
+      "summary": "GPT-6 Astra d'OpenAI peut utiliser un ordinateur comme vous le feriez — à près du double de la vitesse — et ça change concrètement ce que « automatiser le travail » signifie pour toute entreprise.",
+      "body": [
+        "OpenAI a lancé cette semaine un modèle appelé GPT-6 Astra capable d'utiliser un ordinateur comme vous le faites — ouvrir des fichiers, remplir des formulaires, naviguer sur le web, écrire du code —, mais à près du double de la vitesse de la version précédente. Ce n'est **pas simplement un meilleur chatbot**. C'est un système capable de gérer un flux de travail complet du début à la fin, sans qu'une personne ait à cliquer à chaque étape.",
+        "Les chiffres parlent d'eux-mêmes. Astra a obtenu 99,9 % sur ARC-AGI-3 — un test conçu pour mesurer le raisonnement humain — contre seulement 7,8 % pour le modèle précédent. Il a aussi décroché un score parfait sur un benchmark de cybersécurité simulant de vraies attaques. Le président d'OpenAI, Greg Brockman, a dit que ce modèle pourrait marquer **le début de l'ère de l'IAG** — une IA capable de résoudre des problèmes généraux comme un humain.",
+        "Pour ceux qui dirigent une entreprise ou développent des logiciels, c'est important : **l'automatisation atteint désormais des tâches qui nécessitaient du jugement**, pas seulement de la répétition. Le travail qui demande dix onglets ouverts et un après-midi entier — rechercher, extraire des données, rédiger un résumé — peut maintenant être pris en charge de bout en bout par un système d'IA, supervisé par une personne mais sans que celle-ci fasse chaque geste.",
+        "Il y a cependant un aspect sécurité sérieux. Astra est le premier modèle qu'OpenAI a classé comme atteignant un seuil critique en cybersécurité : il peut détecter et exploiter des failles dans des systèmes sans qu'on lui indique comment, étape par étape. C'est un atout pour les défenseurs, mais dangereux en cas de mauvaise utilisation. **La sécurité est désormais aussi urgente que la capacité elle-même.** OpenAI déploie le modèle progressivement, en commençant par des organisations vérifiées.",
+        "Si votre activité repose sur du travail numérique répétitif — saisie de données, recherche, traitement de documents, communications clients — la question n'est plus de savoir si l'IA peut le faire. La question est de savoir comment le configurer et le superviser correctement."
+      ],
+      "keyFacts": [
+        { "value": "99,9 %", "label": "score sur le test de raisonnement ARC-AGI-3" },
+        { "value": "2×", "label": "plus rapide sur les tâches informatiques que la version précédente" },
+        { "value": "10 $", "label": "coût API par million de tokens d'entrée" },
+        { "value": "100 000+", "label": "GPU utilisés pour l'entraînement" }
+      ]
+    },
+    "ar": {
+      "title": "حين تستطيع الذكاء الاصطناعي تشغيل حاسوبك، تأخذ الأتمتة معنىً مختلفاً",
+      "summary": "يستطيع GPT-6 Astra من OpenAI استخدام الحاسوب كما يفعل الإنسان — بما يقارب ضعف السرعة — وهذا يغيّر ما تعنيه أتمتة العمل فعلاً لأي شركة.",
+      "body": [
+        "أطلقت OpenAI هذا الأسبوع نموذجاً جديداً يُسمى GPT-6 Astra يستطيع استخدام الحاسوب كما تفعل أنت تماماً: فتح الملفات، وملء النماذج، وتصفح المواقع، وكتابة الكود، لكن بما يقارب ضعف السرعة مقارنةً بالإصدار السابق. هذا **ليس مجرد روبوت محادثة أفضل**. إنه نظام قادر على إدارة سير عمل كامل من البداية إلى النهاية، دون أن يضطر إنسان إلى النقر في كل خطوة.",
+        "الأرقام لافتة للنظر. حقق Astra نسبة 99.9% في اختبار ARC-AGI-3 — المصمم لقياس التفكير البشري — في حين لم يتجاوز النموذج السابق 7.8% في الاختبار ذاته. كما حصل على درجة مثالية في اختبار الأمن السيبراني. وقال رئيس OpenAI غريغ بروكمان إن هذا النموذج قد يمثّل **بداية حقبة الذكاء الاصطناعي العام** — أي الذكاء القادر على حل مشكلات متنوعة كما يفعل الإنسان.",
+        "لمن يدير شركة أو يبني برمجيات، هذا مهم لأن **الأتمتة باتت تصل إلى مهام تحتاج إلى حكم واجتهاد**، لا مجرد تكرار. العمل الذي يستلزم عشر نوافذ مفتوحة ونصف يوم — بحث، واستخراج بيانات، وكتابة ملخص — بات بمقدور نظام الذكاء الاصطناعي إنجازه كاملاً بينما يراقب إنسان دون أن يتدخل في كل خطوة.",
+        "غير أن ثمة جانباً أمنياً جدياً. Astra هو أول نموذج تصنّفه OpenAI على أنه بلغ عتبةً حرجة في الأمن السيبراني: إذ يستطيع اكتشاف ثغرات أمنية في الأنظمة واستغلالها دون توجيه خطوة بخطوة. وهذا قوي في يد المدافعين، لكنه خطير إن أُسيء استخدامه. **السلامة الآن بالغة الأهمية بقدر القدرة نفسها.** تطرح OpenAI النموذج تدريجياً، بدءاً من المنظمات الموثوقة.",
+        "إن كانت أعمالك تعتمد على العمل الرقمي المتكرر — إدخال البيانات، والبحث، ومعالجة المستندات، والتواصل مع العملاء — فالسؤال لم يعد: هل يستطيع الذكاء الاصطناعي فعل ذلك؟ السؤال هو: كيف تُعدّه بشكل صحيح وتُشرف عليه جيداً."
+      ],
+      "keyFacts": [
+        { "value": "99.9%", "label": "النتيجة في اختبار التفكير ARC-AGI-3" },
+        { "value": "2×", "label": "أسرع في مهام الحاسوب مقارنةً بالإصدار السابق" },
+        { "value": "$10", "label": "تكلفة API لكل مليون رمز إدخال" },
+        { "value": "+100,000", "label": "وحدة GPU مستخدمة في التدريب" }
+      ]
+    }
+  }
+}
