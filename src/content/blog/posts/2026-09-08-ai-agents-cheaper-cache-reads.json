@@ -1,0 +1,114 @@
+{
+  "slug": "2026-09-08-ai-agents-cheaper-cache-reads",
+  "date": "2026-09-08",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "VentureBeat — Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads"
+    },
+    {
+      "title": "MarkTechPost — Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
+      "url": "https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI Agents Just Got 75% Cheaper to Keep Running",
+      "summary": "Anthropic cut the cost of cache reads — the most repeated operation in long-running AI agents — by 75%, which means the monthly bill for teams automating real work just dropped meaningfully.",
+      "body": [
+        "The most common cost in running an AI agent is not the first answer — it's every answer after that. When an agent works through a long task, it re-reads the same background context over and over. Those re-reads are called cache reads — the little chunks of stored context an AI charges you for — and Anthropic **cut their price by 75%**, from $1.00 to $0.25 per million tokens.",
+        "To understand why this matters, think of a customer-support agent that reads a 50,000-word product manual before every reply. Before this change, that re-reading added up fast. With the new price, the same agent **costs four times less to run** in the background. That directly changes what is affordable.",
+        "Anthropic estimates that for most workloads the total bill drops around 25%, and for agents that rely heavily on cached context — research tools, code assistants, document processors — **savings can reach 45%**. The new model, Fable 5.1, also doubled its score on agentic benchmarks compared to the previous version: from 24.7% to 52.6% on the Terminal-Bench-Science test.",
+        "If your team is running or planning to run AI agents at any real scale, this is the moment to **re-check your cost model**. Work that seemed too expensive six months ago may now be viable. The price of AI computation keeps falling — and this cut targets exactly the kind of repeated-context work that real agents do most."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "drop in cache-read token price" },
+        { "value": "$0.25", "label": "new price per million cached tokens" },
+        { "value": "45%", "label": "max bill reduction for cache-heavy agents" },
+        { "value": "52.6%", "label": "Fable 5.1 score on Terminal-Bench-Science" }
+      ]
+    },
+    "de": {
+      "title": "KI-Agenten laufen jetzt 75 % günstiger",
+      "summary": "Anthropic hat die Kosten für Cache-Lesezugriffe — die häufigste Operation bei langläufigen KI-Agenten — um 75 % gesenkt, was die monatlichen Rechnungen für Teams, die echte Arbeit automatisieren, spürbar reduziert.",
+      "body": [
+        "Die häufigste Kostenquelle beim Betrieb eines KI-Agenten ist nicht die erste Antwort — sondern alle, die danach kommen. Wenn ein Agent eine lange Aufgabe bearbeitet, liest er denselben Hintergrundkontext immer wieder neu. Diese Wiederholungen nennt man Cache-Lesezugriffe — die gespeicherten Kontextstücke, für die ein KI-Agent Kosten berechnet — und Anthropic hat deren Preis **um 75 % gesenkt**, von 1,00 $ auf 0,25 $ pro Million Token.",
+        "Stell dir einen Kundendienst-Agenten vor, der vor jeder Antwort ein 50.000-Wörter-Handbuch liest. Früher summierten sich diese Wiederholungen schnell. Mit dem neuen Preis **kostet derselbe Agent viermal weniger** im Hintergrund. Das verändert direkt, was erschwinglich ist.",
+        "Anthropic schätzt, dass die Gesamtrechnung für die meisten Anwendungsfälle um rund 25 % sinkt — und bei Agenten, die stark auf zwischengespeicherten Kontext angewiesen sind, **können die Einsparungen 45 % erreichen**. Das neue Modell Fable 5.1 hat zudem seinen Score auf Agenten-Benchmarks im Vergleich zur Vorgängerversion verdoppelt: von 24,7 % auf 52,6 % im Terminal-Bench-Science-Test.",
+        "Wer KI-Agenten in nennenswertem Umfang betreibt oder plant, sollte jetzt das **Kostenmodell neu überprüfen**. Arbeit, die vor einem halben Jahr noch zu teuer schien, könnte heute rentabel sein. Die Preise für KI-Rechenleistung sinken weiter — und dieser Schritt trifft genau die Art von Wiederholungsarbeit, die echte Agenten am häufigsten erledigen."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "Preissenkung bei Cache-Lesezugriffen" },
+        { "value": "$0.25", "label": "neuer Preis pro Million gecachter Token" },
+        { "value": "45%", "label": "max. Kostenersparnis für Cache-intensive Agenten" },
+        { "value": "52.6%", "label": "Fable 5.1-Score im Terminal-Bench-Science-Test" }
+      ]
+    },
+    "nl": {
+      "title": "AI-agents draaien nu 75% goedkoper",
+      "summary": "Anthropic heeft de prijs van cache-reads — de meest herhaalde operatie bij langlopende AI-agents — met 75% verlaagd, waardoor de maandrekening voor teams die werk automatiseren flink daalt.",
+      "body": [
+        "De grootste kostenpost bij een AI-agent is niet het eerste antwoord — maar elk antwoord daarna. Een agent die een lange taak uitvoert, leest steeds dezelfde achtergrondcontext opnieuw. Die herhalingen heten cache-reads — de opgeslagen stukjes context waarvoor een AI kosten in rekening brengt — en Anthropic heeft de prijs ervan **met 75% verlaagd**, van $1,00 naar $0,25 per miljoen tokens.",
+        "Stel je een klantenservice-agent voor die voor elk antwoord een handleiding van 50.000 woorden doorleest. Voor deze verandering liepen die herhalingen snel op. Met de nieuwe prijs **kost dezelfde agent vier keer minder** om te draaien. Dat verandert direct wat betaalbaar is.",
+        "Anthropic schat dat de totale rekening voor de meeste werklasten zo'n 25% daalt — en voor agents die sterk leunen op gecachte context **kan de besparing oplopen tot 45%**. Het nieuwe model Fable 5.1 heeft ook zijn score op agentbenchmarks verdubbeld ten opzichte van de vorige versie: van 24,7% naar 52,6% op de Terminal-Bench-Science-test.",
+        "Als je AI-agents op enige schaal draait of plant, is dit het moment om **je kostenmodel opnieuw te bekijken**. Werk dat een halfjaar geleden te duur leek, kan nu rendabel zijn. De kosten van AI blijven dalen — en juist deze verlaging raakt de herhalende contextverwerking die echte agents het meest doen."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "verlaging van de cache-read tokenprijs" },
+        { "value": "$0.25", "label": "nieuwe prijs per miljoen gecachte tokens" },
+        { "value": "45%", "label": "maximale kostenbesparing voor cache-intensieve agents" },
+        { "value": "52.6%", "label": "Fable 5.1-score op Terminal-Bench-Science" }
+      ]
+    },
+    "es": {
+      "title": "Los agentes de IA acaban de volverse un 75% más baratos de mantener",
+      "summary": "Anthropic redujo el costo de las lecturas de caché — la operación más repetida en agentes de IA de larga duración — en un 75%, lo que baja de forma concreta la factura mensual de los equipos que automatizan trabajo real.",
+      "body": [
+        "El mayor costo en ejecutar un agente de IA no es la primera respuesta, sino todas las que vienen después. Cuando un agente trabaja en una tarea larga, relee el mismo contexto de fondo una y otra vez. Esas relecturas se llaman lecturas de caché — los fragmentos de contexto almacenado por los que una IA cobra — y Anthropic acaba de **reducir su precio un 75%**, de $1,00 a $0,25 por millón de tokens.",
+        "Imagina un agente de atención al cliente que lee un manual de 50.000 palabras antes de cada respuesta. Antes de este cambio, esas relecturas se acumulaban rápido. Con el nuevo precio, **el mismo agente cuesta cuatro veces menos** de mantener activo. Eso cambia directamente lo que es viable.",
+        "Anthropic estima que la factura total baja alrededor de un 25% para la mayoría de los casos — y para los agentes que dependen mucho del contexto almacenado, **el ahorro puede llegar al 45%**. El nuevo modelo, Fable 5.1, también duplicó su puntuación en benchmarks de agentes frente a la versión anterior: de 24,7% a 52,6% en la prueba Terminal-Bench-Science.",
+        "Si tu equipo usa o planea usar agentes de IA a escala, este es el momento de **revisar tu modelo de costos**. Trabajo que parecía demasiado caro hace seis meses puede ser viable ahora. El precio de la IA sigue bajando — y esta reducción apunta exactamente al tipo de trabajo repetitivo sobre contexto que los agentes reales hacen con más frecuencia."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "reducción en el precio de tokens de caché" },
+        { "value": "$0.25", "label": "nuevo precio por millón de tokens en caché" },
+        { "value": "45%", "label": "máximo ahorro en factura para agentes con mucho caché" },
+        { "value": "52.6%", "label": "puntuación de Fable 5.1 en Terminal-Bench-Science" }
+      ]
+    },
+    "fr": {
+      "title": "Les agents IA coûtent maintenant 75 % moins cher à faire tourner",
+      "summary": "Anthropic a réduit de 75 % le coût des lectures de cache — l'opération la plus répétée dans les agents IA qui travaillent en continu — ce qui allège concrètement la facture mensuelle des équipes qui automatisent des tâches réelles.",
+      "body": [
+        "Dans le fonctionnement d'un agent IA, le coût principal n'est pas la première réponse — ce sont toutes celles qui suivent. Quand un agent travaille sur une tâche longue, il relit sans arrêt le même contexte de fond. Ces relectures s'appellent lectures de cache — les morceaux de contexte stocké pour lesquels une IA facture — et Anthropic vient d'en **réduire le prix de 75 %**, de 1,00 $ à 0,25 $ par million de tokens.",
+        "Imaginez un agent de support client qui relit un manuel de 50 000 mots avant chaque réponse. Avant ce changement, ces relectures s'accumulaient vite. Avec le nouveau prix, **le même agent coûte quatre fois moins** à faire tourner. Ça change directement ce qui est rentable.",
+        "Anthropic estime que la facture totale baisse d'environ 25 % pour la plupart des usages — et pour les agents qui s'appuient beaucoup sur le contexte mis en cache, **les économies peuvent atteindre 45 %**. Le nouveau modèle Fable 5.1 a aussi doublé son score sur les benchmarks d'agents par rapport à la version précédente : de 24,7 % à 52,6 % sur le test Terminal-Bench-Science.",
+        "Si votre équipe fait tourner ou envisage des agents IA à grande échelle, c'est le bon moment pour **revoir votre modèle de coût**. Un projet qui semblait trop cher il y a six mois peut maintenant être viable. Le prix de l'IA continue de baisser — et cette réduction cible précisément le travail répétitif sur contexte que les vrais agents font le plus souvent."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "baisse du prix des tokens en lecture de cache" },
+        { "value": "$0.25", "label": "nouveau prix par million de tokens en cache" },
+        { "value": "45%", "label": "réduction maximale de facture pour agents à fort cache" },
+        { "value": "52.6%", "label": "score de Fable 5.1 sur Terminal-Bench-Science" }
+      ]
+    },
+    "ar": {
+      "title": "وكلاء الذكاء الاصطناعي أصبحوا أرخص بنسبة 75% في التشغيل",
+      "summary": "خفّضت Anthropic تكلفة قراءات الذاكرة المؤقتة — أكثر العمليات تكرارًا في وكلاء الذكاء الاصطناعي طويلة الأمد — بنسبة 75%، مما يعني أن الفاتورة الشهرية للفرق التي تُؤتمت أعمالها الحقيقية انخفضت بشكل ملموس.",
+      "body": [
+        "التكلفة الأكبر في تشغيل وكيل ذكاء اصطناعي ليست الإجابة الأولى — بل كل إجابة تليها. حين يعمل الوكيل على مهمة طويلة، يُعيد قراءة نفس السياق الخلفي مرارًا وتكرارًا. تُسمّى هذه الإعادات قراءات الذاكرة المؤقتة — أجزاء السياق المخزّن التي تُحاسَب عليها — وقد **خفّضت Anthropic سعرها بنسبة 75%**، من دولار واحد إلى 0.25 دولار لكل مليون رمز.",
+        "تخيّل وكيل دعم عملاء يقرأ دليلًا من 50,000 كلمة قبل كل إجابة. في السابق، كانت هذه القراءات المتكررة تتراكم بسرعة. مع السعر الجديد، **يكلّف الوكيل ذاته أربعة أضعاف أقل** في التشغيل. هذا يُغيّر مباشرةً ما يمكن تحمّل تكلفته.",
+        "تُقدّر Anthropic أن الفاتورة الإجمالية تنخفض بنحو 25% لمعظم أحمال العمل — وللوكلاء الذين يعتمدون بشكل كبير على السياق المخزّن، **قد تصل الوفورات إلى 45%**. كما ضاعف النموذج الجديد Fable 5.1 درجاته في اختبارات الوكلاء مقارنةً بالإصدار السابق: من 24.7% إلى 52.6% في اختبار Terminal-Bench-Science.",
+        "إن كان فريقك يُشغّل وكلاء ذكاء اصطناعي أو يُخطط لذلك على نطاق واسع، فهذا هو الوقت المناسب **لمراجعة نموذج التكاليف**. عمل بدا مكلفًا قبل ستة أشهر قد يكون مجديًا اليوم. أسعار الذكاء الاصطناعي في انخفاض مستمر — وهذا التخفيض تحديدًا يستهدف نوع العمل التكراري على السياق الذي تُنجزه الوكلاء الحقيقية بأكثر تكرارًا."
+      ],
+      "keyFacts": [
+        { "value": "75%", "label": "انخفاض في سعر رمز قراءة الذاكرة المؤقتة" },
+        { "value": "$0.25", "label": "السعر الجديد لكل مليون رمز مخزّن" },
+        { "value": "45%", "label": "أقصى توفير في الفاتورة للوكلاء كثيفي الذاكرة المؤقتة" },
+        { "value": "52.6%", "label": "درجة Fable 5.1 في اختبار Terminal-Bench-Science" }
+      ]
+    }
+  }
+}
