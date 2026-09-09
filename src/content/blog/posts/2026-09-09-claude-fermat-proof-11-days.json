@@ -1,0 +1,129 @@
+{
+  "slug": "2026-09-09-claude-fermat-proof-11-days",
+  "date": "2026-09-09",
+  "tags": ["ai", "mathematics"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/578f91575c42231f0994e341014614255149af80-1200x630.jpg",
+    "alt": "Abstract visualization from Anthropic's Fermat's Last Theorem formalization project",
+    "credit": "Anthropic"
+  },
+  "sources": [
+    {
+      "title": "Anthropic — Formalizing Fermat's Last Theorem",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+    },
+    {
+      "title": "SiliconANGLE — Anthropic uses Claude to formalize proof of Fermat's Last Theorem",
+      "url": "https://siliconangle.com/2026/09/04/anthropic-uses-claude-to-formalize-proof-of-fermats-last-theorem/"
+    },
+    {
+      "title": "AI Weekly — Claude formalized Fermat's Last Theorem in 11 days",
+      "url": "https://aiweekly.co/alerts/claude-formalized-fermats-last-theorem-in-11-days-anthropic"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What it means when AI compresses years of expert work into 11 days",
+      "summary": "Claude finished a mathematical proof in 11 days that experts estimated would take several years — and the lesson for knowledge work is bigger than the math.",
+      "body": [
+        "Last week, Anthropic's AI model Claude completed one of the hardest jobs in mathematics. The target was a proof called Fermat's Last Theorem — a problem that sat open for 350 years after Pierre de Fermat wrote it in the margin of a book in 1637. A human mathematician, Andrew Wiles, finally solved it in 1995, in 129 dense pages that took years to finish. **Claude finished its version in 11 days.**",
+        "To be precise, Claude wasn't solving the theorem from scratch — Wiles already did that. The task was to \"formalize\" the proof: translate the human-written math into computer code that a machine checks step by step, with no room for error. Experts had estimated this would take a team of specialists several years. Claude ran dozens of agents in parallel, all coordinating automatically, and produced 13 million lines of verified code — **five times bigger than any math library before**.",
+        "Along the way, the agents proved 29,500 smaller theorems and consumed about 6 billion tokens — the small chunks of text an AI processes. A separate follow-up experiment then formalized another famous theorem in just three days, using **consumer plans anyone can buy today**.",
+        "The real story here isn't mathematics — it's time. If AI can collapse a multi-year expert project into 11 days, the same pattern could apply to legal document review, scientific literature checks, compliance analysis, or code auditing. Any high-stakes, expert-heavy work that takes time to verify is now a candidate for this: **months of expert work compressed into days**.",
+        "One honest note: this worked because the right infrastructure was already in place — community-built math libraries, an open-source coordination platform, and humans setting direction at key moments. AI didn't replace the experts; **it worked fast alongside them**. The practical question for any team: where does slow, expert-heavy verification hold everything else back?"
+      ],
+      "keyFacts": [
+        { "value": "11 days", "label": "to complete what experts expected to take years" },
+        { "value": "13 million", "label": "lines of computer-verified Lean code written" },
+        { "value": "29,500", "label": "intermediate theorems proved along the way" },
+        { "value": "350 years", "label": "since Fermat wrote the problem down in 1637" }
+      ]
+    },
+    "de": {
+      "title": "Was es bedeutet, wenn KI Jahre Expertenarbeit in 11 Tage presst",
+      "summary": "Claude schloss einen mathematischen Beweis in 11 Tagen ab, für den Experten mehrere Jahre veranschlagten — die Lektion für Wissensarbeit ist größer als die Mathematik.",
+      "body": [
+        "Letzte Woche schloss Anthropics KI-Modell Claude eine der schwersten Aufgaben der Mathematik ab. Das Ziel war ein Beweis namens Fermats letzter Satz — ein Problem, das 350 Jahre offen blieb, nachdem Pierre de Fermat es 1637 in den Rand eines Buches schrieb. Der Mathematiker Andrew Wiles löste es schließlich 1995, auf 129 dichten Seiten nach jahrelanger Arbeit. **Claude fertigte seine Version in 11 Tagen.**",
+        "Genau gesagt hat Claude den Satz nicht von Grund auf neu gelöst — das hatte Wiles bereits getan. Die Aufgabe war, den Beweis zu \"formalisieren\": die menschlich geschriebene Mathematik in Computercode zu übersetzen, den eine Maschine Schritt für Schritt prüft, ohne Fehler. Experten schätzten, das würde einem Spezialistenteam mehrere Jahre kosten. Claude ließ Dutzende parallele Agenten gleichzeitig arbeiten und erzeugte 13 Millionen Zeilen geprüften Codes — **fünfmal größer als jede Mathebibliothek zuvor**.",
+        "Dabei bewiesen die Agenten 29.500 Zwischensätze und verarbeiteten rund 6 Milliarden Tokens — die kleinen Texteinheiten, die ein KI-Modell verarbeitet. Ein separates Experiment formalisierte einen weiteren bekannten Satz in nur drei Tagen, mit **Consumer-Plänen, die jeder heute buchen kann**.",
+        "Die eigentliche Geschichte ist keine Mathe-Geschichte — es geht um Zeit. Wenn KI ein mehrjähriges Expertenprojekt auf 11 Tage komprimieren kann, gilt dasselbe möglicherweise für juristische Dokumentenprüfung, Literaturrecherche, Compliance-Analyse oder Code-Review. Jede hochwertige, expertenintensive Arbeit, die Zeit zur Überprüfung braucht, ist jetzt ein Kandidat dafür: **Monate von Expertenarbeit auf Tage komprimiert**.",
+        "Ein ehrlicher Hinweis: Das funktionierte, weil die richtige Infrastruktur vorhanden war — Community-Mathebibliotheken, eine Open-Source-Plattform und Menschen, die an wichtigen Punkten die Richtung vorgaben. KI hat die Experten nicht ersetzt; **sie hat schnell neben ihnen gearbeitet**. Die Frage für jedes Team: Wo hält bei euch aufwendige Expertenüberprüfung alles andere auf?"
+      ],
+      "keyFacts": [
+        { "value": "11 days", "label": "um zu vollenden, wofür Experten Jahre erwartet hätten" },
+        { "value": "13 million", "label": "Zeilen computergeprüften Lean-Codes" },
+        { "value": "29,500", "label": "Zwischensätze auf dem Weg zum Beweis bewiesen" },
+        { "value": "350 years", "label": "seit Fermat das Problem 1637 aufschrieb" }
+      ]
+    },
+    "nl": {
+      "title": "Wat het betekent als AI jaren vakwerk comprimeert in 11 dagen",
+      "summary": "Claude voltooide een wiskundig bewijs in 11 dagen waarvoor experts jaren hadden ingeschat — en de les voor kenniswerk is groter dan de wiskunde zelf.",
+      "body": [
+        "Vorige week voltooide Anthropics AI-model Claude een van de zwaarste klussen in de wiskunde. Het doel was het bewijs van de Laatste Stelling van Fermat — een probleem dat 350 jaar openbleef nadat Pierre de Fermat het in 1637 in de kantlijn van een boek schreef. De wiskundige Andrew Wiles loste het eindelijk op in 1995, in 129 dichte pagina's na jaren werk. **Claude voltooide zijn versie in 11 dagen.**",
+        "Ter verduidelijking: Claude loste de stelling niet van scratch op — Wiles had dat al gedaan. De taak was het bewijs te \"formaliseren\": de menselijke wiskunde vertalen naar computercode die een machine stap voor stap controleert, zonder foutenmarge. Experts schatten dat dit een team van specialisten meerdere jaren zou kosten. Claude liet tientallen parallelle agents tegelijk werken en produceerde 13 miljoen regels geverifieerde code — **vijf keer groter dan elke wiskundebibliotheek daarvoor**.",
+        "Onderweg bewezen de agents 29.500 tussenliggende stellingen en verwerkte het systeem zo'n 6 miljard tokens — de kleine teksteenheden die een AI verwerkt. Een apart experiment formaliseerde een andere bekende stelling in drie dagen, met **consumentenplannen die iedereen nu kan gebruiken**.",
+        "Het echte verhaal gaat niet over wiskunde — het gaat over tijd. Als AI een meerjarig expertproject kan samendrukken tot 11 dagen, kan hetzelfde patroon gelden voor juridische documentenreview, wetenschappelijke literatuurcontrole, complianceanalyse of code-audit. Elk hoogwaardig, expertintensief werk dat tijd kost om te verifiëren, is nu een kandidaat: **maanden expertwerk samengedrukt tot dagen**.",
+        "Een eerlijke kanttekening: dit werkte omdat de juiste infrastructuur aanwezig was — community-wiskundebibliotheken, een open-source platform en mensen die op cruciale momenten de richting bepaalden. AI verving de experts niet; **het werkte snel naast hen**. De praktische vraag voor elk team: waar houdt langzame, expertintensieve verificatie alles anders op?"
+      ],
+      "keyFacts": [
+        { "value": "11 days", "label": "om te voltooien wat experts op jaren schatten" },
+        { "value": "13 million", "label": "regels geverifieerde Lean-code" },
+        { "value": "29,500", "label": "tussenliggende stellingen onderweg bewezen" },
+        { "value": "350 years", "label": "nadat Fermat het probleem in 1637 opschreef" }
+      ]
+    },
+    "es": {
+      "title": "Qué significa que una IA comprima años de trabajo experto en 11 días",
+      "summary": "Claude terminó en 11 días una demostración matemática que los expertos estimaban en varios años — y la lección para el trabajo del conocimiento es más amplia que las matemáticas.",
+      "body": [
+        "La semana pasada, el modelo de IA Claude de Anthropic completó una de las tareas más difíciles de las matemáticas. El objetivo era formalizar una demostración llamada Último Teorema de Fermat — un problema que estuvo abierto 350 años después de que Pierre de Fermat lo escribiera en el margen de un libro en 1637. El matemático Andrew Wiles lo resolvió finalmente en 1995, en 129 densas páginas que le llevaron años. **Claude terminó su versión en 11 días.**",
+        "Para ser precisos: Claude no resolvió el teorema desde cero — eso ya lo había hecho Wiles. La tarea era \"formalizar\" la demostración: traducir las matemáticas escritas por humanos a código informático que una máquina verifica paso a paso, sin margen de error. Los expertos estimaban que esto llevaría a un equipo de especialistas varios años. Claude ejecutó decenas de agentes en paralelo y produjo 13 millones de líneas de código verificado — **cinco veces más grande que cualquier biblioteca matemática anterior**.",
+        "En el proceso, los agentes demostraron 29.500 teoremas intermedios y consumieron unos 6.000 millones de tokens — las pequeñas unidades de texto que procesa una IA. Un experimento aparte formalizó otro teorema famoso en solo tres días, con **planes de consumidor que cualquiera puede contratar hoy**.",
+        "La verdadera historia aquí no es de matemáticas — es de tiempo. Si la IA puede comprimir un proyecto de expertos de varios años a 11 días, el mismo patrón puede aplicarse a revisión de documentos legales, verificación de literatura científica, análisis de cumplimiento o auditoría de código. Cualquier trabajo exigente y experto que lleva tiempo verificar es ahora candidato a este patrón: **meses de trabajo experto comprimidos en días**.",
+        "Una nota honesta: esto funcionó porque la infraestructura adecuada ya existía — bibliotecas matemáticas creadas por la comunidad, una plataforma de código abierto y personas marcando el rumbo en momentos clave. La IA no sustituyó a los expertos; **trabajó rápido junto a ellos**. La pregunta práctica para cualquier equipo: ¿dónde frena en tu trabajo la verificación lenta y experta todo lo demás?"
+      ],
+      "keyFacts": [
+        { "value": "11 days", "label": "para completar lo que los expertos estimaban en años" },
+        { "value": "13 million", "label": "líneas de código Lean verificado por ordenador" },
+        { "value": "29,500", "label": "teoremas intermedios demostrados en el proceso" },
+        { "value": "350 years", "label": "desde que Fermat escribió el problema en 1637" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que révèle une IA qui comprime des années de travail expert en 11 jours",
+      "summary": "Claude a achevé en 11 jours une démonstration mathématique que les experts estimaient à plusieurs années — et la leçon pour les métiers de la connaissance dépasse largement les maths.",
+      "body": [
+        "La semaine dernière, le modèle IA Claude d'Anthropic a accompli l'une des tâches les plus difficiles des mathématiques. L'objectif était de formaliser la démonstration du dernier théorème de Fermat — un problème resté ouvert 350 ans après que Pierre de Fermat l'eut écrit dans la marge d'un livre en 1637. Le mathématicien Andrew Wiles l'avait finalement résolu en 1995, en 129 pages denses issues de plusieurs années de travail. **Claude a achevé sa version en 11 jours.**",
+        "Pour être précis : Claude n'a pas résolu le théorème de zéro — Wiles l'avait déjà fait. La tâche était de \"formaliser\" la démonstration : traduire les mathématiques humaines en code informatique qu'une machine vérifie étape par étape, sans aucune marge d'erreur. Des experts estimaient que ce travail prendrait plusieurs années à une équipe de spécialistes. Claude a lancé des dizaines d'agents en parallèle et produit 13 millions de lignes de code vérifié — **cinq fois plus grand que n'importe quelle bibliothèque mathématique avant**.",
+        "En chemin, les agents ont prouvé 29 500 théorèmes intermédiaires et consommé environ 6 milliards de tokens — les petites unités de texte que traite une IA. Une expérience séparée a formalisé un autre théorème célèbre en seulement trois jours, avec **des plans grand public accessibles à tous aujourd'hui**.",
+        "La vraie histoire ici n'est pas une histoire de mathématiques — c'est une histoire de temps. Si l'IA peut comprimer un projet d'experts de plusieurs années en 11 jours, le même schéma pourrait s'appliquer à la révision de documents juridiques, à la vérification de la littérature scientifique, à l'analyse de conformité ou à l'audit de code. Tout travail à enjeux élevés et long à vérifier est désormais candidat à ce schéma : **des mois de travail expert comprimés en quelques jours**.",
+        "Une note honnête : cela a fonctionné parce que l'infrastructure adéquate était déjà en place — des bibliothèques mathématiques construites par la communauté, une plateforme open source et des humains fixant la direction aux moments clés. L'IA n'a pas remplacé les experts ; **elle a travaillé vite à leurs côtés**. La question pratique pour chaque équipe : où, dans votre travail, une vérification lente et experte freine-t-elle tout le reste ?"
+      ],
+      "keyFacts": [
+        { "value": "11 days", "label": "pour réaliser ce que les experts estimaient à plusieurs années" },
+        { "value": "13 million", "label": "lignes de code Lean vérifiées par ordinateur" },
+        { "value": "29,500", "label": "théorèmes intermédiaires prouvés en chemin" },
+        { "value": "350 years", "label": "depuis que Fermat a posé le problème en 1637" }
+      ]
+    },
+    "ar": {
+      "title": "ماذا يعني أن يضغط الذكاء الاصطناعي سنوات من العمل الخبير في 11 يومًا",
+      "summary": "أنجز كلود في 11 يومًا إثباتًا رياضيًا كان الخبراء يقدّرون أنه سيستغرق سنوات — والدرس لمهن المعرفة أوسع بكثير من الرياضيات.",
+      "body": [
+        "الأسبوع الماضي، أتمّ نموذج الذكاء الاصطناعي كلود من Anthropic واحدة من أصعب المهام في الرياضيات. كان الهدف صياغة برهان نظرية فيرما الأخيرة — مسألة ظلّت مفتوحة 350 عامًا بعد أن كتبها بيير دو فيرما في هامش كتاب عام 1637. أثبتها الرياضي أندرو وايلز أخيرًا عام 1995، في 129 صفحة مكثّفة استغرقت سنوات. **أنجز كلود نسخته في 11 يومًا.**",
+        "بدقة أكبر: لم يحلّ كلود النظرية من الصفر — فعل ذلك وايلز من قبل. المهمة كانت \"صياغة\" البرهان رسميًا: ترجمة الرياضيات المكتوبة بشريًا إلى كود حاسوبي تتحقق منه الآلة خطوةً بخطوة، دون أي هامش للخطأ. قدّر الخبراء أن هذا سيستغرق فريقًا من المتخصصين سنوات عدة. أدار كلود عشرات عوامل متوازية تعمل معًا وأنتج 13 مليون سطر من الكود المُتحقَّق منه — **خمسة أضعاف أكبر مكتبة رياضية وُجدت من قبل**.",
+        "في الطريق، أثبتت العوامل 29,500 نظرية وسيطة واستهلكت نحو 6 مليارات رمز — الوحدات الصغيرة للنص التي يعالجها الذكاء الاصطناعي. أتمّت تجربة منفصلة صياغة نظرية مشهورة أخرى في ثلاثة أيام فقط، باستخدام **خطط استهلاكية متاحة لأي شخص اليوم**.",
+        "القصة الحقيقية هنا ليست رياضيات — بل هي وقت. إن كان الذكاء الاصطناعي قادرًا على ضغط مشروع متخصص يمتد سنوات في 11 يومًا، فإن النمط ذاته قد ينطبق على مراجعة المستندات القانونية، والتحقق من الأدبيات العلمية، وتحليل الامتثال، ومراجعة الكود. كل عمل متخصص عالي المخاطر يستغرق وقتًا للتحقق منه أصبح الآن مرشحًا لهذا النمط: **أشهر من العمل الخبير مضغوطة في أيام**.",
+        "ملاحظة صادقة: نجح هذا لأن البنية التحتية المناسبة كانت موجودة بالفعل — مكتبات رياضية بناها المجتمع، ومنصة مفتوحة المصدر، وبشر يضعون الاتجاه في اللحظات الحاسمة. لم يستبدل الذكاء الاصطناعي الخبراء؛ **بل عمل بسرعة إلى جانبهم**. السؤال العملي لكل فريق: أين في عملكم يُبطئ التحقق المتخصص البطيء كلَّ شيء آخر؟"
+      ],
+      "keyFacts": [
+        { "value": "11 days", "label": "لإتمام ما توقّع الخبراء أنه سيستغرق سنوات" },
+        { "value": "13 million", "label": "سطرًا من كود Lean موثَّق حاسوبيًا" },
+        { "value": "29,500", "label": "نظرية وسيطة أُثبتت في الطريق" },
+        { "value": "350 years", "label": "منذ أن كتب فيرما المسألة عام 1637" }
+      ]
+    }
+  }
+}
