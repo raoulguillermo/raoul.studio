@@ -1,0 +1,129 @@
+{
+  "slug": "2026-09-10-openai-navier-stokes-agents",
+  "date": "2026-09-10",
+  "tags": ["ai", "agents", "research"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.quantamagazine.org/wp-content/uploads/2026/09/navier-stokes-light-master.webp",
+    "alt": "Colorful fluid simulation visualizing the Navier-Stokes equations",
+    "credit": "Quanta Magazine"
+  },
+  "sources": [
+    {
+      "title": "Quanta Magazine — AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+    },
+    {
+      "title": "Simon Willison — On the Navier-Stokes Millennium Prize Problem",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
+    },
+    {
+      "title": "Tech Startups — Top Tech News Today, September 9, 2026",
+      "url": "https://techstartups.com/2026/09/09/top-tech-news-today-september-9-2026-google-meta-openai-xiaomi-more/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Ten thousand AI agents just solved one of the hardest math problems in history",
+      "summary": "OpenAI's fleet of 10,000 AI agents solved a 90-year-old math problem in 88 hours, proving that AI can now do frontier research on its own.",
+      "body": [
+        "Last week, OpenAI sent 10,000 AI agents to work on a math problem that had stumped every human mathematician for 90 years. They worked 88 straight hours and came back with an answer. The estimated compute cost was around $15 million. **AI can now do frontier science**, not just assist with it.",
+        "The problem is called Navier-Stokes. The equations describe how fluids move — think ocean currents or the air around a plane wing. For 90 years, mathematicians could not answer one question: can those equations ever produce runaway, impossible results? **OpenAI's agents showed they can.** The proof was verified step by step by a computer. The Clay Mathematics Institute has offered $1 million for this answer since 2000. OpenAI says it will not claim the prize.",
+        "The scale is unlike anything before. Those 10,000 agents worked in parallel, exchanging millions of messages with each other and processing hundreds of billions of tokens — the small chunks of text that AI models think in. This was not a calculator running faster. It was **a coordinated research team made of software**, working at a speed no human group could match.",
+        "The win came with controversy. Two mathematicians — one at NYU, one at Anthropic — had been quietly working on the same problem for a year. Their August breakthrough apparently reached OpenAI, which then launched a major compute push to solve it first. OpenAI says it never accessed their work, but admitted it 'cannot rule out' that its models learned from traces of it. **Knowing a problem is solvable is worth millions in compute.** That is a new and uncomfortable dynamic in research.",
+        "The practical takeaway is not that AI will replace scientists this year. It is that **the gap between AI helper and AI research team** is closing fast. If your business solves hard, open-ended problems — in law, medicine, materials, or software — now is a good time to ask what a fleet of software agents could do for you."
+      ],
+      "keyFacts": [
+        { "value": "10,000", "label": "AI agents deployed" },
+        { "value": "88 hours", "label": "time to solve the proof" },
+        { "value": "~$15M", "label": "estimated compute cost" },
+        { "value": "$1M", "label": "prize offered since 2000" }
+      ]
+    },
+    "de": {
+      "title": "Zehntausend KI-Agenten lösten gerade eines der schwersten Matheprobleme der Geschichte",
+      "summary": "OpenAIs Flotte aus 10.000 KI-Agenten löste in 88 Stunden ein 90 Jahre altes Mathematikproblem — ein Beweis, dass KI heute eigenständig Spitzenforschung betreiben kann.",
+      "body": [
+        "Letzte Woche schickte OpenAI 10.000 KI-Agenten an ein Mathematikproblem, das 90 Jahre lang jeden Mathematiker der Welt bezwungen hatte. Sie arbeiteten 88 Stunden am Stück und kamen mit einer Antwort zurück. Die geschätzten Rechenkosten lagen bei rund 15 Millionen Dollar. **KI kann heute eigenständig Wissenschaft betreiben**, nicht nur dabei helfen.",
+        "Das Problem heißt Navier-Stokes. Die Gleichungen beschreiben, wie Flüssigkeiten fließen — etwa Meeresströmungen oder die Luft um einen Flügel. 90 Jahre lang konnten Mathematiker eine Frage nicht beantworten: Können diese Gleichungen je 'abstürzen' und unmögliche Werte produzieren? **OpenAIs Agenten zeigten: Ja.** Der Beweis wurde Schritt für Schritt von einem Computer überprüft. Das Clay Mathematics Institute bietet seit dem Jahr 2000 eine Million Dollar für diese Antwort. OpenAI erklärt, den Preis nicht beanspruchen zu wollen.",
+        "Die Größenordnung ist beispiellos. Die 10.000 Agenten arbeiteten parallel, tauschten Millionen von Nachrichten aus und verarbeiteten Hunderte von Milliarden Tokens — die kleinen Texteinheiten, mit denen KI-Modelle arbeiten. Das war kein schnellerer Rechner. Es war **ein koordiniertes Forschungsteam aus reiner Software**, das mit einer Geschwindigkeit arbeitete, die kein Menschenteam erreichen kann.",
+        "Der Erfolg kam mit Streit. Zwei Mathematiker — einer an der NYU, einer bei Anthropic — hatten ein Jahr lang im Stillen an demselben Problem gearbeitet. Ihr Durchbruch im August sickerte offenbar zu OpenAI durch, das daraufhin massiv Rechenleistung einsetzte, um das Problem als Erstes zu lösen. OpenAI sagt, auf deren Arbeit nie zugegriffen zu haben, räumt aber ein, es 'nicht ausschließen zu können', dass seine Modelle Spuren davon gelernt haben. **Das Wissen um Lösbarkeit ist Millionen an Rechenzeit wert.** Das ist eine neue und unbehagliche Dynamik in der Forschung.",
+        "Das praktische Fazit ist nicht, dass KI dieses Jahr Wissenschaftler ersetzt. Es ist, dass **der Abstand zwischen KI-Helfer und KI-Forschungsteam** schnell kleiner wird. Wenn Ihr Unternehmen schwierige, offene Probleme löst — in Recht, Medizin, Materialien oder Software — ist jetzt ein guter Moment zu fragen, was eine Flotte aus Software-Agenten für Sie tun könnte."
+      ],
+      "keyFacts": [
+        { "value": "10,000", "label": "KI-Agenten im Einsatz" },
+        { "value": "88 hours", "label": "Zeit bis zur Lösung" },
+        { "value": "~$15M", "label": "Geschätzte Rechenkosten" },
+        { "value": "$1M", "label": "Preisgeld seit 2000" }
+      ]
+    },
+    "nl": {
+      "title": "Tienduizend AI-agents losten zojuist een van de moeilijkste wiskundeproblemen ooit op",
+      "summary": "OpenAIs vloot van 10.000 AI-agents loste in 88 uur een 90 jaar oud wiskundeprobleem op — het bewijs dat AI nu zelfstandig baanbrekend onderzoek kan doen.",
+      "body": [
+        "Vorige week stuurde OpenAI 10.000 AI-agents aan het werk op een wiskundeprobleem dat 90 jaar lang elke wiskundige ter wereld had verslagen. Ze werkten 88 uur aan één stuk door en kwamen terug met een antwoord. De geschatte rekenkosten: ongeveer 15 miljoen dollar. **AI kan nu zelfstandig wetenschap bedrijven**, niet alleen helpen.",
+        "Het probleem heet Navier-Stokes. De vergelijkingen beschrijven hoe vloeistoffen bewegen — denk aan zeestromingen of lucht rondom een vliegtuigvleugel. Wiskundigen konden 90 jaar lang één vraag niet beantwoorden: kunnen die vergelijkingen ooit 'vastlopen' en onmogelijke waarden opleveren? **OpenAIs agents toonden aan: ja.** Het bewijs werd stap voor stap geverifieerd door een computer. Het Clay Mathematics Institute biedt hier al sinds 2000 een miljoen dollar voor. OpenAI zegt de prijs niet te willen opeisen.",
+        "De schaal is ongekend. Die 10.000 agents werkten parallel, stuurden elkaar miljoenen berichten en verwerkte honderden miljarden tokens — de kleine stukjes tekst waarmee AI-modellen denken. Dit was geen snellere rekenmachine. Het was **een gecoördineerd onderzoeksteam van software**, dat werkte op een snelheid die geen menselijk team kan evenaren.",
+        "Bij de overwinning kwamen ook vragen. Twee wiskundigen — één aan de NYU, één bij Anthropic — werkten een jaar lang stilletjes aan hetzelfde probleem. Hun doorbraak in augustus bereikte blijkbaar OpenAI, dat vervolgens miljoenen in rekenkracht investeerde om het als eerste op te lossen. OpenAI zegt hun werk nooit te hebben ingezien, maar gaf toe dat het 'niet kan uitsluiten' dat zijn modellen er sporen van hebben opgepikt. **Weten dat een probleem oplosbaar is, kost miljoenen.** Dat is een nieuwe en ongemakkelijke dynamiek in onderzoek.",
+        "De praktische les is niet dat AI dit jaar wetenschappers vervangt. Het is dat **de kloof tussen AI-assistent en AI-onderzoeksteam** snel kleiner wordt. Als jouw bedrijf moeilijke, open vraagstukken aanpakt — in recht, geneeskunde, materialen of software — is dit een goed moment om te vragen wat een vloot software-agents voor je kan doen."
+      ],
+      "keyFacts": [
+        { "value": "10,000", "label": "AI-agents ingezet" },
+        { "value": "88 hours", "label": "Tijd tot de oplossing" },
+        { "value": "~$15M", "label": "Geschatte rekenkosten" },
+        { "value": "$1M", "label": "Prijsgeld aangeboden sinds 2000" }
+      ]
+    },
+    "es": {
+      "title": "Diez mil agentes de IA acaban de resolver uno de los problemas matemáticos más difíciles de la historia",
+      "summary": "La flota de 10.000 agentes de IA de OpenAI resolvió en 88 horas un problema matemático de 90 años, demostrando que la IA ya puede hacer investigación de frontera por sí sola.",
+      "body": [
+        "La semana pasada, OpenAI envió 10.000 agentes de IA a trabajar en un problema matemático que había derrotado a todos los matemáticos del mundo durante 90 años. Trabajaron 88 horas seguidas y volvieron con una respuesta. El coste estimado de cómputo fue de unos 15 millones de dólares. **La IA ya puede hacer ciencia de frontera**, no solo asistir en ella.",
+        "El problema se llama Navier-Stokes. Las ecuaciones describen cómo se mueven los fluidos — piensa en las corrientes oceánicas o el aire alrededor del ala de un avión. Durante 90 años, los matemáticos no podían responder una pregunta: ¿pueden esas ecuaciones producir resultados imposibles y descontrolados? **Los agentes de OpenAI demostraron que sí.** La prueba fue verificada paso a paso por un ordenador. El Instituto Clay ha ofrecido un millón de dólares por esta respuesta desde 2000. OpenAI dice que no reclamará el premio.",
+        "La escala no tiene precedentes. Esos 10.000 agentes trabajaron en paralelo, intercambiando millones de mensajes y procesando cientos de miles de millones de tokens — los pequeños fragmentos de texto con los que los modelos de IA piensan. No fue una calculadora más rápida. Fue **un equipo de investigación coordinado hecho de software**, trabajando a una velocidad que ningún equipo humano podría igualar.",
+        "El logro llegó acompañado de controversia. Dos matemáticos — uno en la NYU y otro en Anthropic — llevaban un año trabajando en silencio en el mismo problema. Su avance de agosto llegó aparentemente a oídos de OpenAI, que lanzó entonces un gran esfuerzo de cómputo para resolverlo primero. OpenAI dice que nunca accedió a su trabajo, pero admitió que 'no puede descartar' que sus modelos hayan aprendido rastros de él. **Saber que un problema es resoluble vale millones en cómputo.** Es una dinámica nueva e incómoda en la investigación.",
+        "La lección práctica no es que la IA vaya a reemplazar a los científicos este año. Es que **la brecha entre IA asistente e IA investigadora** se está cerrando rápido. Si tu negocio resuelve problemas difíciles y abiertos — en derecho, medicina, materiales o software — este es un buen momento para preguntarte qué podría hacer por ti una flota de agentes de software."
+      ],
+      "keyFacts": [
+        { "value": "10,000", "label": "agentes de IA desplegados" },
+        { "value": "88 hours", "label": "tiempo hasta la solución" },
+        { "value": "~$15M", "label": "coste estimado de cómputo" },
+        { "value": "$1M", "label": "premio ofrecido desde 2000" }
+      ]
+    },
+    "fr": {
+      "title": "Dix mille agents IA viennent de résoudre l'un des problèmes mathématiques les plus difficiles de l'histoire",
+      "summary": "La flotte de 10 000 agents IA d'OpenAI a résolu en 88 heures un problème mathématique vieux de 90 ans — la preuve que l'IA peut désormais mener des recherches de pointe de façon autonome.",
+      "body": [
+        "La semaine dernière, OpenAI a envoyé 10 000 agents IA travailler sur un problème mathématique qui avait résisté à tous les mathématiciens du monde pendant 90 ans. Ils ont travaillé 88 heures d'affilée et sont revenus avec une réponse. Le coût estimé en calcul : environ 15 millions de dollars. **L'IA peut désormais faire de la science autonome**, pas seulement y contribuer.",
+        "Le problème s'appelle Navier-Stokes. Ces équations décrivent comment les fluides se déplacent — les courants océaniques ou l'air autour d'une aile d'avion. Pendant 90 ans, les mathématiciens n'ont pas pu répondre à une question : ces équations peuvent-elles jamais 'exploser' et produire des résultats impossibles ? **Les agents d'OpenAI ont montré que oui.** La preuve a été vérifiée ligne par ligne par un ordinateur. L'Institut Clay offrait un million de dollars pour cette réponse depuis 2000. OpenAI dit qu'il ne réclamera pas le prix.",
+        "L'ampleur est sans précédent. Ces 10 000 agents ont travaillé en parallèle, échangeant des millions de messages et traitant des centaines de milliards de tokens — les petits fragments de texte que les modèles IA utilisent pour raisonner. Ce n'était pas une calculatrice plus rapide. C'était **une équipe de recherche entièrement faite de logiciels**, travaillant à une vitesse qu'aucune équipe humaine ne pourrait égaler.",
+        "La victoire s'est accompagnée d'une controverse. Deux mathématiciens — l'un à NYU, l'autre chez Anthropic — travaillaient discrètement sur le même problème depuis un an. Leur percée d'août aurait atteint OpenAI, qui a alors lancé un effort massif de calcul pour le résoudre en premier. OpenAI affirme n'avoir jamais accédé à leur travail, mais reconnaît ne 'pas pouvoir exclure' que ses modèles en aient appris des traces. **Savoir qu'un problème est soluble vaut des millions en calcul.** C'est une dynamique nouvelle et inconfortable dans la recherche.",
+        "La leçon pratique n'est pas que l'IA va remplacer les scientifiques cette année. C'est que **l'écart entre outil IA et équipe de recherche IA** se réduit rapidement. Si votre activité consiste à résoudre des problèmes difficiles et ouverts — en droit, médecine, matériaux ou logiciel — c'est le bon moment pour vous demander ce qu'une flotte d'agents logiciels pourrait faire pour vous."
+      ],
+      "keyFacts": [
+        { "value": "10,000", "label": "agents IA mobilisés" },
+        { "value": "88 hours", "label": "durée jusqu'à la preuve" },
+        { "value": "~$15M", "label": "coût de calcul estimé" },
+        { "value": "$1M", "label": "récompense offerte depuis 2000" }
+      ]
+    },
+    "ar": {
+      "title": "عشرة آلاف وكيل ذكاء اصطناعي حلّوا للتو أحد أصعب المسائل الرياضية في التاريخ",
+      "summary": "أرسل OpenAI عشرة آلاف وكيل ذكاء اصطناعي لحلّ مسألة رياضية عمرها 90 عامًا في 88 ساعة، مما يُثبت أن الذكاء الاصطناعي يستطيع اليوم إجراء أبحاث علمية متقدمة بشكل مستقل.",
+      "body": [
+        "الأسبوع الماضي، أطلق OpenAI عشرة آلاف وكيل ذكاء اصطناعي للعمل على مسألة رياضية أعيت كل عالم رياضيات في العالم لمدة تسعين عامًا. عمل الوكلاء ثمانية وثمانين ساعة متواصلة وعادوا بإجابة. التكلفة التقديرية للحوسبة: نحو خمسة عشر مليون دولار. **الذكاء الاصطناعي يمارس العلوم الآن بشكل مستقل**، لا مجرد المساعدة فيها.",
+        "المسألة تُسمّى ناڤييه-ستوكس، وهي معادلات تصف كيف تتدفق السوائل — كالتيارات البحرية أو الهواء حول جناح طائرة. طوال تسعين عامًا، لم يستطع الرياضيون الإجابة عن سؤال واحد: هل يمكن لهذه المعادلات أن 'تنهار' وتُنتج نتائج مستحيلة؟ **وكلاء OpenAI أثبتوا أن ذلك ممكن.** وقد تحقّق علماء من صحة البرهان خطوة بخطوة عبر حاسوب. كان معهد كلاي للرياضيات يُقدّم مليون دولار لمن يجيب على هذا السؤال منذ عام 2000. قال OpenAI إنه لن يطالب بالجائزة.",
+        "الحجم لم يُر له مثيل. عمل هؤلاء العشرة آلاف وكيل بالتوازي، متبادلين ملايين الرسائل فيما بينهم ومعالجين مئات المليارات من الرموز — وهي الأجزاء الصغيرة من النص التي تستخدمها نماذج الذكاء الاصطناعي. لم يكن هذا حاسبة أسرع. كان **فريق بحث مُنسَّق مصنوع من البرمجيات**، يعمل بسرعة لا يستطيع أي فريق بشري مجاراتها.",
+        "جاء الإنجاز مصحوبًا بجدل. عمل عالمان رياضيان — أحدهما في جامعة نيويورك والآخر في شركة Anthropic — بهدوء طوال عام على المسألة ذاتها. يبدو أن اختراقهما في أغسطس وصل إلى علم OpenAI، الذي أطلق بعدها جهدًا حوسبيًا ضخمًا ليحلّ المسألة أولًا. قال OpenAI إنه لم يطّلع على عملهما، لكنه أقرّ بأنه 'لا يستطيع استبعاد' أن نماذجه تعلّمت منه آثارًا غير مباشرة. **معرفة أن مسألة قابلة للحل تساوي الملايين في الحوسبة.** هذه ديناميكية جديدة وغير مريحة في البحث العلمي.",
+        "الدرس العملي ليس أن الذكاء الاصطناعي سيحلّ محل العلماء هذا العام. بل هو أن **الهوة بين الأداة والفريق البحثي** تضيق بسرعة. إن كان عملك يتطلب حل مشكلات صعبة ومفتوحة — في القانون أو الطب أو المواد أو البرمجيات — فهذا وقت مناسب لتسأل نفسك: ما الذي يمكن أن تفعله لك أسطول من وكلاء البرمجيات؟"
+      ],
+      "keyFacts": [
+        { "value": "10,000", "label": "وكيل ذكاء اصطناعي نُشر" },
+        { "value": "88 hours", "label": "الوقت المستغرق للحل" },
+        { "value": "~$15M", "label": "التكلفة التقديرية للحوسبة" },
+        { "value": "$1M", "label": "جائزة مُعروضة منذ 2000" }
+      ]
+    }
+  }
+}
