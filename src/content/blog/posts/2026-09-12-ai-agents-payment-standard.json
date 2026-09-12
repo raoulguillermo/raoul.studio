@@ -1,0 +1,114 @@
+{
+  "slug": "2026-09-12-ai-agents-payment-standard",
+  "date": "2026-09-12",
+  "tags": ["ai", "commerce", "fintech"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/09/ant-international-mastercard-and-visa-begin-know-your-agent-collaboration.jpg",
+    "alt": "Ant International, Mastercard, and Visa logos side by side representing their KYA collaboration",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    { "title": "Unite.AI — Ant International, Visa, Mastercard Align on AI Agent Verification Rules", "url": "https://www.unite.ai/ant-international-visa-mastercard-align-on-ai-agent-verification-rules/" },
+    { "title": "PYMNTS — Visa and Mastercard Team With Ant on Know Your Agent Framework", "url": "https://www.pymnts.com/cybersecurity/2026/visa-mastercard-team-with-ant-know-your-agent-framework" },
+    { "title": "TechNode Global — Ant International, Mastercard, Visa to align on Know-Your-Agent standards for AI-driven payments", "url": "https://technode.global/2026/09/10/ant-international-mastercard-visa-develop-kya-framework/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "The payment networks just decided AI agents are real shoppers",
+      "summary": "Visa, Mastercard, and Ant International agreed on shared rules to verify AI agents at checkout — which means businesses that sell online need to start treating AI agents as genuine customers.",
+      "body": [
+        "AI agents that browse and buy on a human's behalf have been technically possible for a while. What was missing was a shared way for payment networks to trust them. On September 10, Visa, Mastercard, and Ant International — the company behind Alipay, one of the world's largest payment systems — announced that AI agents **can now be verified across all three networks at once**. It is called the Know-Your-Agent framework, or KYA.",
+        "Until now, each payment network had its own protocol for AI agents. If a company wanted its agent to work everywhere, it had to register and prove its identity three separate times. The KYA framework collapses that into one: **register once, trusted everywhere**. That is the same shift that happened with credit cards decades ago, when merchants stopped needing a different terminal for every bank.",
+        "The numbers make the stakes clear. McKinsey estimates that by 2030, AI agents could handle between three and five trillion dollars of global commerce. Meanwhile, about 90 percent of enterprises say managing automated bots is a serious problem, and outdated identity systems cost the industry roughly **$100 billion a year** in fraud, bad decline decisions, and lost customers. The infrastructure to fix that is now being built.",
+        "If your business sells online — especially in fintech, retail, or B2B procurement — the way customers arrive at checkout is about to change. In a world where AI agents shop on people's behalf, the customer experience is no longer only for humans. Prices, availability signals, return policies, and checkout flows all become inputs a bot will evaluate and act on. **The question is no longer if AI agents will buy from you — it is when, and whether you will be ready**."
+      ],
+      "keyFacts": [
+        { "value": "$3T–$5T", "label": "global commerce AI agents may handle by 2030" },
+        { "value": "~$100B", "label": "annual cost of outdated bot identity systems" },
+        { "value": "~90%", "label": "enterprises reporting bot management as a major challenge" },
+        { "value": "3", "label": "payment networks now aligned on one verification standard" }
+      ]
+    },
+    "de": {
+      "title": "Die Zahlungsnetzwerke haben entschieden: KI-Agenten sind echte Käufer",
+      "summary": "Visa, Mastercard und Ant International haben gemeinsame Regeln für die Verifizierung von KI-Agenten beim Bezahlen vereinbart — Unternehmen, die online verkaufen, müssen KI-Agenten als echte Kunden betrachten.",
+      "body": [
+        "KI-Agenten, die im Auftrag eines Menschen surfen und einkaufen, sind technisch schon länger möglich. Was bislang fehlte, war ein gemeinsamer Weg, damit Zahlungsnetzwerke ihnen vertrauen können. Am 10. September kündigten Visa, Mastercard und Ant International — das Unternehmen hinter Alipay, einem der weltgrößten Zahlungssysteme — an, dass KI-Agenten **jetzt gleichzeitig in allen drei Netzwerken verifiziert werden können**. Das nennt sich Know-Your-Agent-Framework, kurz KYA.",
+        "Bisher hatte jedes Zahlungsnetzwerk sein eigenes Protokoll für KI-Agenten. Wer seinen Agenten überall einsetzen wollte, musste sich dreimal separat registrieren und seine Identität nachweisen. Das KYA-Framework macht daraus eine einzige Registrierung: **einmal anmelden, überall vertraut**. Das ist dieselbe Umstellung, die vor Jahrzehnten mit Kreditkarten stattfand, als Händler nicht mehr für jede Bank ein eigenes Terminal brauchten.",
+        "Die Zahlen machen das Ausmaß klar. McKinsey schätzt, dass KI-Agenten bis 2030 zwischen drei und fünf Billionen Dollar im globalen Handel abwickeln könnten. Gleichzeitig bezeichnen rund 90 Prozent der Unternehmen das Management automatisierter Bots als ernstes Problem, und veraltete Identitätssysteme kosten die Branche rund **100 Milliarden Dollar pro Jahr** durch Betrug, fehlerhafte Ablehnungen und verlorene Kunden. Die Infrastruktur, das zu beheben, wird gerade gebaut.",
+        "Wenn Ihr Unternehmen online verkauft — insbesondere in Fintech, Handel oder B2B-Beschaffung — wird sich bald ändern, wie Kunden zur Kasse kommen. In einer Welt, in der KI-Agenten für Menschen einkaufen, richtet sich das Kauferlebnis nicht mehr nur an Menschen. Preise, Verfügbarkeitssignale, Rückgabebedingungen und Checkout-Abläufe werden zu Eingaben, die ein Bot bewertet und auf die er reagiert. **Die Frage lautet nicht mehr ob KI-Agenten bei Ihnen kaufen — sondern wann, und ob Sie bereit sein werden**."
+      ],
+      "keyFacts": [
+        { "value": "$3T–$5T", "label": "globaler Handel, den KI-Agenten bis 2030 abwickeln könnten" },
+        { "value": "~$100B", "label": "jährliche Kosten veralteter Bot-Identitätssysteme" },
+        { "value": "~90%", "label": "Unternehmen, die Bot-Management als großes Problem sehen" },
+        { "value": "3", "label": "Zahlungsnetzwerke jetzt auf einem Standard vereint" }
+      ]
+    },
+    "nl": {
+      "title": "De betaalnetwerken hebben besloten: AI-agenten zijn echte kopers",
+      "summary": "Visa, Mastercard en Ant International hebben gemeenschappelijke regels afgesproken voor het verifiëren van AI-agenten bij betalingen — bedrijven die online verkopen moeten AI-agenten als echte klanten gaan behandelen.",
+      "body": [
+        "AI-agenten die namens een mens surfen en kopen zijn technisch al een tijdje mogelijk. Wat ontbrak was een gedeelde manier voor betaalnetwerken om ze te vertrouwen. Op 10 september kondigden Visa, Mastercard en Ant International — het bedrijf achter Alipay, een van 's werelds grootste betaalsystemen — aan dat AI-agenten **nu tegelijkertijd in alle drie de netwerken geverifieerd kunnen worden**. Dat heet het Know-Your-Agent-framework, ofwel KYA.",
+        "Tot nu toe had elk betaalnetwerk zijn eigen protocol voor AI-agenten. Wie zijn agent overal wilde laten werken, moest zich drie keer apart registreren en zijn identiteit bewijzen. Het KYA-framework maakt daar één registratie van: **één keer registreren, overal vertrouwd**. Dat is dezelfde verschuiving die tientallen jaren geleden met creditcards plaatsvond, toen handelaren niet meer voor elke bank een aparte terminal nodig hadden.",
+        "De cijfers maken duidelijk hoeveel er op het spel staat. McKinsey schat dat AI-agenten tegen 2030 drie tot vijf biljoen dollar aan wereldwijde handel kunnen verwerken. Ondertussen ervaart zo'n 90 procent van de bedrijven botbeheer als een serieus probleem, en verouderde identiteitssystemen kosten de sector zo'n **100 miljard dollar per jaar** door fraude, onjuiste weigeringen en verloren klanten. De infrastructuur om dit op te lossen wordt nu gebouwd.",
+        "Als uw bedrijf online verkoopt — zeker in fintech, retail of B2B-inkoop — verandert de manier waarop klanten bij de kassa komen binnenkort. In een wereld waar AI-agenten namens mensen winkelen, is de klantervaring niet meer alleen voor mensen. Prijzen, beschikbaarheidssignalen, retourbeleid en afrekenprocessen worden invoer die een bot beoordeelt en waarop hij reageert. **De vraag is niet meer óf AI-agenten bij u kopen — maar wanneer, en of u er klaar voor bent**."
+      ],
+      "keyFacts": [
+        { "value": "$3T–$5T", "label": "wereldwijde handel die AI-agenten in 2030 kunnen verwerken" },
+        { "value": "~$100B", "label": "jaarlijkse kosten van verouderde bot-identiteitssystemen" },
+        { "value": "~90%", "label": "bedrijven die botbeheer als groot probleem ervaren" },
+        { "value": "3", "label": "betaalnetwerken nu op één standaard afgestemd" }
+      ]
+    },
+    "es": {
+      "title": "Las redes de pago decidieron: los agentes de IA son compradores reales",
+      "summary": "Visa, Mastercard y Ant International acordaron reglas comunes para verificar agentes de IA en pagos — los negocios que venden en línea deben empezar a tratar a los agentes de IA como clientes genuinos.",
+      "body": [
+        "Los agentes de IA que navegan y compran en nombre de una persona son técnicamente posibles desde hace tiempo. Lo que faltaba era una forma compartida para que las redes de pago confiaran en ellos. El 10 de septiembre, Visa, Mastercard y Ant International — la empresa detrás de Alipay, uno de los sistemas de pago más grandes del mundo — anunciaron que los agentes de IA **ya pueden ser verificados en las tres redes a la vez**. Se llama el marco Know-Your-Agent, o KYA.",
+        "Hasta ahora, cada red de pago tenía su propio protocolo para los agentes de IA. Si una empresa quería que su agente funcionara en todas partes, tenía que registrarse y demostrar su identidad tres veces por separado. El marco KYA reduce eso a uno: **registrarse una vez, ser de confianza en todas partes**. Es el mismo cambio que ocurrió con las tarjetas de crédito hace décadas, cuando los comerciantes dejaron de necesitar una terminal diferente para cada banco.",
+        "Los números dejan claro lo que está en juego. McKinsey estima que para 2030, los agentes de IA podrían manejar entre tres y cinco billones de dólares en comercio global. Mientras tanto, cerca del 90 por ciento de las empresas dicen que gestionar bots automatizados es un problema serio, y los sistemas de identidad obsoletos le cuestan a la industria unos **100 mil millones de dólares al año** en fraude, rechazos incorrectos y clientes perdidos. La infraestructura para solucionar esto se está construyendo ahora.",
+        "Si tu negocio vende en línea — especialmente en fintech, comercio minorista o compras B2B — la forma en que los clientes llegan a la caja está a punto de cambiar. En un mundo donde los agentes de IA compran en nombre de las personas, la experiencia del cliente ya no es solo para humanos. Los precios, las señales de disponibilidad, las políticas de devolución y los flujos de pago se convierten en datos que un bot evaluará y sobre los que actuará. **La pregunta ya no es si los agentes de IA comprarán en tu negocio — sino cuándo, y si estarás listo**."
+      ],
+      "keyFacts": [
+        { "value": "$3T–$5T", "label": "comercio global que los agentes de IA podrían gestionar en 2030" },
+        { "value": "~$100B", "label": "costo anual de sistemas de identidad de bots obsoletos" },
+        { "value": "~90%", "label": "empresas que ven la gestión de bots como un problema grave" },
+        { "value": "3", "label": "redes de pago ahora alineadas en un solo estándar" }
+      ]
+    },
+    "fr": {
+      "title": "Les réseaux de paiement ont tranché : les agents IA sont de vrais acheteurs",
+      "summary": "Visa, Mastercard et Ant International ont adopté des règles communes pour vérifier les agents IA lors des paiements — les entreprises qui vendent en ligne doivent commencer à traiter les agents IA comme de véritables clients.",
+      "body": [
+        "Les agents IA qui naviguent et achètent au nom d'un utilisateur sont techniquement possibles depuis un moment. Ce qui manquait, c'était une façon commune pour les réseaux de paiement de leur faire confiance. Le 10 septembre, Visa, Mastercard et Ant International — l'entreprise derrière Alipay, l'un des plus grands systèmes de paiement au monde — ont annoncé que les agents IA **peuvent désormais être vérifiés sur les trois réseaux à la fois**. C'est ce qu'on appelle le cadre Know-Your-Agent, ou KYA.",
+        "Jusqu'à présent, chaque réseau de paiement avait son propre protocole pour les agents IA. Une entreprise qui voulait que son agent fonctionne partout devait s'enregistrer et prouver son identité trois fois séparément. Le cadre KYA réduit cela à une seule fois : **s'inscrire une fois, être reconnu partout**. C'est le même changement que celui des cartes de crédit il y a des décennies, quand les commerçants n'avaient plus besoin d'un terminal différent pour chaque banque.",
+        "Les chiffres montrent clairement ce qui est en jeu. McKinsey estime que d'ici 2030, les agents IA pourraient gérer entre trois et cinq mille milliards de dollars de commerce mondial. En attendant, près de 90 % des entreprises considèrent la gestion des bots automatisés comme un problème sérieux, et les systèmes d'identité obsolètes coûtent à l'industrie environ **100 milliards de dollars par an** en fraude, refus incorrects et clients perdus. L'infrastructure pour résoudre ce problème est en cours de construction.",
+        "Si votre entreprise vend en ligne — en particulier dans la fintech, le commerce de détail ou les achats B2B — la façon dont les clients arrivent à la caisse est sur le point de changer. Dans un monde où des agents IA font les courses à la place des gens, l'expérience client n'est plus réservée aux humains. Les prix, les signaux de disponibilité, les politiques de retour et les flux de paiement deviennent des données qu'un bot évalue et sur lesquelles il agit. **La question n'est plus de savoir si des agents IA achèteront chez vous — mais quand, et si vous serez prêts**."
+      ],
+      "keyFacts": [
+        { "value": "$3T–$5T", "label": "commerce mondial que les agents IA pourraient gérer d'ici 2030" },
+        { "value": "~$100B", "label": "coût annuel des systèmes d'identité de bots obsolètes" },
+        { "value": "~90%", "label": "entreprises pour qui la gestion des bots est un problème majeur" },
+        { "value": "3", "label": "réseaux de paiement désormais alignés sur une norme commune" }
+      ]
+    },
+    "ar": {
+      "title": "شبكات الدفع قررت: وكلاء الذكاء الاصطناعي مشترون حقيقيون",
+      "summary": "اتفقت فيزا وماستركارد وأنت إنترناشيونال على قواعد مشتركة للتحقق من وكلاء الذكاء الاصطناعي عند الدفع — وهذا يعني أن الشركات التي تبيع عبر الإنترنت يجب أن تبدأ في التعامل مع وكلاء الذكاء الاصطناعي كعملاء حقيقيين.",
+      "body": [
+        "وكلاء الذكاء الاصطناعي الذين يتصفحون ويشترون نيابةً عن الإنسان ممكنون تقنياً منذ فترة. ما كان ينقص هو طريقة مشتركة تتيح لشبكات الدفع الوثوق بهم. في العاشر من سبتمبر، أعلنت فيزا وماستركارد وأنت إنترناشيونال — الشركة المالكة لألي باي، أحد أكبر أنظمة الدفع في العالم — أن وكلاء الذكاء الاصطناعي **يمكن الآن التحقق منهم في الشبكات الثلاث معاً**. ويُعرف هذا بإطار \"اعرف وكيلك\"، أو KYA.",
+        "حتى الآن، كانت كل شبكة دفع تمتلك بروتوكولها الخاص للتعامل مع وكلاء الذكاء الاصطناعي. إذا أرادت شركة ما أن يعمل وكيلها في كل مكان، كان عليها التسجيل وإثبات هويتها ثلاث مرات منفصلة. يختزل إطار KYA ذلك في تسجيل واحد: **سجّل مرة واحدة، وثق في كل مكان**. هذا هو نفس التحول الذي حدث مع بطاقات الائتمان منذ عقود، حين لم يعد التجار بحاجة إلى جهاز نقاط بيع مختلف لكل بنك.",
+        "الأرقام تكشف حجم ما على المحك. تقدّر ماكنزي أنه بحلول عام 2030، قد يدير وكلاء الذكاء الاصطناعي ما بين ثلاثة وخمسة تريليونات دولار من التجارة العالمية. وفي الوقت نفسه، يعتبر نحو 90 بالمئة من الشركات إدارة الروبوتات الآلية مشكلة جدية، وتكلف أنظمة التحقق من الهوية القديمة القطاع ما يقارب **100 مليار دولار سنوياً** بسبب الاحتيال والرفض الخاطئ وفقدان العملاء. البنية التحتية لحل هذه المشكلة يجري بناؤها الآن.",
+        "إذا كانت شركتك تبيع عبر الإنترنت — لا سيما في قطاع التكنولوجيا المالية أو التجزئة أو المشتريات بين الشركات — فإن طريقة وصول العملاء إلى الدفع ستتغير قريباً. في عالم يتسوق فيه وكلاء الذكاء الاصطناعي نيابةً عن البشر، لم تعد تجربة العملاء مخصصة للبشر وحدهم. تتحول الأسعار وإشارات التوافر وسياسات الإرجاع وإجراءات الدفع إلى بيانات يقيّمها الروبوت ويتصرف بناءً عليها. **السؤال لم يعد إذا كان وكلاء الذكاء الاصطناعي سيشترون منك — بل متى، وهل ستكون مستعداً**."
+      ],
+      "keyFacts": [
+        { "value": "$3T–$5T", "label": "التجارة العالمية التي قد يديرها الذكاء الاصطناعي بحلول 2030" },
+        { "value": "~$100B", "label": "التكلفة السنوية لأنظمة تحقق الهوية القديمة" },
+        { "value": "~90%", "label": "الشركات التي تعد إدارة الروبوتات مشكلة كبرى" },
+        { "value": "3", "label": "شبكات دفع متوافقة على معيار واحد" }
+      ]
+    }
+  }
+}
