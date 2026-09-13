@@ -1,0 +1,110 @@
+{
+  "slug": "2026-09-13-swe-2-coding-ai-cheaper-frontier",
+  "date": "2026-09-13",
+  "tags": ["ai", "coding", "developer-tools"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "MarkTechPost — Cognition Releases SWE-2: A Kimi K3 Post-Trained Coding Model That Matches Fable 5.1 on FrontierCode at 64% Lower Cost", "url": "https://www.marktechpost.com/2026/09/12/cognition-releases-swe-2-a-kimi-k3-post-trained-coding-model-that-matches-fable-5-1-on-frontiercode-at-64-lower-cost/" },
+    { "title": "OfficeChai — Cognition Releases SWE-2, Says It Performs Close To Frontier At 70% Lower Cost", "url": "https://officechai.com/ai/cognition-releases-swe-2-says-it-performs-close-to-frontier-at-70-lower-cost/" },
+    { "title": "AI/TLDR — SWE-2: Cognition's Coding Model on Kimi K3", "url": "https://ai-tldr.dev/releases/cognition-swe-2/" },
+    { "title": "CellCog — Cognition SWE-2: Benchmarks, the 64% Cost Claim, and the Row It Loses", "url": "https://cellcog.ai/blog/cognition-swe-2/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Frontier-level coding AI, 64% cheaper: what Cognition's SWE-2 means for builders",
+      "summary": "A new coding AI matches the best models available but costs 64% less to run — which means automating software work is getting dramatically cheaper.",
+      "body": [
+        "The cost of using AI to write code just dropped significantly. On September 10, Cognition — the company behind the Devin coding agent — released SWE-2, a new model that **matches frontier-level coding at 64% lower cost**. That gap matters: most of what you pay for when you use AI coding tools today is about to get cheaper.",
+        "SWE-2 scores 50.0% on FrontierCode 1.1, a standard test for AI coding ability. Anthropic's Fable 5.1 — currently one of the best coding models — scores 50.9%. Less than one point apart. SWE-2 gets there using a different foundation: Moonshot AI's Kimi K3, an open model with 2.8 trillion parameters (the internal settings that shape how a model thinks), fine-tuned for coding with reinforcement learning. It also takes **58% fewer steps to finish a task** compared to Cognition's previous model.",
+        "There is one real limitation. SWE-2 only works inside Cognition's Devin products — the desktop app, the command line, and the web version. You cannot access it through a standalone API or embed it in your own tools. And all the benchmark numbers come from Cognition's own tests, not independent reviewers. On one harder test (Terminal-Bench 4), SWE-2 scores 27% while Fable 5.1 scores 56% — a large gap that shows **it is not yet better across every type of task**.",
+        "But the direction is clear. A small team that cannot afford the most expensive AI models for code review, bug-fixing, or building features now has a model that gets very close — at a price that makes sense for a startup. If you already use Devin, switching to SWE-2 today is a straightforward cost saving. More broadly, this is what AI coding tools look like in 2026: **capable enough to be genuinely useful, cheap enough to run constantly**."
+      ],
+      "keyFacts": [
+        { "value": "50.0%", "label": "SWE-2 score on FrontierCode 1.1" },
+        { "value": "64%", "label": "cheaper than Fable 5.1 at equal performance" },
+        { "value": "81%", "label": "lower cost than the previous Devin model" },
+        { "value": "2.8T", "label": "parameters in the Kimi K3 base model" }
+      ]
+    },
+    "de": {
+      "title": "Frontier-KI fürs Coden, 64 % günstiger: Was Cognitions SWE-2 für Entwickler bedeutet",
+      "summary": "Ein neues Coding-KI-Modell kommt den besten Modellen auf dem Markt nahe und kostet dabei 64 % weniger — was das Automatisieren von Softwarearbeit deutlich erschwinglicher macht.",
+      "body": [
+        "Die Kosten für KI-gestütztes Programmieren sind gerade deutlich gesunken. Am 10. September veröffentlichte Cognition — das Unternehmen hinter dem Coding-Agenten Devin — SWE-2, ein neues Modell, das **Frontier-Niveau beim Programmieren zu 64 % niedrigeren Kosten** erreicht. Das ist bedeutsam: Das meiste, wofür man heute bei KI-Coding-Tools zahlt, wird schon bald günstiger.",
+        "SWE-2 erzielt 50,0 % auf FrontierCode 1.1, dem Standardtest für KI-Programmierfähigkeiten. Anthropics Fable 5.1 — eines der derzeit besten Coding-Modelle — erreicht 50,9 %. Weniger als einen Punkt Unterschied. SWE-2 schafft das auf einer anderen Grundlage: Moonshot AIs Kimi K3, ein offenes Modell mit 2,8 Billionen Parametern (den internen Einstellungen, die bestimmen, wie ein Modell denkt), speziell für Programmieraufgaben verfeinert. Außerdem braucht es **58 % weniger Schritte zum Lösen einer Aufgabe** als das Vorgängermodell.",
+        "Es gibt eine echte Einschränkung. SWE-2 funktioniert nur in Cognitions Devin-Produkten — der Desktop-App, der Kommandozeile und der Web-Version. Es gibt keine eigenständige API und keine Möglichkeit, es in eigene Tools einzubinden. Außerdem stammen alle Benchmark-Zahlen aus Cognitions eigenen Tests, nicht von unabhängigen Testern. Bei einem schwierigeren Test (Terminal-Bench 4) erzielt SWE-2 nur 27 %, Fable 5.1 hingegen 56 % — ein großer Abstand, der zeigt, dass **es noch nicht in jeder Aufgabenart besser ist**.",
+        "Aber die Richtung ist klar. Ein kleines Team, das sich die teuersten KI-Modelle für Code-Reviews, Fehlerbehebungen oder das Entwickeln neuer Features nicht leisten kann, hat jetzt ein Modell, das fast genauso gut ist — zu einem Preis, der für ein Startup Sinn ergibt. Wer Devin bereits nutzt, kann sofort auf SWE-2 wechseln und Kosten sparen. Allgemeiner gesagt: So sehen KI-Coding-Tools im Jahr 2026 aus — **leistungsfähig genug, um wirklich nützlich zu sein, günstig genug für den Dauerbetrieb**."
+      ],
+      "keyFacts": [
+        { "value": "50.0%", "label": "SWE-2-Wert auf FrontierCode 1.1" },
+        { "value": "64%", "label": "günstiger als Fable 5.1 bei gleicher Leistung" },
+        { "value": "81%", "label": "niedrigere Kosten als das vorherige Devin-Modell" },
+        { "value": "2.8T", "label": "Parameter im Kimi-K3-Basismodell" }
+      ]
+    },
+    "nl": {
+      "title": "Frontier-niveau coding-AI, 64% goedkoper: wat Cognitions SWE-2 betekent voor bouwers",
+      "summary": "Een nieuw coding-AI-model haalt het niveau van de beste beschikbare modellen maar kost 64% minder — wat het automatiseren van softwarewerk een stuk betaalbaarder maakt.",
+      "body": [
+        "De kosten voor het gebruik van AI om code te schrijven zijn zojuist flink gedaald. Op 10 september lanceerde Cognition — het bedrijf achter de Devin coding-agent — SWE-2, een nieuw model dat **frontier-niveau voor code schrijven voor 64% minder kost**. Dat verschil telt: het meeste waarvoor je vandaag betaalt bij AI-coding-tools wordt goedkoper.",
+        "SWE-2 scoort 50,0% op FrontierCode 1.1, een standaardtest voor AI-programmeervaardigheden. Anthropic's Fable 5.1 — momenteel een van de beste coding-modellen — scoort 50,9%. Minder dan één punt verschil. SWE-2 bereikt dit via een andere basis: Moonshot AI's Kimi K3, een open model met 2,8 biljoen parameters (de interne instellingen die bepalen hoe een model denkt), verfijnd voor codetaken met reinforcement learning. Bovendien heeft het **58% minder stappen nodig om een taak te voltooien** dan het vorige model.",
+        "Er is één echte beperking. SWE-2 werkt alleen binnen Cognitions Devin-producten — de desktop-app, de commandoregel en de webversie. Er is geen standalone API en je kunt het niet inbouwen in je eigen tools. Bovendien komen alle benchmarkcijfers uit Cognitions eigen tests, niet van onafhankelijke beoordelaars. Op een moeilijkere test (Terminal-Bench 4) scoort SWE-2 27% terwijl Fable 5.1 56% haalt — een groot verschil dat aantoont dat **het nog niet beter is op elk type taak**.",
+        "Maar de richting is duidelijk. Een klein team dat zich de duurste AI-modellen voor codereview, bugfixes of nieuwe functies niet kan veroorloven, heeft nu een model dat er heel dicht bij komt — voor een prijs die voor een startup zinvol is. Als je Devin al gebruikt, is overstappen naar SWE-2 een directe kostenbesparing. Breder gezien: zo zien AI-coding-tools er in 2026 uit — **krachtig genoeg om echt nuttig te zijn, goedkoop genoeg om continu te draaien**."
+      ],
+      "keyFacts": [
+        { "value": "50.0%", "label": "SWE-2 score op FrontierCode 1.1" },
+        { "value": "64%", "label": "goedkoper dan Fable 5.1 bij gelijke prestaties" },
+        { "value": "81%", "label": "lagere kosten dan het vorige Devin-model" },
+        { "value": "2.8T", "label": "parameters in het Kimi K3 basismodel" }
+      ]
+    },
+    "es": {
+      "title": "IA de programación al nivel frontier, 64% más barata: qué significa SWE-2 de Cognition para los desarrolladores",
+      "summary": "Un nuevo modelo de IA para programar iguala a los mejores modelos disponibles pero cuesta un 64% menos, lo que significa que automatizar el trabajo de software se está volviendo mucho más accesible.",
+      "body": [
+        "El coste de usar IA para escribir código acaba de bajar de forma significativa. El 10 de septiembre, Cognition — la empresa detrás del agente de programación Devin — lanzó SWE-2, un nuevo modelo que **alcanza el nivel frontier en programación con un 64% menos de coste**. Esa diferencia importa: la mayor parte de lo que pagas hoy por herramientas de programación con IA pronto será más barato.",
+        "SWE-2 obtiene un 50,0% en FrontierCode 1.1, el test estándar para medir la capacidad de programación de la IA. El Fable 5.1 de Anthropic — actualmente uno de los mejores modelos de programación — alcanza un 50,9%. Menos de un punto de diferencia. SWE-2 lo consigue sobre una base distinta: el Kimi K3 de Moonshot AI, un modelo abierto con 2,8 billones de parámetros (los ajustes internos que determinan cómo razona un modelo), refinado para programación mediante aprendizaje por refuerzo. Además, **completa las tareas con un 58% menos de pasos** que el modelo anterior de Cognition.",
+        "Hay una limitación real. SWE-2 solo funciona dentro de los productos Devin de Cognition — la app de escritorio, la línea de comandos y la versión web. No se puede acceder a él mediante una API independiente ni integrarlo en herramientas propias. Además, todas las cifras de los benchmarks provienen de los propios tests de Cognition, no de revisores independientes. En una prueba más difícil (Terminal-Bench 4), SWE-2 obtiene un 27% mientras que Fable 5.1 consigue un 56% — una diferencia grande que muestra que **aún no supera en todos los tipos de tareas**.",
+        "Pero la dirección está clara. Un equipo pequeño que no puede permitirse los modelos de IA más caros para revisión de código, corrección de errores o desarrollo de funcionalidades tiene ahora un modelo que se acerca mucho — a un precio que tiene sentido para una startup. Si ya usas Devin, cambiar a SWE-2 hoy es un ahorro inmediato. En términos más amplios, así son las herramientas de programación con IA en 2026: **lo suficientemente capaces para ser realmente útiles, lo suficientemente baratas para usarlas sin parar**."
+      ],
+      "keyFacts": [
+        { "value": "50.0%", "label": "puntuación de SWE-2 en FrontierCode 1.1" },
+        { "value": "64%", "label": "más barato que Fable 5.1 con igual rendimiento" },
+        { "value": "81%", "label": "menos coste que el modelo Devin anterior" },
+        { "value": "2.8T", "label": "parámetros en el modelo base Kimi K3" }
+      ]
+    },
+    "fr": {
+      "title": "IA de codage au niveau frontier, 64 % moins chère : ce que le SWE-2 de Cognition change pour les développeurs",
+      "summary": "Un nouveau modèle d'IA pour le code rivalise avec les meilleurs modèles disponibles en coûtant 64 % moins cher — ce qui signifie que l'automatisation du travail logiciel devient nettement plus abordable.",
+      "body": [
+        "Le coût de l'IA pour écrire du code vient de baisser significativement. Le 10 septembre, Cognition — la société derrière l'agent de codage Devin — a publié SWE-2, un nouveau modèle qui **atteint le niveau frontier pour le code à 64 % moins cher**. Cet écart compte : la majorité de ce que vous payez pour les outils de codage IA aujourd'hui va bientôt coûter moins.",
+        "SWE-2 obtient 50,0 % sur FrontierCode 1.1, le test standard pour évaluer la capacité de codage d'une IA. Le Fable 5.1 d'Anthropic — l'un des meilleurs modèles de codage actuels — obtient 50,9 %. Moins d'un point d'écart. SWE-2 y parvient en partant d'une base différente : Kimi K3 de Moonshot AI, un modèle ouvert à 2,8 billions de paramètres (les réglages internes qui définissent comment un modèle raisonne), affiné pour la programmation par apprentissage par renforcement. Il **effectue aussi 58 % d'étapes en moins pour terminer une tâche** comparé au modèle précédent de Cognition.",
+        "Il y a une vraie limitation. SWE-2 ne fonctionne que dans les produits Devin de Cognition — l'application de bureau, la ligne de commande et la version web. Il n'existe pas d'API autonome, et on ne peut pas l'intégrer dans ses propres outils. De plus, tous les chiffres des benchmarks proviennent des propres tests de Cognition, pas de vérificateurs indépendants. Sur un test plus difficile (Terminal-Bench 4), SWE-2 obtient 27 % tandis que Fable 5.1 atteint 56 % — un grand écart qui montre **qu'il n'est pas encore meilleur sur tous les types de tâches**.",
+        "Mais la direction est claire. Une petite équipe qui ne peut pas se permettre les modèles d'IA les plus coûteux pour la révision de code, la correction de bugs ou le développement de fonctionnalités dispose désormais d'un modèle qui s'en approche — à un prix adapté à une startup. Si vous utilisez déjà Devin, passer à SWE-2 est une économie immédiate. Plus largement, voilà à quoi ressemblent les outils de codage IA en 2026 : **suffisamment capables pour être vraiment utiles, suffisamment accessibles pour tourner en permanence**."
+      ],
+      "keyFacts": [
+        { "value": "50.0%", "label": "score de SWE-2 sur FrontierCode 1.1" },
+        { "value": "64%", "label": "moins cher que Fable 5.1 à performance égale" },
+        { "value": "81%", "label": "coût inférieur au modèle Devin précédent" },
+        { "value": "2.8T", "label": "paramètres dans le modèle de base Kimi K3" }
+      ]
+    },
+    "ar": {
+      "title": "ذكاء اصطناعي للبرمجة بمستوى النخبة وبتكلفة أقل بـ 64%: ما الذي يعنيه SWE-2 من Cognition للمطورين",
+      "summary": "نموذج جديد للذكاء الاصطناعي يضاهي أفضل نماذج البرمجة المتاحة لكنه أقل تكلفة بنسبة 64%، مما يعني أن أتمتة عمل البرمجيات باتت أرخص بشكل ملحوظ.",
+      "body": [
+        "تكاليف استخدام الذكاء الاصطناعي لكتابة البرمجيات انخفضت للتو بشكل ملحوظ. في العاشر من سبتمبر، أصدرت Cognition — الشركة المطورة لوكيل البرمجة Devin — نموذجها SWE-2، الذي **يضاهي أداء نماذج النخبة في البرمجة بتكلفة أقل بنسبة 64%**. هذا الفارق مهم: معظم ما تدفعه اليوم لأدوات البرمجة بالذكاء الاصطناعي سيصبح أرخص قريباً.",
+        "يحقق SWE-2 نسبة 50.0% على معيار FrontierCode 1.1، وهو الاختبار القياسي لقدرات البرمجة في نماذج الذكاء الاصطناعي. بينما يحقق Fable 5.1 من Anthropic — أحد أفضل نماذج البرمجة حالياً — نسبة 50.9%. الفارق أقل من نقطة واحدة. يصل SWE-2 إلى هذا المستوى عبر أساس مختلف: نموذج Kimi K3 من Moonshot AI، وهو نموذج مفتوح يحتوي على 2.8 تريليون معامل (الإعدادات الداخلية التي تشكل طريقة تفكير النموذج)، مع ضبط دقيق لمهام البرمجة باستخدام التعلم المعزز. كما أنه **يُنجز المهام في عدد أقل من الخطوات بنسبة 58%** مقارنةً بالنموذج السابق لـ Cognition.",
+        "ثمة قيد حقيقي واحد. لا يعمل SWE-2 إلا داخل منتجات Devin الخاصة بـ Cognition — تطبيق سطح المكتب وسطر الأوامر والنسخة الإلكترونية. لا يمكن الوصول إليه عبر واجهة برمجية مستقلة أو تضمينه في أدواتك الخاصة. وجميع أرقام المعايير مصدرها اختبارات Cognition الداخلية، لا مراجعون مستقلون. في اختبار أصعب (Terminal-Bench 4)، يحقق SWE-2 نسبة 27% بينما تحقق Fable 5.1 نسبة 56% — فجوة كبيرة تُظهر أنه **لم يتفوق بعد على كل أنواع المهام**.",
+        "لكن الاتجاه واضح. الفريق الصغير الذي لا يستطيع تحمل تكاليف أكثر نماذج الذكاء الاصطناعي تكلفةً لمراجعة الكود أو إصلاح الأخطاء أو بناء الميزات، يمتلك الآن نموذجاً يقترب منها كثيراً — بسعر يناسب شركة ناشئة. إن كنت تستخدم Devin بالفعل، فالانتقال إلى SWE-2 اليوم وفورٌ فوري في التكاليف. وبصورة أشمل، هكذا تبدو أدوات البرمجة بالذكاء الاصطناعي في عام 2026: **قادرة بما يكفي لتكون مفيدة فعلاً، ورخيصة بما يكفي للتشغيل الدائم**."
+      ],
+      "keyFacts": [
+        { "value": "50.0%", "label": "نتيجة SWE-2 على معيار FrontierCode 1.1" },
+        { "value": "64%", "label": "أرخص من Fable 5.1 بأداء مماثل" },
+        { "value": "81%", "label": "تكلفة أقل مقارنةً بنموذج Devin السابق" },
+        { "value": "2.8T", "label": "معامل في نموذج Kimi K3 الأساسي" }
+      ]
+    }
+  }
+}
