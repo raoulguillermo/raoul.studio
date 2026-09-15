@@ -1,0 +1,122 @@
+{
+  "slug": "2026-09-15-gpt-live-1-voice-api",
+  "date": "2026-09-15",
+  "tags": ["ai", "voice", "openai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Data North — GPT-Live-1: OpenAI voice model at $0.05 per minute",
+      "url": "https://datanorth.ai/news/openai-launches-gpt-live-1-in-the-api"
+    },
+    {
+      "title": "TechCrunch — OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
+    },
+    {
+      "title": "ExplainX — GPT-Live-1 API: OpenAI Voice Model for Developers",
+      "url": "https://explainx.ai/blog/gpt-live-1-api-openai-voice-agents-september-2026"
+    },
+    {
+      "title": "AI Herald — AI News Today, September 14–15, 2026",
+      "url": "https://artificialintelligenceherald.com/ai-news-today"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Voice AI just got cheap enough to build with",
+      "summary": "OpenAI opened its best voice AI to all developers this week at five cents a minute, making real-time phone agents affordable for almost any team.",
+      "body": [
+        "For years, building a voice assistant meant linking three separate systems: one to turn speech into text, one to reason, and one to speak back. Every link added delay, and whenever a caller interrupted, the whole chain broke. OpenAI's GPT-Live-1, now open via API, **collapses those three steps into one model**.",
+        "The price is the news. At $0.05 per minute, a five-minute call costs 25 cents. That is low enough for a small startup to run real phone agents without a big budget. One company that moved to GPT-Live-1 reportedly deleted 23,000 lines of code that existed only to handle interruptions — **the model deals with that on its own now**.",
+        "GPT-Live-1 is what engineers call full-duplex — it listens and speaks at the same time, just like a person does. Callers can cut in mid-sentence without the AI losing its place. In testing, it outperformed the previous best voice model by 30 points on the industry benchmark. **That gap matters most in anything customer-facing**, where a broken interruption or an awkward pause kills trust.",
+        "For anyone building software that talks to people — support lines, intake forms, booking tools, sales calls — this shifts what a small team can actually ship. The one thing to know: $0.05 covers only the voice layer; the AI reasoning behind it is billed separately, so total cost depends on which model you connect. But for most teams, **this makes a real voice agent possible for the first time**."
+      ],
+      "keyFacts": [
+        { "value": "$0.05/min", "label": "cost per voice minute" },
+        { "value": "23,000", "label": "lines of code one customer deleted" },
+        { "value": "+30 pts", "label": "improvement over previous voice model" },
+        { "value": "150M", "label": "ChatGPT voice users today" }
+      ]
+    },
+    "de": {
+      "title": "Sprach-KI ist jetzt günstig genug zum Bauen",
+      "summary": "OpenAI hat diese Woche seine beste Sprach-KI für alle Entwickler geöffnet — für fünf Cent pro Minute, erschwinglich für fast jedes Team.",
+      "body": [
+        "Jahrelang bedeutete der Bau eines Sprachassistenten das Verbinden dreier separater Systeme: eines für Sprache-zu-Text, eines zum Denken und eines zum Sprechen. Jedes Glied fügte Verzögerung hinzu, und sobald ein Anrufer unterbrach, brach die ganze Kette zusammen. OpenAIs GPT-Live-1, jetzt per API verfügbar, **fasst diese drei Schritte in einem Modell zusammen**.",
+        "Der Preis ist die eigentliche Neuigkeit. Bei 0,05 Dollar pro Minute kostet ein fünfminütiger Anruf 25 Cent. Das ist günstig genug, damit ein kleines Startup echte Telefon-Agenten ohne großes Budget betreiben kann. Ein Unternehmen, das auf GPT-Live-1 umgestellt hat, soll 23.000 Zeilen Code gelöscht haben, die nur für die Unterbrechungsverarbeitung da waren — **das Modell erledigt das jetzt von selbst**.",
+        "GPT-Live-1 ist vollduplex — es hört und spricht gleichzeitig, genau wie ein Mensch. Anrufer können mitten im Satz unterbrechen, ohne dass die KI den Faden verliert. Im Benchmark-Test übertraf es das bisherige beste Sprachmodell um 30 Punkte. **Diese Lücke zählt am meisten bei allem, was kundenseitig ist** — eine missglückte Unterbrechung zerstört das Vertrauen.",
+        "Wer Software baut, die mit Menschen spricht — Kundenservice, Formulare, Buchungstools, Verkaufsgespräche —, für den verändert das, was ein kleines Team tatsächlich liefern kann. Das Wichtigste: Die 0,05 Dollar decken nur die Sprachschicht ab, das KI-Denken dahinter wird separat berechnet. Aber für die meisten Teams **macht das einen echten Sprachagenten zum ersten Mal möglich**."
+      ],
+      "keyFacts": [
+        { "value": "$0.05/min", "label": "Kosten pro Sprachminute" },
+        { "value": "23,000", "label": "gelöschte Code-Zeilen bei einem Kunden" },
+        { "value": "+30 pts", "label": "besser als das Vorgängermodell" },
+        { "value": "150M", "label": "ChatGPT-Sprachnutzer heute" }
+      ]
+    },
+    "nl": {
+      "title": "Stem-AI is nu goedkoop genoeg om mee te bouwen",
+      "summary": "OpenAI opende deze week zijn beste stem-AI voor alle ontwikkelaars voor vijf cent per minuut, betaalbaar voor bijna elk team.",
+      "body": [
+        "Jarenlang betekende het bouwen van een spraakassistent het koppelen van drie aparte systemen: één voor spraak naar tekst, één om te redeneren en één om terug te spreken. Elke stap voegde vertraging toe, en zodra een beller onderbrak, brak de hele keten. OpenAI's GPT-Live-1, nu beschikbaar via API, **vat die drie stappen samen in één model**.",
+        "De prijs is het nieuws. Bij $0,05 per minuut kost een gesprek van vijf minuten 25 cent. Dat is goedkoop genoeg voor een klein startup om echte telefoonagenten te draaien zonder groot budget. Een bedrijf dat overstapte naar GPT-Live-1 verwijderde naar verluidt 23.000 regels code die alleen bestonden om onderbrekingen af te handelen — **het model doet dat nu zelf**.",
+        "GPT-Live-1 is vollduplex — het luistert en spreekt tegelijkertijd, net als een mens. Bellers kunnen midden in een zin ingrijpen zonder dat de AI de draad verliest. In benchmarktests presteerde het 30 punten beter dan het vorige beste spraakmodel. **Dat verschil telt het meest in klantgerichte toepassingen** — een gebroken onderbreking of een onhandige pauze vernietigt vertrouwen.",
+        "Voor iedereen die software bouwt die met mensen praat — klantenservice, intakeformulieren, boekingstools, verkoopgesprekken — verandert dit wat een klein team daadwerkelijk kan opleveren. Het belangrijkste: de $0,05 dekt alleen de spraaklaag; de AI-redenering erachter wordt apart gefactureerd. Maar voor de meeste teams **maakt dit een echte spraakagent voor het eerst mogelijk**."
+      ],
+      "keyFacts": [
+        { "value": "$0.05/min", "label": "kosten per spraakminuut" },
+        { "value": "23,000", "label": "regels code die één klant verwijderde" },
+        { "value": "+30 pts", "label": "beter dan vorig spraakmodel" },
+        { "value": "150M", "label": "ChatGPT-stemgebruikers vandaag" }
+      ]
+    },
+    "es": {
+      "title": "La IA de voz ya es lo suficientemente barata para construir con ella",
+      "summary": "OpenAI abrió esta semana su mejor IA de voz a todos los desarrolladores por cinco centavos por minuto, un precio asequible para casi cualquier equipo.",
+      "body": [
+        "Durante años, construir un asistente de voz significaba unir tres sistemas separados: uno para convertir voz en texto, uno para razonar y otro para responder. Cada paso añadía retraso, y si un usuario interrumpía, toda la cadena se rompía. GPT-Live-1 de OpenAI, ahora disponible por API, **fusiona esos tres pasos en un solo modelo**.",
+        "El precio es la noticia. A $0,05 por minuto, una llamada de cinco minutos cuesta 25 centavos. Eso es suficientemente barato para que una pequeña startup opere agentes telefónicos reales sin un gran presupuesto. Una empresa que migró a GPT-Live-1 supuestamente eliminó 23.000 líneas de código que solo existían para manejar interrupciones — **ahora el modelo lo gestiona por sí solo**.",
+        "GPT-Live-1 es full-duplex — escucha y habla al mismo tiempo, igual que una persona. Los usuarios pueden interrumpir a mitad de frase sin que la IA pierda el hilo. En pruebas comparativas, superó al mejor modelo de voz anterior en 30 puntos. **Esa diferencia importa más en todo lo orientado al cliente** — una pausa incómoda o una interrupción fallida arruina la confianza.",
+        "Para quienes construyen software que habla con personas — soporte, formularios de registro, herramientas de reserva, llamadas de ventas — esto cambia lo que un equipo pequeño puede realmente lanzar. Lo importante: los $0,05 cubren solo la capa de voz; el razonamiento de IA detrás se factura aparte. Pero para la mayoría de los equipos, **esto hace posible un agente de voz real por primera vez**."
+      ],
+      "keyFacts": [
+        { "value": "$0.05/min", "label": "costo por minuto de voz" },
+        { "value": "23,000", "label": "líneas de código eliminadas por un cliente" },
+        { "value": "+30 pts", "label": "mejora sobre el modelo anterior" },
+        { "value": "150M", "label": "usuarios de voz de ChatGPT hoy" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA vocale est enfin assez abordable pour être utilisée en production",
+      "summary": "OpenAI a ouvert cette semaine son meilleur modèle vocal à tous les développeurs pour cinq cents par minute, un tarif accessible à presque toutes les équipes.",
+      "body": [
+        "Pendant des années, construire un assistant vocal signifiait assembler trois systèmes distincts : un pour convertir la parole en texte, un pour raisonner et un pour répondre. Chaque étape ajoutait du délai, et si l'interlocuteur coupait la parole, toute la chaîne se brisait. GPT-Live-1 d'OpenAI, désormais accessible par API, **rassemble ces trois étapes dans un seul modèle**.",
+        "Le prix, c'est la vraie nouvelle. À 0,05 $ par minute, un appel de cinq minutes coûte 25 centimes. C'est assez peu pour qu'une petite startup fasse tourner de vrais agents téléphoniques sans budget conséquent. Une entreprise ayant migré vers GPT-Live-1 aurait supprimé 23 000 lignes de code qui ne servaient qu'à gérer les interruptions — **le modèle s'en charge désormais tout seul**.",
+        "GPT-Live-1 est full-duplex — il écoute et parle en même temps, comme un être humain. Les interlocuteurs peuvent interrompre en pleine phrase sans que l'IA perde le fil. Lors des benchmarks, il a devancé le meilleur modèle vocal précédent de 30 points. **Cet écart est décisif pour tout ce qui touche au client** — une pause malvenue ou une interruption ratée brise la confiance.",
+        "Pour ceux qui développent des logiciels qui parlent aux gens — support client, formulaires, outils de réservation, appels commerciaux — cela change ce qu'une petite équipe peut réellement livrer. L'essentiel : les 0,05 $ couvrent uniquement la couche vocale ; le raisonnement IA derrière est facturé séparément. Mais pour la plupart des équipes, **cela rend un vrai agent vocal possible pour la première fois**."
+      ],
+      "keyFacts": [
+        { "value": "$0.05/min", "label": "coût par minute vocale" },
+        { "value": "23,000", "label": "lignes de code supprimées par un client" },
+        { "value": "+30 pts", "label": "écart avec le modèle précédent" },
+        { "value": "150M", "label": "utilisateurs voix ChatGPT aujourd'hui" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي الصوتي أصبح الآن في متناول المطورين",
+      "summary": "فتحت OpenAI هذا الأسبوع أفضل نموذج صوتي لديها أمام جميع المطورين بخمسة سنتات في الدقيقة، وهو سعر في متناول أي فريق.",
+      "body": [
+        "لسنوات طويلة، كان بناء مساعد صوتي يعني ربط ثلاثة أنظمة منفصلة: واحد لتحويل الكلام إلى نص، وآخر للتفكير، وثالث للرد. كل خطوة تضيف تأخيراً، وإذا قاطع المتصل، انهار كل شيء. GPT-Live-1 من OpenAI، المتاح الآن عبر الواجهة البرمجية (API)، **يجمع هذه الخطوات الثلاث في نموذج واحد**.",
+        "السعر هو الخبر الحقيقي. بـ0.05 دولار في الدقيقة، تكلّف مكالمة خمس دقائق 25 سنتاً فقط. هذا رخيص بما يكفي لأي شركة ناشئة صغيرة لتشغيل وكلاء هاتفيين حقيقيين دون ميزانية ضخمة. يُقال إن إحدى الشركات التي تحولت إلى GPT-Live-1 حذفت 23,000 سطر من الكود كانت موجودة فقط للتعامل مع المقاطعات — **النموذج يتولى ذلك الآن بنفسه**.",
+        "GPT-Live-1 هو نموذج ثنائي الاتجاه بالكامل — يستمع ويتحدث في الوقت ذاته تماماً مثل الإنسان. يمكن للمتصل أن يقاطع في منتصف الجملة دون أن يضيع الخيط. في اختبارات الأداء، تفوق على أفضل نموذج صوتي سابق بـ30 نقطة. **هذا الفارق يهم أكثر في كل ما يواجه العملاء** — أي توقف محرج أو مقاطعة فاشلة تُفقد الثقة.",
+        "لمن يبني برمجيات تتحدث إلى البشر — خدمة العملاء، نماذج الاستقبال، أدوات الحجز، مكالمات المبيعات — هذا يغيّر ما يستطيع فريق صغير إطلاقه فعلاً. الأهم: الـ0.05 دولار تغطي طبقة الصوت فقط، والتفكير الذكي خلفها يُحتسب بشكل منفصل. لكن لمعظم الفرق، **هذا يجعل وكيلاً صوتياً حقيقياً ممكناً للمرة الأولى**."
+      ],
+      "keyFacts": [
+        { "value": "$0.05/min", "label": "التكلفة لكل دقيقة صوتية" },
+        { "value": "23,000", "label": "سطر كود حذفه عميل واحد" },
+        { "value": "+30 pts", "label": "تفوق على النموذج الصوتي السابق" },
+        { "value": "150M", "label": "مستخدم صوت ChatGPT اليوم" }
+      ]
+    }
+  }
+}
