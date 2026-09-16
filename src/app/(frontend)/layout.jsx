@@ -238,7 +238,7 @@ const jsonLd = {
 export default async function FrontendLayout({ children }) {
   const lang = await getLocale()
   const rtl = isRTL(lang)
-  const { menu } = getContent(lang)
+  const { menu, ui } = getContent(lang)
 
   return (
     <html lang={lang} dir={rtl ? 'rtl' : 'ltr'}>
@@ -267,9 +267,9 @@ export default async function FrontendLayout({ children }) {
       <body>
         <main className="max-w-[1200px] mx-auto px-6 md:px-10">{children}</main>
 
-        <MenuButton />
+        <MenuButton label={ui.a11y.openMenu} />
 
-        <LanguageSwitcher currentLang={lang} />
+        <LanguageSwitcher currentLang={lang} labels={ui.a11y} />
 
         <MenuPanel
           eyebrow={menu.eyebrow}

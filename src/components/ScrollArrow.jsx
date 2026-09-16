@@ -1,9 +1,9 @@
-export default function ScrollArrow() {
+export default function ScrollArrow({ label }) {
   return (
     <button
       id="scrollArrow"
       type="button"
-      aria-label="Scroll to bottom"
+      aria-label={label}
       className="fixed bottom-5 right-5 md:bottom-6 md:right-6 z-[50] w-14 h-14 md:w-16 md:h-16 outline-none bg-transparent border-0 flex items-center justify-center cursor-pointer"
     >
       <svg

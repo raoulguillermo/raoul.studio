@@ -409,9 +409,106 @@ export const projects = [
       },
     ],
   },
+  {
+    slug: 'screensaver',
+    category: 'product',
+    number: 13,
+    year: '2026',
+    status: 'live',
+    titlePlain: 'Clock Screensaver',
+    titleLine1: 'Clock',
+    titleLine2: 'Screensaver',
+    titleLine2Color: '#E92316',
+    shortTag: 'screensaver, mac',
+    shortDescription:
+      'A free screensaver for your Mac. Walk away for a minute and the screen turns into one huge clock — white numbers on black, with the seconds sitting in a red block.',
+    lead: 'Leave your Mac alone for a minute and it turns into a giant clock.',
+    tagsLine: 'macOS · Swift · Screensaver · Free download',
+    colors: { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316', numeralOpacity: 0.18 },
+    // href is locale-independent; the labels around it are translated per locale.
+    download: {
+      label: 'Download for Mac',
+      href: '/ClockSaver.dmg',
+      meta: 'ClockSaver.dmg · about 134 KB · checked and approved by Apple',
+      steps:
+        'Open the file you downloaded, double-click ClockSaver.saver, click Install, then pick “Clock” under System Settings → Screen Saver.',
+    },
+    info: [
+      { label: 'Role', value: 'Solo build & architecture' },
+      { label: 'Built with', value: 'Swift, AppKit, ScreenSaverView, XcodeGen' },
+      { label: 'Status', value: 'Live — free to download' },
+    ],
+    body: [
+      {
+        text: 'A screensaver is the thing your Mac shows when you stop using it for a while. Most of them show photos or floating shapes. This one shows the time, and nothing else.',
+      },
+      {
+        text: 'The screen goes black and the clock takes over all of it: hours, minutes and seconds in enormous white letters, set in Anton — the same chunky font as the big headlines on this site. The seconds sit inside a red block, so they look like a word you have selected with your mouse. The numbers stretch to fit whatever screen they land on, from a small laptop to a huge monitor, and always leave a neat margin around the edge.',
+      },
+      {
+        text: 'It also redraws the picture only when the time actually changes — once a second, instead of sixty times a second like most animations. So it sits there quietly and barely touches the battery.',
+      },
+      {
+        text: 'It is written in Swift, the language Apple uses for its own apps, and the font is packed inside the file itself. That way it looks right on any Mac, even one that has never had that font installed.',
+      },
+      {
+        text: 'The fiddly part is getting it onto someone else’s Mac at all. macOS does not trust files that come off the internet, and normally puts a warning in the way. So the studio wrote one script that does the whole job in a single run: build the screensaver, sign it with the studio’s Apple developer key, pack it into a disk image, send it to Apple to be checked — that check is called notarising — and then staple Apple’s approval onto the file. Because the approval is stapled on rather than looked up online, your Mac can see it even with the Wi-Fi switched off.',
+      },
+      {
+        text: 'What comes out the other end is the download on this page. Open it, double-click, install, and it just works — no warnings, no fixing settings afterwards. Free, and about the size of one photo.',
+      },
+    ],
+  },
+  {
+    slug: 'voice-agent',
+    category: 'product',
+    number: 14,
+    year: '2026',
+    status: 'launching',
+    titlePlain: 'Voice Agent',
+    titleLine1: 'Voice',
+    titleLine2: 'Agent',
+    titleLine2Color: '#E92316',
+    shortTag: 'voice ai, phone orders',
+    shortDescription:
+      'An AI phone agent that answers a restaurant’s line, takes pickup orders in a normal conversation and puts them straight into the kitchen’s order system — and that plugs into any API or CRM.',
+    lead:
+      'Call the restaurant, say what you’d like to eat, and an AI takes the order — then puts it straight into the kitchen’s own system.',
+    tagsLine: 'Voice AI · Claude · ElevenLabs · Twilio · Node.js · REST API',
+    colors: { bg: '#D6D9DC', fg: '#0F0F0F', numeralColor: '', numeralOpacity: 0.12 },
+    info: [
+      { label: 'Role', value: 'Concept, architecture & build' },
+      { label: 'Stack', value: 'Claude, ElevenLabs, Twilio, Node.js, Express, MongoDB' },
+      { label: 'Status', value: 'Launching — the first restaurant line' },
+    ],
+    body: [
+      {
+        text: 'Restaurants miss orders every evening, simply because nobody can pick up the phone while the kitchen is busy. This phone agent picks up instead. A customer calls the restaurant’s normal number, says what they’d like — “two sandwiches and a large rice dish” — and talks to an AI that sounds like a person, understands them and writes the order down.',
+      },
+      {
+        text: 'It works from the restaurant’s real menu, opening hours and pickup times, fetched fresh while the call is going on. So it only offers dishes that are really on the menu, knows what has sold out, knows the sizes and extras and what they cost, and picks the earliest time the order can be ready. It speaks Dutch, and switches to English without fuss when the caller does.',
+      },
+      {
+        text: 'An order taken over the phone has to be right, so the agent works in two steps. First it adds everything up and reads the order back: the dishes, the name, the total and when it will be ready. Only once the caller has really said yes does it place the order — and that is checked by the system itself, not left to the AI. The order then lands in the restaurant’s own order system, exactly like a webshop order, and the kitchen has it straight away. The agent can only place new pickup orders: it cannot look up, change, cancel or refund anything.',
+      },
+      {
+        text: 'On a phone call, silence instantly feels broken. Understanding speech, the voice and interruptions — you can cut in mid-sentence, like with a person — are handled by a specialised voice platform. The thinking is done by Claude, on the studio’s own server. Anything the agent can know in advance is looked up before it starts talking, and when it does need a moment, it says so, the way a person would.',
+      },
+      {
+        text: 'The restaurant line is just one use. Underneath is a general-purpose agent that can be connected to almost any system through an API. A second line already runs on the same engine: it recognises regular callers by their number, checks a calendar, books or cancels appointments, takes down a problem report and emails it on, or puts the caller through to a person.',
+      },
+      {
+        text: 'That is where it gets interesting for other businesses. Because the studio also builds the systems behind it — custom CRMs, booking platforms, webshops and back offices — the agent can be wired straight into them: look up a client in your CRM, open a ticket, schedule an appointment, check stock, or put an order into your till or ERP. Hairdressers, garages, clinics, law firms, rental companies: anywhere the phone rings with the same questions every day, an agent can answer — with a system behind it that remembers everything.',
+      },
+    ],
+  },
 ]
 
-export const projectSlugs = projects.map((p) => p.slug)
+// Display order: earliest first, by project number (01, 02, …), so new
+// projects join at the end of every list.
+export const projectsInOrder = [...projects].sort((a, b) => (a.number ?? 0) - (b.number ?? 0))
+
+export const projectSlugs = projectsInOrder.map((p) => p.slug)
 
 export function getProject(slug) {
   return projects.find((p) => p.slug === slug)

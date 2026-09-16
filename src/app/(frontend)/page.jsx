@@ -3,6 +3,7 @@ import SiteFooter from '@/components/SiteFooter'
 import ScrollArrow from '@/components/ScrollArrow'
 import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
+import BlogTab from '@/components/BlogTab'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
@@ -22,27 +23,9 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
-// Featured-teaser palettes (brand: red #E92316, ink #0F0F0F, paper #D6D9DC).
-// Applied by position so the homepage's featured projects always alternate —
-// no two adjacent sections share a background, regardless of each project's
-// own canonical colours (which still drive /work and the case-study pages).
-const FEATURED_STYLES = [
-  { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316', numeralOpacity: 0.18 }, // dark
-  { bg: '#E92316', fg: '#D6D9DC', numeralColor: '#0F0F0F', numeralOpacity: 0.16 }, // red
-  { bg: '#D6D9DC', fg: '#0F0F0F', numeralColor: '#E92316', numeralOpacity: 0.14 }, // light
-  { bg: '#E92316', fg: '#0F0F0F', numeralColor: '#0F0F0F', numeralOpacity: 0.14 }, // red / ink text
-]
-
 export default async function HomePage() {
   const lang = await getLocale()
-  const { home, header, footer, posterRail, ui, projects } = getContent(lang)
-
-  // Featured projects: the homepage shows only a few, with transformation-led
-  // messaging; the full portfolio lives on /work. Each featured item carries its
-  // own tagline + proof metrics and borrows the project's colours/number/title.
-  const featured = (home.featuredWork?.items ?? [])
-    .map((it) => ({ ...it, project: projects.find((p) => p.slug === it.slug) }))
-    .filter((it) => it.project)
+  const { home, header, footer, posterRail, ui } = getContent(lang)
 
   const news = getNewsletterStrings(lang)
 
@@ -118,115 +101,19 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      {/* Selected work — a few featured projects, transformation-led */}
-      {home.featuredWork ? (
-        <section className="pb-8 md:pb-16">
-          <p className="r text-mute text-sm mb-6 font-semibold uppercase tracking-wider">
-            {home.featuredWork.label}
-          </p>
-          {home.featuredWork.lead ? (
-            <p className="r max-w-3xl text-3xl md:text-5xl font-display uppercase tracking-tight2 leading-[1.04]">
-              {home.featuredWork.lead}
-            </p>
-          ) : null}
-        </section>
-      ) : null}
-
-      {/* Featured project teasers */}
-      {featured.map(({ project: p, tagline, metrics }, i) => {
-        const s = FEATURED_STYLES[i % FEATURED_STYLES.length]
-        const numeralColor = s.numeralColor || s.fg
-        const numeralOpacity = s.numeralOpacity
-        return (
-          <section
-            key={p.slug}
-            className="fullbleed parallax-section min-h-screen md:min-h-[140vh]"
-            style={{
-              background: s.bg,
-              color: s.fg,
-            }}
-          >
-            <span
-              aria-hidden="true"
-              data-parallax="0.7"
-              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-display leading-none select-none whitespace-nowrap"
-              style={{
-                fontSize: '78vw',
-                opacity: numeralOpacity,
-                color: numeralColor,
-              }}
-            >
-              {pad2(p.number)}
-            </span>
-            <div className="relative z-10 max-w-[1200px] mx-auto px-6 md:px-10 py-12 md:py-32 min-h-screen md:min-h-[140vh] flex flex-col justify-between gap-8 md:gap-24">
-              <div
-                data-parallax="0.18"
-                className="flex items-center justify-between font-semibold uppercase tracking-wider text-sm"
-              >
-                <span>{ui.projectLabel} {pad2(p.number)}</span>
-                <span>{p.year}</span>
-              </div>
-              <div>
-                <h2
-                  data-parallax="-0.12"
-                  data-parallax-anchor="title"
-                  className="font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
-                >
-                  <a href={`/projects/${p.slug}`} className="ul inline-block">
-                    {p.titleLine1}
-                    {p.titleLine2 ? (
-                      <>
-                        <br />
-                        {p.titleLine2Color ? (
-                          <span style={{ color: p.titleLine2Color }}>
-                            {p.titleLine2}
-                          </span>
-                        ) : (
-                          p.titleLine2
-                        )}
-                      </>
-                    ) : null}
-                  </a>
-                </h2>
-                <p className="mt-8 md:mt-12 text-xl md:text-3xl max-w-2xl font-normal leading-snug">
-                  {tagline || p.shortDescription}
-                </p>
-                <a
-                  href={`/projects/${p.slug}`}
-                  className="project-arrow inline-flex items-center justify-center mt-3 md:mt-4 w-14 h-14 md:w-20 md:h-20 border-l-2 border-b-2 border-current rounded-bl-[5px] hover:opacity-65 transition-opacity"
-                >
-                  <span className="inline-block rotate-[-45deg] text-3xl md:text-5xl leading-none">
-                    →
-                  </span>
-                </a>
-              </div>
-              <div
-                data-parallax="-0.18"
-                className="flex flex-wrap gap-2 md:gap-3 items-end"
-              >
-                {(metrics ?? []).map((m, i) => (
-                  <span
-                    key={i}
-                    className="border border-current rounded-full px-3 py-1 md:px-4 md:py-1.5 text-xs md:text-sm font-semibold uppercase tracking-wider"
-                  >
-                    {m}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </section>
-        )
-      })}
-
-      {/* See all work */}
+      {/* See all work — the homepage lists no projects; the portfolio lives on /work */}
       {home.featuredWork?.allLabel ? (
         <section className="pt-12 md:pt-24 pb-12 md:pb-40">
           <a
             href="/work"
-            className="r group inline-flex items-center gap-3 font-display uppercase tracking-tight2 text-3xl md:text-5xl"
+            className="r group inline-flex items-start gap-2 md:gap-6 max-w-full font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
           >
-            <span className="ul">{home.featuredWork.allLabel}</span>
-            <span className="inline-block rotate-[-45deg] text-2xl md:text-4xl text-accent transition-transform group-hover:translate-x-1">
+            {/* multi-word labels wrap; long ones break rather than overflow */}
+            <span className="ul min-w-0 break-words">{home.featuredWork.allLabel}</span>
+            <span
+              aria-hidden="true"
+              className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
+            >
               →
             </span>
           </a>
@@ -294,8 +181,9 @@ export default async function HomePage() {
         middleText={posterRail.middleText}
         bottomText={posterRail.bottomText}
       />
-      <ScrollArrow />
-      <ChatFAB href={header.ctaHref} />
+      <BlogTab label={home.blogTitle ?? 'Blog'} />
+      <ScrollArrow label={ui.a11y.scrollToBottom} />
+      <ChatFAB href={header.ctaHref} label={ui.a11y.chat} />
     </>
   )
 }

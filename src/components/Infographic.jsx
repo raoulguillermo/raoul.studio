@@ -452,6 +452,68 @@ function Poofy({ t }) {
   )
 }
 
+// The screensaver itself (black screen, huge clock, seconds selected in red),
+// then the packaging run that lets it install without a Gatekeeper warning.
+function ScreenSaver({ t }) {
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      <div className="w-full max-w-[420px] mx-auto">
+        <div
+          className="bg-ink border-2 border-ink flex items-center justify-center px-4 py-8 md:px-6 md:py-12"
+          dir="ltr"
+        >
+          <span className="font-display leading-none tracking-tight2 text-paper text-4xl md:text-6xl">
+            09:41:
+            <span className="bg-accent text-paper px-0.5">07</span>
+          </span>
+        </div>
+        <div className="mt-2 text-center text-[10px] font-semibold uppercase tracking-[.18em] text-mute">
+          {t.seconds}
+        </div>
+      </div>
+      <Flow
+        steps={[
+          <Box>{t.build}</Box>,
+          <Box accent>{t.checked}</Box>,
+          <Box>{t.installs}</Box>,
+        ]}
+      />
+    </div>
+  )
+}
+
+// A call goes in, a checked order comes out — and the same agent plugs into
+// other systems through their APIs.
+function VoiceAgent({ t }) {
+  return (
+    <div className="flex flex-col gap-8 md:gap-10">
+      <Flow
+        steps={[
+          <Box>{t.caller}</Box>,
+          <div className="flex flex-col items-center gap-2">
+            <Box accent>{t.agent}</Box>
+            <Chip>{t.readBack}</Chip>
+          </div>,
+          <div className="flex flex-col items-center gap-2">
+            <Box>{t.orders}</Box>
+            <Chip accent>{t.confirmed}</Chip>
+          </div>,
+        ]}
+      />
+      <div className="flex flex-col items-center gap-3">
+        <div className="text-[11px] font-semibold uppercase tracking-[.18em] text-mute">
+          {t.connects}
+        </div>
+        <div className="flex flex-wrap justify-center gap-2">
+          {[t.crm, t.agenda, t.webshop, t.till, t.tickets, t.email].map((label) => (
+            <Chip key={label}>{label}</Chip>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
 const RENDERERS = {
   outdoorxl: OutdoorXL,
   aboutspace: AboutSpace,
@@ -465,6 +527,8 @@ const RENDERERS = {
   anonimise: Anonimise,
   dfns: Dfns,
   poofy: Poofy,
+  screensaver: ScreenSaver,
+  'voice-agent': VoiceAgent,
 }
 
 function pad2(n) {

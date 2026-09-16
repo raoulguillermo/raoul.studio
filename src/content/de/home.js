@@ -43,9 +43,11 @@ export const home = {
     lead: 'Wie das Studio ambitionierten Unternehmen hilft, schwierige Probleme zu lösen.',
     allLabel: 'Alle Arbeiten ansehen',
     items: [
-      { slug: 'outdoorxl', tagline: 'Das Studio baut einen der größten Outdoor-Händler Europas zu einer modernen, headless Commerce-Plattform um.', metrics: ['200K+ Produkte', '14 Märkte', 'Headless-Migration'] },
-      { slug: 'lexpert', tagline: 'Das Studio ersetzt generische Tools durch ein maßgeschneidertes CRM, das sich an den tatsächlichen Abläufen einer Kanzlei orientiert.', metrics: ['Maßgeschneidertes CRM', 'Direkte Rechnungsstellung', 'Rollenbasierter Zugriff'] },
+      { slug: 'screensaver', tagline: 'Ein ungenutzter Mac-Bildschirm, der zu einer einzigen riesigen Uhr wird — weiß auf schwarz, die Sekunden in Rot. Kostenlos zum Download.', metrics: ['Kostenloser Download', 'Von Apple geprüft', 'In Sekunden installiert'] },
+      { slug: 'poofy', tagline: 'Das Studio wickelt seinen eigenen Alltag über eine gestenbasierte Todo-App ab — iPhone-Widget, Mac-Menüleiste, eine gemeinsame Codebasis.', metrics: ['iPhone + Mac', 'Eine SwiftUI-Codebasis', 'Gestenbasiert'] },
       { slug: 'anonimise', tagline: 'Das Studio bringt eine Kanzlei dazu, KI zu nutzen, ohne dass je eine einzige Mandantenakte das Haus verlässt.', metrics: ['Vollständig offline KI', 'Schwärzung auf dem Gerät', 'DSGVO-konform by design'] },
+      { slug: 'lexpert', tagline: 'Das Studio ersetzt generische Tools durch ein maßgeschneidertes CRM, das sich an den tatsächlichen Abläufen einer Kanzlei orientiert.', metrics: ['Maßgeschneidertes CRM', 'Direkte Rechnungsstellung', 'Rollenbasierter Zugriff'] },
+      { slug: 'outdoorxl', tagline: 'Das Studio baut einen der größten Outdoor-Händler Europas zu einer modernen, headless Commerce-Plattform um.', metrics: ['200K+ Produkte', '14 Märkte', 'Headless-Migration'] },
     ],
   },
   insights: {

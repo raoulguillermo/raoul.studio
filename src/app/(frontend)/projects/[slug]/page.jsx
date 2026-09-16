@@ -116,6 +116,34 @@ export default async function ProjectPage({ params }) {
         ))}
       </section>
 
+      {/* Download — only for projects that ship a file */}
+      {project.download?.href ? (
+        <section className="pb-16 md:pb-24">
+          <div className="r border-2 border-ink px-5 py-8 md:px-12 md:py-10">
+            <a
+              href={project.download.href}
+              download
+              className="project-arrow font-display uppercase tracking-tight2 leading-[0.95] text-[clamp(2rem,9vw,3.5rem)] md:text-6xl text-accent"
+            >
+              {project.download.label}{' '}
+              <span aria-hidden="true" className="inline-block">
+                ↓
+              </span>
+            </a>
+            {project.download.meta ? (
+              <div className="mt-4 text-[11px] uppercase tracking-[.18em] font-semibold text-mute">
+                {project.download.meta}
+              </div>
+            ) : null}
+            {project.download.steps ? (
+              <p className="mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-ink/85">
+                {project.download.steps}
+              </p>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
+
       {/* Infographic */}
       <Infographic
         slug={project.slug}

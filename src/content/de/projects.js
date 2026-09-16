@@ -277,4 +277,111 @@ export const projectOverrides = {
       },
     ],
   },
+
+  poofy: {
+    shortTag: 'Todo-App, iOS & Mac',
+    shortDescription:
+      'Eine schnelle, gestenbasierte Todo-App für iPhone und Mac. Nach rechts wischen zum Erledigen, nach links zum Löschen, ziehen zum Sortieren — mit Listen, einem Widget auf dem Home-Bildschirm und einer App in der Menüleiste, geräteübergreifend synchronisiert.',
+    lead:
+      'Eine Todo-App, die einem nicht im Weg steht — wischen zum Erledigen, wischen zum Löschen, und die Listen wandern vom iPhone mit auf den Mac.',
+    tagsLine: 'iOS · macOS · SwiftUI · Node.js · MongoDB · Google Sign-In',
+    status: 'live',
+    info: [
+      { label: 'Rolle', value: 'Solo-Bau & Architektur' },
+      { label: 'Stack', value: 'SwiftUI (iOS + macOS), Node.js, Express, MongoDB' },
+      { label: 'Status', value: 'Live — die eigene App des Studios' },
+    ],
+    body: [
+      {
+        text: 'Poofy ist eine Todo-App, um Aufgaben im Blick zu behalten — aufschreiben, abhaken, wegwerfen. Sie läuft als iPhone-App mit Widget auf dem Home-Bildschirm und als Mac-App in der Menüleiste, auf beiden mit denselben Listen.',
+      },
+      {
+        text: 'Das Ganze ist um Gesten herum gebaut statt um Buttons. Eine Aufgabe nach rechts wischen erledigt sie, nach links löscht sie, ziehen sortiert um, tippen bearbeitet direkt an Ort und Stelle. Neue Aufgaben landen oben, und die Liste ist als Heatmap eingefärbt — das Dringendste sitzt am heißen Ende, damit man Priorität sieht statt liest.',
+      },
+      {
+        text: 'Aufgaben stecken in Listen, damit Arbeit, Zuhause und Nebenprojekte getrennt bleiben. Alles liegt unter dem eigenen Konto und wird über eine REST-API synchronisiert — deshalb trägt man etwas am Telefon ein und findet es in der Mac-Menüleiste wieder.',
+      },
+      {
+        text: 'Ein Konto lässt sich mit E-Mail-Adresse und Passwort anlegen oder über „Weiter mit Google“. Die Google-Anmeldung dient allein dazu, das Konto zu identifizieren: Poofy liest die E-Mail-Adresse und das Basisprofil, sonst nichts. Es wird kein Zugriff auf Gmail, Drive, Kalender, Kontakte oder einen anderen Google-Dienst angefragt, und Aufgaben werden nie an Dritte weitergegeben. Konten und ihre Daten werden auf Wunsch gelöscht.',
+      },
+      {
+        text: 'End to end im eigenen Haus gebaut — SwiftUI auf beiden Plattformen, mit einem gemeinsamen Modell und API-Client, gegen eine REST-API auf Node.js und Express mit MongoDB dahinter. Das Studio wickelt seinen eigenen Alltag darüber ab.',
+      },
+    ],
+  },
+
+  screensaver: {
+    shortTag: 'Bildschirmschoner, Mac',
+    shortDescription:
+      'Ein kostenloser Bildschirmschoner für den Mac. Lässt man ihn kurz in Ruhe, wird der Bildschirm zu einer einzigen riesigen Uhr — weiße Zahlen auf Schwarz, die Sekunden in einem roten Block.',
+    lead: 'Lass deinen Mac eine Minute in Ruhe, und er wird zu einer Riesenuhr.',
+    tagsLine: 'macOS · Swift · Bildschirmschoner · Kostenloser Download',
+    status: 'live',
+    download: {
+      label: 'Für Mac herunterladen',
+      meta: 'ClockSaver.dmg · etwa 134 KB · von Apple geprüft und freigegeben',
+      steps:
+        'Öffne die heruntergeladene Datei, doppelklicke auf ClockSaver.saver, klicke auf Install und wähle danach unter Systemeinstellungen → Bildschirmschoner den Eintrag „Clock“.',
+    },
+    info: [
+      { label: 'Rolle', value: 'Selbst entworfen und gebaut' },
+      { label: 'Gebaut mit', value: 'Swift, AppKit, ScreenSaverView, XcodeGen' },
+      { label: 'Status', value: 'Live — kostenlos zum Download' },
+    ],
+    body: [
+      {
+        text: 'Ein Bildschirmschoner ist das, was dein Mac zeigt, wenn du ihn eine Weile nicht benutzt. Die meisten zeigen Fotos oder schwebende Formen. Dieser zeigt die Uhrzeit, und sonst nichts.',
+      },
+      {
+        text: 'Der Bildschirm wird schwarz, und die Uhr übernimmt ihn komplett: Stunden, Minuten und Sekunden in riesigen weißen Buchstaben, gesetzt in Anton — derselben kräftigen Schrift wie die großen Überschriften auf dieser Seite. Die Sekunden sitzen in einem roten Block, als hättest du sie mit der Maus markiert. Die Zahlen dehnen sich auf jeden Bildschirm aus, vom kleinen Laptop bis zum großen Monitor, und lassen ringsum immer einen sauberen Rand frei.',
+      },
+      {
+        text: 'Außerdem zeichnet er das Bild nur neu, wenn sich die Zeit wirklich ändert — einmal pro Sekunde statt sechzigmal wie bei den meisten Animationen. So läuft er ruhig vor sich hin und braucht kaum Akku.',
+      },
+      {
+        text: 'Geschrieben ist er in Swift, der Sprache, in der Apple seine eigenen Apps baut, und die Schrift steckt in der Datei selbst. Dadurch sieht er auf jedem Mac richtig aus, auch auf einem, auf dem diese Schrift nie installiert war.',
+      },
+      {
+        text: 'Der knifflige Teil ist, ihn überhaupt auf fremde Macs zu bekommen. macOS traut Dateien aus dem Internet nicht und stellt normalerweise eine Warnung in den Weg. Also haben wir ein einziges Skript geschrieben, das die ganze Arbeit in einem Durchlauf erledigt: den Bildschirmschoner bauen, mit dem Apple-Entwicklerschlüssel des Studios signieren, in ein Disk-Image packen, zur Prüfung an Apple schicken — das heißt Notarisierung — und Apples Freigabe anschließend fest an die Datei heften. Weil die Freigabe angeheftet ist und nicht online nachgeschlagen werden muss, sieht dein Mac sie sogar bei ausgeschaltetem WLAN.',
+      },
+      {
+        text: 'Heraus kommt der Download auf dieser Seite. Öffnen, doppelklicken, installieren, fertig — keine Warnungen, kein Nachjustieren in den Einstellungen. Kostenlos, und ungefähr so groß wie ein einziges Foto.',
+      },
+    ],
+  },
+
+  'voice-agent': {
+    shortTag: 'Voice-KI, telefonische Bestellungen',
+    shortDescription:
+      'Ein KI-Telefonassistent, der das Telefon eines Restaurants annimmt, Abholbestellungen im ganz normalen Gespräch aufnimmt und direkt ins Bestellsystem der Küche gibt — und sich an jede API oder jedes CRM anbinden lässt.',
+    lead:
+      'Du rufst im Restaurant an, sagst, was du essen möchtest, und eine KI nimmt die Bestellung auf — und gibt sie direkt ins System der Küche.',
+    tagsLine: 'Voice AI · Claude · ElevenLabs · Twilio · Node.js · REST API',
+    status: 'im Launch',
+    info: [
+      { label: 'Rolle', value: 'Konzept, Architektur & Umsetzung' },
+      { label: 'Stack', value: 'Claude, ElevenLabs, Twilio, Node.js, Express, MongoDB' },
+      { label: 'Status', value: 'Im Launch — die erste Restaurant-Leitung' },
+    ],
+    body: [
+      {
+        text: 'Restaurants verpassen jeden Abend Bestellungen, weil niemand ans Telefon gehen kann, wenn in der Küche Hochbetrieb ist. Dieser Telefonassistent geht stattdessen ran. Ein Gast ruft die normale Nummer des Restaurants an, sagt, was er möchte — „zwei Sandwiches und ein großes Reisgericht“ — und spricht mit einer KI, die wie ein Mensch klingt, ihn versteht und die Bestellung aufschreibt.',
+      },
+      {
+        text: 'Er arbeitet mit der echten Speisekarte, den Öffnungszeiten und den Abholzeiten des Restaurants, die während des Gesprächs frisch abgerufen werden. So bietet er nur Gerichte an, die wirklich auf der Karte stehen, weiß, was ausverkauft ist, kennt Größen, Extras und ihre Preise und wählt die früheste Zeit, zu der die Bestellung fertig sein kann. Er spricht Niederländisch und wechselt ganz selbstverständlich ins Englische, wenn der Anrufer das tut.',
+      },
+      {
+        text: 'Eine Bestellung am Telefon muss stimmen, deshalb arbeitet der Assistent in zwei Schritten. Zuerst rechnet er alles zusammen und liest die Bestellung vor: die Gerichte, den Namen, die Summe und wann alles fertig ist. Erst wenn der Anrufer wirklich „Ja“ gesagt hat, gibt er die Bestellung auf — und das prüft das System selbst, es wird nicht der KI überlassen. Danach landet die Bestellung im eigenen Bestellsystem des Restaurants, genau wie eine Bestellung aus dem Webshop, und die Küche hat sie sofort. Der Assistent kann nur neue Abholbestellungen aufgeben: Er kann nichts einsehen, ändern, stornieren oder erstatten.',
+      },
+      {
+        text: 'Am Telefon wirkt Stille sofort, als wäre etwas kaputt. Das Verstehen, die Stimme und das Unterbrechen — du kannst ihm einfach mitten im Satz ins Wort fallen — übernimmt eine spezialisierte Sprachplattform. Das Denken erledigt Claude, auf dem eigenen Server des Studios. Alles, was der Assistent vorab wissen kann, wird nachgeschlagen, bevor er zu sprechen beginnt, und braucht er doch einen Moment, sagt er das — so wie ein Mensch.',
+      },
+      {
+        text: 'Die Restaurant-Leitung ist nur eine Anwendung. Darunter steckt ein allgemeiner Assistent, der sich über eine API an fast jedes System anbinden lässt. Auf derselben Technik läuft bereits eine zweite Leitung: Sie erkennt Stammanrufer an ihrer Nummer, schaut in einen Kalender, bucht oder storniert Termine, nimmt Störungsmeldungen auf und leitet sie per E-Mail weiter oder verbindet den Anrufer mit einem Menschen.',
+      },
+      {
+        text: 'Und genau da wird es für andere Unternehmen spannend. Weil das Studio auch die Systeme dahinter baut — maßgeschneiderte CRMs, Buchungsplattformen, Webshops und Backoffices —, lässt sich der Assistent direkt daran anschließen: einen Kunden im CRM nachschlagen, ein Ticket anlegen, einen Termin einplanen, den Lagerbestand prüfen oder eine Bestellung in Kasse oder ERP anlegen. Friseure, Werkstätten, Praxen, Kanzleien, Vermieter: Überall, wo das Telefon jeden Tag mit denselben Fragen klingelt, kann ein Assistent rangehen — mit einem System dahinter, das sich alles merkt.',
+      },
+    ],
+  },
 }

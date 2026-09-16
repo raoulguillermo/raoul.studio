@@ -43,9 +43,11 @@ export const home = {
     lead: 'Comment le studio aide des entreprises ambitieuses à résoudre des problèmes complexes.',
     allLabel: 'Voir tous les travaux',
     items: [
-      { slug: 'outdoorxl', tagline: 'Reconstruire l’un des plus grands détaillants outdoor d’Europe en une plateforme de commerce headless et moderne.', metrics: ['200K+ produits', '14 marchés', 'Migration headless'] },
-      { slug: 'lexpert', tagline: 'Remplacer des outils génériques par un CRM sur mesure, pensé autour du fonctionnement réel d’un cabinet d’avocats.', metrics: ['CRM sur mesure', 'Facturation directe', 'Accès par rôle'] },
+      { slug: 'screensaver', tagline: 'Un écran de Mac en veille transformé en horloge géante — blanc sur noir, les secondes en rouge. Téléchargement gratuit.', metrics: ['Téléchargement gratuit', 'Vérifié par Apple', 'Installé en quelques secondes'] },
+      { slug: 'poofy', tagline: 'Faire tourner le quotidien du studio sur une app de tâches pilotée aux gestes — widget iPhone, barre de menus Mac, une seule base de code.', metrics: ['iPhone + Mac', 'Une base de code SwiftUI', 'Tout au geste'] },
       { slug: 'anonimise', tagline: 'Permettre à un cabinet d’avocats de mettre l’IA au travail sans qu’un seul dossier client ne quitte ses murs.', metrics: ['IA entièrement hors ligne', 'Anonymisation sur l’appareil', 'Conforme au RGPD par conception'] },
+      { slug: 'lexpert', tagline: 'Remplacer des outils génériques par un CRM sur mesure, pensé autour du fonctionnement réel d’un cabinet d’avocats.', metrics: ['CRM sur mesure', 'Facturation directe', 'Accès par rôle'] },
+      { slug: 'outdoorxl', tagline: 'Reconstruire l’un des plus grands détaillants outdoor d’Europe en une plateforme de commerce headless et moderne.', metrics: ['200K+ produits', '14 marchés', 'Migration headless'] },
     ],
   },
   insights: {

@@ -1,9 +1,9 @@
-export default function MenuButton() {
+export default function MenuButton({ label }) {
   return (
     <button
       id="menuToggle"
       type="button"
-      aria-label="Open menu"
+      aria-label={label}
       aria-expanded="false"
       aria-controls="menuPanel"
       className="fixed top-5 right-5 md:top-6 md:right-6 z-[60] w-14 h-14 md:w-16 md:h-16 outline-none bg-transparent border-0"

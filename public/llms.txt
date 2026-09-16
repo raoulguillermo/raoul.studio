@@ -17,6 +17,8 @@
 - [Smart Dossier](https://raoul.studio/projects/smart-dossier): An AI document-dossier system — full-text search inside documents and automatic restructuring of large document sets.
 - [AboutDesk](https://raoul.studio/projects/aboutdesk): A team desk-booking app — map your building and floors, and teams book desks in a room to sit together.
 - [Footsteppa](https://raoul.studio/projects/footsteppa): The founder's own independent media brand and label — 6,000+ followers, 5 artists, expanding into events, merch and a record label.
+- [Clock Screensaver](https://raoul.studio/projects/screensaver): A free macOS screensaver — a full-screen clock, white on black, with the seconds highlighted in red. Signed and notarised by Apple.
+- [Voice Agent](https://raoul.studio/projects/voice-agent): An AI phone agent that takes restaurant pickup orders in a normal conversation and puts them straight into the kitchen’s order system — and connects to any API or custom CRM.
 
 ## Pages
 - [Home](https://raoul.studio/)

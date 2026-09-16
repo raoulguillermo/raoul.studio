@@ -1,6 +1,6 @@
-export default function ChatFAB({ href }) {
+export default function ChatFAB({ href, label }) {
   return (
-    <a id="chatFab" href={href} aria-label="Let's talk">
+    <a id="chatFab" href={href} aria-label={label}>
       <svg
         viewBox="0 0 24 24"
         fill="none"

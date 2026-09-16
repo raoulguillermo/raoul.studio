@@ -84,4 +84,7 @@ export const infographics = {
     volatility: 'Volatilité',
     logged: 'Journalisé + diffusé',
   },
+  poofy: { caption: 'Une liste, tous les appareils', task: 'Tâche', swipeRight: 'Balayer à droite', swipeLeft: 'Balayer à gauche', done: 'Faite', deleted: 'Supprimée', lists: 'Listes', synced: 'Synchronisé', iphone: 'iPhone + widget', mac: 'Barre de menus Mac' },
+  screensaver: { caption: 'Une horloge qui remplit l’écran', seconds: 'Secondes, surlignées', build: 'Compiler', checked: 'Vérifié par Apple', installs: 'S’installe sans avertissement' },
+  'voice-agent': { caption: 'D’un appel à votre système', caller: 'Appelant', agent: 'Agent IA', readBack: 'Relit la commande', orders: 'Système de commandes', confirmed: 'Seulement après le « oui »', connects: 'Se connecte à', crm: 'CRM', agenda: 'Agenda', webshop: 'Boutique en ligne', till: 'Caisse / ERP', tickets: 'Tickets', email: 'E-mail' },
 }

@@ -216,6 +216,7 @@ export const pages = {
           'Contactformulier: je naam, e-mailadres, optioneel je bedrijfsnaam en het bericht dat je schrijft.',
           'Technische gegevens: bij het versturen van het formulier slaan we het IP-adres en de browser-user-agent van het verzoek op, om spam en misbruik tegen te gaan.',
           'Taalvoorkeur: een kleine "lang"-cookie onthoudt in welke taal je de site wilt lezen.',
+          'Nieuwsbrief: als je je aanmeldt, je e-mailadres en de taal die je koos, zodat we je de wekelijkse nieuwsbrief kunnen sturen. Elke nieuwsbrief heeft een afmeldlink met één klik, en je kunt je op elk moment afmelden.',
         ],
       },
       {

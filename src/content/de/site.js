@@ -47,6 +47,14 @@ export const menu = {
 
 // Rahmen-Texte, die im JSX statt im Seiteninhalt liegen.
 export const ui = {
+  a11y: {
+    openMenu: 'Menü öffnen',
+    scrollToBottom: 'Nach unten scrollen',
+    chat: 'Sprechen wir',
+    language: 'Sprache',
+    changeLanguage: 'Sprache wechseln',
+    closeLanguageMenu: 'Sprachmenü schließen',
+  },
   back: 'Zurück',
   projectLabel: 'Projekt №',
   form: {

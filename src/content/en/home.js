@@ -44,10 +44,22 @@ export const home = {
     allLabel: 'See all work',
     items: [
       {
-        slug: 'outdoorxl',
+        slug: 'screensaver',
         tagline:
-          'Rebuilding one of Europe’s largest outdoor retailers into a modern, headless commerce platform.',
-        metrics: ['200K+ products', '14 markets', 'Headless migration'],
+          'Turning an idle Mac screen into one giant clock — white on black, the seconds highlighted in red. Free to download.',
+        metrics: ['Free download', 'Signed by Apple', 'Installs in seconds'],
+      },
+      {
+        slug: 'poofy',
+        tagline:
+          'Running the studio’s own day-to-day on a gesture-first todo app — iPhone widget, Mac menu bar, one shared codebase.',
+        metrics: ['iPhone + Mac', 'One SwiftUI codebase', 'Gesture-first'],
+      },
+      {
+        slug: 'anonimise',
+        tagline:
+          'Letting a law firm put AI to work without a single client file ever leaving the building.',
+        metrics: ['Fully offline AI', 'On-device redaction', 'GDPR-safe by design'],
       },
       {
         slug: 'lexpert',
@@ -56,10 +68,10 @@ export const home = {
         metrics: ['Bespoke CRM', 'Direct invoicing', 'Role-based access'],
       },
       {
-        slug: 'anonimise',
+        slug: 'outdoorxl',
         tagline:
-          'Letting a law firm put AI to work without a single client file ever leaving the building.',
-        metrics: ['Fully offline AI', 'On-device redaction', 'GDPR-safe by design'],
+          'Rebuilding one of Europe’s largest outdoor retailers into a modern, headless commerce platform.',
+        metrics: ['200K+ products', '14 markets', 'Headless migration'],
       },
     ],
   },

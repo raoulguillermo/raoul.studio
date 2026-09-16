@@ -17,7 +17,7 @@ import {
 // Stacking: the popover sits ABOVE the hamburger (z-65 vs z-60) so an open
 // language menu fully covers it; the globe stays on top (z-70) to close. The
 // two menus are kept mutually exclusive so neither floats over the other.
-export default function LanguageSwitcher({ currentLang = 'en' }) {
+export default function LanguageSwitcher({ currentLang = 'en', labels = {} }) {
   const router = useRouter()
   const [open, setOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -78,7 +78,7 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
         onClick={toggleOpen}
         aria-haspopup="dialog"
         aria-expanded={open}
-        aria-label={open ? 'Close language menu' : 'Change language'}
+        aria-label={open ? labels.closeLanguageMenu : labels.changeLanguage}
         className={`lang-toggle fixed right-5 md:right-6 top-20 md:top-[92px] z-[70] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-transparent border-0 outline-none transition-opacity ${
           menuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
@@ -90,7 +90,7 @@ export default function LanguageSwitcher({ currentLang = 'en' }) {
         role="dialog"
         aria-modal="true"
         aria-hidden={!open}
-        aria-label="Language"
+        aria-label={labels.language}
         onClick={() => setOpen(false)}
         className={`fixed inset-0 z-[65] bg-ink text-paper transition-opacity duration-500 ${
           open ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'

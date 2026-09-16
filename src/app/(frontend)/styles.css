@@ -134,6 +134,28 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 }
 #chatFab:hover { background: #E92316; }
 
+/* ============ BLOG TAB ============ */
+#blogTab {
+  position: fixed; right: 0; top: 50%; z-index: 50;
+  transform: translateY(-50%);
+  display: flex; align-items: center; gap: 10px;
+  writing-mode: vertical-rl;
+  padding: 16px 8px;
+  border: 2px solid currentColor; border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-family: "Inter Tight", sans-serif; font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .18em;
+  color: #fff; mix-blend-mode: difference;
+  transition: padding .35s cubic-bezier(.2,.7,.2,1);
+}
+#blogTab svg { width: 18px; height: 18px; flex-shrink: 0; }
+#blogTab:hover { padding-right: 14px; }
+@media (min-width: 768px) {
+  #blogTab { padding: 20px 10px; gap: 12px; font-size: 13px; }
+  #blogTab svg { width: 20px; height: 20px; }
+  #blogTab:hover { padding-right: 18px; }
+}
+
 /* ============ BACK LINK ============ */
 .back-link {
   display: inline-flex; align-items: center; gap: .5rem;

@@ -47,6 +47,14 @@ export const menu = {
 
 // Chrome strings that live in JSX rather than page content.
 export const ui = {
+  a11y: {
+    openMenu: 'Open menu',
+    scrollToBottom: 'Scroll to bottom',
+    chat: 'Let’s talk',
+    language: 'Language',
+    changeLanguage: 'Change language',
+    closeLanguageMenu: 'Close language menu',
+  },
   back: 'Back',
   projectLabel: 'Project №',
   form: {

@@ -43,9 +43,11 @@ export const home = {
     lead: 'Hoe de studio ambitieuze bedrijven helpt om lastige problemen op te lossen.',
     allLabel: 'Bekijk al het werk',
     items: [
-      { slug: 'outdoorxl', tagline: 'Een van de grootste outdoorretailers van Europa opnieuw opgebouwd tot een modern, headless commerceplatform.', metrics: ['200K+ producten', '14 markten', 'Headless-migratie'] },
-      { slug: 'lexpert', tagline: 'Generieke tools vervangen door een CRM op maat, gebouwd rond hoe een advocatenkantoor echt werkt.', metrics: ['CRM op maat', 'Direct factureren', 'Toegang per rol'] },
-      { slug: 'anonimise', tagline: 'Een advocatenkantoor AI laten inzetten zonder dat één cliëntdossier ooit het pand verlaat.', metrics: ['Volledig offline AI', 'Anonimisering op het apparaat', 'AVG-proof by design'] },
+      { slug: 'screensaver', tagline: 'Een leeg Mac-scherm dat verandert in één grote klok — wit op zwart, met de seconden in het rood. Gratis te downloaden.', metrics: ['Gratis download', 'Gecontroleerd door Apple', 'Zo geïnstalleerd'] },
+      { slug: 'poofy', tagline: 'Onze eigen to-dolijst werd een app: swipe naar rechts en je taak is klaar, naar links en hij is weg. Op je iPhone én je Mac.', metrics: ['iPhone + Mac', 'Swipen in plaats van klikken', 'Zelf gebouwd'] },
+      { slug: 'anonimise', tagline: 'Een advocatenkantoor AI laten gebruiken zonder dat één dossier het kantoor uit gaat.', metrics: ['AI zonder internet', 'Namen eruit op je eigen pc', 'Privacy voorop'] },
+      { slug: 'lexpert', tagline: 'Een advocatenkantoor van standaardsoftware af geholpen, met een systeem dat precies doet wat zij doen.', metrics: ['Systeem op maat', 'Meteen factureren', 'Ieder zijn eigen rol'] },
+      { slug: 'outdoorxl', tagline: 'Een van de grootste outdoorwinkels van Europa opnieuw opgebouwd — 200.000 producten, 14 landen, en alles moet snel blijven.', metrics: ['200.000+ producten', '14 landen', 'Nieuwe voorkant'] },
     ],
   },
   insights: {

@@ -47,6 +47,14 @@ export const menu = {
 
 // Textos de estructura que viven en el JSX y no en el contenido de página.
 export const ui = {
+  a11y: {
+    openMenu: 'Abrir menú',
+    scrollToBottom: 'Bajar al final',
+    chat: 'Hablemos',
+    language: 'Idioma',
+    changeLanguage: 'Cambiar de idioma',
+    closeLanguageMenu: 'Cerrar el menú de idiomas',
+  },
   back: 'Volver',
   projectLabel: 'Proyecto №',
   form: {

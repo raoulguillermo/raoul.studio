@@ -216,6 +216,7 @@ export const pages = {
           'Formulario de contacto: tu nombre, dirección de correo, el nombre de tu empresa (opcional) y el mensaje que escribes.',
           'Datos técnicos: al enviar el formulario guardamos la dirección IP y el agente de usuario del navegador de la petición, para protegernos del spam y los abusos.',
           'Preferencia de idioma: una pequeña cookie "lang" recuerda en qué idioma elegiste leer el sitio.',
+          'Boletín: si te suscribes, tu dirección de correo y el idioma que elegiste, para poder enviarte el boletín semanal. Cada boletín incluye un enlace de baja con un solo clic y puedes darte de baja en cualquier momento.',
         ],
       },
       {

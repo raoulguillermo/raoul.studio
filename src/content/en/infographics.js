@@ -99,4 +99,26 @@ export const infographics = {
     iphone: 'iPhone + widget',
     mac: 'Mac menu bar',
   },
+  screensaver: {
+    caption: 'A clock that fills the screen',
+    seconds: 'Seconds, highlighted', // styled like a text selection
+    build: 'Build',
+    checked: 'Checked by Apple', // signed + notarised + stapled
+    installs: 'Installs, no warnings',
+  },
+  'voice-agent': {
+    caption: 'From a phone call to your system',
+    caller: 'Caller',
+    agent: 'AI agent',
+    readBack: 'Reads it back', // dishes, name, total and pickup time
+    orders: 'Order system', // lands like a webshop order
+    confirmed: 'Only after “yes”', // checked by the system, not the model
+    connects: 'Connects to',
+    crm: 'CRM',
+    agenda: 'Calendar',
+    webshop: 'Webshop',
+    till: 'Till / ERP',
+    tickets: 'Tickets',
+    email: 'Email',
+  },
 }

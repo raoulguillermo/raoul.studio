@@ -11,4 +11,7 @@ export const infographics = {
   'no-cms': { caption: 'Edita por WhatsApp', message: 'Pon la cabecera en rojo y cambia la foto del hero', live: 'En vivo' },
   anonimise: { caption: 'Flujo de anonimización offline', yourDoc: 'Tu documento', offline: 'sin conexión', noInternet: 'Sin internet', safe: 'Listo para compartir', dear: 'Estimado/a', livesIn: 'vive en', pasteInto: 'Luego seguro para pegar en' },
   dfns: { caption: 'Señales de futuros en tiempo real', entry: 'Entrada', takeProfit: 'Take-profit', stopLoss: 'Stop-loss', liveTicks: 'Ticks en vivo', confluence: 'Confluencia', trend: 'Tendencia', momentum: 'Momentum', volume: 'Volumen', volatility: 'Volatilidad', logged: 'Registrado + transmitido' },
+  poofy: { caption: 'Una lista, todos los dispositivos', task: 'Tarea', swipeRight: 'Desliza a la derecha', swipeLeft: 'Desliza a la izquierda', done: 'Hecha', deleted: 'Borrada', lists: 'Listas', synced: 'Sincronizado', iphone: 'iPhone + widget', mac: 'Barra de menús del Mac' },
+  screensaver: { caption: 'Un reloj que llena la pantalla', seconds: 'Segundos, resaltados', build: 'Compilar', checked: 'Revisado por Apple', installs: 'Se instala sin avisos' },
+  'voice-agent': { caption: 'De una llamada a tu sistema', caller: 'Cliente', agent: 'Agente IA', readBack: 'Lo lee en voz alta', orders: 'Sistema de pedidos', confirmed: 'Solo tras el «sí»', connects: 'Se conecta a', crm: 'CRM', agenda: 'Agenda', webshop: 'Tienda online', till: 'Caja / ERP', tickets: 'Tickets', email: 'Correo' },
 }

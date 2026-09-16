@@ -43,9 +43,11 @@ export const home = {
     lead: 'Cómo ayuda el estudio a empresas ambiciosas a resolver problemas difíciles.',
     allLabel: 'Ver todo el trabajo',
     items: [
-      { slug: 'outdoorxl', tagline: 'El estudio reconstruye uno de los mayores retailers outdoor de Europa convirtiéndolo en una plataforma de commerce moderna y headless.', metrics: ['200K+ productos', '14 mercados', 'Migración headless'] },
-      { slug: 'lexpert', tagline: 'El estudio sustituye las herramientas genéricas por un CRM a medida pensado en torno a cómo funciona de verdad un despacho de abogados.', metrics: ['CRM a medida', 'Facturación directa', 'Acceso por roles'] },
+      { slug: 'screensaver', tagline: 'Una pantalla de Mac en reposo convertida en un reloj enorme: blanco sobre negro, con los segundos en rojo. Descarga gratuita.', metrics: ['Descarga gratuita', 'Revisado por Apple', 'Se instala en segundos'] },
+      { slug: 'poofy', tagline: 'El estudio lleva su propio día a día en una app de tareas basada en gestos: widget en el iPhone, barra de menús en el Mac, una sola base de código.', metrics: ['iPhone + Mac', 'Una base de código SwiftUI', 'Basada en gestos'] },
       { slug: 'anonimise', tagline: 'El estudio permite que un despacho de abogados ponga la IA a trabajar sin que un solo expediente de cliente salga nunca del edificio.', metrics: ['IA totalmente offline', 'Anonimización en el dispositivo', 'Conforme al RGPD por diseño'] },
+      { slug: 'lexpert', tagline: 'El estudio sustituye las herramientas genéricas por un CRM a medida pensado en torno a cómo funciona de verdad un despacho de abogados.', metrics: ['CRM a medida', 'Facturación directa', 'Acceso por roles'] },
+      { slug: 'outdoorxl', tagline: 'El estudio reconstruye uno de los mayores retailers outdoor de Europa convirtiéndolo en una plataforma de commerce moderna y headless.', metrics: ['200K+ productos', '14 mercados', 'Migración headless'] },
     ],
   },
   insights: {

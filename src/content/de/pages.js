@@ -216,6 +216,7 @@ export const pages = {
           'Kontaktformular: Ihr Name, Ihre E-Mail-Adresse, optional ein Firmenname und die Nachricht, die Sie schreiben.',
           'Technische Daten: Wenn Sie das Formular absenden, speichern wir die IP-Adresse und den Browser-User-Agent der Anfrage, um vor Spam und Missbrauch zu schützen.',
           'Spracheinstellung: Ein kleines „lang“-Cookie merkt sich, in welcher Sprache Sie die Seite lesen möchten.',
+          'Newsletter: Wenn Sie sich anmelden, Ihre E-Mail-Adresse und die von Ihnen gewählte Sprache, damit wir Ihnen den wöchentlichen Newsletter schicken können. Jeder Newsletter enthält einen Abmeldelink mit einem Klick, und Sie können sich jederzeit abmelden.',
         ],
       },
       {

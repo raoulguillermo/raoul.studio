@@ -276,4 +276,111 @@ export const projectOverrides = {
       },
     ],
   },
+
+  poofy: {
+    shortTag: 'app de tâches, ios & mac',
+    shortDescription:
+      "Une app de tâches rapide, pilotée aux gestes, pour iPhone et Mac. Balayez vers la droite pour valider, vers la gauche pour supprimer, glissez pour réordonner — avec des listes, un widget sur l’écran d’accueil et une app dans la barre de menus, synchronisées entre les appareils.",
+    lead:
+      "Une app de tâches qui ne se met pas en travers du chemin — un balayage pour valider, un balayage pour supprimer, et vos listes vous suivent de l’iPhone au Mac.",
+    tagsLine: 'iOS · macOS · SwiftUI · Node.js · MongoDB · Google Sign-In',
+    status: 'en production',
+    info: [
+      { label: 'Rôle', value: 'Développement et architecture en solo' },
+      { label: 'Stack', value: 'SwiftUI (iOS + macOS), Node.js, Express, MongoDB' },
+      { label: 'Statut', value: "En production — l’app maison du studio" },
+    ],
+    body: [
+      {
+        text: "Poofy est une app de tâches pour garder le fil : on note, on coche, on jette. Elle tourne comme app iPhone avec widget sur l’écran d’accueil et comme app dans la barre de menus du Mac, avec les mêmes listes des deux côtés.",
+      },
+      {
+        text: "Tout est construit autour des gestes plutôt que des boutons. Balayez une tâche vers la droite pour la valider, vers la gauche pour la supprimer, glissez pour réordonner, touchez pour modifier sur place. Les nouvelles tâches arrivent en haut, et la liste est colorée comme une carte de chaleur — le plus urgent se trouve du côté chaud, si bien que la priorité se voit au lieu de se lire.",
+      },
+      {
+        text: "Les tâches sont regroupées en listes, pour que le travail, la maison et les projets perso restent séparés. Tout est enregistré sur votre compte et synchronisé via une API REST : c’est ce qui fait qu’une tâche ajoutée sur le téléphone vous attend dans la barre de menus du Mac.",
+      },
+      {
+        text: "Vous pouvez créer un compte avec une adresse e-mail et un mot de passe, ou passer par Continuer avec Google. La connexion Google sert uniquement à identifier le compte : Poofy lit votre adresse e-mail et votre profil de base, rien d’autre. Aucun accès n’est demandé à Gmail, Drive, Agenda, Contacts ou à un autre service Google, et vos tâches ne sont jamais partagées avec des tiers. Les comptes et leurs données sont supprimés sur demande.",
+      },
+      {
+        text: "Construite de bout en bout en interne — SwiftUI sur les deux plateformes, avec un même modèle et un même client d’API, face à une API REST Node.js et Express adossée à MongoDB. Le studio y gère son propre quotidien.",
+      },
+    ],
+  },
+
+  screensaver: {
+    shortTag: 'économiseur d’écran, mac',
+    shortDescription:
+      'Un économiseur d’écran gratuit pour votre Mac. Laissez-le tranquille une minute et l’écran devient une horloge géante — des chiffres blancs sur fond noir, les secondes posées dans un bloc rouge.',
+    lead: 'Laissez votre Mac tranquille une minute et il se transforme en horloge géante.',
+    tagsLine: 'macOS · Swift · Économiseur d’écran · Téléchargement gratuit',
+    status: 'en production',
+    download: {
+      label: 'Télécharger pour Mac',
+      meta: 'ClockSaver.dmg · environ 134 Ko · vérifié et approuvé par Apple',
+      steps:
+        'Ouvrez le fichier téléchargé, double-cliquez sur ClockSaver.saver, cliquez sur Install, puis choisissez « Clock » dans Réglages Système → Économiseur d’écran.',
+    },
+    info: [
+      { label: 'Rôle', value: 'Conçu et développé en solo' },
+      { label: 'Fabriqué avec', value: 'Swift, AppKit, ScreenSaverView, XcodeGen' },
+      { label: 'Statut', value: 'En production — téléchargement gratuit' },
+    ],
+    body: [
+      {
+        text: 'Un économiseur d’écran, c’est ce que votre Mac affiche quand vous ne vous en servez plus pendant un moment. La plupart montrent des photos ou des formes qui flottent. Celui-ci montre l’heure, et rien d’autre.',
+      },
+      {
+        text: 'L’écran devient noir et l’horloge le remplit entièrement : heures, minutes et secondes en énormes lettres blanches, en Anton — la même typo bien épaisse que les grands titres de ce site. Les secondes sont posées dans un bloc rouge, comme un mot que vous auriez sélectionné à la souris. Les chiffres s’étirent pour tenir sur n’importe quel écran, du petit portable au grand moniteur, en laissant toujours une marge nette tout autour.',
+      },
+      {
+        text: 'Il ne redessine l’image que lorsque l’heure change vraiment : une fois par seconde, au lieu de soixante fois par seconde comme la plupart des animations. Il reste donc tranquille dans son coin et ne touche presque pas à la batterie.',
+      },
+      {
+        text: 'Il est écrit en Swift, le langage avec lequel Apple fabrique ses propres applis, et la typo voyage à l’intérieur du fichier. Résultat : il s’affiche correctement sur n’importe quel Mac, même sur un Mac où cette typo n’a jamais été installée.',
+      },
+      {
+        text: 'Le plus délicat, c’est de le faire arriver sur le Mac de quelqu’un d’autre. macOS se méfie des fichiers venus d’internet et met normalement un avertissement en travers du chemin. Nous avons donc écrit un seul script qui fait tout le travail d’une traite : construire l’économiseur d’écran, le signer avec la clé de développeur Apple du studio, l’emballer dans une image disque, l’envoyer à Apple pour vérification — cela s’appelle la notarisation — puis agrafer l’accord d’Apple au fichier. Comme cet accord est agrafé et n’a pas besoin d’être vérifié en ligne, votre Mac le voit même avec le Wi-Fi coupé.',
+      },
+      {
+        text: 'Ce qui en sort, c’est le téléchargement de cette page. Ouvrez, double-cliquez, installez, et c’est tout : aucun avertissement, aucun réglage à rattraper ensuite. Gratuit, et à peu près du poids d’une seule photo.',
+      },
+    ],
+  },
+
+  'voice-agent': {
+    shortTag: 'IA vocale, commandes par téléphone',
+    shortDescription:
+      'Un agent téléphonique IA qui répond à la ligne d’un restaurant, prend les commandes à emporter au fil d’une conversation normale et les envoie directement dans le système de commandes de la cuisine — et qui se connecte à n’importe quelle API ou CRM.',
+    lead:
+      'Vous appelez le restaurant, vous dites ce que vous voulez manger, et une IA prend la commande — puis l’envoie directement dans le système de la cuisine.',
+    tagsLine: 'Voice AI · Claude · ElevenLabs · Twilio · Node.js · REST API',
+    status: 'lancement',
+    info: [
+      { label: 'Rôle', value: 'Concept, architecture et développement' },
+      { label: 'Stack', value: 'Claude, ElevenLabs, Twilio, Node.js, Express, MongoDB' },
+      { label: 'Statut', value: 'En lancement — la première ligne de restaurant' },
+    ],
+    body: [
+      {
+        text: 'Chaque soir, des restaurants perdent des commandes parce que personne ne peut décrocher quand la cuisine tourne à plein. Cet agent téléphonique répond à leur place. Un client appelle le numéro habituel du restaurant, dit ce qu’il veut — « deux sandwichs et un grand plat de riz » — et parle à une IA qui sonne comme une vraie personne, le comprend et note la commande.',
+      },
+      {
+        text: 'Il travaille avec la vraie carte du restaurant, ses horaires d’ouverture et ses créneaux de retrait, récupérés en direct pendant l’appel. Il ne propose donc que des plats vraiment à la carte, sait ce qui est épuisé, connaît les tailles, les suppléments et leurs prix, et choisit l’heure la plus proche à laquelle la commande peut être prête. Il parle néerlandais, et passe à l’anglais sans faire d’histoires si l’appelant le fait.',
+      },
+      {
+        text: 'Une commande par téléphone doit être exacte, alors l’agent procède en deux temps. D’abord, il fait le total et relit la commande : les plats, le nom, le montant et l’heure à laquelle tout sera prêt. Ce n’est qu’une fois que l’appelant a vraiment dit « oui » qu’il passe la commande — et c’est le système lui-même qui le vérifie, pas l’IA. La commande arrive ensuite dans le système de commandes du restaurant, exactement comme une commande de la boutique en ligne, et la cuisine la reçoit tout de suite. L’agent ne peut passer que de nouvelles commandes à emporter : il ne peut rien consulter, modifier, annuler ni rembourser.',
+      },
+      {
+        text: 'Au téléphone, le silence donne tout de suite l’impression d’une panne. La compréhension, la voix et les interruptions — vous pouvez le couper en pleine phrase, comme une personne — sont gérées par une plateforme vocale spécialisée. La réflexion, elle, est assurée par Claude, sur le serveur du studio. Tout ce que l’agent peut savoir à l’avance est vérifié avant qu’il ne commence à parler, et s’il lui faut quand même un instant, il le dit, comme le ferait une personne.',
+      },
+      {
+        text: 'La ligne du restaurant n’est qu’un usage parmi d’autres. Derrière, il y a un agent généraliste qui se connecte à presque n’importe quel système via une API. Une deuxième ligne tourne déjà sur la même technologie : elle reconnaît les appelants habituels à leur numéro, consulte un agenda, réserve ou annule des rendez-vous, note un signalement et le transmet par e-mail, ou passe l’appel à un humain.',
+      },
+      {
+        text: 'Et c’est là que ça devient intéressant pour d’autres entreprises. Comme le studio construit aussi les systèmes qui se trouvent derrière — CRM sur mesure, plateformes de réservation, boutiques en ligne et back-offices —, l’agent peut y être branché directement : retrouver un client dans votre CRM, ouvrir un ticket, planifier un rendez-vous, vérifier un stock ou enregistrer une commande dans votre caisse ou votre ERP. Salons de coiffure, garages, cabinets médicaux, cabinets d’avocats, loueurs : partout où le téléphone sonne chaque jour pour les mêmes questions, un agent peut décrocher, avec derrière lui un système qui n’oublie rien.',
+      },
+    ],
+  },
 }

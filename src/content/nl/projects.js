@@ -1,104 +1,105 @@
 // Nederlands — per-slug overrides of translatable project fields.
 // Inherits slug/number/year/colors/titleLine1/titleLine2 from the English base.
+// Toon: gewone spreektaal, geen jargon — te volgen zonder technische voorkennis.
 
 export const projectOverrides = {
   outdoorxl: {
-    shortTag: 'e-commerce, schaal',
+    shortTag: 'webshop, grote schaal',
     shortDescription:
-      'Magento e-commerce op schaal — 200.000+ producten over 14+ talen en sites, nu op weg naar headless.',
+      'Een webshop met ruim 200.000 producten, in 14 talen en landen. We bouwen hem nu opnieuw op, zodat hij een stuk sneller wordt.',
     lead:
-      'Een e-commerceplatform met 200.000 producten en 14 markten — en een live rebuild van Magento naar headless.',
+      'Een webshop met 200.000 producten en 14 markten — en we bouwen hem opnieuw op terwijl hij gewoon doordraait.',
     tagsLine: 'E-commerce · Magento · Headless · Next.js · GraphQL',
     status: 'doorlopend',
     info: [
-      { label: 'Rol', value: 'Lead developer & software-architect' },
+      { label: 'Rol', value: 'Hoofdontwikkelaar & architect' },
       { label: 'Stack', value: 'Magento, Varnish, PHP, MySQL → Next.js, MongoDB, Payload, GraphQL + REST' },
       { label: 'Bereik', value: '200.000+ producten · 14+ talen & sites' },
     ],
     body: [
       {
-        text: 'OutdoorXL draait op serieuze schaal: 200.000+ producten over 14+ talen en storefronts, razendsnel geserveerd met Magento en Varnish. De studio leidt de ontwikkeling en is eigenaar van de architectuur erachter.',
+        text: 'OutdoorXL is groot: ruim 200.000 producten, in 14 talen en landen, en alles moet razendsnel op je scherm staan. Wij leiden de ontwikkeling en bepalen hoe het geheel in elkaar zit.',
       },
       {
-        text: 'Nu wordt het headless omgebouwd — Next.js en MongoDB aan de voorkant, de Magento 2-backend achter een GraphQL- en REST-laag, met custom modules die de twee verbinden en Payload CMS voor content.',
+        text: 'Nu bouwen we de voorkant helemaal opnieuw. De winkel die je ziet draait straks op nieuwe techniek, terwijl de oude motor met alle producten erin gewoon blijft draaien. Zelfgebouwde koppelstukken praten tussen die twee in.',
       },
       {
-        text: 'Het doel: de catalogus en de markten behouden, het legacy-gewicht kwijtraken. Een snellere storefront en een codebase die klaar is voor het komende decennium.',
+        text: 'Het doel: alle producten en landen houden, maar de oude ballast eruit. Een snellere winkel, en code waar we de komende tien jaar mee vooruit kunnen.',
       },
     ],
   },
 
   aboutspace: {
-    shortTag: 'marktplaats, betalingen',
+    shortTag: 'marktplaats, betalen',
     shortDescription:
-      'Een tweezijdige marktplaats om creatieve en commerciële ruimtes te plaatsen, verhuren en boeken — met chat, wallet en peer-to-peer betalingen ingebouwd.',
+      'Een marktplaats voor ruimtes: de één zet zijn zaal of studio erop, de ander huurt hem. Chatten, betalen en je geld beheren zit er allemaal in.',
     lead:
-      'Een tweezijdige marktplaats voor creatieve en commerciële ruimtes — plaatsen, verhuren, boeken, betalen, alles op één plek.',
+      'Een marktplaats voor creatieve en zakelijke ruimtes — aanbieden, verhuren, boeken en betalen op één plek.',
     tagsLine: 'Marktplaats · Next.js · Node.js · Stripe Connect · MongoDB',
     status: 'lancering',
     info: [
-      { label: 'Rol', value: 'Developer & conceptontwerp' },
+      { label: 'Rol', value: 'Bouw & concept' },
       { label: 'Stack', value: 'Next.js, Node.js REST API, MongoDB, Stripe' },
-      { label: 'Status', value: 'Lancering nu' },
+      { label: 'Status', value: 'Gaat nu live' },
     ],
     body: [
       {
-        text: 'AboutSpace verbindt mensen met ruimte aan de mensen die ze nodig hebben — een marktplaats om creatieve en commerciële locaties te plaatsen, verhuren en boeken. Gebouwd met projectlead Jette Schneider (Timewindow).',
+        text: 'AboutSpace brengt mensen mét ruimte en mensen die ruimte zoeken bij elkaar. Heb je een zaal, studio of kantoor over? Zet hem erop. Zoek je er juist een? Boek hem. Gemaakt samen met projectleider Jette Schneider (Timewindow).',
       },
       {
-        text: 'Het platform blijft op de achtergrond. In-app chat houdt gesprekken op één plek, en peer-to-peer connect-and-pay (Stripe Connect) laat gebruikers direct transacteren, met een ingebouwde wallet en abonnementen die de rest afhandelen.',
+        text: 'Het platform loopt niet in de weg. Je chat gewoon in de app, dus alle afspraken staan op één plek, en je betaalt elkaar rechtstreeks. Er zit een eigen portemonnee in, en abonnementen regelen de rest.',
       },
       {
-        text: 'Vanaf de grond headless — Next.js, een Node.js REST API en MongoDB — gebouwd om beide kanten van een marktplaats vanaf dag één aan te kunnen. Lancering nu.',
+        text: 'Vanaf de eerste dag gebouwd om allebei de kanten aan te kunnen: de verhuurders én de huurders. Gaat nu live.',
       },
     ],
   },
 
   threadly: {
-    shortTag: 'saas, support',
+    shortTag: 'saas, klantenservice',
     shortDescription:
-      'Eigen SaaS uit de studio — een support-ticketsysteem voor supportteams, bureaus en solo-ondernemers. Gedeelde inbox, SLA-tracking, automatisering.',
+      'Onze eigen tool voor klantenservice. Alle vragen komen binnen in één gedeelde inbox, je ziet wie wat oppakt, en niemand wordt vergeten.',
     lead:
-      'Support die niet tussen wal en schip valt — een ticketsysteem voor teams, bureaus en solo-ondernemers.',
+      'Klantvragen die niet tussen wal en schip vallen — één gedeelde inbox voor teams, bureaus en zzp’ers.',
     tagsLine: 'SaaS · Support · Next.js · Node.js · MongoDB',
     status: 'live',
     info: [
-      { label: 'Rol', value: 'Solo-bouw & architectuur' },
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
       { label: 'Stack', value: 'Next.js, MongoDB, Node.js REST API' },
-      { label: 'Status', value: 'Live — eigen product' },
+      { label: 'Status', value: 'Live — ons eigen product' },
     ],
     body: [
       {
-        text: 'Threadly is de eigen SaaS van raoul.studio: een support-ticketsysteem gebouwd voor supportteams, bureaus en solo-ondernemers die grip willen houden op elk gesprek.',
+        text: 'Threadly is onze eigen tool: één plek waar alle vragen van klanten binnenkomen, gemaakt voor supportteams, bureaus en mensen die in hun eentje werken.',
       },
       {
-        text: 'Een gedeelde inbox trekt elk kanaal op één plek samen, SLA-tracking houdt reactietijden eerlijk, en automatisering neemt het repetitieve werk over zodat het team zich kan richten op de antwoorden die ertoe doen.',
+        text: 'Alles komt samen in dezelfde inbox, of het nu via mail, chat of een formulier binnenkomt. Een klok houdt bij hoelang iemand op antwoord wacht, en het saaie herhaalwerk gaat vanzelf. Zo houd je tijd over voor de antwoorden die er echt toe doen.',
       },
-      { text: 'In-house ontworpen, gebouwd en gearchitecteerd. De studio draait er zelf ook op.' },
+      { text: 'Zelf bedacht, zelf gebouwd. En we gebruiken hem ook gewoon zelf.' },
     ],
   },
 
   lexpert: {
-    shortTag: 'crm, legal',
+    shortTag: 'crm, advocaten',
     shortDescription:
-      'Een CRM op maat voor een advocatenkantoor — cliënten, directe facturatie, metrics en rolgebaseerde toegang, gebouwd naar de exacte workflow van het kantoor.',
-    lead: 'Een volledig CRM op maat voor een advocatenkantoor, gebouwd rond hoe de praktijk echt draait.',
+      'Een systeem op maat voor een advocatenkantoor: alle cliënten op één plek, meteen een factuur eruit, en iedereen ziet alleen wat hij mag zien.',
+    lead: 'Een systeem op maat voor een advocatenkantoor, gebouwd rond hoe zij echt werken.',
     tagsLine: 'CRM · Legal · Facturatie · Next.js · MongoDB',
     status: 'live',
     info: [
-      { label: 'Rol', value: 'Solo-developer & lead-architect' },
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
       { label: 'Stack', value: 'Next.js, MongoDB, Node.js' },
       { label: 'Klant', value: 'Lexpert Advocaten' },
     ],
     body: [
       {
-        text: 'Lexpert Advocaten had een CRM nodig dat gevormd was rond de advocatuur, niet een generieke tool die ze moesten ombuigen. Dus bouwde de studio er een — cliënten en relaties beheren, ze direct factureren, en de metrics bijhouden die het kantoor sturen.',
+        text: 'Lexpert Advocaten wilde geen standaardprogramma waar ze zich in moesten wringen. Dus bouwden we er zelf een: alle cliënten en contacten bij elkaar, met één druk op de knop een factuur eruit, en in één oogopslag zien hoe het kantoor ervoor staat.',
       },
       {
-        text: 'Rolgebaseerde gebruikersrechten houden de juiste informatie bij de juiste mensen, en het hele systeem is naar de richting van het kantoor gebouwd, van de eerste beslissing tot de laatste.',
+        text: 'Iedereen heeft zijn eigen rol. Een advocaat ziet andere dingen dan iemand van de administratie, dus gevoelige informatie blijft bij de mensen die hem nodig hebben.',
       },
       {
-        text: 'Een schone interne tool met één duidelijk doel — het soort dat kant-en-klare software net niet kan worden.',
+        text: 'Eén nette tool met één duidelijk doel — precies wat kant-en-klare software nét niet kan zijn.',
       },
     ],
   },
@@ -106,48 +107,48 @@ export const projectOverrides = {
   fndracer: {
     shortTag: 'ai, financiering',
     shortDescription:
-      'Een AI-tool voor financieringsaanvragen — scrapt financieringsbronnen, matcht ze aan een bedrijf en stelt een complete aanvraag op in zo’n vijf minuten.',
-    lead: 'Van "welke financiering bestaat er" naar een complete eerste aanvraag in zo’n vijf minuten.',
+      'Zoekt zelf op welke potjes met geld er voor een bedrijf zijn, kijkt welke passen, en schrijft de hele aanvraag alvast. In ongeveer vijf minuten.',
+    lead: 'Van "welke financiering bestaat er eigenlijk?" naar een complete eerste aanvraag, in ongeveer vijf minuten.',
     tagsLine: 'AI · Financiering · Next.js · OpenAI · MongoDB',
-    status: 'in ontwikkeling',
+    status: 'in aanbouw',
     info: [
-      { label: 'Rol', value: 'Solo-bouw & architectuur' },
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
       { label: 'Stack', value: 'Next.js, MongoDB, OpenAI' },
-      { label: 'Status', value: 'In ontwikkeling' },
+      { label: 'Status', value: 'In aanbouw' },
     ],
     body: [
       {
-        text: 'Financieringsaanvragen zijn traag, versnipperd en makkelijk fout te doen. FndRacer haalt het geploeter eruit: het scrapt financieringsbronnen, matcht de juiste aan een bedrijf, en gebruikt AI om de aanvraag op te stellen.',
+        text: 'Financiering aanvragen is traag, rommelig en je maakt er zo een fout in. FndRacer haalt dat gedoe weg: hij verzamelt zelf waar geld te halen valt, zoekt uit wat bij het bedrijf past, en schrijft met AI de aanvraag.',
       },
       {
-        text: 'Het hele proces draait in zo’n vijf minuten — een complete eerste versie, klaar om te verfijnen in plaats van een leeg vel om te vullen.',
+        text: 'Het hele rondje duurt zo’n vijf minuten. Je begint dus niet met een leeg vel, maar met een complete eerste versie die je alleen nog hoeft bij te schaven.',
       },
-      { text: 'Nu in ontwikkeling.' },
+      { text: 'Nu in aanbouw.' },
     ],
   },
 
   'smart-dossier': {
     shortTag: 'ai, documenten',
     shortDescription:
-      'Een AI-documentdossiersysteem — full-text zoeken ín documenten en automatisch herstructureren van grote documentsets.',
+      'Zoeken ín je documenten in plaats van alleen in de bestandsnamen. En een grote, rommelige stapel wordt vanzelf netjes op orde gezet.',
     lead:
-      'Zoeken ín de documenten, niet alleen in hun titels — en AI laat de stapel meteen herordenen.',
+      'Zoeken in wat er ín de documenten staat — en de hele stapel meteen laten opruimen.',
     tagsLine: 'AI · Documenten · Zoeken · Next.js · MongoDB',
-    status: 'in ontwikkeling',
+    status: 'in aanbouw',
     info: [
-      { label: 'Rol', value: 'Solo-developer & architect' },
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
       { label: 'Stack', value: 'PHP/MySQL → Next.js, MongoDB, Node.js + AI' },
       { label: 'Klant', value: 'Vastgoedkor' },
     ],
     body: [
       {
-        text: 'Smart Dossier begon in 2016 als een PHP/MySQL-documentsysteem voor Vastgoedkor. In 2026 werd het omgebouwd tot iets slimmers.',
+        text: 'Smart Dossier begon in 2016 als een documentsysteem voor Vastgoedkor. In 2026 hebben we het omgebouwd tot iets veel slimmers.',
       },
       {
-        text: 'Het doorzoekt de volledige tekst ín documenten — niet alleen bestandsnamen — en herstructureert grote, rommelige documentsets automatisch tot iets waar je echt doorheen kunt navigeren. AI doet het zware werk op zoeken en datastructurering.',
+        text: 'Het leest de tekst ín elk document, dus je vindt een zin ook als je de bestandsnaam allang vergeten bent. En een grote, rommelige berg documenten wordt automatisch geordend tot iets waar je doorheen kunt lopen. De AI doet dat zware werk.',
       },
       {
-        text: 'Een tien jaar oude tool, herbouwd voor hoe documentwerk nu gaat. In ontwikkeling.',
+        text: 'Een tool van tien jaar oud, opnieuw gebouwd voor hoe mensen nu met documenten werken. Nu in aanbouw.',
       },
     ],
   },
@@ -155,47 +156,47 @@ export const projectOverrides = {
   aboutdesk: {
     shortTag: 'boeken, teams',
     shortDescription:
-      'Een desk-booking-app voor teams — organisaties brengen hun gebouw en verdiepingen in kaart, en teams boeken bureaus in een ruimte zodat ze samen kunnen zitten en werken.',
-    lead: 'Bureaus boeken die teams bij elkaar houdt, niet alleen een zitplaats geeft.',
+      'Een app om werkplekken te boeken. Een bedrijf tekent zijn gebouw en verdiepingen in, en teams pakken samen een paar bureaus in dezelfde ruimte.',
+    lead: 'Werkplekken boeken waarbij je team bij elkaar zit, en niet verspreid door het gebouw.',
     tagsLine: 'Boeken · Teams · Next.js · Node.js · MongoDB',
-    status: 'in uitvoering',
+    status: 'in aanbouw',
     info: [
-      { label: 'Rol', value: 'Solo-bouw & architectuur' },
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
       { label: 'Stack', value: 'Next.js, MongoDB, Node.js' },
-      { label: 'Status', value: 'In uitvoering' },
+      { label: 'Status', value: 'In aanbouw' },
     ],
     body: [
       {
-        text: 'AboutDesk is een desk-booking-app gebouwd rond teams, niet alleen rond zitplaatsen. Een organisatie brengt haar gebouw en verdiepingen in kaart, en teams boeken hun bureaus binnen een ruimte — zodat de mensen die samenwerken bij elkaar zitten.',
+        text: 'AboutDesk gaat over teams, niet over losse stoelen. Een bedrijf tekent eerst het gebouw en de verdiepingen in. Daarna kiest een team een ruimte en claimt het de bureaus die het nodig heeft — zo zitten de mensen die samenwerken ook echt naast elkaar.',
       },
       {
-        text: 'Simpel te beheren, simpel te gebruiken: kies een ruimte, claim de bureaus, klaar. Gebouwd als standalone-product.',
+        text: 'Makkelijk te beheren, makkelijk te gebruiken: ruimte kiezen, bureaus claimen, klaar. We bouwen het als los product.',
       },
-      { text: 'In uitvoering.' },
+      { text: 'Nu in aanbouw.' },
     ],
   },
 
   footsteppa: {
     shortTag: 'merk, media',
     shortDescription:
-      'Het eigen onafhankelijke mediamerk en label van de oprichter — 6.000+ volgers, 5 artiesten, in uitbreiding naar events, merch en een platenlabel.',
-    lead: 'Bewijs dat de studio een merk vanaf nul kan bouwen, niet alleen software.',
+      'Ons eigen mediamerk en label — ruim 6.000 volgers, 5 artiesten, en het groeit door naar events, kleding en muziekuitgaves.',
+    lead: 'Het bewijs dat we niet alleen software bouwen, maar ook een merk vanaf nul.',
     tagsLine: 'Merk · Media · Community',
     status: 'doorlopend',
     info: [
       { label: 'Rol', value: 'Eigenaar & oprichter' },
       { label: 'Bereik', value: '6.000+ volgers · 5 artiesten' },
-      { label: 'Status', value: 'Doorlopend — onafhankelijk merk' },
+      { label: 'Status', value: 'Doorlopend — eigen merk' },
     ],
     body: [
       {
-        text: 'Footsteppa is het eigen onafhankelijke mediamerk van de oprichter — van niets opgebouwd tot een community van 6.000+ volgers over vijf artiesten, met creatieve directie door Anoep Chowhari.',
+        text: 'Footsteppa is het eigen mediamerk van onze oprichter, van nul opgebouwd tot een club van ruim 6.000 volgers rond vijf artiesten. De creatieve koers komt van Anoep Chowhari.',
       },
       {
-        text: 'Het groeit ook voorbij het scherm: naar events, kleding en merch, en een platenlabel.',
+        text: 'Het groeit ook buiten het scherm: events, kleding en merch, en een eigen platenlabel.',
       },
       {
-        text: 'Het staat hier als bewijs van bereik. Hetzelfde instinct dat software levert — bouw het goed, laat het groeien voor de lange termijn — werkt net zo goed op een merk.',
+        text: 'Het staat hier omdat het iets laat zien: hetzelfde gevoel dat goede software oplevert — goed bouwen en het rustig laten groeien — werkt net zo goed voor een merk.',
       },
     ],
   },
@@ -203,25 +204,25 @@ export const projectOverrides = {
   'no-cms': {
     shortTag: 'websites, whatsapp',
     shortDescription:
-      'Werk je website bij met een WhatsApp-bericht. Kleuren, teksten, layout — alles, in een handomdraai. Een CMS, opnieuw uitgevonden: geen dashboards, geen logins, niks te leren.',
+      'Pas je website aan door een appje te sturen. Kleuren, teksten, de hele indeling — geen inlog, niks te leren.',
     lead:
-      'Bedien je hele website vanuit WhatsApp. Stuur een bericht om kleuren, teksten of de complete layout aan te passen, en zie het meteen veranderen. Alles wat een CMS doet — zonder het CMS.',
+      'Stuur een appje en je website verandert. "Maak de kop rood" of "zet die foto er anders op" — en het staat er meteen op. Alles wat een CMS doet, zonder het CMS.',
     tagsLine: 'Product · WhatsApp · Geen login · Direct aangepast',
     status: 'nieuw',
     info: [
       { label: 'Product', value: 'Je website aanpassen via WhatsApp' },
-      { label: 'Hoe het werkt', value: 'App het alsof het een mens is · wijzigingen staan meteen live' },
-      { label: 'Status', value: 'Nieuw — early access' },
+      { label: 'Hoe het werkt', value: 'App het alsof je het tegen een mens zegt · het staat er meteen op' },
+      { label: 'Status', value: 'Nieuw — eerste gebruikers kunnen erin' },
     ],
     body: [
       {
-        text: 'No CMS maakt van WhatsApp het enige dashboard dat je website nodig heeft. Een kleur veranderen, een kop herschrijven, een sectie omwisselen of de hele layout omgooien? Stuur een bericht — en zie het gebeuren.',
+        text: 'Bij No CMS is WhatsApp het enige knoppenpaneel dat je website nodig heeft. Een kleur veranderen, een kop herschrijven, een stuk omwisselen of de hele bladzijde omgooien? Stuur een berichtje en kijk hoe het gebeurt.',
       },
       {
-        text: 'Het werkt als een CMS, alleen slimmer en veel makkelijker. Geen adminpaneel om te leren, geen logins om bij te houden, geen plug-ins om te updaten. Je weet al hoe je een WhatsApp stuurt — en meer heb je niet nodig om je site te bedienen.',
+        text: 'Het doet hetzelfde als een gewoon beheersysteem, maar dan makkelijker. Geen ingewikkeld scherm om te leren, geen wachtwoorden om kwijt te raken, niks om bij te werken. Appen kun je al — en meer heb je niet nodig.',
       },
       {
-        text: 'Het verandert datgene waar de meeste mensen liever niet aankomen in iets dat zo makkelijk is als appen. Nieuw, en nu open voor de eerste gebruikers.',
+        text: 'Precies dat ene klusje waar bijna niemand zin in heeft, wordt zo makkelijk als een berichtje sturen. Nieuw, en de eerste gebruikers kunnen erin.',
       },
     ],
   },
@@ -229,51 +230,158 @@ export const projectOverrides = {
   anonimise: {
     shortTag: 'privacy, offline ai',
     shortDescription:
-      'Haal de namen, BSN’s en persoonsgegevens uit elk document — met een AI die volledig op je eigen machine draait en nooit het internet raakt. Schoon het hier op, en daarna kun je het veilig in ChatGPT of Claude plakken. Gebouwd met Lexpert Advocaten.',
+      'Haalt namen, adressen, BSN’s en rekeningnummers uit een document. Draait helemaal op je eigen computer, dus er gaat niets het internet op. Daarna kun je de tekst veilig in ChatGPT plakken. Gemaakt met Lexpert Advocaten.',
     lead:
-      'Anonimiseer gevoelige documenten voordat ze ooit bij een online AI belanden — met een tool die volledig offline draait, zodat er geen cliëntgegevens het kantoor verlaten.',
+      'Maak een gevoelig document eerst anoniem, en plak het pas daarna in een online AI. De tool draait offline, dus er verlaat geen enkel dossier het kantoor.',
     tagsLine: 'Privacy · Offline AI · Presidio · spaCy · Legal-tech',
     status: 'live',
     info: [
-      { label: 'Rol', value: 'Developer & architect' },
+      { label: 'Rol', value: 'Bouw & architectuur' },
       { label: 'Stack', value: 'Microsoft Presidio, offline spaCy NER, rule-based matching' },
-      { label: 'Klant', value: 'In samenwerking met Lexpert Advocaten' },
+      { label: 'Klant', value: 'Samen met Lexpert Advocaten' },
     ],
     body: [
       {
-        text: 'Professionals willen AI gebruiken, maar kunnen geen cliëntdossiers in ChatGPT plakken. Anonimise is de tool die je eerst draait — het schrobt namen, adressen, BSN’s en bankrekeningnummers uit een document, zodat wat overblijft veilig naar een online model kan.',
+        text: 'Veel mensen willen AI gebruiken, maar je plakt natuurlijk geen dossier van een cliënt in ChatGPT. Anonimise draai je daarvóór: hij haalt de namen, adressen, BSN’s en rekeningnummers eruit, zodat wat overblijft wél veilig naar een online AI mag.',
       },
       {
-        text: 'Het draait volledig op je eigen computer. De AI erin is een lokaal naamherkenningsmodel — geen chatbot, nooit verbonden met een cloud — gekoppeld aan strikte regels voor data met een vaste vorm, zoals de 11-proef van het BSN en IBAN’s. Trek de netwerkkabel eruit en het werkt precies hetzelfde; het blokkeert zichzelf actief om online te gaan.',
+        text: 'Alles gebeurt op je eigen computer. De AI erin is een klein programma dat namen herkent — geen chatbot, en nooit verbonden met internet. Daarnaast zitten er vaste regels in voor alles met een vast patroon, zoals een BSN of een rekeningnummer. Trek de internetkabel eruit en hij werkt precies hetzelfde; hij houdt zichzelf zelfs tegen als hij online zou kunnen.',
       },
       {
-        text: 'Eruit komt een schone tekstversie met namen vervangen door neutrale placeholders, plus een netjes geredigeerde PDF of Word-bestand waar de gevoelige tekst écht verwijderd is, niet alleen zwartgelakt. Jij houdt de regie — controleer elke match, voeg je eigen woorden toe om te redigeren — en niets verlaat ooit je machine. Gebouwd met Lexpert Advocaten.',
+        text: 'Je krijgt een schone tekst terug waarin de namen vervangen zijn door neutrale woorden, plus een PDF of Word-bestand waarin de gevoelige stukken écht weg zijn — niet alleen met een zwarte streep eroverheen. Jij houdt het stuur: je loopt elke vondst na en voegt zelf woorden toe die ook weg moeten. En niets verlaat ooit je computer. Gemaakt met Lexpert Advocaten.',
       },
     ],
   },
 
   dfns: {
-    shortTag: 'fintech, realtime',
+    shortTag: 'beurs, live',
     shortDescription:
-      'Een live signalendashboard voor NQ- en ES-futures. Het streamt realtime marktticks over WebSocket, draait elke seconde een multifactor-confluence-engine, en logt elke entry, take-profit en stop-loss op het moment dat-ie afgaat.',
+      'Een scherm dat twee beursmarkten live volgt. Staan alle seinen tegelijk op groen, dan geeft het een signaal — en het houdt precies bij wat er daarna gebeurde.',
     lead:
-      'Een live tradingdashboard dat een realtime futures-tickfeed omzet in schone, gelogde koop- en verkoopsignalen — op het scherm zodra ze afgaan.',
+      'Een live scherm dat een stroom beurskoersen omzet in duidelijke koop- en verkoopsignalen, op het moment dat ze er zijn.',
     tagsLine: 'Fintech · Realtime · WebSockets · Next.js · Node.js · MongoDB',
     status: 'live',
     info: [
-      { label: 'Rol', value: 'Solo-bouw & architectuur' },
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
       { label: 'Stack', value: 'Next.js, Node.js, Express, MongoDB, WebSockets, SSE' },
-      { label: 'Status', value: 'Live — eigen product' },
+      { label: 'Status', value: 'Live — ons eigen product' },
     ],
     body: [
       {
-        text: 'DFNS volgt de NQ- en ES-futuresmarkten in realtime. Eén persistente WebSocket trekt live trade-ticks binnen, de engine aggregeert ze tot bars per seconde, en een multifactor-confluence-check — trend, momentum, volume en volatiliteit moeten allemaal op één lijn liggen — bepaalt wanneer er een trade is die het waard is om te callen.',
+        text: 'DFNS volgt twee beursmarkten (NQ en ES) op de voet. Een vaste verbinding haalt elke prijsverandering binnen, het programma bundelt die per seconde, en pas als vier dingen tegelijk kloppen — de richting, de vaart, hoeveel er verhandeld wordt en hoe onrustig de markt is — zegt hij: hier zit iets.',
       },
       {
-        text: 'Elk signaal wordt gevolgd en gelogd: entry, target en stop, en daarna de take-profit of stop-loss op het moment dat de prijs hem raakt. Het resultaat is een permanent, doorzoekbaar verslag van precies wat het systeem zag en wanneer — geen screenshots achteraf.',
+        text: 'Elk signaal wordt bijgehouden: waar je instapt, waar je eruit wilt met winst, en waar je stopt bij verlies. Zodra de prijs zo’n punt raakt, wordt dat vastgelegd. Zo ontstaat een blijvend logboek van wat het systeem zag en wanneer — geen screenshots achteraf.',
       },
       {
-        text: 'End to end gebouwd — een backend op Node en MongoDB die een Next.js-dashboard voedt met live candlesticks, naar de browser gestreamd over server-sent events. Het kijkt en registreert; het plaatst geen orders. Een eigen product uit de studio, live in gebruik.',
+        text: 'Van voor tot achter zelf gebouwd: een server die alles bijhoudt, en een scherm dat de grafieken live meeschrijft. Let op: hij kijkt en noteert, hij koopt en verkoopt niets. Een eigen product van de studio, dat we echt gebruiken.',
+      },
+    ],
+  },
+
+  poofy: {
+    shortTag: 'to-do-app, ios & mac',
+    shortDescription:
+      'Een snelle to-do-app voor iPhone en Mac. Swipe naar rechts en je taak is klaar, naar links en hij is weg, en slepen zet hem op een andere plek. Met lijstjes, een widget op je beginscherm en een app bovenin je Mac — overal precies hetzelfde.',
+    lead:
+      'Een to-do-app die je niet in de weg zit: swipen om af te vinken, swipen om weg te gooien, en je lijstjes gaan met je mee van je iPhone naar je Mac.',
+    tagsLine: 'iOS · macOS · SwiftUI · Node.js · MongoDB · Google Sign-In',
+    status: 'live',
+    info: [
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
+      { label: 'Stack', value: 'SwiftUI (iOS + macOS), Node.js, Express, MongoDB' },
+      { label: 'Status', value: 'Live — onze eigen app' },
+    ],
+    body: [
+      {
+        text: 'Poofy is een app voor je to-dolijst: opschrijven, afvinken, weggooien. Hij staat op je iPhone, met een widget op je beginscherm, en bovenin je Mac in de menubalk. Op allebei zie je precies dezelfde lijstjes.',
+      },
+      {
+        text: 'Je bedient hem met je vinger in plaats van met knopjes. Swipe een taak naar rechts en hij is klaar. Naar links en hij is weg. Sleep hem omhoog of omlaag om te ordenen, of tik erop om hem aan te passen. Nieuwe taken komen bovenaan, en de lijst kleurt als een warmtekaart: hoe roder, hoe meer haast. Zo zie je in één oogopslag wat als eerste moet.',
+      },
+      {
+        text: 'Je taken zitten in aparte lijstjes, zodat werk, thuis en je eigen projecten niet door elkaar gaan lopen. Alles wordt bij je eigen account bewaard, dus wat je op de bank op je telefoon opschrijft, staat klaar zodra je je Mac openklapt.',
+      },
+      {
+        text: 'Een account maak je met je e-mailadres en een wachtwoord, of met Doorgaan met Google. Dat inloggen met Google doet niets anders dan jou herkennen: Poofy ziet je e-mailadres en je naam, en verder niets. Geen toegang tot je Gmail, je Drive, je agenda of je contacten, en je taken gaan nooit naar iemand anders. Wil je je account weg? Dan halen we hem weg, met alles wat erin staat.',
+      },
+      {
+        text: 'Helemaal zelf gebouwd — dezelfde code voor de iPhone- en de Mac-app, met een eigen server erachter die alles bewaart en netjes gelijk houdt. De studio gebruikt hem elke dag zelf.',
+      },
+    ],
+  },
+
+  screensaver: {
+    shortTag: 'screensaver, mac',
+    shortDescription:
+      'Een gratis screensaver voor je Mac. Blijf je er even vanaf, dan verandert je scherm in één grote klok — witte cijfers op zwart, met de seconden in een rood blokje.',
+    lead: 'Laat je Mac even met rust en hij verandert in een reuzenklok.',
+    tagsLine: 'macOS · Swift · Screensaver · Gratis download',
+    status: 'live',
+    download: {
+      label: 'Download voor Mac',
+      meta: 'ClockSaver.dmg · ongeveer 134 KB · gecontroleerd en goedgekeurd door Apple',
+      steps:
+        'Open het bestand dat je hebt gedownload, dubbelklik op ClockSaver.saver, klik op Install en kies daarna “Clock” bij Systeeminstellingen → Schermbeveiliging.',
+    },
+    info: [
+      { label: 'Rol', value: 'Zelf bedacht en gebouwd' },
+      { label: 'Gemaakt met', value: 'Swift, AppKit, ScreenSaverView, XcodeGen' },
+      { label: 'Status', value: 'Live — gratis te downloaden' },
+    ],
+    body: [
+      {
+        text: 'Een screensaver is wat je Mac laat zien als je hem even niet gebruikt. De meeste laten foto’s of zwevende figuren zien. Deze laat de tijd zien, en verder niets.',
+      },
+      {
+        text: 'Je scherm wordt zwart en de klok neemt hem helemaal over: uren, minuten en seconden in enorme witte letters, in Anton — hetzelfde stevige lettertype als de grote koppen op deze site. De seconden staan in een rood blokje, alsof je dat stukje met je muis hebt geselecteerd. De cijfers rekken zich uit tot ze precies op je scherm passen, van een kleine laptop tot een groot beeldscherm, met altijd een nette rand eromheen.',
+      },
+      {
+        text: 'Hij tekent het beeld ook alleen opnieuw als de tijd echt verandert: één keer per seconde, in plaats van zestig keer per seconde zoals de meeste bewegende dingen. Zo staat hij rustig te wachten en vreet hij bijna geen batterij.',
+      },
+      {
+        text: 'Hij is geschreven in Swift, de taal waarin Apple zijn eigen apps maakt, en het lettertype zit ín het bestand zelf. Daardoor ziet hij er op elke Mac goed uit, ook op eentje waar dat lettertype nooit is geïnstalleerd.',
+      },
+      {
+        text: 'Het lastige is hem überhaupt op de Mac van iemand anders krijgen. macOS vertrouwt bestanden van internet niet en zet er normaal gesproken een waarschuwing voor. Daarom hebben we één scriptje geschreven dat het hele klusje in één keer doet: de screensaver bouwen, hem ondertekenen met onze Apple-ontwikkelaarssleutel, hem in een schijfbestand stoppen, hem naar Apple sturen om te laten controleren — dat heet notariseren — en Apple’s goedkeuring daarna aan het bestand vastnieten. Omdat die goedkeuring er echt aan vastzit en niet online opgezocht hoeft te worden, ziet je Mac hem zelfs als je wifi uitstaat.',
+      },
+      {
+        text: 'Wat eruit komt, is de download op deze pagina. Openen, dubbelklikken, installeren, klaar — geen waarschuwingen, geen instellingen die je achteraf moet goedzetten. Gratis, en ongeveer zo groot als één foto.',
+      },
+    ],
+  },
+
+  'voice-agent': {
+    shortTag: 'spraak-AI, telefonisch bestellen',
+    shortDescription:
+      'Een AI die de telefoon van een restaurant opneemt, in een gewoon gesprek een afhaalbestelling noteert en die meteen in het bestelsysteem van de keuken zet — en die ook aan andere systemen of een CRM te koppelen is.',
+    lead:
+      'Je belt het restaurant, zegt wat je wilt eten, en een AI noteert je bestelling — en zet hem meteen in het systeem van de keuken.',
+    tagsLine: 'Voice AI · Claude · ElevenLabs · Twilio · Node.js · REST API',
+    status: 'lancering',
+    info: [
+      { label: 'Rol', value: 'Bedacht en gebouwd' },
+      { label: 'Stack', value: 'Claude, ElevenLabs, Twilio, Node.js, Express, MongoDB' },
+      { label: 'Status', value: 'Lancering — de eerste restaurantlijn' },
+    ],
+    body: [
+      {
+        text: 'Restaurants missen elke avond bestellingen, simpelweg omdat niemand de telefoon kan opnemen als het druk is in de keuken. Deze telefoonassistent neemt dan op. Een klant belt het gewone nummer van het restaurant, zegt wat hij wil — “twee broodjes en een grote rijstschotel” — en praat met een AI die klinkt als een mens, hem begrijpt en de bestelling opschrijft.',
+      },
+      {
+        text: 'Hij werkt met het echte menu, de openingstijden en de afhaaltijden van het restaurant, die tijdens het gesprek vers worden opgehaald. Zo biedt hij alleen gerechten aan die echt op de kaart staan, weet hij wat er uitverkocht is, kent hij de formaten en de extra’s en wat die kosten, en kiest hij de vroegste tijd waarop de bestelling klaar kan staan. Hij spreekt Nederlands, en schakelt gewoon over naar Engels als de beller dat doet.',
+      },
+      {
+        text: 'Een bestelling over de telefoon moet kloppen, dus de assistent werkt in twee stappen. Eerst telt hij alles op en leest hij de bestelling terug: de gerechten, de naam, het totaal en wanneer het klaarstaat. Pas als de beller echt “ja” heeft gezegd, plaatst hij de bestelling — en dat controleert het systeem zelf, dat wordt niet aan de AI overgelaten. Daarna komt de bestelling in het eigen bestelsysteem van het restaurant terecht, net als een bestelling uit de webshop, en de keuken heeft hem meteen binnen. De assistent kan alleen nieuwe afhaalbestellingen plaatsen: hij kan niets inzien, wijzigen, annuleren of terugbetalen.',
+      },
+      {
+        text: 'Aan de telefoon voelt stilte meteen alsof er iets stuk is. Het verstaan, de stem en het onderbreken — je kunt hem gewoon midden in een zin in de rede vallen — regelt een gespecialiseerd spraakplatform. Het denkwerk doet Claude, op onze eigen server. Alles wat de assistent vooraf al kan weten, wordt opgezocht voordat hij begint te praten, en heeft hij toch even nodig, dan zegt hij dat, net als een mens.',
+      },
+      {
+        text: 'De restaurantlijn is maar één toepassing. Eronder zit een algemene assistent die via een API aan bijna elk systeem te koppelen is. Op dezelfde techniek draait al een tweede lijn: die herkent vaste bellers aan hun nummer, kijkt in een agenda, maakt of annuleert afspraken, noteert een storing en mailt die door, of verbindt de beller door met een mens.',
+      },
+      {
+        text: 'En daar wordt het interessant voor andere bedrijven. Omdat de studio ook de systemen erachter bouwt — CRM’s op maat, boekingsplatforms, webshops en beheeromgevingen — kan de assistent daar direct op aangesloten worden: een klant opzoeken in je CRM, een ticket aanmaken, een afspraak inplannen, voorraad checken of een bestelling in je kassa of ERP zetten. Kappers, garages, klinieken, advocatenkantoren, verhuurbedrijven: overal waar de telefoon elke dag met dezelfde vragen gaat, kan een assistent opnemen — met een systeem erachter dat alles onthoudt.',
       },
     ],
   },
