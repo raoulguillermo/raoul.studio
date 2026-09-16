@@ -1,0 +1,114 @@
+{
+  "slug": "2026-09-16-fanuc-ai-welding-agent",
+  "date": "2026-09-16",
+  "tags": ["ai", "robotics", "manufacturing"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "FANUC — AI Welding Agent announcement",
+      "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html"
+    },
+    {
+      "title": "Nikkei Asia — Japan's Fanuc, Google team up on AI-automated welding robots",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-fanuc-google-team-up-on-ai-automated-welding-robots"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The Welding Robot That Programs Itself from a Blueprint",
+      "summary": "FANUC and Google built a welding robot that reads engineering drawings and programs itself — no specialist needed — and it ships in December.",
+      "body": [
+        "Programming a welding robot has always required rare expertise — someone who understands welding metallurgy and someone who can write robot code. Most factories can't easily find both, which is one reason so many production lines run slower than they should. FANUC and Google have now built a system that **replaces that expertise with a photograph**.",
+        "The system, called the AI Welding Agent, works like this: an operator takes a photo of an engineering drawing with the tablet already attached to the robot. The AI — Google's Gemini Enterprise — reads the drawing, calculates the right welding settings (things like current and voltage), and writes the full motion program for the robot. No extra hardware, no specialist, no long manual setup. FANUC calls it **zero setup, zero teaching**.",
+        "This matters because the world has a real and growing shortage of skilled welders. That shortage slows factories and raises costs for everything made from metal — cars, bridges, industrial equipment. **AI that reads a blueprint and programs a robot** is a direct answer to that problem — and it works with any welding power supply connected to FANUC's machines.",
+        "FANUC puts the system on public demo today at the International Welding Show in Tokyo, and starts shipping in December 2026. If you run a factory or build tools for manufacturers, this is worth watching now. And if you build software for factories: **this shows where physical AI is heading** — absorbing specialist knowledge, not just automating repetitive tasks."
+      ],
+      "keyFacts": [
+        { "value": "1 photo", "label": "all it takes to set up a welding job" },
+        { "value": "Dec 2026", "label": "first customer shipments" },
+        { "value": "Sept 16", "label": "first public demo, International Welding Show, Tokyo" },
+        { "value": "zero setup", "label": "FANUC's own term for the process" }
+      ]
+    },
+    "de": {
+      "title": "Der Schweißroboter, der sich aus einer Zeichnung selbst programmiert",
+      "summary": "FANUC und Google haben einen Schweißroboter gebaut, der technische Zeichnungen liest und sich selbst programmiert — kein Spezialist nötig — und der im Dezember ausgeliefert wird.",
+      "body": [
+        "Das Programmieren eines Schweißroboters erforderte bisher seltenes Fachwissen — jemanden, der Schweißmetallurgie versteht, und jemanden, der Robotercode schreiben kann. Die meisten Fabriken finden nicht beides, weshalb viele Produktionslinien langsamer laufen als sie sollten. FANUC und Google haben jetzt ein System gebaut, das **dieses Fachwissen durch ein Foto ersetzt**.",
+        "Das System heißt AI Welding Agent. Ein Bediener fotografiert eine technische Zeichnung mit dem Tablet, das bereits am Roboter befestigt ist. Die KI — Googles Gemini Enterprise — liest die Zeichnung, berechnet die richtigen Schweißparameter (Strom, Spannung) und schreibt das Bewegungsprogramm für den Roboter. Kein Zusatzgerät, kein Spezialist, kein langer Setup. FANUC nennt das **null Einrichtung, null Einlernen**.",
+        "Das ist wichtig, weil der Welt erfahrene Schweißer fehlen — und dieser Mangel wächst. Er verlangsamt Fabriken und erhöht die Kosten für alles aus Metall — Autos, Brücken, Industrieanlagen. **KI, die eine Zeichnung liest und einen Roboter programmiert**, ist eine direkte Antwort auf dieses Problem — und funktioniert mit jedem Schweißgerät, das an FANUCs Maschinen angeschlossen ist.",
+        "FANUC präsentiert das System ab heute, dem 16. September, öffentlich auf der Internationalen Schweißmesse in Tokio und beginnt im Dezember 2026 mit der Auslieferung. Wer eine Fabrik betreibt oder Zulieferer ist, sollte das jetzt verfolgen. Und wer Software für Fabriken baut: **Das zeigt, wohin physische KI sich entwickelt** — Fachwissen wird absorbiert, nicht nur Routinearbeit automatisiert."
+      ],
+      "keyFacts": [
+        { "value": "1 photo", "label": "alles, was für den Start eines Schweißjobs nötig ist" },
+        { "value": "Dec 2026", "label": "erste Auslieferungen an Kunden" },
+        { "value": "Sept 16", "label": "Erstdemo auf der Internationalen Schweißmesse, Tokio" },
+        { "value": "zero setup", "label": "FANUCs eigener Begriff für den Prozess" }
+      ]
+    },
+    "nl": {
+      "title": "De lasrobot die zichzelf programmeert vanuit een tekening",
+      "summary": "FANUC en Google bouwden een lasrobot die technische tekeningen leest en zichzelf programmeert — geen specialist nodig — en die in december geleverd wordt.",
+      "body": [
+        "Het programmeren van een lasrobot vereiste altijd zeldzame expertise — iemand die lasmetallurgie begrijpt én iemand die robotcode kan schrijven. De meeste fabrieken vinden niet allebei, wat mede verklaart waarom veel productielijnen trager draaien dan nodig. FANUC en Google hebben nu een systeem gebouwd dat **die expertise vervangt door één foto**.",
+        "Het systeem heet de AI Welding Agent. Een operator fotografeert een technische tekening met de tablet die al aan de robot vastzit. De AI — Googles Gemini Enterprise — leest de tekening, berekent de juiste lasinstellingen (stroom, spanning) en schrijft het bewegingsprogramma voor de robot. Geen extra hardware, geen specialist, geen lange handmatige setup. FANUC noemt dit **nul instelling, nul instructie**.",
+        "Dit is belangrijk omdat de wereld een reëel en groeiend tekort heeft aan bekwame lassers. Dat tekort vertraagt fabrieken en verhoogt de kosten van alles wat van metaal wordt gemaakt — auto's, bruggen, industriële apparatuur. **AI die een tekening leest en een robot programmeert** is een direct antwoord op dat probleem — en werkt met elke lasbron die aan FANUCs machines gekoppeld is.",
+        "FANUC demonstreert het systeem vandaag live op de International Welding Show in Tokio en begint in december 2026 met leveringen. Als je een fabriek runt of gereedschap bouwt voor fabrikanten, is dit nu de moeite waard om te volgen. En als je software bouwt voor fabrieken: **dit laat zien waar fysieke AI naartoe gaat** — vakkennis absorberen, niet alleen repetitieve taken automatiseren."
+      ],
+      "keyFacts": [
+        { "value": "1 photo", "label": "alles wat nodig is om een lastaak te starten" },
+        { "value": "Dec 2026", "label": "eerste leveringen aan klanten" },
+        { "value": "Sept 16", "label": "eerste publieke demo op de International Welding Show, Tokio" },
+        { "value": "zero setup", "label": "FANUCs eigen term voor het proces" }
+      ]
+    },
+    "es": {
+      "title": "El robot soldador que se programa solo a partir de un plano",
+      "summary": "FANUC y Google construyeron un robot soldador que lee planos técnicos y se programa solo — sin necesidad de especialistas — y empieza a entregarse en diciembre.",
+      "body": [
+        "Programar un robot soldador siempre requirió experiencia escasa: alguien que entienda la metalurgia del soldado y alguien que sepa escribir código para robots. La mayoría de las fábricas no encuentra a ninguno de los dos, lo que explica en parte por qué tantas líneas de producción van más lentas de lo necesario. FANUC y Google han construido ahora un sistema que **reemplaza esa experiencia con una fotografía**.",
+        "El sistema se llama AI Welding Agent. Un operario fotografía un plano de ingeniería con la tableta que ya viene integrada al robot. La IA — Gemini Enterprise de Google — lee el plano, calcula los ajustes de soldadura correctos (corriente, voltaje) y escribe el programa de movimiento del robot. Sin hardware adicional, sin especialista, sin configuración larga. FANUC lo llama **cero configuración, cero enseñanza**.",
+        "Esto importa porque el mundo tiene una escasez real y creciente de soldadores cualificados. Esa escasez ralentiza las fábricas y sube los costes de todo lo que se fabrica con metal: coches, puentes, maquinaria industrial. **Una IA que lee un plano y programa un robot** es una respuesta directa a ese problema — y funciona con cualquier fuente de soldadura conectada a las máquinas de FANUC.",
+        "FANUC presenta el sistema hoy, 16 de septiembre, en la Feria Internacional de Soldadura en Tokio, y comienza los envíos en diciembre de 2026. Si gestionas o abasteces una operación de fabricación, vale la pena seguir esto ahora mismo. Y si desarrollas software para fábricas: **esto muestra hacia dónde se dirige la IA física** — absorbiendo conocimiento especializado, no solo automatizando tareas repetitivas."
+      ],
+      "keyFacts": [
+        { "value": "1 photo", "label": "todo lo que se necesita para iniciar un trabajo de soldadura" },
+        { "value": "Dec 2026", "label": "primeras entregas a clientes" },
+        { "value": "Sept 16", "label": "primera demo pública en la Feria Internacional de Soldadura, Tokio" },
+        { "value": "zero setup", "label": "el propio término de FANUC para el proceso" }
+      ]
+    },
+    "fr": {
+      "title": "Le robot soudeur qui se programme lui-même à partir d'un plan",
+      "summary": "FANUC et Google ont construit un robot soudeur qui lit les plans techniques et se programme lui-même — sans spécialiste — et il est livré en décembre.",
+      "body": [
+        "Programmer un robot soudeur a toujours exigé une expertise rare — quelqu'un qui comprend la métallurgie du soudage et quelqu'un qui sait écrire du code pour les robots. La plupart des usines ne trouvent pas les deux, ce qui explique en partie pourquoi tant de lignes de production tournent moins vite qu'elles le pourraient. FANUC et Google ont maintenant construit un système qui **remplace cette expertise par une photographie**.",
+        "Le système s'appelle AI Welding Agent. Un opérateur photographie un plan d'ingénierie avec la tablette déjà fixée au robot. L'IA — Gemini Enterprise de Google — lit le plan, calcule les bons réglages de soudage (intensité, tension) et écrit le programme complet de déplacement du robot. Aucun équipement supplémentaire, aucun spécialiste, aucune longue mise en place. FANUC appelle ça **zéro configuration, zéro apprentissage**.",
+        "C'est important parce que le monde souffre d'une vraie pénurie, croissante, de soudeurs qualifiés. Cette pénurie ralentit les usines et augmente les coûts de tout ce qui est fabriqué en métal — voitures, ponts, équipements industriels. **Une IA qui lit un plan et programme un robot** est une réponse directe à ce problème — et elle fonctionne avec n'importe quelle source de soudage connectée aux machines de FANUC.",
+        "FANUC présente le système en direct ce 16 septembre à l'International Welding Show de Tokyo, et commence les livraisons en décembre 2026. Si vous gérez ou approvisionnez une unité de production, c'est à suivre maintenant. Et si vous développez des logiciels pour les usines : **cela montre où se dirige l'IA physique** — elle absorbe l'expertise spécialisée, elle ne se contente pas d'automatiser les tâches répétitives."
+      ],
+      "keyFacts": [
+        { "value": "1 photo", "label": "tout ce qu'il faut pour lancer un travail de soudage" },
+        { "value": "Dec 2026", "label": "premières livraisons aux clients" },
+        { "value": "Sept 16", "label": "première démo publique au Salon du soudage, Tokyo" },
+        { "value": "zero setup", "label": "le terme de FANUC pour qualifier le processus" }
+      ]
+    },
+    "ar": {
+      "title": "روبوت اللحام الذي يبرمج نفسه انطلاقًا من المخطط",
+      "summary": "طوّرت FANUC وGoogle روبوت لحام يقرأ الرسومات الهندسية ويبرمج نفسه — دون الحاجة إلى متخصص — وسيبدأ الشحن في ديسمبر.",
+      "body": [
+        "كان برمجة روبوت اللحام يتطلب دائمًا خبرة نادرة — شخص يفهم تعدين اللحام وآخر يُتقن كتابة كود الروبوتات. معظم المصانع لا تجد الاثنين معًا، وهو ما يفسر جزئيًا لماذا تعمل كثير من خطوط الإنتاج أبطأ مما ينبغي. شركتا FANUC وGoogle بنيتا الآن نظامًا **يحلّ محلّ تلك الخبرة بصورة واحدة**.",
+        "النظام يُسمّى AI Welding Agent. يلتقط المشغّل صورة لرسم هندسي باستخدام اللوح المُركَّب مسبقًا على الروبوت. يقرأ الذكاء الاصطناعي — Gemini Enterprise من Google — الرسمَ، يحسب الإعدادات الصحيحة (التيار والجهد)، ويكتب برنامج الحركة الكامل للروبوت. لا أجهزة إضافية، لا متخصص، لا إعداد يدوي طويل. FANUC تسمّي ذلك **صفر إعداد، صفر تدريب**.",
+        "هذا مهم لأن العالم يعاني نقصًا حقيقيًا ومتناميًا في اللحّامين المهرة. هذا النقص يُبطئ المصانع ويرفع تكاليف كل ما يُصنع من المعدن — السيارات والجسور والمعدات الصناعية. **ذكاء اصطناعي يقرأ المخطط ويبرمج الروبوت** هو إجابة مباشرة على هذه المشكلة — ويعمل مع أي مصدر لحام متصل بآلات FANUC.",
+        "تعرض FANUC النظام اليوم، 16 سبتمبر، للعموم في المعرض الدولي للحام بطوكيو، وتبدأ الشحن في ديسمبر 2026. إن كنت تدير أو تزوّد عملية تصنيع، يستحق هذا المتابعة الآن. وإن كنت تبني برمجيات للمصانع: **هذا يُظهر إلى أين يتجه الذكاء الاصطناعي المادي** — يستوعب المعرفة المتخصصة، ولا يكتفي بأتمتة المهام المتكررة."
+      ],
+      "keyFacts": [
+        { "value": "1 photo", "label": "كل ما يلزم لبدء عمل لحام" },
+        { "value": "Dec 2026", "label": "أولى شحنات العملاء" },
+        { "value": "Sept 16", "label": "أول عرض عام في المعرض الدولي للحام، طوكيو" },
+        { "value": "zero setup", "label": "المصطلح الذي تستخدمه FANUC لوصف العملية" }
+      ]
+    }
+  }
+}
