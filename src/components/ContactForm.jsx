@@ -20,6 +20,8 @@ export default function ContactForm({
   successStatus = "✓ Message sent — we'll reply within 24h.",
   errorStatus = '✕ Something went wrong. Try again, or write to hello@raoul.studio.',
   validationStatus = '✕ Check the highlighted field(s) and try again.',
+  // Optional tag (e.g. 'Voice AI') so the inbox shows which page a lead came from.
+  source,
 }) {
   const [status, setStatus] = useState('')
   const [submitting, setSubmitting] = useState(false)
@@ -53,7 +55,7 @@ export default function ContactForm({
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, company, message }),
+        body: JSON.stringify({ name, email, company, message, source }),
       })
       if (!res.ok) throw new Error('bad status')
       form.reset()

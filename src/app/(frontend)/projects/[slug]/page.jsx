@@ -8,6 +8,7 @@ import Infographic from '@/components/Infographic'
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
 import { projectSlugs } from '@/content/en/projects'
+import { productByCaseStudy } from '@/content/products'
 
 const SITE_URL = 'https://raoul.studio'
 
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }) {
 export default async function ProjectPage({ params }) {
   const { slug } = await params
   const lang = await getLocale()
-  const { projects, getProject, header, footer, posterRail, ui, infographics } =
+  const { projects, getProject, header, footer, posterRail, ui, infographics, productUi } =
     getContent(lang)
   const project = getProject(slug)
   if (!project) notFound()
@@ -48,6 +49,8 @@ export default async function ProjectPage({ params }) {
   const idx = projects.findIndex((p) => p.slug === slug)
   const prev = projects[(idx - 1 + projects.length) % projects.length]
   const next = projects[(idx + 1) % projects.length]
+  // Case studies that have a product landing page link to it.
+  const productSlug = productByCaseStudy[slug]
 
   const projectLd = {
     '@context': 'https://schema.org',
@@ -115,6 +118,23 @@ export default async function ProjectPage({ params }) {
           </div>
         ))}
       </section>
+
+      {/* Product page — only for case studies with a landing page */}
+      {productSlug ? (
+        <section className="pb-16 md:pb-24">
+          <div className="r border-2 border-ink px-5 py-8 md:px-12 md:py-10">
+            <a
+              href={`/${productSlug}`}
+              className="project-arrow font-display uppercase tracking-tight2 leading-[0.95] text-[clamp(2rem,9vw,3.5rem)] md:text-6xl text-accent"
+            >
+              {productUi.seeProduct}{' '}
+              <span aria-hidden="true" className="inline-block rotate-[-45deg] ml-2">
+                →
+              </span>
+            </a>
+          </div>
+        </section>
+      ) : null}
 
       {/* Download — only for projects that ship a file */}
       {project.download?.href ? (

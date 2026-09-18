@@ -1,4 +1,5 @@
 import { projectSlugs } from '@/content/en/projects'
+import { productSlugs } from '@/content/products'
 
 const BASE_URL = 'https://raoul.studio'
 
@@ -24,5 +25,11 @@ export default function sitemap() {
     priority: 0.6,
   }))
 
-  return [...staticRoutes, ...projectRoutes]
+  const productRoutes = productSlugs.map((slug) => ({
+    url: `${BASE_URL}/${slug}`,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }))
+
+  return [...staticRoutes, ...productRoutes, ...projectRoutes]
 }

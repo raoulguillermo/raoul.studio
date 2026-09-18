@@ -29,7 +29,15 @@ export const menu = {
       ],
     },
     {
-      heading: '03 — تواصل',
+      heading: '03 — البرمجيات',
+      links: [
+        { label: 'Voice AI', href: '/voice-ai' },
+        { label: 'No-CMS', href: '/no-cms' },
+        { label: 'Poofy', href: '/poofy' },
+      ],
+    },
+    {
+      heading: '04 — تواصل',
       links: [
         { label: 'تواصل', href: '/contact' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },

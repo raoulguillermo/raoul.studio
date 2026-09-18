@@ -29,7 +29,15 @@ export const menu = {
       ],
     },
     {
-      heading: '03 — Contact',
+      heading: '03 — Logiciels',
+      links: [
+        { label: 'Voice AI', href: '/voice-ai' },
+        { label: 'No-CMS', href: '/no-cms' },
+        { label: 'Poofy', href: '/poofy' },
+      ],
+    },
+    {
+      heading: '04 — Contact',
       links: [
         { label: 'Contact', href: '/contact' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },

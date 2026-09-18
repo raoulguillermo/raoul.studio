@@ -51,6 +51,10 @@ export function getContent(lang) {
     pages: pick('pages'),
     contact: pick('contact'),
     infographics: pick('infographics'),
+    // Landing pages: a locale may translate some products and not others, so
+    // fall back per product rather than for the whole dict.
+    products: { ...base.products, ...(dict.products ?? {}) },
+    productUi: pick('productUi'),
     projects,
     projectSlugs: PROJECT_SLUGS,
     getProject: (slug) => projects.find((p) => p.slug === slug),

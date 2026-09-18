@@ -20,12 +20,13 @@ function escapeHtml(s) {
     .replace(/"/g, '&quot;')
 }
 
-async function sendEmail({ name, email, company, message }) {
-  const subject = `New contact — ${name}${company ? ` (${company})` : ''}`
+async function sendEmail({ name, email, company, message, source }) {
+  const subject = `${source ? `[${source}] ` : ''}New contact — ${name}${company ? ` (${company})` : ''}`
   const lines = [
     `Name: ${name}`,
     `Email: ${email}`,
     company ? `Company: ${company}` : null,
+    source ? `Source: ${source}` : null,
     '',
     message,
   ].filter((l) => l !== null)
@@ -34,6 +35,7 @@ async function sendEmail({ name, email, company, message }) {
     <tr><td style="color:#777;padding-right:12px">Name</td><td>${escapeHtml(name)}</td></tr>
     <tr><td style="color:#777;padding-right:12px">Email</td><td><a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></td></tr>
     ${company ? `<tr><td style="color:#777;padding-right:12px">Company</td><td>${escapeHtml(company)}</td></tr>` : ''}
+    ${source ? `<tr><td style="color:#777;padding-right:12px">Source</td><td>${escapeHtml(source)}</td></tr>` : ''}
   </table>
   <p style="font-family:system-ui,sans-serif;font-size:15px;line-height:1.6;white-space:pre-wrap">${escapeHtml(message)}</p>`
 
@@ -73,6 +75,12 @@ export async function POST(req) {
   const email = String(data?.email ?? '').trim()
   const company = String(data?.company ?? '').trim()
   const message = String(data?.message ?? '').trim()
+  // Which landing page the form was on, if any. Short and plain so it's safe
+  // to drop into the subject line.
+  const source = String(data?.source ?? '')
+    .replace(/[^\w .-]/g, '')
+    .trim()
+    .slice(0, 40)
   // Honeypot — real users leave this empty.
   const website = String(data?.website ?? '').trim()
 
@@ -93,7 +101,7 @@ export async function POST(req) {
     return NextResponse.json({ ok: false, error: 'email not configured' }, { status: 500 })
   }
   try {
-    await sendEmail({ name, email, company, message })
+    await sendEmail({ name, email, company, message, source })
   } catch (err) {
     console.error('[contact] email send failed:', err?.message || err)
     return NextResponse.json({ ok: false, error: 'send failed' }, { status: 502 })
@@ -107,6 +115,7 @@ export async function POST(req) {
       email,
       company,
       message,
+      source: source || null,
       createdAt: new Date(),
       userAgent: req.headers.get('user-agent') || null,
       ip:
