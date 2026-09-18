@@ -1,0 +1,123 @@
+{
+  "slug": "2026-09-18-chatgpt-sponsored-agents",
+  "date": "2026-09-18",
+  "tags": ["ai", "advertising"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.pymnts.com/wp-content/uploads/2026/09/ChatGPT-Ads.jpg",
+    "alt": "ChatGPT ads interface showing a sponsored conversation on screen",
+    "credit": "PYMNTS"
+  },
+  "sources": [
+    {
+      "title": "Unite.AI — OpenAI Tests Sponsored Agents and Rolls Out AI Tools for ChatGPT Ads",
+      "url": "https://www.unite.ai/openai-tests-sponsored-agents-and-rolls-out-ai-tools-for-chatgpt-ads/"
+    },
+    {
+      "title": "PYMNTS — OpenAI Tests Sponsored AI Agents in ChatGPT Ads",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/"
+    },
+    {
+      "title": "QZ — OpenAI tests sponsored AI agents inside ChatGPT ads",
+      "url": "https://qz.com/openai-chatgpt-sponsored-agents-hubspot-shopify-091726"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "ChatGPT Is Now a Sales Channel — Here's What to Do About It",
+      "summary": "OpenAI's new Sponsored Agents let brands run AI-powered sales conversations inside ChatGPT, and that changes where your customers will find you.",
+      "body": [
+        "For a long time, when someone wanted to buy something, they started by searching Google. That is changing. On September 16, OpenAI launched Sponsored Agents — a new kind of ad inside ChatGPT that lets brands have a real conversation with a potential customer. A user asks about running shoes. An ad appears. Instead of clicking to a website, they can now **start a real conversation with the brand's own AI**. The agent answers questions, gives advice, and guides the user to a purchase.",
+        "This is different from a regular ad. A normal ad shows an image and a headline. A Sponsored Agent can actually answer what you ask — sizes, prices, comparisons, return policies, whatever. Think of it like a knowledgeable shop assistant available at any hour. The first businesses using it include Best Buy, Lowe's, Newegg, and VistaPrint. **Shopify and HubSpot plug straight in**, so merchants can start running these conversations without building anything custom.",
+        "This is not a small experiment. By August 2026, ChatGPT's advertising business had reached **$1 billion in annualized revenue** — in under a year. Hundreds of millions of people use ChatGPT every month. Many of them ask questions that lead to buying decisions: which laptop to buy, which supplement to try, which service to hire. Those questions are now an ad channel.",
+        "The practical takeaway is simple. Customers are starting their product research inside AI chat tools. If you sell something, you need to think about how your brand **shows up in those AI conversations**. What questions do your customers ask before they buy? Could your brand answer those questions helpfully, in a chat? That is where the next wave of customer discovery is happening, and the businesses that get there first will have an edge."
+      ],
+      "keyFacts": [
+        { "value": "$1B", "label": "ChatGPT ad revenue, annualized by Aug 2026" },
+        { "value": "Sept 16", "label": "Sponsored Agents launch date" },
+        { "value": "4", "label": "brand partners at launch" },
+        { "value": "$500", "label": "ad credit for new advertisers" }
+      ]
+    },
+    "de": {
+      "title": "ChatGPT ist jetzt ein Vertriebskanal — was das für dein Unternehmen bedeutet",
+      "summary": "OpenAIs neue Sponsored Agents ermöglichen Marken, KI-gestützte Verkaufsgespräche direkt in ChatGPT zu führen — das verändert, wo Kunden dich künftig finden werden.",
+      "body": [
+        "Lange Zeit begann die Produktsuche bei Google. Das ändert sich gerade. Am 16. September startete OpenAI Sponsored Agents — ein neues Anzeigenformat in ChatGPT, das echte Gespräche zwischen Marken und potenziellen Kunden ermöglicht. Ein Nutzer fragt nach Laufschuhen, eine Anzeige erscheint — und statt auf eine Website zu klicken, kann er jetzt **direkt mit der KI der Marke sprechen**. Der Agent beantwortet Fragen, gibt Empfehlungen und begleitet den Nutzer bis zum Kauf.",
+        "Das ist ein anderes Kaliber als klassische Werbung. Ein normales Inserat zeigt Bild und Headline. Ein Sponsored Agent beantwortet genau das, was der Kunde wirklich fragt — Größen, Preise, Vergleiche, Rückgaberecht. Wie ein kompetenter Verkäufer, der rund um die Uhr da ist. Erste Partner sind Best Buy, Lowe's, Newegg und VistaPrint. **Shopify und HubSpot lassen sich direkt verbinden** — ohne eigene Entwicklung.",
+        "Das ist kein kleines Experiment. Bis August 2026 hatte ChatGPTs Werbegeschäft bereits **1 Milliarde Dollar an annualisiertem Umsatz** erreicht — in weniger als einem Jahr. Hunderte Millionen Menschen nutzen ChatGPT jeden Monat. Viele stellen Fragen, die direkt zu Kaufentscheidungen führen: Welches Laptop lohnt sich? Welchen Dienst soll ich buchen? Diese Fragen sind jetzt ein Werbekanal.",
+        "Die praktische Konsequenz ist klar. Kunden beginnen ihre Produktrecherche zunehmend in KI-Chattools. Wer etwas verkauft, muss sich fragen, wie die eigene Marke **in KI-Gesprächen präsent ist**. Welche Fragen stellen Kunden vor dem Kauf? Kann deine Marke diese Fragen hilfreich im Chat beantworten? Genau dort entsteht die nächste Welle der Kundengewinnung — und wer früh dabei ist, hat einen echten Vorteil."
+      ],
+      "keyFacts": [
+        { "value": "$1B", "label": "ChatGPT-Werbeumsatz annualisiert (Aug 2026)" },
+        { "value": "16. Sept.", "label": "Start von Sponsored Agents" },
+        { "value": "4", "label": "Markenpartner beim Launch" },
+        { "value": "$500", "label": "Startguthaben für neue Werbetreibende" }
+      ]
+    },
+    "nl": {
+      "title": "ChatGPT is nu een verkoopkanaal — dit moet je erover weten",
+      "summary": "OpenAIs nieuwe Sponsored Agents laten merken AI-gestuurde verkoopgesprekken voeren binnen ChatGPT — en dat verandert waar je klanten je gaan vinden.",
+      "body": [
+        "Lang begon het zoeken naar producten bij Google. Dat verandert nu. Op 16 september lanceerde OpenAI Sponsored Agents — een nieuw advertentieformat in ChatGPT dat echte gesprekken mogelijk maakt tussen merken en potentiële klanten. Een gebruiker zoekt naar hardloopschoenen, een advertentie verschijnt, en in plaats van doorklikken kan diegene nu **een echt gesprek starten met de AI van het merk**. De agent beantwoordt vragen, geeft advies en begeleidt de gebruiker naar een aankoop.",
+        "Dit is fundamenteel anders dan een gewone advertentie. Een normale advertentie toont een afbeelding en een headline. Een Sponsored Agent beantwoordt precies wat de klant vraagt — maten, prijzen, vergelijkingen, retourbeleid. Denk aan een deskundige winkelmedewerker, altijd beschikbaar. Eerste deelnemers zijn Best Buy, Lowe's, Newegg en VistaPrint. **Shopify en HubSpot sluiten direct aan** — zonder dat je iets zelf hoeft te bouwen.",
+        "Dit is geen klein experiment. Eind augustus 2026 had de advertentiebusiness van ChatGPT al **1 miljard dollar op jaarbasis** bereikt — in minder dan een jaar. Honderden miljoenen mensen gebruiken ChatGPT elke maand. Velen stellen vragen die leiden tot aankoopbeslissingen: welke laptop koop ik, welk supplement probeer ik, welke dienst huur ik in? Die vragen zijn nu een advertentiekanaal.",
+        "De praktische les is helder. Klanten beginnen hun productonderzoek steeds vaker in AI-chattools. Als je iets verkoopt, moet je nadenken over hoe je merk **aanwezig is in die AI-gesprekken**. Welke vragen stellen jouw klanten voor een aankoop? Kan jouw merk die vragen nuttig beantwoorden in een chat? Daar ontstaat de volgende golf van klantontdekking — en de bedrijven die er vroeg en goed in zijn, hebben een voorsprong."
+      ],
+      "keyFacts": [
+        { "value": "$1B", "label": "ChatGPT-advertentieomzet op jaarbasis (aug 2026)" },
+        { "value": "16 sept.", "label": "lancering Sponsored Agents" },
+        { "value": "4", "label": "merkpartners bij de lancering" },
+        { "value": "$500", "label": "advertentietegoed voor nieuwe adverteerders" }
+      ]
+    },
+    "es": {
+      "title": "ChatGPT es ahora un canal de ventas — esto es lo que debes hacer",
+      "summary": "Los nuevos Sponsored Agents de OpenAI permiten a las marcas mantener conversaciones de venta con IA dentro de ChatGPT — y eso cambia dónde te encontrarán tus clientes.",
+      "body": [
+        "Durante mucho tiempo, cuando alguien quería comprar algo, comenzaba buscando en Google. Eso está cambiando. El 16 de septiembre, OpenAI lanzó los Sponsored Agents — un nuevo tipo de anuncio dentro de ChatGPT que permite a las marcas mantener una conversación real con un cliente potencial. Un usuario pregunta por zapatillas. Aparece un anuncio. En lugar de hacer clic a un sitio web, ahora puede **iniciar una conversación real con la IA de la marca**. El agente responde preguntas, da consejos y guía al usuario hacia la compra.",
+        "Esto es muy diferente a un anuncio normal. Un anuncio típico muestra una imagen y un titular. Un Sponsored Agent puede responder lo que el cliente realmente pregunta — tallas, precios, comparaciones, política de devoluciones. Es como tener un vendedor experto disponible a cualquier hora. Las primeras empresas en usarlo son Best Buy, Lowe's, Newegg y VistaPrint. **Shopify y HubSpot se integran directamente**, sin necesidad de desarrollar nada propio.",
+        "Esto no es un experimento pequeño. Para agosto de 2026, el negocio publicitario de ChatGPT ya había alcanzado **1.000 millones de dólares en ingresos anualizados** — en menos de un año. Cientos de millones de personas usan ChatGPT cada mes. Muchas hacen preguntas que llevan a decisiones de compra: qué portátil comprar, qué suplemento tomar, qué servicio contratar. Esas preguntas son ahora un canal publicitario.",
+        "La conclusión práctica es sencilla. Los clientes empiezan a investigar productos dentro de las herramientas de chat con IA. Si vendes algo, debes pensar en cómo tu marca **aparece en esas conversaciones de IA**. ¿Qué preguntas hacen tus clientes antes de comprar? ¿Podría tu marca responderlas de forma útil en un chat? Ahí es donde ocurre la próxima ola de descubrimiento de clientes — y los negocios que lleguen primero tendrán ventaja."
+      ],
+      "keyFacts": [
+        { "value": "$1B", "label": "ingresos anualizados de publicidad en ChatGPT (ago. 2026)" },
+        { "value": "16 sept.", "label": "fecha de lanzamiento de Sponsored Agents" },
+        { "value": "4", "label": "marcas socias en el lanzamiento" },
+        { "value": "$500", "label": "crédito publicitario para nuevos anunciantes" }
+      ]
+    },
+    "fr": {
+      "title": "ChatGPT est désormais un canal de vente — voici ce que cela change",
+      "summary": "Les nouveaux Sponsored Agents d'OpenAI permettent aux marques de mener des conversations de vente alimentées par l'IA directement dans ChatGPT — et cela change l'endroit où vos clients vous trouveront.",
+      "body": [
+        "Pendant longtemps, quand quelqu'un voulait acheter quelque chose, il commençait par chercher sur Google. Cela est en train de changer. Le 16 septembre, OpenAI a lancé les Sponsored Agents — un nouveau format publicitaire dans ChatGPT qui permet aux marques d'avoir une vraie conversation avec un client potentiel. Un utilisateur cherche des chaussures de sport. Une annonce apparaît. Au lieu de cliquer vers un site, il peut désormais **démarrer une vraie conversation avec l'IA de la marque**. L'agent répond aux questions, donne des conseils et guide l'utilisateur vers l'achat.",
+        "C'est très différent d'une publicité classique. Une annonce ordinaire affiche une image et un titre. Un Sponsored Agent peut répondre à ce que le client demande vraiment — tailles, prix, comparaisons, politique de retour. C'est comme un vendeur compétent disponible à toute heure. Les premières entreprises à l'utiliser sont Best Buy, Lowe's, Newegg et VistaPrint. **Shopify et HubSpot se connectent directement** — sans développement spécifique.",
+        "Ce n'est pas une petite expérience. Fin août 2026, le business publicitaire de ChatGPT avait déjà atteint **1 milliard de dollars de revenus annualisés** — en moins d'un an. Des centaines de millions de personnes utilisent ChatGPT chaque mois. Beaucoup posent des questions qui mènent à des décisions d'achat : quel ordinateur choisir, quel complément essayer, quel service engager. Ces questions sont désormais un canal publicitaire.",
+        "La leçon pratique est simple. Les clients commencent leur recherche produit dans les outils de chat IA. Si vous vendez quelque chose, vous devez réfléchir à comment votre marque **apparaît dans ces conversations avec l'IA**. Quelles questions vos clients posent-ils avant d'acheter ? Votre marque pourrait-elle y répondre utilement, en conversation ? C'est là que se joue la prochaine vague de découverte client — et les entreprises qui s'y positionnent bien auront une longueur d'avance."
+      ],
+      "keyFacts": [
+        { "value": "$1B", "label": "revenus publicitaires de ChatGPT annualisés (août 2026)" },
+        { "value": "16 sept.", "label": "lancement des Sponsored Agents" },
+        { "value": "4", "label": "marques partenaires au lancement" },
+        { "value": "$500", "label": "crédit publicitaire pour les nouveaux annonceurs" }
+      ]
+    },
+    "ar": {
+      "title": "ChatGPT أصبح قناة مبيعات — إليك ما يجب أن تفعله",
+      "summary": "تتيح Sponsored Agents الجديدة من OpenAI للعلامات التجارية إجراء محادثات مبيعات مدعومة بالذكاء الاصطناعي داخل ChatGPT — وهذا يغيّر المكان الذي سيجدك فيه عملاؤك.",
+      "body": [
+        "لفترة طويلة، كان البحث عن المنتجات يبدأ عبر Google. هذا يتغير الآن. في 16 سبتمبر، أطلقت OpenAI ميزة Sponsored Agents — صيغة إعلانية جديدة داخل ChatGPT تتيح للعلامات التجارية إجراء محادثات حقيقية مع العملاء المحتملين. يسأل مستخدم عن حذاء رياضي، يظهر إعلان، وبدلاً من النقر إلى موقع ويب، يمكنه الآن **بدء محادثة حقيقية مع ذكاء العلامة التجارية الاصطناعي**. يجيب الوكيل على الأسئلة ويرشد المستخدم نحو الشراء.",
+        "هذا مختلف تماماً عن الإعلان التقليدي. الإعلان العادي يعرض صورة وعنواناً. أما Sponsored Agent فيمكنه الإجابة عمّا يسأل عنه العميل فعلاً — المقاسات، الأسعار، المقارنات، سياسة الإرجاع. فكّر في الأمر كمساعد بيع متمرس متاح على مدار الساعة. أبرز الشركات الأولى التي تستخدمه: Best Buy وLowe's وNewegg وVistaPrint. **Shopify وHubSpot يتصلان مباشرةً** دون الحاجة لبناء أي شيء جديد.",
+        "هذه ليست تجربة صغيرة. بنهاية أغسطس 2026، بلغ حجم أعمال الإعلانات في ChatGPT **مليار دولار كإيرادات سنوية مُقدَّرة** — في أقل من عام. مئات الملايين من الأشخاص يستخدمون ChatGPT شهرياً. كثيرون منهم يطرحون أسئلة تقودهم إلى قرارات الشراء: أي حاسوب أختار، أي مكمل غذائي أجرّب، أي خدمة أستأجر؟ هذه الأسئلة أصبحت الآن قناة إعلانية.",
+        "الخلاصة العملية بسيطة. العملاء يبدؤون بحثهم عن المنتجات داخل أدوات الدردشة بالذكاء الاصطناعي. إذا كنت تبيع شيئاً، عليك أن تفكّر في كيفية **ظهور علامتك في محادثات الذكاء الاصطناعي**. ما الأسئلة التي يطرحها عملاؤك قبل الشراء؟ هل يمكن لعلامتك الإجابة عليها بشكل مفيد في محادثة؟ هنا تتشكّل الموجة القادمة من اكتشاف العملاء — والشركات التي تتموضع فيها جيداً ستكون في صدارة المنافسة."
+      ],
+      "keyFacts": [
+        { "value": "$1B", "label": "إيرادات إعلانات ChatGPT السنوية المقدّرة (أغسطس 2026)" },
+        { "value": "16 سبتمبر", "label": "تاريخ إطلاق Sponsored Agents" },
+        { "value": "4", "label": "شركاء العلامات التجارية عند الإطلاق" },
+        { "value": "$500", "label": "رصيد إعلاني للمعلنين الجدد" }
+      ]
+    }
+  }
+}
