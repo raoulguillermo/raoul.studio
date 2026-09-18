@@ -55,6 +55,7 @@ export function getContent(lang) {
     // fall back per product rather than for the whole dict.
     products: { ...base.products, ...(dict.products ?? {}) },
     productUi: pick('productUi'),
+    services: pick('services'),
     projects,
     projectSlugs: PROJECT_SLUGS,
     getProject: (slug) => projects.find((p) => p.slug === slug),

@@ -6,6 +6,7 @@ export { pages } from './pages'
 export { contact } from './contact'
 export { infographics } from './infographics'
 export { products, productUi } from './products'
+export { services } from './services'
 
 // English needs no project overrides — it IS the base structure.
 export const projectOverrides = null

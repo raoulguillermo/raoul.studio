@@ -13,6 +13,7 @@ export const menu = {
     {
       heading: '01 — Studio',
       links: [
+        { label: 'Services', href: '/services' },
         { label: 'About', href: '/about' },
         { label: 'Process', href: '/process' },
         { label: 'Blog', href: '/blog' },
@@ -21,10 +22,6 @@ export const menu = {
     {
       heading: '02 — Work',
       links: [
-        { label: 'OutdoorXL', href: '/projects/outdoorxl' },
-        { label: 'AboutSpace', href: '/projects/aboutspace' },
-        { label: 'Threadly', href: '/projects/threadly' },
-        { label: 'Lexpert CRM', href: '/projects/lexpert' },
         { label: 'All work', href: '/work' },
       ],
     },

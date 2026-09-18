@@ -13,6 +13,7 @@ export const menu = {
     {
       heading: '01 — الاستوديو',
       links: [
+        { label: 'الخدمات', href: '/services' },
         { label: 'عن الاستوديو', href: '/about' },
         { label: 'منهجيتنا', href: '/process' },
         { label: 'المدوّنة', href: '/blog' },
@@ -21,10 +22,6 @@ export const menu = {
     {
       heading: '02 — الأعمال',
       links: [
-        { label: 'OutdoorXL', href: '/projects/outdoorxl' },
-        { label: 'AboutSpace', href: '/projects/aboutspace' },
-        { label: 'Threadly', href: '/projects/threadly' },
-        { label: 'Lexpert CRM', href: '/projects/lexpert' },
         { label: 'كل الأعمال', href: '/work' },
       ],
     },

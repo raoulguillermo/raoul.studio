@@ -8,6 +8,9 @@
 - Engagement: founder-led, small team, ships fast. Real briefs only; replies within 24h.
 - Contact: hello@raoul.studio
 
+## Services
+- [Services](https://raoul.studio/services): Complete AI agent structures that run the day-to-day of a business — front office, operations and back-office agents under a coordinator, connected to your own systems, with permissions, confirmations, human handover and full logging. Plus custom software, automation, AI tools, commerce, brand and infrastructure.
+
 ## Software
 - [Voice AI](https://raoul.studio/voice-ai): An AI phone agent for any business — answers your normal number, takes orders, books appointments and logs requests straight into your own CRM, calendar, webshop or ERP. Dutch and English.
 - [No-CMS](https://raoul.studio/no-cms): Edit your website by sending a WhatsApp message — copy, colours, photos and layout, live on the fly. Early access.
@@ -28,6 +31,7 @@
 ## Pages
 - [Home](https://raoul.studio/)
 - [About](https://raoul.studio/about)
+- [Services](https://raoul.studio/services)
 - [Process](https://raoul.studio/process)
 - [Contact](https://raoul.studio/contact)
 

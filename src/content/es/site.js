@@ -13,6 +13,7 @@ export const menu = {
     {
       heading: '01 — Estudio',
       links: [
+        { label: 'Servicios', href: '/services' },
         { label: 'Nosotros', href: '/about' },
         { label: 'Proceso', href: '/process' },
         { label: 'Blog', href: '/blog' },
@@ -21,10 +22,6 @@ export const menu = {
     {
       heading: '02 — Trabajo',
       links: [
-        { label: 'OutdoorXL', href: '/projects/outdoorxl' },
-        { label: 'AboutSpace', href: '/projects/aboutspace' },
-        { label: 'Threadly', href: '/projects/threadly' },
-        { label: 'Lexpert CRM', href: '/projects/lexpert' },
         { label: 'Todo el trabajo', href: '/work' },
       ],
     },
