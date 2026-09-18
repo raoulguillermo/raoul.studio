@@ -13,7 +13,6 @@ export const menu = {
     {
       heading: '01 — Studio',
       links: [
-        { label: 'Services', href: '/services' },
         { label: 'About', href: '/about' },
         { label: 'Process', href: '/process' },
         { label: 'Blog', href: '/blog' },
@@ -23,18 +22,12 @@ export const menu = {
       heading: '02 — Work',
       links: [
         { label: 'All work', href: '/work' },
+        { label: 'All services', href: '/services' },
+        { label: 'All software', href: '/software' },
       ],
     },
     {
-      heading: '03 — Software',
-      links: [
-        { label: 'Voice AI', href: '/voice-ai' },
-        { label: 'No-CMS', href: '/no-cms' },
-        { label: 'Poofy', href: '/poofy' },
-      ],
-    },
-    {
-      heading: '04 — Connect',
+      heading: '03 — Connect',
       links: [
         { label: 'Contact', href: '/contact' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },

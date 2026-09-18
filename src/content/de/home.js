@@ -42,6 +42,8 @@ export const home = {
     label: 'Ausgewählte Arbeiten',
     lead: 'Wie das Studio ambitionierten Unternehmen hilft, schwierige Probleme zu lösen.',
     allLabel: 'Alle Arbeiten ansehen',
+    allServicesLabel: 'Alle Leistungen ansehen',
+    allSoftwareLabel: 'Alle Software ansehen',
     items: [
       { slug: 'screensaver', tagline: 'Ein ungenutzter Mac-Bildschirm, der zu einer einzigen riesigen Uhr wird — weiß auf schwarz, die Sekunden in Rot. Kostenlos zum Download.', metrics: ['Kostenloser Download', 'Von Apple geprüft', 'In Sekunden installiert'] },
       { slug: 'poofy', tagline: 'Das Studio wickelt seinen eigenen Alltag über eine gestenbasierte Todo-App ab — iPhone-Widget, Mac-Menüleiste, eine gemeinsame Codebasis.', metrics: ['iPhone + Mac', 'Eine SwiftUI-Codebasis', 'Gestenbasiert'] },

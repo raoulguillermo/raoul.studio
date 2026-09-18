@@ -42,6 +42,8 @@ export const home = {
     label: 'Selected work',
     lead: 'How the studio helps ambitious businesses solve hard problems.',
     allLabel: 'See all work',
+    allServicesLabel: 'See all services',
+    allSoftwareLabel: 'See all software',
     items: [
       {
         slug: 'screensaver',

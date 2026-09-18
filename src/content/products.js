@@ -10,6 +10,7 @@ export const APP_STORE_POOFY = 'https://apps.apple.com/app/poofy/id6803196586'
 export const productRegistry = {
   'voice-ai': {
     slug: 'voice-ai',
+    name: 'Voice AI',
     caseStudySlug: 'voice-agent',
     // `cta: 'form'` shows a lead form that posts to /api/contact, tagged with
     // `source` so the inbox shows which page it came from.
@@ -19,6 +20,7 @@ export const productRegistry = {
   },
   'no-cms': {
     slug: 'no-cms',
+    name: 'No-CMS',
     caseStudySlug: 'no-cms',
     cta: 'form',
     source: 'No-CMS',
@@ -26,6 +28,7 @@ export const productRegistry = {
   },
   poofy: {
     slug: 'poofy',
+    name: 'Poofy',
     caseStudySlug: 'poofy',
     cta: 'appstore',
     appStoreUrl: APP_STORE_POOFY,

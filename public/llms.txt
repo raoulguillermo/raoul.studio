@@ -32,6 +32,7 @@
 - [Home](https://raoul.studio/)
 - [About](https://raoul.studio/about)
 - [Services](https://raoul.studio/services)
+- [Software](https://raoul.studio/software)
 - [Process](https://raoul.studio/process)
 - [Contact](https://raoul.studio/contact)
 

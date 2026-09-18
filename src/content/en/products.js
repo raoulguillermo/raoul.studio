@@ -13,7 +13,7 @@ export const products = {
     titleLine2: 'AI',
     lead: 'An AI that answers your phone like your best employee — and puts every call straight into your own systems.',
     primaryCta: 'Book a demo',
-    caseStudyCta: 'How we built it',
+    caseStudyCta: 'How the studio built it',
     highlights: [
       { label: 'Answers', value: 'Every call, day and night' },
       { label: 'Speaks', value: 'Dutch and English — switches mid-call' },
@@ -56,7 +56,7 @@ export const products = {
         { title: 'Recognise regulars', body: 'Knows returning callers by their number, so they don’t have to explain who they are every time.' },
         { title: 'Log requests', body: 'Takes down a problem report or a question and emails it on, or opens a ticket in your system.' },
         { title: 'Hand over to a person', body: 'Puts the caller through to someone on your team whenever that’s the better answer.' },
-        { title: 'Stay in its lane', body: 'You decide exactly what it can and can’t do. Our restaurant agent can place new orders, but can’t change, cancel or refund anything.' },
+        { title: 'Stay in its lane', body: 'You decide exactly what it can and can’t do. The restaurant agent, for example, can place new orders, but can’t change, cancel or refund anything.' },
       ],
     },
     useCases: {
@@ -73,11 +73,11 @@ export const products = {
         },
         {
           q: 'Do I need to change my phone number?',
-          a: 'No. Callers keep dialling your normal number. We route it to the agent — all calls, only out of hours, or only when your team doesn’t pick up.',
+          a: 'No. Callers keep dialling your normal number. The studio routes it to the agent — all calls, only out of hours, or only when your team doesn’t pick up.',
         },
         {
           q: 'Which systems can it connect to?',
-          a: 'Almost anything with an API: CRMs, booking platforms, webshops, till and ERP systems, ticketing tools and email. We also build custom systems, so if yours doesn’t have an API yet, we can build that part too.',
+          a: 'Almost anything with an API: CRMs, booking platforms, webshops, till and ERP systems, ticketing tools and email. The studio also builds custom systems, so if yours doesn’t have an API yet, that part can be built too.',
         },
         {
           q: 'Which languages does it speak?',
@@ -89,14 +89,14 @@ export const products = {
         },
         {
           q: 'What does it cost?',
-          a: 'It depends on your call volume and which systems it connects to. Book a demo and we’ll give you a clear, fixed quote.',
+          a: 'It depends on your call volume and which systems it connects to. Book a demo and you’ll get a clear, fixed quote.',
         },
       ],
     },
     getStarted: {
       label: 'Book a demo',
       heading: 'Hear it on your own business.',
-      body: 'Tell us what kind of calls you get and which systems you use. We’ll get back to you within 24 hours to set up a demo.',
+      body: 'Tell us what kind of calls you get and which systems you use. The studio replies within 24 hours to set up a demo.',
       form: {
         messageLabel: 'Your calls',
         messagePlaceholder:
@@ -170,7 +170,7 @@ export const products = {
       items: [
         {
           q: 'Do I need a new website?',
-          a: 'Not necessarily. During early access we set No-CMS up with you — on your current site where possible, or on a new one we build for you.',
+          a: 'Not necessarily. During early access the studio sets No-CMS up with you — on your current site where possible, or on a new one built for you.',
         },
         {
           q: 'Who can change my site?',
@@ -182,14 +182,14 @@ export const products = {
         },
         {
           q: 'What does early access mean?',
-          a: 'No-CMS is new and we’re opening it up to a small group of early users first. We set it up with you personally and shape the product around how you use it.',
+          a: 'No-CMS is new and is opening up to a small group of early users first. The studio sets it up with you personally and shapes the product around how you use it.',
         },
       ],
     },
     getStarted: {
       label: 'Early access',
       heading: 'Run your website from WhatsApp.',
-      body: 'Tell us about your website and your business. We’ll get back to you within 24 hours.',
+      body: 'Tell us about your website and your business. The studio replies within 24 hours.',
       form: {
         messageLabel: 'Your website',
         messagePlaceholder:
@@ -211,7 +211,7 @@ export const products = {
     titleLine2: '',
     lead: 'The to-do app that gets out of the way. Swipe right, it’s done. Swipe left, it’s gone.',
     primaryCta: 'Download on the App Store',
-    caseStudyCta: 'How we built it',
+    caseStudyCta: 'How the studio built it',
     highlights: [
       { label: 'Price', value: 'Free' },
       { label: 'Runs on', value: 'iPhone + widget · Mac menu bar' },
@@ -222,7 +222,7 @@ export const products = {
       heading: 'Most to-do apps become the to-do.',
       body: [
         'Projects, tags, due dates, priorities, settings — and before long you’re managing the app instead of your tasks.',
-        'Poofy does one thing: it keeps your tasks, and lets you get rid of them fast. We built it to run our own studio on, every day.',
+        'Poofy does one thing: it keeps your tasks, and lets you get rid of them fast. The studio built it to run its own day-to-day on.',
       ],
     },
     steps: {
@@ -266,6 +266,19 @@ export const products = {
 
 // Chrome strings for the landing pages.
 export const productUi = {
+  softwarePage: {
+    meta: {
+      title: 'Software — products built and run by the studio',
+      description:
+        'The studio’s own software: Voice AI, an AI phone agent for any business; No-CMS, website editing over WhatsApp; and Poofy, a swipe-first to-do app for iPhone and Mac.',
+    },
+    eyebrow: 'Software',
+    titleLine1: 'Software',
+    titleAccent: '.',
+    lead: 'Next to client work, the studio builds and runs its own products. Each one solves a single problem well.',
+    openLabel: 'View',
+    posterRailMiddle: 'Software · Built and run by the studio',
+  },
   seeProduct: 'See the product',
   formDefaults: {
     nameLabel: 'Name',

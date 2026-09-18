@@ -13,7 +13,7 @@ export const products = {
     titleLine2: 'AI',
     lead: 'Eine KI, die Ihr Telefon annimmt wie Ihr bester Mitarbeiter — und jeden Anruf direkt in Ihre eigenen Systeme bringt.',
     primaryCta: 'Demo vereinbaren',
-    caseStudyCta: 'Wie wir es gebaut haben',
+    caseStudyCta: 'Wie das Studio es gebaut hat',
     highlights: [
       { label: 'Nimmt an', value: 'Jeden Anruf, Tag und Nacht' },
       { label: 'Spricht', value: 'Niederländisch und Englisch — wechselt mitten im Gespräch' },
@@ -56,7 +56,7 @@ export const products = {
         { title: 'Stammkunden erkennen', body: 'Erkennt wiederkehrende Anrufer an ihrer Nummer, damit sie nicht jedes Mal erklären müssen, wer sie sind.' },
         { title: 'Anliegen erfassen', body: 'Nimmt eine Störungsmeldung oder Frage auf und leitet sie per E-Mail weiter oder legt ein Ticket in Ihrem System an.' },
         { title: 'An einen Menschen übergeben', body: 'Verbindet den Anrufer mit jemandem aus Ihrem Team, wann immer das die bessere Antwort ist.' },
-        { title: 'Klare Grenzen', body: 'Sie legen genau fest, was er darf und was nicht. Unser Restaurant-Assistent kann neue Bestellungen aufgeben, aber nichts ändern, stornieren oder erstatten.' },
+        { title: 'Klare Grenzen', body: 'Sie legen genau fest, was er darf und was nicht. Der Restaurant-Assistent zum Beispiel kann neue Bestellungen aufgeben, aber nichts ändern, stornieren oder erstatten.' },
       ],
     },
     useCases: {
@@ -73,11 +73,11 @@ export const products = {
         },
         {
           q: 'Brauche ich eine neue Telefonnummer?',
-          a: 'Nein. Anrufer wählen weiterhin Ihre normale Nummer. Wir leiten sie an den Assistenten weiter — alle Anrufe, nur außerhalb der Öffnungszeiten oder nur, wenn Ihr Team nicht abnimmt.',
+          a: 'Nein. Anrufer wählen weiterhin Ihre normale Nummer. Das Studio leitet sie an den Assistenten weiter — alle Anrufe, nur außerhalb der Öffnungszeiten oder nur, wenn Ihr Team nicht abnimmt.',
         },
         {
           q: 'Mit welchen Systemen lässt er sich verbinden?',
-          a: 'Mit fast allem, was eine API hat: CRMs, Buchungsplattformen, Webshops, Kassen- und ERP-Systeme, Ticketsysteme und E-Mail. Wir bauen auch individuelle Systeme — hat Ihres noch keine API, bauen wir diesen Teil ebenfalls.',
+          a: 'Mit fast allem, was eine API hat: CRMs, Buchungsplattformen, Webshops, Kassen- und ERP-Systeme, Ticketsysteme und E-Mail. Das Studio baut auch individuelle Systeme — hat Ihres noch keine API, lässt sich dieser Teil ebenfalls bauen.',
         },
         {
           q: 'Welche Sprachen spricht er?',
@@ -96,7 +96,7 @@ export const products = {
     getStarted: {
       label: 'Demo vereinbaren',
       heading: 'Hören Sie es für Ihr eigenes Unternehmen.',
-      body: 'Erzählen Sie uns, welche Anrufe Sie bekommen und welche Systeme Sie nutzen. Wir melden uns innerhalb von 24 Stunden, um eine Demo zu vereinbaren.',
+      body: 'Erzählen Sie uns, welche Anrufe Sie bekommen und welche Systeme Sie nutzen. Das Studio meldet sich innerhalb von 24 Stunden, um eine Demo zu vereinbaren.',
       form: {
         messageLabel: 'Ihre Anrufe',
         messagePlaceholder:
@@ -170,7 +170,7 @@ export const products = {
       items: [
         {
           q: 'Brauche ich eine neue Website?',
-          a: 'Nicht unbedingt. Im Early Access richten wir No-CMS gemeinsam mit Ihnen ein — wo möglich auf Ihrer bestehenden Website, sonst auf einer neuen, die wir für Sie bauen.',
+          a: 'Nicht unbedingt. Im Early Access richtet das Studio No-CMS gemeinsam mit Ihnen ein — wo möglich auf Ihrer bestehenden Website, sonst auf einer neuen, die für Sie gebaut wird.',
         },
         {
           q: 'Wer kann meine Website ändern?',
@@ -182,14 +182,14 @@ export const products = {
         },
         {
           q: 'Was bedeutet Early Access?',
-          a: 'No-CMS ist neu, und wir öffnen es zuerst für eine kleine Gruppe früher Nutzer. Wir richten es persönlich mit Ihnen ein und formen das Produkt danach, wie Sie es nutzen.',
+          a: 'No-CMS ist neu und öffnet sich zuerst für eine kleine Gruppe früher Nutzer. Das Studio richtet es persönlich mit Ihnen ein und formt das Produkt danach, wie Sie es nutzen.',
         },
       ],
     },
     getStarted: {
       label: 'Early Access',
       heading: 'Führen Sie Ihre Website über WhatsApp.',
-      body: 'Erzählen Sie uns von Ihrer Website und Ihrem Unternehmen. Wir melden uns innerhalb von 24 Stunden.',
+      body: 'Erzählen Sie uns von Ihrer Website und Ihrem Unternehmen. Das Studio meldet sich innerhalb von 24 Stunden.',
       form: {
         messageLabel: 'Ihre Website',
         messagePlaceholder:
@@ -211,7 +211,7 @@ export const products = {
     titleLine2: '',
     lead: 'Die To-do-App, die Ihnen nicht im Weg steht. Nach rechts wischen: erledigt. Nach links wischen: weg.',
     primaryCta: 'Im App Store laden',
-    caseStudyCta: 'Wie wir es gebaut haben',
+    caseStudyCta: 'Wie das Studio es gebaut hat',
     highlights: [
       { label: 'Preis', value: 'Kostenlos' },
       { label: 'Läuft auf', value: 'iPhone + Widget · Mac-Menüleiste' },
@@ -222,7 +222,7 @@ export const products = {
       heading: 'Die meisten To-do-Apps werden selbst zur Aufgabe.',
       body: [
         'Projekte, Tags, Fälligkeiten, Prioritäten, Einstellungen — und schon verwalten Sie die App statt Ihrer Aufgaben.',
-        'Poofy macht eine Sache: Ihre Aufgaben festhalten und Sie sie schnell loswerden lassen. Wir haben es gebaut, um unser eigenes Studio jeden Tag damit zu führen.',
+        'Poofy macht eine Sache: Ihre Aufgaben festhalten und Sie sie schnell loswerden lassen. Das Studio hat es gebaut, um den eigenen Alltag damit zu führen.',
       ],
     },
     steps: {
@@ -265,6 +265,19 @@ export const products = {
 }
 
 export const productUi = {
+  softwarePage: {
+    meta: {
+      title: 'Software — Produkte, gebaut und betrieben vom Studio',
+      description:
+        'Die eigene Software des Studios: Voice AI, ein KI-Telefonassistent für jedes Unternehmen; No-CMS, Website-Pflege per WhatsApp; und Poofy, eine Swipe-To-do-App für iPhone und Mac.',
+    },
+    eyebrow: 'Software',
+    titleLine1: 'Software',
+    titleAccent: '.',
+    lead: 'Neben der Arbeit für Kunden baut und betreibt das Studio eigene Produkte. Jedes löst ein einziges Problem gut.',
+    openLabel: 'Ansehen',
+    posterRailMiddle: 'Software · Gebaut und betrieben vom Studio',
+  },
   seeProduct: 'Zum Produkt',
   formDefaults: {
     nameLabel: 'Name',

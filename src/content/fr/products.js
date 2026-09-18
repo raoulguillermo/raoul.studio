@@ -13,7 +13,7 @@ export const products = {
     titleLine2: 'AI',
     lead: 'Une IA qui répond à votre téléphone comme votre meilleur employé — et envoie chaque appel directement dans vos propres systèmes.',
     primaryCta: 'Réserver une démo',
-    caseStudyCta: 'Comment nous l’avons construit',
+    caseStudyCta: 'Comment le studio l’a construit',
     highlights: [
       { label: 'Répond', value: 'À chaque appel, jour et nuit' },
       { label: 'Parle', value: 'Néerlandais et anglais — change en cours d’appel' },
@@ -56,7 +56,7 @@ export const products = {
         { title: 'Reconnaître les habitués', body: 'Reconnaît les appelants réguliers à leur numéro, pour qu’ils n’aient pas à se présenter à chaque fois.' },
         { title: 'Enregistrer les demandes', body: 'Note un signalement ou une question et le transmet par e-mail, ou ouvre un ticket dans votre système.' },
         { title: 'Passer à une personne', body: 'Transfère l’appel à quelqu’un de votre équipe chaque fois que c’est la meilleure réponse.' },
-        { title: 'Dans son rôle', body: 'Vous décidez exactement ce qu’il peut faire ou non. Notre agent pour restaurants peut passer de nouvelles commandes, mais ne peut rien modifier, annuler ni rembourser.' },
+        { title: 'Dans son rôle', body: 'Vous décidez exactement ce qu’il peut faire ou non. L’agent pour restaurants, par exemple, peut passer de nouvelles commandes, mais ne peut rien modifier, annuler ni rembourser.' },
       ],
     },
     useCases: {
@@ -73,11 +73,11 @@ export const products = {
         },
         {
           q: 'Dois-je changer de numéro ?',
-          a: 'Non. Vos clients composent toujours votre numéro habituel. Nous le renvoyons vers l’agent — tous les appels, seulement en dehors des heures d’ouverture, ou seulement quand votre équipe ne décroche pas.',
+          a: 'Non. Vos clients composent toujours votre numéro habituel. Le studio le renvoie vers l’agent — tous les appels, seulement en dehors des heures d’ouverture, ou seulement quand votre équipe ne décroche pas.',
         },
         {
           q: 'À quels systèmes peut-il se connecter ?',
-          a: 'À presque tout ce qui dispose d’une API : CRM, plateformes de réservation, boutiques en ligne, caisses et ERP, outils de tickets et e-mail. Nous construisons aussi des systèmes sur mesure : si le vôtre n’a pas encore d’API, nous pouvons aussi construire cette partie.',
+          a: 'À presque tout ce qui dispose d’une API : CRM, plateformes de réservation, boutiques en ligne, caisses et ERP, outils de tickets et e-mail. Le studio construit aussi des systèmes sur mesure : si le vôtre n’a pas encore d’API, cette partie peut aussi être construite.',
         },
         {
           q: 'Quelles langues parle-t-il ?',
@@ -89,14 +89,14 @@ export const products = {
         },
         {
           q: 'Combien ça coûte ?',
-          a: 'Cela dépend de votre volume d’appels et des systèmes à connecter. Réservez une démo et nous vous ferons un devis clair et forfaitaire.',
+          a: 'Cela dépend de votre volume d’appels et des systèmes à connecter. Réservez une démo et vous recevrez un devis clair et forfaitaire.',
         },
       ],
     },
     getStarted: {
       label: 'Réserver une démo',
       heading: 'Écoutez-le sur votre propre entreprise.',
-      body: 'Dites-nous quels appels vous recevez et quels systèmes vous utilisez. Nous revenons vers vous sous 24 heures pour organiser une démo.',
+      body: 'Dites-nous quels appels vous recevez et quels systèmes vous utilisez. Le studio revient vers vous sous 24 heures pour organiser une démo.',
       form: {
         messageLabel: 'Vos appels',
         messagePlaceholder:
@@ -170,7 +170,7 @@ export const products = {
       items: [
         {
           q: 'Ai-je besoin d’un nouveau site ?',
-          a: 'Pas forcément. Pendant l’accès anticipé, nous installons No-CMS avec vous — sur votre site actuel quand c’est possible, sinon sur un nouveau site que nous construisons pour vous.',
+          a: 'Pas forcément. Pendant l’accès anticipé, le studio installe No-CMS avec vous — sur votre site actuel quand c’est possible, sinon sur un nouveau site construit pour vous.',
         },
         {
           q: 'Qui peut modifier mon site ?',
@@ -182,14 +182,14 @@ export const products = {
         },
         {
           q: 'Que signifie l’accès anticipé ?',
-          a: 'No-CMS est nouveau et nous l’ouvrons d’abord à un petit groupe de premiers utilisateurs. Nous l’installons avec vous personnellement et façonnons le produit selon votre usage.',
+          a: 'No-CMS est nouveau et s’ouvre d’abord à un petit groupe de premiers utilisateurs. Le studio l’installe avec vous personnellement et façonne le produit selon votre usage.',
         },
       ],
     },
     getStarted: {
       label: 'Accès anticipé',
       heading: 'Pilotez votre site depuis WhatsApp.',
-      body: 'Parlez-nous de votre site et de votre activité. Nous revenons vers vous sous 24 heures.',
+      body: 'Parlez-nous de votre site et de votre activité. Le studio revient vers vous sous 24 heures.',
       form: {
         messageLabel: 'Votre site',
         messagePlaceholder:
@@ -211,7 +211,7 @@ export const products = {
     titleLine2: '',
     lead: 'L’app de tâches qui ne vous encombre pas. Balayez à droite : c’est fait. Balayez à gauche : c’est parti.',
     primaryCta: 'Télécharger sur l’App Store',
-    caseStudyCta: 'Comment nous l’avons construite',
+    caseStudyCta: 'Comment le studio l’a construite',
     highlights: [
       { label: 'Prix', value: 'Gratuite' },
       { label: 'Fonctionne sur', value: 'iPhone + widget · barre des menus du Mac' },
@@ -222,7 +222,7 @@ export const products = {
       heading: 'La plupart des apps de tâches deviennent elles-mêmes une tâche.',
       body: [
         'Projets, étiquettes, échéances, priorités, réglages — et bientôt vous gérez l’app au lieu de vos tâches.',
-        'Poofy fait une seule chose : garder vos tâches et vous en débarrasser vite. Nous l’avons construite pour faire tourner notre propre studio, chaque jour.',
+        'Poofy fait une seule chose : garder vos tâches et vous en débarrasser vite. Le studio l’a construite pour faire tourner son propre quotidien.',
       ],
     },
     steps: {
@@ -265,6 +265,19 @@ export const products = {
 }
 
 export const productUi = {
+  softwarePage: {
+    meta: {
+      title: 'Logiciels — des produits construits et exploités par le studio',
+      description:
+        'Les logiciels du studio : Voice AI, un agent téléphonique IA pour toute entreprise ; No-CMS, la modification de site par WhatsApp ; et Poofy, une app de tâches à balayer pour iPhone et Mac.',
+    },
+    eyebrow: 'Logiciels',
+    titleLine1: 'Logiciels',
+    titleAccent: '.',
+    lead: 'En plus du travail pour ses clients, le studio construit et exploite ses propres produits. Chacun résout bien un seul problème.',
+    openLabel: 'Voir',
+    posterRailMiddle: 'Logiciels · Construits et exploités par le studio',
+  },
   seeProduct: 'Voir le produit',
   formDefaults: {
     nameLabel: 'Nom',

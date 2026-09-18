@@ -18,13 +18,13 @@ export default function MenuPanel({
           {eyebrow}
         </p>
 
-        <nav className="flex-1 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 md:gap-16 content-start">
+        <nav className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 content-start">
           {columns.map((col, i) => (
             <div className="menu-col" key={i}>
               <p className="text-paper/50 uppercase text-xs font-semibold tracking-widest mb-4 md:mb-6">
                 {col.heading}
               </p>
-              <ul className="font-display uppercase tracking-tight2 text-4xl md:text-7xl xl:text-6xl leading-[1] space-y-1">
+              <ul className="font-display uppercase tracking-tight2 text-4xl md:text-7xl leading-[1] space-y-1">
                 {(col.links ?? []).map((l, j) => (
                   <li key={j}>
                     <a href={l.href} className="menu-link">

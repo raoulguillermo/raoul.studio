@@ -13,7 +13,7 @@ export const products = {
     titleLine2: 'AI',
     lead: 'Een AI die je telefoon opneemt als je beste medewerker — en elk gesprek meteen in je eigen systemen zet.',
     primaryCta: 'Plan een demo',
-    caseStudyCta: 'Hoe we het bouwden',
+    caseStudyCta: 'Hoe de studio het bouwde',
     highlights: [
       { label: 'Neemt op', value: 'Elk gesprek, dag en nacht' },
       { label: 'Spreekt', value: 'Nederlands en Engels — wisselt tijdens het gesprek' },
@@ -56,7 +56,7 @@ export const products = {
         { title: 'Vaste klanten herkennen', body: 'Herkent terugkerende bellers aan hun nummer, zodat ze niet elke keer hoeven uit te leggen wie ze zijn.' },
         { title: 'Meldingen vastleggen', body: 'Noteert een storing of vraag en mailt die door, of maakt een ticket aan in je systeem.' },
         { title: 'Doorverbinden', body: 'Verbindt de beller door met iemand uit je team als dat het betere antwoord is.' },
-        { title: 'Binnen de lijntjes', body: 'Jij bepaalt precies wat hij wel en niet mag. Onze restaurantassistent kan nieuwe bestellingen plaatsen, maar niets wijzigen, annuleren of terugbetalen.' },
+        { title: 'Binnen de lijntjes', body: 'Jij bepaalt precies wat hij wel en niet mag. De restaurantassistent kan bijvoorbeeld nieuwe bestellingen plaatsen, maar niets wijzigen, annuleren of terugbetalen.' },
       ],
     },
     useCases: {
@@ -73,11 +73,11 @@ export const products = {
         },
         {
           q: 'Moet ik een ander telefoonnummer nemen?',
-          a: 'Nee. Bellers bellen gewoon je eigen nummer. Wij sturen het door naar de assistent — alle gesprekken, alleen buiten openingstijden, of alleen als je team niet opneemt.',
+          a: 'Nee. Bellers bellen gewoon je eigen nummer. De studio stuurt het door naar de assistent — alle gesprekken, alleen buiten openingstijden, of alleen als je team niet opneemt.',
         },
         {
           q: 'Met welke systemen kan hij koppelen?',
-          a: 'Met bijna alles wat een API heeft: CRM’s, boekingsplatforms, webshops, kassa- en ERP-systemen, ticketsystemen en e-mail. We bouwen ook maatwerksystemen, dus heeft het jouwe nog geen API, dan bouwen we dat stuk ook.',
+          a: 'Met bijna alles wat een API heeft: CRM’s, boekingsplatforms, webshops, kassa- en ERP-systemen, ticketsystemen en e-mail. De studio bouwt ook maatwerksystemen, dus heeft het jouwe nog geen API, dan kan dat stuk ook gebouwd worden.',
         },
         {
           q: 'Welke talen spreekt hij?',
@@ -96,7 +96,7 @@ export const products = {
     getStarted: {
       label: 'Plan een demo',
       heading: 'Hoor het op je eigen bedrijf.',
-      body: 'Vertel ons wat voor telefoontjes je krijgt en welke systemen je gebruikt. Je hoort binnen 24 uur van ons om een demo in te plannen.',
+      body: 'Vertel ons wat voor telefoontjes je krijgt en welke systemen je gebruikt. De studio reageert binnen 24 uur om een demo in te plannen.',
       form: {
         messageLabel: 'Je telefoontjes',
         messagePlaceholder:
@@ -170,7 +170,7 @@ export const products = {
       items: [
         {
           q: 'Heb ik een nieuwe website nodig?',
-          a: 'Niet per se. Tijdens early access zetten we No-CMS samen met je op — waar het kan op je huidige site, anders op een nieuwe die wij voor je bouwen.',
+          a: 'Niet per se. Tijdens early access zet de studio No-CMS samen met je op — waar het kan op je huidige site, anders op een nieuwe die voor je gebouwd wordt.',
         },
         {
           q: 'Wie kan mijn site aanpassen?',
@@ -182,14 +182,14 @@ export const products = {
         },
         {
           q: 'Wat betekent early access?',
-          a: 'No-CMS is nieuw en we stellen het eerst open voor een kleine groep vroege gebruikers. We zetten het persoonlijk met je op en vormen het product rond hoe jij het gebruikt.',
+          a: 'No-CMS is nieuw en gaat eerst open voor een kleine groep vroege gebruikers. De studio zet het persoonlijk met je op en vormt het product rond hoe jij het gebruikt.',
         },
       ],
     },
     getStarted: {
       label: 'Early access',
       heading: 'Beheer je website vanuit WhatsApp.',
-      body: 'Vertel ons over je website en je bedrijf. Je hoort binnen 24 uur van ons.',
+      body: 'Vertel ons over je website en je bedrijf. De studio reageert binnen 24 uur.',
       form: {
         messageLabel: 'Je website',
         messagePlaceholder:
@@ -211,7 +211,7 @@ export const products = {
     titleLine2: '',
     lead: 'De to-do-app die je niet in de weg zit. Swipe naar rechts: klaar. Swipe naar links: weg.',
     primaryCta: 'Download in de App Store',
-    caseStudyCta: 'Hoe we het bouwden',
+    caseStudyCta: 'Hoe de studio het bouwde',
     highlights: [
       { label: 'Prijs', value: 'Gratis' },
       { label: 'Werkt op', value: 'iPhone + widget · Mac-menubalk' },
@@ -222,7 +222,7 @@ export const products = {
       heading: 'De meeste to-do-apps worden zelf de to-do.',
       body: [
         'Projecten, labels, deadlines, prioriteiten, instellingen — en voor je het weet beheer je de app in plaats van je taken.',
-        'Poofy doet één ding: je taken bewaren, en je ze snel laten wegwerken. We bouwden hem om onze eigen studio elke dag op te draaien.',
+        'Poofy doet één ding: je taken bewaren, en je ze snel laten wegwerken. De studio bouwde hem om er zelf elke dag op te draaien.',
       ],
     },
     steps: {
@@ -265,6 +265,19 @@ export const products = {
 }
 
 export const productUi = {
+  softwarePage: {
+    meta: {
+      title: 'Software — producten gebouwd en gedraaid door de studio',
+      description:
+        'De eigen software van de studio: Voice AI, een AI-telefoonassistent voor elk bedrijf; No-CMS, je website aanpassen via WhatsApp; en Poofy, een swipe-to-do-app voor iPhone en Mac.',
+    },
+    eyebrow: 'Software',
+    titleLine1: 'Software',
+    titleAccent: '.',
+    lead: 'Naast klantwerk bouwt en draait de studio eigen producten. Elk lost één probleem goed op.',
+    openLabel: 'Bekijk',
+    posterRailMiddle: 'Software · Gebouwd en gedraaid door de studio',
+  },
   seeProduct: 'Bekijk het product',
   formDefaults: {
     nameLabel: 'Naam',

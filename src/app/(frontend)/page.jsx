@@ -101,22 +101,32 @@ export default async function HomePage() {
         </section>
       ) : null}
 
-      {/* See all work — the homepage lists no projects; the portfolio lives on /work */}
+      {/* See all work / services / software — the homepage lists no projects;
+          each overview lives on its own page. */}
       {home.featuredWork?.allLabel ? (
-        <section className="pt-12 md:pt-24 pb-12 md:pb-40">
-          <a
-            href="/work"
-            className="r group inline-flex items-start gap-2 md:gap-6 max-w-full font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
-          >
-            {/* multi-word labels wrap; long ones break rather than overflow */}
-            <span className="ul min-w-0 break-words">{home.featuredWork.allLabel}</span>
-            <span
-              aria-hidden="true"
-              className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
-            >
-              →
-            </span>
-          </a>
+        <section className="pt-12 md:pt-24 pb-12 md:pb-40 flex flex-col items-start gap-6 md:gap-10">
+          {[
+            { href: '/work', label: home.featuredWork.allLabel },
+            { href: '/services', label: home.featuredWork.allServicesLabel },
+            { href: '/software', label: home.featuredWork.allSoftwareLabel },
+          ]
+            .filter((l) => l.label)
+            .map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                className="r group inline-flex items-start gap-2 md:gap-6 max-w-full font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
+              >
+                {/* multi-word labels wrap; long ones break rather than overflow */}
+                <span className="ul min-w-0 break-words">{l.label}</span>
+                <span
+                  aria-hidden="true"
+                  className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
+                >
+                  →
+                </span>
+              </a>
+            ))}
         </section>
       ) : null}
 

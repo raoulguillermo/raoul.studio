@@ -13,7 +13,7 @@ export const products = {
     titleLine2: 'AI',
     lead: 'Una IA que contesta tu teléfono como tu mejor empleado — y lleva cada llamada directamente a tus propios sistemas.',
     primaryCta: 'Pide una demo',
-    caseStudyCta: 'Cómo lo construimos',
+    caseStudyCta: 'Cómo lo construyó el estudio',
     highlights: [
       { label: 'Contesta', value: 'Cada llamada, de día y de noche' },
       { label: 'Habla', value: 'Neerlandés e inglés — cambia en plena llamada' },
@@ -56,7 +56,7 @@ export const products = {
         { title: 'Reconocer a los habituales', body: 'Reconoce a quienes llaman a menudo por su número, para que no tengan que explicar quiénes son cada vez.' },
         { title: 'Registrar avisos', body: 'Anota una incidencia o una pregunta y la reenvía por correo, o abre un ticket en tu sistema.' },
         { title: 'Pasar a una persona', body: 'Transfiere la llamada a alguien de tu equipo siempre que esa sea la mejor respuesta.' },
-        { title: 'Dentro de sus límites', body: 'Tú decides exactamente qué puede y qué no puede hacer. Nuestro agente para restaurantes puede hacer pedidos nuevos, pero no puede cambiar, cancelar ni reembolsar nada.' },
+        { title: 'Dentro de sus límites', body: 'Tú decides exactamente qué puede y qué no puede hacer. El agente para restaurantes, por ejemplo, puede hacer pedidos nuevos, pero no puede cambiar, cancelar ni reembolsar nada.' },
       ],
     },
     useCases: {
@@ -73,11 +73,11 @@ export const products = {
         },
         {
           q: '¿Tengo que cambiar de número?',
-          a: 'No. Tus clientes siguen marcando tu número de siempre. Nosotros lo desviamos al agente — todas las llamadas, solo fuera de horario o solo cuando tu equipo no contesta.',
+          a: 'No. Tus clientes siguen marcando tu número de siempre. El estudio lo desvía al agente — todas las llamadas, solo fuera de horario o solo cuando tu equipo no contesta.',
         },
         {
           q: '¿Con qué sistemas se puede conectar?',
-          a: 'Con casi todo lo que tenga una API: CRM, plataformas de reservas, tiendas online, sistemas de caja y ERP, herramientas de tickets y correo. También construimos sistemas a medida, así que si el tuyo aún no tiene API, también podemos construir esa parte.',
+          a: 'Con casi todo lo que tenga una API: CRM, plataformas de reservas, tiendas online, sistemas de caja y ERP, herramientas de tickets y correo. El estudio también construye sistemas a medida, así que si el tuyo aún no tiene API, esa parte también se puede construir.',
         },
         {
           q: '¿Qué idiomas habla?',
@@ -89,14 +89,14 @@ export const products = {
         },
         {
           q: '¿Cuánto cuesta?',
-          a: 'Depende de tu volumen de llamadas y de los sistemas a los que se conecte. Pide una demo y te daremos un presupuesto claro y cerrado.',
+          a: 'Depende de tu volumen de llamadas y de los sistemas a los que se conecte. Pide una demo y recibirás un presupuesto claro y cerrado.',
         },
       ],
     },
     getStarted: {
       label: 'Pide una demo',
       heading: 'Escúchalo en tu propio negocio.',
-      body: 'Cuéntanos qué tipo de llamadas recibes y qué sistemas usas. Te responderemos en menos de 24 horas para preparar una demo.',
+      body: 'Cuéntanos qué tipo de llamadas recibes y qué sistemas usas. El estudio responde en menos de 24 horas para preparar una demo.',
       form: {
         messageLabel: 'Tus llamadas',
         messagePlaceholder:
@@ -170,7 +170,7 @@ export const products = {
       items: [
         {
           q: '¿Necesito una web nueva?',
-          a: 'No necesariamente. Durante el acceso anticipado configuramos No-CMS contigo — en tu web actual cuando es posible, o en una nueva que construimos para ti.',
+          a: 'No necesariamente. Durante el acceso anticipado el estudio configura No-CMS contigo — en tu web actual cuando es posible, o en una nueva construida para ti.',
         },
         {
           q: '¿Quién puede cambiar mi web?',
@@ -182,14 +182,14 @@ export const products = {
         },
         {
           q: '¿Qué significa acceso anticipado?',
-          a: 'No-CMS es nuevo y primero lo abrimos a un grupo reducido de usuarios. Lo configuramos contigo en persona y damos forma al producto según cómo lo usas.',
+          a: 'No-CMS es nuevo y primero se abre a un grupo reducido de usuarios. El estudio lo configura contigo en persona y da forma al producto según cómo lo usas.',
         },
       ],
     },
     getStarted: {
       label: 'Acceso anticipado',
       heading: 'Gestiona tu web desde WhatsApp.',
-      body: 'Cuéntanos sobre tu web y tu negocio. Te responderemos en menos de 24 horas.',
+      body: 'Cuéntanos sobre tu web y tu negocio. El estudio responde en menos de 24 horas.',
       form: {
         messageLabel: 'Tu web',
         messagePlaceholder:
@@ -211,7 +211,7 @@ export const products = {
     titleLine2: '',
     lead: 'La app de tareas que no se interpone. Desliza a la derecha: hecha. Desliza a la izquierda: fuera.',
     primaryCta: 'Descárgala en el App Store',
-    caseStudyCta: 'Cómo lo construimos',
+    caseStudyCta: 'Cómo lo construyó el estudio',
     highlights: [
       { label: 'Precio', value: 'Gratis' },
       { label: 'Funciona en', value: 'iPhone + widget · barra de menús del Mac' },
@@ -222,7 +222,7 @@ export const products = {
       heading: 'La mayoría de apps de tareas acaban siendo otra tarea.',
       body: [
         'Proyectos, etiquetas, fechas límite, prioridades, ajustes — y sin darte cuenta estás gestionando la app en lugar de tus tareas.',
-        'Poofy hace una sola cosa: guarda tus tareas y te deja quitártelas de encima rápido. La construimos para llevar nuestro propio estudio con ella, cada día.',
+        'Poofy hace una sola cosa: guarda tus tareas y te deja quitártelas de encima rápido. El estudio la construyó para llevar con ella su propio día a día.',
       ],
     },
     steps: {
@@ -265,6 +265,19 @@ export const products = {
 }
 
 export const productUi = {
+  softwarePage: {
+    meta: {
+      title: 'Software — productos construidos y operados por el estudio',
+      description:
+        'El software propio del estudio: Voice AI, un agente telefónico con IA para cualquier negocio; No-CMS, edición de webs por WhatsApp; y Poofy, una app de tareas a golpe de swipe para iPhone y Mac.',
+    },
+    eyebrow: 'Software',
+    titleLine1: 'Software',
+    titleAccent: '.',
+    lead: 'Además del trabajo para clientes, el estudio construye y opera sus propios productos. Cada uno resuelve bien un solo problema.',
+    openLabel: 'Ver',
+    posterRailMiddle: 'Software · Construido y operado por el estudio',
+  },
   seeProduct: 'Ver el producto',
   formDefaults: {
     nameLabel: 'Nombre',
