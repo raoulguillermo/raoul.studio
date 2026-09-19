@@ -32,7 +32,7 @@ export const products = {
       items: [
         {
           title: 'Iemand belt',
-          body: 'Je klanten bellen je gewone nummer. De assistent neemt op en praat als een mens — je kunt hem midden in een zin onderbreken, net als bij iedereen.',
+          body: 'Je klanten bellen je gewone nummer. De assistent neemt op en loopt het gesprek met ze door, gewoon in het Nederlands of Engels.',
         },
         {
           title: 'Hij kijkt in je echte gegevens',
@@ -69,7 +69,7 @@ export const products = {
       items: [
         {
           q: 'Klinkt het als een robot?',
-          a: 'Nee. Hij gebruikt een natuurlijke stem, kan onderbroken worden en zegt het, net als een mens, als hij even nodig heeft. Bellers praten ertegen zoals tegen je personeel.',
+          a: 'Hij gebruikt een natuurlijke stem, en heeft hij even nodig, dan zegt hij dat, net als een mens. Bellers praten ertegen ongeveer zoals tegen je personeel.',
         },
         {
           q: 'Moet ik een ander telefoonnummer nemen?',

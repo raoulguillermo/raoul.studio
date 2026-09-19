@@ -32,7 +32,7 @@ export const products = {
       items: [
         {
           title: 'Someone calls',
-          body: 'Your customers call your normal number. The agent picks up and talks like a person — they can interrupt it mid-sentence, just like with anyone else.',
+          body: 'Your customers call your normal number. The agent picks up and takes them through the call in a normal conversation, in Dutch or English.',
         },
         {
           title: 'It checks your real data',
@@ -69,7 +69,7 @@ export const products = {
       items: [
         {
           q: 'Does it sound like a robot?',
-          a: 'No. It uses a natural voice, handles interruptions and, when it needs a moment, says so the way a person would. Callers talk to it like they would to your staff.',
+          a: 'It uses a natural voice, and when it needs a moment it says so, the way a person would. Callers talk to it much as they would to your staff.',
         },
         {
           q: 'Do I need to change my phone number?',

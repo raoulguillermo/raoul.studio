@@ -32,7 +32,7 @@ export const products = {
       items: [
         {
           title: 'Jemand ruft an',
-          body: 'Ihre Kunden rufen Ihre normale Nummer an. Der Assistent nimmt ab und spricht wie ein Mensch — man kann ihn mitten im Satz unterbrechen, wie bei jedem anderen auch.',
+          body: 'Ihre Kunden rufen Ihre normale Nummer an. Der Assistent nimmt ab und führt das Gespräch ganz normal, auf Niederländisch oder Englisch.',
         },
         {
           title: 'Er prüft Ihre echten Daten',
@@ -69,7 +69,7 @@ export const products = {
       items: [
         {
           q: 'Klingt das wie ein Roboter?',
-          a: 'Nein. Er nutzt eine natürliche Stimme, lässt sich unterbrechen und sagt, wie ein Mensch, Bescheid, wenn er einen Moment braucht. Anrufer sprechen mit ihm wie mit Ihren Mitarbeitern.',
+          a: 'Er nutzt eine natürliche Stimme, und wenn er einen Moment braucht, sagt er das, wie ein Mensch es täte. Anrufer sprechen mit ihm ähnlich wie mit Ihren Mitarbeitern.',
         },
         {
           q: 'Brauche ich eine neue Telefonnummer?',

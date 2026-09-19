@@ -32,7 +32,7 @@ export const products = {
       items: [
         {
           title: 'Alguien llama',
-          body: 'Tus clientes llaman a tu número de siempre. El agente contesta y habla como una persona — se le puede interrumpir a mitad de frase, como a cualquiera.',
+          body: 'Tus clientes llaman a tu número de siempre. El agente contesta y lleva la llamada en una conversación normal, en neerlandés o en inglés.',
         },
         {
           title: 'Consulta tus datos reales',
@@ -69,7 +69,7 @@ export const products = {
       items: [
         {
           q: '¿Suena como un robot?',
-          a: 'No. Usa una voz natural, se le puede interrumpir y, cuando necesita un momento, lo dice como lo haría una persona. Quien llama le habla como hablaría con tu equipo.',
+          a: 'Usa una voz natural y, cuando necesita un momento, lo dice como lo haría una persona. Quien llama le habla más o menos como hablaría con tu equipo.',
         },
         {
           q: '¿Tengo que cambiar de número?',
