@@ -265,81 +265,81 @@ export const products = {
 
   crm: {
     meta: {
-      title: 'CRM — een maatwerk-CRM rond hoe jouw bedrijf werkt',
+      title: 'CRM — software die werkt zoals jij werkt',
       description:
-        'Een CRM ontworpen en gebouwd voor één bedrijf: klanten, dossiers of pipelines, uren en facturatie met online betalen, bestellingen, documenten, dashboards en rechten per rol — gekoppeld aan je eigen tools. Gebouwd voor een advocatenkantoor, een platenlabel en een restaurant.',
+        'Een CRM gemaakt voor één bedrijf. Je klanten, je klussen, je uren en facturen, je bestellingen en bestanden op één plek — en het werkt samen met wat je al gebruikt. Gebouwd voor een advocatenkantoor, een platenlabel en een restaurant.',
     },
     eyebrow: 'Software · CRM',
-    titleLine1: 'Maatwerk',
+    titleLine1: 'Je eigen',
     titleLine2: 'CRM',
-    lead: 'Een CRM dat gebouwd is rond hoe jouw bedrijf echt werkt — geen standaardpakket waar je jezelf omheen moet buigen.',
+    lead: 'Eén plek voor je klanten, je werk en je facturen — gemaakt zoals jij al werkt.',
     primaryCta: 'Plan een gesprek',
     caseStudyCta: '',
     highlights: [
-      { label: 'Gebouwd voor', value: 'Precies jouw werkwijze' },
-      { label: 'Koppelt met', value: 'Betalingen, e-mail, kassa, AI-agents' },
+      { label: 'Gemaakt voor', value: 'Hoe jij werkt' },
+      { label: 'Werkt samen met', value: 'Je betalingen, mail, kassa en AI-agents' },
       { label: 'In gebruik bij', value: 'Een advocatenkantoor, een platenlabel, een restaurant' },
     ],
     problem: {
       label: 'Het probleem',
-      heading: 'Een standaard-CRM past bij niemand precies.',
+      heading: 'Kant-en-klare software past nooit helemaal.',
       body: [
-        'Ze zijn gebouwd voor het gemiddelde bedrijf, dus werkt het jouwe eromheen: Excel ernaast, velden die iets anders betekenen, facturen in een ander pakket en een team dat dezelfde gegevens drie keer overtypt.',
-        'Een maatwerk-CRM begint aan de andere kant. Het wordt gevormd rond jouw klanten, jouw proces en jouw papierwerk — zodat het systeem de administratie doet en je team het werk.',
+        'Ze zijn gemaakt voor het gemiddelde bedrijf. Dus werkt jouw bedrijf eromheen. Een Excel’tje ernaast. Hokjes die iets anders betekenen. Facturen in een ander programma. Dezelfde gegevens die je drie keer overtypt.',
+        'Je eigen software begint andersom. Die volgt jouw klanten, jouw stappen en jouw papierwerk — zodat het programma het regelwerk doet en je mensen het werk.',
       ],
     },
     steps: {
       label: 'Hoe de studio het bouwt',
       items: [
         {
-          title: 'De werkwijze in kaart',
-          body: 'De studio gaat om tafel met de mensen die ermee gaan werken en brengt in kaart hoe het werk echt loopt: wat er binnenkomt, wie het oppakt, wat er gefactureerd wordt en wat er gerapporteerd moet worden.',
+          title: 'We kijken hoe je werkt',
+          body: 'De studio gaat zitten met de mensen die ermee gaan werken: wat er binnenkomt, wie het oppakt, wat er op de rekening komt en wat je wilt bijhouden.',
         },
         {
-          title: 'Ontworpen rond jou',
-          body: 'Jouw eigen onderdelen — klanten en dossiers, artiesten en evenementen, gerechten en bestellingen — met de velden, statussen en rechten die jouw bedrijf echt gebruikt.',
+          title: 'Het wordt om jou heen gebouwd',
+          body: 'Jouw eigen woorden en jouw eigen stappen. Klanten en dossiers, artiesten en shows, gerechten en bestellingen — waar jouw bedrijf ook op draait.',
         },
         {
-          title: 'Bouwen in werkende stappen',
-          body: 'De kern gaat als eerste live, zodat je team er vroeg mee werkt. Facturatie, betalingen, portalen en koppelingen volgen, elk getest met echt werk.',
+          title: 'Je werkt er snel mee',
+          body: 'Het belangrijkste deel gaat als eerste live, zodat je team er meteen mee werkt. Facturen, betalingen en de rest komen daarna, stuk voor stuk.',
         },
         {
-          title: 'Blijven doorgroeien',
-          body: 'Zodra het draait, blijft de studio het uitbreiden — een nieuw rapport, een nieuwe koppeling, of AI-agents die werk van je team overnemen.',
+          title: 'Het blijft groeien',
+          body: 'Als het draait, blijft de studio eraan toevoegen: een nieuw overzicht, een koppeling met een ander programma, of AI-agents die werk uit handen nemen.',
         },
       ],
     },
     features: {
-      label: 'Wat erin kan zitten',
+      label: 'Wat het kan',
       items: [
-        { title: 'Klanten, dossiers & pipelines', body: 'Klanten met hun dossiers of projecten, partijen en contacten, en pipelines met de fases die jouw bedrijf echt heeft.' },
-        { title: 'Uren & facturatie', body: 'Een live timer per dossier, uren die facturen worden, huisstijl-pdf’s per mail met een betaallink die de factuur automatisch op betaald zet.' },
-        { title: 'Bestellingen & betalingen', body: 'Bestellingen die van nieuw naar klaar lopen, online betalen, terugbetalingen en voorraad die zichzelf bijwerkt.' },
-        { title: 'Documenten & bestanden', body: 'Een map per klant of dossier, een vaste mapstructuur die automatisch wordt aangemaakt, en bestanden die blijven waar het werk is.' },
-        { title: 'Dashboards & rapportages', body: 'De cijfers waar je bedrijf op draait in één oogopslag, plus pdf-rapportages over financiën, uren en openstaand werk.' },
-        { title: 'Toegang & beveiliging', body: 'Rechten per rol en per onderdeel, uitnodigingen voor nieuwe gebruikers en inloggen met tweestapsverificatie.' },
+        { title: 'Klanten & klussen', body: 'Elke klant met zijn klussen, zijn contactpersonen en hoe het ervoor staat.' },
+        { title: 'Uren & facturen', body: 'Een klok die je aanzet op een klus. Je uren worden een factuur, per mail met een betaallink — en hij vinkt zichzelf af als het geld binnen is.' },
+        { title: 'Bestellingen & betalen', body: 'Bestellingen van nieuw tot klaar, online betalen, geld terug als dat moet, en voorraad die zichzelf aftelt.' },
+        { title: 'Bestanden', body: 'Een map voor elke klant en elke klus, automatisch aangemaakt, zodat er niets zoekraakt op iemands laptop.' },
+        { title: 'Je cijfers', body: 'Hoe het bedrijf ervoor staat in één blik, en een pdf als je het moet laten zien.' },
+        { title: 'Wie wat ziet', body: 'Iedereen ziet alleen wat bij zijn werk hoort, met een extra code bij het inloggen als je dat wilt.' },
       ],
     },
     useCases: {
       label: 'Gemaakt voor',
-      lead: 'Bedrijven waarvan de werkwijze niet in een standaardhokje past.',
-      items: ['Advocaten & zakelijke dienstverlening', 'Labels, bureaus & evenementen', 'Horeca & retail', 'Dienstverleners', 'Verenigingen & stichtingen', 'Groeiende teams'],
+      lead: 'Bedrijven die niet werken zoals de rest.',
+      items: ['Advocaten & adviseurs', 'Labels, bureaus & evenementen', 'Restaurants & winkels', 'Dienstverleners', 'Verenigingen & stichtingen', 'Groeiende teams'],
     },
     references: {
       label: 'Referenties',
-      lead: 'CRM’s die de studio heeft gebouwd en vandaag draait.',
+      lead: 'Drie die we bouwden, alle drie in gebruik.',
       items: [
         {
           sector: 'Advocatenkantoor · Rotterdam',
-          body: 'Dossierbeheer voor het hele kantoor: cliënten en dossiers, een live timer op elk dossier, de vier Nederlandse factuursoorten voor advocaten, facturen in huisstijl per mail met een betaallink die de factuur op betaald zet, pdf-rapportages, een documentmap per dossier en rechten per rol met tweestapsverificatie.',
+          body: 'Het hele kantoor op één plek: cliënten, hun dossiers en een klok die de advocaten per dossier aanzetten. Van die uren maakt het systeem een factuur in de huisstijl, die per mail de deur uit gaat met een betaallink en zichzelf afvinkt als hij betaald is. Elk dossier heeft zijn eigen map, en iedereen ziet alleen zijn eigen deel.',
         },
         {
           sector: 'Platenlabel & evenementen',
-          body: 'Het systeem waar het label op draait: een artiestenpipeline van eerste contact tot getekend, inboxen voor demo’s en sessie-aanmeldingen vanaf de website, evenementproductie met timetable, begroting, partners en subsidies, één gedeelde agenda en een portaal waarin artiesten hun eigen profiel beheren.',
+          body: 'Alles wat het label doet: artiesten van eerste contact tot handtekening, demo’s en aanmeldingen die binnenkomen vanaf de website, en shows tot op het speelschema, de begroting, de partners en de subsidies. Eén gedeelde agenda, en een inlog waar artiesten hun eigen pagina bijhouden.',
         },
         {
           sector: 'Restaurant · Schiedam',
-          body: 'Bestelbeheer voor een restaurant: een keukenflow van nieuw tot klaar, terugbetalen vanuit het beheer, gerechten met allergenen en foto’s, openingstijden en een pauzeknop — met een AI-telefoonassistent die bestellingen in dezelfde flow zet.',
+          body: 'De bestellingen van de keuken op één scherm, van nieuw tot klaar, met een knop om iemand terug te betalen. De kaart staat er ook in — foto’s, allergenen, openingstijden en een pauzeknop als het te druk wordt. Een AI neemt de telefoon op en zet die bestellingen in dezelfde lijst.',
         },
       ],
     },
@@ -347,35 +347,35 @@ export const products = {
       label: 'FAQ',
       items: [
         {
-          q: 'Waarom geen bestaand CRM?',
-          a: 'Past een standaard-CRM bij je bedrijf, gebruik het dan. Maatwerk is zinvol als je proces, je facturen of je gegevens er niet in passen — en je team tijd verliest met om de software heen werken in plaats van ermee.',
+          q: 'Waarom niet iets kant-en-klaars kopen?',
+          a: 'Past iets kant-en-klaars, koop het dan. Je eigen software is het waard als jouw manier van werken, je facturen of je cijfers er niet in passen — en je mensen tijd verliezen met om het programma heen werken in plaats van ermee.',
         },
         {
-          q: 'Kan het koppelen met de tools die we al gebruiken?',
-          a: 'Ja. Betalingen, e-mail, boekhouding, een kassasysteem, je website of webshop — het CRM wordt gebouwd om samen te werken met wat je al hebt.',
+          q: 'Werkt het samen met wat we al gebruiken?',
+          a: 'Ja. Betalingen, mail, de boekhouding, de kassa, je website of webshop. Het wordt gebouwd om samen te werken met wat je hebt.',
         },
         {
           q: 'Kunnen AI-agents erin werken?',
-          a: 'Ja. Omdat de studio het CRM zelf bouwt, kunnen AI-agents er direct op aangesloten worden — de telefoon opnemen, bestellingen aannemen of werk voorbereiden, binnen de rechten die jij ze geeft.',
+          a: 'Ja. Omdat de studio het zelf bouwt, kun je AI-agents er direct op aansluiten — de telefoon opnemen, bestellingen aannemen of werk klaarzetten, en alleen wat jij ze toestaat.',
         },
         {
           q: 'Zijn mijn gegevens veilig?',
-          a: 'Elke gebruiker ziet alleen wat zijn rol toestaat, en inloggen kan met tweestapsverificatie. Het systeem wordt door de studio gebouwd en onderhouden, dus je weet altijd waar je gegevens staan en wie erbij kan.',
+          a: 'Iedereen ziet alleen wat bij zijn werk hoort, en je kunt een extra code bij het inloggen instellen. De studio bouwt het en houdt het bij, dus je weet altijd waar je gegevens staan en wie erbij kan.',
         },
         {
           q: 'Wat kost het?',
-          a: 'Dat hangt af van wat het CRM moet kunnen. Na een eerste gesprek krijg je een helder voorstel met een vaste scope, en de kern kan live voordat al het andere af is.',
+          a: 'Dat hangt af van wat het moet doen. Na een eerste gesprek krijg je een duidelijke prijs voor duidelijk afgesproken werk, en het belangrijkste deel kan al draaien voordat de rest af is.',
         },
       ],
     },
     getStarted: {
       label: 'Plan een gesprek',
-      heading: 'Wat moet jouw CRM doen?',
-      body: 'Vertel ons hoe je bedrijf vandaag draait en waar de software in de weg zit. De studio reageert binnen 24 uur.',
+      heading: 'Wat moet die van jou doen?',
+      body: 'Vertel ons hoe je bedrijf nu draait en waar de software in de weg zit. De studio reageert binnen 24 uur.',
       form: {
         messageLabel: 'Je bedrijf',
         messagePlaceholder:
-          'Wat voor bedrijf is het, met hoeveel mensen zou je het CRM gebruiken, en wat gebruik je nu (Excel, een standaard-CRM, een factuurpakket…)? Wat kost de meeste tijd?',
+          'Wat voor bedrijf is het, met hoeveel mensen zouden jullie het gebruiken, en wat gebruik je nu (Excel, een kant-en-klaar programma…)? Wat kost de meeste tijd?',
         sendLabel: 'plan een gesprek',
       },
     },

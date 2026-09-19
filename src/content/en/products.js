@@ -265,81 +265,81 @@ export const products = {
 
   crm: {
     meta: {
-      title: 'CRM — a custom CRM built around how your business runs',
+      title: 'CRM — software built around the way you work',
       description:
-        'A CRM designed and built for one business: clients, cases or pipelines, hours and invoicing with online payment, orders, documents, dashboards and role-based access — connected to your own tools. Built for a law firm, a record label and a restaurant.',
+        'A CRM made for one business. Your customers, your jobs, your hours and invoices, your orders and files, all in one place — and it works with the tools you already have. Built for a law firm, a record label and a restaurant.',
     },
     eyebrow: 'Software · CRM',
-    titleLine1: 'Custom',
+    titleLine1: 'Your own',
     titleLine2: 'CRM',
-    lead: 'A CRM built around how your business actually runs — not a generic tool you have to bend yourself around.',
+    lead: 'One place for your customers, your work and your invoices — built the way you already work.',
     primaryCta: 'Plan a conversation',
     caseStudyCta: '',
     highlights: [
-      { label: 'Built for', value: 'Your exact workflow' },
-      { label: 'Connects', value: 'Payments, email, till, AI agents' },
+      { label: 'Built for', value: 'The way you work' },
+      { label: 'Works with', value: 'Your payments, email, till and AI agents' },
       { label: 'In use at', value: 'A law firm, a record label, a restaurant' },
     ],
     problem: {
       label: 'The problem',
-      heading: 'Off-the-shelf CRMs fit nobody exactly.',
+      heading: 'Ready-made software never quite fits.',
       body: [
-        'They’re built for the average business, so yours ends up working around them: spreadsheets on the side, fields that mean something else, invoices made in another tool, and a team that copies the same data three times.',
-        'A custom CRM starts from the other end. It’s shaped around your clients, your process and your paperwork — so the system does the admin, and your team does the work.',
+        'It is made for the average business, so yours works around it. A spreadsheet on the side. Boxes that mean something else. Invoices in another program. The same thing typed in three times.',
+        'Software of your own starts the other way round. It follows your customers, your steps and your paperwork — so it does the admin and your people do the work.',
       ],
     },
     steps: {
       label: 'How the studio builds it',
       items: [
         {
-          title: 'Map the workflow',
-          body: 'The studio sits down with the people who’ll use it and maps how work really flows: what comes in, who picks it up, what gets billed and what needs to be reported.',
+          title: 'We watch how you work',
+          body: 'The studio sits down with the people who will use it: what comes in, who picks it up, what gets billed and what you need to keep track of.',
         },
         {
-          title: 'Design it around you',
-          body: 'Your own entities — clients and cases, artists and events, dishes and orders — with the fields, statuses and rights your business actually uses.',
+          title: 'It is built around you',
+          body: 'Your own words and your own steps. Customers and cases, artists and shows, dishes and orders — whatever your business runs on.',
         },
         {
-          title: 'Build in working steps',
-          body: 'The core goes live first, so your team is using it early. Invoicing, payments, portals and integrations follow, each one tested with real work.',
+          title: 'You use it early',
+          body: 'The main part goes live first, so your team works with it straight away. Invoices, payments and the rest follow, one piece at a time.',
         },
         {
-          title: 'Keep it growing',
-          body: 'Once it runs, the studio keeps extending it — a new report, a new connection, or AI agents that take work off your team.',
+          title: 'It keeps growing',
+          body: 'When it is running, the studio keeps adding to it: a new report, a link to another program, or AI agents that take work off your hands.',
         },
       ],
     },
     features: {
-      label: 'What it can include',
+      label: 'What it can do',
       items: [
-        { title: 'Clients, cases & pipelines', body: 'Clients with their cases or projects, parties and contacts, and pipelines with the stages your business really has.' },
-        { title: 'Hours & invoicing', body: 'A live timer per case, hours turned into invoices, branded PDFs sent by email with an online payment link that marks them paid automatically.' },
-        { title: 'Orders & payments', body: 'Orders that move from new to done, online payments, refunds and stock that updates itself.' },
-        { title: 'Documents & files', body: 'A folder per client or case, a standard structure that’s set up automatically, and files that stay where the work is.' },
-        { title: 'Dashboards & reports', body: 'The numbers that run your business at a glance, plus PDF reports for finances, hours and open work.' },
-        { title: 'Access & security', body: 'Rights per role and per module, invitations for new users and two-factor login.' },
+        { title: 'Customers & jobs', body: 'Every customer with their jobs, their contacts and where each one stands.' },
+        { title: 'Hours & invoices', body: 'A timer you start on a job. Your hours become an invoice, sent by email with a payment link — and it ticks itself off when the money arrives.' },
+        { title: 'Orders & payments', body: 'Orders from new to done, paid online, money back when you need it, and stock that counts itself down.' },
+        { title: 'Files', body: 'A folder for every customer and every job, made for you, so nothing is lost on someone’s laptop.' },
+        { title: 'Your numbers', body: 'How the business is doing at a glance, and a PDF when you need to show it.' },
+        { title: 'Who sees what', body: 'Everyone sees only what belongs to their job, with an extra code at login if you want one.' },
       ],
     },
     useCases: {
       label: 'Made for',
-      lead: 'Businesses whose way of working doesn’t fit in a standard box.',
-      items: ['Law firms & professional services', 'Labels, agencies & events', 'Restaurants & retail', 'Service businesses', 'Associations & foundations', 'Growing teams'],
+      lead: 'Businesses that do not work like the rest.',
+      items: ['Law firms & advisers', 'Labels, agencies & events', 'Restaurants & shops', 'Service businesses', 'Clubs & foundations', 'Growing teams'],
     },
     references: {
       label: 'References',
-      lead: 'CRMs the studio has built and runs today.',
+      lead: 'Three we built, all running today.',
       items: [
         {
           sector: 'Law firm · Rotterdam',
-          body: 'Case management for the whole practice: clients and cases, a live timer on every case, the four Dutch legal invoice types, branded invoice PDFs sent by email with an online payment link that marks the invoice paid, PDF reports, a document folder per case, and role-based access with two-factor login.',
+          body: 'The whole practice in one place: clients, their cases, and a timer the lawyers start on each one. Those hours become an invoice in the firm’s own style, which goes out by email with a payment link and ticks itself off when it is paid. Every case has its own folder, and everyone sees only their own part.',
         },
         {
           sector: 'Record label & events',
-          body: 'The system the label runs on: an artist pipeline from first contact to signed, demo and session inboxes fed by the website, event production with timetable, budget, partners and subsidies, one shared calendar, and a portal where artists manage their own profile.',
+          body: 'Everything the label does: artists from first contact to signing, demos and applications arriving straight from the website, and shows planned down to the running order, the budget, the partners and the funding. One shared calendar, and a login where artists keep their own page up to date.',
         },
         {
           sector: 'Restaurant · Schiedam',
-          body: 'Order management for a restaurant: a kitchen order flow from new to ready, refunds from the admin panel, dishes with allergens and photos, opening hours and a pause switch — with an AI phone agent that takes orders into the same flow.',
+          body: 'The kitchen’s orders on one screen, from new to ready, with a button to pay someone back. The menu is kept there too — photos, allergens, opening hours, and a pause button when it gets too busy. An AI answers the phone and puts those orders in the same list.',
         },
       ],
     },
@@ -347,35 +347,35 @@ export const products = {
       label: 'FAQ',
       items: [
         {
-          q: 'Why not use an existing CRM?',
-          a: 'If a standard CRM fits your business, use it. A custom CRM makes sense when your process, your invoices or your data don’t fit — and your team is losing time working around the software instead of with it.',
+          q: 'Why not buy something ready-made?',
+          a: 'If something ready-made fits, buy it. Your own software is worth it when the way you work, your invoices or your figures do not fit — and your people lose time working around the program instead of with it.',
         },
         {
-          q: 'Can it connect to the tools we already use?',
-          a: 'Yes. Payments, email, accounting, a till system, your website or webshop — the CRM is built to work with what you already run.',
+          q: 'Does it work with what we already use?',
+          a: 'Yes. Payments, email, the bookkeeping, the till, your website or web shop. It is built to work with what you have.',
         },
         {
           q: 'Can AI agents work in it?',
-          a: 'Yes. Because the studio builds the CRM itself, AI agents can be wired straight into it — answering the phone, taking orders or preparing work, within the rights you give them.',
+          a: 'Yes. Because the studio builds it, AI agents can be plugged straight in — answering the phone, taking orders or getting work ready, and only what you allow them to.',
         },
         {
           q: 'Is my data safe?',
-          a: 'Every user only sees what their role allows, and logins can require two-factor authentication. The system is built and maintained by the studio, so you always know where your data lives and who can reach it.',
+          a: 'Everyone sees only what belongs to their job, and you can ask for an extra code at login. The studio builds and looks after it, so you always know where your data is and who can reach it.',
         },
         {
           q: 'What does it cost?',
-          a: 'It depends on what the CRM needs to do. After a first conversation you get a clear proposal with a fixed scope, and the core can go live before everything else is built.',
+          a: 'It depends on what it has to do. After a first talk you get a clear price for clearly agreed work, and the main part can be running before the rest is finished.',
         },
       ],
     },
     getStarted: {
       label: 'Plan a conversation',
-      heading: 'What should your CRM do?',
+      heading: 'What should yours do?',
       body: 'Tell us how your business runs today and where the software gets in the way. The studio replies within 24 hours.',
       form: {
         messageLabel: 'Your business',
         messagePlaceholder:
-          'What kind of business is it, how many people would use the CRM, and what do you use today (spreadsheets, a standard CRM, invoicing tool…)? What costs the most time?',
+          'What kind of business is it, how many people would use it, and what do you use now (spreadsheets, a ready-made program…)? What takes the most time?',
         sendLabel: 'plan a conversation',
       },
     },
