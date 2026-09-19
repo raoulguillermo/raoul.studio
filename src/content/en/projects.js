@@ -483,22 +483,16 @@ export const projects = [
     ],
     body: [
       {
-        text: 'Restaurants miss orders every evening, simply because nobody can pick up the phone while the kitchen is busy. This phone agent picks up instead. A customer calls the restaurant’s normal number, says what they’d like — “two sandwiches and a large rice dish” — and talks to an AI that sounds like a person, understands them and writes the order down.',
+        text: 'Restaurants miss orders every evening, simply because nobody can pick up the phone while the kitchen is busy. This agent picks up instead: a customer calls the restaurant’s normal number, says what they’d like, and an AI takes the order.',
       },
       {
-        text: 'It works from the restaurant’s real menu, opening hours and pickup times, fetched fresh while the call is going on. So it only offers dishes that are really on the menu, knows what has sold out, knows the sizes and extras and what they cost, and picks the earliest time the order can be ready. It speaks Dutch, and switches to English without fuss when the caller does.',
+        text: 'It works from the restaurant’s real menu, opening hours and pickup times, fetched while the call is going on. So it only offers dishes that are really available, with the right sizes, extras and prices, and it picks the earliest time the order can be ready. It speaks Dutch and switches to English when the caller does.',
       },
       {
-        text: 'An order taken over the phone has to be right, so the agent works in two steps. First it adds everything up and reads the order back: the dishes, the name, the total and when it will be ready. Only once the caller has really said yes does it place the order — and that is checked by the system itself, not left to the AI. The order then lands in the restaurant’s own order system, exactly like a webshop order, and the kitchen has it straight away. The agent can only place new pickup orders: it cannot look up, change, cancel or refund anything.',
+        text: 'Before anything is placed, it reads the order back: the dishes, the name, the total and when it will be ready. Only after a clear yes does the order go through — and that check is done by the system, not by the AI. It then lands in the restaurant’s own order system, exactly like a webshop order. The agent can only place new pickup orders; it cannot change, cancel or refund anything.',
       },
       {
-        text: 'On a phone call, silence instantly feels broken. Understanding speech and the voice itself are handled by a specialised voice platform. The thinking is done by Claude, on the studio’s own server. Anything the agent can know in advance is looked up before it starts talking, and when it does need a moment, it says so, the way a person would.',
-      },
-      {
-        text: 'The restaurant line is just one use. Underneath is a general-purpose agent that can be connected to almost any system through an API. A second line already runs on the same engine: it recognises regular callers by their number, checks a calendar, books or cancels appointments, takes down a problem report and emails it on, or puts the caller through to a person.',
-      },
-      {
-        text: 'That is where it gets interesting for other businesses. Because the studio also builds the systems behind it — custom CRMs, booking platforms, webshops and back offices — the agent can be wired straight into them: look up a client in your CRM, open a ticket, schedule an appointment, check stock, or put an order into your till or ERP. Hairdressers, garages, clinics, law firms, rental companies: anywhere the phone rings with the same questions every day, an agent can answer — with a system behind it that remembers everything.',
+        text: 'Speech and voice come from a specialised voice platform, the thinking from Claude on the studio’s own server. Underneath the restaurant line is a general-purpose agent that connects to almost any system through an API — and because the studio builds those systems too, from CRMs to booking platforms and webshops, it can be wired straight in. Anywhere the phone rings with the same questions every day, an agent can answer.',
       },
     ],
   },

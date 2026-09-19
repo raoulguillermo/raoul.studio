@@ -364,22 +364,16 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Los restaurantes pierden pedidos cada noche porque nadie puede coger el teléfono cuando la cocina va a tope. Este agente telefónico contesta en su lugar. Un cliente llama al número de siempre del restaurante, dice lo que quiere —«dos bocadillos y un plato grande de arroz»— y habla con una IA que suena como una persona, le entiende y apunta el pedido.',
+        text: 'Los restaurantes pierden pedidos cada noche, simplemente porque nadie puede coger el teléfono con la cocina llena. Este agente sí lo coge: un cliente llama al número de siempre del restaurante, dice lo que quiere y una IA toma el pedido.',
       },
       {
-        text: 'Trabaja con la carta real del restaurante, su horario y sus horas de recogida, que consulta en directo durante la llamada. Así solo ofrece platos que están de verdad en la carta, sabe qué se ha agotado, conoce los tamaños, los extras y lo que cuestan, y elige la hora más temprana a la que el pedido puede estar listo. Habla neerlandés y cambia al inglés sin más si quien llama lo hace.',
+        text: 'Trabaja con la carta real, los horarios y las horas de recogida del restaurante, consultados mientras dura la llamada. Así solo ofrece lo que hay de verdad, con los tamaños, extras y precios correctos, y elige la hora más temprana a la que el pedido puede estar listo. Habla neerlandés y cambia al inglés cuando lo hace quien llama.',
       },
       {
-        text: 'Un pedido por teléfono tiene que ser exacto, así que el agente trabaja en dos pasos. Primero lo suma todo y lee el pedido en voz alta: los platos, el nombre, el total y cuándo estará listo. Solo cuando quien llama ha dicho «sí» de verdad, hace el pedido, y eso lo comprueba el propio sistema; no se deja en manos de la IA. Después, el pedido entra en el sistema de pedidos del restaurante, igual que un pedido de la tienda online, y la cocina lo recibe al instante. El agente solo puede hacer pedidos nuevos para recoger: no puede ver, cambiar, cancelar ni reembolsar nada.',
+        text: 'Antes de cursar nada, repite el pedido: los platos, el nombre, el total y cuándo estará listo. Solo tras un sí claro entra el pedido — y eso lo comprueba el sistema, no la IA. Después llega al propio sistema de pedidos del restaurante, igual que un pedido de la tienda online. El agente solo puede hacer pedidos nuevos para recoger; no puede cambiar, cancelar ni reembolsar nada.',
       },
       {
-        text: 'Al teléfono, el silencio parece enseguida una avería. Entender lo que se dice y la voz los gestiona una plataforma de voz especializada. El razonamiento lo hace Claude, en el servidor propio del estudio. Todo lo que el agente puede saber de antemano se consulta antes de que empiece a hablar, y si aun así necesita un momento, lo dice, como haría una persona.',
-      },
-      {
-        text: 'La línea del restaurante es solo un uso. Debajo hay un agente general que se puede conectar a casi cualquier sistema mediante una API. Sobre la misma tecnología ya funciona una segunda línea: reconoce a quien llama por su número, consulta una agenda, reserva o cancela citas, toma nota de una incidencia y la envía por correo, o pasa la llamada a una persona.',
-      },
-      {
-        text: 'Y ahí es donde se pone interesante para otras empresas. Como el estudio también construye los sistemas que hay detrás —CRM a medida, plataformas de reservas, tiendas online y paneles de gestión—, el agente se puede conectar directamente a ellos: buscar a un cliente en tu CRM, abrir un ticket, programar una cita, consultar el stock o registrar un pedido en tu caja o ERP. Peluquerías, talleres, clínicas, despachos de abogados, empresas de alquiler: en cualquier sitio donde el teléfono suena cada día con las mismas preguntas, un agente puede contestar, con un sistema detrás que lo recuerda todo.',
+        text: 'La comprensión y la voz vienen de una plataforma de voz especializada; el razonamiento, de Claude en el servidor propio del estudio. Bajo la línea del restaurante hay un agente general que se conecta a casi cualquier sistema mediante una API — y como el estudio también construye esos sistemas, desde CRM hasta plataformas de reservas y tiendas online, puede enchufarse directamente. Allí donde el teléfono suena cada día con las mismas preguntas, un agente puede contestar.',
       },
     ],
   },

@@ -364,22 +364,16 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Chaque soir, des restaurants perdent des commandes parce que personne ne peut décrocher quand la cuisine tourne à plein. Cet agent téléphonique répond à leur place. Un client appelle le numéro habituel du restaurant, dit ce qu’il veut — « deux sandwichs et un grand plat de riz » — et parle à une IA qui sonne comme une vraie personne, le comprend et note la commande.',
+        text: 'Les restaurants perdent des commandes chaque soir, simplement parce que personne ne peut décrocher quand la cuisine tourne à plein. Cet agent décroche à leur place : un client appelle le numéro habituel du restaurant, dit ce qu’il veut, et une IA prend la commande.',
       },
       {
-        text: 'Il travaille avec la vraie carte du restaurant, ses horaires d’ouverture et ses créneaux de retrait, récupérés en direct pendant l’appel. Il ne propose donc que des plats vraiment à la carte, sait ce qui est épuisé, connaît les tailles, les suppléments et leurs prix, et choisit l’heure la plus proche à laquelle la commande peut être prête. Il parle néerlandais, et passe à l’anglais sans faire d’histoires si l’appelant le fait.',
+        text: 'Il travaille à partir de la vraie carte, des horaires et des heures de retrait du restaurant, récupérés pendant l’appel. Il ne propose donc que ce qui est réellement disponible, avec les bonnes tailles, suppléments et prix, et retient l’heure la plus proche à laquelle la commande peut être prête. Il parle néerlandais et passe à l’anglais quand l’appelant le fait.',
       },
       {
-        text: 'Une commande par téléphone doit être exacte, alors l’agent procède en deux temps. D’abord, il fait le total et relit la commande : les plats, le nom, le montant et l’heure à laquelle tout sera prêt. Ce n’est qu’une fois que l’appelant a vraiment dit « oui » qu’il passe la commande — et c’est le système lui-même qui le vérifie, pas l’IA. La commande arrive ensuite dans le système de commandes du restaurant, exactement comme une commande de la boutique en ligne, et la cuisine la reçoit tout de suite. L’agent ne peut passer que de nouvelles commandes à emporter : il ne peut rien consulter, modifier, annuler ni rembourser.',
+        text: 'Avant d’enregistrer quoi que ce soit, il relit la commande : les plats, le nom, le total et l’heure à laquelle ce sera prêt. Ce n’est qu’après un oui clair que la commande part — et c’est le système qui le vérifie, pas l’IA. Elle arrive ensuite dans le système de commandes du restaurant, exactement comme une commande en ligne. L’agent ne peut que passer de nouvelles commandes à emporter ; il ne peut rien modifier, annuler ni rembourser.',
       },
       {
-        text: 'Au téléphone, le silence donne tout de suite l’impression d’une panne. La compréhension et la voix sont gérées par une plateforme vocale spécialisée. La réflexion, elle, est assurée par Claude, sur le serveur du studio. Tout ce que l’agent peut savoir à l’avance est vérifié avant qu’il ne commence à parler, et s’il lui faut quand même un instant, il le dit, comme le ferait une personne.',
-      },
-      {
-        text: 'La ligne du restaurant n’est qu’un usage parmi d’autres. Derrière, il y a un agent généraliste qui se connecte à presque n’importe quel système via une API. Une deuxième ligne tourne déjà sur la même technologie : elle reconnaît les appelants habituels à leur numéro, consulte un agenda, réserve ou annule des rendez-vous, note un signalement et le transmet par e-mail, ou passe l’appel à un humain.',
-      },
-      {
-        text: 'Et c’est là que ça devient intéressant pour d’autres entreprises. Comme le studio construit aussi les systèmes qui se trouvent derrière — CRM sur mesure, plateformes de réservation, boutiques en ligne et back-offices —, l’agent peut y être branché directement : retrouver un client dans votre CRM, ouvrir un ticket, planifier un rendez-vous, vérifier un stock ou enregistrer une commande dans votre caisse ou votre ERP. Salons de coiffure, garages, cabinets médicaux, cabinets d’avocats, loueurs : partout où le téléphone sonne chaque jour pour les mêmes questions, un agent peut décrocher, avec derrière lui un système qui n’oublie rien.',
+        text: 'La compréhension et la voix viennent d’une plateforme vocale spécialisée, la réflexion de Claude sur le serveur du studio. Sous la ligne du restaurant se trouve un agent généraliste qui se connecte à presque n’importe quel système via une API — et comme le studio construit aussi ces systèmes, des CRM aux plateformes de réservation et boutiques en ligne, il peut y être branché directement. Partout où le téléphone sonne chaque jour avec les mêmes questions, un agent peut répondre.',
       },
     ],
   },

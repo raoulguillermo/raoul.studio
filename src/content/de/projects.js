@@ -365,22 +365,16 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Restaurants verpassen jeden Abend Bestellungen, weil niemand ans Telefon gehen kann, wenn in der Küche Hochbetrieb ist. Dieser Telefonassistent geht stattdessen ran. Ein Gast ruft die normale Nummer des Restaurants an, sagt, was er möchte — „zwei Sandwiches und ein großes Reisgericht“ — und spricht mit einer KI, die wie ein Mensch klingt, ihn versteht und die Bestellung aufschreibt.',
+        text: 'Restaurants verlieren jeden Abend Bestellungen, weil niemand ans Telefon gehen kann, während die Küche voll ist. Dieser Assistent geht ran: Ein Gast ruft die normale Nummer des Restaurants an, sagt, was er möchte, und eine KI nimmt die Bestellung auf.',
       },
       {
-        text: 'Er arbeitet mit der echten Speisekarte, den Öffnungszeiten und den Abholzeiten des Restaurants, die während des Gesprächs frisch abgerufen werden. So bietet er nur Gerichte an, die wirklich auf der Karte stehen, weiß, was ausverkauft ist, kennt Größen, Extras und ihre Preise und wählt die früheste Zeit, zu der die Bestellung fertig sein kann. Er spricht Niederländisch und wechselt ganz selbstverständlich ins Englische, wenn der Anrufer das tut.',
+        text: 'Er arbeitet mit der echten Karte, den Öffnungszeiten und den Abholzeiten des Restaurants, abgerufen während das Gespräch läuft. So bietet er nur an, was wirklich verfügbar ist, mit den richtigen Größen, Extras und Preisen, und wählt den frühesten Zeitpunkt, zu dem die Bestellung fertig sein kann. Er spricht Niederländisch und wechselt ins Englische, wenn der Anrufer wechselt.',
       },
       {
-        text: 'Eine Bestellung am Telefon muss stimmen, deshalb arbeitet der Assistent in zwei Schritten. Zuerst rechnet er alles zusammen und liest die Bestellung vor: die Gerichte, den Namen, die Summe und wann alles fertig ist. Erst wenn der Anrufer wirklich „Ja“ gesagt hat, gibt er die Bestellung auf — und das prüft das System selbst, es wird nicht der KI überlassen. Danach landet die Bestellung im eigenen Bestellsystem des Restaurants, genau wie eine Bestellung aus dem Webshop, und die Küche hat sie sofort. Der Assistent kann nur neue Abholbestellungen aufgeben: Er kann nichts einsehen, ändern, stornieren oder erstatten.',
+        text: 'Bevor etwas ausgelöst wird, liest er die Bestellung vor: die Gerichte, den Namen, die Summe und wann sie fertig ist. Erst nach einem klaren Ja geht die Bestellung durch — und das prüft das System, nicht die KI. Danach landet sie im eigenen Bestellsystem des Restaurants, genau wie eine Webshop-Bestellung. Der Assistent kann nur neue Abholbestellungen aufgeben; ändern, stornieren oder erstatten kann er nichts.',
       },
       {
-        text: 'Am Telefon wirkt Stille sofort, als wäre etwas kaputt. Das Verstehen und die Stimme übernimmt eine spezialisierte Sprachplattform. Das Denken erledigt Claude, auf dem eigenen Server des Studios. Alles, was der Assistent vorab wissen kann, wird nachgeschlagen, bevor er zu sprechen beginnt, und braucht er doch einen Moment, sagt er das — so wie ein Mensch.',
-      },
-      {
-        text: 'Die Restaurant-Leitung ist nur eine Anwendung. Darunter steckt ein allgemeiner Assistent, der sich über eine API an fast jedes System anbinden lässt. Auf derselben Technik läuft bereits eine zweite Leitung: Sie erkennt Stammanrufer an ihrer Nummer, schaut in einen Kalender, bucht oder storniert Termine, nimmt Störungsmeldungen auf und leitet sie per E-Mail weiter oder verbindet den Anrufer mit einem Menschen.',
-      },
-      {
-        text: 'Und genau da wird es für andere Unternehmen spannend. Weil das Studio auch die Systeme dahinter baut — maßgeschneiderte CRMs, Buchungsplattformen, Webshops und Backoffices —, lässt sich der Assistent direkt daran anschließen: einen Kunden im CRM nachschlagen, ein Ticket anlegen, einen Termin einplanen, den Lagerbestand prüfen oder eine Bestellung in Kasse oder ERP anlegen. Friseure, Werkstätten, Praxen, Kanzleien, Vermieter: Überall, wo das Telefon jeden Tag mit denselben Fragen klingelt, kann ein Assistent rangehen — mit einem System dahinter, das sich alles merkt.',
+        text: 'Das Verstehen und die Stimme kommen von einer spezialisierten Sprachplattform, das Denken von Claude auf dem eigenen Server des Studios. Unter der Restaurant-Leitung steckt ein allgemeiner Assistent, der sich über eine API an fast jedes System anbinden lässt — und weil das Studio diese Systeme selbst baut, von CRMs bis zu Buchungsplattformen und Webshops, lässt er sich direkt anschließen. Überall, wo das Telefon jeden Tag mit denselben Fragen klingelt, kann ein Assistent rangehen.',
       },
     ],
   },

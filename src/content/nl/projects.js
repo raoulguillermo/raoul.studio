@@ -366,22 +366,16 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Restaurants missen elke avond bestellingen, simpelweg omdat niemand de telefoon kan opnemen als het druk is in de keuken. Deze telefoonassistent neemt dan op. Een klant belt het gewone nummer van het restaurant, zegt wat hij wil — “twee broodjes en een grote rijstschotel” — en praat met een AI die klinkt als een mens, hem begrijpt en de bestelling opschrijft.',
+        text: 'Restaurants missen elke avond bestellingen, simpelweg omdat niemand de telefoon kan opnemen als de keuken vol staat. Deze assistent neemt wél op: een klant belt het gewone nummer van het restaurant, zegt wat hij wil, en een AI noteert de bestelling.',
       },
       {
-        text: 'Hij werkt met het echte menu, de openingstijden en de afhaaltijden van het restaurant, die tijdens het gesprek vers worden opgehaald. Zo biedt hij alleen gerechten aan die echt op de kaart staan, weet hij wat er uitverkocht is, kent hij de formaten en de extra’s en wat die kosten, en kiest hij de vroegste tijd waarop de bestelling klaar kan staan. Hij spreekt Nederlands, en schakelt gewoon over naar Engels als de beller dat doet.',
+        text: 'Hij werkt met de echte kaart, openingstijden en afhaaltijden van het restaurant, opgehaald terwijl het gesprek loopt. Zo biedt hij alleen aan wat er echt is, met de juiste maten, extra’s en prijzen, en kiest hij het vroegste moment waarop de bestelling klaar kan zijn. Hij spreekt Nederlands en schakelt over op Engels als de beller dat doet.',
       },
       {
-        text: 'Een bestelling over de telefoon moet kloppen, dus de assistent werkt in twee stappen. Eerst telt hij alles op en leest hij de bestelling terug: de gerechten, de naam, het totaal en wanneer het klaarstaat. Pas als de beller echt “ja” heeft gezegd, plaatst hij de bestelling — en dat controleert het systeem zelf, dat wordt niet aan de AI overgelaten. Daarna komt de bestelling in het eigen bestelsysteem van het restaurant terecht, net als een bestelling uit de webshop, en de keuken heeft hem meteen binnen. De assistent kan alleen nieuwe afhaalbestellingen plaatsen: hij kan niets inzien, wijzigen, annuleren of terugbetalen.',
+        text: 'Voordat er iets wordt doorgezet, leest hij de bestelling terug: de gerechten, de naam, het totaal en wanneer het klaarstaat. Pas na een duidelijk ja gaat de bestelling erdoor — en dat controleert het systeem, niet de AI. Daarna komt hij binnen in het eigen bestelsysteem van het restaurant, net als een webshopbestelling. De assistent kan alleen nieuwe afhaalbestellingen plaatsen; wijzigen, annuleren of terugbetalen kan hij niet.',
       },
       {
-        text: 'Aan de telefoon voelt stilte meteen alsof er iets stuk is. Het verstaan en de stem regelt een gespecialiseerd spraakplatform. Het denkwerk doet Claude, op onze eigen server. Alles wat de assistent vooraf al kan weten, wordt opgezocht voordat hij begint te praten, en heeft hij toch even nodig, dan zegt hij dat, net als een mens.',
-      },
-      {
-        text: 'De restaurantlijn is maar één toepassing. Eronder zit een algemene assistent die via een API aan bijna elk systeem te koppelen is. Op dezelfde techniek draait al een tweede lijn: die herkent vaste bellers aan hun nummer, kijkt in een agenda, maakt of annuleert afspraken, noteert een storing en mailt die door, of verbindt de beller door met een mens.',
-      },
-      {
-        text: 'En daar wordt het interessant voor andere bedrijven. Omdat de studio ook de systemen erachter bouwt — CRM’s op maat, boekingsplatforms, webshops en beheeromgevingen — kan de assistent daar direct op aangesloten worden: een klant opzoeken in je CRM, een ticket aanmaken, een afspraak inplannen, voorraad checken of een bestelling in je kassa of ERP zetten. Kappers, garages, klinieken, advocatenkantoren, verhuurbedrijven: overal waar de telefoon elke dag met dezelfde vragen gaat, kan een assistent opnemen — met een systeem erachter dat alles onthoudt.',
+        text: 'Het verstaan en de stem komen van een gespecialiseerd spraakplatform, het denkwerk van Claude op onze eigen server. Onder de restaurantlijn zit een algemene assistent die via een API aan bijna elk systeem te koppelen is — en omdat de studio die systemen ook zelf bouwt, van CRM’s tot boekingsplatforms en webshops, kan hij er direct op worden aangesloten. Overal waar de telefoon elke dag met dezelfde vragen gaat, kan een assistent opnemen.',
       },
     ],
   },
