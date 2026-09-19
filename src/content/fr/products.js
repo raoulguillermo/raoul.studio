@@ -262,6 +262,125 @@ export const products = {
     },
     posterRailMiddle: 'Poofy · Un geste, c’est fait',
   },
+
+  crm: {
+    meta: {
+      title: 'CRM — un CRM sur mesure construit autour de votre façon de travailler',
+      description:
+        'Un CRM conçu et construit pour une seule entreprise : clients, dossiers ou pipelines, temps et facturation avec paiement en ligne, commandes, documents, tableaux de bord et droits par rôle — connecté à vos propres outils. Construit pour un cabinet d’avocats, un label musical et un restaurant.',
+    },
+    eyebrow: 'Logiciel · CRM',
+    titleLine1: 'CRM',
+    titleLine2: 'sur mesure',
+    lead: 'Un CRM construit autour de la façon dont votre entreprise fonctionne vraiment — pas un outil générique auquel vous devez vous plier.',
+    primaryCta: 'Prévoir un échange',
+    caseStudyCta: '',
+    highlights: [
+      { label: 'Conçu pour', value: 'Votre façon exacte de travailler' },
+      { label: 'Se connecte à', value: 'Paiements, e-mail, caisse, agents IA' },
+      { label: 'Utilisé par', value: 'Un cabinet d’avocats, un label, un restaurant' },
+    ],
+    problem: {
+      label: 'Le problème',
+      heading: 'Un CRM standard ne convient exactement à personne.',
+      body: [
+        'Ils sont conçus pour l’entreprise moyenne, alors la vôtre finit par travailler autour : des tableurs à côté, des champs qui veulent dire autre chose, des factures dans un autre outil et une équipe qui recopie trois fois les mêmes données.',
+        'Un CRM sur mesure part de l’autre bout. Il est façonné autour de vos clients, de votre processus et de vos documents — pour que le système fasse l’administratif et votre équipe, le travail.',
+      ],
+    },
+    steps: {
+      label: 'Comment le studio le construit',
+      items: [
+        {
+          title: 'Cartographier le travail',
+          body: 'Le studio s’assoit avec les personnes qui vont l’utiliser et cartographie la façon dont le travail circule vraiment : ce qui arrive, qui le prend en charge, ce qui est facturé et ce qu’il faut suivre.',
+        },
+        {
+          title: 'Conçu autour de vous',
+          body: 'Vos propres éléments — clients et dossiers, artistes et événements, plats et commandes — avec les champs, statuts et droits que votre entreprise utilise vraiment.',
+        },
+        {
+          title: 'Construire par étapes qui marchent',
+          body: 'Le cœur est mis en ligne en premier, pour que votre équipe l’utilise tôt. Facturation, paiements, portails et intégrations suivent, chacun testé sur du vrai travail.',
+        },
+        {
+          title: 'Le faire grandir',
+          body: 'Une fois en service, le studio continue de l’étendre — un nouveau rapport, une nouvelle connexion ou des agents IA qui déchargent votre équipe.',
+        },
+      ],
+    },
+    features: {
+      label: 'Ce qu’il peut contenir',
+      items: [
+        { title: 'Clients, dossiers et pipelines', body: 'Des clients avec leurs dossiers ou projets, les parties et contacts, et des pipelines avec les étapes que votre entreprise a réellement.' },
+        { title: 'Temps et facturation', body: 'Un chronomètre en direct par dossier, des heures transformées en factures, des PDF à vos couleurs envoyés par e-mail avec un lien de paiement qui les marque payées automatiquement.' },
+        { title: 'Commandes et paiements', body: 'Des commandes qui passent de nouvelle à terminée, le paiement en ligne, les remboursements et un stock qui se met à jour tout seul.' },
+        { title: 'Documents et fichiers', body: 'Un dossier par client ou par affaire, une arborescence standard créée automatiquement et des fichiers qui restent là où se fait le travail.' },
+        { title: 'Tableaux de bord et rapports', body: 'Les chiffres qui font tourner votre entreprise en un coup d’œil, plus des rapports PDF sur les finances, les heures et le travail en cours.' },
+        { title: 'Accès et sécurité', body: 'Des droits par rôle et par module, des invitations pour les nouveaux utilisateurs et une connexion avec double authentification.' },
+      ],
+    },
+    useCases: {
+      label: 'Pensé pour',
+      lead: 'Les entreprises dont la façon de travailler ne rentre pas dans une case standard.',
+      items: ['Avocats et services professionnels', 'Labels, agences et événements', 'Restauration et commerce', 'Entreprises de services', 'Associations et fondations', 'Équipes en croissance'],
+    },
+    references: {
+      label: 'Références',
+      lead: 'Des CRM que le studio a construits et fait tourner aujourd’hui.',
+      items: [
+        {
+          sector: 'Cabinet d’avocats · Rotterdam',
+          body: 'La gestion des dossiers de tout le cabinet : clients et dossiers, un chronomètre en direct sur chaque dossier, les quatre types de factures des avocats néerlandais, des factures PDF à ses couleurs envoyées par e-mail avec un lien de paiement qui les marque payées, des rapports PDF, un dossier de documents par affaire et des droits par rôle avec double authentification.',
+        },
+        {
+          sector: 'Label musical et événements',
+          body: 'Le système sur lequel tourne le label : un pipeline d’artistes du premier contact à la signature, des boîtes de réception pour les démos et les candidatures aux sessions venant du site, la production d’événements avec programmation, budget, partenaires et subventions, un agenda partagé et un portail où les artistes gèrent leur propre profil.',
+        },
+        {
+          sector: 'Restaurant · Schiedam',
+          body: 'La gestion des commandes d’un restaurant : un flux cuisine de nouvelle à prête, des remboursements depuis l’administration, des plats avec allergènes et photos, des horaires d’ouverture et un bouton pause — avec un agent téléphonique IA qui fait entrer les commandes dans le même flux.',
+        },
+      ],
+    },
+    faq: {
+      label: 'FAQ',
+      items: [
+        {
+          q: 'Pourquoi pas un CRM existant ?',
+          a: 'Si un CRM standard convient à votre entreprise, utilisez-le. Le sur-mesure a du sens quand votre processus, vos factures ou vos données n’y entrent pas — et que votre équipe perd du temps à contourner le logiciel au lieu de travailler avec.',
+        },
+        {
+          q: 'Peut-il se connecter à nos outils actuels ?',
+          a: 'Oui. Paiements, e-mail, comptabilité, système de caisse, votre site ou votre boutique en ligne — le CRM est construit pour fonctionner avec ce que vous utilisez déjà.',
+        },
+        {
+          q: 'Des agents IA peuvent-ils y travailler ?',
+          a: 'Oui. Comme le studio construit lui-même le CRM, des agents IA peuvent y être branchés directement — répondre au téléphone, prendre des commandes ou préparer du travail, dans les limites des droits que vous leur donnez.',
+        },
+        {
+          q: 'Mes données sont-elles en sécurité ?',
+          a: 'Chaque utilisateur ne voit que ce que son rôle autorise, et la connexion peut exiger une double authentification. Le système est construit et maintenu par le studio : vous savez toujours où sont vos données et qui peut y accéder.',
+        },
+        {
+          q: 'Combien ça coûte ?',
+          a: 'Cela dépend de ce que le CRM doit faire. Après un premier échange, vous recevez une proposition claire avec un périmètre fixe, et le cœur peut être en ligne avant que tout le reste soit terminé.',
+        },
+      ],
+    },
+    getStarted: {
+      label: 'Prévoir un échange',
+      heading: 'Que doit faire votre CRM ?',
+      body: 'Dites-nous comment votre entreprise fonctionne aujourd’hui et où le logiciel vous gêne. Le studio revient vers vous sous 24 heures.',
+      form: {
+        messageLabel: 'Votre entreprise',
+        messagePlaceholder:
+          'Quel type d’entreprise, combien de personnes utiliseraient le CRM, et qu’utilisez-vous aujourd’hui (tableurs, CRM standard, outil de facturation…) ? Qu’est-ce qui prend le plus de temps ?',
+        sendLabel: 'prévoir un échange',
+      },
+    },
+    posterRailMiddle: 'CRM · Construit autour de votre entreprise',
+  },
 }
 
 export const productUi = {

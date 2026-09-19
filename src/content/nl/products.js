@@ -262,6 +262,125 @@ export const products = {
     },
     posterRailMiddle: 'Poofy · Swipe, klaar',
   },
+
+  crm: {
+    meta: {
+      title: 'CRM — een maatwerk-CRM rond hoe jouw bedrijf werkt',
+      description:
+        'Een CRM ontworpen en gebouwd voor één bedrijf: klanten, dossiers of pipelines, uren en facturatie met online betalen, bestellingen, documenten, dashboards en rechten per rol — gekoppeld aan je eigen tools. Gebouwd voor een advocatenkantoor, een platenlabel en een restaurant.',
+    },
+    eyebrow: 'Software · CRM',
+    titleLine1: 'Maatwerk',
+    titleLine2: 'CRM',
+    lead: 'Een CRM dat gebouwd is rond hoe jouw bedrijf echt werkt — geen standaardpakket waar je jezelf omheen moet buigen.',
+    primaryCta: 'Plan een gesprek',
+    caseStudyCta: '',
+    highlights: [
+      { label: 'Gebouwd voor', value: 'Precies jouw werkwijze' },
+      { label: 'Koppelt met', value: 'Betalingen, e-mail, kassa, AI-agents' },
+      { label: 'In gebruik bij', value: 'Een advocatenkantoor, een platenlabel, een restaurant' },
+    ],
+    problem: {
+      label: 'Het probleem',
+      heading: 'Een standaard-CRM past bij niemand precies.',
+      body: [
+        'Ze zijn gebouwd voor het gemiddelde bedrijf, dus werkt het jouwe eromheen: Excel ernaast, velden die iets anders betekenen, facturen in een ander pakket en een team dat dezelfde gegevens drie keer overtypt.',
+        'Een maatwerk-CRM begint aan de andere kant. Het wordt gevormd rond jouw klanten, jouw proces en jouw papierwerk — zodat het systeem de administratie doet en je team het werk.',
+      ],
+    },
+    steps: {
+      label: 'Hoe de studio het bouwt',
+      items: [
+        {
+          title: 'De werkwijze in kaart',
+          body: 'De studio gaat om tafel met de mensen die ermee gaan werken en brengt in kaart hoe het werk echt loopt: wat er binnenkomt, wie het oppakt, wat er gefactureerd wordt en wat er gerapporteerd moet worden.',
+        },
+        {
+          title: 'Ontworpen rond jou',
+          body: 'Jouw eigen onderdelen — klanten en dossiers, artiesten en evenementen, gerechten en bestellingen — met de velden, statussen en rechten die jouw bedrijf echt gebruikt.',
+        },
+        {
+          title: 'Bouwen in werkende stappen',
+          body: 'De kern gaat als eerste live, zodat je team er vroeg mee werkt. Facturatie, betalingen, portalen en koppelingen volgen, elk getest met echt werk.',
+        },
+        {
+          title: 'Blijven doorgroeien',
+          body: 'Zodra het draait, blijft de studio het uitbreiden — een nieuw rapport, een nieuwe koppeling, of AI-agents die werk van je team overnemen.',
+        },
+      ],
+    },
+    features: {
+      label: 'Wat erin kan zitten',
+      items: [
+        { title: 'Klanten, dossiers & pipelines', body: 'Klanten met hun dossiers of projecten, partijen en contacten, en pipelines met de fases die jouw bedrijf echt heeft.' },
+        { title: 'Uren & facturatie', body: 'Een live timer per dossier, uren die facturen worden, huisstijl-pdf’s per mail met een betaallink die de factuur automatisch op betaald zet.' },
+        { title: 'Bestellingen & betalingen', body: 'Bestellingen die van nieuw naar klaar lopen, online betalen, terugbetalingen en voorraad die zichzelf bijwerkt.' },
+        { title: 'Documenten & bestanden', body: 'Een map per klant of dossier, een vaste mapstructuur die automatisch wordt aangemaakt, en bestanden die blijven waar het werk is.' },
+        { title: 'Dashboards & rapportages', body: 'De cijfers waar je bedrijf op draait in één oogopslag, plus pdf-rapportages over financiën, uren en openstaand werk.' },
+        { title: 'Toegang & beveiliging', body: 'Rechten per rol en per onderdeel, uitnodigingen voor nieuwe gebruikers en inloggen met tweestapsverificatie.' },
+      ],
+    },
+    useCases: {
+      label: 'Gemaakt voor',
+      lead: 'Bedrijven waarvan de werkwijze niet in een standaardhokje past.',
+      items: ['Advocaten & zakelijke dienstverlening', 'Labels, bureaus & evenementen', 'Horeca & retail', 'Dienstverleners', 'Verenigingen & stichtingen', 'Groeiende teams'],
+    },
+    references: {
+      label: 'Referenties',
+      lead: 'CRM’s die de studio heeft gebouwd en vandaag draait.',
+      items: [
+        {
+          sector: 'Advocatenkantoor · Rotterdam',
+          body: 'Dossierbeheer voor het hele kantoor: cliënten en dossiers, een live timer op elk dossier, de vier Nederlandse factuursoorten voor advocaten, facturen in huisstijl per mail met een betaallink die de factuur op betaald zet, pdf-rapportages, een documentmap per dossier en rechten per rol met tweestapsverificatie.',
+        },
+        {
+          sector: 'Platenlabel & evenementen',
+          body: 'Het systeem waar het label op draait: een artiestenpipeline van eerste contact tot getekend, inboxen voor demo’s en sessie-aanmeldingen vanaf de website, evenementproductie met timetable, begroting, partners en subsidies, één gedeelde agenda en een portaal waarin artiesten hun eigen profiel beheren.',
+        },
+        {
+          sector: 'Restaurant · Schiedam',
+          body: 'Bestelbeheer voor een restaurant: een keukenflow van nieuw tot klaar, terugbetalen vanuit het beheer, gerechten met allergenen en foto’s, openingstijden en een pauzeknop — met een AI-telefoonassistent die bestellingen in dezelfde flow zet.',
+        },
+      ],
+    },
+    faq: {
+      label: 'FAQ',
+      items: [
+        {
+          q: 'Waarom geen bestaand CRM?',
+          a: 'Past een standaard-CRM bij je bedrijf, gebruik het dan. Maatwerk is zinvol als je proces, je facturen of je gegevens er niet in passen — en je team tijd verliest met om de software heen werken in plaats van ermee.',
+        },
+        {
+          q: 'Kan het koppelen met de tools die we al gebruiken?',
+          a: 'Ja. Betalingen, e-mail, boekhouding, een kassasysteem, je website of webshop — het CRM wordt gebouwd om samen te werken met wat je al hebt.',
+        },
+        {
+          q: 'Kunnen AI-agents erin werken?',
+          a: 'Ja. Omdat de studio het CRM zelf bouwt, kunnen AI-agents er direct op aangesloten worden — de telefoon opnemen, bestellingen aannemen of werk voorbereiden, binnen de rechten die jij ze geeft.',
+        },
+        {
+          q: 'Zijn mijn gegevens veilig?',
+          a: 'Elke gebruiker ziet alleen wat zijn rol toestaat, en inloggen kan met tweestapsverificatie. Het systeem wordt door de studio gebouwd en onderhouden, dus je weet altijd waar je gegevens staan en wie erbij kan.',
+        },
+        {
+          q: 'Wat kost het?',
+          a: 'Dat hangt af van wat het CRM moet kunnen. Na een eerste gesprek krijg je een helder voorstel met een vaste scope, en de kern kan live voordat al het andere af is.',
+        },
+      ],
+    },
+    getStarted: {
+      label: 'Plan een gesprek',
+      heading: 'Wat moet jouw CRM doen?',
+      body: 'Vertel ons hoe je bedrijf vandaag draait en waar de software in de weg zit. De studio reageert binnen 24 uur.',
+      form: {
+        messageLabel: 'Je bedrijf',
+        messagePlaceholder:
+          'Wat voor bedrijf is het, met hoeveel mensen zou je het CRM gebruiken, en wat gebruik je nu (Excel, een standaard-CRM, een factuurpakket…)? Wat kost de meeste tijd?',
+        sendLabel: 'plan een gesprek',
+      },
+    },
+    posterRailMiddle: 'CRM · Gebouwd rond jouw bedrijf',
+  },
 }
 
 export const productUi = {

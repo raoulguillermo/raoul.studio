@@ -262,6 +262,125 @@ export const products = {
     },
     posterRailMiddle: 'Poofy · Swipe it, done',
   },
+
+  crm: {
+    meta: {
+      title: 'CRM — a custom CRM built around how your business runs',
+      description:
+        'A CRM designed and built for one business: clients, cases or pipelines, hours and invoicing with online payment, orders, documents, dashboards and role-based access — connected to your own tools. Built for a law firm, a record label and a restaurant.',
+    },
+    eyebrow: 'Software · CRM',
+    titleLine1: 'Custom',
+    titleLine2: 'CRM',
+    lead: 'A CRM built around how your business actually runs — not a generic tool you have to bend yourself around.',
+    primaryCta: 'Plan a conversation',
+    caseStudyCta: '',
+    highlights: [
+      { label: 'Built for', value: 'Your exact workflow' },
+      { label: 'Connects', value: 'Payments, email, till, AI agents' },
+      { label: 'In use at', value: 'A law firm, a record label, a restaurant' },
+    ],
+    problem: {
+      label: 'The problem',
+      heading: 'Off-the-shelf CRMs fit nobody exactly.',
+      body: [
+        'They’re built for the average business, so yours ends up working around them: spreadsheets on the side, fields that mean something else, invoices made in another tool, and a team that copies the same data three times.',
+        'A custom CRM starts from the other end. It’s shaped around your clients, your process and your paperwork — so the system does the admin, and your team does the work.',
+      ],
+    },
+    steps: {
+      label: 'How the studio builds it',
+      items: [
+        {
+          title: 'Map the workflow',
+          body: 'The studio sits down with the people who’ll use it and maps how work really flows: what comes in, who picks it up, what gets billed and what needs to be reported.',
+        },
+        {
+          title: 'Design it around you',
+          body: 'Your own entities — clients and cases, artists and events, dishes and orders — with the fields, statuses and rights your business actually uses.',
+        },
+        {
+          title: 'Build in working steps',
+          body: 'The core goes live first, so your team is using it early. Invoicing, payments, portals and integrations follow, each one tested with real work.',
+        },
+        {
+          title: 'Keep it growing',
+          body: 'Once it runs, the studio keeps extending it — a new report, a new connection, or AI agents that take work off your team.',
+        },
+      ],
+    },
+    features: {
+      label: 'What it can include',
+      items: [
+        { title: 'Clients, cases & pipelines', body: 'Clients with their cases or projects, parties and contacts, and pipelines with the stages your business really has.' },
+        { title: 'Hours & invoicing', body: 'A live timer per case, hours turned into invoices, branded PDFs sent by email with an online payment link that marks them paid automatically.' },
+        { title: 'Orders & payments', body: 'Orders that move from new to done, online payments, refunds and stock that updates itself.' },
+        { title: 'Documents & files', body: 'A folder per client or case, a standard structure that’s set up automatically, and files that stay where the work is.' },
+        { title: 'Dashboards & reports', body: 'The numbers that run your business at a glance, plus PDF reports for finances, hours and open work.' },
+        { title: 'Access & security', body: 'Rights per role and per module, invitations for new users and two-factor login.' },
+      ],
+    },
+    useCases: {
+      label: 'Made for',
+      lead: 'Businesses whose way of working doesn’t fit in a standard box.',
+      items: ['Law firms & professional services', 'Labels, agencies & events', 'Restaurants & retail', 'Service businesses', 'Associations & foundations', 'Growing teams'],
+    },
+    references: {
+      label: 'References',
+      lead: 'CRMs the studio has built and runs today.',
+      items: [
+        {
+          sector: 'Law firm · Rotterdam',
+          body: 'Case management for the whole practice: clients and cases, a live timer on every case, the four Dutch legal invoice types, branded invoice PDFs sent by email with an online payment link that marks the invoice paid, PDF reports, a document folder per case, and role-based access with two-factor login.',
+        },
+        {
+          sector: 'Record label & events',
+          body: 'The system the label runs on: an artist pipeline from first contact to signed, demo and session inboxes fed by the website, event production with timetable, budget, partners and subsidies, one shared calendar, and a portal where artists manage their own profile.',
+        },
+        {
+          sector: 'Restaurant · Schiedam',
+          body: 'Order management for a restaurant: a kitchen order flow from new to ready, refunds from the admin panel, dishes with allergens and photos, opening hours and a pause switch — with an AI phone agent that takes orders into the same flow.',
+        },
+      ],
+    },
+    faq: {
+      label: 'FAQ',
+      items: [
+        {
+          q: 'Why not use an existing CRM?',
+          a: 'If a standard CRM fits your business, use it. A custom CRM makes sense when your process, your invoices or your data don’t fit — and your team is losing time working around the software instead of with it.',
+        },
+        {
+          q: 'Can it connect to the tools we already use?',
+          a: 'Yes. Payments, email, accounting, a till system, your website or webshop — the CRM is built to work with what you already run.',
+        },
+        {
+          q: 'Can AI agents work in it?',
+          a: 'Yes. Because the studio builds the CRM itself, AI agents can be wired straight into it — answering the phone, taking orders or preparing work, within the rights you give them.',
+        },
+        {
+          q: 'Is my data safe?',
+          a: 'Every user only sees what their role allows, and logins can require two-factor authentication. The system is built and maintained by the studio, so you always know where your data lives and who can reach it.',
+        },
+        {
+          q: 'What does it cost?',
+          a: 'It depends on what the CRM needs to do. After a first conversation you get a clear proposal with a fixed scope, and the core can go live before everything else is built.',
+        },
+      ],
+    },
+    getStarted: {
+      label: 'Plan a conversation',
+      heading: 'What should your CRM do?',
+      body: 'Tell us how your business runs today and where the software gets in the way. The studio replies within 24 hours.',
+      form: {
+        messageLabel: 'Your business',
+        messagePlaceholder:
+          'What kind of business is it, how many people would use the CRM, and what do you use today (spreadsheets, a standard CRM, invoicing tool…)? What costs the most time?',
+        sendLabel: 'plan a conversation',
+      },
+    },
+    posterRailMiddle: 'CRM · Built around your business',
+  },
 }
 
 // Chrome strings for the landing pages.

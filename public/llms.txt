@@ -14,6 +14,7 @@
 ## Software
 - [Voice AI](https://raoul.studio/voice-ai): An AI phone agent for any business — answers your normal number, takes orders, books appointments and logs requests straight into your own CRM, calendar, webshop or ERP. Dutch and English.
 - [No-CMS](https://raoul.studio/no-cms): Edit your website by sending a WhatsApp message — copy, colours, photos and layout, live on the fly. Early access.
+- [CRM](https://raoul.studio/crm): Custom CRMs built around how a business runs — clients and cases, hours and invoicing with online payment, orders, documents, dashboards and role-based access. References: Lexpert Advocaten (law firm), Footsteppa (record label & events), Greetje (restaurant, Schiedam).
 - [Poofy](https://raoul.studio/poofy): A free, swipe-first to-do app for iPhone (with widget) and the Mac menu bar, with offline sync. On the App Store: https://apps.apple.com/app/poofy/id6803196586
 
 ## Selected work

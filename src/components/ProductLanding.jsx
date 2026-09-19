@@ -271,6 +271,56 @@ export default async function ProductLanding({ slug }) {
         </section>
       ) : null}
 
+      {/* References — clients this was built for */}
+      {copy.references?.items?.length ? (
+        <section className="pb-16 md:pb-32 border-t border-ink/15 pt-12 md:pt-20">
+          <SectionLabel>{copy.references.label}</SectionLabel>
+          {copy.references.lead ? (
+            <p className="r max-w-3xl text-2xl md:text-4xl leading-snug font-normal text-ink mb-10 md:mb-14">
+              {copy.references.lead}
+            </p>
+          ) : null}
+          <div className="r divide-y divide-ink/15 border-t border-ink/15">
+            {copy.references.items.map((ref, i) => {
+              const meta = product.references?.[i] ?? {}
+              const name = (
+                <span className="font-display uppercase tracking-tight2 leading-[0.95] text-3xl md:text-5xl">
+                  {meta.name}
+                </span>
+              )
+              return (
+                <article
+                  key={i}
+                  className="py-8 md:py-10 grid grid-cols-1 md:grid-cols-12 gap-y-3 md:gap-x-12 items-baseline"
+                >
+                  <div className="md:col-span-5">
+                    {meta.href ? (
+                      <a
+                        href={meta.href}
+                        {...(meta.href.startsWith('http')
+                          ? { target: '_blank', rel: 'noopener noreferrer' }
+                          : {})}
+                        className="ul hover:text-accent transition-colors"
+                      >
+                        {name}
+                      </a>
+                    ) : (
+                      name
+                    )}
+                    <p className="mt-2 text-[11px] uppercase tracking-[.18em] font-semibold text-mute">
+                      {ref.sector}
+                    </p>
+                  </div>
+                  <p className="md:col-span-7 max-w-2xl text-base md:text-lg leading-relaxed text-ink/80">
+                    {ref.body}
+                  </p>
+                </article>
+              )
+            })}
+          </div>
+        </section>
+      ) : null}
+
       {/* FAQ */}
       {copy.faq?.items?.length ? (
         <section className="pb-16 md:pb-32 border-t border-ink/15 pt-12 md:pt-20">

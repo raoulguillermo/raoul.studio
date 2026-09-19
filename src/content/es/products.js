@@ -262,6 +262,125 @@ export const products = {
     },
     posterRailMiddle: 'Poofy · Desliza y listo',
   },
+
+  crm: {
+    meta: {
+      title: 'CRM — un CRM a medida construido según cómo funciona tu negocio',
+      description:
+        'Un CRM diseñado y construido para un solo negocio: clientes, expedientes o pipelines, horas y facturación con pago online, pedidos, documentos, paneles y permisos por rol — conectado a tus propias herramientas. Construido para un despacho de abogados, un sello discográfico y un restaurante.',
+    },
+    eyebrow: 'Software · CRM',
+    titleLine1: 'CRM',
+    titleLine2: 'a medida',
+    lead: 'Un CRM construido según cómo funciona de verdad tu negocio — no una herramienta genérica a la que tienes que adaptarte.',
+    primaryCta: 'Agenda una conversación',
+    caseStudyCta: '',
+    highlights: [
+      { label: 'Hecho para', value: 'Tu forma exacta de trabajar' },
+      { label: 'Se conecta a', value: 'Pagos, correo, caja, agentes de IA' },
+      { label: 'En uso en', value: 'Un despacho, un sello discográfico, un restaurante' },
+    ],
+    problem: {
+      label: 'El problema',
+      heading: 'Los CRM estándar no encajan del todo con nadie.',
+      body: [
+        'Están hechos para el negocio medio, así que el tuyo acaba trabajando a su alrededor: hojas de cálculo aparte, campos que significan otra cosa, facturas en otra herramienta y un equipo que copia los mismos datos tres veces.',
+        'Un CRM a medida empieza por el otro extremo. Se diseña en torno a tus clientes, tu proceso y tu papeleo — para que el sistema haga la administración y tu equipo, el trabajo.',
+      ],
+    },
+    steps: {
+      label: 'Cómo lo construye el estudio',
+      items: [
+        {
+          title: 'Mapear el flujo de trabajo',
+          body: 'El estudio se sienta con quienes lo van a usar y mapea cómo fluye realmente el trabajo: qué entra, quién lo recoge, qué se factura y qué hay que reportar.',
+        },
+        {
+          title: 'Diseñado en torno a ti',
+          body: 'Tus propias piezas — clientes y expedientes, artistas y eventos, platos y pedidos — con los campos, estados y permisos que tu negocio usa de verdad.',
+        },
+        {
+          title: 'Construir en pasos que funcionan',
+          body: 'El núcleo sale primero, para que tu equipo lo use pronto. Facturación, pagos, portales e integraciones llegan después, cada uno probado con trabajo real.',
+        },
+        {
+          title: 'Seguir creciendo',
+          body: 'Una vez en marcha, el estudio lo sigue ampliando — un informe nuevo, una integración nueva o agentes de IA que le quitan trabajo a tu equipo.',
+        },
+      ],
+    },
+    features: {
+      label: 'Qué puede incluir',
+      items: [
+        { title: 'Clientes, expedientes y pipelines', body: 'Clientes con sus expedientes o proyectos, partes y contactos, y pipelines con las fases que tu negocio tiene de verdad.' },
+        { title: 'Horas y facturación', body: 'Un temporizador en vivo por expediente, horas que se convierten en facturas y PDF con tu marca enviados por correo con un enlace de pago que las marca como pagadas automáticamente.' },
+        { title: 'Pedidos y pagos', body: 'Pedidos que pasan de nuevo a completado, pagos online, reembolsos y un stock que se actualiza solo.' },
+        { title: 'Documentos y archivos', body: 'Una carpeta por cliente o expediente, una estructura estándar que se crea automáticamente y archivos que se quedan donde está el trabajo.' },
+        { title: 'Paneles e informes', body: 'Las cifras que mueven tu negocio de un vistazo, más informes en PDF sobre finanzas, horas y trabajo pendiente.' },
+        { title: 'Acceso y seguridad', body: 'Permisos por rol y por módulo, invitaciones para nuevos usuarios e inicio de sesión con verificación en dos pasos.' },
+      ],
+    },
+    useCases: {
+      label: 'Pensado para',
+      lead: 'Negocios cuya forma de trabajar no cabe en una caja estándar.',
+      items: ['Despachos y servicios profesionales', 'Sellos, agencias y eventos', 'Hostelería y comercio', 'Empresas de servicios', 'Asociaciones y fundaciones', 'Equipos en crecimiento'],
+    },
+    references: {
+      label: 'Referencias',
+      lead: 'CRM que el estudio ha construido y opera hoy.',
+      items: [
+        {
+          sector: 'Despacho de abogados · Róterdam',
+          body: 'Gestión de expedientes para todo el despacho: clientes y expedientes, un temporizador en vivo en cada expediente, los cuatro tipos de factura para abogados en los Países Bajos, facturas en PDF con su marca enviadas por correo con un enlace de pago que las marca como pagadas, informes en PDF, una carpeta de documentos por expediente y permisos por rol con verificación en dos pasos.',
+        },
+        {
+          sector: 'Sello discográfico y eventos',
+          body: 'El sistema con el que funciona el sello: un pipeline de artistas desde el primer contacto hasta la firma, bandejas de demos y solicitudes de sesión que llegan desde la web, producción de eventos con horarios, presupuesto, socios y subvenciones, un calendario compartido y un portal donde los artistas gestionan su propio perfil.',
+        },
+        {
+          sector: 'Restaurante · Schiedam',
+          body: 'Gestión de pedidos para un restaurante: un flujo de cocina de nuevo a listo, reembolsos desde el panel, platos con alérgenos y fotos, horarios y un botón de pausa — con un agente telefónico de IA que mete los pedidos en el mismo flujo.',
+        },
+      ],
+    },
+    faq: {
+      label: 'FAQ',
+      items: [
+        {
+          q: '¿Por qué no usar un CRM existente?',
+          a: 'Si un CRM estándar encaja con tu negocio, úsalo. Uno a medida tiene sentido cuando tu proceso, tus facturas o tus datos no encajan — y tu equipo pierde tiempo trabajando alrededor del software en lugar de con él.',
+        },
+        {
+          q: '¿Se puede conectar con las herramientas que ya usamos?',
+          a: 'Sí. Pagos, correo, contabilidad, un sistema de caja, tu web o tienda online — el CRM se construye para funcionar con lo que ya tienes.',
+        },
+        {
+          q: '¿Pueden trabajar agentes de IA en él?',
+          a: 'Sí. Como el estudio construye el CRM, los agentes de IA pueden conectarse directamente — contestar el teléfono, tomar pedidos o preparar trabajo, dentro de los permisos que tú les des.',
+        },
+        {
+          q: '¿Están seguros mis datos?',
+          a: 'Cada usuario solo ve lo que su rol permite, y el inicio de sesión puede exigir verificación en dos pasos. El sistema lo construye y mantiene el estudio, así siempre sabes dónde están tus datos y quién puede acceder.',
+        },
+        {
+          q: '¿Cuánto cuesta?',
+          a: 'Depende de lo que tenga que hacer el CRM. Tras una primera conversación recibes una propuesta clara con un alcance cerrado, y el núcleo puede estar en marcha antes de que todo lo demás esté listo.',
+        },
+      ],
+    },
+    getStarted: {
+      label: 'Agenda una conversación',
+      heading: '¿Qué debería hacer tu CRM?',
+      body: 'Cuéntanos cómo funciona hoy tu negocio y dónde te estorba el software. El estudio responde en menos de 24 horas.',
+      form: {
+        messageLabel: 'Tu negocio',
+        messagePlaceholder:
+          '¿Qué tipo de negocio es, cuántas personas usarían el CRM y qué usáis hoy (hojas de cálculo, un CRM estándar, una herramienta de facturación…)? ¿Qué es lo que más tiempo os cuesta?',
+        sendLabel: 'agenda una conversación',
+      },
+    },
+    posterRailMiddle: 'CRM · Construido en torno a tu negocio',
+  },
 }
 
 export const productUi = {

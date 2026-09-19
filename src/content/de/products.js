@@ -262,6 +262,125 @@ export const products = {
     },
     posterRailMiddle: 'Poofy · Wischen, erledigt',
   },
+
+  crm: {
+    meta: {
+      title: 'CRM — ein individuelles CRM, gebaut um Ihre Arbeitsweise',
+      description:
+        'Ein CRM, entworfen und gebaut für ein Unternehmen: Kunden, Akten oder Pipelines, Zeiterfassung und Rechnungen mit Online-Zahlung, Bestellungen, Dokumente, Dashboards und Rechte pro Rolle — verbunden mit Ihren eigenen Tools. Gebaut für eine Anwaltskanzlei, ein Plattenlabel und ein Restaurant.',
+    },
+    eyebrow: 'Software · CRM',
+    titleLine1: 'Individuelles',
+    titleLine2: 'CRM',
+    lead: 'Ein CRM, das um die tatsächliche Arbeitsweise Ihres Unternehmens gebaut ist — kein Standardtool, an das Sie sich anpassen müssen.',
+    primaryCta: 'Gespräch vereinbaren',
+    caseStudyCta: '',
+    highlights: [
+      { label: 'Gebaut für', value: 'Genau Ihre Arbeitsweise' },
+      { label: 'Verbindet', value: 'Zahlungen, E-Mail, Kasse, KI-Agenten' },
+      { label: 'Im Einsatz bei', value: 'Einer Kanzlei, einem Plattenlabel, einem Restaurant' },
+    ],
+    problem: {
+      label: 'Das Problem',
+      heading: 'Standard-CRMs passen zu niemandem genau.',
+      body: [
+        'Sie sind für das durchschnittliche Unternehmen gebaut, also arbeitet Ihres drumherum: Tabellen nebenher, Felder, die etwas anderes bedeuten, Rechnungen in einem anderen Tool und ein Team, das dieselben Daten dreimal abtippt.',
+        'Ein individuelles CRM beginnt am anderen Ende. Es wird um Ihre Kunden, Ihren Prozess und Ihre Unterlagen geformt — damit das System die Verwaltung erledigt und Ihr Team die Arbeit.',
+      ],
+    },
+    steps: {
+      label: 'So baut das Studio es',
+      items: [
+        {
+          title: 'Den Arbeitsablauf erfassen',
+          body: 'Das Studio setzt sich mit den Menschen zusammen, die damit arbeiten werden, und erfasst, wie die Arbeit wirklich läuft: was hereinkommt, wer es übernimmt, was abgerechnet und was berichtet werden muss.',
+        },
+        {
+          title: 'Um Sie herum entworfen',
+          body: 'Ihre eigenen Bausteine — Mandanten und Akten, Künstler und Events, Gerichte und Bestellungen — mit den Feldern, Status und Rechten, die Ihr Unternehmen wirklich nutzt.',
+        },
+        {
+          title: 'In funktionierenden Schritten bauen',
+          body: 'Der Kern geht zuerst live, damit Ihr Team früh damit arbeitet. Rechnungen, Zahlungen, Portale und Anbindungen folgen, jeweils mit echter Arbeit getestet.',
+        },
+        {
+          title: 'Weiter wachsen lassen',
+          body: 'Sobald es läuft, erweitert das Studio es weiter — ein neuer Bericht, eine neue Anbindung oder KI-Agenten, die Ihrem Team Arbeit abnehmen.',
+        },
+      ],
+    },
+    features: {
+      label: 'Was es enthalten kann',
+      items: [
+        { title: 'Kunden, Akten & Pipelines', body: 'Kunden mit ihren Akten oder Projekten, Beteiligte und Kontakte, und Pipelines mit den Phasen, die Ihr Unternehmen wirklich hat.' },
+        { title: 'Zeiten & Rechnungen', body: 'Ein Live-Timer pro Akte, Zeiten, die zu Rechnungen werden, gebrandete PDFs per E-Mail mit Zahlungslink, der die Rechnung automatisch als bezahlt markiert.' },
+        { title: 'Bestellungen & Zahlungen', body: 'Bestellungen, die von neu bis erledigt laufen, Online-Zahlungen, Erstattungen und ein Bestand, der sich selbst aktualisiert.' },
+        { title: 'Dokumente & Dateien', body: 'Ein Ordner pro Kunde oder Akte, eine Standardstruktur, die automatisch angelegt wird, und Dateien, die dort bleiben, wo die Arbeit ist.' },
+        { title: 'Dashboards & Berichte', body: 'Die Kennzahlen Ihres Unternehmens auf einen Blick, dazu PDF-Berichte zu Finanzen, Stunden und offener Arbeit.' },
+        { title: 'Zugriff & Sicherheit', body: 'Rechte pro Rolle und Modul, Einladungen für neue Nutzer und Anmeldung mit Zwei-Faktor-Authentifizierung.' },
+      ],
+    },
+    useCases: {
+      label: 'Gemacht für',
+      lead: 'Unternehmen, deren Arbeitsweise in kein Standardschema passt.',
+      items: ['Kanzleien & Beratung', 'Labels, Agenturen & Events', 'Gastronomie & Handel', 'Dienstleister', 'Vereine & Stiftungen', 'Wachsende Teams'],
+    },
+    references: {
+      label: 'Referenzen',
+      lead: 'CRMs, die das Studio gebaut hat und heute betreibt.',
+      items: [
+        {
+          sector: 'Anwaltskanzlei · Rotterdam',
+          body: 'Aktenverwaltung für die ganze Kanzlei: Mandanten und Akten, ein Live-Timer auf jeder Akte, die vier niederländischen Rechnungsarten für Anwälte, gebrandete Rechnungs-PDFs per E-Mail mit Zahlungslink, der die Rechnung als bezahlt markiert, PDF-Berichte, ein Dokumentenordner pro Akte und Rechte pro Rolle mit Zwei-Faktor-Anmeldung.',
+        },
+        {
+          sector: 'Plattenlabel & Events',
+          body: 'Das System, auf dem das Label läuft: eine Künstler-Pipeline vom ersten Kontakt bis zur Unterschrift, Posteingänge für Demos und Session-Anmeldungen von der Website, Eventproduktion mit Timetable, Budget, Partnern und Fördermitteln, ein gemeinsamer Kalender und ein Portal, in dem Künstler ihr eigenes Profil pflegen.',
+        },
+        {
+          sector: 'Restaurant · Schiedam',
+          body: 'Bestellverwaltung für ein Restaurant: ein Küchenablauf von neu bis fertig, Erstattungen aus der Verwaltung, Gerichte mit Allergenen und Fotos, Öffnungszeiten und ein Pausenschalter — mit einem KI-Telefonassistenten, der Bestellungen in denselben Ablauf einträgt.',
+        },
+      ],
+    },
+    faq: {
+      label: 'FAQ',
+      items: [
+        {
+          q: 'Warum kein bestehendes CRM?',
+          a: 'Wenn ein Standard-CRM zu Ihrem Unternehmen passt, nutzen Sie es. Individuell lohnt sich, wenn Ihr Prozess, Ihre Rechnungen oder Ihre Daten nicht hineinpassen — und Ihr Team Zeit verliert, weil es um die Software herum arbeitet statt mit ihr.',
+        },
+        {
+          q: 'Lässt es sich mit unseren bestehenden Tools verbinden?',
+          a: 'Ja. Zahlungen, E-Mail, Buchhaltung, ein Kassensystem, Ihre Website oder Ihr Webshop — das CRM wird so gebaut, dass es mit dem zusammenarbeitet, was Sie bereits nutzen.',
+        },
+        {
+          q: 'Können KI-Agenten darin arbeiten?',
+          a: 'Ja. Weil das Studio das CRM selbst baut, lassen sich KI-Agenten direkt anbinden — Telefon annehmen, Bestellungen aufnehmen oder Arbeit vorbereiten, im Rahmen der Rechte, die Sie ihnen geben.',
+        },
+        {
+          q: 'Sind meine Daten sicher?',
+          a: 'Jeder Nutzer sieht nur, was seine Rolle erlaubt, und die Anmeldung kann eine Zwei-Faktor-Authentifizierung verlangen. Das System wird vom Studio gebaut und gewartet, sodass Sie immer wissen, wo Ihre Daten liegen und wer darauf zugreifen kann.',
+        },
+        {
+          q: 'Was kostet das?',
+          a: 'Das hängt davon ab, was das CRM können muss. Nach einem ersten Gespräch erhalten Sie ein klares Angebot mit festem Umfang, und der Kern kann live gehen, bevor alles andere fertig ist.',
+        },
+      ],
+    },
+    getStarted: {
+      label: 'Gespräch vereinbaren',
+      heading: 'Was soll Ihr CRM können?',
+      body: 'Erzählen Sie uns, wie Ihr Unternehmen heute läuft und wo die Software im Weg steht. Das Studio meldet sich innerhalb von 24 Stunden.',
+      form: {
+        messageLabel: 'Ihr Unternehmen',
+        messagePlaceholder:
+          'Was für ein Unternehmen ist es, wie viele Personen würden das CRM nutzen, und was verwenden Sie heute (Tabellen, ein Standard-CRM, ein Rechnungstool…)? Was kostet am meisten Zeit?',
+        sendLabel: 'gespräch vereinbaren',
+      },
+    },
+    posterRailMiddle: 'CRM · Gebaut um Ihr Unternehmen',
+  },
 }
 
 export const productUi = {

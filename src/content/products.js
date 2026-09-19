@@ -34,6 +34,22 @@ export const productRegistry = {
     appStoreUrl: APP_STORE_POOFY,
     schemaType: 'SoftwareApplication',
   },
+  crm: {
+    slug: 'crm',
+    name: 'CRM',
+    // Built for several clients, so no single case study — the clients are
+    // listed as references instead (copy per locale, names and links here).
+    caseStudySlug: null,
+    relatedCaseStudies: ['lexpert'],
+    references: [
+      { name: 'Lexpert Advocaten', href: '/projects/lexpert' },
+      { name: 'Footsteppa', href: '/projects/footsteppa' },
+      { name: 'Greetje', href: 'https://greetjeschiedam.nl' },
+    ],
+    cta: 'form',
+    source: 'CRM',
+    schemaType: 'Service',
+  },
 }
 
 export const productSlugs = Object.keys(productRegistry)
@@ -41,5 +57,9 @@ export const productSlugs = Object.keys(productRegistry)
 // Case-study slug → landing-page slug, for the "see the product" link on
 // /projects/[slug].
 export const productByCaseStudy = Object.fromEntries(
-  Object.values(productRegistry).map((p) => [p.caseStudySlug, p.slug]),
+  Object.values(productRegistry).flatMap((p) =>
+    [p.caseStudySlug, ...(p.relatedCaseStudies ?? [])]
+      .filter(Boolean)
+      .map((cs) => [cs, p.slug]),
+  ),
 )
