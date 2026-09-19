@@ -292,7 +292,7 @@ export const products = {
       label: 'Comment le studio le construit',
       items: [
         {
-          title: 'On regarde comment vous travaillez',
+          title: 'Tout part de votre travail',
           body: 'Le studio s’assoit avec ceux qui vont s’en servir : ce qui arrive, qui s’en occupe, ce qui part en facture et ce que vous voulez suivre.',
         },
         {
@@ -300,11 +300,11 @@ export const products = {
           body: 'Vos mots et vos étapes. Clients et dossiers, artistes et concerts, plats et commandes — ce qui fait tourner votre maison.',
         },
         {
-          title: 'Vous vous en servez vite',
-          body: 'La partie principale est mise en ligne d’abord, pour que votre équipe s’en serve tout de suite. Les factures, les paiements et le reste suivent, pièce par pièce.',
+          title: 'Il est construit',
+          body: 'D’abord le système en dessous, puis une conception claire à utiliser, puis du code prêt pour la production — un logiciel dans lequel votre équipe travaille tous les jours.',
         },
         {
-          title: 'Il continue de grandir',
+          title: 'Il grandit avec vous',
           body: 'Une fois en route, le studio continue d’y ajouter : un nouveau tableau, un lien avec un autre programme, ou des agents IA qui vous enlèvent du travail.',
         },
       ],
@@ -364,7 +364,7 @@ export const products = {
         },
         {
           q: 'Combien ça coûte ?',
-          a: 'Cela dépend de ce qu’il doit faire. Après un premier échange, vous recevez un prix clair pour un travail clairement défini, et la partie principale peut tourner avant que le reste soit fini.',
+          a: 'Cela dépend de ce qu’il doit faire : combien de personnes s’en servent, ce que vous voulez suivre, ce à quoi il doit se connecter. Dites au studio ce qu’il vous faut et vous aurez une réponse pour votre situation.',
         },
       ],
     },

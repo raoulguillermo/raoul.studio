@@ -292,7 +292,7 @@ export const products = {
       label: 'How the studio builds it',
       items: [
         {
-          title: 'We watch how you work',
+          title: 'It starts with your work',
           body: 'The studio sits down with the people who will use it: what comes in, who picks it up, what gets billed and what you need to keep track of.',
         },
         {
@@ -300,11 +300,11 @@ export const products = {
           body: 'Your own words and your own steps. Customers and cases, artists and shows, dishes and orders — whatever your business runs on.',
         },
         {
-          title: 'You use it early',
-          body: 'The main part goes live first, so your team works with it straight away. Invoices, payments and the rest follow, one piece at a time.',
+          title: 'It gets built',
+          body: 'First the system underneath, then a design that is clear to use, then production code — software your team can work in every day.',
         },
         {
-          title: 'It keeps growing',
+          title: 'It grows with you',
           body: 'When it is running, the studio keeps adding to it: a new report, a link to another program, or AI agents that take work off your hands.',
         },
       ],
@@ -364,7 +364,7 @@ export const products = {
         },
         {
           q: 'What does it cost?',
-          a: 'It depends on what it has to do. After a first talk you get a clear price for clearly agreed work, and the main part can be running before the rest is finished.',
+          a: 'It depends on what it has to do: how many people use it, what it has to keep track of, what it has to connect to. Tell the studio what you need and you get an answer for your situation.',
         },
       ],
     },

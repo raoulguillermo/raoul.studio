@@ -48,8 +48,8 @@ export const services = {
         body: 'The agents are wired into the tools you already run on: CRM, agenda, webshop, till, bookkeeping, email and phone. Where a system has no connection yet, the studio builds one — or builds the system itself.',
       },
       {
-        title: 'Run it alongside your team',
-        body: 'Before anything goes live, the agents run next to your team, proposing instead of acting, so you can check their work. Only what proves reliable is switched on.',
+        title: 'Test it on real work',
+        body: 'An agent is tested against the real work it will be doing, and you see what it produces before it is allowed to act on its own.',
       },
       {
         title: 'Hand over, then keep improving',
@@ -129,7 +129,7 @@ export const services = {
       },
       {
         q: 'What does it cost?',
-        a: 'It depends on how many agents, which systems they connect to and how much is custom-built. After a first conversation you get a clear proposal with a fixed scope.',
+        a: 'It depends on how many agents, which systems they connect to and how much is custom-built. Tell the studio what you have in mind and you get an answer for your situation.',
       },
     ],
   },

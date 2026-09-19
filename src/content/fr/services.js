@@ -48,8 +48,8 @@ export const services = {
         body: 'Les agents sont branchés sur les outils avec lesquels vous travaillez déjà : CRM, agenda, boutique en ligne, caisse, comptabilité, e-mail et téléphone. Quand un système n’a pas encore de connexion, le studio la construit — ou construit le système lui-même.',
       },
       {
-        title: 'Tourner aux côtés de votre équipe',
-        body: 'Avant toute mise en ligne, les agents fonctionnent à côté de votre équipe : ils proposent au lieu d’agir, pour que vous puissiez vérifier leur travail. Seul ce qui s’avère fiable est activé.',
+        title: 'Le tester sur du vrai travail',
+        body: 'Un agent est testé sur le vrai travail qu’il devra faire, et vous voyez ce qu’il produit avant qu’il soit autorisé à agir seul.',
       },
       {
         title: 'Passer la main, puis améliorer',
@@ -129,7 +129,7 @@ export const services = {
       },
       {
         q: 'Combien ça coûte ?',
-        a: 'Cela dépend du nombre d’agents, des systèmes à connecter et de la part de sur-mesure. Après un premier échange, vous recevez une proposition claire avec un périmètre fixe.',
+        a: 'Cela dépend du nombre d’agents, des systèmes à connecter et de la part de sur-mesure. Dites au studio ce que vous avez en tête et vous aurez une réponse pour votre situation.',
       },
     ],
   },

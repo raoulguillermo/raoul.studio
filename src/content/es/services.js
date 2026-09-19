@@ -48,8 +48,8 @@ export const services = {
         body: 'Los agentes se conectan a las herramientas con las que ya trabajas: CRM, agenda, tienda online, caja, contabilidad, correo y teléfono. Si un sistema aún no tiene conexión, el estudio la construye — o construye el sistema.',
       },
       {
-        title: 'Trabajar junto a tu equipo',
-        body: 'Antes de que nada salga en vivo, los agentes funcionan junto a tu equipo, proponiendo en lugar de actuar, para que puedas revisar su trabajo. Solo se activa lo que demuestra ser fiable.',
+        title: 'Probarlo con trabajo real',
+        body: 'Un agente se prueba con el trabajo real que va a hacer, y tú ves lo que produce antes de que pueda actuar por su cuenta.',
       },
       {
         title: 'Entregar y seguir mejorando',
@@ -129,7 +129,7 @@ export const services = {
       },
       {
         q: '¿Cuánto cuesta?',
-        a: 'Depende de cuántos agentes, a qué sistemas se conectan y cuánto se construye a medida. Tras una primera conversación recibes una propuesta clara con un alcance cerrado.',
+        a: 'Depende de cuántos agentes, a qué sistemas se conectan y cuánto se construye a medida. Cuéntale al estudio lo que tienes en mente y recibes una respuesta para tu caso.',
       },
     ],
   },

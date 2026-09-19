@@ -292,7 +292,7 @@ export const products = {
       label: 'So baut das Studio es',
       items: [
         {
-          title: 'Wir schauen zu, wie Sie arbeiten',
+          title: 'Es beginnt bei Ihrer Arbeit',
           body: 'Das Studio setzt sich mit den Leuten zusammen, die damit arbeiten werden: was hereinkommt, wer es übernimmt, was auf die Rechnung kommt und was Sie im Blick behalten wollen.',
         },
         {
@@ -300,11 +300,11 @@ export const products = {
           body: 'Ihre eigenen Worte und Ihre eigenen Schritte. Kunden und Akten, Künstler und Shows, Gerichte und Bestellungen — worauf Ihr Betrieb eben läuft.',
         },
         {
-          title: 'Sie arbeiten früh damit',
-          body: 'Der wichtigste Teil geht zuerst live, damit Ihr Team ihn sofort nutzt. Rechnungen, Zahlungen und der Rest folgen, Stück für Stück.',
+          title: 'Es wird gebaut',
+          body: 'Zuerst das System darunter, dann ein Entwurf, der klar zu bedienen ist, dann Code für den Produktivbetrieb — Software, in der Ihr Team jeden Tag arbeitet.',
         },
         {
-          title: 'Es wächst weiter',
+          title: 'Es wächst mit Ihnen',
           body: 'Wenn es läuft, baut das Studio weiter daran: eine neue Übersicht, eine Verbindung zu einem anderen Programm oder KI-Agenten, die Ihnen Arbeit abnehmen.',
         },
       ],
@@ -364,7 +364,7 @@ export const products = {
         },
         {
           q: 'Was kostet das?',
-          a: 'Das hängt davon ab, was es können muss. Nach einem ersten Gespräch bekommen Sie einen klaren Preis für klar vereinbarte Arbeit, und der wichtigste Teil kann laufen, bevor der Rest fertig ist.',
+          a: 'Das hängt davon ab, was es können muss: wie viele Leute damit arbeiten, was Sie im Blick behalten wollen, woran es angebunden wird. Sagen Sie dem Studio, was Sie brauchen, und Sie bekommen eine Antwort für Ihre Situation.',
         },
       ],
     },

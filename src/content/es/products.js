@@ -292,7 +292,7 @@ export const products = {
       label: 'Cómo lo construye el estudio',
       items: [
         {
-          title: 'Miramos cómo trabajas',
+          title: 'Empieza por tu trabajo',
           body: 'El estudio se sienta con quienes lo van a usar: qué entra, quién lo recoge, qué se cobra y qué quieres tener controlado.',
         },
         {
@@ -300,11 +300,11 @@ export const products = {
           body: 'Tus propias palabras y tus propios pasos. Clientes y expedientes, artistas y conciertos, platos y pedidos — lo que mueva tu negocio.',
         },
         {
-          title: 'Lo usas pronto',
-          body: 'La parte principal sale primero, para que tu equipo trabaje con ella enseguida. Las facturas, los pagos y lo demás llegan después, pieza a pieza.',
+          title: 'Se construye',
+          body: 'Primero el sistema de debajo, luego un diseño claro de usar, luego código listo para producción — software en el que tu equipo trabaja cada día.',
         },
         {
-          title: 'Sigue creciendo',
+          title: 'Crece contigo',
           body: 'Cuando ya funciona, el estudio le sigue añadiendo: un informe nuevo, una conexión con otro programa o agentes de IA que te quitan trabajo.',
         },
       ],
@@ -364,7 +364,7 @@ export const products = {
         },
         {
           q: '¿Cuánto cuesta?',
-          a: 'Depende de lo que tenga que hacer. Tras una primera charla recibes un precio claro por un trabajo claro, y la parte principal puede estar funcionando antes de que lo demás esté acabado.',
+          a: 'Depende de lo que tenga que hacer: cuánta gente lo usa, qué quieres controlar, con qué tiene que conectarse. Cuéntale al estudio lo que necesitas y recibes una respuesta para tu caso.',
         },
       ],
     },

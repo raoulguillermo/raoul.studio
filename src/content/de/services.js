@@ -48,8 +48,8 @@ export const services = {
         body: 'Die Agenten werden an die Tools angebunden, mit denen Sie bereits arbeiten: CRM, Kalender, Webshop, Kasse, Buchhaltung, E-Mail und Telefon. Fehlt einem System noch eine Schnittstelle, baut das Studio sie — oder gleich das System selbst.',
       },
       {
-        title: 'Parallel zu Ihrem Team laufen',
-        body: 'Bevor etwas live geht, laufen die Agenten neben Ihrem Team mit: Sie schlagen vor, statt zu handeln, damit Sie ihre Arbeit prüfen können. Nur was sich als zuverlässig erweist, wird eingeschaltet.',
+        title: 'An echter Arbeit testen',
+        body: 'Ein Agent wird an der echten Arbeit getestet, die er übernehmen soll, und Sie sehen seine Ergebnisse, bevor er selbstständig handeln darf.',
       },
       {
         title: 'Übergeben und weiter verbessern',
@@ -129,7 +129,7 @@ export const services = {
       },
       {
         q: 'Was kostet das?',
-        a: 'Das hängt davon ab, wie viele Agenten es sind, mit welchen Systemen sie verbunden werden und wie viel individuell gebaut wird. Nach einem ersten Gespräch erhalten Sie ein klares Angebot mit festem Umfang.',
+        a: 'Das hängt davon ab, wie viele Agenten es sind, mit welchen Systemen sie verbunden werden und wie viel individuell gebaut wird. Sagen Sie dem Studio, was Ihnen vorschwebt, und Sie bekommen eine Antwort für Ihre Situation.',
       },
     ],
   },

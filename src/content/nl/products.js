@@ -292,7 +292,7 @@ export const products = {
       label: 'Hoe de studio het bouwt',
       items: [
         {
-          title: 'We kijken hoe je werkt',
+          title: 'Het begint bij jouw werk',
           body: 'De studio gaat zitten met de mensen die ermee gaan werken: wat er binnenkomt, wie het oppakt, wat er op de rekening komt en wat je wilt bijhouden.',
         },
         {
@@ -300,11 +300,11 @@ export const products = {
           body: 'Jouw eigen woorden en jouw eigen stappen. Klanten en dossiers, artiesten en shows, gerechten en bestellingen — waar jouw bedrijf ook op draait.',
         },
         {
-          title: 'Je werkt er snel mee',
-          body: 'Het belangrijkste deel gaat als eerste live, zodat je team er meteen mee werkt. Facturen, betalingen en de rest komen daarna, stuk voor stuk.',
+          title: 'Het wordt gebouwd',
+          body: 'Eerst het systeem eronder, dan een ontwerp dat duidelijk werkt, dan code die de productie in kan — software waar je team elke dag in werkt.',
         },
         {
-          title: 'Het blijft groeien',
+          title: 'Het groeit met je mee',
           body: 'Als het draait, blijft de studio eraan toevoegen: een nieuw overzicht, een koppeling met een ander programma, of AI-agents die werk uit handen nemen.',
         },
       ],
@@ -364,7 +364,7 @@ export const products = {
         },
         {
           q: 'Wat kost het?',
-          a: 'Dat hangt af van wat het moet doen. Na een eerste gesprek krijg je een duidelijke prijs voor duidelijk afgesproken werk, en het belangrijkste deel kan al draaien voordat de rest af is.',
+          a: 'Dat hangt af van wat het moet doen: met hoeveel mensen je het gebruikt, wat je wilt bijhouden, waar het aan moet koppelen. Vertel de studio wat je nodig hebt en je krijgt antwoord voor jouw situatie.',
         },
       ],
     },

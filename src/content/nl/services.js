@@ -48,8 +48,8 @@ export const services = {
         body: 'De agents worden aangesloten op de tools waar je al op draait: CRM, agenda, webshop, kassa, boekhouding, e-mail en telefoon. Heeft een systeem nog geen koppeling, dan bouwt de studio die — of het systeem zelf.',
       },
       {
-        title: 'Meedraaien met je team',
-        body: 'Voordat er iets live gaat, draaien de agents naast je team mee: ze stellen voor in plaats van te handelen, zodat je hun werk kunt controleren. Alleen wat betrouwbaar blijkt, gaat aan.',
+        title: 'Testen op echt werk',
+        body: 'Een agent wordt getest op het echte werk dat hij gaat doen, en je ziet wat hij oplevert voordat hij zelfstandig mag handelen.',
       },
       {
         title: 'Overdragen en blijven verbeteren',
@@ -129,7 +129,7 @@ export const services = {
       },
       {
         q: 'Wat kost het?',
-        a: 'Dat hangt af van hoeveel agents, met welke systemen ze koppelen en hoeveel er op maat wordt gebouwd. Na een eerste gesprek krijg je een helder voorstel met een vaste scope.',
+        a: 'Dat hangt af van hoeveel agents, met welke systemen ze koppelen en hoeveel er op maat wordt gebouwd. Vertel de studio wat je voor ogen hebt en je krijgt antwoord voor jouw situatie.',
       },
     ],
   },
