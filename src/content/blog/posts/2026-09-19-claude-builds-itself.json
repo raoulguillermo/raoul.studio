@@ -1,0 +1,114 @@
+{
+  "slug": "2026-09-19-claude-builds-itself",
+  "date": "2026-09-19",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://scx1.b-cdn.net/csz/news/800a/2026/anthropic-says-its-mod.jpg",
+    "alt": "Abstract illustration of AI systems working on their own development",
+    "credit": "TechXplore"
+  },
+  "sources": [
+    { "title": "TechXplore — Anthropic says its model Claude is helping to build the next version of itself", "url": "https://techxplore.com/news/2026-09-anthropic-claude-version.html" },
+    { "title": "NBC Washington — Anthropic says Claude is helping the development of itself as fears grow over an AI takeover", "url": "https://www.nbcwashington.com/news/tech/anthropic-claude-helping-to-build-the-next-version-of-itself/4156128/" },
+    { "title": "The Nation — Claude now leads 26% of Anthropic's AI research, development work: Report", "url": "https://www.nation.com.pk/18-Sep-2026/claude-now-leads-26-percent-anthropic-s-ai-research-development-work-report" }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI starts building better AI, the pace of change shifts",
+      "summary": "Anthropic revealed that Claude now leads 26% of the work that creates the next version of Claude — up from nearly zero six months ago — and that changes how fast AI gets smarter.",
+      "body": [
+        "Anthropic, the company behind Claude, published a new internal measure this week: **Claude now leads 26% of the work** that produces the next version of Claude. In February, that number was basically zero. Six months of progress turned a tool that helped researchers into one that runs a big chunk of the work itself.",
+        "What does 'leads' mean here? It means Claude can take a high-level instruction — like 'investigate this research question' — and carry the task through to a result **mostly on its own, with a human watching**. It is not acting alone. Anthropic runs around 30,000 AI agents doing this kind of research work on their internal platform every day.",
+        "The bigger story is what this signals about speed. Today it is 26% — **the share of work AI does will only grow**. More AI-assisted research means faster improvement, which means the next version of these tools arrives sooner — and the version after that, sooner still. Anthropic was direct about the risk: models that speed up their own development could become harder for humans to understand and control.",
+        "For anyone building software, products, or workflows with AI right now: the tools you are using will be noticeably better in three months. **The right move is to start using them seriously now**, learn what they can and can't do today, and keep checking back. Waiting for a 'good enough' version means falling behind a pace of improvement that is only accelerating."
+      ],
+      "keyFacts": [
+        { "value": "26%", "label": "of Anthropic's R&D now led by Claude" },
+        { "value": "~0%", "label": "Claude's share of R&D just six months ago" },
+        { "value": "90%+", "label": "of R&D involves Claude in some role" },
+        { "value": "~30,000", "label": "AI agents running research daily at Anthropic" }
+      ]
+    },
+    "de": {
+      "title": "Wenn KI anfängt, bessere KI zu bauen, ändert sich das Tempo",
+      "summary": "Anthropic hat enthüllt, dass Claude jetzt 26 % der Arbeit leitet, die die nächste Version von Claude erschafft — vor sechs Monaten war es fast null — und das verändert, wie schnell KI besser wird.",
+      "body": [
+        "Anthropic, das Unternehmen hinter Claude, hat diese Woche ein neues internes Maß veröffentlicht: **Claude übernimmt jetzt 26 % der Arbeit**, die die nächste Version von Claude hervorbringt. Im Februar lag dieser Wert bei fast null. Sechs Monate Fortschritt haben ein Werkzeug, das Forschern half, in eines verwandelt, das selbst einen großen Teil der Arbeit erledigt.",
+        "Was bedeutet 'übernehmen' hier? Es bedeutet, dass Claude eine übergeordnete Anweisung — wie 'untersuche diese Forschungsfrage' — von Anfang bis Ende bearbeiten kann, **größtenteils eigenständig, unter menschlicher Aufsicht**. Es handelt nicht allein. Anthropic betreibt täglich rund 30.000 KI-Agenten, die diese Art von Forschungsarbeit auf ihrer internen Plattform durchführen.",
+        "Die größere Geschichte handelt von Geschwindigkeit. Heute sind es 26 % — **der Anteil der Arbeit, den KI übernimmt, wird nur wachsen**. Mehr KI-gestützte Forschung bedeutet schnellere Fortschritte, was bedeutet, dass die nächste Version dieser Werkzeuge früher kommt — und die übernächste noch früher. Anthropic war offen über das Risiko: Modelle, die ihre eigene Entwicklung beschleunigen, könnten für Menschen schwerer zu verstehen und zu kontrollieren werden.",
+        "Für alle, die gerade Software, Produkte oder Arbeitsabläufe mit KI entwickeln: Die Werkzeuge, die Sie heute nutzen, werden in drei Monaten spürbar besser sein. **Jetzt ist der richtige Zeitpunkt, sie ernsthaft einzusetzen**, zu lernen, was sie können und was nicht, und regelmäßig zurückzuschauen. Wer auf eine 'gute genug'-Version wartet, verliert in einem Tempo den Anschluss, das sich nur noch beschleunigt."
+      ],
+      "keyFacts": [
+        { "value": "26%", "label": "des F&E-Aufwands bei Anthropic jetzt von Claude geleitet" },
+        { "value": "~0%", "label": "Claudes Anteil am F&E vor sechs Monaten" },
+        { "value": "90%+", "label": "des F&E beinhaltet Claude in irgendeiner Rolle" },
+        { "value": "~30.000", "label": "KI-Agenten täglich bei Anthropic im Einsatz" }
+      ]
+    },
+    "nl": {
+      "title": "Als AI betere AI begint te bouwen, verandert het tempo",
+      "summary": "Anthropic maakte bekend dat Claude nu 26% van het werk leidt dat de volgende versie van Claude produceert — zes maanden geleden was dat vrijwel nul — en dat verandert hoe snel AI slimmer wordt.",
+      "body": [
+        "Anthropic, het bedrijf achter Claude, publiceerde deze week een nieuwe interne maatstaf: **Claude leidt nu 26% van het werk** dat de volgende versie van Claude produceert. In februari was dat getal vrijwel nul. Zes maanden vooruitgang hebben een hulpmiddel dat onderzoekers ondersteunde, veranderd in een dat een groot deel van het werk zelf uitvoert.",
+        "Wat betekent 'leiden' hier? Het betekent dat Claude een taak op hoog niveau — zoals 'onderzoek deze onderzoeksvraag' — **grotendeels zelfstandig, onder menselijk toezicht** van begin tot eind kan uitvoeren. Het werkt niet alleen. Anthropic laat dagelijks zo'n 30.000 AI-agents dit soort onderzoekswerk uitvoeren op hun interne platform.",
+        "Het grotere verhaal gaat over tempo. Vandaag is het 26% — **het aandeel werk dat AI uitvoert zal alleen maar groeien**. Meer AI-ondersteund onderzoek betekent snellere vooruitgang, wat betekent dat de volgende versie van deze tools eerder komt — en de versie daarna nog eerder. Anthropic was open over het risico: modellen die hun eigen ontwikkeling versnellen, kunnen voor mensen moeilijker te begrijpen en te beheersen worden.",
+        "Voor iedereen die nu software, producten of werkstromen bouwt met AI: de tools die je gebruikt, zijn over drie maanden merkbaar beter. **De juiste stap is ze nu serieus te gebruiken**, te leren wat ze vandaag wel en niet kunnen, en regelmatig terug te komen. Wachten op een 'goed genoeg'-versie betekent achterlopen in een tempo dat alleen maar toeneemt."
+      ],
+      "keyFacts": [
+        { "value": "26%", "label": "van Anthropic's R&D nu geleid door Claude" },
+        { "value": "~0%", "label": "Claudes aandeel in R&D zes maanden geleden" },
+        { "value": "90%+", "label": "van R&D betrekt Claude in enige rol" },
+        { "value": "~30.000", "label": "AI-agents dagelijks actief bij Anthropic" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA empieza a construir una IA mejor, el ritmo del cambio se acelera",
+      "summary": "Anthropic reveló que Claude ahora lidera el 26% del trabajo que crea la próxima versión de Claude — hace seis meses era casi cero — y eso cambia la velocidad a la que la IA mejora.",
+      "body": [
+        "Anthropic, la empresa detrás de Claude, publicó esta semana una nueva medida interna: **Claude ahora lidera el 26% del trabajo** que produce la próxima versión de Claude. En febrero, ese número era prácticamente cero. Seis meses de progreso convirtieron una herramienta que ayudaba a los investigadores en una que realiza gran parte del trabajo por sí misma.",
+        "¿Qué significa 'lidera' aquí? Significa que Claude puede tomar una instrucción general — como 'investiga esta pregunta de investigación' — y llevar la tarea a cabo de principio a fin **en su mayor parte sola, bajo supervisión humana**. No actúa de forma independiente. Anthropic tiene alrededor de 30.000 agentes de IA realizando este tipo de trabajo de investigación en su plataforma interna cada día.",
+        "La historia más importante es lo que esto dice sobre la velocidad. Hoy es el 26% — **la proporción de trabajo que hace la IA solo va a crecer**. Más investigación asistida por IA significa mejoras más rápidas, lo que significa que la próxima versión de estas herramientas llegará antes — y la siguiente, aún antes. Anthropic fue directa sobre el riesgo: los modelos que aceleran su propio desarrollo podrían volverse más difíciles de entender y controlar para los humanos.",
+        "Para quienes están construyendo software, productos o flujos de trabajo con IA ahora mismo: las herramientas que usan serán notablemente mejores en tres meses. **Lo correcto es empezar a usarlas en serio ahora**, aprender qué pueden y no pueden hacer hoy, y revisarlas con regularidad. Esperar una versión 'suficientemente buena' significa quedarse atrás a un ritmo que solo se acelera."
+      ],
+      "keyFacts": [
+        { "value": "26%", "label": "del I+D de Anthropic ahora liderado por Claude" },
+        { "value": "~0%", "label": "la parte de I+D de Claude hace seis meses" },
+        { "value": "90%+", "label": "del I+D involucra a Claude en algún rol" },
+        { "value": "~30.000", "label": "agentes de IA activos a diario en Anthropic" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA commence à construire une meilleure IA, le rythme s'emballe",
+      "summary": "Anthropic a révélé que Claude dirige désormais 26 % du travail qui crée la prochaine version de Claude — contre presque zéro il y a six mois — et cela change la vitesse à laquelle l'IA s'améliore.",
+      "body": [
+        "Anthropic, l'entreprise derrière Claude, a publié cette semaine une nouvelle mesure interne : **Claude dirige désormais 26 % du travail** qui produit la prochaine version de Claude. En février, ce chiffre était quasiment nul. Six mois de progrès ont transformé un outil qui aidait les chercheurs en un système qui réalise lui-même une grande partie du travail.",
+        "Que signifie 'diriger' ici ? Cela signifie que Claude peut prendre une instruction générale — comme 'étudie cette question de recherche' — et mener la tâche à bien du début à la fin, **en grande partie seul, sous supervision humaine**. Il n'agit pas de façon autonome. Anthropic fait tourner chaque jour environ 30 000 agents IA qui réalisent ce type de travail de recherche sur sa plateforme interne.",
+        "La vraie histoire concerne la vitesse. Aujourd'hui c'est 26 % — **la part de travail que fait l'IA ne fera que croître**. Plus de recherche assistée par IA signifie des progrès plus rapides, ce qui signifie que la prochaine version de ces outils arrivera plus tôt — et la suivante encore plus tôt. Anthropic a été claire sur le risque : des modèles qui accélèrent leur propre développement pourraient devenir plus difficiles à comprendre et à contrôler pour les humains.",
+        "Pour tous ceux qui construisent des logiciels, des produits ou des processus avec l'IA en ce moment : les outils que vous utilisez seront sensiblement meilleurs dans trois mois. **La bonne décision est de commencer à les utiliser sérieusement maintenant**, d'apprendre ce qu'ils peuvent et ne peuvent pas faire aujourd'hui, et de revenir régulièrement les tester. Attendre une version 'suffisamment bonne' revient à prendre du retard à un rythme qui ne fait qu'accélérer."
+      ],
+      "keyFacts": [
+        { "value": "26%", "label": "de la R&D d'Anthropic désormais dirigée par Claude" },
+        { "value": "~0%", "label": "la part de Claude dans la R&D il y a six mois" },
+        { "value": "90%+", "label": "de la R&D implique Claude dans un rôle quelconque" },
+        { "value": "~30 000", "label": "agents IA actifs chaque jour chez Anthropic" }
+      ]
+    },
+    "ar": {
+      "title": "حين يبدأ الذكاء الاصطناعي في بناء ذكاء اصطناعي أفضل، تتسارع وتيرة التغيير",
+      "summary": "كشفت Anthropic أن كلود يقود الآن 26% من العمل الذي يصنع الإصدار القادم منه — مقارنةً بصفر تقريباً قبل ستة أشهر — وهذا يغيّر مدى سرعة تحسّن الذكاء الاصطناعي.",
+      "body": [
+        "نشرت Anthropic، الشركة المطوّرة لكلود، هذا الأسبوع مقياساً داخلياً جديداً: **يقود كلود الآن 26% من العمل** الذي يُنتج الإصدار القادم منه. في فبراير، كان هذا الرقم صفراً بالكاد. ستة أشهر من التقدم حوّلت أداةً كانت تساعد الباحثين إلى نظام ينجز بنفسه جزءاً كبيراً من العمل.",
+        "ماذا يعني «يقود» هنا؟ يعني أن كلود يستطيع أخذ تعليمة عامة — مثل «ابحث في هذه المسألة» — وإنجاز المهمة من البداية إلى النهاية **في معظمها باستقلالية، تحت إشراف بشري**. إنه لا يعمل وحده. تُشغّل Anthropic نحو 30,000 وكيل ذكاء اصطناعي يومياً لإجراء هذا النوع من الأبحاث على منصتها الداخلية.",
+        "القصة الأكبر تتعلق بالسرعة. اليوم هي 26% — **حصة العمل الذي يؤديه الذكاء الاصطناعي لن تتوقف عن النمو**. المزيد من البحث بمساعدة الذكاء الاصطناعي يعني تقدماً أسرع، ما يعني أن الإصدار التالي من هذه الأدوات سيأتي أبكر — والذي يليه أبكر كذلك. وكانت Anthropic صريحة بشأن المخاطر: النماذج التي تُسرّع تطورها الذاتي قد تصبح أصعب على البشر في الفهم والسيطرة.",
+        "لكل من يبني برمجيات أو منتجات أو سير عمل بالذكاء الاصطناعي الآن: الأدوات التي تستخدمها ستكون أفضل بشكل ملحوظ خلال ثلاثة أشهر. **الخطوة الصحيحة هي البدء في استخدامها بجدية الآن**، والتعلم مما تستطيع وما لا تستطيع فعله اليوم، والعودة للتحقق منها بانتظام. انتظار نسخة «جيدة بما يكفي» يعني التخلف عن ركب تسارع لا يتوقف."
+      ],
+      "keyFacts": [
+        { "value": "26%", "label": "من أبحاث Anthropic يقودها كلود الآن" },
+        { "value": "~0%", "label": "حصة كلود في الأبحاث قبل ستة أشهر" },
+        { "value": "90%+", "label": "من أبحاث Anthropic تتضمن كلود بشكل أو بآخر" },
+        { "value": "~30,000", "label": "وكيل ذكاء اصطناعي نشط يومياً لدى Anthropic" }
+      ]
+    }
+  }
+}
