@@ -41,9 +41,9 @@ export const home = {
   featuredWork: {
     label: 'Travaux sélectionnés',
     lead: 'Comment le studio aide des entreprises ambitieuses à résoudre des problèmes complexes.',
-    allLabel: 'Voir tous les travaux',
-    allServicesLabel: 'Voir tous les services',
-    allSoftwareLabel: 'Voir tous les logiciels',
+    allLabel: 'Travaux',
+    allServicesLabel: 'Services',
+    allSoftwareLabel: 'Logiciels',
     items: [
       { slug: 'screensaver', tagline: 'Un écran de Mac en veille transformé en horloge géante — blanc sur noir, les secondes en rouge. Téléchargement gratuit.', metrics: ['Téléchargement gratuit', 'Vérifié par Apple', 'Installé en quelques secondes'] },
       { slug: 'poofy', tagline: 'Faire tourner le quotidien du studio sur une app de tâches pilotée aux gestes — widget iPhone, barre de menus Mac, une seule base de code.', metrics: ['iPhone + Mac', 'Une base de code SwiftUI', 'Tout au geste'] },

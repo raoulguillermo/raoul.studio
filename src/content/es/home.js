@@ -41,9 +41,9 @@ export const home = {
   featuredWork: {
     label: 'Trabajo seleccionado',
     lead: 'Cómo ayuda el estudio a empresas ambiciosas a resolver problemas difíciles.',
-    allLabel: 'Ver todo el trabajo',
-    allServicesLabel: 'Ver todos los servicios',
-    allSoftwareLabel: 'Ver todo el software',
+    allLabel: 'Trabajo',
+    allServicesLabel: 'Servicios',
+    allSoftwareLabel: 'Software',
     items: [
       { slug: 'screensaver', tagline: 'Una pantalla de Mac en reposo convertida en un reloj enorme: blanco sobre negro, con los segundos en rojo. Descarga gratuita.', metrics: ['Descarga gratuita', 'Revisado por Apple', 'Se instala en segundos'] },
       { slug: 'poofy', tagline: 'El estudio lleva su propio día a día en una app de tareas basada en gestos: widget en el iPhone, barra de menús en el Mac, una sola base de código.', metrics: ['iPhone + Mac', 'Una base de código SwiftUI', 'Basada en gestos'] },

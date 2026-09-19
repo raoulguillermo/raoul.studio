@@ -21,9 +21,9 @@ export const menu = {
     {
       heading: '02 — Arbeit',
       links: [
-        { label: 'Alle Arbeiten', href: '/work' },
-        { label: 'Alle Leistungen', href: '/services' },
-        { label: 'Alle Software', href: '/software' },
+        { label: 'Arbeiten', href: '/work' },
+        { label: 'Leistungen', href: '/services' },
+        { label: 'Software', href: '/software' },
       ],
     },
     {

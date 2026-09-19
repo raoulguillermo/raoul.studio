@@ -21,9 +21,9 @@ export const menu = {
     {
       heading: '02 — الأعمال',
       links: [
-        { label: 'كل الأعمال', href: '/work' },
-        { label: 'كل الخدمات', href: '/services' },
-        { label: 'كل البرمجيات', href: '/software' },
+        { label: 'الأعمال', href: '/work' },
+        { label: 'الخدمات', href: '/services' },
+        { label: 'البرمجيات', href: '/software' },
       ],
     },
     {

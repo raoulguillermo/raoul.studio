@@ -41,9 +41,9 @@ export const home = {
   featuredWork: {
     label: 'Geselecteerd werk',
     lead: 'Hoe de studio ambitieuze bedrijven helpt om lastige problemen op te lossen.',
-    allLabel: 'Bekijk al het werk',
-    allServicesLabel: 'Bekijk alle diensten',
-    allSoftwareLabel: 'Bekijk alle software',
+    allLabel: 'Werk',
+    allServicesLabel: 'Diensten',
+    allSoftwareLabel: 'Software',
     items: [
       { slug: 'screensaver', tagline: 'Een leeg Mac-scherm dat verandert in één grote klok — wit op zwart, met de seconden in het rood. Gratis te downloaden.', metrics: ['Gratis download', 'Gecontroleerd door Apple', 'Zo geïnstalleerd'] },
       { slug: 'poofy', tagline: 'Onze eigen to-dolijst werd een app: swipe naar rechts en je taak is klaar, naar links en hij is weg. Op je iPhone én je Mac.', metrics: ['iPhone + Mac', 'Swipen in plaats van klikken', 'Zelf gebouwd'] },

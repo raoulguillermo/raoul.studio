@@ -41,9 +41,9 @@ export const home = {
   featuredWork: {
     label: 'أعمال مختارة',
     lead: 'كيف يساعد الاستوديو الشركات الطموحة على حلّ المشكلات الصعبة.',
-    allLabel: 'عرض كل الأعمال',
-    allServicesLabel: 'عرض كل الخدمات',
-    allSoftwareLabel: 'عرض كل البرمجيات',
+    allLabel: 'الأعمال',
+    allServicesLabel: 'الخدمات',
+    allSoftwareLabel: 'البرمجيات',
     items: [
       { slug: 'screensaver', tagline: 'شاشة Mac خاملة تتحوّل إلى ساعة ضخمة واحدة — أبيض على أسود، والثواني بالأحمر. تنزيل مجاني.', metrics: ['تنزيل مجاني', 'فحصته Apple', 'يُثبَّت في ثوانٍ'] },
       { slug: 'poofy', tagline: 'إدارة يوميات الاستوديو نفسه عبر تطبيق مهامّ يعتمد على الإيماءات — أداة على iPhone وشريط قوائم على Mac بقاعدة شيفرة واحدة.', metrics: ['iPhone + Mac', 'قاعدة شيفرة SwiftUI واحدة', 'يعمل بالإيماءات'] },

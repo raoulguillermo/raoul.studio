@@ -21,9 +21,9 @@ export const menu = {
     {
       heading: '02 — Travaux',
       links: [
-        { label: 'Tous les travaux', href: '/work' },
-        { label: 'Tous les services', href: '/services' },
-        { label: 'Tous les logiciels', href: '/software' },
+        { label: 'Travaux', href: '/work' },
+        { label: 'Services', href: '/services' },
+        { label: 'Logiciels', href: '/software' },
       ],
     },
     {

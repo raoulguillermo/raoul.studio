@@ -21,9 +21,9 @@ export const menu = {
     {
       heading: '02 — Werk',
       links: [
-        { label: 'Al het werk', href: '/work' },
-        { label: 'Alle diensten', href: '/services' },
-        { label: 'Alle software', href: '/software' },
+        { label: 'Werk', href: '/work' },
+        { label: 'Diensten', href: '/services' },
+        { label: 'Software', href: '/software' },
       ],
     },
     {
