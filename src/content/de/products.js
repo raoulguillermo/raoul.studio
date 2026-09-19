@@ -53,7 +53,7 @@ export const products = {
       items: [
         { title: 'Bestellungen aufnehmen', body: 'Abhol- und Lieferbestellungen aus Ihrer echten Speisekarte oder Ihrem Sortiment, mit Größen, Extras und Preisen — direkt in Ihr Bestellsystem.' },
         { title: 'Termine vereinbaren', body: 'Prüft Ihren Kalender, bucht, verschiebt oder storniert Termine und bestätigt die Uhrzeit mit dem Anrufer.' },
-        { title: 'Stammkunden erkennen', body: 'Erkennt wiederkehrende Anrufer an ihrer Nummer, damit sie nicht jedes Mal erklären müssen, wer sie sind.' },
+        { title: 'Fragen beantworten', body: 'Öffnungszeiten, Preise, was auf der Karte steht — nachgeschlagen in Ihren eigenen Daten, während das Gespräch läuft.' },
         { title: 'Anliegen erfassen', body: 'Nimmt eine Störungsmeldung oder Frage auf und leitet sie per E-Mail weiter oder legt ein Ticket in Ihrem System an.' },
         { title: 'An einen Menschen übergeben', body: 'Verbindet den Anrufer mit jemandem aus Ihrem Team, wann immer das die bessere Antwort ist.' },
         { title: 'Klare Grenzen', body: 'Sie legen genau fest, was er darf und was nicht. Der Restaurant-Assistent zum Beispiel kann neue Bestellungen aufgeben, aber nichts ändern, stornieren oder erstatten.' },

@@ -53,7 +53,7 @@ export const products = {
       items: [
         { title: 'Tomar pedidos', body: 'Pedidos para recoger o a domicilio a partir de tu carta o catálogo real, con tamaños, extras y precios — directos a tu sistema de pedidos.' },
         { title: 'Reservar citas', body: 'Consulta tu agenda, reserva, mueve o cancela citas y confirma la hora con quien llama.' },
-        { title: 'Reconocer a los habituales', body: 'Reconoce a quienes llaman a menudo por su número, para que no tengan que explicar quiénes son cada vez.' },
+        { title: 'Responder preguntas', body: 'Horarios, precios, qué hay en la carta — consultado en tus propios datos mientras dura la llamada.' },
         { title: 'Registrar avisos', body: 'Anota una incidencia o una pregunta y la reenvía por correo, o abre un ticket en tu sistema.' },
         { title: 'Pasar a una persona', body: 'Transfiere la llamada a alguien de tu equipo siempre que esa sea la mejor respuesta.' },
         { title: 'Dentro de sus límites', body: 'Tú decides exactamente qué puede y qué no puede hacer. El agente para restaurantes, por ejemplo, puede hacer pedidos nuevos, pero no puede cambiar, cancelar ni reembolsar nada.' },

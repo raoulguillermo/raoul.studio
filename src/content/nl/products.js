@@ -53,7 +53,7 @@ export const products = {
       items: [
         { title: 'Bestellingen opnemen', body: 'Afhaal- en bezorgbestellingen uit je echte menu of assortiment, met formaten, extra’s en prijzen — direct in je bestelsysteem.' },
         { title: 'Afspraken inplannen', body: 'Kijkt in je agenda, plant afspraken in, verzet of annuleert ze, en bevestigt de tijd met de beller.' },
-        { title: 'Vaste klanten herkennen', body: 'Herkent terugkerende bellers aan hun nummer, zodat ze niet elke keer hoeven uit te leggen wie ze zijn.' },
+        { title: 'Vragen beantwoorden', body: 'Openingstijden, prijzen, wat er op de kaart staat — opgezocht in je eigen gegevens terwijl het gesprek loopt.' },
         { title: 'Meldingen vastleggen', body: 'Noteert een storing of vraag en mailt die door, of maakt een ticket aan in je systeem.' },
         { title: 'Doorverbinden', body: 'Verbindt de beller door met iemand uit je team als dat het betere antwoord is.' },
         { title: 'Binnen de lijntjes', body: 'Jij bepaalt precies wat hij wel en niet mag. De restaurantassistent kan bijvoorbeeld nieuwe bestellingen plaatsen, maar niets wijzigen, annuleren of terugbetalen.' },

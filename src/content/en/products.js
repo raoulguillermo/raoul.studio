@@ -53,7 +53,7 @@ export const products = {
       items: [
         { title: 'Take orders', body: 'Pickup and delivery orders from your real menu or catalogue, with sizes, extras and prices — straight into your order system.' },
         { title: 'Book appointments', body: 'Checks your calendar, books, moves or cancels appointments, and confirms the time with the caller.' },
-        { title: 'Recognise regulars', body: 'Knows returning callers by their number, so they don’t have to explain who they are every time.' },
+        { title: 'Answer questions', body: 'Opening hours, prices, what is on the menu — looked up in your own data while the call is going on.' },
         { title: 'Log requests', body: 'Takes down a problem report or a question and emails it on, or opens a ticket in your system.' },
         { title: 'Hand over to a person', body: 'Puts the caller through to someone on your team whenever that’s the better answer.' },
         { title: 'Stay in its lane', body: 'You decide exactly what it can and can’t do. The restaurant agent, for example, can place new orders, but can’t change, cancel or refund anything.' },

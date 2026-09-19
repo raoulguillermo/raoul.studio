@@ -53,7 +53,7 @@ export const products = {
       items: [
         { title: 'Prendre des commandes', body: 'Commandes à emporter ou en livraison à partir de votre vraie carte ou de votre catalogue, avec tailles, suppléments et prix — directement dans votre système de commandes.' },
         { title: 'Prendre des rendez-vous', body: 'Consulte votre agenda, réserve, déplace ou annule des rendez-vous, et confirme l’heure avec l’appelant.' },
-        { title: 'Reconnaître les habitués', body: 'Reconnaît les appelants réguliers à leur numéro, pour qu’ils n’aient pas à se présenter à chaque fois.' },
+        { title: 'Répondre aux questions', body: 'Horaires, prix, ce qu’il y a à la carte — vérifiés dans vos propres données pendant l’appel.' },
         { title: 'Enregistrer les demandes', body: 'Note un signalement ou une question et le transmet par e-mail, ou ouvre un ticket dans votre système.' },
         { title: 'Passer à une personne', body: 'Transfère l’appel à quelqu’un de votre équipe chaque fois que c’est la meilleure réponse.' },
         { title: 'Dans son rôle', body: 'Vous décidez exactement ce qu’il peut faire ou non. L’agent pour restaurants, par exemple, peut passer de nouvelles commandes, mais ne peut rien modifier, annuler ni rembourser.' },
