@@ -1,0 +1,125 @@
+{
+  "slug": "2026-09-20-robot-brains-software-gap",
+  "date": "2026-09-20",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://insideai.news/wp-content/uploads/2026/09/2026-09-18-16-27-59-featured.webp",
+    "alt": "A wheeled humanoid robot on a factory floor",
+    "credit": "InsideAI News"
+  },
+  "sources": [
+    {
+      "title": "CP24 — Chinese 'robot brain' startup sees ChatGPT-style breakthrough as soon as next year",
+      "url": "https://www.cp24.com/news/2026/09/18/chinese-robot-brain-startup-sees-chatgpt-style-breakthrough-as-soon-as-next-year/"
+    },
+    {
+      "title": "InsideAI News — Spirit AI Predicts Robot Brain Breakthrough by Mid-2027, Homes Eight Years Away",
+      "url": "https://insideai.news/news/robotics/humanoid-robot-brains-breakthrough-2027/12204/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Robots can already sprint. The problem is getting them to think.",
+      "summary": "The hardware in modern robots is impressive, but the software that makes them useful for real, general work is still years behind — and the companies betting on closing that gap are raising huge sums right now.",
+      "body": [
+        "Robots have become impressive very fast. Chinese humanoids can sprint, dance, and do backflips. But **the software inside them is still years behind the hardware** — and that gap is where the real opportunity lives.",
+        "Spirit AI, a two-year-old Chinese startup, has already deployed its Moz1 wheeled humanoid robots on production lines at CATL, a giant battery maker, and JD.com, China's big retail platform. Its co-founder, Gao Yang, says **a robot-brain breakthrough is coming by mid-2027** — something like what ChatGPT did for text AI in 2022, when a hard technology suddenly became something anyone could use.",
+        "Today, even the best industrial robots only succeed about 90% of the time on simple, structured tasks. Fine motor work — like unscrewing a bottle cap — still trips them up. Gao Yang calls the robot brain \"the weakest link.\" To fix it, Spirit AI employs about 1,000 people across China doing everyday physical tasks so the AI can learn from **messy, real-world motion data** instead of tidy simulations.",
+        "Spirit AI has raised over $670 million in just two years and is now valued at $2.9 billion. Its robots work well in predictable, structured settings — factories and warehouses. **Home robots are still 8 or more years away.** The near-term opportunity is industrial, not domestic.",
+        "If you build products for manufacturing, logistics, or retail, the question worth asking now is not \"will robots take over?\" but \"which specific workflows are ready, and in how long?\" The window is opening. Teams that start mapping their most repetitive physical tasks today will be ready when the software catches up."
+      ],
+      "keyFacts": [
+        { "value": "$670M+", "label": "raised in two years" },
+        { "value": "$2.9B", "label": "current valuation" },
+        { "value": "90%", "label": "task success rate in structured settings" },
+        { "value": "8+ years", "label": "until home deployment" }
+      ]
+    },
+    "de": {
+      "title": "Roboter können schon sprinten. Das Problem ist, dass sie noch nicht denken können.",
+      "summary": "Die Hardware moderner Roboter ist beeindruckend — aber die Software, die sie für echte Alltagsaufgaben nutzbar macht, hinkt noch Jahre hinterher. Und die Firmen, die auf das Schließen dieser Lücke setzen, sammeln gerade enorme Summen ein.",
+      "body": [
+        "Roboter haben sich extrem schnell verbessert. Chinesische Humanoide können sprinten, tanzen und Saltos schlagen. **Die Software in ihnen hinkt der Hardware aber um Jahre hinterher** — und genau in dieser Lücke liegt die eigentliche Chance.",
+        "Spirit AI, ein zwei Jahre altes chinesisches Startup, hat seine Moz1-Roboter bereits in den Produktionslinien von CATL, einem der größten Batteriehersteller der Welt, und beim Onlinehändler JD.com eingesetzt. Mitgründer Gao Yang sagt, **ein Durchbruch bei den Robotergehirnen kommt bis Mitte 2027** — vergleichbar damit, was ChatGPT 2022 für KI-Textsysteme ausgelöst hat.",
+        "Derzeit erreichen selbst die besten Industrieroboter nur eine Erfolgsquote von etwa 90 % bei einfachen, klar strukturierten Aufgaben. Feinmotorisches Arbeiten — zum Beispiel eine Flasche aufdrehen — bleibt schwierig. Gao Yang nennt das Robotergehirn \"das schwächste Glied.\" Um das zu ändern, beschäftigt Spirit AI etwa 1.000 Menschen in ganz China, die alltägliche Bewegungen ausführen, damit das Modell aus **echter, unordentlicher Bewegungsdaten** lernen kann — nicht aus Simulationen.",
+        "Spirit AI hat in nur zwei Jahren über 670 Millionen Dollar eingesammelt und ist jetzt mit 2,9 Milliarden Dollar bewertet. Die Roboter funktionieren gut in geordneten, strukturierten Umgebungen — Fabriken und Lagerhäuser. **Haushaltsroboter sind noch 8 Jahre oder mehr entfernt.** Die kurzfristige Chance liegt in der Industrie.",
+        "Wer Produkte für Fertigung, Logistik oder Einzelhandel baut, sollte sich jetzt nicht fragen \"Werden Roboter alles übernehmen?\", sondern: \"Welche konkreten Arbeitsabläufe sind bereit — und wann?\" Das Fenster öffnet sich. Teams, die heute ihre repetitivsten physischen Aufgaben analysieren, werden bereit sein, wenn die Software aufholt."
+      ],
+      "keyFacts": [
+        { "value": "$670M+", "label": "in zwei Jahren eingesammelt" },
+        { "value": "$2.9B", "label": "aktuelle Bewertung" },
+        { "value": "90%", "label": "Erfolgsquote in strukturierten Umgebungen" },
+        { "value": "8+ Jahre", "label": "bis zum Haushaltsroboter" }
+      ]
+    },
+    "nl": {
+      "title": "Robots kunnen al sprinten. Het probleem is dat ze nog niet kunnen denken.",
+      "summary": "De hardware van moderne robots is indrukwekkend, maar de software die ze nuttig maakt voor echte, algemene taken loopt nog jaren achter — en de bedrijven die wedden op het dichten van die kloof halen nu enorme bedragen op.",
+      "body": [
+        "Robots zijn razendsnel beter geworden. Chinese humanoïden kunnen sprinten, dansen en salto's maken. Maar **de software in de robots loopt jaren achter op de hardware** — en precies in die kloof zit de echte kans.",
+        "Spirit AI, een twee jaar oud Chinees startup, heeft zijn Moz1-robots al ingezet op productielijnen bij CATL, een grote batterijenmaker, en JD.com, China's grote retailplatform. Medeoprichter Gao Yang zegt dat **een doorbraak in robotbreinen voor medio 2027 verwacht wordt** — vergelijkbaar met wat ChatGPT in 2022 deed voor AI-tekst.",
+        "Vandaag de dag halen zelfs de beste industriële robots slechts zo'n 90% succes op eenvoudige, gestructureerde taken. Fijnmotorisch werk — zoals een flessendop losdraaien — blijft lastig. Gao Yang noemt het robotbrein \"de zwakste schakel.\" Om dat te verbeteren, werkt Spirit AI met ongeveer 1.000 mensen in China die alledaagse bewegingen uitvoeren, zodat de AI leert van **rommelige, echte bewegingsdata** in plaats van simulaties.",
+        "Spirit AI heeft in twee jaar meer dan $670 miljoen opgehaald en is nu gewaardeerd op $2,9 miljard. De robots werken goed in voorspelbare, gestructureerde omgevingen — fabrieken en magazijnen. **Thuisrobots zijn nog 8 jaar of meer weg.** De kans op korte termijn zit in de industrie.",
+        "Als jij producten bouwt voor productie, logistiek of retail, is de vraag die je nu moet stellen niet \"zullen robots alles overnemen?\", maar: \"welke specifieke werkstromen zijn er klaar voor, en wanneer?\" Het venster gaat open. Teams die nu hun meest repetitieve fysieke taken in kaart brengen, staan straks klaar als de software bijbeent."
+      ],
+      "keyFacts": [
+        { "value": "$670M+", "label": "opgehaald in twee jaar" },
+        { "value": "$2.9B", "label": "huidige waardering" },
+        { "value": "90%", "label": "slagingspercentage in gestructureerde omgevingen" },
+        { "value": "8+ jaar", "label": "tot thuisrobots beschikbaar zijn" }
+      ]
+    },
+    "es": {
+      "title": "Los robots ya pueden correr. El problema es que todavía no pueden pensar.",
+      "summary": "El hardware de los robots modernos es impresionante, pero el software que los hace útiles para trabajo real y general sigue años por detrás — y las empresas apostando a cerrar esa brecha están recaudando cantidades enormes ahora mismo.",
+      "body": [
+        "Los robots han avanzado a una velocidad impresionante. Los humanoides chinos ya pueden correr, bailar y hacer volteretas. Pero **el software dentro de ellos sigue años por detrás del hardware** — y en esa brecha está la oportunidad real.",
+        "Spirit AI, una startup china de apenas dos años, ya ha desplegado sus robots Moz1 en las líneas de producción de CATL, uno de los mayores fabricantes de baterías del mundo, y del gigante minorista JD.com. Su cofundador, Gao Yang, afirma que **un gran avance en los cerebros robóticos llegará para mediados de 2027** — algo parecido a lo que ChatGPT hizo por la IA de texto en 2022.",
+        "Hoy en día, incluso los mejores robots industriales solo logran un 90% de éxito en tareas simples y estructuradas. Las tareas de motricidad fina — como desenroscar una tapa — siguen siendo un problema. Gao Yang llama al cerebro robótico \"el eslabón más débil.\" Para solucionarlo, Spirit AI emplea a unas 1.000 personas en toda China haciendo tareas físicas cotidianas, de modo que el modelo aprenda de **datos de movimiento reales y desordenados** en lugar de simulaciones.",
+        "Spirit AI ha recaudado más de $670 millones en solo dos años y ahora está valorada en $2.900 millones. Sus robots funcionan bien en entornos estructurados y predecibles — fábricas y almacenes. **Los robots domésticos están todavía a 8 años o más de distancia.** La oportunidad a corto plazo es industrial.",
+        "Si construyes productos para manufactura, logística o comercio minorista, la pregunta útil no es \"¿los robots lo tomarán todo?\" sino \"¿qué flujos de trabajo específicos están listos, y cuándo?\" La ventana se está abriendo. Los equipos que comiencen hoy a identificar sus tareas físicas más repetitivas estarán listos cuando el software alcance al hardware."
+      ],
+      "keyFacts": [
+        { "value": "$670M+", "label": "recaudados en dos años" },
+        { "value": "$2.9B", "label": "valoración actual" },
+        { "value": "90%", "label": "tasa de éxito en entornos estructurados" },
+        { "value": "8+ años", "label": "hasta robots para el hogar" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots savent déjà sprinter. Le problème, c'est qu'ils ne savent pas encore réfléchir.",
+      "summary": "Le matériel des robots modernes est impressionnant, mais le logiciel qui les rend utiles pour de vraies tâches générales accuse encore des années de retard — et les entreprises qui parient sur ce rattrapage lèvent des sommes considérables en ce moment.",
+      "body": [
+        "Les robots ont progressé à une vitesse stupéfiante. Les humanoïdes chinois peuvent sprinter, danser et faire des saltos. Mais **le logiciel qui les anime est encore en retard de plusieurs années sur le matériel** — et c'est dans cet écart que réside la vraie opportunité.",
+        "Spirit AI, une startup chinoise fondée il y a seulement deux ans, a déjà déployé ses robots Moz1 sur les lignes de production de CATL, l'un des plus grands fabricants de batteries au monde, et de JD.com, la grande plateforme de distribution chinoise. Son cofondateur, Gao Yang, prédit **une percée majeure dans les cerveaux robotiques d'ici mi-2027** — un moment comparable à ce que ChatGPT a fait pour l'IA de texte en 2022.",
+        "Aujourd'hui, même les meilleurs robots industriels n'atteignent qu'un taux de réussite d'environ 90 % sur des tâches simples et structurées. La motricité fine — comme dévisser un bouchon — reste difficile. Gao Yang qualifie le cerveau du robot de \"maillon le plus faible.\" Pour y remédier, Spirit AI emploie environ 1 000 personnes à travers la Chine pour réaliser des gestes du quotidien, afin que l'IA apprenne à partir de **données de mouvement réelles et imparfaites** plutôt que de simulations.",
+        "Spirit AI a levé plus de 670 millions de dollars en deux ans et est désormais valorisée à 2,9 milliards de dollars. Ses robots fonctionnent bien dans des environnements structurés et prévisibles — usines et entrepôts. **Les robots à domicile sont encore à 8 ans ou plus.** L'opportunité à court terme est industrielle.",
+        "Si vous concevez des produits pour la fabrication, la logistique ou le commerce de détail, la bonne question n'est pas \"les robots vont-ils tout prendre ?\" mais \"quels processus spécifiques sont prêts, et dans combien de temps ?\" La fenêtre s'ouvre. Les équipes qui commencent dès aujourd'hui à identifier leurs tâches physiques les plus répétitives seront prêtes lorsque le logiciel aura rattrapé son retard."
+      ],
+      "keyFacts": [
+        { "value": "$670M+", "label": "levés en deux ans" },
+        { "value": "$2.9B", "label": "valorisation actuelle" },
+        { "value": "90%", "label": "taux de réussite en environnement structuré" },
+        { "value": "8+ ans", "label": "avant les robots à domicile" }
+      ]
+    },
+    "ar": {
+      "title": "الروبوتات باتت تستطيع العدو بسرعة. المشكلة أنها لا تستطيع التفكير بعد.",
+      "summary": "أجهزة الروبوتات الحديثة مذهلة، لكن البرمجيات التي تجعلها مفيدة في المهام الحقيقية العامة لا تزال متأخرة بسنوات — والشركات التي تراهن على سد هذه الفجوة تجمع الآن مبالغ ضخمة.",
+      "body": [
+        "تطورت الروبوتات بسرعة مذهلة. تستطيع الروبوتات الإنسانية الصينية الآن الركض والرقص والقفز. لكن **البرمجيات المدمجة فيها لا تزال متأخرة بسنوات عن الأجهزة** — وفي هذه الفجوة تكمن الفرصة الحقيقية.",
+        "شركة Spirit AI، وهي ناشئة صينية تأسست قبل عامين فقط، نشرت بالفعل روبوتاتها Moz1 ذات العجلات على خطوط الإنتاج في شركة CATL لصناعة البطاريات وفي منصة التجزئة الكبرى JD.com. يقول المؤسس المشارك Gao Yang إن **اختراقاً كبيراً في أدمغة الروبوتات متوقع بحلول منتصف 2027** — على غرار ما فعله ChatGPT للذكاء الاصطناعي النصي عام 2022.",
+        "حتى اليوم، لا تتجاوز نسبة نجاح أفضل الروبوتات الصناعية 90% في المهام البسيطة والمنظمة. المهام الحركية الدقيقة — كفك غطاء زجاجة — لا تزال تمثل عقبة. يصف Gao Yang دماغ الروبوت بأنه \"الحلقة الأضعف.\" لحل هذه المشكلة، يوظف Spirit AI نحو 1.000 شخص في أنحاء الصين لأداء حركات يومية حتى يتعلم النموذج من **بيانات حركة حقيقية وغير منتظمة** بدلاً من المحاكاة الافتراضية.",
+        "جمع Spirit AI أكثر من 670 مليون دولار في عامين فقط، وتبلغ قيمته الآن 2.9 مليار دولار. تعمل روبوتاته بشكل جيد في البيئات المنظمة — المصانع والمستودعات. **لكن الروبوتات المنزلية لا تزال على بُعد 8 سنوات أو أكثر.** الفرصة القريبة في القطاع الصناعي.",
+        "إن كنت تطور منتجات للتصنيع أو اللوجستيات أو التجزئة، فالسؤال المفيد الآن ليس \"هل ستسيطر الروبوتات على كل شيء؟\" بل \"أي العمليات المحددة جاهزة، ومتى؟\" النافذة تفتح. الفرق التي تبدأ اليوم في رسم خريطة مهامها الجسدية المتكررة ستكون مستعدة حين تلحق البرمجيات بالأجهزة."
+      ],
+      "keyFacts": [
+        { "value": "$670M+", "label": "جُمعت في عامين" },
+        { "value": "$2.9B", "label": "التقييم الحالي للشركة" },
+        { "value": "90%", "label": "معدل نجاح المهام في البيئات المنظمة" },
+        { "value": "8+ سنوات", "label": "حتى وصول الروبوتات إلى المنازل" }
+      ]
+    }
+  }
+}
