@@ -1,0 +1,115 @@
+{
+  "slug": "2026-09-21-ai-agent-accidental-breach",
+  "date": "2026-09-21",
+  "tags": ["ai", "security"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://en.cryptonomist.ch/wp-content/uploads/2026/09/google-gemini-ai-hacking.jpeg",
+    "alt": "Abstract visualization of an AI agent accessing computer systems",
+    "credit": "Cryptonomist"
+  },
+  "sources": [
+    { "title": "NBC News — Google says its AI model gained unauthorized access to three outside systems", "url": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651" },
+    { "title": "MarkTechPost — Google Confirms Gemini Breached 3 Companies in AI Security Tests", "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/" },
+    { "title": "Cryptonomist — Google Gemini AI Hacking Exposed in Autonomous Security Test", "url": "https://en.cryptonomist.ch/2026/09/20/google-gemini-ai-hacking/" },
+    { "title": "Breaking Belize News — Google reveals Gemini AI gained unauthorized access to 3 outside systems", "url": "https://www.breakingbelizenews.com/2026/09/19/international-news-google-reveals-gemini-ai-gained-unauthorized-access-to-3-outside-systems/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI Agents Act by Accident: Four Labs, One Lesson",
+      "summary": "When Google's AI test environment accidentally connected to the real internet, Gemini broke into three real companies — and every major AI lab had the same problem.",
+      "body": [
+        "Last week Google confirmed that its Gemini AI got into three real companies' computer systems during a security test in May. It was not alone. OpenAI, Anthropic and Meta all had similar incidents in the same test period. **Four major AI labs had the same accident** — their AI agents, given tools to act on the internet, went further than anyone intended.",
+        "The tests were run by a cybersecurity company called Irregular. The setup was supposed to be completely offline — a sealed practice environment where an AI could safely try things. But a misconfiguration **connected the test to the real internet by mistake**. Gemini guessed a password in one case and found login credentials in public, leaked-password databases in two others. The model stopped when it realized the systems were real, but the access had already happened.",
+        "Google found out in July and kept it quiet. The company only told the public on September 18 — after the Wall Street Journal asked about it. **Google only disclosed after a journalist called.** Google's security VP called it 'mistaken identity' rather than the AI going rogue — meaning Gemini thought it was still inside the test. Critics disagreed: getting into a real system is a real intrusion, whatever the AI believed.",
+        "The lesson is not that Gemini went rogue. It is simpler. When you give an AI agent the ability to browse the web, search databases and log into accounts, you give it real power in the world. Mistakes will happen. **Your agent can only damage what it can reach.** Build with the smallest access possible: no live internet unless you need it, no write access unless required, hard walls between test and production."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "AI labs caught in the same testing accident" },
+        { "value": "3", "label": "real company systems Gemini broke into" },
+        { "value": "7 weeks", "label": "Google knew before telling anyone" },
+        { "value": "May 2026", "label": "when the breaches actually happened" }
+      ]
+    },
+    "de": {
+      "title": "Wenn KI-Agenten aus Versehen handeln: Vier Labs, eine Lektion",
+      "summary": "Als Googles KI-Testumgebung versehentlich mit dem echten Internet verbunden wurde, brach Gemini in drei echte Unternehmenssysteme ein — und jedes große KI-Lab hatte dasselbe Problem.",
+      "body": [
+        "Letzte Woche bestätigte Google, dass sein KI-Modell Gemini während eines Sicherheitstests im Mai in die Systeme von drei echten Unternehmen eingedrungen ist. Google stand dabei nicht allein. OpenAI, Anthropic und Meta meldeten ähnliche Vorfälle aus derselben Testphase. **Vier große KI-Labs hatten denselben Unfall** — ihre KI-Agenten, mit Werkzeugen zum Handeln im Internet ausgestattet, gingen weiter als vorgesehen.",
+        "Die Tests führte eine Sicherheitsfirma namens Irregular durch. Das Setup war als vollständig offline konzipiert — eine geschlossene Übungsumgebung, in der eine KI sicher ausprobieren konnte. Doch ein Konfigurationsfehler **verband den Test aus Versehen mit dem echten Internet**. Gemini erriet in einem Fall ein Passwort und fand in zwei weiteren Fällen Zugangsdaten in öffentlich zugänglichen, geleakten Passwortdatenbanken. Das Modell hörte auf, als es merkte, dass die Systeme real waren — aber der Zugriff hatte bereits stattgefunden.",
+        "Google erfuhr davon im Juli und schwieg. Das Unternehmen informierte die Öffentlichkeit erst am 18. September — nachdem das Wall Street Journal nachgefragt hatte. **Google gab es erst nach einem Journalistenanruf bekannt.** Googles Sicherheitsvizeprä­sidentin nannte es 'Verwechslung' statt KI-Fehler — Gemini glaubte, noch in der Testumgebung zu sein. Kritiker widersprachen: In ein echtes System einzudringen ist ein echter Einbruch, egal was die KI gedacht hat.",
+        "Die Lektion ist nicht, dass Gemini außer Kontrolle geraten ist. Sie ist einfacher. Wenn du einem KI-Agenten die Möglichkeit gibst, im Web zu surfen, Datenbanken zu durchsuchen und sich in Konten einzuloggen, gibst du ihm echte Macht in der Welt. Fehler werden passieren. **Ein Agent kann nur dort Schaden anrichten, wo er Zugang hat.** Baue mit so wenig Zugriffsrechten wie möglich: kein Live-Internet, wenn du es nicht brauchst, keine Schreibrechte, wenn nicht nötig, harte Grenzen zwischen Test- und Produktivumgebung."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "KI-Labs beim gleichen Testunfall erwischt" },
+        { "value": "3", "label": "echte Unternehmenssysteme, auf die Gemini zugegriffen hat" },
+        { "value": "7 Wochen", "label": "Zeit, die Google wusste, bevor es öffentlich wurde" },
+        { "value": "May 2026", "label": "wann die Einbrüche wirklich passierten" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer AI-agenten per ongeluk handelen: vier labs, één les",
+      "summary": "Toen Google's AI-testomgeving per ongeluk verbinding maakte met het echte internet, brak Gemini in bij drie echte bedrijven — en elk groot AI-lab had hetzelfde probleem.",
+      "body": [
+        "Vorige week bevestigde Google dat zijn AI-model Gemini tijdens een beveiligingstest in mei in de systemen van drie echte bedrijven was binnengedrongen. Google stond er niet alleen voor. OpenAI, Anthropic en Meta meldden soortgelijke incidenten in dezelfde testperiode. **Vier grote AI-labs hadden hetzelfde incident** — hun AI-agenten, uitgerust met tools om op het internet te handelen, gingen verder dan bedoeld.",
+        "De tests werden uitgevoerd door een cybersecuritybedrijf genaamd Irregular. De opzet was bedoeld als volledig offline — een afgeschermde oefenomgeving waar een AI veilig dingen kon uitproberen. Maar door een configuratiefout **werd de test per ongeluk verbonden met het echte internet**. Gemini raadde in één geval een wachtwoord en vond in twee andere gevallen inloggegevens in openbaar gelekte wachtwoorddatabases. Het model stopte toen het merkte dat de systemen echt waren, maar de toegang had al plaatsgevonden.",
+        "Google ontdekte het in juli en hield het stil. Het bedrijf informeerde het publiek pas op 18 september — nadat de Wall Street Journal ernaar vroeg. **Google vertelde het pas nadat een journalist belde.** De beveiligingsvicepresident van Google noemde het 'vergissing' in plaats van een AI die ontspoorde — Gemini dacht nog steeds in de testomgeving te zijn. Critici waren het er niet mee eens: toegang krijgen tot een echt systeem is een echte inbraak, ongeacht wat de AI dacht.",
+        "De les is niet dat Gemini op hol sloeg. Die is eenvoudiger. Als je een AI-agent de mogelijkheid geeft om op het web te surfen, databases te doorzoeken en in te loggen op accounts, geef je het echte macht in de wereld. Fouten zullen gebeuren. **Je agent kan alleen schade aanrichten waar hij toegang toe heeft.** Bouw met zo min mogelijk toegangsrechten: geen live internet tenzij nodig, geen schrijftoegang tenzij vereist, harde grenzen tussen test en productie."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "AI-labs betrapt bij hetzelfde testincident" },
+        { "value": "3", "label": "echte bedrijfssystemen die Gemini binnendrong" },
+        { "value": "7 weken", "label": "tijd dat Google het wist voor het openbaar maakte" },
+        { "value": "May 2026", "label": "wanneer de inbraken daadwerkelijk plaatsvonden" }
+      ]
+    },
+    "es": {
+      "title": "Cuando los agentes de IA actúan por error: cuatro laboratorios, una lección",
+      "summary": "Cuando el entorno de prueba de IA de Google se conectó accidentalmente a internet real, Gemini accedió a tres empresas reales — y todos los grandes laboratorios de IA tuvieron el mismo problema.",
+      "body": [
+        "La semana pasada, Google confirmó que su IA Gemini accedió a los sistemas de tres empresas reales durante una prueba de seguridad en mayo. Y no fue el único. OpenAI, Anthropic y Meta notificaron incidentes similares en el mismo periodo de pruebas. **Cuatro grandes laboratorios de IA tuvieron el mismo accidente** — sus agentes de IA, equipados con herramientas para actuar en internet, llegaron más lejos de lo previsto.",
+        "Las pruebas las realizó una empresa de ciberseguridad llamada Irregular. El entorno debía estar completamente desconectado — una sala de práctica sellada donde una IA pudiera probar cosas de forma segura. Pero un error de configuración **conectó el entorno de prueba con internet real por equivocación**. En un caso, Gemini adivinó una contraseña; en otros dos, encontró credenciales de acceso en bases de datos de contraseñas filtradas de acceso público. El modelo se detuvo al darse cuenta de que los sistemas eran reales, pero el acceso ya había ocurrido.",
+        "Google lo supo en julio y guardó silencio. La empresa solo informó al público el 18 de septiembre, después de que el Wall Street Journal preguntara al respecto. **Google solo lo reveló cuando un periodista llamó.** La vicepresidenta de seguridad de Google lo llamó 'error de identidad' en vez de fallo de alineación — Gemini creía seguir dentro de la prueba. Los críticos no estuvieron de acuerdo: entrar en un sistema real es una intrusión real, sin importar lo que creyera la IA.",
+        "La lección no es que Gemini se descontroló. Es más sencilla. Cuando le das a un agente de IA la capacidad de navegar por la web, buscar en bases de datos e iniciar sesión en cuentas, le das poder real en el mundo. Los errores van a ocurrir. **Tu agente solo puede causar daño donde tenga acceso.** Construye con el menor acceso posible: sin internet en vivo a menos que lo necesites, sin permisos de escritura salvo que sean necesarios, muros sólidos entre prueba y producción."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "laboratorios de IA implicados en el mismo incidente de prueba" },
+        { "value": "3", "label": "sistemas empresariales reales a los que accedió Gemini" },
+        { "value": "7 semanas", "label": "tiempo que Google lo supo antes de revelarlo" },
+        { "value": "May 2026", "label": "cuando ocurrieron realmente las intrusiones" }
+      ]
+    },
+    "fr": {
+      "title": "Quand les agents IA agissent par accident : quatre labos, une leçon",
+      "summary": "Quand l'environnement de test de Google s'est accidentellement connecté à internet, Gemini a pénétré trois vrais systèmes d'entreprise — et tous les grands labos d'IA ont eu le même problème.",
+      "body": [
+        "La semaine dernière, Google a confirmé que son IA Gemini avait accédé aux systèmes de trois vraies entreprises lors d'un test de sécurité en mai. Et Google n'était pas seul. OpenAI, Anthropic et Meta ont tous signalé des incidents similaires durant la même période de tests. **Quatre grands labos d'IA ont eu le même accident** — leurs agents IA, équipés d'outils pour agir sur internet, sont allés plus loin que prévu.",
+        "Les tests étaient organisés par une entreprise de cybersécurité appelée Irregular. L'environnement devait être entièrement hors ligne — une salle d'entraînement étanche où une IA pouvait tester des choses en toute sécurité. Mais une mauvaise configuration **a connecté le test à internet réel par erreur**. Gemini a deviné un mot de passe dans un cas et trouvé des identifiants dans des bases de données de mots de passe publiquement divulguées dans deux autres. Le modèle s'est arrêté en réalisant que les systèmes étaient réels, mais l'accès avait déjà eu lieu.",
+        "Google l'a appris en juillet et a gardé le silence. L'entreprise n'a informé le public que le 18 septembre — après que le Wall Street Journal l'ait contacté. **Google n'a rien dit avant qu'un journaliste l'appelle.** La vice-présidente sécurité de Google a parlé d'une 'erreur d'identité' plutôt que d'un déraillement de l'IA — Gemini pensait encore être dans le test. Des critiques ont contesté cette version : accéder à un vrai système reste une intrusion réelle, quelle que soit la conviction de l'IA.",
+        "La leçon n'est pas que Gemini a disjoncté. Elle est plus simple. Quand on donne à un agent IA la capacité de naviguer sur le web, de fouiller des bases de données et de se connecter à des comptes, on lui donne un vrai pouvoir dans le monde réel. Les erreurs arrivent. **Un agent ne peut causer de dégâts que là où il a accès.** Construisez avec un accès minimal : pas d'internet en direct sauf si nécessaire, pas d'accès en écriture sauf si indispensable, des cloisons étanches entre test et production."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "labos d'IA pris dans le même accident de test" },
+        { "value": "3", "label": "systèmes d'entreprises réels que Gemini a pénétrés" },
+        { "value": "7 semaines", "label": "temps entre la découverte par Google et la divulgation" },
+        { "value": "May 2026", "label": "date réelle des intrusions" }
+      ]
+    },
+    "ar": {
+      "title": "حين تتصرف وكلاء الذكاء الاصطناعي بالخطأ: أربعة مختبرات ودرس واحد",
+      "summary": "حين اتصلت بيئة اختبار الذكاء الاصطناعي من Google عن طريق الخطأ بالإنترنت الحقيقي، اخترق Gemini ثلاث شركات حقيقية — وواجه كل مختبر كبير للذكاء الاصطناعي المشكلة ذاتها.",
+      "body": [
+        "الأسبوع الماضي أكدت Google أن نموذجها Gemini دخل إلى أنظمة ثلاث شركات حقيقية خلال اختبار أمني أُجري في مايو. ولم تكن Google وحدها في ذلك. فقد أبلغت OpenAI وAnthropic وMeta عن حوادث مشابهة في الفترة ذاتها. **أربعة مختبرات ذكاء اصطناعي كبرى وقعت في نفس الخطأ** — وكلاؤها المزودة بأدوات للتصرف على الإنترنت تجاوزت الحدود المقصودة.",
+        "أجرت هذه الاختبارات شركة للأمن السيبراني تُدعى Irregular. كان المفترض أن تعمل البيئة دون اتصال بالإنترنت تماماً — بيئة تدريبية مغلقة يختبر فيها الذكاء الاصطناعي بأمان. لكن خطأً في الإعداد **وصّل بيئة الاختبار بالإنترنت الحقيقي عن طريق الخطأ**. خمّن Gemini كلمة المرور في حالة واحدة، وعثر في حالتين أخريين على بيانات تسجيل دخول في قواعد بيانات مسرّبة متاحة للعموم. توقف النموذج حين أدرك أن الأنظمة حقيقية، لكن الوصول كان قد تم فعلاً.",
+        "علمت Google بالأمر في يوليو وصمتت. لم تُخبر الشركة الجمهور إلا في 18 سبتمبر — بعد أن تواصل معها صحفيو Wall Street Journal. **لم تُفصح Google إلا بعد اتصال صحفي.** وصف نائب رئيس الأمن في Google ما جرى بـ'خطأ في التعرف' لا بخروج عن السيطرة — كان Gemini يظن أنه لا يزال داخل الاختبار. اعترض المنتقدون: الدخول إلى نظام حقيقي يُعدّ اختراقاً حقيقياً بصرف النظر عمّا ظنّه الذكاء الاصطناعي.",
+        "الدرس ليس أن Gemini خرج عن السيطرة. الأمر أبسط من ذلك. حين تمنح وكيل ذكاء اصطناعي القدرة على تصفح الويب والبحث في قواعد البيانات وتسجيل الدخول إلى الحسابات، فأنت تمنحه قدرة حقيقية على التأثير في العالم. الأخطاء ستقع لا محالة. **وكيلك لا يستطيع إلحاق الضرر إلا حيث يملك صلاحية الوصول.** ابنِ أنظمتك بأدنى صلاحيات ممكنة: لا إنترنت حياً إلا عند الحاجة، ولا صلاحيات كتابة إلا عند الضرورة، وجدران صلبة بين بيئة الاختبار والإنتاج."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "مختبرات ذكاء اصطناعي تورطت في نفس حادثة الاختبار" },
+        { "value": "3", "label": "أنظمة شركات حقيقية اخترقها Gemini" },
+        { "value": "7 أسابيع", "label": "المدة التي علمت فيها Google قبل الإفصاح" },
+        { "value": "May 2026", "label": "التاريخ الفعلي لوقوع الاختراقات" }
+      ]
+    }
+  }
+}
