@@ -115,10 +115,10 @@ export default async function HomePage() {
               <a
                 key={l.href}
                 href={l.href}
-                className="r group inline-flex items-start gap-2 md:gap-6 max-w-full font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
+                className="r group inline-flex items-start gap-2 md:gap-6 max-w-full font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[min(15vw,10rem)]"
               >
-                {/* multi-word labels wrap; long ones break rather than overflow */}
-                <span className="ul min-w-0 break-words">{l.label}</span>
+                {/* multi-word labels wrap between words; single words never split */}
+                <span className="ul min-w-0 break-normal">{l.label}</span>
                 <span
                   aria-hidden="true"
                   className="inline-block rotate-[-45deg] text-accent leading-none text-[0.3em] mt-[0.12em] transition-transform group-hover:translate-x-2 group-hover:-translate-y-2"
@@ -135,7 +135,7 @@ export default async function HomePage() {
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-28">
           <a
             href="/blog"
-            className="r group inline-flex items-start gap-2 md:gap-6 font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[15vw]"
+            className="r group inline-flex items-start gap-2 md:gap-6 font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[min(15vw,10rem)]"
           >
             <span className="ul">{home.blogTitle ?? 'Blog'}</span>
             <span
