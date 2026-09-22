@@ -20,8 +20,8 @@ export PATH="/home/deploy/.nvm/versions/node/v20.20.0/bin:/home/deploy/.local/bi
 # If you prefer an API key over the stored login, export it here or in cron:
 #   export ANTHROPIC_API_KEY="sk-ant-..."
 
-DEV_DIR="/home/deploy/dev.raoul.studio"
-PROD_DIR="/home/deploy/raoul.studio"
+DEV_DIR="/home/deploy/production/dev.raoul.studio"
+PROD_DIR="/home/deploy/production/raoul.studio"
 POSTS_REL="src/content/blog/posts"
 MODEL="claude-sonnet-4-6"
 SELF_DIR="$DEV_DIR/scripts/daily-blog"
@@ -89,21 +89,38 @@ if git diff --cached --quiet; then
   exit 1
 fi
 git commit -m "blog: daily journal entry for $DATE" >/dev/null
-if git push >/dev/null 2>&1; then
-  log "Pushed to origin."
-else
-  log "WARN: git push failed (post is committed locally)."
+# Site copy is sometimes committed straight from the prod checkout, which leaves
+# this one behind origin and gets the push rejected. Rebase onto origin and retry
+# once — the post files never overlap with site edits, so it lands cleanly.
+if ! git push >/dev/null 2>&1; then
+  log "Push rejected — rebasing onto origin/main and retrying."
+  if ! git pull --rebase >/dev/null 2>&1; then
+    git rebase --abort >/dev/null 2>&1
+    log "FAIL: rebase onto origin/main failed. $DATE is committed locally but NOT published."
+    exit 1
+  fi
+  if ! git push >/dev/null 2>&1; then
+    log "FAIL: push still rejected after rebase. $DATE is committed locally but NOT published."
+    exit 1
+  fi
 fi
+log "Pushed to origin."
 
 # --- deploy: pull into prod (force-dynamic routes -> no rebuild needed) ----
-if [ -d "$PROD_DIR/.git" ]; then
-  if git -C "$PROD_DIR" pull --ff-only >/dev/null 2>&1; then
-    log "Prod updated ($PROD_DIR)."
-  else
-    log "WARN: prod pull failed — check $PROD_DIR manually."
-  fi
-else
-  log "NOTE: $PROD_DIR is not a git checkout — skipped prod deploy."
+# `pull --ff-only` exits 0 when it finds nothing new, so check the file itself
+# rather than the exit code — otherwise a silent no-op reads as a success.
+if [ ! -d "$PROD_DIR/.git" ]; then
+  log "FAIL: $PROD_DIR is not a git checkout — $DATE is pushed but NOT live."
+  exit 1
 fi
+if ! git -C "$PROD_DIR" pull --ff-only >/dev/null 2>&1; then
+  log "FAIL: prod pull failed — check $PROD_DIR manually. $DATE is pushed but NOT live."
+  exit 1
+fi
+if ! ls "$PROD_DIR/$POSTS_REL/$DATE-"*.json >/dev/null 2>&1; then
+  log "FAIL: prod pulled but $DATE post is missing from $PROD_DIR/$POSTS_REL."
+  exit 1
+fi
+log "Prod updated ($PROD_DIR)."
 
 log "Done. Published $DATE."

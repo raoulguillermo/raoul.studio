@@ -7,7 +7,7 @@
 #   to the studio. Nothing is sent to subscribers until that link is clicked.
 #
 # Designed to run weekly from cron, e.g. (Mondays 08:00):
-#   0 8 * * 1  /home/deploy/raoul.studio/scripts/weekly-newsletter/run.sh >> /home/deploy/raoul.studio/scripts/weekly-newsletter/run.log 2>&1
+#   0 8 * * 1  /home/deploy/production/raoul.studio/scripts/weekly-newsletter/run.sh >> /home/deploy/production/raoul.studio/scripts/weekly-newsletter/run.log 2>&1
 
 set -uo pipefail
 
@@ -15,7 +15,7 @@ export HOME="/home/deploy"
 # nvm node first, then system bins (cron has a minimal PATH).
 export PATH="/home/deploy/.nvm/versions/node/v20.20.0/bin:/usr/local/bin:/usr/bin:/bin"
 
-PROD_DIR="/home/deploy/raoul.studio"
+PROD_DIR="/home/deploy/production/raoul.studio"
 
 log() { echo "[$(date '+%F %T')] $*"; }
 

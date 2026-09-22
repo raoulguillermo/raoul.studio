@@ -21,7 +21,7 @@ export HOME="/home/deploy"
 export PATH="/home/deploy/.nvm/versions/node/v20.20.0/bin:/home/deploy/.local/bin:/usr/local/bin:/usr/bin:/bin"
 # Optional: export ANTHROPIC_API_KEY="sk-ant-..." instead of the stored login.
 
-DEV_DIR="/home/deploy/dev.raoul.studio"
+DEV_DIR="/home/deploy/production/dev.raoul.studio"
 SELF_DIR="$DEV_DIR/scripts/daily-leads"
 MODEL="claude-sonnet-4-6"
 COUNT=3
