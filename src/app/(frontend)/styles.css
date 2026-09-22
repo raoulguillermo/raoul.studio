@@ -140,9 +140,29 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
    and the row never visibly jumps. */
 .marquee {
   overflow: hidden;
-  /* Fade the row out at both edges rather than slicing a logo in half. */
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  /* The row runs full-bleed, but it should read as part of the same column as
+     every other section: fully opaque exactly across the content text, fading
+     out through the gutter on either side. That distance is whatever is left
+     of the viewport outside the 1200px column, plus the column's own padding. */
+  --marquee-fade: calc(max((100vw - 1200px) / 2, 0px) + 1.5rem);
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 var(--marquee-fade),
+    #000 calc(100% - var(--marquee-fade)),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 var(--marquee-fade),
+    #000 calc(100% - var(--marquee-fade)),
+    transparent 100%
+  );
+}
+@media (min-width: 768px) {
+  /* matches the column's md:px-10 */
+  .marquee { --marquee-fade: calc(max((100vw - 1200px) / 2, 0px) + 2.5rem); }
 }
 .marquee-track {
   display: flex;
