@@ -134,6 +134,17 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 }
 #chatFab:hover { background: #E92316; }
 
+/* Text that permanently wears the look of a selection, borrowing the very same
+   pair as ::selection above so a real drag over it changes nothing. Cloned box
+   decorations keep the highlight tight around each line if it ever wraps. */
+.selected-text {
+  background: #E92316;
+  color: #D6D9DC;
+  padding: 0.15em 0.4em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 /* ============ CLIENTS MARQUEE ============ */
 /* The track holds the logo list twice and slides exactly half its own width,
    so at the moment it loops the second copy is standing where the first was

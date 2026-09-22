@@ -33,9 +33,10 @@ export default function ClientsMarquee({ label }) {
     <section className="py-16 md:py-24" aria-labelledby="clientsLabel">
       <h2
         id="clientsLabel"
-        className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider"
+        className="r text-sm mb-8 font-semibold uppercase tracking-wider"
       >
-        {label}
+        {/* Reads as if it had been dragged over — see .selected-text */}
+        <span className="selected-text">{label}</span>
       </h2>
       {/* Full-bleed so the logos run off both edges and the fade has room */}
       <div className="fullbleed marquee">
