@@ -331,7 +331,7 @@ function DenyPage() {
   return (
     <main style={{ maxWidth: 460, margin: '18vh auto', padding: '0 24px', textAlign: 'center' }}>
       <div style={{ fontSize: 12, letterSpacing: '.2em', textTransform: 'uppercase', color: MUTE, fontWeight: 600 }}>
-        raoul.studio
+        studio.raoul
       </div>
       <h1 style={{ fontSize: 24, marginTop: 12 }}>Analytics</h1>
       <p style={{ color: MUTE, marginTop: 12, lineHeight: 1.6 }}>
@@ -389,7 +389,7 @@ export default async function AnalyticsPage({ searchParams }) {
     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', justifyContent: 'space-between', gap: 16, marginBottom: 16 }}>
       <div>
         <div style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: MUTE, fontWeight: 600 }}>
-          raoul.studio · visitors
+          studio.raoul · visitors
         </div>
         <h1 style={{ fontSize: 30, fontWeight: 800, margin: '6px 0 0' }}>Analytics</h1>
       </div>

@@ -9,7 +9,7 @@ import { getLocale } from '@/content/locale-server'
 export async function generateMetadata() {
   const { contact } = getContent(await getLocale())
   return {
-    title: contact.meta?.title || "Let's talk — raoul.studio",
+    title: contact.meta?.title || "Let's talk — studio.raoul",
     description: contact.meta?.description || '',
     alternates: { canonical: '/contact' },
   }
@@ -47,6 +47,7 @@ export default async function ContactPage() {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

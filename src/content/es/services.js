@@ -5,7 +5,7 @@ export const services = {
   meta: {
     title: 'Servicios — estructuras de agentes de IA, software y productos digitales',
     description:
-      'Qué hace raoul.studio: estructuras completas de agentes de IA que llevan el día a día de un negocio, software y plataformas a medida, automatización, comercio, marca y colaboraciones de producto a largo plazo.',
+      'Qué hace studio.raoul: estructuras completas de agentes de IA que llevan el día a día de un negocio, software y plataformas a medida, automatización, comercio, marca y colaboraciones de producto a largo plazo.',
   },
   eyebrow: 'Servicios',
   titleLine1: 'Servicios',

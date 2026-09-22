@@ -18,7 +18,7 @@ export async function generateMetadata() {
   const { pages } = getContent(await getLocale())
   const page = getTerms(pages)
   return {
-    title: page.meta?.title || `${page.titleLine1} — raoul.studio`,
+    title: page.meta?.title || `${page.titleLine1} — studio.raoul`,
     description: page.meta?.description || '',
     alternates: { canonical: '/terms' },
   }
@@ -35,6 +35,7 @@ export default async function TermsPage() {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

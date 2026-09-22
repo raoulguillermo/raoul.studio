@@ -2,9 +2,9 @@
 
 export const home = {
   meta: {
-    title: 'raoul.studio — digital product studio voor AI, software & commerce',
+    title: 'studio.raoul — digital product studio voor AI, software & commerce',
     description:
-      'raoul.studio is een digital product studio die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten — strategie, design, software-engineering, AI, automatisering, commerce en infrastructuur.',
+      'studio.raoul is een digital product studio die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten — strategie, design, software-engineering, AI, automatisering, commerce en infrastructuur.',
   },
   hero: {
     prefix: 'De studio die jouw',

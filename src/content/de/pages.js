@@ -32,7 +32,7 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio ist eine Digitalagentur und ein Produktstudio aus Rotterdam, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen. Im Studio werden Strategie, Branding, Software-Engineering, KI, Automatisierung und Infrastruktur zu Lösungen verbunden, die dauerhaften geschäftlichen Mehrwert schaffen.',
+        text: 'studio.raoul ist eine Digitalagentur und ein Produktstudio aus Rotterdam, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen. Im Studio werden Strategie, Branding, Software-Engineering, KI, Automatisierung und Infrastruktur zu Lösungen verbunden, die dauerhaften geschäftlichen Mehrwert schaffen.',
       },
       {
         text: 'Das Studio arbeitet partnerschaftlich mit Gründern, Start-ups und etablierten Unternehmen, um maßgeschneiderte Plattformen, KI-gestützte Tools, Commerce-Lösungen und digitale Erlebnisse zu gestalten, zu bauen und weiterzuentwickeln. Jedes Projekt geht das Studio mit Produktdenken an: echte geschäftliche Herausforderungen lösen, intuitive Nutzererlebnisse schaffen und Technologie bauen, die mit dem Unternehmen mitwächst.',
@@ -158,8 +158,8 @@ export const pages = {
       label: 'FAQ',
       items: [
         {
-          q: 'Was macht raoul.studio?',
-          a: 'raoul.studio ist ein digitales Produktstudio. Das Studio gestaltet, baut und skaliert maßgeschneiderte Produkte — Webplattformen und SaaS, headless E-Commerce, KI-Tools und Automatisierung, CRMs und interne Tools, APIs und zweiseitige Marktplätze — für Fintech, Kanzleien, kommerzielle Agenturen und E-Commerce-Teams, dazu die eigenen Produkte des Studios.',
+          q: 'Was macht studio.raoul?',
+          a: 'studio.raoul ist ein digitales Produktstudio. Das Studio gestaltet, baut und skaliert maßgeschneiderte Produkte — Webplattformen und SaaS, headless E-Commerce, KI-Tools und Automatisierung, CRMs und interne Tools, APIs und zweiseitige Marktplätze — für Fintech, Kanzleien, kommerzielle Agenturen und E-Commerce-Teams, dazu die eigenen Produkte des Studios.',
         },
         {
           q: 'Wie arbeiten Sie?',
@@ -191,20 +191,20 @@ export const pages = {
     meta: {
       title: 'Datenschutz',
       description:
-        'Wie raoul.studio mit personenbezogenen Daten auf der Website und in der Poofy-App umgeht: was wir erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
+        'Wie studio.raoul mit personenbezogenen Daten auf der Website und in der Poofy-App umgeht: was wir erheben, warum, wer sie verarbeitet, wie lange wir sie speichern und Ihre Rechte nach der DSGVO.',
     },
     eyebrow: 'Rechtliches',
     titleLine1: 'Datenschutz',
     titleAccent: '.',
     updated: 'Zuletzt aktualisiert — August 2026',
     intro:
-      'Diese Richtlinie erklärt, welche personenbezogenen Daten raoul.studio erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Sie gilt für diese Website und für die Apps, die das Studio betreibt, einschließlich der Aufgaben-App Poofy für iPhone und Mac. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben, denjenigen zu antworten, die uns kontaktieren, und Ihre Aufgaben synchron zu halten.',
+      'Diese Richtlinie erklärt, welche personenbezogenen Daten studio.raoul erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Sie gilt für diese Website und für die Apps, die das Studio betreibt, einschließlich der Aufgaben-App Poofy für iPhone und Mac. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben, denjenigen zu antworten, die uns kontaktieren, und Ihre Aufgaben synchron zu halten.',
     sections: [
       {
         heading: 'Wer wir sind',
         body: [
-          'raoul.studio ist ein Produkt- und Engineering-Studio von Raoul Guillermo mit Sitz in der EU. Bei allem, was diese Richtlinie betrifft — oder um Ihre Rechte auszuüben — erreichen Sie uns unter hello@raoul.studio.',
-          'Im Sinne der DSGVO ist raoul.studio Verantwortlicher für die hier beschriebenen personenbezogenen Daten.',
+          'studio.raoul ist ein Produkt- und Engineering-Studio von Raoul Guillermo mit Sitz in der EU. Bei allem, was diese Richtlinie betrifft — oder um Ihre Rechte auszuüben — erreichen Sie uns unter hello@raoul.studio.',
+          'Im Sinne der DSGVO ist studio.raoul Verantwortlicher für die hier beschriebenen personenbezogenen Daten.',
         ],
       },
       {
@@ -315,7 +315,7 @@ export const pages = {
         heading: 'Software, Sicherheit und Haftung',
         body: [
           'Die Website sowie sämtliche von uns bereitgestellten Werkzeuge oder Software werden „wie besehen“ und „wie verfügbar“ zur Verfügung gestellt. Wir wenden angemessene Sorgfalt auf, um sie sicher und betriebsbereit zu halten; gleichwohl kann für keine Software und keinen Onlinedienst gewährleistet werden, dass sie vollständig sicher, ununterbrochen oder fehlerfrei sind.',
-          'Soweit gesetzlich zulässig, haftet raoul.studio nicht für Datenverluste, Ausfallzeiten, Sicherheitsverletzungen, unbefugte Zugriffe oder für unmittelbare oder mittelbare Schäden, die aus Ihrer Nutzung der Website oder unserer Software oder der Unmöglichkeit ihrer Nutzung entstehen, einschließlich Vorfällen außerhalb unseres zumutbaren Einflussbereichs wie Angriffen Dritter, Hackerangriffen oder Dienstausfällen.',
+          'Soweit gesetzlich zulässig, haftet studio.raoul nicht für Datenverluste, Ausfallzeiten, Sicherheitsverletzungen, unbefugte Zugriffe oder für unmittelbare oder mittelbare Schäden, die aus Ihrer Nutzung der Website oder unserer Software oder der Unmöglichkeit ihrer Nutzung entstehen, einschließlich Vorfällen außerhalb unseres zumutbaren Einflussbereichs wie Angriffen Dritter, Hackerangriffen oder Dienstausfällen.',
           'Die vorstehenden Bestimmungen beschränken weder Ihre Rechte aus der DSGVO noch eine Haftung, die gesetzlich nicht ausgeschlossen werden kann – einschließlich der Haftung für Vorsatz und grobe Fahrlässigkeit.',
         ],
       },
@@ -335,20 +335,20 @@ export const pages = {
     meta: {
       title: 'Allgemeine Geschäftsbedingungen',
       description:
-        'Die Bedingungen, zu denen raoul.studio mit Kunden arbeitet und seine eigenen Apps betreibt: Leistungsumfang, Zahlung, geistiges Eigentum, Konten, zulässige Nutzung, Haftung und mehr — in klarer Sprache, nach niederländischem Recht.',
+        'Die Bedingungen, zu denen studio.raoul mit Kunden arbeitet und seine eigenen Apps betreibt: Leistungsumfang, Zahlung, geistiges Eigentum, Konten, zulässige Nutzung, Haftung und mehr — in klarer Sprache, nach niederländischem Recht.',
     },
     eyebrow: 'Rechtliches',
     titleLine1: 'AGB',
     titleAccent: '.',
     updated: 'Zuletzt aktualisiert — August 2026',
     intro:
-      'Diese Bedingungen beschreiben, wie raoul.studio mit seinen Kunden arbeitet — was wir liefern, wie wir arbeiten und wer wofür verantwortlich ist — und wie Sie die Apps nutzen dürfen, die das Studio selbst betreibt, etwa Poofy. Wir haben sie in klarer Sprache verfasst: Sie sollen fair sein und gelesen werden.',
+      'Diese Bedingungen beschreiben, wie studio.raoul mit seinen Kunden arbeitet — was wir liefern, wie wir arbeiten und wer wofür verantwortlich ist — und wie Sie die Apps nutzen dürfen, die das Studio selbst betreibt, etwa Poofy. Wir haben sie in klarer Sprache verfasst: Sie sollen fair sein und gelesen werden.',
     sections: [
       {
         heading: 'Einleitung',
         body: [
-          'Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für alle Leistungen, Angebote, Vorschläge, Abonnements, Aufträge und Vereinbarungen zwischen raoul.studio („das Studio“, „wir“, „uns“) und seinen Kunden („der Kunde“, „Sie“). Sie gelten, sofern wir nicht schriftlich etwas anderes vereinbart haben.',
-          'raoul.studio ist ein digitales Produktstudio mit Sitz in den Niederlanden, geführt von Raoul Guillermo. Sie erreichen uns unter hello@raoul.studio. Mit der Annahme eines Angebots, der Unterzeichnung einer Vereinbarung oder der Beauftragung, mit der Arbeit zu beginnen, stimmen Sie diesen Bedingungen zu.',
+          'Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für alle Leistungen, Angebote, Vorschläge, Abonnements, Aufträge und Vereinbarungen zwischen studio.raoul („das Studio“, „wir“, „uns“) und seinen Kunden („der Kunde“, „Sie“). Sie gelten, sofern wir nicht schriftlich etwas anderes vereinbart haben.',
+          'studio.raoul ist ein digitales Produktstudio mit Sitz in den Niederlanden, geführt von Raoul Guillermo. Sie erreichen uns unter hello@raoul.studio. Mit der Annahme eines Angebots, der Unterzeichnung einer Vereinbarung oder der Beauftragung, mit der Arbeit zu beginnen, stimmen Sie diesen Bedingungen zu.',
           'Diese Bedingungen bestehen aus zwei Teilen. Das meiste im Folgenden betrifft Kundenprojekte. Die Abschnitte unter „Nutzung der eigenen Apps des Studios“ weiter unten gelten stattdessen, wenn Sie eine App nutzen, die das Studio auf eigene Rechnung betreibt — derzeit Poofy, die Todo-App für iPhone und Mac. Sie müssen kein Kunde sein, um diese Apps zu nutzen.',
         ],
       },
@@ -356,7 +356,7 @@ export const pages = {
         heading: 'Begriffsbestimmungen',
         body: ['In diesen Bedingungen haben die folgenden Begriffe die folgende Bedeutung:'],
         points: [
-          'Studio — raoul.studio, der Anbieter der Leistungen.',
+          'Studio — studio.raoul, der Anbieter der Leistungen.',
           'Kunde — die natürliche oder juristische Person, die eine Vereinbarung mit dem Studio schließt.',
           'Projekt — die Arbeit, die das Studio zu erbringen zusagt, wie in einem Angebot oder einer Vereinbarung beschrieben.',
           'Leistungen (Deliverables) — die Designs, Software, der Code, die Dokumentation, Inhalte oder sonstigen Materialien, die das Studio liefert.',

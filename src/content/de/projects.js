@@ -69,7 +69,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Threadly ist das eigene SaaS von raoul.studio: ein Support-Ticket-System für Support-Teams, Agenturen und Einzelkämpfer, die bei jedem Gespräch den Überblick behalten müssen.',
+        text: 'Threadly ist das eigene SaaS von studio.raoul: ein Support-Ticket-System für Support-Teams, Agenturen und Einzelkämpfer, die bei jedem Gespräch den Überblick behalten müssen.',
       },
       {
         text: 'Ein geteilter Posteingang zieht jeden Kanal an einen Ort, SLA-Tracking hält die Antwortzeiten ehrlich, und Automatisierung übernimmt die Routine, damit das Team sich auf die Antworten konzentrieren kann, die zählen.',

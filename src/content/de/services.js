@@ -5,7 +5,7 @@ export const services = {
   meta: {
     title: 'Leistungen — KI-Agentenstrukturen, Software & digitale Produkte',
     description:
-      'Was raoul.studio macht: komplette Strukturen aus KI-Agenten, die das Tagesgeschäft eines Unternehmens erledigen, individuelle Software und Plattformen, Automatisierung, Commerce, Marke und langfristige Produktpartnerschaften.',
+      'Was studio.raoul macht: komplette Strukturen aus KI-Agenten, die das Tagesgeschäft eines Unternehmens erledigen, individuelle Software und Plattformen, Automatisierung, Commerce, Marke und langfristige Produktpartnerschaften.',
   },
   eyebrow: 'Leistungen',
   titleLine1: 'Leistungen',

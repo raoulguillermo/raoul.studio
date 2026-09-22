@@ -60,7 +60,7 @@ export default async function ProjectPage({ params }) {
     url: `${SITE_URL}/projects/${project.slug}`,
     inLanguage: lang,
     keywords: project.tagsLine,
-    creator: { '@type': 'Organization', name: 'raoul.studio', url: SITE_URL },
+    creator: { '@type': 'Organization', name: 'studio.raoul', url: SITE_URL },
     isPartOf: { '@id': `${SITE_URL}/#website` },
   }
 
@@ -73,6 +73,7 @@ export default async function ProjectPage({ params }) {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

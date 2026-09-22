@@ -32,7 +32,7 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio est une agence digitale et un studio de produit basés à Rotterdam qui aident les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs. Le studio réunit stratégie, branding, ingénierie logicielle, IA, automatisation et infrastructure pour créer des solutions qui génèrent une valeur métier durable.',
+        text: 'studio.raoul est une agence digitale et un studio de produit basés à Rotterdam qui aident les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs. Le studio réunit stratégie, branding, ingénierie logicielle, IA, automatisation et infrastructure pour créer des solutions qui génèrent une valeur métier durable.',
       },
       {
         text: 'Le studio accompagne fondateurs, start-up et entreprises établies pour concevoir, construire et faire évoluer des plateformes sur mesure, des outils propulsés par l’IA, des solutions de commerce et des expériences digitales. Chaque projet est abordé avec un état d’esprit produit : résoudre de vrais enjeux métier, créer des expériences utilisateur intuitives et bâtir une technologie capable de grandir avec l’entreprise.',
@@ -158,8 +158,8 @@ export const pages = {
       label: 'FAQ',
       items: [
         {
-          q: 'Que fait raoul.studio ?',
-          a: 'raoul.studio est un studio de produit digital. Il conçoit, construit et fait grandir des produits sur mesure — plateformes web et SaaS, e-commerce headless, outils d’IA et automatisation, CRM et outils internes, API et places de marché à deux faces — pour la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce, aux côtés de ses propres produits.',
+          q: 'Que fait studio.raoul ?',
+          a: 'studio.raoul est un studio de produit digital. Il conçoit, construit et fait grandir des produits sur mesure — plateformes web et SaaS, e-commerce headless, outils d’IA et automatisation, CRM et outils internes, API et places de marché à deux faces — pour la fintech, les cabinets d’avocats, les agences commerciales et les équipes e-commerce, aux côtés de ses propres produits.',
         },
         {
           q: 'Comment travaillez-vous ?',
@@ -191,20 +191,20 @@ export const pages = {
     meta: {
       title: 'Politique de confidentialité',
       description:
-        'Comment raoul.studio traite les données personnelles sur le site web et dans l’application Poofy : ce que nous collectons, pourquoi, qui les traite, combien de temps nous les conservons et vos droits au titre du RGPD.',
+        'Comment studio.raoul traite les données personnelles sur le site web et dans l’application Poofy : ce que nous collectons, pourquoi, qui les traite, combien de temps nous les conservons et vos droits au titre du RGPD.',
     },
     eyebrow: 'Mentions légales',
     titleLine1: 'Confidentialité',
     titleAccent: '.',
     updated: 'Dernière mise à jour — août 2026',
     intro:
-      'Cette politique explique quelles données personnelles raoul.studio collecte, pourquoi nous les collectons et quels droits vous détenez à leur sujet. Elle couvre ce site web ainsi que les applications que le studio exploite, dont l’application de tâches Poofy pour iPhone et Mac. Nous limitons la collecte au strict minimum nécessaire au fonctionnement du studio, à la réponse aux personnes qui nous contactent et à la synchronisation de vos tâches.',
+      'Cette politique explique quelles données personnelles studio.raoul collecte, pourquoi nous les collectons et quels droits vous détenez à leur sujet. Elle couvre ce site web ainsi que les applications que le studio exploite, dont l’application de tâches Poofy pour iPhone et Mac. Nous limitons la collecte au strict minimum nécessaire au fonctionnement du studio, à la réponse aux personnes qui nous contactent et à la synchronisation de vos tâches.',
     sections: [
       {
         heading: 'Qui nous sommes',
         body: [
-          'raoul.studio est un studio de produit et d’ingénierie dirigé par Raoul Guillermo, établi dans l’UE. Pour toute question relative à cette politique — ou pour exercer vos droits — écrivez-nous à hello@raoul.studio.',
-          'Au sens du RGPD, raoul.studio est le responsable du traitement des données personnelles décrites ici.',
+          'studio.raoul est un studio de produit et d’ingénierie dirigé par Raoul Guillermo, établi dans l’UE. Pour toute question relative à cette politique — ou pour exercer vos droits — écrivez-nous à hello@raoul.studio.',
+          'Au sens du RGPD, studio.raoul est le responsable du traitement des données personnelles décrites ici.',
         ],
       },
       {
@@ -315,7 +315,7 @@ export const pages = {
         heading: 'Logiciel, sécurité et responsabilité',
         body: [
           'Le site web ainsi que tout outil ou logiciel que nous mettons à disposition sont fournis « en l’état » et « selon disponibilité ». Nous apportons un soin raisonnable à les maintenir sécurisés et opérationnels, mais aucun logiciel ni service en ligne ne peut être garanti comme totalement sûr, ininterrompu ou exempt d’erreurs.',
-          'Dans toute la mesure permise par la loi, raoul.studio ne saurait être tenu responsable de toute perte de données, indisponibilité, faille de sécurité, accès non autorisé, ni de tout dommage direct ou indirect résultant de votre utilisation — ou de votre impossibilité d’utiliser — le site web ou nos logiciels, y compris les incidents échappant à notre contrôle raisonnable tels que piratages, attaques ou pannes de services tiers.',
+          'Dans toute la mesure permise par la loi, studio.raoul ne saurait être tenu responsable de toute perte de données, indisponibilité, faille de sécurité, accès non autorisé, ni de tout dommage direct ou indirect résultant de votre utilisation — ou de votre impossibilité d’utiliser — le site web ou nos logiciels, y compris les incidents échappant à notre contrôle raisonnable tels que piratages, attaques ou pannes de services tiers.',
           'Rien dans ce qui précède ne limite les droits dont vous disposez au titre du RGPD, ni une responsabilité qui ne peut être légalement exclue — y compris la responsabilité en cas de faute intentionnelle ou de négligence grave.',
         ],
       },
@@ -335,20 +335,20 @@ export const pages = {
     meta: {
       title: 'Conditions générales',
       description:
-        'Les conditions dans lesquelles raoul.studio travaille avec ses clients et exploite ses propres applications : périmètre, paiement, propriété intellectuelle, comptes, usage acceptable, responsabilité et plus — en langage clair, sous le droit néerlandais.',
+        'Les conditions dans lesquelles studio.raoul travaille avec ses clients et exploite ses propres applications : périmètre, paiement, propriété intellectuelle, comptes, usage acceptable, responsabilité et plus — en langage clair, sous le droit néerlandais.',
     },
     eyebrow: 'Mentions légales',
     titleLine1: 'Conditions',
     titleAccent: '.',
     updated: 'Dernière mise à jour — août 2026',
     intro:
-      'Ces Conditions expliquent comment raoul.studio travaille avec ses clients — ce que nous livrons, comment nous travaillons et qui est responsable de quoi — et comment vous pouvez utiliser les applications que le studio exploite pour son propre compte, comme Poofy. Nous les avons écrites en langage clair : elles se veulent équitables, et faites pour être lues.',
+      'Ces Conditions expliquent comment studio.raoul travaille avec ses clients — ce que nous livrons, comment nous travaillons et qui est responsable de quoi — et comment vous pouvez utiliser les applications que le studio exploite pour son propre compte, comme Poofy. Nous les avons écrites en langage clair : elles se veulent équitables, et faites pour être lues.',
     sections: [
       {
         heading: 'Introduction',
         body: [
-          'Les présentes conditions générales (« Conditions ») régissent l’ensemble des services, devis, propositions, abonnements, commandes et accords entre raoul.studio (« le Studio », « nous ») et ses clients (« le Client », « vous »). Elles s’appliquent sauf accord écrit contraire.',
-          'raoul.studio est un studio de produits numériques basé aux Pays-Bas, dirigé par Raoul Guillermo. Vous pouvez nous écrire à hello@raoul.studio. En acceptant une Proposition, en signant un Accord ou en nous demandant de commencer les travaux, vous acceptez ces Conditions.',
+          'Les présentes conditions générales (« Conditions ») régissent l’ensemble des services, devis, propositions, abonnements, commandes et accords entre studio.raoul (« le Studio », « nous ») et ses clients (« le Client », « vous »). Elles s’appliquent sauf accord écrit contraire.',
+          'studio.raoul est un studio de produits numériques basé aux Pays-Bas, dirigé par Raoul Guillermo. Vous pouvez nous écrire à hello@raoul.studio. En acceptant une Proposition, en signant un Accord ou en nous demandant de commencer les travaux, vous acceptez ces Conditions.',
           'Ces Conditions comportent deux parties. L’essentiel de ce qui suit concerne les missions clients. Les sections regroupées sous « Utiliser les applications du studio », plus bas, s’appliquent à la place si vous utilisez une application que le Studio exploite pour son propre compte — actuellement Poofy, l’application de tâches pour iPhone et Mac. Il n’est pas nécessaire d’être Client pour utiliser ces applications.',
         ],
       },
@@ -356,7 +356,7 @@ export const pages = {
         heading: 'Définitions',
         body: ['Dans ces Conditions, les termes suivants ont le sens suivant :'],
         points: [
-          'Studio — raoul.studio, le prestataire des services.',
+          'Studio — studio.raoul, le prestataire des services.',
           'Client — la personne physique ou morale qui conclut un Accord avec le Studio.',
           'Projet — les travaux que le Studio s’engage à réaliser, tels que décrits dans une Proposition ou un Accord.',
           'Livrables — les designs, logiciels, codes, documentations, contenus ou autres éléments livrés par le Studio.',

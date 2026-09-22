@@ -73,7 +73,7 @@ export async function GET(req) {
       },
       body: JSON.stringify({
         personalizations,
-        from: { email: FROM, name: 'raoul.studio' },
+        from: { email: FROM, name: 'studio.raoul' },
         subject: draft.subject,
         content: [
           { type: 'text/plain', value: draft.text || '' },

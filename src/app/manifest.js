@@ -1,7 +1,7 @@
 export default function manifest() {
   return {
-    name: 'raoul.studio',
-    short_name: 'raoul.studio',
+    name: 'studio.raoul',
+    short_name: 'studio.raoul',
     description:
       'A product & engineering studio building custom-made, hand-tailored software for fintech, law and commercial teams.',
     start_url: '/',

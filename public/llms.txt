@@ -1,4 +1,4 @@
-# raoul.studio
+# studio.raoul
 
 > A founder-led product & engineering studio, led by Raoul Guillermo, that builds custom, hand-tailored tools and platforms for fintech, law firms and commercial agencies — software too specific for off-the-shelf. Small team, fast decisions, production-grade work. Based in the EU, works remote.
 

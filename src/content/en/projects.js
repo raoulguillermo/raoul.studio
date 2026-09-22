@@ -94,7 +94,7 @@ export const projects = [
     ],
     body: [
       {
-        text: "Threadly is raoul.studio's own SaaS: a support-ticket system built for support teams, agencies and solo operators who need to stay on top of every conversation.",
+        text: "Threadly is studio.raoul's own SaaS: a support-ticket system built for support teams, agencies and solo operators who need to stay on top of every conversation.",
       },
       {
         text: 'A shared inbox pulls every channel into one place, SLA tracking keeps response times honest, and automation handles the repetitive work so the team can focus on the replies that matter.',

@@ -17,6 +17,8 @@ const SITE_URL = 'https://raoul.studio'
 // (Rotterdam), the "digital agency" search term, and common misspellings of the
 // founder's name so those queries still resolve to us.
 const KEYWORDS = [
+  'studio.raoul',
+  // The former name and the domain stay: people still search for these.
   'raoul.studio',
   'Raoul Guillermo',
   'digital agency',
@@ -56,14 +58,14 @@ export async function generateMetadata() {
     metadataBase: new URL(SITE_URL),
     title: {
       default: meta.title,
-      template: '%s — raoul.studio',
+      template: '%s — studio.raoul',
     },
     description: meta.description,
-    applicationName: 'raoul.studio',
+    applicationName: 'studio.raoul',
     keywords: KEYWORDS,
     openGraph: {
       type: 'website',
-      siteName: 'raoul.studio',
+      siteName: 'studio.raoul',
       url: SITE_URL,
       title: meta.title,
       description: meta.description,
@@ -90,7 +92,7 @@ export const viewport = {
 // Panel, ChatGPT, Perplexity, Claude). Describes the studio, its founder and
 // the services it offers in plain, machine-readable terms.
 const STUDIO_DESCRIPTION =
-  'raoul.studio is a digital product studio that helps ambitious businesses turn ideas into scalable digital products — combining strategy, branding, software engineering, AI, automation, commerce and infrastructure.'
+  'studio.raoul is a digital product studio that helps ambitious businesses turn ideas into scalable digital products — combining strategy, branding, software engineering, AI, automation, commerce and infrastructure.'
 
 const svc = (name) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name } })
 
@@ -100,8 +102,8 @@ const jsonLd = {
     {
       '@type': ['Organization', 'ProfessionalService'],
       '@id': `${SITE_URL}/#studio`,
-      name: 'raoul.studio',
-      alternateName: ['Raoul Studio', 'raoul.studio digital agency', 'Raoul Guillermo digital agency'],
+      name: 'studio.raoul',
+      alternateName: ['raoul.studio', 'Raoul Studio', 'studio.raoul digital agency', 'Raoul Guillermo digital agency'],
       url: SITE_URL,
       description: STUDIO_DESCRIPTION,
       slogan: 'Building what’s next.',
@@ -227,7 +229,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': `${SITE_URL}/#website`,
       url: SITE_URL,
-      name: 'raoul.studio',
+      name: 'studio.raoul',
       description: STUDIO_DESCRIPTION,
       inLanguage: ['en', 'de', 'nl', 'es', 'fr', 'ar'],
       publisher: { '@id': `${SITE_URL}/#studio` },

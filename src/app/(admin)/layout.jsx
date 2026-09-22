@@ -4,7 +4,7 @@
 // no top-level app/layout file; the public site lives under (frontend).
 
 export const metadata = {
-  title: 'Analytics — raoul.studio',
+  title: 'Analytics — studio.raoul',
   robots: { index: false, follow: false },
 }
 

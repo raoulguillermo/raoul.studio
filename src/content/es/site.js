@@ -1,7 +1,8 @@
 // Estructura del sitio: cabecera, menú a página completa, riel de pósteres, pie.
 
 export const header = {
-  wordmark: 'raoul.studio',
+  wordmark: 'studio.raoul',
+  tagline: 'artesanía digital',
   wordmarkHref: '/',
   ctaLabel: 'contacto',
   ctaHref: '/contact',
@@ -36,7 +37,7 @@ export const menu = {
       ],
     },
   ],
-  footerLeft: '© raoul.studio · 2026',
+  footerLeft: '© studio.raoul · 2026',
   footerPhone: '+31 10 307 3755',
   footerPhoneHref: 'tel:+31103073755',
   footerRightLabel: 'hello@raoul.studio',
@@ -68,11 +69,11 @@ export const ui = {
 export const posterRail = {
   topText: 'Estudio de producto digital',
   middleText: 'El estudio diseña, construye y hace crecer empresas digitales.',
-  bottomText: 'raoul.studio',
+  bottomText: 'studio.raoul',
 }
 
 export const footer = {
-  leftText: '© 2026 raoul.studio',
+  leftText: '© 2026 studio.raoul',
   rightText: 'Rotterdam · UE',
   phone: '+31 10 307 3755',
   phoneHref: 'tel:+31103073755',

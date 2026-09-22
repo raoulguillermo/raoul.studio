@@ -9,7 +9,7 @@ export async function generateMetadata() {
   const { pages } = getContent(await getLocale())
   const page = pages.privacy
   return {
-    title: page.meta?.title || `${page.titleLine1} — raoul.studio`,
+    title: page.meta?.title || `${page.titleLine1} — studio.raoul`,
     description: page.meta?.description || '',
     alternates: { canonical: '/privacy' },
   }
@@ -26,6 +26,7 @@ export default async function PrivacyPage() {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

@@ -87,7 +87,7 @@ export default async function BlogPostPage({ params }) {
     author: { '@type': 'Person', name: 'Raoul Guillermo', url: SITE_URL },
     publisher: {
       '@type': 'Organization',
-      name: 'raoul.studio',
+      name: 'studio.raoul',
       logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.svg` },
     },
     mainEntityOfPage: {
@@ -105,6 +105,7 @@ export default async function BlogPostPage({ params }) {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={blog.eyebrow}
         backHref="/blog"

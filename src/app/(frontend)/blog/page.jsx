@@ -41,6 +41,7 @@ export default async function BlogIndexPage() {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

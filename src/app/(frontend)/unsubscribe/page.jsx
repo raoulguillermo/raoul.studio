@@ -45,6 +45,7 @@ export default async function UnsubscribePage({ searchParams }) {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

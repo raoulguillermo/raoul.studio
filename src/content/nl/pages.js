@@ -32,7 +32,7 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is een digital agency en product studio in Rotterdam die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten. In de studio worden strategie, branding, software-engineering, AI, automatisering en infrastructuur samengebracht tot oplossingen die blijvende zakelijke waarde leveren.',
+        text: 'studio.raoul is een digital agency en product studio in Rotterdam die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten. In de studio worden strategie, branding, software-engineering, AI, automatisering en infrastructuur samengebracht tot oplossingen die blijvende zakelijke waarde leveren.',
       },
       {
         text: 'De studio werkt samen met founders, start-ups en gevestigde bedrijven om maatwerkplatforms, AI-gedreven tools, commerce-oplossingen en digitale ervaringen te ontwerpen, te bouwen en door te ontwikkelen. Elk project wordt aangepakt met een productmindset: echte zakelijke uitdagingen oplossen, intuïtieve gebruikerservaringen maken en technologie bouwen die met het bedrijf meegroeit.',
@@ -158,8 +158,8 @@ export const pages = {
       label: 'FAQ',
       items: [
         {
-          q: 'Wat doet raoul.studio?',
-          a: 'raoul.studio is een digital product studio. De studio ontwerpt, bouwt en laat maatwerkproducten groeien — webplatforms en SaaS, headless e-commerce, AI-tools en automatisering, CRMs en interne tooling, APIs en tweezijdige marktplaatsen — voor fintech, advocatenkantoren, commerciële bureaus en e-commerceteams, naast eigen producten.',
+          q: 'Wat doet studio.raoul?',
+          a: 'studio.raoul is een digital product studio. De studio ontwerpt, bouwt en laat maatwerkproducten groeien — webplatforms en SaaS, headless e-commerce, AI-tools en automatisering, CRMs en interne tooling, APIs en tweezijdige marktplaatsen — voor fintech, advocatenkantoren, commerciële bureaus en e-commerceteams, naast eigen producten.',
         },
         {
           q: 'Hoe werken jullie?',
@@ -191,20 +191,20 @@ export const pages = {
     meta: {
       title: 'Privacybeleid',
       description:
-        'Hoe raoul.studio met persoonsgegevens omgaat op de website en in de Poofy-app: wat we verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
+        'Hoe studio.raoul met persoonsgegevens omgaat op de website en in de Poofy-app: wat we verzamelen, waarom, wie het verwerkt, hoe lang we het bewaren en jouw rechten onder de AVG.',
     },
     eyebrow: 'Juridisch',
     titleLine1: 'Privacy',
     titleAccent: '.',
     updated: 'Laatst bijgewerkt — augustus 2026',
     intro:
-      'Dit beleid legt uit welke persoonsgegevens raoul.studio verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. Het geldt voor deze website en voor de apps die de studio draait, waaronder de Poofy-takenapp voor iPhone en Mac. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien, de mensen die contact opnemen te beantwoorden en je taken gesynchroniseerd te houden.',
+      'Dit beleid legt uit welke persoonsgegevens studio.raoul verzamelt, waarom we ze verzamelen en welke rechten je erover hebt. Het geldt voor deze website en voor de apps die de studio draait, waaronder de Poofy-takenapp voor iPhone en Mac. We houden de gegevensverzameling tot het minimum dat nodig is om de studio te draaien, de mensen die contact opnemen te beantwoorden en je taken gesynchroniseerd te houden.',
     sections: [
       {
         heading: 'Wie we zijn',
         body: [
-          'raoul.studio is een product- en engineeringstudio onder leiding van Raoul Guillermo, gevestigd in de EU. Voor alles in dit beleid — of om je rechten uit te oefenen — bereik je ons op hello@raoul.studio.',
-          'Voor de AVG is raoul.studio de verwerkingsverantwoordelijke voor de hier beschreven persoonsgegevens.',
+          'studio.raoul is een product- en engineeringstudio onder leiding van Raoul Guillermo, gevestigd in de EU. Voor alles in dit beleid — of om je rechten uit te oefenen — bereik je ons op hello@raoul.studio.',
+          'Voor de AVG is studio.raoul de verwerkingsverantwoordelijke voor de hier beschreven persoonsgegevens.',
         ],
       },
       {
@@ -315,7 +315,7 @@ export const pages = {
         heading: 'Software, beveiliging en aansprakelijkheid',
         body: [
           'De website en alle tools of software die we beschikbaar stellen, worden aangeboden op een "as is"- en "as available"-basis, dat wil zeggen in de staat waarin ze zich bevinden en voor zover beschikbaar. We spannen ons redelijkerwijs in om ze veilig en operationeel te houden, maar van geen enkele software of online dienst kan worden gegarandeerd dat deze volledig veilig, ononderbroken of foutloos is.',
-          'Voor zover wettelijk toegestaan is raoul.studio niet aansprakelijk voor enig verlies van gegevens, downtime, beveiligingsinbreuk, ongeoorloofde toegang, of enige directe of indirecte schade die voortvloeit uit je gebruik van — of het niet kunnen gebruiken van — de website of onze software, met inbegrip van incidenten buiten onze redelijke invloedssfeer, zoals hacks, aanvallen of storingen bij derden.',
+          'Voor zover wettelijk toegestaan is studio.raoul niet aansprakelijk voor enig verlies van gegevens, downtime, beveiligingsinbreuk, ongeoorloofde toegang, of enige directe of indirecte schade die voortvloeit uit je gebruik van — of het niet kunnen gebruiken van — de website of onze software, met inbegrip van incidenten buiten onze redelijke invloedssfeer, zoals hacks, aanvallen of storingen bij derden.',
           'Niets in dit beleid beperkt de rechten die je op grond van de AVG hebt, of enige aansprakelijkheid die wettelijk niet kan worden uitgesloten — waaronder aansprakelijkheid voor opzet of grove nalatigheid.',
         ],
       },
@@ -335,20 +335,20 @@ export const pages = {
     meta: {
       title: 'Algemene voorwaarden',
       description:
-        'De voorwaarden waaronder raoul.studio met klanten werkt en zijn eigen apps draait: scope, betaling, intellectueel eigendom, accounts, toegestaan gebruik, aansprakelijkheid en meer — in gewone taal, naar Nederlands recht.',
+        'De voorwaarden waaronder studio.raoul met klanten werkt en zijn eigen apps draait: scope, betaling, intellectueel eigendom, accounts, toegestaan gebruik, aansprakelijkheid en meer — in gewone taal, naar Nederlands recht.',
     },
     eyebrow: 'Juridisch',
     titleLine1: 'Voorwaarden',
     titleAccent: '.',
     updated: 'Laatst bijgewerkt — augustus 2026',
     intro:
-      'Deze voorwaarden beschrijven hoe raoul.studio met klanten werkt — wat we leveren, hoe we werken en wie waarvoor verantwoordelijk is — en hoe je de apps mag gebruiken die de studio zelf draait, zoals Poofy. We hebben ze in gewone taal geschreven: ze zijn bedoeld om eerlijk te zijn, en om gelezen te worden.',
+      'Deze voorwaarden beschrijven hoe studio.raoul met klanten werkt — wat we leveren, hoe we werken en wie waarvoor verantwoordelijk is — en hoe je de apps mag gebruiken die de studio zelf draait, zoals Poofy. We hebben ze in gewone taal geschreven: ze zijn bedoeld om eerlijk te zijn, en om gelezen te worden.',
     sections: [
       {
         heading: 'Inleiding',
         body: [
-          'Deze algemene voorwaarden ("Voorwaarden") gelden voor alle diensten, offertes, voorstellen, abonnementen, opdrachten en overeenkomsten tussen raoul.studio ("de Studio", "wij", "ons") en haar klanten ("de Klant", "jij"). Ze zijn van toepassing tenzij we schriftelijk iets anders zijn overeengekomen.',
-          'raoul.studio is een digitale productstudio in Nederland, gerund door Raoul Guillermo. Je bereikt ons op hello@raoul.studio. Door een Voorstel te accepteren, een Overeenkomst te ondertekenen of ons opdracht te geven te beginnen, ga je akkoord met deze Voorwaarden.',
+          'Deze algemene voorwaarden ("Voorwaarden") gelden voor alle diensten, offertes, voorstellen, abonnementen, opdrachten en overeenkomsten tussen studio.raoul ("de Studio", "wij", "ons") en haar klanten ("de Klant", "jij"). Ze zijn van toepassing tenzij we schriftelijk iets anders zijn overeengekomen.',
+          'studio.raoul is een digitale productstudio in Nederland, gerund door Raoul Guillermo. Je bereikt ons op hello@raoul.studio. Door een Voorstel te accepteren, een Overeenkomst te ondertekenen of ons opdracht te geven te beginnen, ga je akkoord met deze Voorwaarden.',
           'Deze Voorwaarden bestaan uit twee delen. Het meeste hieronder gaat over opdrachten voor klanten. De secties onder “De eigen apps van de studio gebruiken”, verderop, gelden in plaats daarvan als je een app gebruikt die de Studio voor eigen rekening draait — op dit moment Poofy, de todo-app voor iPhone en Mac. Je hoeft geen Klant te zijn om die apps te gebruiken.',
         ],
       },
@@ -356,7 +356,7 @@ export const pages = {
         heading: 'Definities',
         body: ['In deze Voorwaarden betekenen de volgende woorden het volgende:'],
         points: [
-          'Studio — raoul.studio, de aanbieder van de diensten.',
+          'Studio — studio.raoul, de aanbieder van de diensten.',
           'Klant — de natuurlijke persoon of rechtspersoon die een Overeenkomst met de Studio aangaat.',
           'Project — het werk dat de Studio afspreekt uit te voeren, zoals beschreven in een Voorstel of Overeenkomst.',
           'Deliverables — de ontwerpen, software, code, documentatie, content of andere materialen die de Studio oplevert.',

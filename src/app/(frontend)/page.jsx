@@ -13,7 +13,7 @@ import NewsletterSignup from '@/components/NewsletterSignup'
 export async function generateMetadata() {
   const { home } = getContent(await getLocale())
   return {
-    title: home.meta?.title || 'raoul.studio',
+    title: home.meta?.title || 'studio.raoul',
     description: home.meta?.description || '',
     alternates: { canonical: '/' },
   }
@@ -37,6 +37,7 @@ export default async function HomePage() {
       <SiteHeader
         variant="cta"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref={header.wordmarkHref}
         ctaLabel={header.ctaLabel}
         ctaHref={header.ctaHref}

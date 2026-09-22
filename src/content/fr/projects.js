@@ -68,7 +68,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Threadly est le SaaS maison de raoul.studio : un système de tickets de support conçu pour les équipes de support, les agences et les indépendants qui doivent rester maîtres de chaque conversation.',
+        text: 'Threadly est le SaaS maison de studio.raoul : un système de tickets de support conçu pour les équipes de support, les agences et les indépendants qui doivent rester maîtres de chaque conversation.',
       },
       {
         text: 'Une boîte de réception partagée réunit tous les canaux au même endroit, le suivi des SLA garde les délais de réponse honnêtes, et l’automatisation se charge du travail répétitif pour que l’équipe se concentre sur les réponses qui comptent.',

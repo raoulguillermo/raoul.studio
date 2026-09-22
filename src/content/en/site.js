@@ -1,7 +1,8 @@
 // Site chrome: header, full-page menu, poster rail, footer.
 
 export const header = {
-  wordmark: 'raoul.studio',
+  wordmark: 'studio.raoul',
+  tagline: 'digital craftsmanship',
   wordmarkHref: '/',
   ctaLabel: 'contact',
   ctaHref: '/contact',
@@ -36,7 +37,7 @@ export const menu = {
       ],
     },
   ],
-  footerLeft: '© raoul.studio · 2026',
+  footerLeft: '© studio.raoul · 2026',
   footerPhone: '+31 10 307 3755',
   footerPhoneHref: 'tel:+31103073755',
   footerRightLabel: 'hello@raoul.studio',
@@ -68,11 +69,11 @@ export const ui = {
 export const posterRail = {
   topText: 'Digital product studio',
   middleText: 'The studio designs, builds and grows digital companies.',
-  bottomText: 'raoul.studio',
+  bottomText: 'studio.raoul',
 }
 
 export const footer = {
-  leftText: '© 2026 raoul.studio',
+  leftText: '© 2026 studio.raoul',
   rightText: 'Rotterdam · EU',
   phone: '+31 10 307 3755',
   phoneHref: 'tel:+31103073755',

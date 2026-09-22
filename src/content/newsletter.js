@@ -17,7 +17,7 @@ export const NEWSLETTER_STRINGS = {
     unsubTitle: 'Unsubscribed',
     unsubOk: 'You’ve been unsubscribed and won’t receive any more newsletters.',
     unsubFail: 'We couldn’t find that subscription — it may already have been removed.',
-    backHome: 'Back to raoul.studio',
+    backHome: 'Back to studio.raoul',
   },
   de: {
     heading: 'Der wöchentliche Überblick',
@@ -32,7 +32,7 @@ export const NEWSLETTER_STRINGS = {
     unsubTitle: 'Abgemeldet',
     unsubOk: 'Sie wurden abgemeldet und erhalten keine Newsletter mehr.',
     unsubFail: 'Wir konnten dieses Abonnement nicht finden — es wurde möglicherweise bereits entfernt.',
-    backHome: 'Zurück zu raoul.studio',
+    backHome: 'Zurück zu studio.raoul',
   },
   nl: {
     heading: 'Volg ons laatste nieuws',
@@ -47,7 +47,7 @@ export const NEWSLETTER_STRINGS = {
     unsubTitle: 'Uitgeschreven',
     unsubOk: 'Je bent uitgeschreven en ontvangt geen nieuwsbrieven meer.',
     unsubFail: 'We konden dat abonnement niet vinden — het is mogelijk al verwijderd.',
-    backHome: 'Terug naar raoul.studio',
+    backHome: 'Terug naar studio.raoul',
   },
   es: {
     heading: 'El resumen semanal',
@@ -62,7 +62,7 @@ export const NEWSLETTER_STRINGS = {
     unsubTitle: 'Suscripción cancelada',
     unsubOk: 'Te has dado de baja y no recibirás más newsletters.',
     unsubFail: 'No encontramos esa suscripción — puede que ya se haya eliminado.',
-    backHome: 'Volver a raoul.studio',
+    backHome: 'Volver a studio.raoul',
   },
   fr: {
     heading: 'Le point hebdo',
@@ -77,7 +77,7 @@ export const NEWSLETTER_STRINGS = {
     unsubTitle: 'Désabonné',
     unsubOk: 'Vous êtes désabonné et ne recevrez plus de newsletters.',
     unsubFail: 'Nous n’avons pas trouvé cet abonnement — il a peut-être déjà été supprimé.',
-    backHome: 'Retour à raoul.studio',
+    backHome: 'Retour à studio.raoul',
   },
   ar: {
     heading: 'الموجز الأسبوعي',
@@ -92,7 +92,7 @@ export const NEWSLETTER_STRINGS = {
     unsubTitle: 'تم إلغاء الاشتراك',
     unsubOk: 'تم إلغاء اشتراكك ولن تصلك أي نشرات بعد الآن.',
     unsubFail: 'لم نعثر على هذا الاشتراك — ربما أُزيل بالفعل.',
-    backHome: 'العودة إلى raoul.studio',
+    backHome: 'العودة إلى studio.raoul',
   },
 }
 

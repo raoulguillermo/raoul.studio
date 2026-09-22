@@ -36,7 +36,7 @@ export async function productMetadata(slug) {
 
 function buildJsonLd({ product, copy, lang }) {
   const url = `${SITE_URL}/${product.slug}`
-  const provider = { '@type': 'Organization', name: 'raoul.studio', url: SITE_URL }
+  const provider = { '@type': 'Organization', name: 'studio.raoul', url: SITE_URL }
   const main =
     product.schemaType === 'SoftwareApplication'
       ? {
@@ -119,6 +119,7 @@ export default async function ProductLanding({ slug }) {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

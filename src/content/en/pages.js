@@ -32,7 +32,7 @@ export const pages = {
     titleAccent: '.',
     intro: [
       {
-        text: 'raoul.studio is a Rotterdam-based digital agency and product studio that helps ambitious businesses turn ideas into scalable digital products. The studio brings together strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
+        text: 'studio.raoul is a Rotterdam-based digital agency and product studio that helps ambitious businesses turn ideas into scalable digital products. The studio brings together strategy, branding, software engineering, AI, automation and infrastructure to create solutions that deliver lasting business value.',
       },
       {
         text: 'The studio partners with founders, startups and established companies to design, build and evolve custom platforms, AI-powered tools, commerce solutions and digital experiences. Every project is approached with a product mindset: solving real business challenges, creating intuitive user experiences and building technology that can grow alongside the business.',
@@ -158,8 +158,8 @@ export const pages = {
       label: 'FAQ',
       items: [
         {
-          q: 'What does raoul.studio do?',
-          a: 'raoul.studio is a digital product studio. The studio designs, builds and grows custom products — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams, alongside its own products.',
+          q: 'What does studio.raoul do?',
+          a: 'studio.raoul is a digital product studio. The studio designs, builds and grows custom products — web platforms and SaaS, headless e-commerce, AI tools and automation, CRMs and internal tooling, APIs and two-sided marketplaces — for fintech, law firms, commercial agencies and e-commerce teams, alongside its own products.',
         },
         {
           q: 'How do you work?',
@@ -191,20 +191,20 @@ export const pages = {
     meta: {
       title: 'Privacy Policy',
       description:
-        'How raoul.studio handles personal data across the website and the Poofy app: what we collect, why, who processes it, how long we keep it and your rights under the GDPR.',
+        'How studio.raoul handles personal data across the website and the Poofy app: what we collect, why, who processes it, how long we keep it and your rights under the GDPR.',
     },
     eyebrow: 'Legal',
     titleLine1: 'Privacy',
     titleAccent: '.',
     updated: 'Last updated — August 2026',
     intro:
-      'This policy explains what personal data raoul.studio collects, why we collect it, and what rights you have over it. It covers this website and the apps the studio runs, including the Poofy todo app for iPhone and Mac. We keep data collection to the minimum needed to run the studio, reply to the people who get in touch, and keep your tasks in sync.',
+      'This policy explains what personal data studio.raoul collects, why we collect it, and what rights you have over it. It covers this website and the apps the studio runs, including the Poofy todo app for iPhone and Mac. We keep data collection to the minimum needed to run the studio, reply to the people who get in touch, and keep your tasks in sync.',
     sections: [
       {
         heading: 'Who we are',
         body: [
-          'raoul.studio is a product and engineering studio run by Raoul Guillermo, based in the EU. For anything in this policy — or to exercise your rights — reach us at hello@raoul.studio.',
-          'For the purposes of the GDPR, raoul.studio is the data controller for the personal data described here.',
+          'studio.raoul is a product and engineering studio run by Raoul Guillermo, based in the EU. For anything in this policy — or to exercise your rights — reach us at hello@raoul.studio.',
+          'For the purposes of the GDPR, studio.raoul is the data controller for the personal data described here.',
         ],
       },
       {
@@ -315,7 +315,7 @@ export const pages = {
         heading: 'Software, security and liability',
         body: [
           'The website and any tools or software we make available are provided on an "as is" and "as available" basis. We take reasonable care to keep them secure and running, but no software or online service can be guaranteed to be completely safe, uninterrupted or error-free.',
-          'To the fullest extent permitted by law, raoul.studio is not liable for any loss of data, downtime, security breach, unauthorised access, or any direct or indirect damage arising from your use of — or inability to use — the website or our software, including incidents outside our reasonable control such as third-party hacks, attacks or service outages.',
+          'To the fullest extent permitted by law, studio.raoul is not liable for any loss of data, downtime, security breach, unauthorised access, or any direct or indirect damage arising from your use of — or inability to use — the website or our software, including incidents outside our reasonable control such as third-party hacks, attacks or service outages.',
           'Nothing here limits any rights you have under the GDPR, or any liability that cannot legally be excluded — including liability for intent or gross negligence.',
         ],
       },
@@ -336,20 +336,20 @@ export const pages = {
     meta: {
       title: 'Terms & Conditions',
       description:
-        'The terms on which raoul.studio works with its clients and runs its own apps: scope, payment, intellectual property, accounts, acceptable use, liability and more — in plain English, under Dutch law.',
+        'The terms on which studio.raoul works with its clients and runs its own apps: scope, payment, intellectual property, accounts, acceptable use, liability and more — in plain English, under Dutch law.',
     },
     eyebrow: 'Legal',
     titleLine1: 'Terms',
     titleAccent: '.',
     updated: 'Last updated — August 2026',
     intro:
-      'These Terms set out how raoul.studio works with its clients — what we deliver, how we work, and who is responsible for what — and how you may use the apps the studio runs, such as Poofy. We’ve written them in plain English: they’re meant to be fair, and to be read.',
+      'These Terms set out how studio.raoul works with its clients — what we deliver, how we work, and who is responsible for what — and how you may use the apps the studio runs, such as Poofy. We’ve written them in plain English: they’re meant to be fair, and to be read.',
     sections: [
       {
         heading: 'Introduction',
         body: [
-          'These Terms & Conditions ("Terms") govern all services, quotations, proposals, subscriptions, orders and agreements between raoul.studio ("the Studio", "we", "us") and its clients ("the Client", "you"). They apply unless we have agreed otherwise in writing.',
-          'raoul.studio is a digital product studio based in the Netherlands, run by Raoul Guillermo. You can reach us at hello@raoul.studio. By accepting a Proposal, signing an Agreement, or instructing us to begin work, you agree to these Terms.',
+          'These Terms & Conditions ("Terms") govern all services, quotations, proposals, subscriptions, orders and agreements between studio.raoul ("the Studio", "we", "us") and its clients ("the Client", "you"). They apply unless we have agreed otherwise in writing.',
+          'studio.raoul is a digital product studio based in the Netherlands, run by Raoul Guillermo. You can reach us at hello@raoul.studio. By accepting a Proposal, signing an Agreement, or instructing us to begin work, you agree to these Terms.',
           'These Terms have two parts. Most of what follows concerns client engagements. The sections grouped under “Using the studio’s own apps”, further down, apply instead if you use an app the Studio runs for its own account — currently Poofy, the todo app for iPhone and Mac. You do not need to be a Client to use those apps.',
         ],
       },
@@ -357,7 +357,7 @@ export const pages = {
         heading: 'Definitions',
         body: ['In these Terms, the following words have the following meanings:'],
         points: [
-          'Studio — raoul.studio, the provider of the services.',
+          'Studio — studio.raoul, the provider of the services.',
           'Client — the natural or legal person that enters into an Agreement with the Studio.',
           'Project — the work the Studio agrees to perform, as described in a Proposal or Agreement.',
           'Deliverables — the designs, software, code, documentation, content or other materials the Studio delivers.',

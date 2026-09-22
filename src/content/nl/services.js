@@ -5,7 +5,7 @@ export const services = {
   meta: {
     title: 'Diensten — AI-agentstructuren, software & digitale producten',
     description:
-      'Wat raoul.studio doet: complete structuren van AI-agents die het dagelijkse werk van een bedrijf draaien, maatwerksoftware en platforms, automatisering, commerce, merk en langdurige productpartnerschappen.',
+      'Wat studio.raoul doet: complete structuren van AI-agents die het dagelijkse werk van een bedrijf draaien, maatwerksoftware en platforms, automatisering, commerce, merk en langdurige productpartnerschappen.',
   },
   eyebrow: 'Diensten',
   titleLine1: 'Diensten',

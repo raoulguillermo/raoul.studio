@@ -107,7 +107,7 @@ export default async function ServicesPage() {
       description: page.meta.description,
       url: `${SITE_URL}/services`,
       inLanguage: lang,
-      provider: { '@type': 'Organization', name: 'raoul.studio', url: SITE_URL },
+      provider: { '@type': 'Organization', name: 'studio.raoul', url: SITE_URL },
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: page.titleLine1,
@@ -140,6 +140,7 @@ export default async function ServicesPage() {
       <SiteHeader
         variant="back"
         wordmark={header.wordmark}
+        tagline={header.tagline}
         wordmarkHref="/"
         backLabel={ui.back}
         backHref="/"

@@ -2,9 +2,9 @@
 
 export const home = {
   meta: {
-    title: 'raoul.studio — estudio de producto digital para IA, software y commerce',
+    title: 'studio.raoul — estudio de producto digital para IA, software y commerce',
     description:
-      'raoul.studio es un estudio de producto digital que ayuda a empresas ambiciosas a convertir ideas en productos digitales escalables — estrategia, diseño, ingeniería de software, IA, automatización, commerce e infraestructura.',
+      'studio.raoul es un estudio de producto digital que ayuda a empresas ambiciosas a convertir ideas en productos digitales escalables — estrategia, diseño, ingeniería de software, IA, automatización, commerce e infraestructura.',
   },
   hero: {
     prefix: 'El estudio construye',

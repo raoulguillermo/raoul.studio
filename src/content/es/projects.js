@@ -68,7 +68,7 @@ export const projectOverrides = {
     ],
     body: [
       {
-        text: 'Threadly es el SaaS propio de raoul.studio: un sistema de tickets de soporte hecho para equipos de soporte, agencias y operadores en solitario que necesitan estar al tanto de cada conversación.',
+        text: 'Threadly es el SaaS propio de studio.raoul: un sistema de tickets de soporte hecho para equipos de soporte, agencias y operadores en solitario que necesitan estar al tanto de cada conversación.',
       },
       {
         text: 'Una bandeja compartida reúne todos los canales en un solo lugar, el seguimiento de SLA mantiene honestos los tiempos de respuesta, y la automatización se encarga del trabajo repetitivo para que el equipo se centre en las respuestas que importan.',

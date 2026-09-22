@@ -47,7 +47,7 @@ async function sendEmail({ name, email, company, message, source }) {
     },
     body: JSON.stringify({
       personalizations: [{ to: [{ email: TO }] }],
-      from: { email: FROM, name: 'raoul.studio' },
+      from: { email: FROM, name: 'studio.raoul' },
       reply_to: { email, name },
       subject,
       content: [
