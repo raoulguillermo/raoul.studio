@@ -23,6 +23,10 @@ function pad2(n) {
   return String(n).padStart(2, '0')
 }
 
+// The service pillars ("What the studio does") are hidden for now. The copy is
+// still translated in every locale — flip this back to true to bring them back.
+const SHOW_PILLARS = false
+
 export default async function HomePage() {
   const lang = await getLocale()
   const { home, header, footer, posterRail, ui, products, productUi } =
@@ -74,8 +78,8 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* What we do — service pillars */}
-      {home.pillars ? (
+      {/* What we do — service pillars (hidden, see SHOW_PILLARS) */}
+      {SHOW_PILLARS && home.pillars ? (
         <section className="pb-12 md:pb-40">
           <p className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider">
             {home.pillars.label}
