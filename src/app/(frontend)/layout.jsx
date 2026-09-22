@@ -108,7 +108,7 @@ const jsonLd = {
       description: STUDIO_DESCRIPTION,
       slogan: 'Building what’s next.',
       email: 'hello@raoul.studio',
-      telephone: '+31103073755',
+      telephone: '+3197006530693',
       logo: `${SITE_URL}/icon.svg`,
       image: `${SITE_URL}/opengraph-image`,
       address: {

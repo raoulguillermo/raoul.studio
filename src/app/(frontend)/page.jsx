@@ -241,6 +241,16 @@ export default async function HomePage() {
             </span>
           ))}
         </p>
+        {/* The number already sits in the footer and the menu, but it belongs
+            next to the invitation to get in touch as well. Reuses the footer's
+            strings, so there is nothing extra to translate. */}
+        {footer.phone ? (
+          <p className="r mt-8 md:mt-12 text-2xl md:text-4xl font-display uppercase tracking-tight2 leading-none">
+            <a href={footer.phoneHref} className="ul">
+              {footer.phone}
+            </a>
+          </p>
+        ) : null}
       </section>
 
       <SiteFooter

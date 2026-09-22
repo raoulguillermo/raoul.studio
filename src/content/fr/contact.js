@@ -28,8 +28,8 @@ export const contact = {
     label: 'Ou écrivez-nous directement',
     email: 'hello@raoul.studio',
     phoneLabel: 'Ou appelez',
-    phone: '+31 10 307 3755',
-    phoneHref: 'tel:+31103073755',
+    phone: '+31 (970) 065 - 30693',
+    phoneHref: 'tel:+3197006530693',
   },
   faq: {
     label: 'FAQ',
