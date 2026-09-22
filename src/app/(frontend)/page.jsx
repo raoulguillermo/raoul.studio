@@ -241,17 +241,25 @@ export default async function HomePage() {
             </span>
           ))}
         </p>
-        {/* The number already sits in the footer and the menu, but it belongs
-            next to the invitation to get in touch as well. Reuses the footer's
-            strings, so there is nothing extra to translate. */}
-        {footer.phone ? (
-          <p className="r mt-8 md:mt-12 text-2xl md:text-4xl font-display uppercase tracking-tight2 leading-none">
-            <a href={footer.phoneHref} className="ul">
+      </section>
+
+      {/* Phone — its own band, like the blog one. The number is set to fill the
+          column on a single line; see .phone-line for how it is sized. */}
+      {footer.phone ? (
+        <section
+          className="fullbleed"
+          style={{ background: '#0F0F0F', color: '#D6D9DC' }}
+        >
+          <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-28">
+            <a
+              href={footer.phoneHref}
+              className="r ul phone-line block font-display uppercase tracking-tight2 leading-[0.86]"
+            >
               {footer.phone}
             </a>
-          </p>
-        ) : null}
-      </section>
+          </div>
+        </section>
+      ) : null}
 
       <SiteFooter
         leftText={footer.leftText}

@@ -145,6 +145,21 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
   box-decoration-break: clone;
 }
 
+/* ============ PHONE BAND ============ */
+/* The number has to hold one line at every width, and it is far longer than a
+   word like "Blog", so a flat vw size would either overflow or read small.
+   Anton sets this string at 8.45x its own font-size, so the type is derived
+   from the column width instead of guessed; the -0.02em tracking on top leaves
+   roughly 5% of slack for rendering differences. */
+.phone-line {
+  --phone-gutter: 3rem; /* the column's px-6, both sides */
+  font-size: calc((min(100vw, 1200px) - var(--phone-gutter)) / 8.45);
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .phone-line { --phone-gutter: 5rem; } /* md:px-10, both sides */
+}
+
 /* ============ CLIENTS MARQUEE ============ */
 /* The track holds the logo list twice and slides exactly half its own width,
    so at the moment it loops the second copy is standing where the first was
