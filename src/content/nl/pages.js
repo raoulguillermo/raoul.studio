@@ -4,12 +4,12 @@ export const pages = {
   work: {
     slug: 'work',
     meta: {
-      title: 'Werk',
+      title: 'Projecten',
       description:
         'Geselecteerde projecten uit de studio — maatwerkplatforms, SaaS, AI-tools, headless e-commerce en CRMs voor fintech, advocatuur en commerciële teams, plus onze eigen producten.',
     },
     eyebrow: 'Geselecteerd werk',
-    titleLine1: 'Werk',
+    titleLine1: 'Projecten',
     titleAccent: '.',
     lead:
       'Elk project is een echt bedrijfsprobleem, end-to-end opgelost en gebouwd om in productie te draaien. De platforms en tools die de studio voor klanten heeft geleverd — en de eigen producten die er worden gebouwd en gerund.',
@@ -17,7 +17,7 @@ export const pages = {
       client: 'Klantwerk',
       product: 'Eigen producten',
     },
-    posterRailMiddle: 'Werk · Geselecteerde projecten',
+    posterRailMiddle: 'Projecten · Geselecteerd werk',
   },
 
   about: {

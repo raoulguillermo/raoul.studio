@@ -79,9 +79,6 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* Clients — a scrolling row of logos, all reduced to one ink silhouette */}
-      {home.clients ? <ClientsMarquee label={home.clients.label} /> : null}
-
       {/* What we do — service pillars (hidden, see SHOW_PILLARS) */}
       {SHOW_PILLARS && home.pillars ? (
         <section className="pb-12 md:pb-40">
@@ -247,6 +244,10 @@ export default async function HomePage() {
         phone={footer.phone}
         phoneHref={footer.phoneHref}
       />
+
+      {/* Clients — a scrolling row of logos, all reduced to one ink silhouette.
+          Sits below the footer as the page's closing band. */}
+      {home.clients ? <ClientsMarquee label={home.clients.label} /> : null}
 
       <PosterRail
         topText={posterRail.topText}

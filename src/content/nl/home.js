@@ -44,7 +44,7 @@ export const home = {
   featuredWork: {
     label: 'Geselecteerd werk',
     lead: 'Hoe de studio ambitieuze bedrijven helpt om lastige problemen op te lossen.',
-    allLabel: 'Werk',
+    allLabel: 'Projecten',
     allServicesLabel: 'Diensten',
     allSoftwareLabel: 'Software',
     items: [

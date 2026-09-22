@@ -20,9 +20,9 @@ export const menu = {
       ],
     },
     {
-      heading: '02 — Werk',
+      heading: '02 — Projecten',
       links: [
-        { label: 'Werk', href: '/work' },
+        { label: 'Projecten', href: '/work' },
         { label: 'Diensten', href: '/services' },
         { label: 'Software', href: '/software' },
       ],
