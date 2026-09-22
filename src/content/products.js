@@ -2,8 +2,8 @@
 //
 // Each product has a top-level route (/voice-ai, /no-cms, /poofy) that sells
 // the product, next to its /projects/* case study that tells how it was built.
-// Routes, links and the call-to-action kind live here so they never drift
-// between locales; all prose lives in <locale>/products.js.
+// Routes, links, the call-to-action kind and the row colours live here so they
+// never drift between locales; all prose lives in <locale>/products.js.
 
 export const APP_STORE_POOFY = 'https://apps.apple.com/app/poofy/id6803196586'
 
@@ -17,6 +17,7 @@ export const productRegistry = {
     cta: 'form',
     source: 'Voice AI',
     schemaType: 'Service',
+    colors: { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316' },
   },
   'no-cms': {
     slug: 'no-cms',
@@ -25,6 +26,7 @@ export const productRegistry = {
     cta: 'form',
     source: 'No-CMS',
     schemaType: 'Service',
+    colors: { bg: '#E92316', fg: '#D6D9DC', numeralColor: '#0F0F0F' },
   },
   poofy: {
     slug: 'poofy',
@@ -33,6 +35,7 @@ export const productRegistry = {
     cta: 'appstore',
     appStoreUrl: APP_STORE_POOFY,
     schemaType: 'SoftwareApplication',
+    colors: { bg: '#D6D9DC', fg: '#0F0F0F', numeralColor: '#E92316' },
   },
   crm: {
     slug: 'crm',
@@ -49,6 +52,7 @@ export const productRegistry = {
     cta: 'form',
     source: 'CRM',
     schemaType: 'Service',
+    colors: { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316' },
   },
 }
 

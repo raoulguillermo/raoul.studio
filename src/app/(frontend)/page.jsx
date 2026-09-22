@@ -5,6 +5,7 @@ import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
+import { productRegistry, productSlugs } from '@/content/products'
 import { getLocale } from '@/content/locale-server'
 import { getNewsletterStrings } from '@/content/newsletter'
 import NewsletterSignup from '@/components/NewsletterSignup'
@@ -24,7 +25,8 @@ function pad2(n) {
 
 export default async function HomePage() {
   const lang = await getLocale()
-  const { home, header, footer, posterRail, ui } = getContent(lang)
+  const { home, header, footer, posterRail, ui, products, productUi } =
+    getContent(lang)
 
   const news = getNewsletterStrings(lang)
 
@@ -100,6 +102,58 @@ export default async function HomePage() {
           </div>
         </section>
       ) : null}
+
+      {/* Software — the studio's own products, one coloured full-bleed row each,
+          linking straight to its landing page. Names and colours come from the
+          registry, the one-line description from the locale copy, so this needs
+          no strings of its own. */}
+      <section aria-labelledby="softwareRows">
+        <h2
+          id="softwareRows"
+          className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider"
+        >
+          {productUi.softwarePage.eyebrow}
+        </h2>
+        {productSlugs.map((slug, i) => {
+          const product = productRegistry[slug]
+          const copy = products[slug]
+          return (
+            <a
+              key={slug}
+              href={`/${slug}`}
+              aria-label={`${productUi.seeProduct} — ${product.name}`}
+              className="group fullbleed block"
+              style={{ background: product.colors.bg, color: product.colors.fg }}
+            >
+              <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-10 md:py-16">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-12 items-baseline">
+                  <span
+                    aria-hidden="true"
+                    className="md:col-span-1 font-display text-2xl md:text-3xl leading-none"
+                    style={{ color: product.colors.numeralColor }}
+                  >
+                    {pad2(i + 1)}
+                  </span>
+                  <h3 className="md:col-span-5 font-display uppercase tracking-tight2 leading-[0.95] text-4xl md:text-6xl">
+                    {product.name}
+                  </h3>
+                  <p className="md:col-span-5 max-w-xl text-base md:text-lg leading-relaxed opacity-85">
+                    {copy.lead}
+                  </p>
+                  <span
+                    aria-hidden="true"
+                    className="hidden md:flex md:col-span-1 justify-end text-3xl leading-none"
+                  >
+                    <span className="inline-block rotate-[-45deg] transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">
+                      →
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          )
+        })}
+      </section>
 
       {/* See all work / services / software — the homepage lists no projects;
           each overview lives on its own page. */}
