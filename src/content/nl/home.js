@@ -13,6 +13,9 @@ export const home = {
   },
   intro:
     'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur. De studio werkt samen met ambitieuze oprichters en bedrijven om ideeën om te zetten in schaalbare producten.',
+  clients: {
+    label: 'Opdrachtgevers',
+  },
   pillars: {
     label: 'Wat de studio doet',
     items: [

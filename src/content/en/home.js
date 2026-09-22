@@ -13,6 +13,9 @@ export const home = {
   },
   intro:
     'From AI-powered platforms and custom software to automation, commerce, branding, and infrastructure. The studio partners with ambitious founders and businesses to turn ideas into scalable products.',
+  clients: {
+    label: 'Clients',
+  },
   pillars: {
     label: 'What the studio does',
     items: [

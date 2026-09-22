@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#0F0F0F" aria-hidden="true">
+  <defs>
+    <mask id="greetje-cut">
+      <rect width="64" height="64" fill="#fff"/>
+      <rect x="32" y="22" width="32" height="15.5" fill="#000"/>
+    </mask>
+  </defs>
+  <circle cx="32" cy="32" r="20.75" fill="none" stroke="#0F0F0F" stroke-width="10.5" mask="url(#greetje-cut)"/>
+  <rect x="33" y="29" width="25" height="8.5"/>
+</svg>

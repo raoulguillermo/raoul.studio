@@ -13,6 +13,9 @@ export const home = {
   },
   intro:
     'Des plateformes propulsées par l’IA et des logiciels sur mesure jusqu’à l’automatisation, le commerce, le branding et l’infrastructure. Le studio accompagne des fondateurs et des entreprises ambitieux pour transformer leurs idées en produits évolutifs.',
+  clients: {
+    label: 'Clients',
+  },
   pillars: {
     label: 'Ce que fait le studio',
     items: [

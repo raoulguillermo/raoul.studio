@@ -134,6 +134,51 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 }
 #chatFab:hover { background: #E92316; }
 
+/* ============ CLIENTS MARQUEE ============ */
+/* The track holds the logo list twice and slides exactly half its own width,
+   so at the moment it loops the second copy is standing where the first was
+   and the row never visibly jumps. */
+.marquee {
+  overflow: hidden;
+  /* Fade the row out at both edges rather than slicing a logo in half. */
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 48s linear infinite;
+}
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-group {
+  display: flex; align-items: center;
+  gap: 56px; padding-inline-end: 56px;
+  margin: 0; padding-block: 0; list-style: none;
+}
+.marquee-group img {
+  height: 34px; width: auto;
+  opacity: .7;
+  transition: opacity .35s ease;
+}
+.marquee-group li:hover img { opacity: 1; }
+@media (min-width: 768px) {
+  .marquee-group { gap: 76px; padding-inline-end: 76px; }
+  .marquee-group img { height: 40px; }
+}
+@keyframes marquee-scroll { to { transform: translateX(-50%); } }
+/* RTL lays the groups out the other way round, so the track travels the other
+   way to keep the same seamless loop. */
+[dir="rtl"] .marquee-track { animation-name: marquee-scroll-rtl; }
+@keyframes marquee-scroll-rtl { to { transform: translateX(50%); } }
+
+/* No motion: drop the animation and the second copy, and let the one row wrap. */
+@media (prefers-reduced-motion: reduce) {
+  .marquee { -webkit-mask-image: none; mask-image: none; }
+  .marquee-track { animation: none; width: auto; }
+  .marquee-group { flex-wrap: wrap; justify-content: center; row-gap: 32px; padding-inline-end: 0; }
+  .marquee-dup { display: none; }
+}
+
 /* ============ BACK LINK ============ */
 .back-link {
   display: inline-flex; align-items: center; gap: .5rem;

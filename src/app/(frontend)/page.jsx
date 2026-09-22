@@ -3,6 +3,7 @@ import SiteFooter from '@/components/SiteFooter'
 import ScrollArrow from '@/components/ScrollArrow'
 import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
+import ClientsMarquee from '@/components/ClientsMarquee'
 
 import { getContent } from '@/content'
 import { productRegistry, productSlugs } from '@/content/products'
@@ -77,6 +78,9 @@ export default async function HomePage() {
           {home.intro}
         </p>
       </section>
+
+      {/* Clients — a scrolling row of logos, all reduced to one ink silhouette */}
+      {home.clients ? <ClientsMarquee label={home.clients.label} /> : null}
 
       {/* What we do — service pillars (hidden, see SHOW_PILLARS) */}
       {SHOW_PILLARS && home.pillars ? (

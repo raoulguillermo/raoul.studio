@@ -13,6 +13,9 @@ export const home = {
   },
   intro:
     'Desde plataformas impulsadas por IA y software a medida hasta automatización, commerce, branding e infraestructura. El estudio se asocia con fundadores y empresas ambiciosos para convertir ideas en productos escalables.',
+  clients: {
+    label: 'Clientes',
+  },
   pillars: {
     label: 'Qué hace el estudio',
     items: [

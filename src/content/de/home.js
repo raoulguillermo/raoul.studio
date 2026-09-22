@@ -13,6 +13,9 @@ export const home = {
   },
   intro:
     'Von KI-gestützten Plattformen und Individualsoftware bis zu Automatisierung, Commerce, Branding und Infrastruktur. Das Studio arbeitet partnerschaftlich mit ambitionierten Gründern und Unternehmen, um Ideen in skalierbare Produkte zu verwandeln.',
+  clients: {
+    label: 'Kunden',
+  },
   pillars: {
     label: 'Was das Studio tut',
     items: [
