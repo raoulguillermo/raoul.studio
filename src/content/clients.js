@@ -18,4 +18,5 @@ export const clients = [
   { name: 'OutdoorXL', src: '/clients/outdoorxl.png', width: 451, height: 120 },
   { name: 'Timewindow', src: '/clients/timewindow.png', width: 120, height: 120 },
   { name: 'Greetje', wordmark: 'GREETJE' },
+  { name: 'Nobody Knows', wordmark: 'nobody knows' },
 ]

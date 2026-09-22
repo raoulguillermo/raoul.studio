@@ -202,7 +202,7 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: marquee-scroll 48s linear infinite;
+  animation: marquee-scroll 59s linear infinite;
 }
 .marquee:hover .marquee-track { animation-play-state: paused; }
 .marquee-group {
