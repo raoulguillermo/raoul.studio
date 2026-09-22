@@ -30,7 +30,7 @@ function LogoGroup({ hidden = false }) {
 
 export default function ClientsMarquee({ label }) {
   return (
-    <section className="pt-8 md:pt-16 pb-16 md:pb-28" aria-labelledby="clientsLabel">
+    <section className="py-16 md:py-24" aria-labelledby="clientsLabel">
       <h2
         id="clientsLabel"
         className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider"

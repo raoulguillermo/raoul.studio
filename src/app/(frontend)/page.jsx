@@ -207,6 +207,11 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Clients — a scrolling row of logos, all reduced to one ink silhouette.
+          The paper background gives the eye a rest between the black blog band
+          and the red newsletter one. */}
+      {home.clients ? <ClientsMarquee label={home.clients.label} /> : null}
+
       {/* Newsletter signup — kept from the former insights block, on a distinct grey section */}
       {news ? (
         <section
@@ -244,10 +249,6 @@ export default async function HomePage() {
         phone={footer.phone}
         phoneHref={footer.phoneHref}
       />
-
-      {/* Clients — a scrolling row of logos, all reduced to one ink silhouette.
-          Sits below the footer as the page's closing band. */}
-      {home.clients ? <ClientsMarquee label={home.clients.label} /> : null}
 
       <PosterRail
         topText={posterRail.topText}
