@@ -181,15 +181,28 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
   gap: 56px; padding-inline-end: 56px;
   margin: 0; padding-block: 0; list-style: none;
 }
-.marquee-group img {
-  height: 34px; width: auto;
+.marquee-group img,
+.marquee-group .wordmark {
   opacity: .7;
   transition: opacity .35s ease;
 }
-.marquee-group li:hover img { opacity: 1; }
+.marquee-group img { height: 34px; width: auto; }
+/* A client with no logo file is set in the display face instead. Anton's caps
+   run about 0.875em, so the type is sized a touch above the image height to
+   land on the same optical size as the artwork beside it. */
+.marquee-group .wordmark {
+  display: block;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.marquee-group li:hover img,
+.marquee-group li:hover .wordmark { opacity: 1; }
 @media (min-width: 768px) {
   .marquee-group { gap: 76px; padding-inline-end: 76px; }
   .marquee-group img { height: 40px; }
+  .marquee-group .wordmark { font-size: 41px; }
 }
 @keyframes marquee-scroll { to { transform: translateX(-50%); } }
 /* RTL lays the groups out the other way round, so the track travels the other

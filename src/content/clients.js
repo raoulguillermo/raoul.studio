@@ -3,10 +3,12 @@
 //
 // Every logo was redrawn to a single ink silhouette so the row reads as one
 // piece of the site rather than seven brand palettes fighting each other. The
-// two vectors carry an explicit ink fill; the rasters are ink-on-transparent
-// PNGs. Greetje have no logo file at all — their brand is live text — so their
-// wordmark is set in Anton, the display face their own site uses, and outlined. `width`/`height` are the intrinsic pixel sizes, so the row reserves its
-// space before the images load.
+// vector carries an explicit ink fill; the rasters are ink-on-transparent PNGs.
+// `width`/`height` are the intrinsic pixel sizes, so the row reserves its space
+// before the images load.
+//
+// Greetje have no logo file anywhere — their brand is live text — so they carry
+// a `wordmark` instead of a `src` and are set in the site's own display face.
 
 export const clients = [
   { name: 'Fidor', src: '/clients/fidor.svg', width: 186, height: 71 },
@@ -15,5 +17,5 @@ export const clients = [
   { name: 'Footsteppa', src: '/clients/footsteppa.png', width: 44, height: 120 },
   { name: 'OutdoorXL', src: '/clients/outdoorxl.png', width: 451, height: 120 },
   { name: 'Timewindow', src: '/clients/timewindow.png', width: 120, height: 120 },
-  { name: 'Greetje', src: '/clients/greetje.svg', width: 602, height: 196 },
+  { name: 'Greetje', wordmark: 'GREETJE' },
 ]

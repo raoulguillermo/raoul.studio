@@ -14,14 +14,18 @@ function LogoGroup({ hidden = false }) {
     >
       {clients.map((c) => (
         <li key={c.name}>
-          <img
-            src={c.src}
-            width={c.width}
-            height={c.height}
-            alt={hidden ? '' : c.name}
-            loading="lazy"
-            decoding="async"
-          />
+          {c.wordmark ? (
+            <span className="wordmark font-display">{c.wordmark}</span>
+          ) : (
+            <img
+              src={c.src}
+              width={c.width}
+              height={c.height}
+              alt={hidden ? '' : c.name}
+              loading="lazy"
+              decoding="async"
+            />
+          )}
         </li>
       ))}
     </ul>
