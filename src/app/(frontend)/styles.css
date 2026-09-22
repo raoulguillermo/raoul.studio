@@ -150,11 +150,25 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
    word like "Blog", so a flat vw size would either overflow or read small.
    Anton sets this string at 8.45x its own font-size, so the type is derived
    from the column width instead of guessed; the -0.02em tracking on top leaves
-   roughly 5% of slack for rendering differences. */
+   roughly 5% of slack for rendering differences. The divisor also carries the
+   icon and its gap, so the whole lockup fits, not just the digits. */
 .phone-line {
   --phone-gutter: 3rem; /* the column's px-6, both sides */
-  font-size: calc((min(100vw, 1200px) - var(--phone-gutter)) / 8.45);
+  /* 8.45 for the number, plus 0.62 for the icon and 0.18 for the gap it sits
+     behind — everything in em, so the lockup scales as one piece. */
+  font-size: calc((min(100vw, 1200px) - var(--phone-gutter)) / 9.25);
   white-space: nowrap;
+}
+/* Anton's digits stand 0.871em tall, so centring the icon on the line box
+   would leave it sitting low against them. It is aligned to the baseline and
+   then lifted half the difference, which centres it on the digits themselves. */
+.phone-line .phone-icon {
+  width: 0.62em;
+  height: 0.62em;
+  margin-inline-end: 0.18em;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 0.125em;
 }
 @media (min-width: 768px) {
   .phone-line { --phone-gutter: 5rem; } /* md:px-10, both sides */
