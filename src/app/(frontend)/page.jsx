@@ -3,7 +3,6 @@ import SiteFooter from '@/components/SiteFooter'
 import ScrollArrow from '@/components/ScrollArrow'
 import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
-import BlogTab from '@/components/BlogTab'
 
 import { getContent } from '@/content'
 import { getLocale } from '@/content/locale-server'
@@ -192,7 +191,6 @@ export default async function HomePage() {
         middleText={posterRail.middleText}
         bottomText={posterRail.bottomText}
       />
-      <BlogTab label={home.blogTitle ?? 'Blog'} />
       <ScrollArrow label={ui.a11y.scrollToBottom} />
       <ChatFAB href={header.ctaHref} label={ui.a11y.chat} />
     </>
