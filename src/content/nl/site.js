@@ -57,6 +57,7 @@ export const ui = {
   a11y: {
     openMenu: 'Menu openen',
     call: 'Bel',
+    account: 'Account',
     scrollToBottom: 'Naar beneden scrollen',
     chat: 'Even praten',
     language: 'Taal',

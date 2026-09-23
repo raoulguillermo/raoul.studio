@@ -1,6 +1,7 @@
 import './styles.css'
 
 import PhoneButton from '@/components/PhoneButton'
+import AccountButton from '@/components/AccountButton'
 import Consent from '@/components/Consent'
 import MenuButton from '@/components/MenuButton'
 import MenuPanel from '@/components/MenuPanel'
@@ -296,6 +297,8 @@ export default async function FrontendLayout({ children }) {
         ) : null}
 
         <LanguageSwitcher currentLang={lang} labels={ui.a11y} />
+
+        <AccountButton label={ui.a11y.account} />
 
         <MenuPanel
           columns={menu.columns}
