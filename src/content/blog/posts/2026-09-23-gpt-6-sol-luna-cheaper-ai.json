@@ -1,0 +1,114 @@
+{
+  "slug": "2026-09-23-gpt-6-sol-luna-cheaper-ai",
+  "date": "2026-09-23",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "VentureBeat — OpenAI releases GPT-6 Sol and Luna models, slashing API costs 50% or more",
+      "url": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more"
+    },
+    {
+      "title": "Digital Applied — GPT-6 Sol and Luna: API Prices, Benchmarks and Trade-offs",
+      "url": "https://www.digitalapplied.com/blog/gpt-6-sol-luna-launch-pricing-benchmarks-2026"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI Just Got 50% Cheaper to Run. Here Is What That Changes.",
+      "summary": "OpenAI cut the price of its GPT-6 Sol and Luna models in half yesterday, and that changes the maths for anyone building AI-powered products.",
+      "body": [
+        "Yesterday, OpenAI released two new AI models — GPT-6 Sol and GPT-6 Luna — at half the price of the models they replace. For anyone building software that uses AI, that is the kind of change that makes you stop and recalculate. **AI just got 50% cheaper to run.**",
+        "Sol handles complex work: writing and reviewing code, analysing data, working through hard problems. Luna is built for simple, high-volume tasks — summarising documents, answering customer questions, extracting information from long texts. Luna costs $0.10 per million tokens (tokens are the small chunks of text an AI reads and writes — a million of them is roughly a 750,000-word novel). Sol costs $2 per million. **Both are exactly half the price of their GPT-5.6 predecessors.**",
+        "The trade-off is worth knowing: neither new model tops GPT-5.6 on every benchmark. In some coding tests, the older model still scores higher. But OpenAI said these are permanent prices — not introductory rates. For most day-to-day automation tasks, the cost saving is bigger than the performance gap. A business building a document-summarisation tool or a customer support bot does not need the absolute top scorer; **it needs a model that is good enough and affordable to run at scale.**",
+        "If your team has been holding back on an AI feature because the costs did not add up, now is the time to check. A workflow that cost $400 a month on GPT-5.6 now costs around $200 on Luna. That is the difference between a feature that barely breaks even and one that clearly makes sense. **Do the maths again — some things that were too expensive last week are not too expensive today.**"
+      ],
+      "keyFacts": [
+        { "value": "50%", "label": "cheaper than GPT-5.6" },
+        { "value": "$0.10 / $0.50", "label": "Luna input / output per million tokens" },
+        { "value": "$2 / $10", "label": "Sol input / output per million tokens" },
+        { "value": "1.05M", "label": "token context window" }
+      ]
+    },
+    "de": {
+      "title": "KI ist jetzt 50 % günstiger. Was das verändert.",
+      "summary": "OpenAI hat die Preise seiner GPT-6-Sol- und Luna-Modelle gestern halbiert — das verändert die Kalkulation für alle, die KI-Produkte entwickeln.",
+      "body": [
+        "Gestern hat OpenAI zwei neue KI-Modelle veröffentlicht — GPT-6 Sol und GPT-6 Luna — zum halben Preis der Vorgängermodelle. Für alle, die Software mit KI-Integration entwickeln, ist das die Art von Veränderung, bei der man innehalten und neu rechnen muss. **KI läuft jetzt 50 % günstiger.**",
+        "Sol übernimmt komplexe Aufgaben: Code schreiben und reviewen, Daten analysieren, schwierige Probleme lösen. Luna ist für einfache, hochvolumige Aufgaben gedacht — Dokumente zusammenfassen, Kundenfragen beantworten, Informationen aus langen Texten extrahieren. Luna kostet nur 0,10 $ pro Million Tokens (Tokens sind die kleinen Texteinheiten, die ein KI-Modell liest und schreibt — eine Million entspricht grob einer Novelle mit 750.000 Wörtern). Sol kostet 2 $ pro Million. **Beide kosten genau halb so viel wie ihre GPT-5.6-Vorgänger.**",
+        "Den Trade-off sollte man kennen: Keines der neuen Modelle übertrifft GPT-5.6 in jedem Benchmark. In manchen Coding-Tests schneidet das ältere Modell noch besser ab. Aber OpenAI hat betont, dass es sich um dauerhafte Preise handelt — keine Einführungsangebote. Für die meisten alltäglichen Automatisierungsaufgaben ist die Kostenersparnis größer als der Leistungsunterschied. Ein Unternehmen, das ein Dokumentenzusammenfassungstool oder einen Kundensupport-Bot baut, braucht keinen absoluten Spitzenreiter; **es braucht ein Modell, das gut genug und im großen Maßstab erschwinglich ist.**",
+        "Wenn dein Team bisher bei einem KI-Feature gezögert hat, weil die Kosten nicht aufgegangen sind, ist jetzt der richtige Zeitpunkt zum Nachrechnen. Ein Workflow, der mit GPT-5.6 400 $ im Monat kostete, kostet mit Luna jetzt rund 200 $. Das ist der Unterschied zwischen einem Feature, das kaum rentabel ist, und einem, das eindeutig Sinn ergibt. **Rechne nochmal nach — was letzte Woche zu teuer war, ist es heute vielleicht nicht mehr.**"
+      ],
+      "keyFacts": [
+        { "value": "50%", "label": "günstiger als GPT-5.6" },
+        { "value": "$0.10 / $0.50", "label": "Luna Eingabe / Ausgabe pro Million Tokens" },
+        { "value": "$2 / $10", "label": "Sol Eingabe / Ausgabe pro Million Tokens" },
+        { "value": "1.05M", "label": "Token-Kontextfenster" }
+      ]
+    },
+    "nl": {
+      "title": "AI is nu 50% goedkoper. Wat dat verandert.",
+      "summary": "OpenAI halveerde gisteren de prijs van zijn GPT-6 Sol- en Luna-modellen, en dat verandert de rekensommen voor iedereen die AI-producten bouwt.",
+      "body": [
+        "Gisteren lanceerde OpenAI twee nieuwe AI-modellen — GPT-6 Sol en GPT-6 Luna — voor de helft van de prijs van hun voorgangers. Voor iedereen die software met AI bouwt, is dit het soort verandering waardoor je even stilstaat en opnieuw gaat rekenen. **AI is nu 50% goedkoper om te draaien.**",
+        "Sol verwerkt complexe taken: code schrijven en reviewen, data analyseren, moeilijke problemen oplossen. Luna is gebouwd voor eenvoudige, veelvoorkomende taken — documenten samenvatten, klantvragen beantwoorden, informatie uit lange teksten halen. Luna kost slechts $0.10 per miljoen tokens (tokens zijn de kleine stukjes tekst die een AI leest en schrijft — een miljoen staat ruwweg gelijk aan een roman van 750.000 woorden). Sol kost $2 per miljoen. **Beide zijn exact de helft van de prijs van hun GPT-5.6-voorgangers.**",
+        "De trade-off is het waard om te kennen: geen van de nieuwe modellen haalt GPT-5.6 op elk benchmark. In sommige codingtests scoort het oudere model nog steeds hoger. Maar OpenAI zei dat dit vaste prijzen zijn — geen introductietarieven. Voor de meeste dagelijkse automatiseringstaken is de kostenbesparing groter dan het prestatieverschil. Een bedrijf dat een samenvattingstool of een klantenservicebot bouwt, heeft niet de absolute topscorer nodig; **het heeft een model nodig dat goed genoeg is en betaalbaar op grote schaal.**",
+        "Als jouw team terughoudend was bij een AI-functie omdat de kosten niet opwogen, is nu het moment om te checken. Een workflow die met GPT-5.6 $400 per maand kostte, kost nu ongeveer $200 op Luna. Dat is het verschil tussen een functie die nauwelijks rendabel is en een die duidelijk zinvol is. **Reken het opnieuw door — wat vorige week te duur was, is dat vandaag misschien niet meer.**"
+      ],
+      "keyFacts": [
+        { "value": "50%", "label": "goedkoper dan GPT-5.6" },
+        { "value": "$0.10 / $0.50", "label": "Luna invoer / uitvoer per miljoen tokens" },
+        { "value": "$2 / $10", "label": "Sol invoer / uitvoer per miljoen tokens" },
+        { "value": "1.05M", "label": "token contextvenster" }
+      ]
+    },
+    "es": {
+      "title": "La IA acaba de ser un 50% más barata. Qué cambia con eso.",
+      "summary": "OpenAI redujo ayer a la mitad el precio de sus modelos GPT-6 Sol y Luna, y eso cambia los números para cualquiera que construya productos con IA.",
+      "body": [
+        "Ayer, OpenAI lanzó dos nuevos modelos de IA — GPT-6 Sol y GPT-6 Luna — a la mitad del precio de los que reemplazan. Para cualquiera que desarrolle software con IA, este es el tipo de cambio que te hace parar y recalcular. **La IA acaba de volverse un 50% más barata de ejecutar.**",
+        "Sol se encarga del trabajo complejo: escribir y revisar código, analizar datos, resolver problemas difíciles. Luna está pensado para tareas simples y de alto volumen — resumir documentos, responder preguntas de clientes, extraer información de textos largos. Luna cuesta solo $0.10 por millón de tokens (los tokens son los pequeños fragmentos de texto que una IA lee y escribe — un millón equivale aproximadamente a una novela de 750.000 palabras). Sol cuesta $2 por millón. **Ambos cuestan exactamente la mitad que sus predecesores GPT-5.6.**",
+        "Vale la pena conocer el trade-off: ninguno de los nuevos modelos supera a GPT-5.6 en todos los benchmarks. En algunas pruebas de programación, el modelo más antiguo sigue marcando más alto. Pero OpenAI indicó que estos son precios permanentes, no tarifas de lanzamiento. Para la mayoría de las tareas de automatización del día a día, el ahorro en costes supera la diferencia de rendimiento. Una empresa que desarrolla una herramienta de resumen de documentos o un bot de soporte no necesita el mejor puntuador en términos absolutos; **necesita un modelo suficientemente bueno y asequible para operar a escala.**",
+        "Si tu equipo ha estado frenando alguna función de IA porque los costes no cuadraban, ahora es el momento de revisar los números. Un flujo de trabajo que costaba $400 al mes con GPT-5.6 ahora cuesta alrededor de $200 con Luna. Esa es la diferencia entre una función que apenas sale rentable y una que claramente tiene sentido. **Haz los cálculos de nuevo — lo que era demasiado caro la semana pasada puede que hoy ya no lo sea.**"
+      ],
+      "keyFacts": [
+        { "value": "50%", "label": "más barato que GPT-5.6" },
+        { "value": "$0.10 / $0.50", "label": "Luna entrada / salida por millón de tokens" },
+        { "value": "$2 / $10", "label": "Sol entrada / salida por millón de tokens" },
+        { "value": "1.05M", "label": "ventana de contexto en tokens" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA vient de devenir 50 % moins chère. Ce que ça change.",
+      "summary": "OpenAI a réduit hier de moitié le prix de ses modèles GPT-6 Sol et Luna, et cela change les calculs pour quiconque construit des produits avec l'IA.",
+      "body": [
+        "Hier, OpenAI a lancé deux nouveaux modèles d'IA — GPT-6 Sol et GPT-6 Luna — à la moitié du prix de ceux qu'ils remplacent. Pour quiconque développe des logiciels avec de l'IA, c'est le genre de changement qui fait s'arrêter et recalculer. **L'IA vient de devenir 50 % moins chère à faire tourner.**",
+        "Sol gère le travail complexe : écrire et revoir du code, analyser des données, résoudre des problèmes difficiles. Luna est conçu pour les tâches simples et à fort volume — résumer des documents, répondre aux questions des clients, extraire des informations de longs textes. Luna coûte seulement $0.10 par million de tokens (les tokens sont les petits morceaux de texte qu'une IA lit et produit — un million équivaut à peu près à un roman de 750 000 mots). Sol coûte $2 par million. **Les deux coûtent exactement la moitié de leurs prédécesseurs GPT-5.6.**",
+        "Le compromis mérite d'être connu : aucun des deux nouveaux modèles ne surpasse GPT-5.6 sur tous les benchmarks. Dans certains tests de programmation, l'ancien modèle obtient encore de meilleurs scores. Mais OpenAI a précisé qu'il s'agit de prix permanents — pas de tarifs d'introduction. Pour la plupart des tâches d'automatisation quotidiennes, le gain sur le coût est plus important que l'écart de performance. Une entreprise qui développe un outil de résumé ou un bot de support n'a pas besoin du modèle le mieux classé en absolu ; **il lui faut un modèle assez bon et abordable à grande échelle.**",
+        "Si votre équipe a hésité à intégrer une fonctionnalité IA parce que les coûts ne s'équilibraient pas, c'est le moment de vérifier. Un workflow qui coûtait $400 par mois sur GPT-5.6 en coûte maintenant environ $200 sur Luna. C'est la différence entre une fonctionnalité qui tient à peine la route et une qui fait clairement sens. **Refaites les calculs — ce qui était trop cher la semaine dernière ne l'est peut-être plus aujourd'hui.**"
+      ],
+      "keyFacts": [
+        { "value": "50%", "label": "moins cher que GPT-5.6" },
+        { "value": "$0.10 / $0.50", "label": "Luna entrée / sortie par million de tokens" },
+        { "value": "$2 / $10", "label": "Sol entrée / sortie par million de tokens" },
+        { "value": "1.05M", "label": "fenêtre de contexte en tokens" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي أصبح أرخص بنسبة 50%. ماذا يعني ذلك؟",
+      "summary": "خفّضت OpenAI أمس سعر نموذجَي GPT-6 Sol وLuna إلى النصف، وهذا يغيّر الحسابات لكل من يبني منتجات بالذكاء الاصطناعي.",
+      "body": [
+        "أمس، أطلقت OpenAI نموذجين جديدين — GPT-6 Sol وGPT-6 Luna — بنصف سعر النماذج التي يحلّان محلها. لمن يبني برمجيات تعتمد على الذكاء الاصطناعي، هذا هو النوع من التغييرات الذي يجعلك تتوقف وتُعيد الحساب. **أصبح تشغيل الذكاء الاصطناعي أرخص بنسبة 50% فجأة.**",
+        "يتولى Sol المهام المعقدة: كتابة الكود ومراجعته، وتحليل البيانات، وحل المشكلات الصعبة. أما Luna فمصمَّم للمهام البسيطة وعالية التكرار — تلخيص المستندات، والإجابة على أسئلة العملاء، واستخراج المعلومات من النصوص الطويلة. لا يكلّف Luna سوى $0.10 لكل مليون توكن (التوكنات هي الوحدات النصية الصغيرة التي يقرأها النموذج ويكتبها — مليون توكن يعادل تقريباً رواية مؤلفة من 750,000 كلمة). أما Sol فيكلّف $2 لكل مليون. **كلا النموذجين يكلّفان بالضبط نصف سعر سابقَيهما من سلسلة GPT-5.6.**",
+        "المقايضة تستحق المعرفة: لا يتفوق أيٌّ من النموذجين الجديدين على GPT-5.6 في جميع الاختبارات. في بعض اختبارات البرمجة، لا يزال النموذج القديم يسجل نتائج أعلى. لكن OpenAI أكدت أن هذه أسعار دائمة — لا عروض تعريفية. في معظم مهام الأتمتة اليومية، التوفير في التكلفة أكبر من فجوة الأداء. الشركة التي تبني أداة لتلخيص المستندات أو روبوت دعم عملاء لا تحتاج إلى الأعلى في الترتيب على الإطلاق؛ **تحتاج إلى نموذج جيد بما يكفي وبسعر يتيح التشغيل على نطاق واسع.**",
+        "إن كان فريقك يتردد في بناء ميزة ذكاء اصطناعي لأن التكاليف لم تكن تتوازن، فهذا هو الوقت المناسب للمراجعة. سير عمل كان يكلّف $400 شهرياً على GPT-5.6 أصبح يكلّف نحو $200 على Luna. هذا هو الفارق بين ميزة تكاد أن تغطي تكاليفها وميزة تستحق البناء بوضوح. **أعِد الحسابات من جديد — ما كان مكلفاً جداً الأسبوع الماضي ربما لم يعد كذلك اليوم.**"
+      ],
+      "keyFacts": [
+        { "value": "50%", "label": "أرخص من GPT-5.6" },
+        { "value": "$0.10 / $0.50", "label": "Luna: تكلفة الإدخال / الإخراج لكل مليون توكن" },
+        { "value": "$2 / $10", "label": "Sol: تكلفة الإدخال / الإخراج لكل مليون توكن" },
+        { "value": "1.05M", "label": "نافذة السياق بالتوكنات" }
+      ]
+    }
+  }
+}
