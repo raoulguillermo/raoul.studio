@@ -448,6 +448,7 @@ export const productUi = {
     posterRailMiddle: 'Software · Gebouwd en gedraaid door de studio',
   },
   seeProduct: 'Bekijk het product',
+  clickHere: 'Klik hier',
   formDefaults: {
     nameLabel: 'Naam',
     namePlaceholder: 'Je naam',

@@ -449,6 +449,7 @@ export const productUi = {
     posterRailMiddle: 'Software · Built and run by the studio',
   },
   seeProduct: 'See the product',
+  clickHere: 'Click here',
   formDefaults: {
     nameLabel: 'Name',
     namePlaceholder: 'Your name',

@@ -448,6 +448,7 @@ export const productUi = {
     posterRailMiddle: 'البرمجيات · يبنيها الاستوديو ويشغّلها',
   },
   seeProduct: 'عرض المنتج',
+  clickHere: 'انقر هنا',
   formDefaults: {
     nameLabel: 'الاسم',
     namePlaceholder: 'اسمك',

@@ -448,6 +448,7 @@ export const productUi = {
     posterRailMiddle: 'Logiciels · Construits et exploités par le studio',
   },
   seeProduct: 'Voir le produit',
+  clickHere: 'Cliquez ici',
   formDefaults: {
     nameLabel: 'Nom',
     namePlaceholder: 'Votre nom',
