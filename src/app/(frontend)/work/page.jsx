@@ -3,7 +3,7 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 
 export async function generateMetadata() {
   const { pages } = getContent(await getLocale())
@@ -11,7 +11,7 @@ export async function generateMetadata() {
   return {
     title: page.meta?.title || `${page.titleLine1} — studio.raoul`,
     description: page.meta?.description || '',
-    alternates: { canonical: '/work' },
+    alternates: await localeAlternates('/work'),
   }
 }
 

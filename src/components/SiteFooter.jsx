@@ -1,3 +1,5 @@
+import ConsentLink from '@/components/ConsentLink'
+
 export default function SiteFooter({ leftText, rightText, phone, phoneHref }) {
   return (
     <footer className="flex items-center justify-between py-8 text-sm text-mute font-medium border-t border-ink/10">
@@ -7,7 +9,10 @@ export default function SiteFooter({ leftText, rightText, phone, phoneHref }) {
           {phone}
         </a>
       ) : null}
-      <span>{rightText}</span>
+      <span className="flex items-center gap-6">
+        <ConsentLink />
+        <span>{rightText}</span>
+      </span>
     </footer>
   )
 }

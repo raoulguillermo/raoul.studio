@@ -6,7 +6,7 @@ import PosterRail from '@/components/PosterRail'
 import Infographic from '@/components/Infographic'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 import { projectSlugs } from '@/content/en/projects'
 import { productByCaseStudy } from '@/content/products'
 
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
   return {
     title: project.titlePlain,
     description: project.lead || project.shortDescription,
-    alternates: { canonical: `/projects/${slug}` },
+    alternates: await localeAlternates(`/projects/${slug}`),
     openGraph: {
       type: 'article',
       title: project.titlePlain,

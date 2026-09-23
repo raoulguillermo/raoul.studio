@@ -8,7 +8,7 @@
     "dev": "next dev -p 3060",
     "build": "NODE_OPTIONS=--max-old-space-size=4096 next build",
     "start": "PORT=3060 next start",
-    "start:prod": "PORT=3000 next start",
+    "start:prod": "PORT=3000 NEXT_DIST_DIR=$(cat .next-current 2>/dev/null || echo .next) next start",
     "lint": "next lint"
   },
   "dependencies": {

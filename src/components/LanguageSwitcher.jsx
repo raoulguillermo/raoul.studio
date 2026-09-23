@@ -68,6 +68,13 @@ export default function LanguageSwitcher({ currentLang = 'en', labels = {} }) {
     setOpen(false)
     if (lang === currentLang) return
     document.cookie = `${LOCALE_COOKIE}=${lang}; path=/; max-age=31536000; samesite=lax`
+    // On a language URL (/nl/voice-ai) the prefix decides the language, so
+    // swap the prefix; plain URLs just re-render with the new cookie.
+    const [, first, ...rest] = window.location.pathname.split('/')
+    if (LOCALES.includes(first)) {
+      window.location.assign(`/${lang}/${rest.join('/')}${window.location.search}${window.location.hash}`)
+      return
+    }
     router.refresh()
   }
 

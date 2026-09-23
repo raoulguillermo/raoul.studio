@@ -3,7 +3,7 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 
 const SITE_URL = 'https://raoul.studio'
 
@@ -12,7 +12,7 @@ export async function generateMetadata() {
   return {
     title: page.meta.title,
     description: page.meta.description,
-    alternates: { canonical: '/services' },
+    alternates: await localeAlternates('/services'),
     openGraph: {
       type: 'website',
       title: page.meta.title,

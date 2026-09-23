@@ -61,6 +61,8 @@ export default function ContactForm({
       form.reset()
       setInvalid({})
       setStatus(successStatus)
+      // Conversion signal for the ad pixels (Consent.jsx), consent permitting.
+      window.dispatchEvent(new CustomEvent('lead', { detail: { kind: 'form', source } }))
     } catch {
       setStatus(errorStatus)
     } finally {

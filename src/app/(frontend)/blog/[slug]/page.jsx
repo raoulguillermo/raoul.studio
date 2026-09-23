@@ -6,7 +6,7 @@ import PosterRail from '@/components/PosterRail'
 import BlogImage from '@/components/BlogImage'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 import { getPost, getPosts, getBlogStrings, getPillarLabel } from '@/content/blog'
 
 const SITE_URL = 'https://raoul.studio'
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }) {
   return {
     title: post.title,
     description: post.summary,
-    alternates: { canonical: `/blog/${slug}` },
+    alternates: await localeAlternates(`/blog/${slug}`),
     openGraph: {
       type: 'article',
       title: post.title,

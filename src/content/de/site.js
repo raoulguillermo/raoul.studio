@@ -9,7 +9,6 @@ export const header = {
 }
 
 export const menu = {
-  eyebrow: 'Menü — 2026',
   columns: [
     {
       heading: '01 — Studio',
@@ -46,6 +45,13 @@ export const menu = {
 
 // Rahmen-Texte, die im JSX statt im Seiteninhalt liegen.
 export const ui = {
+  consent: {
+    text: 'Wir verwenden Cookies von Google, Meta und TikTok, um zu messen, welche Anzeigen funktionieren. Nur wenn Sie einverstanden sind.',
+    accept: 'Akzeptieren',
+    reject: 'Ablehnen',
+    more: 'Datenschutzerklärung',
+    settings: 'Cookie-Einstellungen',
+  },
   a11y: {
     openMenu: 'Menü öffnen',
     call: 'Anrufen',
@@ -68,13 +74,11 @@ export const ui = {
 }
 
 export const posterRail = {
-  topText: 'Digitales Produktstudio',
-  middleText: 'Das Studio gestaltet, baut und skaliert digitale Unternehmen.',
-  bottomText: 'studio.raoul',
+  middleText: 'studio.raoul entwirft, baut und steht Ihnen unternehmerisch zur Seite.',
 }
 
 export const footer = {
-  leftText: '© 2026 studio.raoul',
+  leftText: '© 2026 studio.raoul · KvK 24469404',
   rightText: 'Rotterdam · EU',
   phone: '+31 (970) 065 - 30693',
   phoneHref: 'tel:+3197006530693',

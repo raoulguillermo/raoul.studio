@@ -5,7 +5,7 @@ import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
 import { productRegistry, productSlugs } from '@/content/products'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 import { getNewsletterStrings } from '@/content/newsletter'
 import NewsletterSignup from '@/components/NewsletterSignup'
 
@@ -14,7 +14,7 @@ export async function generateMetadata() {
   return {
     title: home.meta?.title || 'studio.raoul',
     description: home.meta?.description || '',
-    alternates: { canonical: '/' },
+    alternates: await localeAlternates('/'),
   }
 }
 
@@ -136,7 +136,7 @@ export default async function HomePage() {
               className="group fullbleed block"
               style={{ background: product.colors.bg, color: product.colors.fg }}
             >
-              <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-10 md:py-16">
+              <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-10 md:py-16 motion-safe:transition-[padding] motion-safe:duration-500 ease-[cubic-bezier(.2,.7,.2,1)] md:group-hover:py-24">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-12 items-baseline">
                   <span
                     aria-hidden="true"
@@ -145,7 +145,7 @@ export default async function HomePage() {
                   >
                     {pad2(i + 1)}
                   </span>
-                  <h3 className="md:col-span-5 font-display uppercase tracking-tight2 leading-[0.95] text-4xl md:text-6xl">
+                  <h3 className="md:col-span-5 font-display uppercase tracking-tight2 leading-[0.95] text-4xl md:text-6xl origin-left rtl:origin-right motion-safe:transition-transform motion-safe:duration-500 ease-[cubic-bezier(.2,.7,.2,1)] md:group-hover:scale-110">
                     {product.name}
                   </h3>
                   <p className="md:col-span-5 max-w-xl text-base md:text-lg leading-relaxed opacity-85">
@@ -227,9 +227,6 @@ export default async function HomePage() {
 
       {/* Contact */}
       <section className="pt-12 md:pt-24 pb-12 md:pb-24">
-        <p className="r text-mute text-sm mb-6 font-semibold uppercase tracking-wider">
-          {home.contact.eyebrow}
-        </p>
         <p className="r text-4xl md:text-7xl font-display uppercase tracking-tight2 leading-[1.02] break-words">
           {home.contact.beforeLink}
           <a href={home.contact.linkHref} className="ul text-mute">

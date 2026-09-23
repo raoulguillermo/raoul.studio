@@ -3,7 +3,7 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 import { productRegistry, productSlugs } from '@/content/products'
 
 export async function generateMetadata() {
@@ -12,7 +12,7 @@ export async function generateMetadata() {
   return {
     title: page.meta.title,
     description: page.meta.description,
-    alternates: { canonical: '/software' },
+    alternates: await localeAlternates('/software'),
   }
 }
 

@@ -9,7 +9,6 @@ export const header = {
 }
 
 export const menu = {
-  eyebrow: 'Menu — 2026',
   columns: [
     {
       heading: '01 — Studio',
@@ -46,6 +45,13 @@ export const menu = {
 
 // Chrome strings that live in JSX rather than page content.
 export const ui = {
+  consent: {
+    text: 'We use cookies from Google, Meta and TikTok to measure which ads work. Only if you’re OK with that.',
+    accept: 'Accept',
+    reject: 'Decline',
+    more: 'Privacy policy',
+    settings: 'Cookie settings',
+  },
   a11y: {
     openMenu: 'Open menu',
     call: 'Call',
@@ -68,13 +74,11 @@ export const ui = {
 }
 
 export const posterRail = {
-  topText: 'Digital product studio',
-  middleText: 'The studio designs, builds and grows digital companies.',
-  bottomText: 'studio.raoul',
+  middleText: 'studio.raoul designs, builds and is in business with you.',
 }
 
 export const footer = {
-  leftText: '© 2026 studio.raoul',
+  leftText: '© 2026 studio.raoul · KvK 24469404',
   rightText: 'Rotterdam · EU',
   phone: '+31 (970) 065 - 30693',
   phoneHref: 'tel:+3197006530693',

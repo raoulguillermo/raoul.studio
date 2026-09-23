@@ -192,7 +192,7 @@ export const pages = {
     eyebrow: 'Mentions légales',
     titleLine1: 'Confidentialité',
     titleAccent: '.',
-    updated: 'Dernière mise à jour — août 2026',
+    updated: 'Dernière mise à jour — septembre 2026',
     intro:
       'Cette politique explique quelles données personnelles studio.raoul collecte, pourquoi nous les collectons et quels droits vous détenez à leur sujet. Elle couvre ce site web ainsi que les applications que le studio exploite, dont l’application de tâches Poofy pour iPhone et Mac. Nous limitons la collecte au strict minimum nécessaire au fonctionnement du studio, à la réponse aux personnes qui nous contactent et à la synchronisation de vos tâches.',
     sections: [
@@ -253,7 +253,8 @@ export const pages = {
       {
         heading: 'Cookies',
         body: [
-          'Le site utilise un unique cookie fonctionnel (« lang ») pour mémoriser votre langue. Nous n’utilisons pas de cookies publicitaires et ne mettons en œuvre ni suivi ni profilage par des tiers.',
+          'Le site utilise un cookie fonctionnel (« lang ») pour mémoriser votre langue, et un cookie (« consent ») qui mémorise votre choix concernant les cookies publicitaires.',
+          'Uniquement si vous y consentez dans le bandeau cookies, Google (Google Ads), Meta (Meta Pixel) et TikTok (TikTok Pixel) déposent des cookies pour mesurer si nos publicités mènent à une demande ou à un appel. Sans votre consentement, nous ne chargeons pas leurs scripts. Vous pouvez modifier votre choix à tout moment via « Paramètres des cookies » en bas de page.',
         ],
       },
       {
@@ -265,6 +266,13 @@ export const pages = {
           'Apple (Apple Distribution International Ltd.) — uniquement si vous choisissez « Connexion avec Apple » dans Poofy. Apple assure la connexion et nous transmet un identifiant de votre compte Apple ainsi qu’une adresse e-mail, qui peut être une adresse relais privée d’Apple. Ce qui se passe du côté d’Apple relève de la propre politique de confidentialité d’Apple.',
           'DigitalOcean — fournit les serveurs et la base de données managée, à Amsterdam, où sont stockés le site web ainsi que l’ensemble des comptes, listes et tâches Poofy.',
           'Nos propres serveurs — le site web et l’API Poofy tournent sur une infrastructure que nous gérons, et les soumissions de contact y sont stockées dans notre base de données.',
+        ],
+      },
+      {
+        heading: 'Voice AI — les appels pour nos clients',
+        body: [
+          'Si votre entreprise utilise le Voice AI du studio, nous traitons les appels téléphoniques pour votre compte. Vous êtes alors responsable du traitement, et nous sommes sous-traitant. Ce qui est conservé, où et pendant combien de temps est défini dans un accord de sous-traitance.',
+          'Pour Voice AI, nous travaillons avec Twilio (téléphonie), ElevenLabs (reconnaissance et synthèse vocales) et Anthropic (le modèle de langage Claude). Ces prestataires peuvent traiter des données en dehors de l’UE ; lorsque c’est le cas, ce traitement est encadré par des garanties appropriées, comme les clauses contractuelles types de la Commission européenne.',
         ],
       },
       {

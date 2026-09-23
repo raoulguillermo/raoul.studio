@@ -1,5 +1,6 @@
 import { projectSlugs } from '@/content/en/projects'
-import { productSlugs } from '@/content/products'
+import { productSlugs, voiceIndustrySlugs } from '@/content/products'
+import { LOCALES } from '@/content/i18n'
 
 const BASE_URL = 'https://raoul.studio'
 
@@ -33,5 +34,25 @@ export default function sitemap() {
     priority: 0.8,
   }))
 
-  return [...staticRoutes, ...productRoutes, ...projectRoutes]
+  const industryRoutes = voiceIndustrySlugs.map((slug) => ({
+    url: `${BASE_URL}/voice-ai/${slug}`,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }))
+
+  // Every page also exists under each language prefix (/nl/voice-ai …). List
+  // each version, all pointing at one another, with the plain URL as x-default.
+  return [...staticRoutes, ...productRoutes, ...industryRoutes, ...projectRoutes].flatMap((entry) => {
+    const path = entry.url.slice(BASE_URL.length)
+    const clean = path === '/' ? '' : path
+    const languages = Object.fromEntries(
+      LOCALES.map((l) => [l, `${BASE_URL}/${l}${clean}`]),
+    )
+    languages['x-default'] = entry.url
+    const alternates = { languages }
+    return [
+      { ...entry, alternates },
+      ...LOCALES.map((l) => ({ ...entry, url: `${BASE_URL}/${l}${clean}`, alternates })),
+    ]
+  })
 }

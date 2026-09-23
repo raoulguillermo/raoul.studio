@@ -4,14 +4,14 @@ import PosterRail from '@/components/PosterRail'
 import ContactForm from '@/components/ContactForm'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 
 export async function generateMetadata() {
   const { contact } = getContent(await getLocale())
   return {
     title: contact.meta?.title || "Let's talk — studio.raoul",
     description: contact.meta?.description || '',
-    alternates: { canonical: '/contact' },
+    alternates: await localeAlternates('/contact'),
   }
 }
 

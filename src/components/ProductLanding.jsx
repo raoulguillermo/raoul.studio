@@ -5,10 +5,11 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 import Infographic from '@/components/Infographic'
 import ContactForm from '@/components/ContactForm'
+import { CallDemo, PricingSection, DataPrivacySection } from '@/components/ProductSections'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
-import { productRegistry } from '@/content/products'
+import { getLocale, localeAlternates } from '@/content/locale-server'
+import { productRegistry, voiceIndustrySlugs } from '@/content/products'
 
 const SITE_URL = 'https://raoul.studio'
 
@@ -24,7 +25,7 @@ export async function productMetadata(slug) {
   return {
     title: copy.meta.title,
     description: copy.meta.description,
-    alternates: { canonical: `/${slug}` },
+    alternates: await localeAlternates(`/${slug}`),
     openGraph: {
       type: 'website',
       title: copy.meta.title,
@@ -97,6 +98,7 @@ export default async function ProductLanding({ slug }) {
     ui,
     infographics,
     contact,
+    voiceIndustries,
   } = getContent(lang)
   const product = productRegistry[slug]
   const copy = products[slug]
@@ -106,6 +108,15 @@ export default async function ProductLanding({ slug }) {
   const caseStudyHref = `/projects/${product.caseStudySlug}`
   const primaryHref = product.cta === 'appstore' ? product.appStoreUrl : '#get-started'
   const jsonLd = buildJsonLd({ product, copy, lang })
+  const hasCallDemo = Boolean(product.demoPhone && copy.callDemo)
+  // Industry pages (Voice AI): the use-case list links to one page per branche.
+  const industries =
+    product.industryPages && voiceIndustries
+      ? voiceIndustrySlugs
+          .filter((s) => voiceIndustries[s])
+          .map((s) => ({ label: voiceIndustries[s].name, href: `/${slug}/${s}` }))
+      : null
+  const useCaseItems = industries ?? (copy.useCases?.items ?? []).map((label) => ({ label }))
 
   return (
     <>
@@ -150,6 +161,17 @@ export default async function ProductLanding({ slug }) {
       </section>
 
       <section className="r pb-16 md:pb-24 flex flex-wrap items-baseline gap-x-10 gap-y-6">
+        {hasCallDemo ? (
+          <>
+            <CallDemo product={product} copy={copy} />
+            <a
+              href="#get-started"
+              className="ul text-sm font-semibold uppercase tracking-wider text-ink"
+            >
+              {copy.callDemo.secondary} →
+            </a>
+          </>
+        ) : (
         <a
           href={primaryHref}
           {...(product.cta === 'appstore' ? { rel: 'noopener' } : {})}
@@ -160,6 +182,7 @@ export default async function ProductLanding({ slug }) {
             →
           </span>
         </a>
+        )}
         {caseStudy ? (
           <a
             href={caseStudyHref}
@@ -251,7 +274,7 @@ export default async function ProductLanding({ slug }) {
       ) : null}
 
       {/* Use cases */}
-      {copy.useCases?.items?.length ? (
+      {useCaseItems.length ? (
         <section className="pb-16 md:pb-32 border-t border-ink/15 pt-12 md:pt-20">
           <SectionLabel>{copy.useCases.label}</SectionLabel>
           {copy.useCases.lead ? (
@@ -260,17 +283,26 @@ export default async function ProductLanding({ slug }) {
             </p>
           ) : null}
           <ul className="r font-display uppercase tracking-tight2 leading-[1.05] text-3xl md:text-6xl space-y-3 md:space-y-4">
-            {copy.useCases.items.map((label, i) => (
+            {useCaseItems.map((item, i) => (
               <li key={i} className="flex items-baseline gap-4 md:gap-6">
                 <span className="text-mute text-base md:text-lg font-sans font-medium normal-case tracking-normal w-10 md:w-14 shrink-0">
                   {pad2(i + 1)}
                 </span>
-                <span>{label}</span>
+                {item.href ? (
+                  <a href={item.href} className="group inline-flex items-baseline gap-3 hover:text-accent transition-colors">
+                    <span className="ul">{item.label}</span>
+                    <span aria-hidden="true" className="inline-block rotate-[-45deg] text-accent text-[0.6em] transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">→</span>
+                  </a>
+                ) : (
+                  <span>{item.label}</span>
+                )}
               </li>
             ))}
           </ul>
         </section>
       ) : null}
+
+      <PricingSection copy={copy} />
 
       {/* References — clients this was built for */}
       {copy.references?.items?.length ? (
@@ -322,6 +354,8 @@ export default async function ProductLanding({ slug }) {
         </section>
       ) : null}
 
+      <DataPrivacySection copy={copy} />
+
       {/* FAQ */}
       {copy.faq?.items?.length ? (
         <section className="pb-16 md:pb-32 border-t border-ink/15 pt-12 md:pt-20">
@@ -361,6 +395,12 @@ export default async function ProductLanding({ slug }) {
         <p className="r max-w-2xl text-xl md:text-2xl leading-snug text-ink/85 mb-12 md:mb-16">
           {copy.getStarted.body}
         </p>
+
+        {hasCallDemo ? (
+          <div className="mb-12 md:mb-16">
+            <CallDemo product={product} copy={copy} size="small" />
+          </div>
+        ) : null}
 
         {product.cta === 'appstore' ? (
           <div className="r border-2 border-ink px-5 py-8 md:px-12 md:py-10">

@@ -3,7 +3,7 @@ import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 
 import { getContent } from '@/content'
-import { getLocale } from '@/content/locale-server'
+import { getLocale, localeAlternates } from '@/content/locale-server'
 import { getPosts, getBlogStrings, getPillarLabel } from '@/content/blog'
 import { getNewsletterStrings } from '@/content/newsletter'
 import NewsletterSignup from '@/components/NewsletterSignup'
@@ -17,7 +17,7 @@ export async function generateMetadata() {
   return {
     title: blog.eyebrow,
     description: blog.lead,
-    alternates: { canonical: '/blog' },
+    alternates: await localeAlternates('/blog'),
   }
 }
 

@@ -9,7 +9,6 @@ export const header = {
 }
 
 export const menu = {
-  eyebrow: 'القائمة — 2026',
   columns: [
     {
       heading: '01 — الاستوديو',
@@ -46,6 +45,14 @@ export const menu = {
 
 // Chrome strings that live in JSX rather than page content.
 export const ui = {
+  // Cookie banner — only shown once ad IDs are configured (see Consent.jsx).
+  consent: {
+    text: 'نستخدم ملفّات تعريف ارتباط من Google وMeta وTikTok لقياس الإعلانات التي تحقّق نتائج. وذلك فقط إذا وافقت أنت.',
+    accept: 'موافق',
+    reject: 'رفض',
+    more: 'سياسة الخصوصية',
+    settings: 'إعدادات ملفّات تعريف الارتباط',
+  },
   a11y: {
     openMenu: 'فتح القائمة',
     call: 'اتصل على',
@@ -68,13 +75,11 @@ export const ui = {
 }
 
 export const posterRail = {
-  topText: 'استوديو منتجات رقمية',
-  middleText: 'يصمّم الاستوديو ويبني وينمّي شركات رقمية.',
-  bottomText: 'studio.raoul',
+  middleText: 'studio.raoul يصمّم ويبني ويخوض ريادة الأعمال معك.',
 }
 
 export const footer = {
-  leftText: '© 2026 studio.raoul',
+  leftText: '© 2026 studio.raoul · KvK 24469404',
   rightText: 'روتردام · الاتحاد الأوروبي',
   phone: '+31 (970) 065 - 30693',
   phoneHref: 'tel:+3197006530693',

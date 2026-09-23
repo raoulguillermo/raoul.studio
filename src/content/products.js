@@ -18,6 +18,13 @@ export const productRegistry = {
     source: 'Voice AI',
     schemaType: 'Service',
     colors: { bg: '#0F0F0F', fg: '#D6D9DC', numeralColor: '#E92316' },
+    // The number for the "call and hear it" button: the studio's own line.
+    // The button only renders when this is set.
+    demoPhone: '+31 (970) 065 - 30693',
+    demoPhoneHref: 'tel:+3197006530693',
+    // One landing page per industry at /voice-ai/<slug>; the words live in
+    // <locale>/voiceIndustries.js.
+    industryPages: true,
   },
   'no-cms': {
     slug: 'no-cms',
@@ -67,3 +74,33 @@ export const productByCaseStudy = Object.fromEntries(
       .map((cs) => [cs, p.slug]),
   ),
 )
+
+// Voice AI industry pages, in the order they are listed. The first is the
+// canonical slug; Dutch aliases (/nl/voice-ai/tandarts) serve the same page,
+// so ads can use URLs in the buyer's own language.
+export const voiceIndustrySlugs = ['dentist', 'clinic', 'restaurant', 'salon', 'garage', 'law-firm', 'rental']
+
+export const voiceIndustryAliases = {
+  tandarts: 'dentist',
+  tandartsen: 'dentist',
+  tandartspraktijk: 'dentist',
+  kliniek: 'clinic',
+  praktijk: 'clinic',
+  fysio: 'clinic',
+  fysiotherapie: 'clinic',
+  restaurants: 'restaurant',
+  kapper: 'salon',
+  kappers: 'salon',
+  kapsalon: 'salon',
+  schoonheidssalon: 'salon',
+  advocaat: 'law-firm',
+  advocaten: 'law-firm',
+  advocatenkantoor: 'law-firm',
+  verhuur: 'rental',
+  verhuurbedrijf: 'rental',
+}
+
+export function resolveVoiceIndustry(slug) {
+  if (voiceIndustrySlugs.includes(slug)) return slug
+  return voiceIndustryAliases[slug] ?? null
+}

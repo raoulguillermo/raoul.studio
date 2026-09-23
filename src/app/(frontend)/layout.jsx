@@ -1,6 +1,7 @@
 import './styles.css'
 
 import PhoneButton from '@/components/PhoneButton'
+import Consent from '@/components/Consent'
 import MenuButton from '@/components/MenuButton'
 import MenuPanel from '@/components/MenuPanel'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
@@ -238,6 +239,16 @@ const jsonLd = {
   ],
 }
 
+const LOADER_SCRIPT = (arabic) => `(function(){
+var l=document.getElementById('siteLoader');if(!l)return;
+var f=document.fonts,faces=['1em Anton','400 1em "Inter Tight"'${arabic ? `,'900 1em Cairo'` : ''}];
+function hide(){l.classList.add('done')}
+if(!f||!f.load){hide();return}
+if(faces.every(function(x){return f.check(x)})){l.classList.add('done','instant');return}
+Promise.all(faces.map(function(x){return f.load(x)})).then(hide,hide);
+setTimeout(hide,2500);
+})();`
+
 export default async function FrontendLayout({ children }) {
   const lang = await getLocale()
   const rtl = isRTL(lang)
@@ -264,10 +275,18 @@ export default async function FrontendLayout({ children }) {
         />
         <noscript>
           {/* Reveal animations are JS-driven; without JS the content must still be readable. */}
-          <style>{`.r{opacity:1!important;transform:none!important}`}</style>
+          <style>{`.r{opacity:1!important;transform:none!important}#siteLoader{display:none!important}`}</style>
         </noscript>
       </head>
       <body>
+        {/* Brief loader while the web fonts arrive, so the first paint is never
+            the fallback face. Plain markup plus an inline script: it shows
+            before React hydrates and clears as soon as the fonts are in (at
+            most 2.5s). Skipped outright when the fonts are already cached. */}
+        <div id="siteLoader" aria-hidden="true" suppressHydrationWarning>
+          <span />
+        </div>
+        <script dangerouslySetInnerHTML={{ __html: LOADER_SCRIPT(rtl) }} />
         <main className="max-w-[1200px] mx-auto px-6 md:px-10">{children}</main>
 
         <MenuButton label={ui.a11y.openMenu} />
@@ -279,13 +298,24 @@ export default async function FrontendLayout({ children }) {
         <LanguageSwitcher currentLang={lang} labels={ui.a11y} />
 
         <MenuPanel
-          eyebrow={menu.eyebrow}
           columns={menu.columns}
           footerLeft={menu.footerLeft}
           footerPhone={menu.footerPhone}
           footerPhoneHref={menu.footerPhoneHref}
           footerRightLabel={menu.footerRightLabel}
           footerRightHref={menu.footerRightHref}
+        />
+
+        <Consent
+          ids={{
+            // Ad accounts, from .env (read at runtime: no rebuild needed).
+            googleAds: process.env.GOOGLE_ADS_ID || '',
+            googleAdsLeadLabel: process.env.GOOGLE_ADS_LEAD_LABEL || '',
+            metaPixel: process.env.META_PIXEL_ID || '',
+            tiktokPixel: process.env.TIKTOK_PIXEL_ID || '',
+          }}
+          strings={ui.consent}
+          privacyHref="/privacy"
         />
 
         <SiteEffects />

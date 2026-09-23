@@ -192,7 +192,7 @@ export const pages = {
     eyebrow: 'Rechtliches',
     titleLine1: 'Datenschutz',
     titleAccent: '.',
-    updated: 'Zuletzt aktualisiert — August 2026',
+    updated: 'Zuletzt aktualisiert — September 2026',
     intro:
       'Diese Richtlinie erklärt, welche personenbezogenen Daten studio.raoul erhebt, warum wir sie erheben und welche Rechte Sie daran haben. Sie gilt für diese Website und für die Apps, die das Studio betreibt, einschließlich der Aufgaben-App Poofy für iPhone und Mac. Wir halten die Datenerhebung auf das Minimum, das nötig ist, um das Studio zu betreiben, denjenigen zu antworten, die uns kontaktieren, und Ihre Aufgaben synchron zu halten.',
     sections: [
@@ -253,7 +253,8 @@ export const pages = {
       {
         heading: 'Cookies',
         body: [
-          'Die Seite nutzt ein einziges funktionales Cookie („lang“), um sich Ihre Sprache zu merken. Wir setzen keine Werbe-Cookies ein und betreiben kein Tracking oder Profiling über Dritte.',
+          'Die Seite nutzt ein funktionales Cookie („lang“), um sich Ihre Sprache zu merken, und ein Cookie („consent“), das Ihre Entscheidung zu Werbe-Cookies speichert.',
+          'Nur wenn Sie im Cookie-Hinweis zustimmen, setzen Google (Google Ads), Meta (Meta Pixel) und TikTok (TikTok Pixel) Cookies, um zu messen, ob unsere Anzeigen zu einer Anfrage oder einem Anruf führen. Ohne Ihre Zustimmung laden wir deren Skripte nicht. Sie können Ihre Entscheidung jederzeit über „Cookie-Einstellungen“ unten auf der Seite ändern.',
         ],
       },
       {
@@ -265,6 +266,13 @@ export const pages = {
           'Apple (Apple Distribution International Ltd.) — nur wenn Sie in Poofy „Anmelden mit Apple“ wählen. Apple führt die Anmeldung durch und übermittelt uns eine Kennung Ihres Apple-Kontos sowie eine E-Mail-Adresse, die eine Relay-Adresse von Apple sein kann. Was auf Apple’s Seite geschieht, unterliegt der eigenen Datenschutzerklärung von Apple.',
           'DigitalOcean — stellt die Server und die Managed-Datenbank in Amsterdam bereit, auf denen die Website und alle Poofy-Konten, -Listen und -Aufgaben gespeichert werden.',
           'Unsere eigenen Server — die Website und die Poofy-API laufen auf von uns verwalteter Infrastruktur, und Kontaktanfragen werden dort in unserer Datenbank gespeichert.',
+        ],
+      },
+      {
+        heading: 'Voice AI — Gespräche für unsere Kunden',
+        body: [
+          'Nutzt Ihr Unternehmen Voice AI des Studios, verarbeiten wir die Telefongespräche in Ihrem Auftrag. Sie sind dann der Verantwortliche, wir sind Auftragsverarbeiter. Was gespeichert wird, wo und wie lange, halten wir in einem Auftragsverarbeitungsvertrag fest.',
+          'Für Voice AI arbeiten wir mit Twilio (Telefonie), ElevenLabs (Spracherkennung und Sprachausgabe) und Anthropic (das Sprachmodell Claude). Diese Anbieter können Daten außerhalb der EU verarbeiten; wo das geschieht, ist es durch geeignete Garantien wie die Standardvertragsklauseln der Europäischen Kommission abgesichert.',
         ],
       },
       {

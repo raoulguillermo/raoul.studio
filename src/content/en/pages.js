@@ -192,7 +192,7 @@ export const pages = {
     eyebrow: 'Legal',
     titleLine1: 'Privacy',
     titleAccent: '.',
-    updated: 'Last updated — August 2026',
+    updated: 'Last updated — September 2026',
     intro:
       'This policy explains what personal data studio.raoul collects, why we collect it, and what rights you have over it. It covers this website and the apps the studio runs, including the Poofy todo app for iPhone and Mac. We keep data collection to the minimum needed to run the studio, reply to the people who get in touch, and keep your tasks in sync.',
     sections: [
@@ -253,7 +253,8 @@ export const pages = {
       {
         heading: 'Cookies',
         body: [
-          'The site uses a single functional cookie ("lang") to remember your language. We do not use advertising cookies, and we do not run third-party tracking or profiling on you.',
+          'The site uses a functional cookie ("lang") to remember your language, and a cookie ("consent") that remembers your choice about advertising cookies.',
+          'Only if you agree to it in the cookie banner do Google (Google Ads), Meta (Meta Pixel) and TikTok (TikTok Pixel) set cookies to measure whether our ads lead to an enquiry or a phone call. Without your consent we don’t load their scripts. You can change your choice at any time via “Cookie settings” at the bottom of the page.',
         ],
       },
       {
@@ -265,6 +266,13 @@ export const pages = {
           'Apple (Apple Distribution International Ltd.) — only if you choose “Sign in with Apple” in Poofy. Apple runs the sign-in and tells us an identifier for your Apple account and an email address, which may be one of Apple’s private relay addresses. What happens on Apple’s side is governed by Apple’s own privacy policy.',
           'DigitalOcean — provides the servers and the managed database, in Amsterdam, where the website and all Poofy accounts, lists and tasks are stored.',
           'Our own servers — the website and the Poofy API run on infrastructure we manage, and contact submissions are stored in our database there.',
+        ],
+      },
+      {
+        heading: 'Voice AI — calls for our clients',
+        body: [
+          'If your business uses the studio’s Voice AI, we process the phone calls on your behalf. You are then the controller and we are the processor. What is stored, where and for how long is set out in a data processing agreement.',
+          'For Voice AI we work with Twilio (telephony), ElevenLabs (speech recognition and speech) and Anthropic (the Claude language model). These parties may process data outside the EU; where that happens, it is covered by appropriate safeguards such as the European Commission’s standard contractual clauses.',
         ],
       },
       {

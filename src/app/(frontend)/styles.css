@@ -48,7 +48,6 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 /* ============ POSTER RAIL ============ */
 .poster-rail {
   position: fixed; left: 3px; top: 24px; bottom: 24px; z-index: 50;
-  display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;
   font-family: "Inter Tight", sans-serif; font-size: 11px; font-weight: 600;
   text-transform: uppercase; letter-spacing: .18em; color: #fff;
   mix-blend-mode: difference;
@@ -58,8 +57,12 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 @media (max-width: 767px) { .poster-rail { display: none; } }
 @media (min-width: 768px) { .poster-rail { left: 18px; } }
 .poster-rail span {
+  position: absolute; left: 0;
   writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;
 }
+.poster-rail .rail-top { top: 0; }
+.poster-rail .rail-middle { top: 50%; transform: translateY(-50%) rotate(180deg); }
+.poster-rail .rail-bottom { bottom: 0; }
 
 /* ============ HAMBURGER ============ */
 #menuToggle { color: #fff; mix-blend-mode: difference; transition: color .3s ease; }
@@ -88,12 +91,10 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 #menuPanel { opacity: 0; visibility: hidden; transition: opacity .45s ease, visibility .45s; }
 #menuPanel.open { opacity: 1; visibility: visible; }
 #menuPanel .menu-col,
-#menuPanel .menu-eyebrow,
 #menuPanel .menu-foot {
   opacity: 0; transform: translateY(28px);
   transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1);
 }
-#menuPanel.open .menu-eyebrow { opacity: 1; transform: none; transition-delay: .10s; }
 #menuPanel.open .menu-col:nth-child(1) { opacity: 1; transform: none; transition-delay: .18s; }
 #menuPanel.open .menu-col:nth-child(2) { opacity: 1; transform: none; transition-delay: .28s; }
 #menuPanel.open .menu-col:nth-child(3) { opacity: 1; transform: none; transition-delay: .38s; }
@@ -322,3 +323,28 @@ textarea.field-input {
   transition: opacity .25s ease;
 }
 .project-arrow:hover { opacity: .65; }
+
+/* ============ LOADER ============ */
+/* Covers the first paint until the web fonts are in; see the script in layout.jsx. */
+#siteLoader {
+  position: fixed; inset: 0; z-index: 100;
+  background: #D6D9DC;
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity .4s ease, visibility .4s;
+}
+#siteLoader span {
+  display: block; width: 96px; height: 5px; background: #E92316;
+  transform-origin: left center;
+  animation: loaderBar 1s cubic-bezier(.2,.7,.2,1) infinite;
+}
+@keyframes loaderBar {
+  0%   { transform: scaleX(0); }
+  60%  { transform: scaleX(1); transform-origin: left center; }
+  61%  { transform-origin: right center; }
+  100% { transform: scaleX(0); transform-origin: right center; }
+}
+#siteLoader.done { opacity: 0; visibility: hidden; pointer-events: none; }
+#siteLoader.instant { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  #siteLoader span { animation: none; }
+}

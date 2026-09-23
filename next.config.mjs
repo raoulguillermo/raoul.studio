@@ -3,8 +3,13 @@ import { fileURLToPath } from 'url'
 
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 
+// Builds alternate between .next-a and .next-b (see scripts/deploy.sh) so the
+// running server keeps its own complete build until the restart. Both the build
+// and `npm run start:prod` pass the folder in NEXT_DIST_DIR.
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: process.env.NEXT_DIST_DIR || '.next',
   turbopack: {
     root: path.resolve(dirname),
   },

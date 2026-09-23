@@ -10,3 +10,4 @@ export { services } from './services'
 
 // English needs no project overrides — it IS the base structure.
 export const projectOverrides = null
+export { voiceIndustries, voiceIndustryUi } from './voiceIndustries'

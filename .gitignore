@@ -48,3 +48,8 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# alternating build folders, see scripts/deploy.sh
+/.next-a/
+/.next-b/
+/.next-current
