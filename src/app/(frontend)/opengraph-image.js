@@ -1,10 +1,24 @@
+import { readFile } from 'node:fs/promises'
+import { join } from 'node:path'
 import { ImageResponse } from 'next/og'
 
-export const alt = 'studio.raoul — custom tools & platforms, built to ship'
+import { getContent } from '@/content'
+import { getLocale } from '@/content/locale-server'
+
+export const alt = 'studio.raoul'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
-export default function OpengraphImage() {
+// The share image repeats the homepage hero and intro, so it never drifts from
+// the site copy. The built-in font has no Arabic glyphs, so Arabic falls back
+// to English here.
+export default async function OpengraphImage() {
+  const locale = await getLocale()
+  const { home } = getContent(locale === 'ar' ? 'en' : locale)
+  const { prefix, accent, suffix } = home.hero
+  // Anton, the site's display face (OFL), kept next to this file
+  const anton = await readFile(join(process.cwd(), 'src/app/(frontend)/og-fonts/Anton-Regular.ttf'))
+
   return new ImageResponse(
     (
       <div
@@ -21,27 +35,29 @@ export default function OpengraphImage() {
         }}
       >
         <div style={{ display: 'flex', fontSize: 34, fontWeight: 800, letterSpacing: '-0.01em' }}>
-          raoul<span style={{ color: '#E92316' }}>.</span>studio
+          studio<span style={{ color: '#E92316' }}>.</span>raoul
         </div>
         <div
           style={{
             display: 'flex',
             flexWrap: 'wrap',
-            fontSize: 76,
-            fontWeight: 900,
-            lineHeight: 1.04,
-            letterSpacing: '-0.03em',
-            maxWidth: 1000,
+            fontFamily: 'Anton',
+            fontSize: 128,
+            lineHeight: 0.98,
+            letterSpacing: '-0.01em',
+            textTransform: 'uppercase',
+            maxWidth: 1056,
           }}
         >
-          <span>We build custom tools &amp; platforms&nbsp;</span>
-          <span style={{ color: '#E92316' }}>for teams who would rather ship than meet.</span>
+          {prefix ? <span>{prefix}&nbsp;</span> : null}
+          <span style={{ background: '#E92316', color: '#D6D9DC', padding: '0 12px' }}>{accent}</span>
+          {suffix ? <span>&nbsp;{suffix}</span> : null}
         </div>
-        <div style={{ display: 'flex', fontSize: 28, fontWeight: 500, color: '#9aa0a6' }}>
-          Product &amp; engineering studio · fintech · law · commercial
+        <div style={{ display: 'flex', fontSize: 30, fontWeight: 500, lineHeight: 1.35, color: '#9aa0a6', maxWidth: 1000 }}>
+          {home.intro}
         </div>
       </div>
     ),
-    { ...size },
+    { ...size, fonts: [{ name: 'Anton', data: anton, style: 'normal', weight: 400 }] },
   )
 }

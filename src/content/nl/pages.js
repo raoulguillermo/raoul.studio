@@ -254,7 +254,7 @@ export const pages = {
         heading: 'Cookies',
         body: [
           'De site gebruikt een functionele cookie ("lang") om je taal te onthouden, en een cookie ("consent") die je keuze over advertentiecookies onthoudt.',
-          'Alleen als je daar in de cookiemelding toestemming voor geeft, plaatsen Google (Google Ads), Meta (Meta Pixel) en TikTok (TikTok Pixel) cookies om te meten of onze advertenties tot een aanvraag of telefoontje leiden. Zonder toestemming laden we hun scripts niet. Je kunt je keuze altijd wijzigen via “Cookie-instellingen” onderaan de pagina.',
+          'Alleen als je daar in de cookiemelding toestemming voor geeft, plaatsen Google (Google Analytics en Google Ads), Meta (Meta Pixel) en TikTok (TikTok Pixel) cookies om te meten hoe de site wordt bezocht en of onze advertenties tot een aanvraag of telefoontje leiden. Zonder toestemming laden we hun scripts niet. Je kunt je keuze altijd wijzigen via “Cookie-instellingen” onderaan de pagina.',
         ],
       },
       {

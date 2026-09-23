@@ -449,6 +449,7 @@ export const productUi = {
   },
   seeProduct: 'عرض المنتج',
   clickHere: 'انقر هنا',
+  viewCase: 'عرض الحالة',
   formDefaults: {
     nameLabel: 'الاسم',
     namePlaceholder: 'اسمك',

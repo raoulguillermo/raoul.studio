@@ -89,6 +89,7 @@ export default async function ProductLanding({ slug }) {
   const lang = await getLocale()
   const {
     products,
+    productUi,
     getProject,
     header,
     footer,
@@ -280,16 +281,20 @@ export default async function ProductLanding({ slug }) {
               {copy.useCases.lead}
             </p>
           ) : null}
-          <ul className="r font-display uppercase tracking-tight2 leading-[1.05] text-3xl md:text-6xl space-y-3 md:space-y-4">
+          <ul className="r font-display uppercase tracking-tight2 leading-[1.05] text-3xl md:text-6xl space-y-6 md:space-y-4">
             {useCaseItems.map((item, i) => (
               <li key={i} className="flex items-baseline gap-4 md:gap-6">
                 <span className="text-mute text-base md:text-lg font-sans font-medium normal-case tracking-normal w-10 md:w-14 shrink-0">
                   {pad2(i + 1)}
                 </span>
                 {item.href ? (
-                  <a href={item.href} className="group inline-flex items-baseline gap-3 hover:text-accent transition-colors">
-                    <span className="ul">{item.label}</span>
-                    <span aria-hidden="true" className="inline-block rotate-[-45deg] text-accent text-[0.6em] transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">→</span>
+                  <a href={item.href} className="group flex-1 min-w-0 flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 md:gap-6 hover:text-accent transition-colors">
+                    <span className="ul self-start md:self-auto">{item.label}</span>
+                    {/* Spelled out so it reads as a link to the case, not just a list */}
+                    <span className="self-start md:self-auto shrink-0 inline-flex items-baseline gap-2 font-sans normal-case tracking-normal text-base md:text-xl font-semibold text-accent">
+                      <span className="underline underline-offset-4 decoration-2">{productUi.viewCase}</span>
+                      <span aria-hidden="true" className="inline-block rotate-[-45deg] transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">→</span>
+                    </span>
                   </a>
                 ) : (
                   <span>{item.label}</span>

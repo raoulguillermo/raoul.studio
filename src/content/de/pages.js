@@ -254,7 +254,7 @@ export const pages = {
         heading: 'Cookies',
         body: [
           'Die Seite nutzt ein funktionales Cookie („lang“), um sich Ihre Sprache zu merken, und ein Cookie („consent“), das Ihre Entscheidung zu Werbe-Cookies speichert.',
-          'Nur wenn Sie im Cookie-Hinweis zustimmen, setzen Google (Google Ads), Meta (Meta Pixel) und TikTok (TikTok Pixel) Cookies, um zu messen, ob unsere Anzeigen zu einer Anfrage oder einem Anruf führen. Ohne Ihre Zustimmung laden wir deren Skripte nicht. Sie können Ihre Entscheidung jederzeit über „Cookie-Einstellungen“ unten auf der Seite ändern.',
+          'Nur wenn Sie im Cookie-Hinweis zustimmen, setzen Google (Google Analytics und Google Ads), Meta (Meta Pixel) und TikTok (TikTok Pixel) Cookies, um zu messen, wie die Website genutzt wird und ob unsere Anzeigen zu einer Anfrage oder einem Anruf führen. Ohne Ihre Zustimmung laden wir deren Skripte nicht. Sie können Ihre Entscheidung jederzeit über „Cookie-Einstellungen“ unten auf der Seite ändern.',
         ],
       },
       {

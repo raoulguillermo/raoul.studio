@@ -78,8 +78,22 @@ export default async function SoftwarePage() {
                     {(copy.highlights ?? []).map((h) => h.value).join(' · ')}
                   </p>
                 </div>
-                <div className="md:col-span-5 max-w-xl text-base md:text-lg leading-relaxed text-ink/80">
-                  {copy.lead}
+                <div className="md:col-span-5 max-w-xl">
+                  <p className="text-base md:text-lg leading-relaxed text-ink/80">
+                    {copy.lead}
+                  </p>
+                  {/* The whole row is the link; this only says so out loud */}
+                  <span className="mt-4 inline-flex items-center gap-2 text-base md:text-lg font-semibold text-accent">
+                    <span className="underline underline-offset-4 decoration-2">
+                      {productUi.clickHere}
+                    </span>
+                    <span
+                      aria-hidden="true"
+                      className="inline-block rotate-[-45deg] leading-none transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
+                    >
+                      →
+                    </span>
+                  </span>
                 </div>
                 <div className="hidden md:flex md:col-span-1 justify-end">
                   <span className="inline-block rotate-[-45deg] text-3xl leading-none text-mute group-hover:text-accent transition-colors">

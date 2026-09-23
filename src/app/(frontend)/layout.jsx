@@ -309,6 +309,7 @@ export default async function FrontendLayout({ children }) {
         <Consent
           ids={{
             // Ad accounts, from .env (read at runtime: no rebuild needed).
+            googleAnalytics: process.env.GOOGLE_ANALYTICS_ID || '',
             googleAds: process.env.GOOGLE_ADS_ID || '',
             googleAdsLeadLabel: process.env.GOOGLE_ADS_LEAD_LABEL || '',
             metaPixel: process.env.META_PIXEL_ID || '',

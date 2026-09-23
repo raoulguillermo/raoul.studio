@@ -450,6 +450,7 @@ export const productUi = {
   },
   seeProduct: 'See the product',
   clickHere: 'Click here',
+  viewCase: 'view case',
   formDefaults: {
     nameLabel: 'Name',
     namePlaceholder: 'Your name',

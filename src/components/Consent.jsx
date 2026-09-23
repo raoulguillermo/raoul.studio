@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react'
 
-// Cookie banner + ad pixels (Google Ads, Meta, TikTok), consent first.
+// Cookie banner + Google Analytics and ad pixels (Google Ads, Meta, TikTok),
+// consent first.
 //
 // Nothing third-party loads until the visitor accepts: Consent Mode v2 "basic"
 // — gtag is only injected after a yes, with every consent type granted. A no
@@ -40,7 +41,9 @@ function loadPixels(ids) {
   loaded = true
   const w = window
 
-  if (ids.googleAds) {
+  // One gtag serves both Google Analytics (G-…) and Google Ads (AW-…).
+  const googleIds = [ids.googleAnalytics, ids.googleAds].filter(Boolean)
+  if (googleIds.length) {
     w.dataLayer = w.dataLayer || []
     w.gtag = function gtag() {
       w.dataLayer.push(arguments)
@@ -52,8 +55,8 @@ function loadPixels(ids) {
       analytics_storage: 'granted',
     })
     w.gtag('js', new Date())
-    w.gtag('config', ids.googleAds)
-    inject(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ids.googleAds)}`)
+    googleIds.forEach((id) => w.gtag('config', id))
+    inject(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(googleIds[0])}`)
   }
 
   if (ids.metaPixel) {
@@ -118,9 +121,9 @@ function loadPixels(ids) {
 function trackLead(ids, kind) {
   if (!loaded) return
   const w = window
-  if (w.gtag && ids.googleAds) {
+  if (w.gtag) {
     w.gtag('event', 'generate_lead', { method: kind })
-    if (ids.googleAdsLeadLabel) {
+    if (ids.googleAds && ids.googleAdsLeadLabel) {
       w.gtag('event', 'conversion', { send_to: `${ids.googleAds}/${ids.googleAdsLeadLabel}` })
     }
   }
@@ -129,7 +132,9 @@ function trackLead(ids, kind) {
 }
 
 export default function Consent({ ids, strings, privacyHref = '/privacy' }) {
-  const enabled = Boolean(ids.googleAds || ids.metaPixel || ids.tiktokPixel)
+  const enabled = Boolean(
+    ids.googleAnalytics || ids.googleAds || ids.metaPixel || ids.tiktokPixel,
+  )
   const [open, setOpen] = useState(false)
 
   useEffect(() => {

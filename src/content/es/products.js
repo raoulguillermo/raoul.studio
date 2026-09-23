@@ -449,6 +449,7 @@ export const productUi = {
   },
   seeProduct: 'Ver el producto',
   clickHere: 'Haz clic aquí',
+  viewCase: 'ver el caso',
   formDefaults: {
     nameLabel: 'Nombre',
     namePlaceholder: 'Tu nombre',
