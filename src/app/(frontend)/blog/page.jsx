@@ -52,7 +52,7 @@ export default async function BlogIndexPage() {
         <div className="r hidden md:block font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
           {blog.eyebrow}
         </div>
-        <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
+        <h1 className="r pr-16 md:pr-20 hyphens-auto font-display uppercase tracking-tight2 leading-[0.95] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
           {blog.eyebrow}
         </h1>
         <p className="r mt-6 md:mt-10 text-2xl md:text-4xl font-normal leading-snug max-w-4xl text-accent">

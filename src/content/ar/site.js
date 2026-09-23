@@ -1,8 +1,8 @@
 // Site chrome: header, full-page menu, poster rail, footer.
 
 export const header = {
-  wordmark: 'studio.raoul',
-  tagline: 'software architects',
+  wordmark: 'studio raoul',
+  tagline: 'software innovation, architecture & development',
   wordmarkHref: '/',
   ctaLabel: 'تواصل',
   ctaHref: '/contact',

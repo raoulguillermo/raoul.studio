@@ -121,7 +121,7 @@ export default async function BlogPostPage({ params }) {
           )}{' '}
           · {formatDate(post.date, lang)}
         </div>
-        <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.25rem,12vw,4.5rem)] md:text-[8vw]">
+        <h1 className="r pr-16 md:pr-20 hyphens-auto font-display uppercase tracking-tight2 leading-[0.95] text-[clamp(2.25rem,12vw,4.5rem)] md:text-[8vw]">
           {post.title}
         </h1>
       </section>

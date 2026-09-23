@@ -1,8 +1,8 @@
 // Estructura del sitio: cabecera, menú a página completa, riel de pósteres, pie.
 
 export const header = {
-  wordmark: 'studio.raoul',
-  tagline: 'software architects',
+  wordmark: 'studio raoul',
+  tagline: 'software innovation, architecture & development',
   wordmarkHref: '/',
   ctaLabel: 'contacto',
   ctaHref: '/contact',

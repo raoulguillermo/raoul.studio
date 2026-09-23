@@ -6,12 +6,12 @@ function Wordmark({ wordmark, wordmarkHref, tagline }) {
     <div className="flex flex-col">
       <a
         href={wordmarkHref}
-        className="font-display text-2xl tracking-tight2 lowercase"
+        className="font-display text-5xl md:text-7xl leading-none tracking-tight2 lowercase"
       >
         {wordmark}
       </a>
       {tagline ? (
-        <span className="text-mute text-xs font-semibold uppercase tracking-widest">
+        <span className="mt-2 text-mute text-xs font-semibold uppercase tracking-widest">
           {tagline}
         </span>
       ) : null}

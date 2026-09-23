@@ -51,7 +51,7 @@ export default async function HomePage() {
       <section className="parallax-section pt-12 md:pt-24 pb-12 md:pb-24">
         <h1
           data-parallax="-0.18"
-          className="r font-display uppercase tracking-tight2 leading-[0.88] text-[14vw] md:text-[10.5vw]"
+          className="r pr-16 md:pr-20 hyphens-auto font-display uppercase tracking-tight2 leading-[0.95] text-[14vw] md:text-[10.5vw]"
         >
           {home.hero.prefix}{' '}
           <span

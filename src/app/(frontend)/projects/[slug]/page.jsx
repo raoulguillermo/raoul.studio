@@ -84,7 +84,7 @@ export default async function ProjectPage({ params }) {
         <div className="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
           {ui.projectLabel} {pad2(project.number)} · {project.year}
         </div>
-        <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
+        <h1 className="r pr-16 md:pr-20 hyphens-auto font-display uppercase tracking-tight2 leading-[0.95] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
           {project.titleLine1}
           {project.titleLine2 ? (
             <>

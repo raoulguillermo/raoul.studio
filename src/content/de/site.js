@@ -1,8 +1,8 @@
 // Seitenrahmen (Deutsch): Header, Vollbild-Menü, Poster-Rail, Footer.
 
 export const header = {
-  wordmark: 'studio.raoul',
-  tagline: 'software architects',
+  wordmark: 'studio raoul',
+  tagline: 'software innovation, architecture & development',
   wordmarkHref: '/',
   ctaLabel: 'kontakt',
   ctaHref: '/contact',

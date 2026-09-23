@@ -52,7 +52,7 @@ export default async function UnsubscribePage({ searchParams }) {
       />
 
       <section className="pt-24 md:pt-40 pb-24 md:pb-40">
-        <h1 className="r font-display uppercase tracking-tight2 leading-[0.9] text-[clamp(2.5rem,12vw,5rem)] md:text-[8vw]">
+        <h1 className="r pr-16 md:pr-20 hyphens-auto font-display uppercase tracking-tight2 leading-[0.95] text-[clamp(2.5rem,12vw,5rem)] md:text-[8vw]">
           {s.unsubTitle}
           <span className="text-accent">.</span>
         </h1>
