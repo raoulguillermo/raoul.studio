@@ -94,3 +94,38 @@ export function DataPrivacySection({ copy, extra }) {
     </section>
   )
 }
+
+// How to reach the studio from a software page: a phone number and an email
+// address, both large. Voice AI shows its "call and hear it" line instead of
+// the plain call label.
+export function ContactOptions({ product, copy, phone, phoneHref, callLabel, emailLabel, email }) {
+  const demo = Boolean(product?.demoPhone && copy?.callDemo)
+  return (
+    <div className="r grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 border-t-2 border-ink pt-8 md:pt-10">
+      {demo ? (
+        <CallDemo product={product} copy={copy} size="small" />
+      ) : phone ? (
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-wider text-mute mb-3">{callLabel}</p>
+          <a
+            href={phoneHref}
+            className="project-arrow font-display uppercase tracking-tight2 leading-[0.95] text-accent text-4xl md:text-5xl"
+          >
+            {phone}
+          </a>
+        </div>
+      ) : null}
+      {email ? (
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-wider text-mute mb-3">{emailLabel}</p>
+          <a
+            href={`mailto:${email}`}
+            className="font-display lowercase tracking-tight2 leading-[0.95] text-4xl md:text-5xl break-all ul hover:text-accent transition-colors"
+          >
+            {email}
+          </a>
+        </div>
+      ) : null}
+    </div>
+  )
+}

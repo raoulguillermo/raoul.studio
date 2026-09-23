@@ -146,8 +146,8 @@ export default function Consent({ ids, strings, privacyHref = '/privacy' }) {
     const reopen = () => setOpen(true)
     const onLead = (e) => trackLead(ids, e.detail?.kind ?? 'form')
     const onClick = (e) => {
-      const a = e.target.closest?.('a[href^="tel:"]')
-      if (a) trackLead(ids, 'call')
+      const a = e.target.closest?.('a[href^="tel:"], a[href^="mailto:"]')
+      if (a) trackLead(ids, a.getAttribute('href').startsWith('tel:') ? 'call' : 'email')
     }
     window.addEventListener('open-consent', reopen)
     window.addEventListener('lead', onLead)

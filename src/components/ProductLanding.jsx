@@ -4,8 +4,7 @@ import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
 import Infographic from '@/components/Infographic'
-import ContactForm from '@/components/ContactForm'
-import { CallDemo, PricingSection, DataPrivacySection } from '@/components/ProductSections'
+import { CallDemo, PricingSection, DataPrivacySection, ContactOptions } from '@/components/ProductSections'
 
 import { getContent } from '@/content'
 import { getLocale, localeAlternates } from '@/content/locale-server'
@@ -90,7 +89,6 @@ export default async function ProductLanding({ slug }) {
   const lang = await getLocale()
   const {
     products,
-    productUi,
     getProject,
     header,
     footer,
@@ -396,12 +394,6 @@ export default async function ProductLanding({ slug }) {
           {copy.getStarted.body}
         </p>
 
-        {hasCallDemo ? (
-          <div className="mb-12 md:mb-16">
-            <CallDemo product={product} copy={copy} size="small" />
-          </div>
-        ) : null}
-
         {product.cta === 'appstore' ? (
           <div className="r border-2 border-ink px-5 py-8 md:px-12 md:py-10">
             <a
@@ -421,22 +413,16 @@ export default async function ProductLanding({ slug }) {
             ) : null}
           </div>
         ) : (
-          <ContactForm
-            {...productUi.formDefaults}
-            {...copy.getStarted.form}
-            {...ui.form}
-            source={product.source}
+          <ContactOptions
+            product={product}
+            copy={copy}
+            phone={footer.phone}
+            phoneHref={footer.phoneHref}
+            callLabel={ui.a11y.call}
+            emailLabel={contact?.directContact?.label}
+            email={contact?.directContact?.email}
           />
         )}
-
-        {product.cta !== 'appstore' && contact?.directContact ? (
-          <p className="r mt-12 md:mt-16 text-sm font-semibold uppercase tracking-wider text-mute">
-            {contact.directContact.label}:{' '}
-            <a href={`mailto:${contact.directContact.email}`} className="ul text-ink">
-              {contact.directContact.email}
-            </a>
-          </p>
-        ) : null}
       </section>
 
       <SiteFooter leftText={footer.leftText} rightText={footer.rightText} />

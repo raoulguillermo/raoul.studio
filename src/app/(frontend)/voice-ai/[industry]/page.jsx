@@ -3,8 +3,7 @@ import { notFound } from 'next/navigation'
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import PosterRail from '@/components/PosterRail'
-import ContactForm from '@/components/ContactForm'
-import { CallDemo, PricingSection, DataPrivacySection } from '@/components/ProductSections'
+import { CallDemo, PricingSection, DataPrivacySection, ContactOptions } from '@/components/ProductSections'
 
 import { getContent } from '@/content'
 import { getLocale, localeAlternates } from '@/content/locale-server'
@@ -52,7 +51,6 @@ export default async function IndustryPage({ params }) {
   const lang = await getLocale()
   const {
     products,
-    productUi,
     voiceIndustries,
     voiceIndustryUi: t,
     header,
@@ -219,7 +217,7 @@ export default async function IndustryPage({ params }) {
         </div>
       </section>
 
-      {/* Get started — the shared Voice AI form, tagged with the industry */}
+      {/* Get started — call or email */}
       <section
         id="get-started"
         className="scroll-mt-24 pb-16 md:pb-24 border-t border-ink/15 pt-12 md:pt-20"
@@ -231,25 +229,15 @@ export default async function IndustryPage({ params }) {
         <p className="r max-w-2xl text-xl md:text-2xl leading-snug text-ink/85 mb-12 md:mb-16">
           {base.getStarted.body}
         </p>
-        {hasCallDemo ? (
-          <div className="mb-12 md:mb-16">
-            <CallDemo product={product} copy={base} size="small" />
-          </div>
-        ) : null}
-        <ContactForm
-          {...productUi.formDefaults}
-          {...base.getStarted.form}
-          {...ui.form}
-          source={`${product.source} · ${slug}`}
+        <ContactOptions
+          product={product}
+          copy={base}
+          phone={footer.phone}
+          phoneHref={footer.phoneHref}
+          callLabel={ui.a11y.call}
+          emailLabel={contact?.directContact?.label}
+          email={contact?.directContact?.email}
         />
-        {contact?.directContact ? (
-          <p className="r mt-12 md:mt-16 text-sm font-semibold uppercase tracking-wider text-mute">
-            {contact.directContact.label}:{' '}
-            <a href={`mailto:${contact.directContact.email}`} className="ul text-ink">
-              {contact.directContact.email}
-            </a>
-          </p>
-        ) : null}
       </section>
 
       {/* Other industries */}
