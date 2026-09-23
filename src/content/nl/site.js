@@ -30,6 +30,7 @@ export const menu = {
       heading: '03 — Connect',
       links: [
         { label: 'Contact', href: '/contact' },
+        { label: 'Account', href: '/account' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },
         { label: 'Privacy', href: '/privacy' },
         { label: 'Voorwaarden', href: '/terms' },

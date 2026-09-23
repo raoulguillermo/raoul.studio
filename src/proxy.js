@@ -23,6 +23,8 @@ export function proxy(request) {
   const { pathname } = request.nextUrl
   const [, first, ...rest] = pathname.split('/')
   const headers = new Headers(request.headers)
+  // The query string too, so a sign-in redirect can come back to the same view.
+  headers.set('x-search', request.nextUrl.search)
 
   if (LOCALES.includes(first)) {
     const path = shortcut('/' + rest.join('/'))

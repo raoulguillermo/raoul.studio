@@ -253,7 +253,7 @@ export const pages = {
       {
         heading: 'Cookies',
         body: [
-          'The site uses a functional cookie ("lang") to remember your language, and a cookie ("consent") that remembers your choice about advertising cookies.',
+          'The site uses a functional cookie ("lang") to remember your language, and a cookie ("consent") that remembers your choice about advertising cookies. If you sign in, a functional cookie ("session") keeps you signed in for up to 60 days, or until you sign out.',
           'Only if you agree to it in the cookie banner do Google (Google Analytics and Google Ads), Meta (Meta Pixel) and TikTok (TikTok Pixel) set cookies to measure how the site is used and whether our ads lead to an enquiry or a phone call. Without your consent we don’t load their scripts. You can change your choice at any time via “Cookie settings” at the bottom of the page.',
         ],
       },

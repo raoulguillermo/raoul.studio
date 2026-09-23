@@ -30,6 +30,7 @@ export const menu = {
       heading: '03 — تواصل',
       links: [
         { label: 'تواصل', href: '/contact' },
+        { label: 'الحساب', href: '/account' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },
         { label: 'الخصوصية', href: '/privacy' },
         { label: 'الشروط', href: '/terms' },

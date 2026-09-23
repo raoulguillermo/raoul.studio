@@ -30,6 +30,7 @@ export const menu = {
       heading: '03 — Kontakt',
       links: [
         { label: 'Kontakt', href: '/contact' },
+        { label: 'Konto', href: '/account' },
         { label: 'Instagram', href: 'https://instagram.com/raoulguillermo' },
         { label: 'Datenschutz', href: '/privacy' },
         { label: 'AGB', href: '/terms' },

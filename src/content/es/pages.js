@@ -253,7 +253,7 @@ export const pages = {
       {
         heading: 'Cookies',
         body: [
-          'El sitio usa una cookie funcional ("lang") para recordar tu idioma y una cookie ("consent") que recuerda tu elección sobre las cookies publicitarias.',
+          'El sitio usa una cookie funcional ("lang") para recordar tu idioma y una cookie ("consent") que recuerda tu elección sobre las cookies publicitarias. Si inicias sesión, una cookie funcional ("session") mantiene tu sesión abierta hasta 60 días, o hasta que la cierres.',
           'Solo si das tu consentimiento en el aviso de cookies, Google (Google Analytics y Google Ads), Meta (Meta Pixel) y TikTok (TikTok Pixel) instalan cookies para medir cómo se usa el sitio y si nuestros anuncios acaban en una solicitud o una llamada. Sin tu consentimiento no cargamos sus scripts. Puedes cambiar tu elección en cualquier momento desde “Configuración de cookies”, al pie de la página.',
         ],
       },
