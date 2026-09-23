@@ -55,7 +55,7 @@ export default async function ContactPage() {
 
       {/* Title */}
       <section className="pt-16 md:pt-32 pb-8 md:pb-12">
-        <div className="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
+        <div className="r hidden md:block font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
           {contact.eyebrow}
         </div>
         <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
@@ -66,13 +66,6 @@ export default async function ContactPage() {
             <span className="text-accent">{contact.titleAccent}</span>
           ) : null}
         </h1>
-      </section>
-
-      {/* Lead */}
-      <section className="pb-16 md:pb-24">
-        <p className="r text-2xl md:text-4xl font-normal leading-snug max-w-3xl text-accent">
-          {contact.lead}
-        </p>
       </section>
 
       {/* Form */}
@@ -103,23 +96,6 @@ export default async function ContactPage() {
           {contact.directContact?.email}
         </a>
       </section>
-
-      {/* Phone */}
-      {contact.directContact?.phone ? (
-        <section className="pb-24 md:pb-32">
-          {contact.directContact?.phoneLabel ? (
-            <p className="r text-mute text-sm mb-5 md:mb-6 font-semibold uppercase tracking-wider">
-              {contact.directContact.phoneLabel}
-            </p>
-          ) : null}
-          <a
-            href={contact.directContact.phoneHref}
-            className="r font-display uppercase tracking-tight2 leading-[0.95] text-5xl md:text-7xl text-ink hover:text-accent transition-colors break-words"
-          >
-            {contact.directContact.phone}
-          </a>
-        </section>
-      ) : null}
 
       {/* FAQ */}
       {faqItems.length > 0 ? (

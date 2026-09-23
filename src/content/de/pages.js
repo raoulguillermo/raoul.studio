@@ -51,10 +51,6 @@ export const pages = {
       { label: 'APIs & Systemarchitektur' },
       { label: 'Zweiseitige Marktplätze' },
     ],
-    systemsParagraph: [
-      'Das Studio baut digitale Produkte, die sich weiterentwickeln können. Jede Plattform steht auf einem soliden technischen Fundament — mit skalierbarer Architektur, durchdachtem Engineering und Blick auf künftiges Wachstum. Ob KI-gestützte Plattform, Commerce-Ökosystem oder maßgeschneiderte Business-Anwendung: Das Studio schafft Technologie, die mitwächst, wenn Ihr Unternehmen wächst.',
-      'Vom ersten Strategiegespräch bis lange nach dem Launch konzentriert sich das Studio darauf, digitale Lösungen zu bauen, die robust und skalierbar sind und Bestand haben.',
-    ],
     manifestoLead: 'Wo Strategie, KI und Software',
     manifestoTail: 'zusammenkommen.',
     posterRailMiddle: 'Über uns · Studio',

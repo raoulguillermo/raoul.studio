@@ -2,7 +2,7 @@
 
 export const header = {
   wordmark: 'studio.raoul',
-  tagline: 'artesanía digital',
+  tagline: 'software architects',
   wordmarkHref: '/',
   ctaLabel: 'contacto',
   ctaHref: '/contact',
@@ -48,6 +48,7 @@ export const menu = {
 export const ui = {
   a11y: {
     openMenu: 'Abrir menú',
+    call: 'Llamar',
     scrollToBottom: 'Bajar al final',
     chat: 'Hablemos',
     language: 'Idioma',

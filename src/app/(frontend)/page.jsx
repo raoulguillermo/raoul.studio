@@ -1,9 +1,7 @@
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import ScrollArrow from '@/components/ScrollArrow'
-import ChatFAB from '@/components/ChatFAB'
 import PosterRail from '@/components/PosterRail'
-import ClientsMarquee from '@/components/ClientsMarquee'
 
 import { getContent } from '@/content'
 import { productRegistry, productSlugs } from '@/content/products'
@@ -50,7 +48,7 @@ export default async function HomePage() {
       />
 
       {/* Hero */}
-      <section className="parallax-section pt-24 md:pt-40 pb-24 md:pb-40">
+      <section className="parallax-section pt-12 md:pt-24 pb-12 md:pb-24">
         <h1
           data-parallax="-0.18"
           className="r font-display uppercase tracking-tight2 leading-[0.88] text-[14vw] md:text-[10.5vw]"
@@ -70,18 +68,32 @@ export default async function HomePage() {
           </span>{' '}
           {home.hero.suffix}
         </h1>
-      </section>
 
-      {/* Intro */}
-      <section className="max-w-2xl pb-12 md:pb-40">
-        <p className="r text-xl md:text-2xl leading-relaxed text-ink/85 font-semibold">
-          {home.intro}
-        </p>
+        {/* Headline, the intro and a way in — read as one block */}
+        <div className="max-w-2xl mt-8 md:mt-12">
+          <p className="r text-xl md:text-2xl leading-relaxed text-ink/85 font-semibold">
+            {home.intro}
+          </p>
+          {home.hero.ctaLabel ? (
+            <a
+              href={home.hero.ctaHref}
+              className="r group mt-8 md:mt-10 inline-flex items-center gap-3 font-display text-2xl tracking-tight2 lowercase"
+            >
+              <span className="ul">{home.hero.ctaLabel}</span>
+              <span
+                aria-hidden="true"
+                className="inline-block rotate-[-45deg] leading-none text-accent transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
+              >
+                →
+              </span>
+            </a>
+          ) : null}
+        </div>
       </section>
 
       {/* What we do — service pillars (hidden, see SHOW_PILLARS) */}
       {SHOW_PILLARS && home.pillars ? (
-        <section className="pb-12 md:pb-40">
+        <section className="pb-12 md:pb-24">
           <p className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider">
             {home.pillars.label}
           </p>
@@ -112,13 +124,7 @@ export default async function HomePage() {
           linking straight to its landing page. Names and colours come from the
           registry, the one-line description from the locale copy, so this needs
           no strings of its own. */}
-      <section aria-labelledby="softwareRows">
-        <h2
-          id="softwareRows"
-          className="r text-mute text-sm mb-8 font-semibold uppercase tracking-wider"
-        >
-          {productUi.softwarePage.eyebrow}
-        </h2>
+      <section aria-label={productUi.softwarePage.eyebrow}>
         {productSlugs.map((slug, i) => {
           const product = productRegistry[slug]
           const copy = products[slug]
@@ -163,7 +169,7 @@ export default async function HomePage() {
       {/* See all work / services / software — the homepage lists no projects;
           each overview lives on its own page. */}
       {home.featuredWork?.allLabel ? (
-        <section className="pt-12 md:pt-24 pb-12 md:pb-40 flex flex-col items-start gap-6 md:gap-10">
+        <section className="pt-12 md:pt-24 pb-12 md:pb-24 flex flex-col items-start gap-6 md:gap-10">
           {[
             { href: '/work', label: home.featuredWork.allLabel },
             { href: '/services', label: home.featuredWork.allServicesLabel },
@@ -191,7 +197,7 @@ export default async function HomePage() {
 
       {/* Blog — a large title link, sized like the featured work titles */}
       <section className="fullbleed" style={{ background: '#0F0F0F', color: '#D6D9DC' }}>
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-28">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-12 md:py-24">
           <a
             href="/blog"
             className="r group inline-flex items-start gap-2 md:gap-6 font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.75rem,18vw,5.5rem)] md:text-[min(15vw,10rem)]"
@@ -207,25 +213,20 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Clients — a scrolling row of logos, all reduced to one ink silhouette.
-          The paper background gives the eye a rest between the black blog band
-          and the red newsletter one. */}
-      {home.clients ? <ClientsMarquee label={home.clients.label} /> : null}
-
       {/* Newsletter signup — kept from the former insights block, on a distinct grey section */}
       {news ? (
         <section
           className="fullbleed"
           style={{ background: '#E92316', color: '#D6D9DC' }}
         >
-          <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-32">
+          <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-12 md:py-24">
             <NewsletterSignup strings={news} lang={lang} variant="dark" />
           </div>
         </section>
       ) : null}
 
       {/* Contact */}
-      <section className="pt-16 md:pt-32 pb-12 md:pb-40">
+      <section className="pt-12 md:pt-24 pb-12 md:pb-24">
         <p className="r text-mute text-sm mb-6 font-semibold uppercase tracking-wider">
           {home.contact.eyebrow}
         </p>
@@ -250,7 +251,7 @@ export default async function HomePage() {
           className="fullbleed"
           style={{ background: '#0F0F0F', color: '#D6D9DC' }}
         >
-          <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 md:py-28">
+          <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-12 md:py-24">
             <a
               href={footer.phoneHref}
               className="r ul phone-line flex items-baseline font-display uppercase tracking-tight2 leading-[0.86]"
@@ -284,7 +285,6 @@ export default async function HomePage() {
         bottomText={posterRail.bottomText}
       />
       <ScrollArrow label={ui.a11y.scrollToBottom} />
-      <ChatFAB href={header.ctaHref} label={ui.a11y.chat} />
     </>
   )
 }

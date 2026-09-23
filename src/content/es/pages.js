@@ -51,10 +51,6 @@ export const pages = {
       { label: 'APIs y arquitectura de sistemas' },
       { label: 'Marketplaces de dos lados' },
     ],
-    systemsParagraph: [
-      'El estudio construye productos digitales pensados para evolucionar. Cada plataforma se asienta sobre una base técnica sólida, con arquitectura escalable, ingeniería bien pensada y el crecimiento futuro en mente. Ya sea una plataforma impulsada por IA, un ecosistema de commerce o una aplicación de negocio a medida, el estudio crea tecnología que se adapta a medida que crece tu negocio.',
-      'Desde la primera sesión de estrategia hasta mucho después del lanzamiento, el estudio se centra en construir soluciones digitales robustas, escalables y hechas para durar.',
-    ],
     manifestoLead: 'Donde la estrategia, la IA y el software',
     manifestoTail: 'se encuentran.',
     posterRailMiddle: 'Sobre nosotros · Estudio',

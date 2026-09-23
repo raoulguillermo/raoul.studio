@@ -2,17 +2,19 @@
 
 export const home = {
   meta: {
-    title: 'studio.raoul — digitales Produktstudio für KI, Software & Commerce',
+    title: 'raoul.studio — unternehmerisch an deiner Seite',
     description:
       'studio.raoul ist ein digitales Produktstudio, das ambitionierten Unternehmen hilft, aus Ideen skalierbare digitale Produkte zu machen — Strategie, Design, Software-Engineering, KI, Automatisierung, Commerce und Infrastruktur.',
   },
   hero: {
-    prefix: 'Das Studio baut,',
-    accent: 'was kommt.',
+    prefix: 'Unternehmerisch',
+    accent: 'an deiner Seite',
     suffix: '',
+    ctaLabel: 'sieh, was das Studio macht',
+    ctaHref: '/services',
   },
   intro:
-    'Von KI-gestützten Plattformen und Individualsoftware bis zu Automatisierung, Commerce, Branding und Infrastruktur. Das Studio arbeitet partnerschaftlich mit ambitionierten Gründern und Unternehmen, um Ideen in skalierbare Produkte zu verwandeln.',
+    'Von KI-gestützten Plattformen und Individualsoftware bis zu Automatisierung, Commerce, Branding und Infrastruktur.',
   clients: {
     label: 'Kunden',
   },

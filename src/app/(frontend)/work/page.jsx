@@ -69,7 +69,7 @@ export default async function WorkPage() {
 
       {/* Title */}
       <section className="pt-16 md:pt-32 pb-8 md:pb-12">
-        <div className="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
+        <div className="r hidden md:block font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
           {page.eyebrow}
         </div>
         <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">

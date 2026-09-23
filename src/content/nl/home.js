@@ -2,17 +2,19 @@
 
 export const home = {
   meta: {
-    title: 'studio.raoul — digital product studio voor AI, software & commerce',
+    title: 'raoul.studio onderneemt met jou mee',
     description:
       'studio.raoul is een digital product studio die ambitieuze bedrijven helpt om ideeën te vertalen naar schaalbare digitale producten — strategie, design, software-engineering, AI, automatisering, commerce en infrastructuur.',
   },
   hero: {
-    prefix: 'De studio die jouw',
-    accent: 'digitale ambitie',
-    suffix: 'realiseert.',
+    prefix: 'Onderneemt',
+    accent: 'met jou',
+    suffix: 'mee',
+    ctaLabel: 'bekijk wat de studio doet',
+    ctaHref: '/services',
   },
   intro:
-    'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur. De studio werkt samen met ambitieuze oprichters en bedrijven om ideeën om te zetten in schaalbare producten.',
+    'Van AI-gedreven platforms en maatwerksoftware tot automatisering, commerce, branding en infrastructuur.',
   clients: {
     label: 'Opdrachtgevers',
   },

@@ -51,10 +51,6 @@ export const pages = {
       { label: 'APIs & systeemarchitectuur' },
       { label: 'Tweezijdige marktplaatsen' },
     ],
-    systemsParagraph: [
-      'In de studio worden digitale producten gebouwd die zijn gemaakt om te evolueren. Elk platform staat op een stevig technisch fundament — met schaalbare architectuur, doordachte engineering en oog voor toekomstige groei. Of het nu gaat om een AI-gedreven platform, een commerce-ecosysteem of een maatwerk-bedrijfsapplicatie: er wordt technologie gemaakt die meegroeit met je bedrijf.',
-      'Van de eerste strategiesessie tot lang na de lancering ligt de focus op digitale oplossingen die robuust en schaalbaar zijn en gemaakt om te blijven.',
-    ],
     manifestoLead: 'Waar strategie, AI en software',
     manifestoTail: 'samenkomen.',
     posterRailMiddle: 'Over ons · Studio',

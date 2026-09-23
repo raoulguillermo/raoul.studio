@@ -54,6 +54,8 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
   mix-blend-mode: difference;
   pointer-events: none;
 }
+/* Hidden on phones — the narrow gutter leaves it no room beside the content. */
+@media (max-width: 767px) { .poster-rail { display: none; } }
 @media (min-width: 768px) { .poster-rail { left: 18px; } }
 .poster-rail span {
   writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;
@@ -75,7 +77,12 @@ html[lang="ar"] [class*="tracking-"] { letter-spacing: 0 !important; }
 #menuToggle.open .bar3 { transform: translate(-50%, -50%) rotate(-45deg); }
 
 /* ============ LANGUAGE TOGGLE ============ */
-.lang-toggle { color: #fff; mix-blend-mode: difference; transition: color .3s ease; }
+/* Same black disc as the chat button, so the icon reads on any section. */
+.lang-toggle, .phone-toggle {
+  color: #FFFFFF; background: #0F0F0F; border-radius: 9999px;
+  transition: background-color .3s ease, opacity .3s ease;
+}
+.lang-toggle:hover, .phone-toggle:hover { background: #E92316; }
 
 /* ============ FULL-PAGE MENU ============ */
 #menuPanel { opacity: 0; visibility: hidden; transition: opacity .45s ease, visibility .45s; }

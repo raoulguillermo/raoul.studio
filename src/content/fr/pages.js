@@ -51,10 +51,6 @@ export const pages = {
       { label: 'API & architecture système' },
       { label: 'Places de marché à deux faces' },
     ],
-    systemsParagraph: [
-      'Le studio construit des produits digitaux conçus pour évoluer. Chaque plateforme repose sur une base technique solide — architecture évolutive, ingénierie réfléchie et croissance future à l’esprit. Qu’il s’agisse d’une plateforme propulsée par l’IA, d’un écosystème de commerce ou d’une application métier sur mesure, le studio crée une technologie qui s’adapte à mesure que votre entreprise grandit.',
-      'De la première session de stratégie à bien après le lancement, le studio se concentre sur des solutions digitales robustes, évolutives et faites pour durer.',
-    ],
     manifestoLead: 'Là où la stratégie, l’IA et le logiciel',
     manifestoTail: 'se rejoignent.',
     posterRailMiddle: 'À propos · Studio',

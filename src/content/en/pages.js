@@ -51,10 +51,6 @@ export const pages = {
       { label: 'APIs & system architecture' },
       { label: 'Two-sided marketplaces' },
     ],
-    systemsParagraph: [
-      'The studio builds digital products that are designed to evolve. Every platform is built on a solid technical foundation, with scalable architecture, thoughtful engineering and future growth in mind. Whether it’s an AI-powered platform, a commerce ecosystem or a custom business application, the studio creates technology that adapts as your business grows.',
-      'From the first strategy session to long after launch, the focus stays on building digital solutions that are robust, scalable and made to last.',
-    ],
     manifestoLead: 'Where strategy, AI and software',
     manifestoTail: 'come together.',
     posterRailMiddle: 'About · Studio',

@@ -2,17 +2,19 @@
 
 export const home = {
   meta: {
-    title: 'studio.raoul — studio de produit digital pour l’IA, le software & le commerce',
+    title: 'raoul.studio entreprend avec vous',
     description:
       'studio.raoul est un studio de produit digital qui aide les entreprises ambitieuses à transformer leurs idées en produits digitaux évolutifs — stratégie, design, ingénierie logicielle, IA, automatisation, commerce et infrastructure.',
   },
   hero: {
-    prefix: 'Le studio bâtit',
-    accent: 'la suite.',
+    prefix: 'Entreprend',
+    accent: 'avec vous',
     suffix: '',
+    ctaLabel: 'voir ce que fait le studio',
+    ctaHref: '/services',
   },
   intro:
-    'Des plateformes propulsées par l’IA et des logiciels sur mesure jusqu’à l’automatisation, le commerce, le branding et l’infrastructure. Le studio accompagne des fondateurs et des entreprises ambitieux pour transformer leurs idées en produits évolutifs.',
+    'Des plateformes propulsées par l’IA et des logiciels sur mesure jusqu’à l’automatisation, le commerce, le branding et l’infrastructure.',
   clients: {
     label: 'Clients',
   },

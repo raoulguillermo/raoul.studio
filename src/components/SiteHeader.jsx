@@ -40,19 +40,12 @@ export default function SiteHeader(props) {
     )
   }
   return (
-    <header className="flex flex-col items-start gap-1 md:flex-row md:items-start md:justify-between pt-8 md:pt-10 text-sm pr-16 md:pr-20">
+    <header className="flex flex-col items-start gap-6 md:flex-row md:items-start md:justify-between pt-8 md:pt-10 text-sm pr-16 md:pr-20">
       <Wordmark
         wordmark={props.wordmark}
         wordmarkHref={props.wordmarkHref}
         tagline={props.tagline}
       />
-      <a
-        href={props.ctaHref}
-        className="ul font-display text-2xl tracking-tight2 lowercase flex items-center gap-3"
-      >
-        {props.ctaLabel}
-        <span className="inline-block rotate-[-45deg] leading-none">→</span>
-      </a>
     </header>
   )
 }

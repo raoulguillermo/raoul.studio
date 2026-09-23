@@ -79,7 +79,7 @@ export default function LanguageSwitcher({ currentLang = 'en', labels = {} }) {
         aria-haspopup="dialog"
         aria-expanded={open}
         aria-label={open ? labels.closeLanguageMenu : labels.changeLanguage}
-        className={`lang-toggle fixed right-5 md:right-6 top-20 md:top-[92px] z-[70] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-transparent border-0 outline-none transition-opacity ${
+        className={`lang-toggle fixed right-5 md:right-6 top-[140px] md:top-[160px] z-[70] w-14 h-14 md:w-16 md:h-16 flex items-center justify-center border-0 outline-none ${
           menuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >
@@ -134,7 +134,7 @@ export default function LanguageSwitcher({ currentLang = 'en', labels = {} }) {
 function GlobeIcon() {
   return (
     <svg
-      className="w-7 h-7 md:w-8 md:h-8"
+      className="w-6 h-6 md:w-7 md:h-7"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -153,7 +153,7 @@ function GlobeIcon() {
 function CloseIcon() {
   return (
     <svg
-      className="w-7 h-7 md:w-8 md:h-8"
+      className="w-6 h-6 md:w-7 md:h-7"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

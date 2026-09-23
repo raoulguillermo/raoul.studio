@@ -2,17 +2,19 @@
 
 export const home = {
   meta: {
-    title: 'studio.raoul — digital product studio for AI, software & commerce',
+    title: 'raoul.studio — in business with you',
     description:
       'studio.raoul is a digital product studio that helps ambitious businesses turn ideas into scalable digital products — strategy, design, software engineering, AI, automation, commerce and infrastructure.',
   },
   hero: {
-    prefix: 'Building',
-    accent: 'what’s next.',
+    prefix: 'In business',
+    accent: 'with you',
     suffix: '',
+    ctaLabel: 'see what the studio does',
+    ctaHref: '/services',
   },
   intro:
-    'From AI-powered platforms and custom software to automation, commerce, branding, and infrastructure. The studio partners with ambitious founders and businesses to turn ideas into scalable products.',
+    'From AI-powered platforms and custom software to automation, commerce, branding, and infrastructure.',
   clients: {
     label: 'Clients',
   },

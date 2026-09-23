@@ -127,7 +127,7 @@ export default async function ProductLanding({ slug }) {
 
       {/* Hero */}
       <section className="pt-16 md:pt-32 pb-8 md:pb-12">
-        <div className="r font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
+        <div className="r hidden md:block font-semibold uppercase tracking-[.2em] text-xs md:text-sm mb-8 md:mb-12 text-mute">
           {copy.eyebrow}
         </div>
         <h1 className="r font-display uppercase tracking-tight2 leading-[0.86] text-[clamp(2.5rem,16vw,5rem)] md:text-[11vw]">
@@ -328,17 +328,22 @@ export default async function ProductLanding({ slug }) {
           <SectionLabel>{copy.faq.label}</SectionLabel>
           <div className="r divide-y divide-ink/15 border-t border-ink/15">
             {copy.faq.items.map((item, i) => (
-              <article
-                key={i}
-                className="py-8 md:py-10 grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-x-12"
-              >
-                <h3 className="md:col-span-5 font-display uppercase tracking-tight2 leading-[1.05] text-2xl md:text-3xl">
-                  {item.q}
-                </h3>
-                <p className="md:col-span-7 max-w-2xl text-base md:text-lg leading-relaxed text-ink/80">
+              <details key={i} className="group">
+                <summary className="py-8 md:py-10 flex items-start justify-between gap-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-display uppercase tracking-tight2 leading-[1.05] text-2xl md:text-3xl">
+                    {item.q}
+                  </h3>
+                  <span
+                    aria-hidden="true"
+                    className="shrink-0 mt-1 text-accent text-3xl md:text-4xl leading-none transition-transform duration-300 group-open:rotate-45"
+                  >
+                    +
+                  </span>
+                </summary>
+                <p className="-mt-2 md:-mt-4 pb-8 md:pb-10 max-w-3xl text-base md:text-lg leading-relaxed text-ink/80">
                   {item.a}
                 </p>
-              </article>
+              </details>
             ))}
           </div>
         </section>

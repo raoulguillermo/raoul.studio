@@ -1,5 +1,6 @@
 import './styles.css'
 
+import PhoneButton from '@/components/PhoneButton'
 import MenuButton from '@/components/MenuButton'
 import MenuPanel from '@/components/MenuPanel'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
@@ -240,7 +241,7 @@ const jsonLd = {
 export default async function FrontendLayout({ children }) {
   const lang = await getLocale()
   const rtl = isRTL(lang)
-  const { menu, ui } = getContent(lang)
+  const { menu, ui, footer } = getContent(lang)
 
   return (
     <html lang={lang} dir={rtl ? 'rtl' : 'ltr'}>
@@ -270,6 +271,10 @@ export default async function FrontendLayout({ children }) {
         <main className="max-w-[1200px] mx-auto px-6 md:px-10">{children}</main>
 
         <MenuButton label={ui.a11y.openMenu} />
+
+        {footer.phoneHref ? (
+          <PhoneButton href={footer.phoneHref} label={`${ui.a11y.call} ${footer.phone}`} />
+        ) : null}
 
         <LanguageSwitcher currentLang={lang} labels={ui.a11y} />
 
