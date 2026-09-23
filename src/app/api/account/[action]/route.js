@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 import { poofy } from '@/lib/poofy'
-import { clearSessionCookie, sameOrigin, setSessionCookie } from '@/lib/session'
+import { clearSessionCookie, sameOrigin, seeOther, setSessionCookie } from '@/lib/session'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -42,7 +42,7 @@ export async function POST(req, { params }) {
 
   // Plain form post from the sign-out button.
   if (action === 'logout') {
-    return clearSessionCookie(NextResponse.redirect(new URL('/', req.url), 303))
+    return clearSessionCookie(seeOther('/'))
   }
 
   let body

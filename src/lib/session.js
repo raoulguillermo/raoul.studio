@@ -4,6 +4,7 @@
 // Server-only.
 
 import { cookies } from 'next/headers'
+import { NextResponse } from 'next/server'
 
 export const SESSION_COOKIE = 'session'
 
@@ -53,4 +54,11 @@ export function sameOrigin(req) {
   } catch {
     return false
   }
+}
+
+// A 303 to a path on this site. Relative on purpose: behind nginx the request
+// URL is the internal localhost:3000, so an absolute URL built from it would
+// send visitors there.
+export function seeOther(path) {
+  return new NextResponse(null, { status: 303, headers: { Location: path } })
 }

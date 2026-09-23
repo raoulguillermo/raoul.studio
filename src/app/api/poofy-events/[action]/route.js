@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 import { poofy } from '@/lib/poofy'
-import { clearSessionCookie, getToken, sameOrigin } from '@/lib/session'
+import { clearSessionCookie, getToken, sameOrigin, seeOther } from '@/lib/session'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -21,9 +21,8 @@ const PRODUCTS = [
 ]
 
 function back(req, params) {
-  const url = new URL('/poofy-events/billing', req.url)
-  for (const [k, v] of Object.entries(params)) if (v) url.searchParams.set(k, v)
-  return NextResponse.redirect(url, 303)
+  const query = new URLSearchParams(Object.entries(params).filter(([, v]) => v)).toString()
+  return seeOther(`/poofy-events/billing${query ? `?${query}` : ''}`)
 }
 
 function errorKey(action, status) {
@@ -40,7 +39,7 @@ export async function POST(req, { params }) {
   if (!sameOrigin(req)) return new NextResponse(null, { status: 403 })
 
   const token = await getToken()
-  if (!token) return NextResponse.redirect(new URL('/login?next=/poofy-events/billing', req.url), 303)
+  if (!token) return seeOther('/login?next=/poofy-events/billing')
 
   const form = await req.formData().catch(() => new FormData())
   const teamId = String(form.get('teamId') ?? '')
@@ -75,7 +74,7 @@ export async function POST(req, { params }) {
   // Expired token: sign out and sign back in.
   if (call.status === 401) {
     return clearSessionCookie(
-      NextResponse.redirect(new URL('/login?next=/poofy-events/billing', req.url), 303),
+      seeOther('/login?next=/poofy-events/billing'),
     )
   }
   if (call.status === 200 && call.data?.url) return NextResponse.redirect(call.data.url, 303)
