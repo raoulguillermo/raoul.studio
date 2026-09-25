@@ -1,0 +1,124 @@
+{
+  "slug": "2026-09-25-claude-opus-5-5-price-cut",
+  "date": "2026-09-25",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Digital Applied — Claude Opus 5.5: Pricing, Benchmarks and Breaking Changes",
+      "url": "https://www.digitalapplied.com/blog/claude-opus-5-5-launch-pricing-benchmarks-2026"
+    },
+    {
+      "title": "LLM Stats — Claude Opus 5.5 Benchmarks, Pricing & Context Window",
+      "url": "https://llm-stats.com/models/claude-opus-5-5"
+    },
+    {
+      "title": "Artificial Analysis — Claude Opus 5.5: Release Intelligence, Performance & Price",
+      "url": "https://artificialanalysis.ai/models/releases/claude-opus-5-5"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The Most Capable AI Just Got 40% Cheaper. Here Is What That Changes.",
+      "summary": "Anthropic's flagship Claude Opus 5.5 is now roughly 40% cheaper to run, with cache reads down 60% — and that changes the economics of running AI agents in production.",
+      "body": [
+        "Running the most capable AI on the market just got significantly cheaper. On 22 September, Anthropic released Claude Opus 5.5 — its most powerful model to date — at prices that work out to **roughly 40% less on typical workloads** compared to the version it replaces. Input tokens now cost $4 per million, down from $5. Output tokens fell from $25 to $20.",
+        "The steepest cut is on cache reads — down 60%, from $0.50 to $0.20 per million tokens. A cache read is what you pay when an AI re-reads the same document or the same instructions across multiple requests. Long agent tasks — scanning contracts, analysing a codebase, processing large reports — depend on this heavily. **That 60% cut makes document-heavy AI workflows much cheaper to run at scale.**",
+        "Anthropic says Opus 5.5 performs at the same level as their best research model on most tasks. On Terminal-Bench 4.0, a standard test for coding agents, it scores 66.4%. **The lower price is not a trade-off for less capability** — the model is cheaper and just as capable as before.",
+        "There is a real catch, though. Anthropic changed four things about how the API works that will break older Opus 5 code. The 40% savings headline also depends on how you set the model's effort level — a setting that changed with this release. **Test on your actual workload before you migrate**, and do not assume the headline number is what you will see.",
+        "If you have AI workflows that felt too expensive to run as often as you wanted, now is a good time to redo the numbers. The drop in cache reads matters most for anything that processes long documents repeatedly — legal review, code analysis, support pipelines. One clear action: estimate what last month's usage would have cost at the new prices. Then test a migration in staging before switching anything in production."
+      ],
+      "keyFacts": [
+        { "value": "$4", "label": "input price per million tokens" },
+        { "value": "–40%", "label": "lower cost on typical workloads vs Opus 5" },
+        { "value": "–60%", "label": "drop in cache-read price" },
+        { "value": "66.4%", "label": "score on Terminal-Bench 4.0 coding test" }
+      ]
+    },
+    "de": {
+      "title": "Das leistungsstärkste KI-Modell kostet jetzt 40 % weniger. Was das verändert.",
+      "summary": "Anthropics Flaggschiff Claude Opus 5.5 ist jetzt rund 40 % günstiger — mit 60 % Rabatt auf Cache-Reads. Das verändert die Wirtschaftlichkeit von KI-Agenten im produktiven Einsatz.",
+      "body": [
+        "Das leistungsstärkste KI-Modell auf dem Markt ist gerade deutlich günstiger geworden. Am 22. September hat Anthropic Claude Opus 5.5 veröffentlicht — zu Preisen, die auf typischen Workloads **rund 40 % günstiger als die Vorgängerversion** sind. Ein Million Input-Token kostet jetzt 4 Dollar statt 5, Output-Token kosten 20 Dollar statt 25.",
+        "Am stärksten fällt der Preis für Cache-Reads: minus 60 %, von 0,50 auf 0,20 Dollar pro Million Token. Ein Cache-Read fällt an, wenn ein KI-Modell denselben Text oder dieselben Anweisungen mehrfach liest. Lange Agenten-Aufgaben — Vertragsprüfungen, Code-Analysen, Verarbeitung umfangreicher Berichte — tun das ständig. **Dieser Rückgang um 60 % macht dokumentenintensive KI-Workflows deutlich günstiger.**",
+        "Anthropic gibt an, dass Opus 5.5 bei den meisten Aufgaben genauso gut abschneidet wie ihr bestes Forschungsmodell. Bei Terminal-Bench 4.0, einem Standard-Test für Coding-Agenten, erzielt es 66,4 %. **Der günstigere Preis bedeutet keinen Leistungsverlust** — das Modell ist billiger und genauso leistungsfähig.",
+        "Es gibt jedoch einen echten Haken. Anthropic hat vier Dinge an der API geändert, die älteren Opus-5-Code zum Absturz bringen. Außerdem hängt die versprochene Ersparnis davon ab, wie das Effort-Level des Modells eingestellt ist — ein Parameter, der sich mit diesem Release geändert hat. **Testet unbedingt auf eurem echten Workload, bevor ihr migriert.**",
+        "Wenn ihr KI-Workflows habt, die bisher zu teuer waren, lohnt es sich jetzt, die Kalkulation neu aufzumachen. Der Rückgang bei Cache-Reads ist besonders relevant für alles, was lange Dokumente wiederholt verarbeitet — Rechtsprüfungen, Code-Analysen, Support-Pipelines. Eine konkrete Maßnahme: Berechnet euren Verbrauch des letzten Monats mit dem neuen Pricing. Dann testet die Migration in einer Staging-Umgebung."
+      ],
+      "keyFacts": [
+        { "value": "$4", "label": "Preis pro Million Input-Token" },
+        { "value": "–40%", "label": "günstiger als Opus 5 auf typischen Workloads" },
+        { "value": "–60%", "label": "Preissenkung bei Cache-Reads" },
+        { "value": "66,4%", "label": "Score auf Terminal-Bench 4.0" }
+      ]
+    },
+    "nl": {
+      "title": "Het krachtigste AI-model is 40% goedkoper geworden. Wat dat verandert.",
+      "summary": "Anthropics vlaggenschip Claude Opus 5.5 is nu zo'n 40% goedkoper, met cache-reads 60% lager — en dat verandert de rekensommen voor wie AI-agents in productie draait.",
+      "body": [
+        "Het krachtigste beschikbare AI-model is zojuist flink goedkoper geworden. Op 22 september bracht Anthropic Claude Opus 5.5 uit — hun meest capabele model — voor prijzen die op typische workloads **zo'n 40% lager liggen** dan bij de vorige versie. Een miljoen inputtokens kost nu $4 in plaats van $5; outputtokens zakken van $25 naar $20.",
+        "De grootste daling zit in cache-reads: min 60%, van $0,50 naar $0,20 per miljoen tokens. Een cache-read betaal je als het model dezelfde tekst of instructies meerdere keren leest. Lange agent-taken — contracten controleren, codebases analyseren, grote rapporten verwerken — doen dit voortdurend. **Die 60% korting maakt documentintensieve AI-workflows een stuk goedkoper op schaal.**",
+        "Anthropic zegt dat Opus 5.5 op de meeste taken even goed presteert als hun beste onderzoeksmodel. Op Terminal-Bench 4.0, een standaardtest voor coding-agents, scoort het 66,4%. **De lagere prijs gaat niet ten koste van prestaties** — het model is goedkoper en even capabel als voorheen.",
+        "Er is wel een addertje. Anthropic wijzigde vier dingen aan de API die bestaande Opus 5-code laten breken. De beloofde besparing van 40% hangt ook af van hoe je het effort-level instelt — een instelling die met deze release is veranderd. **Test eerst op je echte workload voordat je migreert.**",
+        "Als je AI-workflows hebt die te duur waren om op de gewenste schaal te draaien, is dit een goed moment om de berekening opnieuw te maken. De daling in cache-reads is het meest relevant voor alles wat lange documenten herhaaldelijk verwerkt — juridische review, codeanalyse, supportpipelines. Een concrete actie: bereken je verbruik van de afgelopen maand tegen de nieuwe prijzen, en test daarna een migratie in staging."
+      ],
+      "keyFacts": [
+        { "value": "$4", "label": "prijs per miljoen inputtokens" },
+        { "value": "–40%", "label": "goedkoper dan Opus 5 op typische workloads" },
+        { "value": "–60%", "label": "prijsdaling op cache-reads" },
+        { "value": "66,4%", "label": "score op Terminal-Bench 4.0" }
+      ]
+    },
+    "es": {
+      "title": "El modelo de IA más potente acaba de bajar un 40%. Qué cambia.",
+      "summary": "El modelo insignia de Anthropic, Claude Opus 5.5, es ahora un 40% más barato de ejecutar, con las lecturas de caché bajando un 60% — y eso cambia los números para quienes ejecutan agentes de IA en producción.",
+      "body": [
+        "Usar el modelo de IA más potente del mercado acaba de volverse considerablemente más barato. El 22 de septiembre, Anthropic lanzó Claude Opus 5.5 — su modelo más capaz hasta la fecha — a precios que en cargas de trabajo típicas resultan **un 40% más baratos** que su predecesor. Un millón de tokens de entrada cuesta ahora $4 en vez de $5; los de salida bajan de $25 a $20.",
+        "El mayor recorte está en las lecturas de caché: un 60% menos, de $0,50 a $0,20 por millón de tokens. La lectura de caché es lo que pagas cuando el modelo lee varias veces el mismo documento o las mismas instrucciones. Las tareas largas de agentes — revisión de contratos, análisis de código, procesamiento de informes extensos — dependen de esto constantemente. **Ese 60% de ahorro hace que los flujos de trabajo con muchos documentos sean mucho más baratos a escala.**",
+        "Anthropic afirma que Opus 5.5 rinde igual que su mejor modelo de investigación en la mayoría de tareas. En Terminal-Bench 4.0, una prueba estándar para agentes de código, obtiene un 66,4%. **El precio más bajo no implica menos capacidad** — el modelo es más barato e igual de potente.",
+        "Sin embargo, hay una advertencia real. Anthropic cambió cuatro cosas en la API que romperán código antiguo de Opus 5. El ahorro del 40% también depende de cómo configures el nivel de esfuerzo del modelo, un parámetro que cambió con esta versión. **Prueba con tu carga de trabajo real antes de migrar.**",
+        "Si tienes flujos de trabajo con IA que eran demasiado caros para ejecutar con la frecuencia que querías, ahora es un buen momento para recalcular. La bajada en lecturas de caché es especialmente relevante para todo lo que procesa documentos largos de forma repetida — revisión legal, análisis de código, pipelines de soporte. Una acción concreta: calcula lo que habría costado el mes pasado con los nuevos precios. Luego prueba la migración en un entorno de staging."
+      ],
+      "keyFacts": [
+        { "value": "$4", "label": "precio por millón de tokens de entrada" },
+        { "value": "–40%", "label": "más barato que Opus 5 en cargas de trabajo típicas" },
+        { "value": "–60%", "label": "reducción en lecturas de caché" },
+        { "value": "66,4%", "label": "puntuación en Terminal-Bench 4.0" }
+      ]
+    },
+    "fr": {
+      "title": "Le modèle d'IA le plus puissant vient de baisser de 40 %. Ce que ça change.",
+      "summary": "Le modèle phare d'Anthropic, Claude Opus 5.5, coûte désormais environ 40% moins cher à faire tourner, avec les lectures de cache en baisse de 60% — et ça change l'équation économique pour les équipes qui font tourner des agents IA en production.",
+      "body": [
+        "Faire tourner le modèle d'IA le plus performant du marché vient de coûter nettement moins cher. Le 22 septembre, Anthropic a lancé Claude Opus 5.5 — son modèle le plus capable — à des prix **environ 40% inférieurs** à ceux de son prédécesseur sur des charges de travail typiques. Un million de tokens en entrée passe de $5 à $4 ; les tokens en sortie tombent de $25 à $20.",
+        "La baisse la plus forte concerne les lectures de cache : –60%, de $0,50 à $0,20 par million de tokens. Une lecture de cache correspond au moment où le modèle relit les mêmes documents ou instructions d'une requête à l'autre. Les tâches longues d'agents — révision de contrats, analyse de bases de code, traitement de rapports volumineux — s'en servent en permanence. **Cette réduction de 60% rend les workflows chargés en documents beaucoup plus économiques à grande échelle.**",
+        "Anthropic affirme qu'Opus 5.5 atteint le même niveau que leur meilleur modèle de recherche sur la plupart des tâches. Il obtient 66,4% sur Terminal-Bench 4.0, un test standard pour les agents de code. **Payer moins ne signifie pas recevoir moins** — le modèle est moins cher et tout aussi performant.",
+        "Il y a néanmoins un point d'attention réel. Anthropic a modifié quatre aspects de l'API d'une manière qui cassera le code existant écrit pour Opus 5. L'économie annoncée de 40% dépend aussi de la façon dont vous réglez le niveau d'effort du modèle, un paramètre qui a changé avec cette version. **Testez d'abord sur votre charge de travail réelle avant de migrer.**",
+        "Si vous avez des workflows IA qui étaient trop coûteux pour fonctionner à l'échelle souhaitée, c'est le bon moment pour refaire le calcul. La baisse des lectures de cache est particulièrement pertinente pour tout ce qui traite des documents longs de manière répétée — révision juridique, analyse de code, pipelines de support. Action concrète : recalculez votre consommation du mois passé avec les nouveaux tarifs, puis testez une migration en environnement de staging."
+      ],
+      "keyFacts": [
+        { "value": "$4", "label": "prix par million de tokens en entrée" },
+        { "value": "–40%", "label": "moins cher que Opus 5 sur les workloads typiques" },
+        { "value": "–60%", "label": "réduction sur les lectures de cache" },
+        { "value": "66,4%", "label": "score sur Terminal-Bench 4.0" }
+      ]
+    },
+    "ar": {
+      "title": "أقوى نموذج ذكاء اصطناعي أصبح أرخص بنسبة 40٪. ماذا يعني ذلك؟",
+      "summary": "نموذج Anthropic الرائد Claude Opus 5.5 أصبح أرخص بنحو 40٪ في التشغيل، مع انخفاض قراءات التخزين المؤقت بنسبة 60٪ — وهذا يغيّر المعادلة الاقتصادية لمن يشغّل وكلاء الذكاء الاصطناعي في الإنتاج.",
+      "body": [
+        "استخدام أقوى نموذج ذكاء اصطناعي متاح أصبح أقل تكلفةً بشكل ملحوظ. في الثاني والعشرين من سبتمبر، أطلقت Anthropic نموذج Claude Opus 5.5 — أكثر نماذجها قدرةً حتى الآن — بأسعار **تنخفض نحو 40٪** عن سابقه في أحمال العمل المعتادة. يبلغ سعر مليون رمز مدخل الآن 4 دولارات بدلاً من 5، وتراجع سعر الرمز المُخرَج من 25 إلى 20 دولاراً.",
+        "أكبر تخفيض جاء في قراءات ذاكرة التخزين المؤقت: انخفاض بنسبة 60٪، من 0.50 إلى 0.20 دولار لكل مليون رمز. قراءة ذاكرة التخزين المؤقت هي ما تدفعه حين يُعيد النموذج قراءة نفس المستندات أو التعليمات عبر طلبات متعددة. المهام الطويلة للوكلاء — مراجعة العقود، وتحليل قواعد الشفرة، ومعالجة التقارير الضخمة — تعتمد على هذا بشكل مستمر. **هذا الانخفاض بنسبة 60٪ يجعل المهام كثيفة الوثائق أرخص بكثير على نطاق واسع.**",
+        "تؤكد Anthropic أن Opus 5.5 يؤدي بمستوى مماثل لأفضل نماذجها البحثية في معظم المهام. يحقق النموذج 66.4٪ في اختبار Terminal-Bench 4.0 المعياري لوكلاء البرمجة. **الدفع أقل لا يعني الحصول على أقل** — النموذج أرخص وبنفس القدرة السابقة.",
+        "غير أن هناك تحذيراً حقيقياً. غيّرت Anthropic أربعة أشياء في واجهة برمجة التطبيقات (API) ستؤدي إلى كسر الشفرة القديمة المكتوبة لـ Opus 5. كما يعتمد التوفير المُعلَن بنسبة 40٪ على كيفية ضبط مستوى جهد النموذج — وهو إعداد تغيّر مع هذا الإصدار. **اختبر على حمل عملك الفعلي قبل الترحيل.**",
+        "إذا كانت لديك تدفقات عمل بالذكاء الاصطناعي كانت مكلفةً للغاية لتشغيلها بالتكرار الذي تريده، فهذا وقت مناسب لإعادة الحسابات. الانخفاض في قراءات التخزين المؤقت مهم بشكل خاص لكل ما يعالج مستندات طويلة بشكل متكرر — المراجعة القانونية، وتحليل الشفرة، وخطوط دعم العملاء. إجراء عملي واضح: احسب ما كان سيكلفه استهلاكك الشهر الماضي بالأسعار الجديدة، ثم اختبر الترحيل في بيئة تجريبية قبل أي تحويل في الإنتاج."
+      ],
+      "keyFacts": [
+        { "value": "$4", "label": "السعر لكل مليون رمز مدخل" },
+        { "value": "–40%", "label": "أرخص من Opus 5 في أحمال العمل المعتادة" },
+        { "value": "–60%", "label": "انخفاض سعر قراءات التخزين المؤقت" },
+        { "value": "66.4%", "label": "نتيجة اختبار Terminal-Bench 4.0" }
+      ]
+    }
+  }
+}
