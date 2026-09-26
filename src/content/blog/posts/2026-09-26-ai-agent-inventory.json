@@ -1,0 +1,109 @@
+{
+  "slug": "2026-09-26-ai-agent-inventory",
+  "date": "2026-09-26",
+  "tags": ["ai", "agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "Help Net Security — Dataiku Agent Management reveals unmonitored AI agents", "url": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/" },
+    { "title": "Forkast News — Dataiku Ships Standalone Agent Governance With a Bet That Cross-Platform Beats Native", "url": "https://forkast.news/dataiku-ships-standalone-agent-governance-with-a-bet-that-cross-platform-beats-native/" },
+    { "title": "Dataiku — Agent Management general availability announcement", "url": "https://www.dataiku.com/company/news/dataiku-agent-management-general-availability" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Most companies don't know how many AI agents they're running",
+      "summary": "AI agents have multiplied so fast inside big companies that most can't say how many they have running — and that is now a real problem for cost, safety, and compliance.",
+      "body": [
+        "Ask a bank how many servers it runs and you will get a precise answer. Ask how many AI agents it is running and — as Dataiku's CEO put it this week — you get a shrug or a guess. **Fewer than one in five organizations** keep a complete, current list of their AI systems, according to IBM research. Dataiku this week launched a standalone product to fix exactly that.",
+        "The scale of the gap is striking. Gartner estimates that a typical Fortune 500 company will be running more than 150,000 AI agents by 2028, up from fewer than 15 in 2025. A survey by OutSystems found that 96% of enterprises already run AI agents, but only 12% have any centralized way to manage them. **That is a 10,000-fold increase in three years** with almost no management infrastructure to match it.",
+        "Dataiku's new product, Agent Management, connects to nine major enterprise platforms — including AWS Bedrock, Google Vertex, Salesforce Agentforce, and Microsoft Copilot Studio — and builds a single inventory across all of them. The key insight behind it: most agent monitoring only checks if an agent is running. Dataiku's product also measures **whether the agent is actually doing its job** — tracking business metrics like cost per task, quality, and value delivered alongside technical uptime.",
+        "If you are building or deploying AI agents, track them the same way you track any other production system: who owns each one, what data it can reach, what it costs, and whether the results are good. That discipline has always applied to servers and databases. It applies to agents too. **Know what you have before you scale it.** The tooling to do this systematically is now available — there is no longer a good excuse to run blind."
+      ],
+      "keyFacts": [
+        { "value": "18%", "label": "of companies with a current AI agent inventory" },
+        { "value": "150,000+", "label": "AI agents a Fortune 500 will run by 2028" },
+        { "value": "12%", "label": "of enterprises with centralized agent management" },
+        { "value": "9", "label": "enterprise platforms the tool connects to" }
+      ]
+    },
+    "de": {
+      "title": "Die meisten Unternehmen wissen nicht, wie viele KI-Agenten sie betreiben",
+      "summary": "KI-Agenten haben sich in großen Unternehmen so schnell verbreitet, dass die meisten nicht sagen können, wie viele laufen — und das wird jetzt zum echten Problem für Kosten, Sicherheit und Compliance.",
+      "body": [
+        "Frag eine Bank, wie viele Server sie betreibt, und du bekommst eine genaue Antwort. Frag, wie viele KI-Agenten sie einsetzt, und — wie Dataikus CEO diese Woche formulierte — bekommst du ein Achselzucken oder eine Schätzung. **Weniger als jede fünfte Organisation** führt laut IBM-Forschung eine vollständige, aktuelle Liste ihrer KI-Systeme. Dataiku hat diese Woche ein eigenständiges Produkt eingeführt, das genau das beheben soll.",
+        "Das Ausmaß der Lücke ist beeindruckend. Gartner schätzt, dass ein typisches Fortune-500-Unternehmen bis 2028 mehr als 150.000 KI-Agenten betreiben wird — im Vergleich zu weniger als 15 im Jahr 2025. Eine Umfrage von OutSystems ergab, dass 96 Prozent der Unternehmen bereits KI-Agenten einsetzen, aber nur 12 Prozent eine zentrale Verwaltung dafür haben. **Das ist eine 10.000-fache Zunahme in drei Jahren** ohne die nötige Management-Infrastruktur.",
+        "Dataikus neues Produkt, Agent Management, verbindet sich mit neun großen Unternehmensplattformen — darunter AWS Bedrock, Google Vertex, Salesforce Agentforce und Microsoft Copilot Studio — und erstellt eine einzige Übersicht über alle. Der zentrale Gedanke: Bisherige Monitoring-Tools prüfen nur, ob ein Agent läuft. Dataiku misst auch, **ob der Agent tatsächlich seinen Job macht** — mit Geschäftskennzahlen wie Kosten pro Aufgabe, Qualität und geliefertem Mehrwert.",
+        "Wer KI-Agenten baut oder einsetzt, sollte sie genauso nachverfolgen wie jedes andere Produktivsystem: Wer besitzt jeden Agenten, auf welche Daten kann er zugreifen, was kostet er, und sind die Ergebnisse gut? Diese Disziplin gilt für Server und Datenbanken. Sie gilt genauso für Agenten. **Wisse, was du hast, bevor du es skalierst.** Die Werkzeuge dafür gibt es jetzt — es gibt keinen guten Grund mehr, blind zu operieren."
+      ],
+      "keyFacts": [
+        { "value": "18%", "label": "der Unternehmen mit einem aktuellen KI-Agenten-Inventar" },
+        { "value": "150.000+", "label": "KI-Agenten, die ein Fortune-500-Unternehmen 2028 betreiben wird" },
+        { "value": "12%", "label": "der Unternehmen mit zentralem Agenten-Management" },
+        { "value": "9", "label": "Unternehmensplattformen, mit denen das Tool sich verbindet" }
+      ]
+    },
+    "nl": {
+      "title": "De meeste bedrijven weten niet hoeveel AI-agents ze draaien",
+      "summary": "AI-agents zijn zo snel uitgebreid in grote bedrijven dat de meeste niet kunnen zeggen hoeveel ze er draaien — en dat wordt nu een echt probleem voor kosten, veiligheid en compliance.",
+      "body": [
+        "Vraag een bank hoeveel servers ze draaien, en je krijgt een precies antwoord. Vraag hoeveel AI-agents ze inzetten, en — zoals de CEO van Dataiku het deze week verwoordde — je krijgt een schouderophalen of een gok. **Minder dan één op de vijf organisaties** houdt een complete, actuele lijst bij van hun AI-systemen, blijkt uit IBM-onderzoek. Dataiku lanceerde deze week een zelfstandig product om dat precies te verhelpen.",
+        "De omvang van de kloof is opvallend. Gartner schat dat een typisch Fortune 500-bedrijf tegen 2028 meer dan 150.000 AI-agents zal draaien — tegenover minder dan 15 in 2025. Uit onderzoek van OutSystems blijkt dat 96 procent van de ondernemingen al AI-agents inzet, maar slechts 12 procent heeft een centrale manier om ze te beheren. **Dat is een 10.000-voudige toename in drie jaar** zonder de benodigde beheersinfrastructuur.",
+        "Dataiku's nieuwe product, Agent Management, verbindt zich met negen grote zakelijke platforms — waaronder AWS Bedrock, Google Vertex, Salesforce Agentforce en Microsoft Copilot Studio — en bouwt over ze allemaal één inventaris. De kerngedachte: de meeste agentmonitoring controleert alleen of een agent draait. Dataiku meet ook **of de agent zijn werk daadwerkelijk doet** — met zakelijke meetwaarden zoals kosten per taak, kwaliteit en geleverde waarde.",
+        "Als je AI-agents bouwt of inzet, volg ze dan op dezelfde manier als elk ander productiesysteem: wie is verantwoordelijk, welke data kan het bereiken, wat kost het, en kloppen de resultaten? Dat geldt voor servers en databases. Het geldt ook voor agents. **Weet wat je hebt voordat je het opschaalt.** De tools zijn er nu — er is geen goed excuus meer om in het duister te tasten."
+      ],
+      "keyFacts": [
+        { "value": "18%", "label": "van de bedrijven met een actuele AI-agentsinventaris" },
+        { "value": "150.000+", "label": "AI-agents die een Fortune 500-bedrijf in 2028 draait" },
+        { "value": "12%", "label": "van de ondernemingen met centraal agentbeheer" },
+        { "value": "9", "label": "zakelijke platforms waarmee de tool verbinding maakt" }
+      ]
+    },
+    "es": {
+      "title": "La mayoría de las empresas no saben cuántos agentes de IA están ejecutando",
+      "summary": "Los agentes de IA se han multiplicado tan rápido en las grandes empresas que la mayoría no puede decir cuántos tienen en marcha — y eso se está convirtiendo en un problema real de coste, seguridad y cumplimiento.",
+      "body": [
+        "Pregunta a un banco cuántos servidores tiene y obtendrás una respuesta precisa. Pregunta cuántos agentes de IA están ejecutando y — como dijo el CEO de Dataiku esta semana — obtienes un encogimiento de hombros o una estimación. **Menos de una de cada cinco organizaciones** mantiene una lista completa y actualizada de sus sistemas de IA, según IBM. Dataiku lanzó esta semana un producto independiente para resolver exactamente eso.",
+        "La magnitud de la brecha es llamativa. Gartner estima que una empresa Fortune 500 típica gestionará más de 150.000 agentes de IA en 2028, frente a menos de 15 en 2025. Una encuesta de OutSystems encontró que el 96 por ciento de las empresas ya ejecuta agentes de IA, pero solo el 12 por ciento tiene alguna forma centralizada de gestionarlos. **Eso es un aumento de 10.000 veces en tres años** sin la infraestructura de gestión necesaria.",
+        "El nuevo producto de Dataiku, Agent Management, se conecta a nueve grandes plataformas empresariales — incluidas AWS Bedrock, Google Vertex, Salesforce Agentforce y Microsoft Copilot Studio — y construye un inventario único en todas ellas. La idea clave: la mayoría de la monitorización de agentes solo comprueba si un agente está en marcha. Dataiku también mide **si el agente está haciendo realmente su trabajo** — con métricas de negocio como coste por tarea, calidad y valor entregado.",
+        "Si estás construyendo o desplegando agentes de IA, haz un seguimiento de ellos igual que de cualquier otro sistema de producción: quién es responsable de cada uno, a qué datos puede acceder, qué cuesta y si los resultados son buenos. Esa disciplina siempre ha aplicado a servidores y bases de datos. También aplica a los agentes. **Sabe lo que tienes antes de escalarlo.** Las herramientas para hacerlo de forma sistemática ya existen — ya no hay buena excusa para operar a ciegas."
+      ],
+      "keyFacts": [
+        { "value": "18%", "label": "de empresas con un inventario de agentes de IA actualizado" },
+        { "value": "150.000+", "label": "agentes de IA que gestionará un Fortune 500 en 2028" },
+        { "value": "12%", "label": "de empresas con gestión centralizada de agentes" },
+        { "value": "9", "label": "plataformas empresariales a las que se conecta la herramienta" }
+      ]
+    },
+    "fr": {
+      "title": "La plupart des entreprises ne savent pas combien d'agents IA elles font tourner",
+      "summary": "Les agents IA se sont multipliés si vite dans les grandes entreprises que la plupart ne peuvent pas dire combien en fonctionnent — et c'est maintenant un vrai problème de coût, de sécurité et de conformité.",
+      "body": [
+        "Demandez à une banque combien de serveurs elle fait tourner, vous aurez une réponse précise. Demandez combien d'agents IA elle déploie, et — comme le dit le PDG de Dataiku cette semaine — vous obtenez un haussement d'épaules ou une estimation. **Moins d'une organisation sur cinq** tient une liste complète et à jour de ses systèmes IA, selon IBM. Dataiku a lancé cette semaine un produit autonome pour répondre exactement à ce problème.",
+        "L'ampleur du fossé est frappante. Gartner estime qu'une entreprise Fortune 500 typique gérera plus de 150 000 agents IA d'ici 2028, contre moins de 15 en 2025. Une enquête OutSystems révèle que 96 pour cent des entreprises font déjà tourner des agents IA, mais seulement 12 pour cent disposent d'une gestion centralisée. **C'est une multiplication par 10 000 en trois ans** sans infrastructure de gestion en place.",
+        "Le nouveau produit de Dataiku, Agent Management, se connecte à neuf grandes plateformes d'entreprise — dont AWS Bedrock, Google Vertex, Salesforce Agentforce et Microsoft Copilot Studio — et construit un inventaire unique sur l'ensemble d'entre elles. L'idée centrale : la surveillance habituelle d'agents vérifie seulement qu'ils tournent. Dataiku mesure aussi **si l'agent fait vraiment son travail** — avec des métriques métier comme le coût par tâche, la qualité et la valeur livrée.",
+        "Si vous construisez ou déployez des agents IA, suivez-les comme n'importe quel autre système en production : qui possède chacun, à quelles données il peut accéder, ce qu'il coûte, et si les résultats sont bons. Cette discipline s'applique depuis toujours aux serveurs et aux bases de données. Elle s'applique aussi aux agents. **Sachez ce que vous avez avant de le faire grandir.** Les outils pour le faire existent maintenant — plus de bonne excuse pour opérer à l'aveugle."
+      ],
+      "keyFacts": [
+        { "value": "18%", "label": "des entreprises avec un inventaire d'agents IA à jour" },
+        { "value": "150 000+", "label": "agents IA qu'un Fortune 500 gérera en 2028" },
+        { "value": "12%", "label": "des entreprises avec une gestion centralisée des agents" },
+        { "value": "9", "label": "plateformes d'entreprise auxquelles l'outil se connecte" }
+      ]
+    },
+    "ar": {
+      "title": "معظم الشركات لا تعرف كم عاملة ذكاء اصطناعي تُشغّل",
+      "summary": "تكاثرت عوامل الذكاء الاصطناعي بسرعة كبيرة في الشركات الكبرى حتى باتت أغلبها عاجزة عن تحديد عددها — وهذا يتحول الآن إلى مشكلة حقيقية تتعلق بالتكلفة والأمان والامتثال.",
+      "body": [
+        "اسأل أي بنك عن عدد الخوادم التي يُشغّلها وستحصل على إجابة دقيقة. اسأله عن عدد عوامل الذكاء الاصطناعي التي تعمل لديه، وستحصل — كما وصفه الرئيس التنفيذي لـ Dataiku هذا الأسبوع — على هزّة كتفين أو مجرد تخمين. **أقل من واحدة من كل خمس مؤسسات** تحتفظ بقائمة كاملة ومحدّثة لأنظمة الذكاء الاصطناعي لديها، وفق أبحاث IBM. أطلقت Dataiku هذا الأسبوع منتجاً مستقلاً لمعالجة هذه المشكلة تحديداً.",
+        "حجم الفجوة لافت للنظر. تُقدّر Gartner أن شركة Fortune 500 نموذجية ستُشغّل أكثر من 150,000 عاملة ذكاء اصطناعي بحلول 2028، مقارنةً بأقل من 15 في عام 2025. وكشف استطلاع OutSystems أن 96 بالمئة من الشركات تستخدم عوامل الذكاء الاصطناعي فعلاً، لكن 12 بالمئة فقط منها تمتلك طريقة مركزية لإدارتها. **هذا يعني نمواً بمقدار 10,000 ضعف في ثلاث سنوات** دون بنية تحتية كافية لإدارتها.",
+        "يتصل منتج Dataiku الجديد، Agent Management، بتسع منصات مؤسسية كبرى — منها AWS Bedrock وGoogle Vertex وSalesforce Agentforce وMicrosoft Copilot Studio — ويبني جرداً موحداً عبر جميعها. الفكرة الجوهرية: معظم أدوات مراقبة العوامل تكتفي بالتحقق من أنها تعمل. أما Dataiku فتقيس أيضاً **هل تؤدي العاملة عملها فعلاً** — من خلال مقاييس أعمال كالتكلفة لكل مهمة والجودة والقيمة المُضافة.",
+        "إذا كنت تبني عوامل ذكاء اصطناعي أو تنشرها، فتتبّعها كما تتبّع أي نظام إنتاجي آخر: من يمتلك كل عاملة، وما البيانات التي يمكنها الوصول إليها، وما تكلفتها، وهل نتائجها جيدة. هذا النظام يُطبَّق دائماً على الخوادم وقواعد البيانات، ويجب أن يُطبَّق على العوامل أيضاً. **اعرف ما لديك قبل أن تُوسّعه.** الأدوات اللازمة متاحة الآن — ولم يعد هناك مبرر وجيه للعمل في الظلام."
+      ],
+      "keyFacts": [
+        { "value": "18%", "label": "من المؤسسات التي تمتلك جرداً محدّثاً لعوامل الذكاء الاصطناعي" },
+        { "value": "150,000+", "label": "عاملة ذكاء اصطناعي ستُشغّلها شركة Fortune 500 بحلول 2028" },
+        { "value": "12%", "label": "من الشركات التي تمتلك إدارة مركزية للعوامل" },
+        { "value": "9", "label": "منصات مؤسسية يتصل بها المنتج" }
+      ]
+    }
+  }
+}
