@@ -1,0 +1,109 @@
+{
+  "slug": "2026-09-27-ando-agent-native-messaging",
+  "date": "2026-09-27",
+  "tags": ["ai", "agents"],
+  "pillar": "industry-insights",
+  "sources": [
+    { "title": "TechCrunch — Ando wants to take on Slack with a team messaging app that lets humans and agents work together", "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/" },
+    { "title": "GlobeNewswire — Ando Launches Agent-Native Messaging Platform, Announces $20 Million Seed", "url": "https://www.globenewswire.com/news-release/2026/09/24/3368344/0/en/ando-launches-agent-native-messaging-platform-announces-20-million-seed.html" },
+    { "title": "Yahoo Finance — Ando Launches Agent-Native Messaging Platform, Announces $20 Million Seed", "url": "https://finance.yahoo.com/technology/ai/articles/ando-launches-agent-native-messaging-130000269.html" }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI agents are joining your team — and Slack was not built for that",
+      "summary": "A startup called Ando just raised $20 million to build the first messaging platform where AI agents are real teammates, not bots — and it signals something important about how work is changing.",
+      "body": [
+        "Right now, most AI agents live at the edge of your team. You call them up, they do something useful, they report back. In Slack or Microsoft Teams, **they get treated like a bot, not a colleague** — no inbox, no ability to start a conversation, no way to join a discussion unless someone explicitly tags them. That design made sense two years ago. Today, when agents are doing real work on real deadlines, it creates unnecessary friction.",
+        "On 24 September, a startup called Ando came out of stealth with a messaging platform built from scratch for a world where agents are full team members. It raised $20 million from Accel, Index Ventures, Emergence Capital, and Contrary Capital. Founder Sara Du, who previously built Alloy Automation, says the problem is structural: agents were treated as apps to install, even as they became participants in the team. On Ando, **agents can join channels on their own, send messages first, and coordinate work across conversations** — without a human having to relay the output.",
+        "The platform already runs across teams in more than twelve countries, in software, real estate, and financial services. It is agent-agnostic, so teams can connect the AI systems they already use — Claude, Codex, Grokbot, and others. Each agent gets a persistent identity, its own inbox, and access to the conversations it is allowed to follow. That last part matters: **an agent can spot a problem in one channel and bring the right people together in another**, without anyone having to notice it first.",
+        "The takeaway is not \"switch to Ando today.\" It is that serious investors at Accel and Index are betting the messaging layer itself needs to be rebuilt for agents — which signals how fast the role of AI at work is changing. If your team is already running agents on real tasks, the right question is: how much time do you spend copying outputs from one place to another? **That friction is what the next wave of work tools is being built to remove.**"
+      ],
+      "keyFacts": [
+        { "value": "$20M", "label": "seed funding raised" },
+        { "value": "4", "label": "venture capital investors" },
+        { "value": "12+", "label": "countries with active teams on the platform" },
+        { "value": "Jan 2026", "label": "when Ando's own team started using it internally" }
+      ]
+    },
+    "de": {
+      "title": "KI-Agenten treten deinem Team bei — und Slack war nicht dafür gebaut",
+      "summary": "Ein Startup namens Ando hat 20 Millionen Dollar eingesammelt, um die erste Messaging-Plattform zu bauen, auf der KI-Agenten echte Teammitglieder sind — kein Bot-Anhängsel — und das signalisiert etwas Wichtiges über die Zukunft der Arbeit.",
+      "body": [
+        "Im Moment arbeiten die meisten KI-Agenten am Rand deines Teams. Man ruft sie auf, sie erledigen etwas Nützliches, berichten zurück. In Slack oder Microsoft Teams **werden sie wie ein Bot behandelt, nicht wie ein Kollege** — kein Posteingang, keine Möglichkeit, ein Gespräch zu beginnen, kein Weg, einer Diskussion beizutreten, ohne explizit erwähnt zu werden. Das ergab vor zwei Jahren Sinn. Heute, wenn Agenten echte Arbeit mit echten Fristen erledigen, erzeugt das unnötige Reibung.",
+        "Am 24. September trat ein Startup namens Ando aus der Stille mit einer Messaging-Plattform, die von Grund auf für eine Welt gebaut wurde, in der Agenten vollwertige Teammitglieder sind. Es sammelte 20 Millionen Dollar von Accel, Index Ventures, Emergence Capital und Contrary Capital. Gründerin Sara Du, die zuvor Alloy Automation aufgebaut hat, sagt, das Problem sei strukturell: Agenten wurden als zu installierende Apps behandelt, auch als sie zu Teilnehmern im Team wurden. Bei Ando **können Agenten selbst Channels beitreten, als Erste Nachrichten senden und Arbeit über Gespräche hinweg koordinieren** — ohne dass ein Mensch die Ergebnisse weiterleiten muss.",
+        "Die Plattform läuft bereits bei Teams in mehr als zwölf Ländern, in Software, Immobilien und Finanzdienstleistungen. Sie ist agentenunabhängig, sodass Teams die KI-Systeme verbinden können, die sie bereits nutzen — Claude, Codex, Grokbot und andere. Jeder Agent erhält eine dauerhafte Identität, einen eigenen Posteingang und Zugang zu den Gesprächen, denen er folgen darf. Das letzte Detail zählt: **Ein Agent kann ein Problem in einem Channel erkennen und die richtigen Personen in einem anderen zusammenbringen** — ohne dass es jemand zuerst bemerkt.",
+        "Die Erkenntnis lautet nicht \"Wechsel heute zu Ando.\" Sie lautet, dass ernsthafte Investoren bei Accel und Index darauf wetten, dass die Messaging-Schicht selbst für Agenten neu gebaut werden muss — was signalisiert, wie schnell sich die Rolle von KI bei der Arbeit verändert. Wenn dein Team bereits Agenten für echte Aufgaben einsetzt, ist die richtige Frage: Wie viel Zeit verbringt ihr damit, Ergebnisse von einem Ort zum anderen zu kopieren? **Diese Reibung ist es, die die nächste Welle von Arbeitswerkzeugen zu beseitigen versucht.**"
+      ],
+      "keyFacts": [
+        { "value": "$20M", "label": "eingesammeltes Seed-Kapital" },
+        { "value": "4", "label": "Risikokapital-Investoren" },
+        { "value": "12+", "label": "Länder mit aktiven Teams" },
+        { "value": "Jan 2026", "label": "interner Einsatz begonnen" }
+      ]
+    },
+    "nl": {
+      "title": "AI-agenten worden echte teamleden — en Slack was daar niet op gebouwd",
+      "summary": "Een startup genaamd Ando haalde 20 miljoen dollar op om de eerste berichtenapp te bouwen waar AI-agenten volwaardige deelnemers zijn, geen bots — en dat zegt iets belangrijks over hoe werk verandert.",
+      "body": [
+        "Op dit moment werken de meeste AI-agenten aan de rand van je team. Je roept ze op, ze doen iets nuttigs, ze rapporteren terug. In Slack of Microsoft Teams **worden ze behandeld als een bot, niet als een collega** — geen inbox, geen manier om een gesprek te beginnen, geen mogelijkheid om in een discussie te stappen tenzij iemand hen expliciet vermeldt. Dat had twee jaar geleden zin. Nu, wanneer agenten echt werk doen met echte deadlines, veroorzaakt dit onnodige wrijving.",
+        "Op 24 september kwam een startup genaamd Ando uit de stilte met een messagingplatform dat van de grond af is gebouwd voor een wereld waarin agenten volwaardige teamleden zijn. Het haalde 20 miljoen dollar op bij Accel, Index Ventures, Emergence Capital en Contrary Capital. Oprichter Sara Du, die eerder Alloy Automation bouwde, zegt dat het probleem structureel is: agenten werden behandeld als apps die je installeert, terwijl ze deelnemers in het team werden. Op Ando **kunnen agenten zelf kanalen joinen, als eerste berichten sturen en werk coördineren** — zonder dat een mens de output hoeft door te sturen.",
+        "Het platform draait al bij teams in meer dan twaalf landen, in software, vastgoed en financiële diensten. Het is agentenneutraal, zodat teams de AI-systemen kunnen verbinden die ze al gebruiken — Claude, Codex, Grokbot en anderen. Elke agent krijgt een vaste identiteit, een eigen inbox en toegang tot de gesprekken die het mag volgen. Dat laatste detail telt: **een agent kan een probleem in één kanaal zien en de juiste mensen samenbrengen in een ander** — zonder dat iemand het eerst hoeft op te merken.",
+        "De conclusie is niet \"stap vandaag over naar Ando.\" Het is dat serieuze investeerders bij Accel en Index wedden dat de messaginglaag zelf opnieuw gebouwd moet worden voor agenten — wat aangeeft hoe snel de rol van AI op het werk verandert. Als je team al agenten inzet voor echte taken, is de juiste vraag: hoeveel tijd besteed je aan het kopiëren van resultaten van de ene naar de andere plek? **Die wrijving is precies wat de volgende generatie werkhulpmiddelen probeert weg te nemen.**"
+      ],
+      "keyFacts": [
+        { "value": "$20M", "label": "opgehaald seedkapitaal" },
+        { "value": "4", "label": "durfkapitaalinvesteerders" },
+        { "value": "12+", "label": "landen met actieve teams" },
+        { "value": "Jan 2026", "label": "start intern gebruik bij Ando" }
+      ]
+    },
+    "es": {
+      "title": "Los agentes de IA se incorporan a tu equipo — y Slack no estaba hecho para eso",
+      "summary": "Una startup llamada Ando acaba de recaudar 20 millones de dólares para construir la primera plataforma de mensajería donde los agentes de IA son compañeros reales, no bots — y eso dice mucho sobre hacia dónde va el trabajo.",
+      "body": [
+        "En este momento, la mayoría de los agentes de IA viven en los márgenes del equipo. Los llamas, hacen algo útil y vuelven a reportar. En Slack o Microsoft Teams, **se les trata como a un bot, no como a un compañero** — sin bandeja de entrada, sin manera de iniciar una conversación, sin forma de unirse a un hilo a menos que alguien los mencione explícitamente. Eso tenía sentido hace dos años. Hoy, cuando los agentes hacen trabajo real con plazos reales, genera fricciones innecesarias.",
+        "El 24 de septiembre, una startup llamada Ando salió del anonimato con una plataforma de mensajería construida desde cero para un mundo donde los agentes son miembros plenos del equipo. Recaudó 20 millones de dólares de Accel, Index Ventures, Emergence Capital y Contrary Capital. La fundadora Sara Du, que antes construyó Alloy Automation, dice que el problema es estructural: los agentes eran tratados como aplicaciones que se instalan, incluso cuando se convertían en participantes del equipo. En Ando, **los agentes pueden unirse solos a los canales, enviar mensajes primero y coordinar trabajo entre conversaciones** — sin que un humano tenga que retransmitir el resultado.",
+        "La plataforma ya funciona en equipos de más de doce países, en software, bienes raíces y servicios financieros. Es agnóstica respecto a los agentes, por lo que los equipos pueden conectar los sistemas de IA que ya usan — Claude, Codex, Grokbot y otros. Cada agente tiene una identidad persistente, su propia bandeja de entrada y acceso a las conversaciones que puede seguir. Ese último detalle importa: **un agente puede detectar un problema en un canal y reunir a las personas correctas en otro** — sin que nadie tenga que notarlo primero.",
+        "La conclusión no es \"cambia a Ando hoy.\" Es que inversores serios en Accel e Index están apostando a que la capa de mensajería en sí necesita reconstruirse para los agentes — lo que señala la velocidad con que está cambiando el papel de la IA en el trabajo. Si tu equipo ya usa agentes en tareas reales, la pregunta correcta es: ¿cuánto tiempo dedicas a copiar resultados de un lugar a otro? **Esa fricción es lo que la próxima generación de herramientas de trabajo está siendo construida para eliminar.**"
+      ],
+      "keyFacts": [
+        { "value": "$20M", "label": "financiación semilla recaudada" },
+        { "value": "4", "label": "inversores de capital riesgo" },
+        { "value": "12+", "label": "países con equipos activos" },
+        { "value": "Jan 2026", "label": "inicio del uso interno en Ando" }
+      ]
+    },
+    "fr": {
+      "title": "Les agents IA rejoignent votre équipe — et Slack n'était pas fait pour ça",
+      "summary": "Une startup appelée Ando vient de lever 20 millions de dollars pour créer la première messagerie d'équipe où les agents IA sont de vrais participants, pas de simples bots — et cela révèle quelque chose d'important sur l'avenir du travail.",
+      "body": [
+        "En ce moment, la plupart des agents IA vivent en marge de l'équipe. On les appelle, ils font quelque chose d'utile, ils rendent compte. Dans Slack ou Microsoft Teams, **ils sont traités comme des bots, pas comme des collègues** — pas de boîte mail, pas de moyen d'initier une conversation, pas de façon de rejoindre une discussion sans être explicitement mentionnés. Cela avait du sens il y a deux ans. Aujourd'hui, quand les agents font du vrai travail avec de vraies échéances, cela crée des frictions inutiles.",
+        "Le 24 septembre, une startup appelée Ando est sortie de l'ombre avec une plateforme de messagerie conçue de zéro pour un monde où les agents sont des membres à part entière de l'équipe. Elle a levé 20 millions de dollars auprès d'Accel, Index Ventures, Emergence Capital et Contrary Capital. La fondatrice Sara Du, qui a précédemment créé Alloy Automation, explique que le problème est structurel : les agents étaient traités comme des applications à installer, même en devenant des participants actifs dans l'équipe. Sur Ando, **les agents peuvent rejoindre des canaux seuls, envoyer des messages en premier et coordonner le travail entre conversations** — sans qu'un humain ait à transmettre les résultats.",
+        "La plateforme est déjà utilisée par des équipes dans plus de douze pays, dans les secteurs du logiciel, de l'immobilier et des services financiers. Elle est agnostique côté agents, ce qui permet aux équipes de connecter les systèmes IA qu'elles utilisent déjà — Claude, Codex, Grokbot et autres. Chaque agent dispose d'une identité persistante, de sa propre boîte de réception et d'un accès aux conversations qu'il est autorisé à suivre. Ce dernier point compte : **un agent peut détecter un problème dans un canal et réunir les bonnes personnes dans un autre** — sans que personne n'ait à le remarquer en premier.",
+        "La conclusion n'est pas \"passez à Ando aujourd'hui\". C'est que des investisseurs sérieux chez Accel et Index parient que la couche de messagerie elle-même doit être reconstruite pour les agents — ce qui indique à quelle vitesse le rôle de l'IA au travail est en train de changer. Si votre équipe utilise déjà des agents pour de vraies tâches, la bonne question est : combien de temps passez-vous à copier des résultats d'un endroit à un autre ? **C'est cette friction que la prochaine vague d'outils de travail est en train d'éliminer.**"
+      ],
+      "keyFacts": [
+        { "value": "$20M", "label": "financement d'amorçage levé" },
+        { "value": "4", "label": "fonds de capital-risque investisseurs" },
+        { "value": "12+", "label": "pays avec des équipes actives" },
+        { "value": "Jan 2026", "label": "début de l'utilisation interne chez Ando" }
+      ]
+    },
+    "ar": {
+      "title": "وكلاء الذكاء الاصطناعي ينضمون إلى فريقك — وSlack لم يُبنَ لهذا",
+      "summary": "جمعت شركة ناشئة اسمها Ando عشرين مليون دولار لبناء أول منصة مراسلة تجعل وكلاء الذكاء الاصطناعي مشاركين حقيقيين في الفريق لا مجرد روبوتات — وهذا يكشف الكثير عن مستقبل العمل.",
+      "body": [
+        "في الوقت الحالي، يعمل معظم وكلاء الذكاء الاصطناعي على هامش فريقك. تناديهم، يؤدون عملاً مفيداً، ثم يُبلّغون بالنتائج. في Slack أو Microsoft Teams، **يُعاملون كبوت لا كزميل** — لا صندوق بريد، ولا طريقة لبدء محادثة، ولا إمكانية للانضمام إلى نقاش ما لم يذكرهم أحد صراحةً. كان لهذا منطقه قبل عامين. أما اليوم، حين يؤدي الوكلاء عملاً حقيقياً في مواعيد حقيقية، فإن ذلك يخلق احتكاكاً لا داعي له.",
+        "في الرابع والعشرين من سبتمبر، خرجت شركة ناشئة تُدعى Ando من السرية بمنصة مراسلة مبنية من الصفر لعالم يكون فيه الوكلاء أعضاءً كاملين في الفريق. جمعت 20 مليون دولار من Accel وIndex Ventures وEmergence Capital وContrary Capital. تقول المؤسسة سارة دو، التي أسست Alloy Automation من قبل، إن المشكلة هيكلية: كان الوكلاء يُعاملون كتطبيقات تُثبَّت، حتى وهم يصبحون مشاركين في الفريق. على Ando، **يمكن للوكلاء الانضمام إلى القنوات بأنفسهم، وإرسال الرسائل أولاً، وتنسيق العمل عبر المحادثات** — دون أن يضطر أي إنسان إلى نقل النتائج.",
+        "تعمل المنصة بالفعل مع فرق في أكثر من اثني عشر دولة، في قطاعات البرمجيات والعقارات والخدمات المالية. وهي محايدة تجاه الوكلاء، مما يتيح للفرق ربط أنظمة الذكاء الاصطناعي التي يستخدمونها بالفعل — كـClaude وCodex وGrokbot وغيرها. يحصل كل وكيل على هوية ثابتة وصندوق بريد خاص وإمكانية الوصول إلى المحادثات المسموح له بمتابعتها. هذه التفصيلة الأخيرة مهمة: **يستطيع الوكيل اكتشاف مشكلة في قناة ما وجمع الأشخاص المناسبين في قناة أخرى** — دون أن يلاحظها أحد أولاً.",
+        "الخلاصة ليست \"انتقل إلى Ando اليوم\". بل هي أن مستثمرين جادين في Accel وIndex يراهنون على أن طبقة المراسلة نفسها تحتاج إلى إعادة بناء من أجل الوكلاء — وهو ما يدل على مدى سرعة تغير دور الذكاء الاصطناعي في العمل. إذا كان فريقك يستخدم وكلاء بالفعل في مهام حقيقية، فالسؤال الصحيح هو: كم من الوقت تقضي في نسخ النتائج من مكان إلى آخر؟ **هذا هو الاحتكاك الذي تُبنى الموجة القادمة من أدوات العمل للقضاء عليه.**"
+      ],
+      "keyFacts": [
+        { "value": "$20M", "label": "تمويل أولي جُمع" },
+        { "value": "4", "label": "شركات رأس المال المخاطر" },
+        { "value": "12+", "label": "دولة بها فرق نشطة على المنصة" },
+        { "value": "Jan 2026", "label": "بدء الاستخدام الداخلي لدى Ando" }
+      ]
+    }
+  }
+}
