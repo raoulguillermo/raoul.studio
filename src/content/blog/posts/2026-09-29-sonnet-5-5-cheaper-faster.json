@@ -1,0 +1,133 @@
+{
+  "slug": "2026-09-29-sonnet-5-5-cheaper-faster",
+  "date": "2026-09-29",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/09/anthropic-releases-claude-sonnet-5-5-at-unchanged-sonnet-5-pricing.jpg",
+    "alt": "Abstract graphic representing Anthropic's Claude Sonnet 5.5 release",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    {
+      "title": "TechCrunch — Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/"
+    },
+    {
+      "title": "SiliconAngle — Anthropic debuts Claude Sonnet 5.5 running 30% faster than the previous-generation AI model",
+      "url": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/"
+    },
+    {
+      "title": "Unite.AI — Anthropic Releases Claude Sonnet 5.5 at Unchanged Sonnet 5 Pricing",
+      "url": "https://www.unite.ai/anthropic-releases-claude-sonnet-5-5-at-unchanged-sonnet-5-pricing/"
+    },
+    {
+      "title": "Progressive Robot — Claude Sonnet 5.5: Surprising 30% Faster, Smart 30% Cheaper",
+      "url": "https://www.progressiverobot.com/2026/09/28/claude-sonnet-5-5-30-faster-30-cheaper/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI Gets Cheaper by Getting Smarter",
+      "summary": "Anthropic's Sonnet 5.5 costs up to 30% less per task — not because the price dropped, but because it uses fewer tokens to do the same job.",
+      "body": [
+        "Most AI price drops come from price wars — one lab cuts rates, others follow. Anthropic's Sonnet 5.5, released yesterday, is different. The per-token price stayed exactly the same. Instead, **the savings come from efficiency**: the model uses fewer tokens — small chunks of text an AI charges you for — to finish the same job.",
+        "Here is a real example. A task that consumed 400,000 input tokens on Sonnet 5 shrank to 280,000 on Sonnet 5.5. The price per token did not change — $2 per million input, $10 per million output — but **the total bill fell from $1.40 to $0.98** on that one task. At hundreds of tasks a day, that compounds.",
+        "The jump in coding ability is the most striking number. Sonnet 5.5 scored 70.6% on Terminal-Bench, a test for AI agents doing real coding work — compared to just 10.3% for the previous Sonnet. **Fewer wrong moves means fewer retries**, and fewer retries means fewer tokens burned.",
+        "This makes Sonnet 5.5 ideal for everyday workhorse tasks: fixing bugs, reviewing code, writing documents, and handling support tickets. Zendesk reported **20% faster ticket resolution** in early tests. The model is available now on Amazon Web Services, Google Cloud, and Microsoft Azure.",
+        "If you are running AI workflows at any volume, test Sonnet 5.5 on your actual tasks today. The gains stack: **faster output, fewer tokens, lower bills** — all at the same price per token."
+      ],
+      "keyFacts": [
+        { "value": "30%", "label": "faster output than Sonnet 5" },
+        { "value": "$1.40 → $0.98", "label": "cost on one example task" },
+        { "value": "70.6%", "label": "agentic coding benchmark score" },
+        { "value": "$2 / $10", "label": "price per million input / output tokens" }
+      ]
+    },
+    "de": {
+      "title": "Wenn KI günstiger wird, weil sie klüger wird",
+      "summary": "Anthropics Sonnet 5.5 kostet bis zu 30 % weniger pro Aufgabe — nicht weil der Preis gesunken ist, sondern weil das Modell weniger Tokens braucht, um dasselbe zu leisten.",
+      "body": [
+        "Die meisten KI-Preissenkungen kommen aus Preiskämpfen — ein Anbieter senkt die Preise, andere folgen. Anthropics Sonnet 5.5, gestern veröffentlicht, ist anders. Der Preis pro Token blieb genau gleich. Stattdessen **kommen die Einsparungen aus Effizienz**: Das Modell braucht weniger Tokens — kleine Texteinheiten, für die KI Geld berechnet — um denselben Job zu erledigen.",
+        "Hier ein konkretes Beispiel. Eine Aufgabe, die bei Sonnet 5 noch 400.000 Input-Tokens verbrauchte, schrumpfte bei Sonnet 5.5 auf 280.000. Der Preis pro Token blieb unverändert — 2 Dollar pro Million Input, 10 Dollar pro Million Output — aber **die Gesamtrechnung sank von 1,40 auf 0,98 Dollar** bei dieser einen Aufgabe. Bei Hunderten von Aufgaben täglich summiert sich das.",
+        "Am auffälligsten ist der Sprung bei der Programmierleistung. Sonnet 5.5 erzielte 70,6 % beim Terminal-Bench, einem Test für KI-Agenten bei echter Programmierarbeit — verglichen mit nur 10,3 % beim alten Sonnet. **Weniger Fehler bedeuten weniger Wiederholungen**, und weniger Wiederholungen bedeuten weniger verbrauchte Tokens.",
+        "Das macht Sonnet 5.5 ideal für alltägliche Aufgaben: Bugs finden, Code prüfen, Dokumente schreiben und Support-Tickets bearbeiten. Zendesk meldete **20 % schnellere Ticketlösung** in frühen Tests. Das Modell ist ab sofort auf Amazon Web Services, Google Cloud und Microsoft Azure verfügbar.",
+        "Wer KI-Aufgaben in größerem Umfang betreibt, sollte Sonnet 5.5 heute auf echten Workflows testen. Die Vorteile addieren sich: **schnellere Ausgabe, weniger Tokens, niedrigere Kosten** — und das zum gleichen Preis pro Token."
+      ],
+      "keyFacts": [
+        { "value": "30%", "label": "schnellere Ausgabe als Sonnet 5" },
+        { "value": "$1.40 → $0.98", "label": "Aufgabenkosten in einem echten Beispiel" },
+        { "value": "70.6%", "label": "Ergebnis im Programmier-Benchmark" },
+        { "value": "$2 / $10", "label": "Preis pro Million Input- / Output-Tokens" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer AI goedkoper wordt doordat het slimmer wordt",
+      "summary": "Anthropics Sonnet 5.5 kost tot 30% minder per taak — niet omdat de prijs daalde, maar omdat het model minder tokens nodig heeft voor hetzelfde werk.",
+      "body": [
+        "De meeste AI-prijsverlagingen komen door prijzenoorlogen — één aanbieder verlaagt, anderen volgen. Anthropics Sonnet 5.5, gisteren uitgebracht, is anders. De prijs per token bleef precies gelijk. In plaats daarvan **komen de besparingen uit efficiëntie**: het model heeft minder tokens nodig — kleine stukjes tekst waarvoor AI je rekent — om dezelfde taak te voltooien.",
+        "Hier is een concreet voorbeeld. Een taak die op Sonnet 5 nog 400.000 input-tokens kostte, kromp op Sonnet 5.5 naar 280.000. De prijs per token veranderde niet — $2 per miljoen input, $10 per miljoen output — maar **de totale rekening daalde van $1,40 naar $0,98** voor die ene taak. Bij honderden taken per dag telt dat snel op.",
+        "De sprong in programmeervaardigheden is het meest opvallende getal. Sonnet 5.5 scoorde 70,6% op Terminal-Bench, een test voor AI-agenten bij echt programmeerwerk — tegenover slechts 10,3% voor de vorige Sonnet. **Minder fouten betekent minder herhalingen**, en minder herhalingen betekent minder gebruikte tokens.",
+        "Dit maakt Sonnet 5.5 ideaal voor dagelijkse taken: bugs opsporen, code reviewen, documenten schrijven en support-tickets afhandelen. Zendesk rapporteerde **20% snellere afhandeling van tickets** in vroege tests. Het model is nu beschikbaar op Amazon Web Services, Google Cloud en Microsoft Azure.",
+        "Als je AI-workflows op enige schaal draait, test Sonnet 5.5 vandaag nog op je echte taken. De voordelen stapelen zich op: **snellere output, minder tokens, lagere kosten** — allemaal voor dezelfde prijs per token."
+      ],
+      "keyFacts": [
+        { "value": "30%", "label": "sneller dan Sonnet 5" },
+        { "value": "$1.40 → $0.98", "label": "taakkosten in een echt voorbeeld" },
+        { "value": "70.6%", "label": "score op de codeer-benchmark" },
+        { "value": "$2 / $10", "label": "prijs per miljoen input- / output-tokens" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA se vuelve más barata al volverse más inteligente",
+      "summary": "El nuevo Sonnet 5.5 de Anthropic cuesta hasta un 30% menos por tarea, no porque bajara el precio, sino porque usa menos tokens para hacer el mismo trabajo.",
+      "body": [
+        "La mayoría de las bajadas de precio en IA vienen de guerras de precios: un proveedor recorta, los demás siguen. El Sonnet 5.5 de Anthropic, lanzado ayer, es distinto. El precio por token se mantuvo exactamente igual. En cambio, **el ahorro viene de la eficiencia**: el modelo necesita menos tokens — pequeños fragmentos de texto que la IA te cobra — para terminar el mismo trabajo.",
+        "Aquí hay un ejemplo concreto. Una tarea que en Sonnet 5 consumía 400.000 tokens de entrada se redujo a 280.000 con Sonnet 5.5. El precio por token no cambió — $2 por millón de entrada, $10 por millón de salida — pero **la factura total bajó de $1,40 a $0,98** en esa sola tarea. Con cientos de tareas al día, eso se acumula.",
+        "El salto en programación es el número más llamativo. Sonnet 5.5 obtuvo un 70,6% en Terminal-Bench, una prueba para agentes de IA en trabajo real de código, frente al 10,3% del Sonnet anterior. **Menos errores significan menos reintentos**, y menos reintentos significan menos tokens gastados.",
+        "Esto convierte a Sonnet 5.5 en la opción ideal para tareas cotidianas: corregir errores, revisar código, redactar documentos y gestionar tickets de soporte. Zendesk reportó **resolución de tickets un 20% más rápida** en pruebas tempranas. El modelo ya está disponible en Amazon Web Services, Google Cloud y Microsoft Azure.",
+        "Si ya usas flujos de trabajo con IA a cierta escala, prueba Sonnet 5.5 en tus tareas reales hoy mismo. Las mejoras se acumulan: **salida más rápida, menos tokens, facturas más bajas** — todo al mismo precio por token."
+      ],
+      "keyFacts": [
+        { "value": "30%", "label": "más rápido que Sonnet 5" },
+        { "value": "$1.40 → $0.98", "label": "coste por tarea en un ejemplo real" },
+        { "value": "70.6%", "label": "puntuación en benchmark de codificación" },
+        { "value": "$2 / $10", "label": "precio por millón de tokens entrada / salida" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA devient moins chère en devenant plus intelligente",
+      "summary": "Le nouveau Sonnet 5.5 d'Anthropic coûte jusqu'à 30 % moins par tâche — non parce que le prix a baissé, mais parce qu'il utilise moins de tokens pour faire le même travail.",
+      "body": [
+        "La plupart des baisses de prix en IA viennent de guerres tarifaires — un acteur coupe, les autres suivent. Le Sonnet 5.5 d'Anthropic, sorti hier, est différent. Le prix par token est resté exactement le même. À la place, **les économies viennent de l'efficacité** : le modèle a besoin de moins de tokens — de petits morceaux de texte que l'IA vous facture — pour terminer le même travail.",
+        "Voici un exemple concret. Une tâche qui consommait 400 000 tokens d'entrée sur Sonnet 5 en a utilisé seulement 280 000 sur Sonnet 5.5. Le prix par token n'a pas changé — 2 $ par million en entrée, 10 $ par million en sortie — mais **la facture totale est passée de 1,40 $ à 0,98 $** pour cette seule tâche. Sur des centaines de tâches par jour, ça s'accumule vite.",
+        "Le bond en programmation est le chiffre le plus frappant. Sonnet 5.5 a obtenu 70,6 % au Terminal-Bench, un test pour agents IA sur du vrai travail de code — contre seulement 10,3 % pour le Sonnet précédent. **Moins d'erreurs signifie moins de relances**, et moins de relances, c'est moins de tokens gaspillés.",
+        "Cela fait de Sonnet 5.5 le modèle idéal pour les tâches quotidiennes : corriger des bugs, réviser du code, rédiger des documents et traiter des tickets de support. Zendesk a rapporté **une résolution de tickets 20 % plus rapide** lors des premiers tests. Le modèle est disponible dès maintenant sur Amazon Web Services, Google Cloud et Microsoft Azure.",
+        "Si vous utilisez déjà des flux de travail IA à une certaine échelle, testez Sonnet 5.5 sur vos vraies tâches dès aujourd'hui. Les gains se cumulent : **sortie plus rapide, moins de tokens, factures réduites** — tout au même prix par token."
+      ],
+      "keyFacts": [
+        { "value": "30%", "label": "plus rapide que Sonnet 5" },
+        { "value": "$1.40 → $0.98", "label": "coût par tâche sur un exemple réel" },
+        { "value": "70.6%", "label": "score au benchmark de codage agentique" },
+        { "value": "$2 / $10", "label": "prix par million de tokens entrée / sortie" }
+      ]
+    },
+    "ar": {
+      "title": "حين يصبح الذكاء الاصطناعي أرخص لأنه أصبح أذكى",
+      "summary": "النموذج الجديد Sonnet 5.5 من Anthropic يُكلَّف أقل بنسبة تصل إلى 30% لكل مهمة، ليس لأن السعر انخفض، بل لأنه يستخدم عدداً أقل من التوكنز لإنجاز نفس العمل.",
+      "body": [
+        "معظم تخفيضات أسعار الذكاء الاصطناعي تنشأ من حروب الأسعار — يخفّض أحد المزوّدين، والبقية يتبعون. Sonnet 5.5 من Anthropic، الذي صدر أمس، مختلف. ظلّ السعر لكل توكن كما هو تماماً. بدلاً من ذلك، **التوفير يأتي من الكفاءة**: يحتاج النموذج توكنات أقل — وهي القطع الصغيرة من النص التي تُحتسب في الفاتورة — لإتمام نفس المهمة.",
+        "إليك مثالاً حقيقياً. مهمة استهلكت 400,000 توكن مدخلة في Sonnet 5 انكمشت إلى 280,000 في Sonnet 5.5. لم يتغيّر السعر لكل توكن — 2 دولار لكل مليون مدخل، و10 دولارات لكل مليون مخرج — لكن **إجمالي الفاتورة انخفض من 1.40 دولار إلى 0.98 دولار** لتلك المهمة وحدها. عند مئات المهام يومياً، يتراكم الفارق بسرعة.",
+        "الأكثر إثارةً هو القفزة في أداء البرمجة. حصل Sonnet 5.5 على 70.6% في اختبار Terminal-Bench المخصص لوكلاء الذكاء الاصطناعي في مهام برمجة حقيقية، مقارنةً بـ 10.3% فقط للإصدار السابق. **أخطاء أقل تعني إعادة محاولات أقل**، وإعادة محاولات أقل تعني توكنات أقل تُهدر.",
+        "هذا يجعل Sonnet 5.5 مثالياً للمهام اليومية المعتادة: إصلاح الأخطاء البرمجية، ومراجعة الكود، وكتابة المستندات، ومعالجة تذاكر الدعم. أفادت Zendesk بـ **تسوية تذاكر أسرع بنسبة 20%** في الاختبارات المبكرة. النموذج متاح الآن على Amazon Web Services وGoogle Cloud وMicrosoft Azure.",
+        "إن كنت تُشغّل مهام الذكاء الاصطناعي بأي حجم، اختبر Sonnet 5.5 على مهامك الفعلية اليوم. المكاسب تتراكم: **مخرجات أسرع، وتوكنات أقل، وفواتير أدنى** — وكل ذلك بالسعر ذاته لكل توكن."
+      ],
+      "keyFacts": [
+        { "value": "30%", "label": "أسرع من Sonnet 5" },
+        { "value": "$1.40 → $0.98", "label": "تكلفة المهمة في مثال حقيقي" },
+        { "value": "70.6%", "label": "نتيجة معيار أداء البرمجة الوكيلية" },
+        { "value": "$2 / $10", "label": "السعر لكل مليون توكن مدخل / مخرج" }
+      ]
+    }
+  }
+}
