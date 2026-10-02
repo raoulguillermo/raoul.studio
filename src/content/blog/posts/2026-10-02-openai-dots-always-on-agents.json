@@ -1,0 +1,121 @@
+{
+  "slug": "2026-10-02-openai-dots-always-on-agents",
+  "date": "2026-10-02",
+  "tags": ["ai", "agents", "openai"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://hyperframeresearch.com/wp-content/uploads/2026/10/cover_openai-devday-expands-from-models-to-the-enterprise-agent-stack.jpg",
+    "alt": "OpenAI DevDay 2026 product launch stage",
+    "credit": "Hyperframe Research"
+  },
+  "sources": [
+    { "title": "The Next Web — OpenAI launches Dots, always-on AI agents with their own cloud computers", "url": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday" },
+    { "title": "The Neuron Daily — OpenAI DevDay 2026: Dots and ChatGPT's Agent OS", "url": "https://www.theneurondaily.com/p/openai-launched-dots-20-more-tools" },
+    { "title": "Hyperframe Research — OpenAI DevDay Expands From Models to the Enterprise Agent Stack", "url": "https://hyperframeresearch.com/2026/10/01/openai-devday-expands-from-models-to-the-enterprise-agent-stack/" },
+    { "title": "MediaNama — OpenAI launches Dots that keep working without user prompts, plus other DevDay updates", "url": "https://www.medianama.com/2026/10/223-openai-launches-dots-devday-2026/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "The AI That Keeps Working When You Stop",
+      "summary": "OpenAI's new Dots are always-on AI agents that run on their own cloud computers — a real shift from AI as a tool you prompt to AI as a worker you supervise.",
+      "body": [
+        "This week, OpenAI launched something different. Not a smarter chatbot — an agent that **keeps working after you close the tab**. They call it a Dot. It runs on its own cloud computer, stays connected to your apps, and picks up tasks on its own. It only asks you before anything important happens.",
+        "That sounds like a small upgrade. It is actually a different idea. Until now, AI was a tool you reached for. You opened it, typed something, got an answer, and moved on. A Dot is more like a background worker — **it notices things and gets started without waiting**. One early user found their Dot had spotted an unpaid invoice, written a draft, and was waiting for their go-ahead.",
+        "The setup matters. Dots connect to over 4,000 apps — email, Slack, Teams, your documents, your code. They run on GPT-6 Astra, OpenAI's most capable model. There is also a cheaper version, GPT-6.1 Sol, which **cuts repeated-task costs by about 95%** — cached text costs just $0.10 per million tokens. The first Dot is free with a Pro or Business Premium plan.",
+        "The real challenge is not the technology. It is trust and permissions. An agent that can send emails, submit code, and draft proposals needs clear rules. OpenAI added approval gates and blocked certain actions by default. But **your team still has to decide where the line sits** — which tasks it can own and which ones need a human sign-off. That is a management question, not a technical one.",
+        "The practical move: pick one specific, repetitive task and run a Dot on it. Not to save hours, but to learn the new skill — **supervising an agent instead of prompting one**. Teams that figure this out early will have a clear head start."
+      ],
+      "keyFacts": [
+        { "value": "4,000+", "label": "apps Dots can connect to" },
+        { "value": "$0.10", "label": "cost per million cached tokens (GPT-6.1 Sol)" },
+        { "value": "~95%", "label": "cost reduction vs. uncached input" },
+        { "value": "20+", "label": "products launched at DevDay 2026" }
+      ]
+    },
+    "de": {
+      "title": "Die KI, die weiterarbeitet, wenn du aufhörst",
+      "summary": "OpenAIs neue Dots sind KI-Agenten, die rund um die Uhr auf eigenen Cloud-Computern laufen — ein echter Wandel von KI als Werkzeug zu KI als Mitarbeiter, den man beaufsichtigt.",
+      "body": [
+        "Diese Woche hat OpenAI etwas anderes auf den Markt gebracht. Keinen intelligenteren Chatbot — sondern einen Agenten, der **weiterarbeitet, wenn du den Tab schließt**. Sie nennen ihn Dot. Er läuft auf seinem eigenen Cloud-Computer, bleibt mit deinen Apps verbunden und beginnt selbstständig Aufgaben. Er fragt nur nach, wenn etwas Wichtiges auf dem Spiel steht.",
+        "Das klingt nach einem kleinen Update. Es ist eigentlich eine ganz andere Idee. Bisher war KI ein Werkzeug, das man holte. Man öffnete es, tippte etwas, bekam eine Antwort, fertig. Ein Dot ist eher wie ein Hintergrundmitarbeiter — **er bemerkt Dinge und fängt an, ohne zu warten**. Ein früher Nutzer fand heraus, dass sein Dot eine unbezahlte Rechnung entdeckt, einen Entwurf geschrieben und auf die Freigabe gewartet hatte.",
+        "Die Details zählen. Dots verbinden sich mit über 4.000 Apps — E-Mail, Slack, Teams, Dokumente, Code. Sie laufen auf GPT-6 Astra, OpenAIs leistungsstärkstem Modell. Es gibt auch eine günstigere Version, GPT-6.1 Sol, die **die Kosten für wiederkehrende Aufgaben um rund 95 % senkt** — gecachter Text kostet nur $0,10 pro Million Token. Der erste Dot ist mit einem Pro- oder Business-Premium-Plan kostenlos.",
+        "Die eigentliche Herausforderung ist nicht die Technologie. Es geht um Vertrauen und Berechtigungen. Ein Agent, der E-Mails senden, Code einreichen und Vorschläge entwerfen kann, braucht klare Regeln. OpenAI hat Freigabetore eingebaut und bestimmte Aktionen standardmäßig blockiert. Aber **dein Team muss immer noch festlegen, wo die Grenze liegt** — welche Aufgaben er allein übernehmen kann und welche menschliche Freigabe brauchen. Das ist eine Managementfrage, keine technische.",
+        "Der praktische Schritt: Wähle eine spezifische, wiederkehrende Aufgabe und lass einen Dot daran arbeiten. Nicht um Stunden zu sparen, sondern um die neue Fähigkeit zu lernen — **einen Agenten zu beaufsichtigen statt ihn anzusteuern**. Teams, die das früh beherrschen, haben einen klaren Vorsprung."
+      ],
+      "keyFacts": [
+        { "value": "4.000+", "label": "Apps, mit denen Dots sich verbinden können" },
+        { "value": "$0,10", "label": "Kosten pro Million gecachter Token (GPT-6.1 Sol)" },
+        { "value": "~95 %", "label": "Kostensenkung gegenüber ungecachten Anfragen" },
+        { "value": "20+", "label": "Produkte beim DevDay 2026 vorgestellt" }
+      ]
+    },
+    "nl": {
+      "title": "De AI die doorwerkt als jij stopt",
+      "summary": "OpenAIs nieuwe Dots zijn altijd-actieve AI-agenten die op hun eigen cloudcomputers draaien — een echte verschuiving van AI als hulpmiddel naar AI als medewerker die je superviseert.",
+      "body": [
+        "Deze week lanceerde OpenAI iets anders. Geen slimmere chatbot — maar een agent die **doorwerkt nadat je het tabblad sluit**. Ze noemen het een Dot. Het draait op zijn eigen cloudcomputer, blijft verbonden met je apps en pakt taken op uit zichzelf. Het vraagt alleen om toestemming als er iets belangrijks op het spel staat.",
+        "Dat klinkt als een kleine upgrade. Het is eigenlijk een ander concept. Tot nu toe was AI een hulpmiddel dat je opzocht. Je opende het, typte iets, kreeg een antwoord, klaar. Een Dot is meer als een medewerker op de achtergrond — **die dingen opmerkt en begint zonder te wachten**. Een vroege gebruiker ontdekte dat zijn Dot een onbetaalde factuur had opgemerkt, een concept had geschreven en op goedkeuring wachtte.",
+        "De details tellen. Dots verbinden met meer dan 4.000 apps — e-mail, Slack, Teams, je documenten, je code. Ze draaien op GPT-6 Astra, OpenAIs krachtigste model. Er is ook een goedkopere versie, GPT-6.1 Sol, die **de kosten van herhalende taken met ongeveer 95% verlaagt** — gecachede tekst kost maar $0,10 per miljoen tokens. De eerste Dot is gratis inbegrepen bij een Pro- of Business Premium-abonnement.",
+        "De echte uitdaging is niet de technologie. Het gaat om vertrouwen en rechten. Een agent die e-mails kan sturen, code kan indienen en voorstellen kan opstellen, heeft duidelijke regels nodig. OpenAI heeft goedkeuringspoorten ingebouwd en bepaalde acties standaard geblokkeerd. Maar **je team moet nog steeds beslissen waar de grens ligt** — welke taken hij zelfstandig mag uitvoeren en welke menselijke goedkeuring vereisen. Dat is een managementvraag, geen technische.",
+        "De praktische stap: kies één specifieke, herhalende taak en laat een Dot eraan werken. Niet om uren te besparen, maar om de nieuwe vaardigheid te leren — **een agent begeleiden in plaats van aansturen**. Teams die dat vroeg beheersen, hebben een duidelijk voordeel."
+      ],
+      "keyFacts": [
+        { "value": "4.000+", "label": "apps waarmee Dots verbinding kunnen maken" },
+        { "value": "$0,10", "label": "kosten per miljoen gecachede tokens (GPT-6.1 Sol)" },
+        { "value": "~95%", "label": "prijsdaling ten opzichte van ongecachede invoer" },
+        { "value": "20+", "label": "producten gelanceerd op DevDay 2026" }
+      ]
+    },
+    "es": {
+      "title": "La IA que sigue trabajando cuando tú paras",
+      "summary": "Los nuevos Dots de OpenAI son agentes de IA que funcionan sin parar en sus propios servidores en la nube — un cambio real de la IA como herramienta a la IA como colaborador que supervisas.",
+      "body": [
+        "Esta semana, OpenAI lanzó algo diferente. No un chatbot más inteligente — sino un agente que **sigue trabajando cuando cierras la pestaña**. Lo llaman Dot. Funciona en su propio servidor en la nube, permanece conectado a tus aplicaciones y empieza tareas por su cuenta. Solo pide permiso cuando algo importante está en juego.",
+        "Suena como una pequeña actualización. En realidad es una idea diferente. Hasta ahora, la IA era una herramienta que tú buscabas. La abrías, escribías algo, obtenías una respuesta, listo. Un Dot es más como un colaborador en segundo plano — **que nota las cosas y empieza sin esperar**. Un usuario temprano descubrió que su Dot había detectado una factura sin pagar, escrito un borrador y estaba esperando su aprobación.",
+        "Los detalles importan. Los Dots se conectan a más de 4.000 aplicaciones — correo, Slack, Teams, tus documentos, tu código. Funcionan con GPT-6 Astra, el modelo más avanzado de OpenAI. También hay una versión más económica, GPT-6.1 Sol, que **reduce los costes de tareas repetidas en un 95%** — el texto en caché cuesta solo $0,10 por millón de tokens. El primer Dot está incluido gratis con un plan Pro o Business Premium.",
+        "El verdadero reto no es la tecnología. Son la confianza y los permisos. Un agente que puede enviar correos, enviar código y redactar propuestas necesita reglas claras. OpenAI añadió puertas de aprobación y bloqueó ciertas acciones por defecto. Pero **tu equipo todavía tiene que decidir dónde está el límite** — qué tareas puede gestionar solo y cuáles necesitan una persona. Es una pregunta de gestión, no técnica.",
+        "El paso práctico: elige una tarea específica y repetitiva y deja que un Dot la gestione. No para ahorrar horas, sino para aprender la nueva habilidad — **supervisar un agente en lugar de darle instrucciones**. Los equipos que lo dominen primero tendrán una ventaja clara."
+      ],
+      "keyFacts": [
+        { "value": "4.000+", "label": "apps a las que los Dots pueden conectarse" },
+        { "value": "$0,10", "label": "coste por millón de tokens en caché (GPT-6.1 Sol)" },
+        { "value": "~95%", "label": "reducción de precio frente a la entrada sin caché" },
+        { "value": "20+", "label": "productos lanzados en DevDay 2026" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA qui continue de travailler quand vous vous arrêtez",
+      "summary": "Les nouveaux Dots d'OpenAI sont des agents IA qui tournent en permanence sur leurs propres serveurs cloud — un vrai changement : l'IA n'est plus un outil qu'on utilise, mais un collaborateur qu'on supervise.",
+      "body": [
+        "Cette semaine, OpenAI a lancé quelque chose de différent. Pas un chatbot plus intelligent — un agent qui **continue de travailler après que vous avez fermé l'onglet**. Ils l'appellent Dot. Il tourne sur son propre serveur cloud, reste connecté à vos applications et prend des tâches de lui-même. Il demande votre avis seulement quand quelque chose d'important est en jeu.",
+        "Ça ressemble à une petite mise à jour. C'est en fait une idée différente. Jusqu'ici, l'IA était un outil qu'on allait chercher. On l'ouvrait, on tapait quelque chose, on obtenait une réponse, c'est tout. Un Dot ressemble davantage à un collaborateur en arrière-plan — **qui remarque les choses et commence sans attendre**. Un premier utilisateur a découvert que son Dot avait repéré une facture impayée, rédigé un brouillon et attendait son feu vert.",
+        "Les détails comptent. Les Dots se connectent à plus de 4 000 applications — e-mail, Slack, Teams, vos documents, votre code. Ils tournent sur GPT-6 Astra, le modèle le plus avancé d'OpenAI. Il existe aussi une version moins chère, GPT-6.1 Sol, qui **réduit les coûts des tâches répétées d'environ 95 %** — le texte en cache ne coûte que $0,10 par million de tokens. Le premier Dot est inclus gratuitement avec un abonnement Pro ou Business Premium.",
+        "Le vrai défi n'est pas la technologie. C'est la confiance et les permissions. Un agent qui peut envoyer des e-mails, soumettre du code et rédiger des propositions a besoin de règles claires. OpenAI a intégré des portes d'approbation et bloqué certaines actions par défaut. Mais **votre équipe doit encore décider où se trouve la limite** — quelles tâches il peut gérer seul et lesquelles nécessitent un accord humain. C'est une question de management, pas de technique.",
+        "Le geste concret : choisissez une tâche spécifique et répétitive et laissez un Dot la gérer. Pas pour gagner des heures, mais pour apprendre la nouvelle compétence — **superviser un agent plutôt que lui donner des instructions**. Les équipes qui maîtrisent ça en premier auront une vraie longueur d'avance."
+      ],
+      "keyFacts": [
+        { "value": "4 000+", "label": "applications auxquelles les Dots peuvent se connecter" },
+        { "value": "$0,10", "label": "coût par million de tokens en cache (GPT-6.1 Sol)" },
+        { "value": "~95 %", "label": "réduction de prix vs. entrée non mise en cache" },
+        { "value": "20+", "label": "produits lancés à DevDay 2026" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي الذي يواصل العمل حين تتوقف أنت",
+      "summary": "دوتس الجديدة من أوبن إيه آي هي وكلاء ذكاء اصطناعي يعملون على خوادم سحابية خاصة بهم على مدار الساعة — تحوّل حقيقي من الذكاء الاصطناعي كأداة تستخدمها إلى موظف تشرف عليه.",
+      "body": [
+        "هذا الأسبوع، أطلقت أوبن إيه آي شيئاً مختلفاً. ليس روبوت محادثة أذكى — بل وكيلاً **يواصل العمل بعد أن تغلق التبويب**. يسمونه دوت. يعمل على حاسوبه السحابي الخاص، ويبقى متصلاً بتطبيقاتك، ويبدأ المهام من تلقاء نفسه. لا يطلب إذناً إلا حين يكون ثمة شيء مهم على المحك.",
+        "يبدو هذا تحديثاً بسيطاً. لكنه في الحقيقة فكرة مختلفة تماماً. حتى الآن، كان الذكاء الاصطناعي أداة تلجأ إليها. تفتحها، تكتب شيئاً، تحصل على إجابة، وانتهى الأمر. الدوت أشبه بموظف في الخلفية — **يلاحظ الأمور ويبدأ دون انتظار**. اكتشف أحد المستخدمين الأوائل أن دوته قد رصد فاتورة غير مدفوعة، وكتب مسودة، وكان ينتظر موافقته.",
+        "التفاصيل مهمة. تتصل دوتس بأكثر من 4,000 تطبيق — البريد الإلكتروني، سلاك، تيمز، مستنداتك، وشفرتك البرمجية. تعمل على نموذج GPT-6 أسترا، أقوى نماذج أوبن إيه آي. هناك أيضاً نسخة أرخص، GPT-6.1 سول، **تخفّض تكلفة المهام المتكررة بنحو 95%** — يبلغ سعر النص المخزّن مؤقتاً $0.10 لكل مليون رمز فقط. الدوت الأول مجاني ضمن خطط برو أو بيزنس بريميوم.",
+        "التحدي الحقيقي ليس في التكنولوجيا. إنه في الثقة والصلاحيات. وكيل يستطيع إرسال بريد إلكتروني وتقديم كود وصياغة مقترحات يحتاج إلى قواعد واضحة. أضافت أوبن إيه آي بوابات موافقة وحجبت بعض الإجراءات تلقائياً. لكن **فريقك لا يزال بحاجة إلى تحديد أين تقع الحدود** — أي المهام يمكنه تولّيها وحده وأيها تحتاج إلى موافقة بشرية. هذا سؤال إداري، ليس تقنياً.",
+        "الخطوة العملية: اختر مهمة واحدة محددة ومتكررة ودع دوتاً يتولاها. ليس لتوفير وقت، بل لتعلّم المهارة الجديدة — **الإشراف على وكيل بدلاً من إعطائه الأوامر**. الفرق التي تتقن هذا مبكراً ستحظى بميزة واضحة."
+      ],
+      "keyFacts": [
+        { "value": "4,000+", "label": "تطبيق يمكن لدوتس الاتصال بها" },
+        { "value": "$0.10", "label": "التكلفة لكل مليون رمز مخزّن (GPT-6.1 سول)" },
+        { "value": "~95%", "label": "انخفاض السعر مقارنة بالمدخلات غير المخزّنة" },
+        { "value": "20+", "label": "منتجاً أُطلق في DevDay 2026" }
+      ]
+    }
+  }
+}
