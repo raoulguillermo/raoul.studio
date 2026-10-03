@@ -1,0 +1,124 @@
+{
+  "slug": "2026-10-03-cheaper-frontier-ai",
+  "date": "2026-10-03",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "AI Weekly — AI News for October 1, 2026",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-01"
+    },
+    {
+      "title": "iThinkDiff — GPT-6.1 Sol: Near-Astra Intelligence at One-Fifth the Price",
+      "url": "https://www.ithinkdiff.com/gpt-6-1-sol-launch-near-astra-intelligence-one-fifth-price/"
+    },
+    {
+      "title": "MetirAI — OpenAI GPT-6.1 Sol: Release, Benchmarks & Pricing 2026",
+      "url": "https://www.metirai.com/blog/openai-gpt-6-1-sol-release-benchmarks-pricing-2026"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Near-Frontier AI Just Got Five Times Cheaper",
+      "summary": "OpenAI's new GPT-6.1 Sol delivers almost the same results as its most powerful model at a fifth of the cost — and that changes the math for anyone automating work with AI.",
+      "body": [
+        "The cost of running powerful AI keeps falling. On September 29, OpenAI launched GPT-6.1 Sol — a model that nearly matches its top model, GPT-6 Astra, on coding and automation tasks. The key difference: it **costs one-fifth of GPT-6 Astra** — $2 per million input tokens versus $10, and $10 per million output tokens versus $50.",
+        "To understand why this matters, think about the cost of automating real business tasks. A benchmark called AutomationBench — which measures how well an AI can complete a full task from start to finish — put GPT-6.1 Sol at **about $0.30 per automated task**. When tasks cost thirty cents instead of a dollar or more, the number of things worth automating grows fast.",
+        "The model also handles a very large amount of text at once. Its context window — the amount it can read in a single call — holds about one million tokens, or roughly 750,000 words. **Entire contracts, codebases, or research files fit in one call.** That makes it practical for the kind of complex, multi-step work that was too costly or slow before.",
+        "On software engineering tests, Sol scores around 75% on a standard benchmark called DeepSWE v1.1 — matching GPT-6 Astra and beating the previous Sol model by more than six percentage points. A separate accuracy test found it makes **fewer errors than its predecessor** at lower reasoning settings — down from 11.4% to 7.7%.",
+        "The pattern is steady: every few months, what cost $10 costs $2. What used to require the most expensive model now works at mid-tier prices. If your team ran the numbers on an AI automation project six months ago and passed, **that calculation is worth redoing today**."
+      ],
+      "keyFacts": [
+        { "value": "$2", "label": "per million input tokens" },
+        { "value": "1/5", "label": "of GPT-6 Astra's price" },
+        { "value": "~75%", "label": "DeepSWE v1.1 benchmark score" },
+        { "value": "$0.30", "label": "per automated task (AutomationBench)" }
+      ]
+    },
+    "de": {
+      "title": "Leistungsstarke KI ist gerade fünfmal günstiger geworden",
+      "summary": "OpenAIs neues Modell GPT-6.1 Sol liefert fast die gleichen Ergebnisse wie das leistungsstärkste Modell — zu einem Fünftel des Preises, was die Wirtschaftlichkeit von KI-Automatisierung grundlegend verändert.",
+      "body": [
+        "Die Kosten für leistungsstarke KI sinken weiter. Am 29. September stellte OpenAI GPT-6.1 Sol vor — ein Modell, das bei Programmier- und Automatisierungsaufgaben fast mit dem Spitzenmodell GPT-6 Astra mithalten kann. Der entscheidende Unterschied: Es **kostet ein Fünftel von GPT-6 Astra** — zwei Dollar pro Million Eingabe-Tokens statt zehn, und zehn Dollar pro Million Ausgabe-Tokens statt fünfzig.",
+        "Um zu verstehen, warum das wichtig ist, denke an die Kosten echter Geschäftsaufgaben. Ein Benchmark namens AutomationBench — der misst, wie gut eine KI eine Aufgabe von Anfang bis Ende erledigt — ermittelte für GPT-6.1 Sol **etwa 0,30 Dollar pro automatisierter Aufgabe**. Wenn Aufgaben dreißig Cent statt einem Dollar oder mehr kosten, wächst die Zahl lohnender Automatisierungen schnell.",
+        "Das Modell verarbeitet außerdem sehr viel Text auf einmal. Sein Kontextfenster — die Menge, die es in einem Aufruf lesen kann — fasst rund eine Million Tokens, also etwa 750.000 Wörter. **Ganze Verträge, Codebases oder Forschungsdokumente passen in einen Aufruf.** Das macht es praktisch für komplexe, mehrstufige Arbeit, die bisher zu teuer oder zu langsam war.",
+        "Bei Software-Engineering-Tests erreicht Sol rund 75 % auf DeepSWE v1.1 — gleichauf mit GPT-6 Astra und mehr als sechs Prozentpunkte besser als das alte Sol. Ein separater Genauigkeitstest zeigt, dass es **weniger Fehler als sein Vorgänger** macht — von 11,4 % auf 7,7 % bei niedrigeren Einstellungen.",
+        "Das Muster ist beständig: Alle paar Monate kostet, was zehn Dollar kostete, nur noch zwei. Wer vor sechs Monaten die Zahlen für ein KI-Automatisierungsprojekt gerechnet hat und abgewinkt hat, für den gilt: **Diese Rechnung lohnt sich heute neu**."
+      ],
+      "keyFacts": [
+        { "value": "$2", "label": "pro Million Eingabe-Tokens" },
+        { "value": "1/5", "label": "des Preises von GPT-6 Astra" },
+        { "value": "~75%", "label": "DeepSWE-v1.1-Benchmark" },
+        { "value": "$0.30", "label": "pro automatisierter Aufgabe" }
+      ]
+    },
+    "nl": {
+      "title": "Geavanceerde AI is vijf keer goedkoper geworden",
+      "summary": "OpenAI's nieuwe model GPT-6.1 Sol haalt bijna hetzelfde niveau als het krachtigste AI-model, maar kost een vijfde van de prijs — wat de businesscase voor AI-automatisering ingrijpend verandert.",
+      "body": [
+        "De kosten van krachtige AI blijven dalen. Op 29 september lanceerde OpenAI GPT-6.1 Sol — een model dat bij codeer- en automatiseringstaken bijna evengoed presteert als het topmodel GPT-6 Astra. Het grote verschil: het **kost een vijfde van GPT-6 Astra** — twee dollar per miljoen invoer-tokens in plaats van tien, en tien dollar per miljoen uitvoer-tokens in plaats van vijftig.",
+        "Om te begrijpen waarom dit belangrijk is: denk aan de kosten van echte zakelijke taken. Een benchmark genaamd AutomationBench — die meet hoe goed een AI een volledige taak uitvoert — zette GPT-6.1 Sol op **ongeveer $0,30 per geautomatiseerde taak**. Als taken dertig cent kosten in plaats van een dollar of meer, wordt veel meer de moeite waard om te automatiseren.",
+        "Het model verwerkt ook een enorme hoeveelheid tekst tegelijk. Zijn contextvenster — de hoeveelheid die het in één aanroep kan lezen — bevat zo'n één miljoen tokens, ofwel ongeveer 750.000 woorden. **Volledige contracten, codebases of onderzoeksdossiers passen in één aanroep.** Dat maakt het praktisch voor complexe, meerstapsworkflows die eerder te duur of te traag waren.",
+        "Op software-engineeringtests scoort Sol ongeveer 75% op DeepSWE v1.1 — gelijk aan GPT-6 Astra en meer dan zes procentpunten boven de vorige Sol. Een aparte nauwkeurigheidstest laat zien dat het **minder fouten maakt dan zijn voorganger** — van 11,4% naar 7,7% bij lagere redeneerinstellingen.",
+        "Het patroon is consistent: elke paar maanden daalt wat tien dollar kostte naar twee dollar. Als je team een halfjaar geleden de businesscase voor AI-automatisering doorrekende en afhaakte, **is die berekening vandaag het opnieuw proberen waard**."
+      ],
+      "keyFacts": [
+        { "value": "$2", "label": "per miljoen invoer-tokens" },
+        { "value": "1/5", "label": "van de prijs van GPT-6 Astra" },
+        { "value": "~75%", "label": "DeepSWE v1.1-benchmark" },
+        { "value": "$0.30", "label": "per geautomatiseerde taak" }
+      ]
+    },
+    "es": {
+      "title": "La IA de frontera acaba de volverse cinco veces más barata",
+      "summary": "El nuevo modelo de OpenAI, GPT-6.1 Sol, ofrece casi el mismo rendimiento que el modelo más potente pero a un quinto del precio — lo que cambia los números para cualquiera que automatice trabajo con IA.",
+      "body": [
+        "El costo de usar IA potente sigue bajando. El 29 de septiembre, OpenAI lanzó GPT-6.1 Sol — un modelo que casi iguala a GPT-6 Astra en tareas de programación y automatización. La diferencia clave: **cuesta un quinto de lo que cuesta GPT-6 Astra** — dos dólares por millón de tokens de entrada frente a diez, y diez dólares por millón de tokens de salida frente a cincuenta.",
+        "Para entender por qué importa, piensa en el costo de automatizar trabajo real. Un benchmark llamado AutomationBench — que mide qué tan bien una IA completa una tarea de principio a fin — registró GPT-6.1 Sol en **aproximadamente $0,30 por tarea automatizada**. Cuando las tareas cuestan treinta centavos en lugar de un dólar o más, el número de cosas que vale la pena automatizar crece rápido.",
+        "El modelo también maneja una gran cantidad de texto a la vez. Su ventana de contexto — la cantidad que puede leer en una sola llamada — contiene alrededor de un millón de tokens, o unas 750.000 palabras. **Contratos enteros, bases de código o archivos de investigación caben en una llamada.** Eso lo hace práctico para flujos de trabajo complejos que antes eran demasiado costosos o lentos.",
+        "En pruebas de ingeniería de software, Sol alcanza alrededor del 75% en DeepSWE v1.1 — igualando a GPT-6 Astra y superando al Sol anterior en más de seis puntos porcentuales. Un test de precisión separado encontró que **comete menos errores que su predecesor** — bajando de 11,4% a 7,7% en configuraciones de razonamiento más bajas.",
+        "El patrón es constante: cada pocos meses, lo que costaba diez dólares cuesta dos. Si tu equipo analizó los números de un proyecto de automatización con IA hace seis meses y lo descartó por caro, **esa cuenta vale la pena rehacerla hoy**."
+      ],
+      "keyFacts": [
+        { "value": "$2", "label": "por millón de tokens de entrada" },
+        { "value": "1/5", "label": "del precio de GPT-6 Astra" },
+        { "value": "~75%", "label": "en el benchmark DeepSWE v1.1" },
+        { "value": "$0.30", "label": "por tarea automatizada" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA de pointe vient de coûter cinq fois moins cher",
+      "summary": "Le nouveau modèle GPT-6.1 Sol d'OpenAI offre presque les mêmes performances que le modèle le plus puissant, mais à un cinquième du prix — ce qui change le calcul pour quiconque automatise des tâches avec l'IA.",
+      "body": [
+        "Le coût de l'IA puissante continue de baisser. Le 29 septembre, OpenAI a lancé GPT-6.1 Sol — un modèle qui égale presque GPT-6 Astra sur les tâches de codage et d'automatisation. La différence clé : il **coûte un cinquième de GPT-6 Astra** — deux dollars par million de tokens en entrée contre dix, et dix dollars par million de tokens en sortie contre cinquante.",
+        "Pour comprendre pourquoi c'est important, pensez au coût réel de l'automatisation. Un benchmark appelé AutomationBench — qui mesure la capacité d'une IA à mener une tâche de bout en bout — a évalué GPT-6.1 Sol à **environ 0,30 $ par tâche automatisée**. Quand les tâches coûtent trente centimes au lieu d'un dollar ou plus, le nombre de choses rentables à automatiser augmente vite.",
+        "Le modèle traite aussi une très grande quantité de texte en une seule fois. Sa fenêtre de contexte — ce qu'il peut lire en un seul appel — contient environ un million de tokens, soit quelque 750 000 mots. **Des contrats entiers, des bases de code ou de longs fichiers de recherche tiennent en un seul appel.** Cela le rend pratique pour des workflows complexes qui étaient auparavant trop coûteux ou trop lents.",
+        "Sur les tests d'ingénierie logicielle, Sol atteint environ 75 % sur DeepSWE v1.1 — à égalité avec GPT-6 Astra et plus de six points au-dessus de l'ancien Sol. Un test de précision séparé montre qu'il **fait moins d'erreurs que son prédécesseur** — passant de 11,4 % à 7,7 % à des niveaux de raisonnement plus faibles.",
+        "Le schéma est régulier : tous les quelques mois, ce qui coûtait dix dollars en coûte deux. Si votre équipe a fait les calculs sur un projet d'automatisation IA il y a six mois et y a renoncé, **ces calculs méritent d'être refaits aujourd'hui**."
+      ],
+      "keyFacts": [
+        { "value": "$2", "label": "par million de tokens en entrée" },
+        { "value": "1/5", "label": "du prix de GPT-6 Astra" },
+        { "value": "~75%", "label": "score sur DeepSWE v1.1" },
+        { "value": "$0.30", "label": "par tâche automatisée" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي المتقدم أصبح أرخص بخمسة أضعاف",
+      "summary": "نموذج GPT-6.1 Sol الجديد من OpenAI يقدم أداءً يقارب أقوى النماذج لكن بخُمس السعر — مما يغير حسابات الجدوى لكل من يوظّف الذكاء الاصطناعي في أتمتة الأعمال.",
+      "body": [
+        "تكلفة الذكاء الاصطناعي القوي تواصل انخفاضها. في 29 سبتمبر، أطلقت OpenAI نموذج GPT-6.1 Sol — وهو نموذج يضاهي GPT-6 Astra تقريباً في مهام البرمجة والأتمتة. الفارق الرئيسي: **يكلف خُمس سعر GPT-6 Astra** — دولاران لكل مليون رمز إدخال بدلاً من عشرة، وعشرة دولارات لكل مليون رمز إخراج بدلاً من خمسين.",
+        "لفهم أهمية ذلك، فكّر في تكلفة أتمتة الأعمال الفعلية. اختبار يُسمى AutomationBench — يقيس مدى قدرة الذكاء الاصطناعي على إتمام مهمة كاملة من البداية إلى النهاية — سجّل GPT-6.1 Sol عند **نحو 0.30 دولار لكل مهمة مؤتمتة**. حين تكلف المهام ثلاثين سنتاً بدلاً من دولار أو أكثر، يتسع نطاق ما يستحق الأتمتة بسرعة.",
+        "يتعامل النموذج أيضاً مع كميات ضخمة من النصوص دفعةً واحدة. نافذة السياق لديه — وهي القدر الذي يمكنه قراءته في استدعاء واحد — تتسع لنحو مليون رمز، أي ما يعادل 750,000 كلمة تقريباً. **عقود كاملة وقواعد بيانات وملفات بحثية طويلة تناسب استدعاءً واحداً.** هذا يجعله عملياً للعمليات المعقدة متعددة الخطوات التي كانت مكلفة أو بطيئة في السابق.",
+        "في اختبارات هندسة البرمجيات، يحقق Sol نحو 75% على DeepSWE v1.1 — مساوياً لـ GPT-6 Astra ومتجاوزاً النسخة السابقة بأكثر من ست نقاط مئوية. واختبار دقة منفصل أظهر أنه **يُخطئ أقل من سابقه** — من 11.4% إلى 7.7% عند إعدادات الاستدلال المنخفضة.",
+        "النمط ثابت: كل بضعة أشهر، ما كان يكلف عشرة دولارات أصبح يكلف اثنين. إذا قام فريقك بحساب جدوى مشروع أتمتة بالذكاء الاصطناعي قبل ستة أشهر وأحجم عنه بسبب التكلفة، **فإن تلك الحسابات تستحق الإعادة اليوم**."
+      ],
+      "keyFacts": [
+        { "value": "$2", "label": "لكل مليون رمز إدخال" },
+        { "value": "1/5", "label": "من سعر GPT-6 Astra" },
+        { "value": "~75%", "label": "على معيار DeepSWE v1.1" },
+        { "value": "$0.30", "label": "لكل مهمة مؤتمتة" }
+      ]
+    }
+  }
+}
