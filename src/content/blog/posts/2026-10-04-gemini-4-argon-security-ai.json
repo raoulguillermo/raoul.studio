@@ -1,0 +1,118 @@
+{
+  "slug": "2026-10-04-gemini-4-argon-security-ai",
+  "date": "2026-10-04",
+  "tags": ["ai", "security"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "The Next Web — Google unveils Gemini 4 Argon, and cyber defenders get it first",
+      "url": "https://thenextweb.com/news/google-gemini-4-argon-cyber-defenders-fairwind"
+    },
+    {
+      "title": "Runtime Wire — Google gives Gemini 4 Argon to cyber defenders before public release",
+      "url": "https://runtimewire.com/article/google-gemini-4-argon-cyber-defenders"
+    },
+    {
+      "title": "AI Weekly — AI News for October 1, 2026",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-01"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI just caught a security flaw that all previous models missed",
+      "summary": "Google's Gemini 4 Argon found a critical vulnerability in hospital software that earlier AI models had overlooked — a signal that AI-powered security review is moving from helpful to essential.",
+      "body": [
+        "Security firm Wiz, using Google's new Gemini 4 Argon, found a critical flaw in healthcare software used by hospitals worldwide. Earlier frontier AI models had scanned the same code and missed it. **This AI found what other AI could not.** That shift — from helpful to essential — changes how every security team should think about the tools in its process.",
+        "Google launched Argon on September 30, giving access first through its Fairwind Program — a restricted group including governments and critical-infrastructure operators. The model was built for long, complex work: vulnerability discovery, large codebase review, finance and legal analysis. Its context window holds one million output tokens, up from 64,000 — meaning it reads an entire large codebase in a single pass. On the CWE-bench security test, it **tied for first place at 68%** — the best any AI has scored on this measure of real vulnerability fixing.",
+        "The Fairwind rollout is deliberate. Google gives defenders access without the usual safety guardrails that limit what a consumer AI will analyze. The logic is the same as giving a penetration tester root access: **you need full visibility to find what hides.** This is the first time a major AI lab has made a security-focused early-access tier a formal part of its launch strategy.",
+        "For any team that ships software, the message is practical. An AI that reads millions of lines in minutes and flags patterns that previous tools missed is not a replacement for a security engineer — it is a force multiplier. **Code review without AI now means missing things.** Running a full security scan on your codebase costs a few dollars a day — the bar to get started has never been lower."
+      ],
+      "keyFacts": [
+        { "value": "68%", "label": "on CWE-bench — tied for first in fixing real security flaws" },
+        { "value": "77.9%", "label": "on DeepSWE v1.1 software engineering benchmark" },
+        { "value": "1M tokens", "label": "context window — reads entire large codebases at once" },
+        { "value": "Sept 30", "label": "launch date; cyber defenders get access first" }
+      ]
+    },
+    "de": {
+      "title": "Eine KI entdeckte eine Sicherheitslücke, die alle anderen Modelle übersehen hatten",
+      "summary": "Googles Gemini 4 Argon fand eine kritische Schwachstelle in Krankenhaus-Software, die frühere KI-Modelle übersehen hatten — ein Zeichen dafür, dass KI-gestützte Sicherheitsprüfung unverzichtbar wird.",
+      "body": [
+        "Sicherheitsfirma Wiz fand mithilfe von Googles neuem Gemini 4 Argon eine kritische Schwachstelle in Software, die in Krankenhäusern weltweit eingesetzt wird. Frühere Frontier-KI-Modelle hatten denselben Code geprüft und sie übersehen. **Diese KI fand, was andere KI nicht konnte.** Dieser Wandel — von hilfreich zu unverzichtbar — verändert, wie jedes Sicherheitsteam über die Werkzeuge in seinem Prozess nachdenken sollte.",
+        "Google veröffentlichte Argon am 30. September und gab über das Fairwind-Programm zuerst ausgewählten Gruppen Zugang — darunter Regierungen und Betreiber kritischer Infrastruktur. Das Modell wurde für lange, komplexe Aufgaben entwickelt: Schwachstellensuche, Überprüfung großer Codebasen, Finanz- und Rechtsanalyse. Das Kontextfenster fasst eine Million Ausgabe-Tokens, gegenüber früher 64.000 — es kann also eine gesamte große Codebasis in einem Durchgang lesen. Im CWE-Bench-Sicherheitstest **belegte es mit 68 Prozent den ersten Platz** — die bisher beste Punktzahl für das Beheben echter Sicherheitslücken.",
+        "Das Fairwind-Vorgehen ist bewusst gewählt. Google gibt Verteidigern Zugang ohne die üblichen Sicherheitseinschränkungen, die in Verbraucherversionen begrenzen, was eine KI analysieren darf. Die Logik ist dieselbe wie beim Root-Zugriff für Penetrationstester: **Volle Transparenz ist nötig, um zu finden, was sich versteckt.** Es ist das erste Mal, dass ein großes KI-Labor einen sicherheitsorientierten Early-Access-Tier als festen Teil seines Launches eingeführt hat.",
+        "Für jedes Team, das Software entwickelt und betreibt, ist das Signal praktisch. Eine KI, die Millionen von Codezeilen in Minuten liest und Muster markiert, die frühere Tools übersehen haben, ersetzt keinen Sicherheitsingenieur — sie macht ihn stärker. **Ohne KI im Code-Review übersieht man heute Dinge.** Eine vollständige Sicherheitsprüfung der eigenen Codebasis ist für wenige Dollar täglich möglich — die Einstiegshürde war noch nie so niedrig."
+      ],
+      "keyFacts": [
+        { "value": "68%", "label": "im CWE-Bench — Platz 1 beim Beheben echter Sicherheitslücken" },
+        { "value": "77,9%", "label": "im DeepSWE-v1.1-Software-Engineering-Benchmark" },
+        { "value": "1 Mio. Tokens", "label": "Kontextfenster — liest ganze große Codebasen auf einmal" },
+        { "value": "30. Sept.", "label": "Startdatum; Cyber-Verteidiger erhalten zuerst Zugang" }
+      ]
+    },
+    "nl": {
+      "title": "Een AI vond een beveiligingsfout die alle andere modellen over het hoofd zagen",
+      "summary": "Googles Gemini 4 Argon ontdekte een kritieke kwetsbaarheid in ziekenhuissoftware die eerdere AI-modellen hadden gemist — een signaal dat AI-gedreven beveiligingsreview onmisbaar wordt.",
+      "body": [
+        "Beveiligingsbedrijf Wiz vond met Googles nieuwe Gemini 4 Argon een kritieke fout in software die in ziekenhuizen wereldwijd wordt gebruikt. Eerdere frontier-AI-modellen hadden dezelfde code gescand en de fout gemist. **Deze AI vond wat andere AI niet kon.** Die verschuiving — van handig naar onmisbaar — verandert hoe elk beveiligingsteam over de tools in zijn proces zou moeten nadenken.",
+        "Google lanceerde Argon op 30 september en gaf via het Fairwind-programma eerst toegang aan een beperkte groep — waaronder overheden en operators van kritieke infrastructuur. Het model is gebouwd voor lange, complexe taken: het opsporen van kwetsbaarheden, het reviewen van grote codebases, en juridische en financiële analyse. Het contextvenster verwerkt één miljoen uitvoertokens — tegenover 64.000 eerder — zodat het een volledige grote codebase in één doorgang leest. Op de CWE-bench beveiligingstest **deelde het de eerste plaats met 68%** — de beste score die een AI ooit haalde op dit meetpunt voor het oplossen van echte beveiligingsfouten.",
+        "De Fairwind-aanpak is doelbewust. Google geeft verdedigers toegang zonder de gebruikelijke beperkingen die in consumentenversies limiteren wat een AI mag analyseren. De logica is dezelfde als bij root-toegang voor een penetratietester: **Volledig zicht is nodig om te vinden wat verborgen zit.** Het is de eerste keer dat een groot AI-lab een beveiligingsgericht early-access-tier als formeel onderdeel van zijn lancering heeft opgezet.",
+        "Voor elk team dat software bouwt en uitbrengt, is het signaal praktisch. Een AI die miljoenen regels code in minuten leest en patronen markeert die eerdere tools misten, vervangt geen beveiligingsingenieur — het maakt er een sterker. **Code-review zonder AI betekent nu dingen missen.** Een volledige beveiligingsscan van je codebase uitvoeren kost een paar dollar per dag — de drempel om te beginnen is nog nooit zo laag geweest."
+      ],
+      "keyFacts": [
+        { "value": "68%", "label": "op CWE-bench — gedeeld eerste in het oplossen van echte beveiligingsfouten" },
+        { "value": "77,9%", "label": "op DeepSWE v1.1 softwaretest" },
+        { "value": "1M tokens", "label": "contextvenster — leest volledige grote codebases in één keer" },
+        { "value": "30 sept.", "label": "lanceerdatum; beveiligingsverdedigers krijgen als eerste toegang" }
+      ]
+    },
+    "es": {
+      "title": "Una IA encontró una brecha de seguridad que todos los modelos anteriores pasaron por alto",
+      "summary": "El Gemini 4 Argon de Google encontró una vulnerabilidad crítica en software hospitalario que modelos de IA anteriores habían ignorado — una señal de que la revisión de seguridad con IA se vuelve indispensable.",
+      "body": [
+        "La firma de seguridad Wiz, usando el nuevo Gemini 4 Argon de Google, encontró una falla crítica en software utilizado por hospitales en todo el mundo. Modelos de IA de última generación anteriores habían escaneado el mismo código y no la detectaron. **Esta IA encontró lo que otra IA no pudo.** Ese cambio — de útil a imprescindible — transforma cómo cada equipo de seguridad debería pensar en las herramientas de su proceso.",
+        "Google lanzó Argon el 30 de septiembre, dando acceso primero a través de su programa Fairwind — un grupo restringido que incluye gobiernos y operadores de infraestructura crítica. El modelo fue diseñado para tareas largas y complejas: descubrimiento de vulnerabilidades, revisión de grandes bases de código, análisis legal y financiero. Su ventana de contexto admite un millón de tokens de salida — frente a 64.000 antes — lo que le permite leer toda una base de código grande en un solo paso. En el test de seguridad CWE-bench, **empató en primer lugar con un 68%** — la mejor puntuación que ha obtenido ninguna IA en esta medida de corrección de vulnerabilidades reales.",
+        "El despliegue por Fairwind es deliberado. Google da a los defensores acceso sin las restricciones de seguridad habituales que en versiones de consumo limitan lo que una IA puede analizar. La lógica es la misma que dar acceso root a un tester de penetración: **necesitas visibilidad total para encontrar lo que se oculta.** Es la primera vez que un gran laboratorio de IA estructura un acceso temprano enfocado en seguridad como parte formal de su lanzamiento.",
+        "Para cualquier equipo que desarrolle y distribuya software, la señal es práctica. Una IA que lee millones de líneas en minutos y señala patrones que herramientas anteriores pasaron por alto no reemplaza a un ingeniero de seguridad — lo hace más poderoso. **Revisar código sin IA hoy significa perderse cosas.** Ejecutar un análisis de seguridad completo en tu base de código cuesta unos pocos dólares al día — el umbral para empezar nunca ha sido más bajo."
+      ],
+      "keyFacts": [
+        { "value": "68%", "label": "en CWE-bench — primero en corrección de vulnerabilidades reales" },
+        { "value": "77,9%", "label": "en el benchmark de ingeniería de software DeepSWE v1.1" },
+        { "value": "1M tokens", "label": "ventana de contexto — lee bases de código completas de una vez" },
+        { "value": "30 sept.", "label": "fecha de lanzamiento; primero para defensores de ciberseguridad" }
+      ]
+    },
+    "fr": {
+      "title": "Une IA vient de trouver une faille de sécurité que tous les modèles précédents avaient manquée",
+      "summary": "Le Gemini 4 Argon de Google a trouvé une vulnérabilité critique dans un logiciel hospitalier que les modèles d'IA précédents avaient manquée — un signal que la revue de sécurité par IA devient indispensable.",
+      "body": [
+        "La société de sécurité Wiz, en utilisant le nouveau Gemini 4 Argon de Google, a trouvé une faille critique dans un logiciel déployé dans des hôpitaux du monde entier. Des modèles d'IA de pointe précédents avaient analysé le même code et n'avaient rien vu. **Cette IA a trouvé ce qu'aucune autre IA n'avait pu.** Ce changement — de pratique à indispensable — transforme la façon dont chaque équipe de sécurité devrait penser aux outils de son processus.",
+        "Google a lancé Argon le 30 septembre, en donnant accès en priorité via son programme Fairwind — un groupe restreint comprenant des gouvernements et des opérateurs d'infrastructures critiques. Le modèle a été conçu pour des tâches longues et complexes : découverte de vulnérabilités, revue de grandes bases de code, analyse juridique et financière. Sa fenêtre de contexte supporte un million de tokens en sortie — contre 64 000 auparavant — ce qui lui permet de lire une grande base de code entière en une seule passe. Sur le test de sécurité CWE-bench, il **a partagé la première place avec un score de 68 %** — la meilleure performance jamais obtenue par une IA sur cette mesure de correction de vraies failles.",
+        "Le déploiement via Fairwind est délibéré. Google donne aux défenseurs un accès sans les restrictions de sécurité habituelles qui limitent, dans les versions grand public, ce qu'une IA peut analyser. La logique est la même que d'accorder un accès root à un testeur d'intrusion : **il faut une visibilité totale pour trouver ce qui se cache.** C'est la première fois qu'un grand laboratoire d'IA structure un accès anticipé dédié à la sécurité comme partie formelle de son lancement.",
+        "Pour toute équipe qui développe et distribue des logiciels, le message est concret. Une IA qui lit des millions de lignes de code en quelques minutes et signale des patterns que les outils précédents ont ratés ne remplace pas un ingénieur en sécurité — elle le rend plus efficace. **Une revue de code sans IA, c'est rater des choses aujourd'hui.** Lancer un audit de sécurité complet sur votre base de code coûte désormais quelques dollars par jour — la barrière à l'entrée n'a jamais été aussi basse."
+      ],
+      "keyFacts": [
+        { "value": "68%", "label": "sur CWE-bench — premier ex-æquo pour corriger de vraies failles" },
+        { "value": "77,9%", "label": "sur le benchmark DeepSWE v1.1 en ingénierie logicielle" },
+        { "value": "1M tokens", "label": "fenêtre de contexte — lit une grande base de code entière en une passe" },
+        { "value": "30 sept.", "label": "date de lancement ; les défenseurs cyber y accèdent en premier" }
+      ]
+    },
+    "ar": {
+      "title": "ذكاء اصطناعي اكتشف ثغرة أمنية فاتت جميع النماذج السابقة",
+      "summary": "اكتشف نموذج Gemini 4 Argon من Google ثغرة خطيرة في برامج مستشفيات فاتت نماذج الذكاء الاصطناعي السابقة — وهذا يُشير إلى أن مراجعة الأمن بالذكاء الاصطناعي باتت ضرورة لا رفاهية.",
+      "body": [
+        "اكتشفت شركة الأمن Wiz، باستخدام نموذج Google الجديد Gemini 4 Argon، ثغرة خطيرة في برامج تعمل بها مستشفيات في جميع أنحاء العالم. نماذج ذكاء اصطناعي حديثة سابقة كانت قد فحصت الكود ذاته ولم تلاحظ شيئاً. **هذا النموذج وجد ما عجز عنه نموذج آخر.** هذا التحول — من مفيد إلى لا غنى عنه — يُغير الطريقة التي ينبغي أن يفكر بها كل فريق أمن في أدوات سير عمله.",
+        "أطلقت Google نموذج Argon في 30 سبتمبر، مانحةً الوصول أولاً عبر برنامج Fairwind — وهو مجموعة مقيّدة تضم حكومات ومشغّلي بنية تحتية حيوية. صُمِّم النموذج لمهام طويلة ومعقدة: اكتشاف الثغرات، ومراجعة قواعد الكود الضخمة، والتحليل القانوني والمالي. تتسع نافذة سياقه لمليون وحدة نصية من المخرجات — مقارنةً بـ64,000 سابقاً — مما يتيح له قراءة قاعدة كود ضخمة كاملة في مرور واحد. في اختبار الأمن CWE-bench، **حلّ في المرتبة الأولى مشاركاً بنسبة 68%** — أفضل نتيجة سجّلها أي نموذج ذكاء اصطناعي في قياس إصلاح الثغرات الحقيقية.",
+        "إطلاق Fairwind مقصود ومدروس. تمنح Google المدافعين وصولاً دون القيود الأمنية المعتادة التي تحدّ في النسخ الاستهلاكية مما يمكن للنموذج تحليله. المنطق هو ذاته كمنح صلاحيات مسؤول النظام لمختبر الاختراق: **تحتاج إلى رؤية كاملة لتجد ما يختبئ.** وهذه أول مرة يجعل فيها مختبر ذكاء اصطناعي كبير مرحلة وصول مبكر مخصصة للأمن جزءاً رسمياً من استراتيجية إطلاقه.",
+        "لأي فريق يطور برمجيات ويُوزّعها، الرسالة عملية. نموذج يقرأ ملايين الأسطر البرمجية في دقائق ويُعلم على أنماط فاتت الأدوات السابقة لا يُحل محل مهندس الأمن — بل يُضاعف قدراته. **مراجعة الكود بدون ذكاء اصطناعي تعني تفويت أشياء اليوم.** إجراء فحص أمني شامل لقاعدة الكود الخاصة بك بات ممكناً بضعة دولارات في اليوم — ولم يكن الحاجز للبدء أدنى من ذلك قط."
+      ],
+      "keyFacts": [
+        { "value": "68%", "label": "في اختبار CWE-bench — الأول مشاركاً في إصلاح الثغرات الحقيقية" },
+        { "value": "77.9%", "label": "في معيار DeepSWE v1.1 لهندسة البرمجيات" },
+        { "value": "1M وحدة نصية", "label": "نافذة السياق — تقرأ قواعد الكود الضخمة كاملة دفعة واحدة" },
+        { "value": "30 سبتمبر", "label": "تاريخ الإطلاق؛ المدافعون السيبرانيون يحصلون على الوصول أولاً" }
+      ]
+    }
+  }
+}
