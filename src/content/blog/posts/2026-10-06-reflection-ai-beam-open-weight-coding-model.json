@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-06-reflection-ai-beam-open-weight-coding-model",
+  "date": "2026-10-06",
+  "tags": ["ai", "open-source"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Reflection AI — Introducing Beam",
+      "url": "https://reflection.ai/blog/introducing-beam"
+    },
+    {
+      "title": "LLM Stats — AI News Today (October 2026)",
+      "url": "https://llm-stats.com/ai-news"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When the best AI coding model becomes free to run yourself",
+      "summary": "Reflection AI's new open model Beam matches frontier AI performance on coding tasks and will soon be free for any team to host on its own servers.",
+      "body": [
+        "Most powerful AI models for coding work the same way: you pay every time you use them. You pay per token — a small chunk of text, roughly three-quarters of a word — and the best models cost between $10 and $30 for every million tokens. For a team writing a lot of code with AI help, **those bills can grow very large very fast**.",
+        "On October 5, a startup called Reflection AI launched a model named Beam. Beam was built specifically for coding and for running automated AI tasks — the kind where the AI takes a series of steps on its own to get something done. It scored 80.9 on SWE-Bench Verified, a standard test that measures how well an AI can fix real software bugs, placing it among the best open models in the world. The weights — the actual files that make the model work — **will be released free under an Apache 2.0 license** later this month.",
+        "The reason Beam can be so efficient is how it is built. It has 501 billion parameters — the internal numbers that control what the model knows and how it thinks — but **only 23 billion are active for any given task**. This design, called a Mixture-of-Experts, works like a large team where only the right specialists show up for each job. Reflection says this means Beam uses three to four times less computing power than rival open models of similar quality.",
+        "For any team building software, running AI agents, or automating repetitive work, this is a meaningful shift. Today, using top-tier AI for those tasks means paying a per-token bill to OpenAI or Anthropic that grows with every action the AI takes. With a model like Beam running on your own servers, **the cost becomes a flat, predictable infrastructure expense** — and your data never has to leave your systems. The weights are not yet publicly available, but once they land, the economics of AI-assisted work change for any team willing to self-host."
+      ],
+      "keyFacts": [
+        { "value": "501B", "label": "total model parameters" },
+        { "value": "23B", "label": "parameters active per task (why it runs efficiently)" },
+        { "value": "80.9", "label": "score on SWE-Bench Verified (coding benchmark)" },
+        { "value": "Apache 2.0", "label": "free commercial license, weights coming later in October" }
+      ]
+    },
+    "de": {
+      "title": "Wenn das beste KI-Coding-Modell kostenlos auf eigenen Servern lauft",
+      "summary": "Reflection AIs neues Open-Source-Modell Beam erreicht Spitzenwerte beim Coden und kann bald von jedem Team kostenlos selbst betrieben werden.",
+      "body": [
+        "Die meisten leistungsstarken KI-Modelle fur die Softwareentwicklung funktionieren nach demselben Prinzip: Man zahlt pro Nutzung. Gezahlt wird pro Token — ein kleines Textstuck, etwa drei Viertel eines Wortes — und die besten Modelle kosten zwischen 10 und 30 Dollar pro Million Token. Fur ein Team, das viel mit KI-Unterstutzung programmiert, **konnen diese Kosten sehr schnell sehr hoch werden**.",
+        "Am 5. Oktober brachte das Startup Reflection AI ein Modell namens Beam heraus. Beam wurde speziell fur Coding-Aufgaben und automatisierte KI-Aufgaben entwickelt — jene Art, bei der die KI selbststandig mehrere Schritte ausfuhrt, um etwas zu erledigen. Auf SWE-Bench Verified, einem Standardtest dafur, wie gut eine KI echte Software-Fehler beheben kann, erzielte Beam 80,9 Punkte — einer der besten Werte unter Open-Source-Modellen weltweit. Die Modell-Gewichte — die eigentlichen Dateien, die das Modell zum Laufen bringen — **werden diesen Monat kostenlos unter einer Apache-2.0-Lizenz veroffentlicht**.",
+        "Beam ist so effizient, weil es besonders klug aufgebaut ist. Es hat 501 Milliarden Parameter — die internen Zahlen, die das Wissen und Denken des Modells steuern — aber **nur 23 Milliarden sind fur eine bestimmte Aufgabe aktiv**. Dieses Design heisst Mixture-of-Experts und funktioniert wie ein grosses Team, bei dem fur jeden Job nur die richtigen Spezialisten erscheinen. Reflection gibt an, dass Beam dadurch drei- bis viermal weniger Rechenleistung benotigt als vergleichbare Open-Source-Modelle ahnlicher Qualitat.",
+        "Fur Teams, die Software entwickeln, KI-Agenten einsetzen oder wiederkehrende Aufgaben automatisieren, ist das ein echter Wendepunkt. Heute bedeutet der Einsatz von Spitzen-KI ein tokenbasiertes Abrechnungsmodell bei OpenAI oder Anthropic — die Kosten wachsen mit jeder Aktion der KI mit. Mit einem Modell wie Beam, das auf eigenen Servern lauft, **wird der KI-Einsatz zu einer planbaren, gleichbleibenden Infrastrukturausgabe** — und die eigenen Daten bleiben im eigenen System. Die Gewichte sind noch nicht offentlich verfugbar, aber sobald sie erscheinen, verandert sich die Kostenrechnung fur alle Teams, die bereit sind, selbst zu hosten."
+      ],
+      "keyFacts": [
+        { "value": "501B", "label": "Gesamtparameter des Modells" },
+        { "value": "23B", "label": "Aktive Parameter pro Aufgabe (Grund der Effizienz)" },
+        { "value": "80,9", "label": "Punkte auf SWE-Bench Verified (Coding-Benchmark)" },
+        { "value": "Apache 2.0", "label": "Freie kommerzielle Lizenz, Gewichte kommen spater im Oktober" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer het beste AI-model voor code gratis op je eigen server draait",
+      "summary": "Reflection AI's nieuwe open model Beam haalt topscores op codingtaken en kan binnenkort gratis door elk team zelf worden gehost.",
+      "body": [
+        "De meeste krachtige AI-modellen voor softwareontwikkeling werken hetzelfde: je betaalt per gebruik. Per token — een klein stukje tekst van ongeveer driekwart woord — en de beste modellen kosten 10 tot 30 dollar per miljoen tokens. Voor een team dat veel met AI-hulp programmeert, **lopen die kosten snel enorm op**.",
+        "Op 5 oktober lanceerde startup Reflection AI een model genaamd Beam. Beam is speciaal gebouwd voor codeerwerk en geautomatiseerde AI-taken — het soort waarbij de AI zelfstandig meerdere stappen uitvoert om iets gedaan te krijgen. Op SWE-Bench Verified, een standaardtest die meet hoe goed een AI echte softwarefouten kan oplossen, scoorde Beam 80,9 — een van de beste scores onder open modellen wereldwijd. De modelgewichten — de bestanden die het model laten werken — **worden later deze maand gratis uitgebracht onder een Apache 2.0-licentie**.",
+        "Beam is zo efficient omdat het slim is opgebouwd. Het heeft 501 miljard parameters — de interne getallen die het denken van het model sturen — maar **slechts 23 miljard zijn actief voor een bepaalde taak**. Dit ontwerp heet Mixture-of-Experts en werkt als een groot team waarbij per klus alleen de juiste specialisten opdraven. Reflection zegt dat Beam hierdoor drie tot vier keer minder rekenkracht nodig heeft dan vergelijkbare open modellen van gelijke kwaliteit.",
+        "Voor teams die software bouwen, AI-agenten inzetten of herhalend werk automatiseren, is dit een echte verschuiving. Vandaag betekent het gebruik van top-AI een variabele factuur per token bij OpenAI of Anthropic — de kosten groeien met elke actie van de AI. Met een model zoals Beam dat op eigen servers draait, **wordt AI-gebruik een vaste, voorspelbare infrastructuurkost** — en blijven je gegevens binnen je eigen systemen. De gewichten zijn nog niet publiek, maar zodra ze beschikbaar zijn, veranderen de kostenplaatjes voor elk team dat bereid is zelf te hosten."
+      ],
+      "keyFacts": [
+        { "value": "501B", "label": "totale modelparameters" },
+        { "value": "23B", "label": "actieve parameters per taak (reden voor efficientie)" },
+        { "value": "80,9", "label": "score op SWE-Bench Verified (coderingsbenchmark)" },
+        { "value": "Apache 2.0", "label": "gratis commerciele licentie, gewichten komen later in oktober" }
+      ]
+    },
+    "es": {
+      "title": "Cuando el mejor modelo de IA para codigo se puede usar gratis en tu propio servidor",
+      "summary": "El nuevo modelo abierto Beam de Reflection AI iguala el rendimiento de los mejores modelos de codificacion y pronto cualquier equipo podra alojarlo en sus propios servidores sin coste por uso.",
+      "body": [
+        "La mayoria de los modelos de IA mas potentes para programar funcionan igual: pagas cada vez que los usas. Pagas por token — un pequeno fragmento de texto de aproximadamente tres cuartos de palabra — y los mejores modelos cuestan entre 10 y 30 dolares por millon de tokens. Para un equipo que programa mucho con ayuda de IA, **esas facturas pueden crecer muy rapido**.",
+        "El 5 de octubre, la startup Reflection AI lanzo un modelo llamado Beam. Beam fue disenado especificamente para tareas de codificacion y para ejecutar tareas de IA automatizadas — el tipo en el que la IA sigue varios pasos por su cuenta para completar algo. En SWE-Bench Verified, una prueba estandar que mide lo bien que una IA puede corregir errores reales de software, Beam obtuvo 80,9 puntos, situandolo entre los mejores modelos abiertos del mundo. Los pesos del modelo — los archivos que hacen funcionar el modelo — **se publicaran de forma gratuita bajo una licencia Apache 2.0** a finales de este mes.",
+        "Beam es tan eficiente gracias a como esta construido. Tiene 501 mil millones de parametros — los numeros internos que controlan lo que el modelo sabe y como piensa — pero **solo 23 mil millones estan activos para una tarea concreta**. Este diseno, llamado Mixture-of-Experts, funciona como un gran equipo en el que solo aparecen los especialistas adecuados para cada trabajo. Reflection afirma que esto hace que Beam use tres o cuatro veces menos potencia de computo que modelos abiertos rivales de calidad similar.",
+        "Para cualquier equipo que desarrolle software, utilice agentes de IA o automatice tareas repetitivas, esto supone un cambio real. Hoy, usar IA de primer nivel para esas tareas significa pagar por token a OpenAI o Anthropic — una factura que crece con cada accion que toma la IA. Con un modelo como Beam que puedes ejecutar en tus propios servidores, **el coste se convierte en un gasto de infraestructura fijo y predecible** — y tus datos nunca tienen que salir de tus sistemas. Los pesos aun no estan disponibles publicamente, pero en cuanto lleguen, la economia del trabajo asistido por IA cambiara para cualquier equipo dispuesto a alojar el modelo en casa."
+      ],
+      "keyFacts": [
+        { "value": "501B", "label": "parametros totales del modelo" },
+        { "value": "23B", "label": "parametros activos por tarea (razon de la eficiencia)" },
+        { "value": "80,9", "label": "puntuacion en SWE-Bench Verified (benchmark de codificacion)" },
+        { "value": "Apache 2.0", "label": "licencia comercial gratuita, pesos disponibles a finales de octubre" }
+      ]
+    },
+    "fr": {
+      "title": "Quand le meilleur modele IA pour coder devient gratuit a heberger soi-meme",
+      "summary": "Le nouveau modele open source Beam de Reflection AI rivalise avec les meilleurs outils IA de codage, et sera bientot hebergeable gratuitement sur vos propres serveurs.",
+      "body": [
+        "La plupart des modeles IA puissants pour la programmation fonctionnent de la meme facon : vous payez a chaque utilisation. Vous payez par token — un petit fragment de texte d'environ trois quarts de mot — et les meilleurs modeles coutent entre 10 et 30 dollars par million de tokens. Pour une equipe qui programme beaucoup avec l'aide de l'IA, **ces factures peuvent grimper tres vite**.",
+        "Le 5 octobre, la startup Reflection AI a lance un modele appele Beam. Beam a ete concu specifiquement pour les taches de codage et les taches IA automatisees — celles ou l'IA enchaine plusieurs etapes seule pour accomplir quelque chose. Sur SWE-Bench Verified, un test standard mesurant la capacite d'une IA a corriger de vrais bugs logiciels, Beam a obtenu 80,9 — l'un des meilleurs scores parmi les modeles ouverts dans le monde. Les poids du modele — les fichiers qui font reellement tourner le modele — **seront publies gratuitement sous licence Apache 2.0** d'ici la fin du mois.",
+        "Si Beam est aussi efficient, c'est grace a son architecture. Il possede 501 milliards de parametres — les valeurs internes qui guident ce que le modele sait et comment il raisonne — mais **seuls 23 milliards sont actifs pour une tache donnee**. Cette conception, appelee Mixture-of-Experts, fonctionne comme une grande equipe ou seuls les bons specialistes se presentent pour chaque mission. Reflection indique que Beam consomme ainsi trois a quatre fois moins de puissance de calcul que les modeles ouverts rivaux de qualite comparable.",
+        "Pour toute equipe qui developpe des logiciels, deploie des agents IA ou automatise des taches repetitives, c'est un vrai changement de donne. Aujourd'hui, utiliser l'IA de pointe pour ces taches implique de payer un tarif au token a OpenAI ou Anthropic — une facture qui croit a chaque action de l'IA. Avec un modele comme Beam que vos propres serveurs peuvent faire tourner, **le cout devient une depense infrastructure fixe et previsible** — et vos donnees ne quittent jamais vos systemes. Les poids ne sont pas encore publics, mais des qu'ils seront disponibles, l'economie du travail assiste par IA changera pour toute equipe prete a heberger elle-meme."
+      ],
+      "keyFacts": [
+        { "value": "501B", "label": "parametres totaux du modele" },
+        { "value": "23B", "label": "parametres actifs par tache (source d'efficacite)" },
+        { "value": "80,9", "label": "score sur SWE-Bench Verified (benchmark de codage)" },
+        { "value": "Apache 2.0", "label": "licence commerciale gratuite, poids disponibles fin octobre" }
+      ]
+    },
+    "ar": {
+      "title": "عندما يصبح أفضل نموذج ذكاء اصطناعي للبرمجة مجاناً على خادمك الخاص",
+      "summary": "أطلقت Reflection AI نموذجها المفتوح Beam الذي يضاهي أفضل نماذج البرمجة، وسيكون بإمكان أي فريق استضافته مجاناً على خوادمه الخاصة قريباً.",
+      "body": [
+        "معظم نماذج الذكاء الاصطناعي القوية للبرمجة تعمل بنفس الطريقة: تدفع في كل مرة تستخدمها. تدفع مقابل كل رمز (token) — وهو جزء صغير من النص يعادل ثلاثة أرباع كلمة تقريباً — وأفضل النماذج تكلّف بين 10 و30 دولاراً لكل مليون رمز. لأي فريق يكتب الكثير من الأكواد بمساعدة الذكاء الاصطناعي، **هذه الفواتير يمكن أن تتراكم بسرعة كبيرة**.",
+        "في الخامس من أكتوبر، أطلقت شركة Reflection AI الناشئة نموذجاً جديداً يُدعى Beam. صُمّم Beam خصيصاً لمهام البرمجة وتنفيذ المهام الآلية — تلك التي تقوم فيها الذكاء الاصطناعي بعدة خطوات متتالية بشكل مستقل لإتمام عمل ما. على اختبار SWE-Bench Verified، وهو اختبار معياري يقيس مدى قدرة الذكاء الاصطناعي على إصلاح أخطاء البرمجيات الحقيقية، حقّق Beam درجة 80.9 — وهو من أعلى الدرجات بين النماذج المفتوحة في العالم. أوزان النموذج — الملفات التي تجعل النموذج يعمل — **ستُنشر مجاناً بموجب ترخيص Apache 2.0** في وقت لاحق من هذا الشهر.",
+        "سبب كفاءة Beam هو طريقة بنائه. يحتوي على 501 مليار معامل (parameter) — وهي الأرقام الداخلية التي تتحكم في ما يعرفه النموذج وكيف يفكر — لكن **23 ملياراً فقط تكون نشطة في أي مهمة معينة**. يُسمى هذا التصميم Mixture-of-Experts، ويشبه فريقاً كبيراً يحضر فيه المتخصصون المناسبون لكل مهمة فقط. تقول Reflection إن هذا يجعل Beam يستهلك طاقة حوسبة أقل بثلاثة إلى أربعة أضعاف مقارنة بالنماذج المفتوحة المنافسة ذات الجودة المماثلة.",
+        "لأي فريق يبني برمجيات، أو يشغّل وكلاء الذكاء الاصطناعي، أو يؤتمت المهام المتكررة، هذا تحوّل حقيقي. اليوم، يعني استخدام ذكاء اصطناعي احترافي لهذه المهام دفع فاتورة متغيرة بالرمز إلى OpenAI أو Anthropic — تنمو مع كل إجراء تتخذه الذكاء الاصطناعي. مع نموذج مثل Beam يمكن تشغيله على خوادمك الخاصة، **تتحوّل التكلفة إلى نفقة بنية تحتية ثابتة ومتوقعة** — وتبقى بياناتك داخل أنظمتك. الأوزان غير متاحة للعموم بعد، لكن عند إطلاقها، ستتغير اقتصاديات العمل بمساعدة الذكاء الاصطناعي لكل فريق مستعد لاستضافة النموذج بنفسه."
+      ],
+      "keyFacts": [
+        { "value": "501B", "label": "إجمالي معاملات النموذج" },
+        { "value": "23B", "label": "المعاملات النشطة لكل مهمة (سبب الكفاءة)" },
+        { "value": "80.9", "label": "النتيجة على SWE-Bench Verified (معيار البرمجة)" },
+        { "value": "Apache 2.0", "label": "ترخيص تجاري مجاني، الأوزان متاحة في أواخر أكتوبر" }
+      ]
+    }
+  }
+}
