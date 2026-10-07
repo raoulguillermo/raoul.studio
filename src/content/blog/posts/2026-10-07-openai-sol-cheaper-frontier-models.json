@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-07-openai-sol-cheaper-frontier-models",
+  "date": "2026-10-07",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://ai-weekly.ai/wp-content/uploads/2026/10/ai-weekly-237-1920x1080-at-100.jpg",
+    "alt": "AI Weekly newsletter header covering OpenAI DevDay October 6 2026",
+    "credit": "AI Weekly"
+  },
+  "sources": [
+    { "title": "AI Weekly — OpenAI unveils GPT-6.1 Sol at one-fifth Astra pricing at DevDay", "url": "https://aiweekly.co/alerts/openai-unveils-gpt-61-sol-at-one-fifth-astra-pricing-at-devday" },
+    { "title": "Superframeworks — OpenAI DevDay 2026 Review: What Founders Should Use, Watch and Ignore", "url": "https://superframeworks.com/articles/openai-devday-2026-review-for-founders" },
+    { "title": "AI-Weekly Issue 237 — October 6 2026", "url": "https://ai-weekly.ai/newsletter-10-06-2026" }
+  ],
+  "locales": {
+    "en": {
+      "title": "The math on AI automation just changed",
+      "summary": "OpenAI's new Sol model matches its best AI at one-fifth the price, making serious automation affordable for teams that couldn't justify the cost before.",
+      "body": [
+        "For most of 2026, running a powerful AI model on real work — not a demo, but a system handling tasks every hour — meant high costs. OpenAI's flagship model, GPT-6 Astra, charges $10 per million words you send it and $50 per million words it writes back. For a team automating serious work, that adds up fast. **On October 6, OpenAI launched Sol at $2 in and $10 out — one-fifth of Astra's price** — and that changes the calculation entirely.",
+        "Sol is not a cut-down, slower model. It matches Astra's performance on coding, research, and professional tasks — just at a fraction of the cost. For a small team running an AI tool around the clock, that is the difference between a bill that hurts and one that fits your budget. **The price of serious AI automation just fell to where most businesses can actually afford it.**",
+        "OpenAI also launched \"Dots\" at the same event: personal AI agents that run all day in the background, watch your apps, and take actions across more than 4,000 tools. Right now, Dots runs on the expensive Astra model. But Sol points the direction — **as frontier models get cheaper, always-on agents move from an enterprise luxury to something any team can run** without a huge budget.",
+        "Every new top AI model starts expensive. Then a cheaper, nearly-as-good version follows. Sol fits that pattern exactly — it already matches Astra on coding benchmark tests. If you have been waiting to build something real with AI because the costs felt too high, **now is the moment to run a real test on Sol** and see what the numbers look like for your actual work."
+      ],
+      "keyFacts": [
+        { "value": "$2 / $10", "label": "Sol price per million tokens (in / out)" },
+        { "value": "~1/5th", "label": "Sol's cost compared to Astra" },
+        { "value": "4,000+", "label": "apps Dots agents connect to" },
+        { "value": "35%", "label": "agent task success rate without human help" }
+      ]
+    },
+    "de": {
+      "title": "Die Rechnung für KI-Automatisierung hat sich gerade geändert",
+      "summary": "OpenAIs neues Sol-Modell ist fast so gut wie sein bestes KI-Modell, kostet aber nur ein Fünftel — und macht ernsthafte Automatisierung für Teams erschwinglich, die sich das bisher nicht leisten konnten.",
+      "body": [
+        "Den größten Teil des Jahres 2026 bedeutete der Einsatz eines leistungsstarken KI-Modells im echten Betrieb — nicht als Demo, sondern als System, das stündlich Aufgaben erledigt — hohe Kosten. OpenAIs Flaggschiff GPT-6 Astra kostet 10 $ pro Million eingegebener Wörter und 50 $ pro Million ausgegebener Wörter. Für ein Team, das ernsthafte Arbeit automatisiert, summiert sich das schnell. **Am 6. Oktober lancierte OpenAI Sol für 2 $ rein und 10 $ raus — ein Fünftel des Astra-Preises** — und das verändert die gesamte Kalkulation.",
+        "Sol ist kein abgespecktes, langsameres Modell. Es erreicht Astras Leistung bei Programmierung, Recherche und professionellen Aufgaben — nur zu einem Bruchteil der Kosten. Für ein kleines Team, das rund um die Uhr mit KI arbeitet, ist das der Unterschied zwischen einer Rechnung, die wehtut, und einer, die ins Budget passt. **Der Preis für ernsthafte KI-Automatisierung ist gerade auf ein Niveau gefallen, das sich die meisten Unternehmen wirklich leisten können.**",
+        "OpenAI stellte beim selben Event auch \"Dots\" vor: persönliche KI-Agenten, die den ganzen Tag im Hintergrund laufen, Apps beobachten und Aktionen über mehr als 4.000 Tools ausführen. Aktuell läuft Dots noch auf dem teuren Astra-Modell. Aber Sol zeigt die Richtung — **wenn Frontier-Modelle günstiger werden, werden Always-on-Agenten vom Luxus zum Standard, den jedes Team nutzen kann** — ganz ohne riesiges Budget.",
+        "Jedes neue Top-KI-Modell startet teuer. Dann folgt eine günstigere, fast genauso gute Version. Sol passt genau in dieses Muster — es erreicht Astras Ergebnisse auf Coding-Benchmarks bereits heute. Wenn Sie bisher wegen der Kosten gezögert haben, ernsthaft mit KI zu bauen, **ist jetzt der richtige Moment, Sol mit echter Arbeit zu testen** und zu sehen, wie die Zahlen für Sie aussehen."
+      ],
+      "keyFacts": [
+        { "value": "$2 / $10", "label": "Sol-Preis pro Million Token (rein / raus)" },
+        { "value": "~1/5th", "label": "Sols Kosten im Vergleich zu Astra" },
+        { "value": "4,000+", "label": "Apps, mit denen Dots-Agenten sich verbinden" },
+        { "value": "35%", "label": "Aufgaben-Erfolgsrate ohne menschliche Hilfe" }
+      ]
+    },
+    "nl": {
+      "title": "De rekening voor AI-automatisering is zojuist veranderd",
+      "summary": "OpenAI's nieuwe Sol-model presteert bijna net zo goed als het beste AI-model, maar kost slechts een vijfde — wat serieuze automatisering betaalbaar maakt voor teams die de kosten eerder niet konden rechtvaardigen.",
+      "body": [
+        "Het grootste deel van 2026 kostte het inzetten van een krachtig AI-model voor echte taken — niet als demo, maar als systeem dat elk uur werkt — veel geld. OpenAI's vlaggenschip GPT-6 Astra rekent $10 per miljoen woorden die je instuurt en $50 per miljoen woorden die het terugschrijft. Voor een team dat serieuze processen automatiseert, loopt dat snel op. **Op 6 oktober lanceerde OpenAI Sol voor $2 in en $10 uit — een vijfde van de Astra-prijs** — en dat verandert de berekening volledig.",
+        "Sol is geen afgezwakt, trager model. Het evenaart Astra's prestaties bij coderen, onderzoek en professioneel werk — maar dan voor een fractie van de kosten. Voor een klein team dat dag en nacht met AI werkt, is dat het verschil tussen een rekening die pijn doet en een die in het budget past. **De prijs van serieuze AI-automatisering is nu gedaald tot een niveau dat de meeste bedrijven zich echt kunnen veroorloven.**",
+        "OpenAI lanceerde op hetzelfde evenement ook \"Dots\": persoonlijke AI-agenten die de hele dag op de achtergrond draaien, je apps in de gaten houden en acties uitvoeren via meer dan 4.000 tools. Op dit moment draait Dots nog op het dure Astra-model. Maar Sol wijst de weg — **naarmate frontier-modellen goedkoper worden, verschuiven altijd-actieve agenten van een luxe naar iets wat elk team kan gebruiken** zonder een groot budget.",
+        "Elk nieuw top-AI-model begint duur. Dan volgt een goedkopere, bijna-even-goede versie. Sol past precies in dat patroon — het haalt Astra's scores op coding benchmarks al. Als je wachtte om iets echts met AI te bouwen omdat de kosten te hoog leken, **is dit het moment om Sol te testen op je echte werk** en te zien hoe de cijfers uitkomen."
+      ],
+      "keyFacts": [
+        { "value": "$2 / $10", "label": "Sol-prijs per miljoen tokens (in / uit)" },
+        { "value": "~1/5th", "label": "Sols kosten vergeleken met Astra" },
+        { "value": "4,000+", "label": "apps waarmee Dots-agenten verbinding maken" },
+        { "value": "35%", "label": "taakvoltooiingspercentage zonder menselijke hulp" }
+      ]
+    },
+    "es": {
+      "title": "El cálculo de la automatización con IA acaba de cambiar",
+      "summary": "El nuevo modelo Sol de OpenAI iguala a su mejor IA a una quinta parte del precio, haciendo que la automatización seria sea asequible para equipos que antes no podían justificar el coste.",
+      "body": [
+        "Durante la mayor parte de 2026, usar un modelo de IA potente en trabajo real — no una demo, sino un sistema que gestiona tareas cada hora — implicaba costes elevados. El modelo estrella de OpenAI, GPT-6 Astra, cobra $10 por cada millón de palabras que le envías y $50 por cada millón que devuelve. Para un equipo que automatiza trabajo serio, eso se acumula rápido. **El 6 de octubre, OpenAI lanzó Sol a $2 de entrada y $10 de salida — una quinta parte del precio de Astra** — y eso cambia el cálculo por completo.",
+        "Sol no es un modelo recortado ni más lento. Iguala el rendimiento de Astra en programación, investigación y tareas profesionales — solo que a una fracción del coste. Para un equipo pequeño que usa IA las 24 horas, esa es la diferencia entre una factura que duele y una con la que se puede trabajar. **El precio de la automatización seria con IA acaba de caer a un nivel que la mayoría de empresas puede permitirse de verdad.**",
+        "OpenAI también presentó \"Dots\" en el mismo evento: agentes de IA personales que trabajan todo el día en segundo plano, vigilan tus aplicaciones y realizan acciones en más de 4.000 herramientas. Por ahora, Dots funciona con el caro modelo Astra. Pero Sol marca el camino — **a medida que los modelos de frontera se abaraten, los agentes siempre activos pasarán de ser un lujo a algo que cualquier equipo puede usar** sin un presupuesto enorme.",
+        "Cada nuevo modelo de IA de alto nivel empieza siendo caro. Luego llega una versión más barata y casi igual de buena. Sol encaja exactamente en ese patrón — ya iguala a Astra en las pruebas de referencia de programación. Si has estado esperando para construir algo serio con IA porque los costes parecían demasiado altos, **este es el momento de probar Sol con tu trabajo real** y ver cómo salen los números."
+      ],
+      "keyFacts": [
+        { "value": "$2 / $10", "label": "Precio de Sol por millón de tokens (entrada / salida)" },
+        { "value": "~1/5th", "label": "Coste de Sol comparado con Astra" },
+        { "value": "4,000+", "label": "apps a las que se conectan los agentes Dots" },
+        { "value": "35%", "label": "tasa de éxito de tareas sin ayuda humana" }
+      ]
+    },
+    "fr": {
+      "title": "Le calcul de l'automatisation IA vient de changer",
+      "summary": "Le nouveau modèle Sol d'OpenAI égale presque son meilleur modèle à un cinquième du prix, rendant l'automatisation sérieuse accessible aux équipes qui ne pouvaient pas en justifier le coût avant.",
+      "body": [
+        "Pendant la majeure partie de 2026, utiliser un modèle d'IA puissant sur de vraies tâches — pas une démo, mais un système qui traite du travail chaque heure — impliquait des coûts élevés. Le modèle phare d'OpenAI, GPT-6 Astra, facture $10 par million de mots envoyés et $50 par million de mots générés. Pour une équipe qui automatise un travail sérieux, ça s'accumule vite. **Le 6 octobre, OpenAI a lancé Sol à $2 en entrée et $10 en sortie — un cinquième du prix d'Astra** — et ça change entièrement le calcul.",
+        "Sol n'est pas un modèle bridé ni plus lent. Il égale les performances d'Astra en programmation, recherche et travail professionnel — simplement à une fraction du coût. Pour une petite équipe qui utilise l'IA en continu, c'est la différence entre une facture qui fait mal et une qu'on peut absorber. **Le coût de l'automatisation sérieuse par IA vient de tomber à un niveau que la plupart des entreprises peuvent vraiment se permettre.**",
+        "OpenAI a aussi lancé « Dots » au même événement : des agents IA personnels qui tournent toute la journée en arrière-plan, surveillent vos applications et agissent sur plus de 4 000 outils. Pour l'instant, Dots fonctionne sur le coûteux modèle Astra. Mais Sol indique la direction — **à mesure que les modèles de pointe deviennent moins chers, les agents toujours actifs passeront du luxe à quelque chose que n'importe quelle équipe peut utiliser** sans budget conséquent.",
+        "Chaque nouveau modèle d'IA haut de gamme commence cher. Puis une version moins coûteuse et presque aussi performante suit. Sol s'inscrit exactement dans ce schéma — il égale déjà Astra sur les benchmarks de programmation. Si vous attendiez de construire quelque chose de sérieux avec l'IA parce que les coûts semblaient trop élevés, **c'est maintenant le bon moment pour tester Sol sur votre travail réel** et voir ce que les chiffres donnent."
+      ],
+      "keyFacts": [
+        { "value": "$2 / $10", "label": "Prix de Sol par million de tokens (entrée / sortie)" },
+        { "value": "~1/5th", "label": "Coût de Sol par rapport à Astra" },
+        { "value": "4,000+", "label": "apps auxquelles les agents Dots se connectent" },
+        { "value": "35%", "label": "taux de réussite des tâches sans aide humaine" }
+      ]
+    },
+    "ar": {
+      "title": "معادلة أتمتة الذكاء الاصطناعي تغيّرت للتو",
+      "summary": "يوازي نموذج Sol الجديد من OpenAI أفضل نماذجها بخُمس التكلفة، مما يجعل الأتمتة الجادة في متناول الفرق التي لم تستطع تبرير التكلفة من قبل.",
+      "body": [
+        "طوال معظم عام 2026، كان استخدام نموذج ذكاء اصطناعي قوي في العمل الحقيقي — لا في عرض تجريبي، بل في نظام يعمل كل ساعة — يعني تكاليف باهظة. نموذج OpenAI الرائد، GPT-6 Astra، يتقاضى 10 دولارات لكل مليون كلمة تُرسلها و50 دولارًا لكل مليون كلمة يُعيدها. بالنسبة لفريق يُؤتمت عملًا جادًا، تتراكم هذه التكاليف بسرعة. **في 6 أكتوبر، أطلقت OpenAI نموذج Sol بسعر 2 دولار للإدخال و10 دولارات للإخراج — خُمس سعر Astra** — وهذا يغيّر الحسابات بالكامل.",
+        "Sol ليس نموذجًا مُقلَّصًا أو أبطأ. فهو يوازي أداء Astra في البرمجة والبحث والمهام المهنية — لكن بجزء بسيط من التكلفة. بالنسبة لفريق صغير يستخدم الذكاء الاصطناعي على مدار الساعة، هذا هو الفرق بين فاتورة مؤلمة وأخرى تناسب الميزانية. **انخفض سعر الأتمتة الجادة بالذكاء الاصطناعي إلى مستوى تستطيع معظم الشركات تحمّله فعلًا.**",
+        "أطلقت OpenAI أيضًا \"Dots\" في الحدث نفسه: وكلاء ذكاء اصطناعي شخصيون يعملون طوال اليوم في الخلفية، يراقبون تطبيقاتك وينجزون مهام عبر أكثر من 4,000 أداة. في الوقت الحالي، يعمل Dots على نموذج Astra المكلف. لكن Sol يرسم الاتجاه — **كلما أصبحت النماذج المتطورة أرخص، ستنتقل الوكلاء الدائمون من كونهم رفاهية إلى شيء يستطيع أي فريق تشغيله** دون ميزانية ضخمة.",
+        "كل نموذج ذكاء اصطناعي متطور جديد يبدأ بسعر مرتفع. ثم تأتي نسخة أرخص وقريبة في الجودة. Sol يندرج تمامًا في هذا النمط — فهو يوازي بالفعل Astra في اختبارات قياس الأداء البرمجية. إذا كنت تنتظر لبناء شيء حقيقي بالذكاء الاصطناعي بسبب ارتفاع التكاليف، **فهذا هو الوقت المناسب لاختبار Sol على عملك الفعلي** ومعرفة ما ستُسفر عنه الأرقام."
+      ],
+      "keyFacts": [
+        { "value": "$2 / $10", "label": "سعر Sol لكل مليون رمز (إدخال / إخراج)" },
+        { "value": "~1/5th", "label": "تكلفة Sol مقارنةً بـ Astra" },
+        { "value": "4,000+", "label": "تطبيق تتصل بها وكلاء Dots" },
+        { "value": "35%", "label": "معدل نجاح المهام دون تدخل بشري" }
+      ]
+    }
+  }
+}
