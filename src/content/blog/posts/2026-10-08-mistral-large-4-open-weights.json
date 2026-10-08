@@ -1,0 +1,109 @@
+{
+  "slug": "2026-10-08-mistral-large-4-open-weights",
+  "date": "2026-10-08",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "TrendGrid News — Mistral Large 4 Explained: 1T-Parameter Open-Weight AI Model, 1M Context and Why It Matters", "url": "https://trendgridnews.wordpress.com/2026/10/07/mistral-large-4-explained/" },
+    { "title": "Runtime Wire — Mistral stages Large 4 through a moderated API before releasing weights", "url": "https://runtimewire.com/article/mistral-large-4-preview-open-weights-cybersecurity" },
+    { "title": "FourWeekMBA — Mistral Large 4 Preview: 1T Parameters, Weights Pending", "url": "https://fourweekmba.com/ai-mistral-large-4-preview-1t-parameters-weights-pending/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "What Changes When a Trillion-Parameter AI Can Run on Your Own Servers",
+      "summary": "Mistral's new trillion-parameter model will soon be free to download, which means businesses can run world-class AI without sending their data to anyone else.",
+      "body": [
+        "For years, the most powerful AI has only been available through a cloud service — you send your data to a company's servers, they run the model, and send back the result. That is about to change. Mistral AI, a French startup, released a preview of Large 4 this week: **a model you can soon download and run yourself**, even though it is one of the largest AI models ever built.",
+        "That number — 1.05 trillion parameters — sounds enormous. But the design is efficient. Large 4 uses a technique called Mixture-of-Experts — think of it like a team of specialists where only a few show up for each task. **Only 49 billion parameters are active at once**, so it runs far more efficiently than its size suggests. It can also read up to one million tokens in a single session — enough to process an entire legal contract, a full year of transactions, or a large software codebase in one go.",
+        "Early benchmarks are strong. On a widely-used cybersecurity test, it scores 82 out of 100 and **solved 93% of realistic security exercises** in a standard test set. On coding tasks, it beats several well-known models including DeepSeek V4 Pro. Mistral trained it on 3,800 NVIDIA Grace Blackwell GPUs in its own European data centers, covering 160 languages — including every official EU language.",
+        "The open-weights release — expected by end of October 2026 — matters most for businesses in regulated industries. Finance firms, law practices, and healthcare providers often cannot send sensitive documents to a third-party server. When **you can run the model on your own servers**, those restrictions disappear. Add this question to any AI tool evaluation: can we host this ourselves if we need to? For many teams, the answer is now yes."
+      ],
+      "keyFacts": [
+        { "value": "1.05T", "label": "total model parameters" },
+        { "value": "49B", "label": "parameters active per query" },
+        { "value": "1M", "label": "token context window" },
+        { "value": "3,800", "label": "GPUs used to train it" }
+      ]
+    },
+    "de": {
+      "title": "Was sich ändert, wenn ein KI-Modell mit einer Billion Parametern auf deinen eigenen Servern läuft",
+      "summary": "Mistrals neues Modell mit einer Billion Parametern wird bald kostenlos herunterladbar sein — das bedeutet, Unternehmen können erstklassige KI nutzen, ohne ihre Daten an Dritte zu senden.",
+      "body": [
+        "Jahrelang war die leistungsstärkste KI nur als Cloud-Dienst verfügbar — man sendet seine Daten an einen Fremdserver, das Modell läuft dort, und das Ergebnis kommt zurück. Das ändert sich jetzt. Das französische Startup Mistral AI hat diese Woche eine Vorschau von Large 4 veröffentlicht: **ein Modell, das man bald selbst herunterladen und betreiben kann**, obwohl es zu den größten KI-Modellen gehört, die je gebaut wurden.",
+        "Diese Zahl — 1,05 Billionen Parameter — klingt gewaltig. Aber das Design ist effizient. Large 4 nutzt eine Technik namens Mixture-of-Experts, wie ein großes Team, bei dem für jede Aufgabe nur wenige Spezialisten aktiv sind. **Nur 49 Milliarden Parameter sind gleichzeitig aktiv**, sodass das Modell weit effizienter läuft, als seine Größe vermuten lässt. Es kann außerdem bis zu einer Million Tokens in einer einzigen Sitzung verarbeiten — genug für einen vollständigen Vertrag, ein Jahrestransaktionsprotokoll oder eine große Codebasis auf einmal.",
+        "Die ersten Benchmarks sind stark. In einem weit verbreiteten Cybersicherheitstest erzielt das Modell 82 von 100 Punkten und **löste 93 % realistischer Sicherheitsübungen** in einem Standardtestsatz. Bei Coding-Aufgaben übertrifft es bekannte Modelle wie DeepSeek V4 Pro. Mistral hat es auf einem eigenen europäischen Cluster mit 3.800 NVIDIA Grace Blackwell GPUs trainiert — mit Daten in 160 Sprachen, darunter alle offiziellen EU-Sprachen.",
+        "Die Veröffentlichung der offenen Gewichte — erwartet Ende Oktober 2026 — ist das Entscheidende für regulierte Branchen. Finanzfirmen, Anwaltskanzleien und Gesundheitsdienstleister können sensible Dokumente oft nicht an externe Server senden. Wenn **man das Modell auf der eigenen Infrastruktur betreiben kann**, fallen diese Einschränkungen weg. Frage bei jedem KI-Tool: Können wir das bei Bedarf selbst hosten? Für viele Teams lautet die Antwort jetzt: Ja."
+      ],
+      "keyFacts": [
+        { "value": "1.05T", "label": "Gesamtparameter des Modells" },
+        { "value": "49B", "label": "gleichzeitig aktive Parameter" },
+        { "value": "1M", "label": "Tokens pro Sitzung verarbeitbar" },
+        { "value": "3,800", "label": "GPUs für das Training genutzt" }
+      ]
+    },
+    "nl": {
+      "title": "Wat er verandert als een AI-model met een biljoen parameters op jouw eigen servers kan draaien",
+      "summary": "Het nieuwe model van Mistral met een biljoen parameters is binnenkort gratis te downloaden, zodat bedrijven topklasse AI kunnen gebruiken zonder hun data naar anderen te sturen.",
+      "body": [
+        "De afgelopen jaren was de krachtigste AI alleen beschikbaar als cloudservice — je stuurt je data naar iemand anders' server, het model draait daar, en je krijgt het resultaat terug. Dat verandert binnenkort. Het Franse startup Mistral AI publiceerde deze week een preview van Large 4: **een model dat je straks zelf kunt downloaden en draaien**, hoewel het tot de grootste AI-modellen ooit behoort.",
+        "Dat getal — 1,05 biljoen parameters — klinkt enorm. Maar het ontwerp is efficiënt. Large 4 gebruikt een techniek genaamd Mixture-of-Experts, als een groot team waarbij per taak slechts een paar specialisten actief zijn. **Slechts 49 miljard parameters zijn tegelijk actief**, waardoor het model veel efficiënter draait dan de grootte doet vermoeden. Het kan ook tot één miljoen tokens in één sessie verwerken — genoeg voor een volledig contract, een jaar transacties of een grote codebase in één keer.",
+        "Vroege benchmarks zijn indrukwekkend. Op een veelgebruikte cyberbeveiligingstest scoort het model 82 van de 100 en **loste 93% van realistische beveiligingsoefeningen op** in een standaard testset. Op coderingstaken overtreft het bekende modellen zoals DeepSeek V4 Pro. Mistral trainde het op een eigen Europees cluster van 3.800 NVIDIA Grace Blackwell GPU's, met data in 160 talen inclusief alle officiële EU-talen.",
+        "De open-weights release — verwacht eind oktober 2026 — is het meest relevant voor bedrijven in gereguleerde sectoren. Financiële bedrijven, advocatenkantoren en zorgverleners mogen gevoelige documenten vaak niet naar externe servers sturen. Als **je het model op je eigen infrastructuur kunt draaien**, vervallen die beperkingen. Stel bij elk AI-tool één extra vraag: kunnen we dit zelf hosten als dat nodig is? Voor veel teams is het antwoord nu ja."
+      ],
+      "keyFacts": [
+        { "value": "1.05T", "label": "totaal aantal modelparameters" },
+        { "value": "49B", "label": "parameters actief per query" },
+        { "value": "1M", "label": "tokens leesbaar in één sessie" },
+        { "value": "3,800", "label": "GPU's gebruikt voor training" }
+      ]
+    },
+    "es": {
+      "title": "Qué cambia cuando un modelo de IA con un billón de parámetros puede correr en tus propios servidores",
+      "summary": "El nuevo modelo de Mistral con un billón de parámetros estará pronto disponible para descargar, lo que significa que las empresas podrán usar IA de nivel mundial sin enviar sus datos a nadie más.",
+      "body": [
+        "Durante años, la IA más potente solo estuvo disponible como servicio en la nube — envías tus datos al servidor de otra empresa, el modelo los procesa allí y te devuelve el resultado. Eso está a punto de cambiar. Mistral AI, una startup francesa, publicó esta semana una vista previa de Large 4: **un modelo que pronto podrás descargar y ejecutar tú mismo**, aunque es uno de los modelos de IA más grandes jamás construidos.",
+        "Ese número — 1,05 billones de parámetros — suena enorme. Pero el diseño es eficiente. Large 4 usa una técnica llamada Mixture-of-Experts — como un equipo grande donde solo unos pocos especialistas trabajan en cada tarea. **Solo 49.000 millones de parámetros están activos a la vez**, por lo que el modelo funciona mucho más eficientemente de lo que su tamaño sugiere. También puede procesar hasta un millón de tokens en una sola sesión — suficiente para leer un contrato completo, un año de transacciones o una gran base de código de una vez.",
+        "Los primeros benchmarks son sólidos. En una prueba de ciberseguridad ampliamente usada, el modelo obtiene 82 sobre 100 y **resolvió el 93% de ejercicios de seguridad realistas** en un conjunto de pruebas estándar. En tareas de codificación, supera a modelos conocidos como DeepSeek V4 Pro. Mistral lo entrenó en su propio clúster europeo de 3.800 GPU NVIDIA Grace Blackwell, con datos en 160 idiomas, incluidos todos los idiomas oficiales de la UE.",
+        "El lanzamiento de los pesos abiertos — esperado para finales de octubre de 2026 — es lo que más importa para las empresas en sectores regulados. Las firmas financieras, los bufetes de abogados y los proveedores de salud a menudo no pueden enviar documentos sensibles a un servidor externo. Cuando **puedes ejecutar el modelo en tus propios servidores**, esas restricciones desaparecen. Añade esta pregunta a cualquier evaluación de herramienta de IA: ¿podemos alojar esto nosotros mismos si lo necesitamos? Para muchos equipos, la respuesta ahora es sí."
+      ],
+      "keyFacts": [
+        { "value": "1.05T", "label": "parámetros totales del modelo" },
+        { "value": "49B", "label": "parámetros activos por consulta" },
+        { "value": "1M", "label": "tokens legibles en una sesión" },
+        { "value": "3,800", "label": "GPU usadas en el entrenamiento" }
+      ]
+    },
+    "fr": {
+      "title": "Ce qui change quand un modèle d'IA à mille milliards de paramètres peut tourner sur vos propres serveurs",
+      "summary": "Le nouveau modèle de Mistral, avec mille milliards de paramètres, sera bientôt téléchargeable gratuitement, ce qui permet aux entreprises d'utiliser une IA de niveau mondial sans envoyer leurs données ailleurs.",
+      "body": [
+        "Pendant des années, l'IA la plus puissante n'a été disponible que comme service cloud — on envoie ses données vers un serveur tiers, le modèle tourne là-bas, et le résultat revient. C'est sur le point de changer. Mistral AI, une startup française, vient de publier un aperçu de Large 4 cette semaine : **un modèle que vous pourrez bientôt télécharger et faire tourner vous-même**, même s'il compte parmi les plus grands modèles d'IA jamais construits.",
+        "Ce chiffre — 1,05 billion de paramètres — semble gigantesque. Mais la conception est efficiente. Large 4 utilise une technique appelée Mixture-of-Experts — comme une grande équipe où seuls quelques spécialistes interviennent pour chaque tâche. **Seulement 49 milliards de paramètres sont actifs à la fois**, ce qui le rend bien plus efficace à l'exécution que sa taille brute ne le laisse croire. Il peut également traiter jusqu'à un million de tokens en une seule session — assez pour lire un contrat complet, une année de transactions ou une grande base de code en une fois.",
+        "Les premiers benchmarks sont solides. Sur un test de cybersécurité largement utilisé, le modèle obtient 82 sur 100 et **a résolu 93 % des exercices de sécurité réalistes** d'un jeu de tests standard. Sur les tâches de codage, il dépasse plusieurs modèles réputés dont DeepSeek V4 Pro. Mistral l'a entraîné sur son propre cluster européen de 3 800 GPU NVIDIA Grace Blackwell, avec des données dans 160 langues — y compris toutes les langues officielles de l'UE.",
+        "La publication des poids ouverts — attendue fin octobre 2026 — est ce qui compte le plus pour les entreprises dans les secteurs régulés. Les sociétés financières, les cabinets juridiques et les prestataires de santé ne peuvent souvent pas envoyer de documents sensibles vers des serveurs tiers. Quand **on peut faire tourner le modèle sur sa propre infrastructure**, ces contraintes disparaissent. Ajoutez cette question à toute évaluation d'outil IA : pouvons-nous l'héberger nous-mêmes si besoin ? Pour de nombreuses équipes, la réponse est désormais oui."
+      ],
+      "keyFacts": [
+        { "value": "1.05T", "label": "paramètres totaux du modèle" },
+        { "value": "49B", "label": "paramètres actifs par requête" },
+        { "value": "1M", "label": "tokens lisibles en une session" },
+        { "value": "3,800", "label": "GPU utilisés pour l'entraînement" }
+      ]
+    },
+    "ar": {
+      "title": "ما الذي يتغير حين يمكن لنموذج ذكاء اصطناعي بتريليون معامل العمل على خوادمك الخاصة",
+      "summary": "نموذج Mistral الجديد بتريليون معامل سيصبح قريباً متاحاً للتنزيل مجاناً، ما يعني أن الشركات ستتمكن من استخدام ذكاء اصطناعي على مستوى عالمي دون إرسال بياناتها لأي طرف آخر.",
+      "body": [
+        "لسنوات، لم يكن بالإمكان الوصول إلى أقوى نماذج الذكاء الاصطناعي إلا عبر خدمات سحابية — ترسل بياناتك إلى خوادم شركة أخرى، يعالجها النموذج هناك، ثم يعود إليك بالنتيجة. هذا على وشك التغيير. أصدرت الشركة الناشئة الفرنسية Mistral AI هذا الأسبوع نسخة أولية من Large 4: **نموذج ستتمكن قريباً من تنزيله وتشغيله بنفسك**، رغم أنه أحد أضخم نماذج الذكاء الاصطناعي التي بُنيت على الإطلاق.",
+        "هذا الرقم — 1.05 تريليون معامل — يبدو ضخماً. لكن التصميم فعّال. يستخدم Large 4 أسلوباً يُسمى Mixture-of-Experts، كفريق كبير يُشارك فيه عدد قليل من المتخصصين في كل مهمة فقط. **49 مليار معامل فقط تعمل في أي لحظة**، مما يجعل النموذج أكثر كفاءة بكثير مما يوحي به حجمه. يمكنه أيضاً معالجة مليون وحدة نصية في جلسة واحدة — كافية لقراءة عقد كامل أو سنة من المعاملات أو قاعدة كود ضخمة دفعة واحدة.",
+        "نتائج المعايير الأولى قوية. في اختبار للأمن السيبراني يُستخدم على نطاق واسع، يحقق النموذج 82 من 100، و**حلّ 93% من تمارين الأمان الواقعية** في مجموعة اختبار قياسية. في مهام البرمجة، تفوق على نماذج معروفة مثل DeepSeek V4 Pro. دربت Mistral النموذج على مجموعة خوادم أوروبية خاصة تضم 3,800 وحدة معالجة NVIDIA Grace Blackwell، بيانات تشمل 160 لغة منها جميع اللغات الرسمية للاتحاد الأوروبي.",
+        "إصدار الأوزان المفتوحة — المتوقع نهاية أكتوبر 2026 — هو الأهم للشركات في القطاعات المنظمة. كثيراً ما لا تستطيع شركات التمويل والمكاتب القانونية ومزودو الرعاية الصحية إرسال وثائق حساسة إلى خوادم خارجية. حين **تستطيع تشغيل النموذج على بنيتك التحتية الخاصة**، تختفي هذه القيود. أضف هذا السؤال لأي تقييم لأداة ذكاء اصطناعي: هل نستطيع استضافته بأنفسنا إذا احتجنا؟ للكثير من الفرق، الجواب الآن نعم."
+      ],
+      "keyFacts": [
+        { "value": "1.05T", "label": "إجمالي معاملات النموذج" },
+        { "value": "49B", "label": "معاملات نشطة في كل استعلام" },
+        { "value": "1M", "label": "وحدة نصية قابلة للمعالجة في جلسة واحدة" },
+        { "value": "3,800", "label": "وحدات GPU استُخدمت في التدريب" }
+      ]
+    }
+  }
+}
