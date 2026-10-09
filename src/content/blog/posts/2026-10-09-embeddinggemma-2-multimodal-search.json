@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-09-embeddinggemma-2-multimodal-search",
+  "date": "2026-10-09",
+  "tags": ["ai", "open-source", "search"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Cryptobriefing — Google releases EmbeddingGemma 2, a 740 million parameter open-weight model under Apache 2.0",
+      "url": "https://cryptobriefing.com/google-embeddinggemma-2-open-weight-model/"
+    },
+    {
+      "title": "AI Weekly — AI News for October 7, 2026 — Daily Edition",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-07"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Your app can now search text, images, and audio together — for free",
+      "summary": "Google released a free, open-source AI model that understands text, images, video, and audio as one system, making powerful multimodal search affordable for any team.",
+      "body": [
+        "If you have ever wished your app could search through documents, photos, and voice recordings all at once, a new free tool from Google makes that possible today. Google DeepMind released EmbeddingGemma 2 on October 6 — a small, open AI model that **understands text, images, video, and audio together as one system**.",
+        "Here is how it works. The model reads any content — a sentence, a photo, a sound clip — and turns it into a list of numbers that captures its meaning. Two things that mean the same thing get similar numbers. So when a user searches for 'dog barking outdoors,' the model can match that query to a relevant photo, an audio clip, and a text description — **all in a single search step**, without needing three separate systems.",
+        "The practical side is just as good. The full model fits in about 567 MB of RAM, small enough to run on a modern phone. It is released under Apache 2.0, which means **it is completely free to use in commercial products**. It supports over 100 languages and is already available on Hugging Face and Kaggle.",
+        "The old way to build multimodal search required separate AI models for each media type, separate indexes, and custom code to combine results. That added cost, complexity, and API bills. Now, one small open model does the job. **For any team building search, recommendations, or content matching, the biggest obstacle just got removed** — and there is no reason to wait to try it."
+      ],
+      "keyFacts": [
+        { "value": "740M", "label": "parameters in the full model" },
+        { "value": "567 MB", "label": "RAM needed to run on a phone" },
+        { "value": "100+", "label": "languages supported" },
+        { "value": "Oct 6, 2026", "label": "release date" }
+      ]
+    },
+    "de": {
+      "title": "Deine App kann jetzt Text, Bilder und Audio gemeinsam durchsuchen — kostenlos",
+      "summary": "Google hat ein kostenloses Open-Source-KI-Modell veröffentlicht, das Text, Bilder, Video und Audio als ein gemeinsames System versteht und damit leistungsstarke multimodale Suche für jedes Team erschwinglich macht.",
+      "body": [
+        "Wer je gewünscht hat, dass seine App gleichzeitig Dokumente, Fotos und Sprachaufnahmen durchsuchen kann, bekommt heute ein kostenloses Werkzeug von Google. Google DeepMind hat EmbeddingGemma 2 am 6. Oktober veröffentlicht — ein kleines, offenes KI-Modell, das **Text, Bilder, Video und Audio gemeinsam als ein System versteht**.",
+        "So funktioniert es: Das Modell liest beliebige Inhalte — einen Satz, ein Foto, einen Tonausschnitt — und wandelt sie in eine Liste von Zahlen um, die ihre Bedeutung erfasst. Zwei Dinge mit ähnlicher Bedeutung erhalten ähnliche Zahlen. Wenn ein Nutzer nach 'Hund bellt draußen' sucht, kann das Modell diese Anfrage mit einem passenden Foto, einem Audioclip und einer Textbeschreibung abgleichen — **alles in einem einzigen Suchschritt**, ohne drei separate Systeme.",
+        "Die praktischen Werte überzeugen ebenso: Das vollständige Modell benötigt nur rund 567 MB RAM — klein genug für ein modernes Smartphone. Es wird unter der Apache-2.0-Lizenz veröffentlicht, was bedeutet: **Es ist für kommerzielle Produkte vollständig kostenlos nutzbar**. Es unterstützt über 100 Sprachen und ist bereits auf Hugging Face und Kaggle verfügbar.",
+        "Die bisherige Methode für multimodale Suche erforderte separate KI-Modelle für jeden Medientyp, separate Indizes und eigenen Code zum Zusammenführen der Ergebnisse. Das bedeutete Kosten, Komplexität und API-Rechnungen. Jetzt erledigt ein einziges kleines, offenes Modell die gesamte Arbeit. **Für jedes Team, das Suche, Empfehlungen oder Content-Matching entwickelt, ist das größte Hindernis weggefallen** — es gibt keinen Grund mehr zu warten."
+      ],
+      "keyFacts": [
+        { "value": "740M", "label": "Parameter im vollständigen Modell" },
+        { "value": "567 MB", "label": "RAM für den Betrieb auf dem Smartphone" },
+        { "value": "100+", "label": "unterstützte Sprachen" },
+        { "value": "Oct 6, 2026", "label": "Veröffentlichungsdatum" }
+      ]
+    },
+    "nl": {
+      "title": "Je app kan nu tekst, afbeeldingen en audio samen doorzoeken — gratis",
+      "summary": "Google heeft een gratis open-source AI-model uitgebracht dat tekst, afbeeldingen, video en audio als één systeem begrijpt, waardoor krachtige multimodale zoekfunctie voor elk team betaalbaar wordt.",
+      "body": [
+        "Wie altijd al wilde dat zijn app tegelijk door documenten, foto's en spraakopnames kon zoeken, heeft vandaag een gratis hulpmiddel van Google. Google DeepMind bracht op 6 oktober EmbeddingGemma 2 uit — een klein, open AI-model dat **tekst, afbeeldingen, video en audio samen als één systeem begrijpt**.",
+        "Zo werkt het: het model leest willekeurige inhoud — een zin, een foto, een geluidsfragment — en zet die om in een lijst getallen die de betekenis vastlegt. Twee dingen met vergelijkbare betekenis krijgen vergelijkbare getallen. Als een gebruiker zoekt op 'hond blaft buiten', kan het model die zoekopdracht matchen met een relevante foto, een audioclip en een tekstbeschrijving — **alles in één zoekopdracht**, zonder drie aparte systemen.",
+        "De praktische kant is even goed. Het volledige model past in ongeveer 567 MB RAM — klein genoeg voor een moderne telefoon. Het is uitgebracht onder Apache 2.0, wat betekent dat **het volledig gratis te gebruiken is in commerciële producten**. Het ondersteunt meer dan 100 talen en is al beschikbaar op Hugging Face en Kaggle.",
+        "De oude manier om multimodale zoekfunctie te bouwen vereiste losse AI-modellen per mediatype, aparte indexen en maatwerkkode om resultaten samen te voegen. Dat kostte geld, complexiteit en API-rekeningen. Nu doet één klein open model het werk. **Voor elk team dat zoeken, aanbevelingen of contentmatching bouwt, is het grootste obstakel verdwenen** — en er is geen reden meer om te wachten."
+      ],
+      "keyFacts": [
+        { "value": "740M", "label": "parameters in het volledige model" },
+        { "value": "567 MB", "label": "RAM om op een telefoon te draaien" },
+        { "value": "100+", "label": "ondersteunde talen" },
+        { "value": "Oct 6, 2026", "label": "releasedatum" }
+      ]
+    },
+    "es": {
+      "title": "Tu app ya puede buscar texto, imágenes y audio juntos — gratis",
+      "summary": "Google lanzó un modelo abierto y gratuito que entiende texto, imágenes, video y audio como un solo sistema, haciendo que la búsqueda multimodal sea accesible para cualquier equipo.",
+      "body": [
+        "Si alguna vez quisiste que tu aplicación buscara a la vez en documentos, fotos y grabaciones de voz, Google te ofrece hoy una herramienta gratuita para hacerlo. Google DeepMind lanzó EmbeddingGemma 2 el 6 de octubre — un modelo de IA pequeño y abierto que **entiende texto, imágenes, video y audio juntos como un solo sistema**.",
+        "Así funciona: el modelo lee cualquier contenido — una frase, una foto, un fragmento de audio — y lo convierte en una lista de números que captura su significado. Dos cosas con significado similar obtienen números similares. Cuando un usuario busca 'perro ladrando afuera', el modelo puede relacionar esa búsqueda con una foto relevante, un clip de audio y una descripción de texto — **todo en un solo paso de búsqueda**, sin necesitar tres sistemas separados.",
+        "El lado práctico es igual de bueno. El modelo completo cabe en unos 567 MB de RAM, suficientemente pequeño para un teléfono moderno. Se publica bajo Apache 2.0, lo que significa que **es completamente gratuito para usar en productos comerciales**. Soporta más de 100 idiomas y ya está disponible en Hugging Face y Kaggle.",
+        "La forma antigua de construir búsqueda multimodal requería modelos de IA separados para cada tipo de medio, índices separados y código personalizado para combinar resultados. Eso añadía costos, complejidad y facturas de API. Ahora, un pequeño modelo abierto hace el trabajo. **Para cualquier equipo que construya búsqueda, recomendaciones o coincidencia de contenido, el mayor obstáculo acaba de desaparecer** — y no hay razón para esperar."
+      ],
+      "keyFacts": [
+        { "value": "740M", "label": "parámetros en el modelo completo" },
+        { "value": "567 MB", "label": "RAM necesaria en un teléfono" },
+        { "value": "100+", "label": "idiomas soportados" },
+        { "value": "Oct 6, 2026", "label": "fecha de lanzamiento" }
+      ]
+    },
+    "fr": {
+      "title": "Votre app peut désormais chercher texte, images et audio ensemble — gratuitement",
+      "summary": "Google a publié un modèle ouvert et gratuit qui comprend le texte, les images, la vidéo et l'audio comme un seul système, rendant la recherche multimodale accessible à toutes les équipes.",
+      "body": [
+        "Si vous avez toujours voulu que votre application puisse chercher à la fois dans des documents, des photos et des enregistrements vocaux, Google vous offre aujourd'hui un outil gratuit pour le faire. Google DeepMind a lancé EmbeddingGemma 2 le 6 octobre — un petit modèle d'IA ouvert qui **comprend texte, images, vidéo et audio ensemble comme un seul système**.",
+        "Voici comment ça fonctionne : le modèle lit n'importe quel contenu — une phrase, une photo, un extrait audio — et le transforme en une liste de nombres qui capture son sens. Deux choses au sens similaire obtiennent des nombres proches. Quand un utilisateur cherche 'chien qui aboie dehors', le modèle peut relier cette recherche à une photo pertinente, un clip audio et une description textuelle — **le tout en une seule étape de recherche**, sans trois systèmes distincts.",
+        "Le côté pratique est tout aussi bon. Le modèle complet tient dans environ 567 Mo de RAM — assez petit pour un téléphone moderne. Il est publié sous licence Apache 2.0, ce qui signifie qu'**il est totalement gratuit pour les produits commerciaux**. Il prend en charge plus de 100 langues et est déjà disponible sur Hugging Face et Kaggle.",
+        "L'ancienne façon de construire une recherche multimodale nécessitait des modèles d'IA séparés pour chaque type de média, des index séparés et du code sur mesure pour combiner les résultats. Cela représentait des coûts, de la complexité et des factures d'API. Maintenant, un petit modèle ouvert fait tout le travail. **Pour toute équipe qui construit de la recherche, des recommandations ou du matching de contenu, le plus grand obstacle vient de disparaître** — et il n'y a aucune raison d'attendre."
+      ],
+      "keyFacts": [
+        { "value": "740M", "label": "paramètres dans le modèle complet" },
+        { "value": "567 MB", "label": "RAM nécessaire sur un téléphone" },
+        { "value": "100+", "label": "langues supportées" },
+        { "value": "Oct 6, 2026", "label": "date de sortie" }
+      ]
+    },
+    "ar": {
+      "title": "تطبيقك يستطيع الآن البحث في النصوص والصور والصوت معاً — مجاناً",
+      "summary": "أطلقت Google نموذجاً مفتوحاً ومجانياً يفهم النصوص والصور والفيديو والصوت معاً كنظام واحد، مما يجعل البحث المتعدد الوسائط متاحاً وبتكلفة منخفضة لأي فريق.",
+      "body": [
+        "إذا أردت يوماً أن يبحث تطبيقك في الوثائق والصور والتسجيلات الصوتية في آنٍ واحد، فإن Google تقدم لك اليوم أداةً مجانية لذلك. أطلقت Google DeepMind يوم 6 أكتوبر EmbeddingGemma 2 — وهو نموذج ذكاء اصطناعي صغير ومفتوح **يفهم النصوص والصور والفيديو والصوت معاً كنظام واحد**.",
+        "هكذا يعمل: يقرأ النموذج أي محتوى — جملة أو صورة أو مقطعاً صوتياً — ويحوّله إلى قائمة من الأرقام تعكس معناه. الأشياء ذات المعنى المتشابه تحصل على أرقام متقاربة. حين يبحث مستخدم عن 'كلب ينبح في الخارج'، يستطيع النموذج ربط هذا البحث بصورة مناسبة ومقطع صوتي ووصف نصي — **كل ذلك في خطوة بحث واحدة** دون الحاجة إلى ثلاثة أنظمة منفصلة.",
+        "الجانب العملي جيد بالقدر ذاته. يشغّل النموذج الكامل في نحو 567 ميغابايت من الذاكرة — صغير بما يكفي للعمل على هاتف حديث. صدر بترخيص Apache 2.0، أي أنه **مجاني تماماً للاستخدام في المنتجات التجارية**. يدعم أكثر من 100 لغة، وهو متاح بالفعل على Hugging Face وKaggle.",
+        "كانت الطريقة القديمة لبناء بحث متعدد الوسائط تتطلب نماذج ذكاء اصطناعي منفصلة لكل نوع وسائط، وفهارس منفصلة، وكوداً مخصصاً لدمج النتائج — تكاليف وتعقيد وفواتير API. الآن، نموذج واحد صغير ومفتوح يؤدي العمل كله. **أمام كل فريق يبني بحثاً أو توصيات أو مطابقة محتوى، اختفى أكبر عائق** — ولا سبب للانتظار."
+      ],
+      "keyFacts": [
+        { "value": "740M", "label": "معامل في النموذج الكامل" },
+        { "value": "567 MB", "label": "ذاكرة الوصول العشوائي على الهاتف" },
+        { "value": "100+", "label": "لغة مدعومة" },
+        { "value": "Oct 6, 2026", "label": "تاريخ الإصدار" }
+      ]
+    }
+  }
+}
