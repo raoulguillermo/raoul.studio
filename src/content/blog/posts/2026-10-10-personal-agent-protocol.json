@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-10-personal-agent-protocol",
+  "date": "2026-10-10",
+  "tags": ["ai", "ai-agents", "commerce", "open-standards"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "AICoder — Sierra and Meta announce Personal Agent Protocol, an open OAuth-based standard",
+      "url": "https://aicoder.com/news/news-20261007-sierra-meta-personal-agent-protocol-open-standard"
+    },
+    {
+      "title": "PYMNTS — Meta and Sierra Build Standard for How Personal Agents Interact With Businesses",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-and-sierra-build-standard-for-how-personal-agents-interact-with-businesses/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Your Next Customer Might Be an AI Agent. A New Standard Just Made That Real.",
+      "summary": "Meta, Sierra, and major retailers just agreed on how AI agents will shop on behalf of real people — and any business that is not ready will get skipped.",
+      "body": [
+        "AI assistants like ChatGPT and Claude can already answer questions and write emails. Now they are starting to take action — placing orders, checking prices, booking services — on your behalf. On October 6, a group of big companies agreed on the rules for how that should work. **How businesses receive customers is about to change.**",
+        "Meta and Sierra — led by Bret Taylor, former CEO of Salesforce — announced the Personal Agent Protocol. Think of it like a shared front door for AI agents. It is built on OAuth, the same technology behind log in with Google. An AI agent can discover what your business offers, ask for permission, then act on a customer's behalf: check stock, compare prices, or place an order. **Three levels of access keep users in control**: as a guest, with read-only browsing, or with full permission to buy.",
+        "Eight organisations joined at launch: Meta, Sierra, Shopify, Stripe, Walmart, Genesys, Instinct, and Rocket. That list matters. When Shopify and Stripe back a standard, it tends to become the default for online commerce. **Businesses not in the protocol risk being skipped entirely.** The version 0.1 specification arrives by end of October, with a reference implementation for developers to build on.",
+        "If you build or run a product with customers, now is the time to check your API surface. Does your service expose clear, documented endpoints? Do you use MCP or OpenAPI? Those are the doors AI agents will walk through. You do not need to implement the full protocol today — but clean APIs and current documentation mean **you will not have to scramble** when the spec lands and agents start shopping."
+      ],
+      "keyFacts": [
+        { "value": "Oct 6, 2026", "label": "date announced" },
+        { "value": "8", "label": "companies backing it at launch" },
+        { "value": "3", "label": "levels of agent access" },
+        { "value": "End of Oct", "label": "target date for v0.1 spec" }
+      ]
+    },
+    "de": {
+      "title": "Dein nächster Kunde könnte ein KI-Agent sein — ein neuer Standard macht es möglich",
+      "summary": "Meta, Sierra und führende Händler haben vereinbart, wie KI-Agenten künftig für echte Menschen einkaufen sollen — wer nicht vorbereitet ist, wird übergangen.",
+      "body": [
+        "KI-Assistenten wie ChatGPT und Claude können bereits Fragen beantworten und E-Mails schreiben. Jetzt beginnen sie, Aufgaben zu übernehmen — Bestellungen aufgeben, Preise vergleichen, Termine buchen — alles in deinem Namen. Am 6. Oktober haben große Unternehmen gemeinsam vereinbart, wie das ablaufen soll. **Die Art, wie Unternehmen Kunden empfangen, ändert sich.**",
+        "Meta und Sierra — geleitet von Bret Taylor, dem ehemaligen CEO von Salesforce — haben das Personal Agent Protocol angekündigt. Stell es dir wie eine gemeinsame Eingangstür für KI-Agenten vor. Es basiert auf OAuth, dem gleichen System hinter Login mit Google. Ein KI-Agent kann herausfinden, was dein Unternehmen anbietet, um Erlaubnis bitten und dann im Namen eines Kunden handeln: Lagerbestand prüfen, Preise vergleichen oder eine Bestellung aufgeben. **Drei Zugangsstufen halten die Kontrolle beim Nutzer**: als Gast, mit reiner Leseberechtigung oder mit vollem Kaufrecht.",
+        "Acht Organisationen sind von Anfang an dabei: Meta, Sierra, Shopify, Stripe, Walmart, Genesys, Instinct und Rocket. Diese Liste zählt. Wenn Shopify und Stripe einen Standard unterstützen, wird er meist zur Norm im Online-Handel. **Unternehmen außerhalb des Protokolls riskieren, übergangen zu werden.** Die Version 0.1 der Spezifikation erscheint bis Ende Oktober, mit einer Referenzimplementierung für Entwickler.",
+        "Wer ein Produkt mit Kunden betreibt, sollte jetzt die eigene API-Oberfläche prüfen. Sind die Endpunkte sauber dokumentiert? Werden MCP oder OpenAPI genutzt? Das sind die Türen, durch die KI-Agenten gehen werden. Die vollständige Umsetzung ist noch nicht nötig — aber saubere APIs und aktuelle Dokumentation bedeuten, **dass du nicht in Zeitnot gerätst**, wenn der Standard erscheint."
+      ],
+      "keyFacts": [
+        { "value": "Oct 6, 2026", "label": "Datum der Ankündigung" },
+        { "value": "8", "label": "Unternehmen beim Start" },
+        { "value": "3", "label": "Zugangsstufen für Agenten" },
+        { "value": "End of Oct", "label": "Zieldatum für v0.1-Spezifikation" }
+      ]
+    },
+    "nl": {
+      "title": "Je volgende klant is misschien een AI-agent. Een nieuw protocol maakt het officieel.",
+      "summary": "Meta, Sierra en grote retailers zijn het eens geworden over hoe AI-agents namens klanten bij bedrijven kunnen winkelen — wie niet klaar is, wordt overgeslagen.",
+      "body": [
+        "AI-assistenten als ChatGPT en Claude kunnen al vragen beantwoorden en e-mails schrijven. Nu beginnen ze ook te handelen — bestellingen plaatsen, prijzen vergelijken, afspraken boeken — namens jou. Op 6 oktober kwamen grote bedrijven overeen hoe dat precies moet werken. **De manier waarop bedrijven klanten ontvangen gaat veranderen.**",
+        "Meta en Sierra — geleid door Bret Taylor, voormalig CEO van Salesforce — hebben het Personal Agent Protocol aangekondigd. Denk eraan als een gemeenschappelijke voordeur voor AI-agents. Het is gebouwd op OAuth, dezelfde technologie achter inloggen met Google. Een AI-agent kan ontdekken wat jouw bedrijf aanbiedt, toestemming vragen en dan namens een klant handelen: voorraad controleren, prijzen vergelijken of een bestelling plaatsen. **Drie toegangsniveaus houden de gebruiker in controle**: als gast, met alleen lezen, of met volledig kooprecht.",
+        "Acht organisaties stonden bij de lancering al achter het protocol: Meta, Sierra, Shopify, Stripe, Walmart, Genesys, Instinct en Rocket. Die lijst telt. Als Shopify en Stripe een standaard steunen, wordt het vaak de norm in online handel. **Bedrijven buiten het protocol riskeren overgeslagen te worden.** De versie 0.1-specificatie komt eind oktober uit, met een referentie-implementatie voor ontwikkelaars.",
+        "Als je een product of dienst voor klanten bouwt of beheert, is het nu de tijd om je API-oppervlak te bekijken. Zijn je endpoints duidelijk gedocumenteerd? Gebruik je MCP of OpenAPI? Dat zijn de deuren waar AI-agents doorheen lopen. Je hoeft het protocol nog niet volledig in te voeren — maar nette APIs en actuele documentatie zorgen ervoor dat **je niet in de knel zit** wanneer de spec uitkomt."
+      ],
+      "keyFacts": [
+        { "value": "Oct 6, 2026", "label": "datum aankondiging" },
+        { "value": "8", "label": "bedrijven bij de lancering" },
+        { "value": "3", "label": "toegangsniveaus voor agents" },
+        { "value": "End of Oct", "label": "streefdatum v0.1-spec" }
+      ]
+    },
+    "es": {
+      "title": "Tu próximo cliente podría ser un agente de IA. Un nuevo protocolo lo hace real.",
+      "summary": "Meta, Sierra y grandes minoristas acordaron cómo los agentes de IA podrán comprar en nombre de personas reales — los negocios que no estén listos serán simplemente ignorados.",
+      "body": [
+        "Los asistentes de IA como ChatGPT y Claude ya pueden responder preguntas y redactar correos. Ahora empiezan a actuar — hacer pedidos, comparar precios, reservar servicios — todo en tu nombre. El 6 de octubre, un grupo de grandes empresas acordó las reglas para que esto funcione. **La forma en que los negocios reciben a sus clientes está a punto de cambiar.**",
+        "Meta y Sierra — liderada por Bret Taylor, ex CEO de Salesforce — anunciaron el Personal Agent Protocol. Imagínalo como una puerta de entrada común para los agentes de IA. Está construido sobre OAuth, la misma tecnología detrás de iniciar sesión con Google. Un agente de IA puede descubrir qué ofrece tu negocio, pedir permiso y luego actuar en nombre de un cliente: revisar inventario, comparar precios o hacer un pedido. **Tres niveles de acceso mantienen el control en manos del usuario**: como invitado, con solo lectura, o con permiso completo para comprar.",
+        "Ocho organizaciones se sumaron desde el inicio: Meta, Sierra, Shopify, Stripe, Walmart, Genesys, Instinct y Rocket. Esa lista importa. Cuando Shopify y Stripe respaldan un estándar, suele convertirse en la norma del comercio digital. **Los negocios fuera del protocolo arriesgan ser ignorados por completo.** La especificación versión 0.1 llegará a finales de octubre, con una implementación de referencia para desarrolladores.",
+        "Si construyes o gestionas un producto con clientes, ahora es el momento de revisar tu capa de API. ¿Están bien documentados tus endpoints? ¿Usas MCP o OpenAPI? Esas serán las puertas que los agentes de IA usarán para entrar. No necesitas implementar el protocolo completo hoy — pero APIs limpias y documentación actualizada significan **que no tendrás que correr** cuando el estándar llegue."
+      ],
+      "keyFacts": [
+        { "value": "Oct 6, 2026", "label": "fecha del anuncio" },
+        { "value": "8", "label": "empresas en el lanzamiento" },
+        { "value": "3", "label": "niveles de acceso para agentes" },
+        { "value": "End of Oct", "label": "fecha objetivo de la spec v0.1" }
+      ]
+    },
+    "fr": {
+      "title": "Votre prochain client sera peut-être une IA. Un nouveau protocole vient de le rendre possible.",
+      "summary": "Meta, Sierra et de grands retailers ont fixé les règles pour qu'un agent IA puisse acheter pour vous — les entreprises qui ne s'y préparent pas seront tout simplement ignorées.",
+      "body": [
+        "Les assistants IA comme ChatGPT et Claude savent déjà répondre à des questions et rédiger des e-mails. Maintenant, ils commencent à agir — passer des commandes, comparer des prix, réserver des services — à votre place. Le 6 octobre, de grandes entreprises se sont accordées sur les règles qui encadreront ce fonctionnement. **La façon d'accueillir les clients est en train de changer.**",
+        "Meta et Sierra — menée par Bret Taylor, ancien PDG de Salesforce — ont annoncé le Personal Agent Protocol. Imaginez-le comme une porte d'entrée commune pour les agents IA. Il repose sur OAuth, la même technologie qui permet de se connecter avec Google sur n'importe quel site. Un agent IA peut découvrir ce que votre entreprise propose, demander la permission d'agir, puis procéder au nom d'un client : vérifier les stocks, comparer les prix ou passer une commande. **Trois niveaux d'accès préservent le contrôle de l'utilisateur** : invité, lecture seule, ou permission complète d'achat.",
+        "Huit organisations ont rejoint le protocole dès le lancement : Meta, Sierra, Shopify, Stripe, Walmart, Genesys, Instinct et Rocket. Cette liste compte. Quand Shopify et Stripe soutiennent un standard, il tend à devenir la norme dans le commerce en ligne. **Les entreprises hors du protocole risquent d'être ignorées.** La spécification version 0.1 sera publiée d'ici fin octobre, avec une implémentation de référence pour les développeurs.",
+        "Si vous construisez ou gérez un produit avec des clients, c'est maintenant qu'il faut examiner votre surface d'API. Vos endpoints sont-ils bien documentés ? Utilisez-vous MCP ou OpenAPI ? Ce sont les portes par lesquelles les agents IA passeront. Inutile d'implémenter le protocole complet aujourd'hui — mais des API propres et une documentation à jour signifient **que vous ne serez pas pris de court** quand le standard sera publié."
+      ],
+      "keyFacts": [
+        { "value": "Oct 6, 2026", "label": "date de l'annonce" },
+        { "value": "8", "label": "entreprises au lancement" },
+        { "value": "3", "label": "niveaux d'accès pour les agents" },
+        { "value": "End of Oct", "label": "date cible de la spec v0.1" }
+      ]
+    },
+    "ar": {
+      "title": "قد يكون عميلك القادم وكيلاً ذكياً اصطناعياً — بروتوكول جديد يجعل ذلك حقيقةً",
+      "summary": "اتفقت ميتا وسيرا وكبار تجّار التجزئة على كيفية تسوّق وكلاء الذكاء الاصطناعي نيابةً عن العملاء الحقيقيين — والشركات غير المستعدة ستُتجاوَز ببساطة.",
+      "body": [
+        "باتت مساعدات الذكاء الاصطناعي كـ ChatGPT وClaude قادرةً على الإجابة عن الأسئلة وكتابة الرسائل. والآن بدأت تتخطى ذلك إلى التصرف الفعلي — تقديم الطلبات، مقارنة الأسعار، حجز الخدمات — كل ذلك بدلاً منك. في السادس من أكتوبر، اتفقت شركات كبرى على القواعد التي ستحكم هذا العمل. **طريقة استقبال الشركات لعملائها على وشك أن تتغير.**",
+        "أعلنت شركتا ميتا وسيرا — التي يقودها بريت تايلور، الرئيس التنفيذي السابق لـ Salesforce — عن بروتوكول الوكيل الشخصي. تخيّله كبابٍ مشترك يُتيح لوكلاء الذكاء الاصطناعي الدخول. يعتمد البروتوكول على تقنية OAuth، التي تُتيح تسجيل الدخول عبر Google في أي موقع. يستطيع الوكيل اكتشاف ما يقدّمه عملك، وطلب الإذن، ثم التصرف نيابةً عن العميل: فحص المخزون، مقارنة الأسعار، أو إتمام الشراء. **ثلاثة مستويات للوصول تُبقي الزمام بيد المستخدم**: كضيف، أو بصلاحية قراءة فقط، أو بإذن شراء كامل.",
+        "انضمت ثماني مؤسسات منذ البداية: ميتا وسيرا وشوبيفاي وسترايب وولمارت وجينيسيس وإنستينكت وروكيت. هذه القائمة مهمة. حين تدعم شوبيفاي وسترايب معياراً ما، يغدو في الغالب الإعداد الافتراضي للتجارة الإلكترونية. **الشركات خارج البروتوكول قد تُتجاوَز كلياً.** ستصدر نسخة المواصفات v0.1 قبل نهاية أكتوبر، مع تطبيق مرجعي للمطوّرين.",
+        "إن كنت تبني منتجاً أو تدير خدمةً للعملاء، فالوقت الآن لمراجعة واجهة برمجة التطبيقات لديك. هل نقاط الوصول موثّقة بوضوح؟ هل تستخدم MCP أو OpenAPI؟ هذه ستكون الأبواب التي سيطرقها وكلاء الذكاء الاصطناعي. لا حاجة لتطبيق البروتوكول كاملاً الآن — لكن واجهات برمجية نظيفة وتوثيقاً محدّثاً يعني **أنك لن تُفاجَأ** حين يصدر المعيار ويبدأ الوكلاء بالتسوق."
+      ],
+      "keyFacts": [
+        { "value": "Oct 6, 2026", "label": "تاريخ الإعلان" },
+        { "value": "8", "label": "شركات في الإطلاق" },
+        { "value": "3", "label": "مستويات وصول الوكلاء" },
+        { "value": "End of Oct", "label": "الموعد المستهدف للمواصفة v0.1" }
+      ]
+    }
+  }
+}
