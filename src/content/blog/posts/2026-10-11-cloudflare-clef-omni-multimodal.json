@@ -1,0 +1,120 @@
+{
+  "slug": "2026-10-11-cloudflare-clef-omni-multimodal",
+  "date": "2026-10-11",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Cloudflare Blog — Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+    },
+    {
+      "title": "RuntimeWire — Cloudflare puts audio and video into its decision model with Clef-omni",
+      "url": "https://runtimewire.com/article/cloudflare-clef-omni-multimodal-decision-model"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When One Model Handles Every Kind of Input, Pipelines Get a Lot Simpler",
+      "summary": "Cloudflare's new open-weight model Clef-omni processes text, images, audio, and video in a single API call — cutting out the multi-model pipelines most automation teams currently depend on.",
+      "body": [
+        "Most AI automation tools today are secretly several models working in a chain. One reads text, another transcribes audio, a third describes images. That chain takes time, costs money at every step, and breaks when any one part fails. One model that handles all input types **changes the math entirely**.",
+        "On October 9, Cloudflare shipped Clef-omni, a decision model that accepts text, images, audio files (WAV or MP3), and video clips (MP4 or WebM) in a single API call and returns a structured label or route. It is built on a 30-billion-parameter open model and costs $0.15 per million tokens through Workers AI. Cloudflare also released the model weights on Hugging Face, so any team can run it **on their own servers, for free**.",
+        "The speed numbers are solid. Text decisions come back in about 130 milliseconds, images in 150 milliseconds, and a 21-second video clip with audio in roughly 1.5 seconds. On BFCL — a standard test that checks whether models follow tool-call instructions precisely — Clef-omni scored 98.2%, **high enough to trust in production**.",
+        "This matters most for teams that triage or route incoming work: customer support, content moderation, legal intake, fraud review. Those queues already mix text tickets, screenshots, voice messages, and short video clips. Right now, handling all of them means three or four separate models, three or four API calls, and three or four bills. Clef-omni collapses that into one — and for anyone processing thousands of mixed-media items a day, **that simplification adds up fast**.",
+        "If your product touches documents, voice, or video in any way, this is worth testing now. The weights are on Hugging Face, the API is live on Workers AI, and the price is low enough to evaluate in a real workflow this week. Building the single-model path today is **much easier than untangling a chain later**."
+      ],
+      "keyFacts": [
+        { "value": "$0.15", "label": "per million tokens for Clef-omni" },
+        { "value": "30B", "label": "parameter open model" },
+        { "value": "130ms", "label": "median response time for text decisions" },
+        { "value": "98.2%", "label": "score on BFCL function-calling benchmark" }
+      ]
+    },
+    "de": {
+      "title": "Wenn ein Modell alle Eingabetypen verarbeitet, werden Pipelines endlich einfach",
+      "summary": "Cloudflares neues Open-Weight-Modell Clef-omni verarbeitet Text, Bilder, Audio und Video in einem einzigen API-Aufruf — und macht die aufwendigen Mehrmodell-Pipelines überflüssig, auf die die meisten Teams bisher angewiesen waren.",
+      "body": [
+        "Die meisten KI-Automatisierungstools sind in Wirklichkeit mehrere Modelle, die in einer Kette arbeiten. Eines liest Text, ein anderes transkribiert Audio, ein drittes beschreibt Bilder. Diese Kette kostet Zeit, Geld an jedem Schritt und bricht zusammen, sobald ein Teil versagt. Ein Modell, das alle Eingabetypen gleichzeitig verarbeitet, **ändert diese Rechnung grundlegend**.",
+        "Am 9. Oktober veröffentlichte Cloudflare Clef-omni, ein Entscheidungsmodell, das Text, Bilder, Audiodateien (WAV oder MP3) und Videoclips (MP4 oder WebM) in einem einzigen API-Aufruf annimmt und ein strukturiertes Label oder eine Route zurückgibt. Es basiert auf einem offenen Modell mit 30 Milliarden Parametern und kostet 0,15 Dollar pro Million Token über Workers AI. Cloudflare hat die Modellgewichte auch auf Hugging Face veröffentlicht, sodass jedes Team es **kostenlos auf eigenen Servern** betreiben kann.",
+        "Die Geschwindigkeitswerte sind solide. Textentscheidungen kommen in etwa 130 Millisekunden zurück, Bilder in 150 Millisekunden und ein 21-Sekunden-Videoclip mit Audio in rund 1,5 Sekunden. Beim BFCL-Benchmark — einem Standardtest, der prüft, ob Modelle Tool-Aufrufe präzise befolgen — erzielte Clef-omni 98,2 Prozent, **hoch genug für den Produktionseinsatz**.",
+        "Das ist besonders wichtig für Teams, die eingehende Anfragen priorisieren oder weiterleiten: Kundensupport, Inhaltsprüfung, Rechtsaufnahme, Betrugserkennung. Solche Queues mischen heute bereits Texttickets, Screenshots, Sprachnachrichten und kurze Videoclips. Bisher bedeutet das drei oder vier separate Modelle, drei oder vier API-Aufrufe und drei oder vier Rechnungen. Clef-omni fasst das in einem Schritt zusammen — und für alle, die täglich Tausende gemischter Medienobjekte verarbeiten, **macht diese Vereinfachung sich schnell bezahlt**.",
+        "Wenn dein Produkt auf irgendeine Weise Dokumente, Sprache oder Videos berührt, lohnt sich ein Test jetzt. Die Gewichte sind auf Hugging Face, die API läuft auf Workers AI, und der Preis ist niedrig genug, um es diese Woche in einem echten Workflow zu testen. Den Einmodell-Ansatz heute zu bauen ist **viel einfacher, als später eine Kette zu entwirren**."
+      ],
+      "keyFacts": [
+        { "value": "$0.15", "label": "pro Million Token für Clef-omni" },
+        { "value": "30B", "label": "Parameter, offenes Modell" },
+        { "value": "130ms", "label": "mittlere Antwortzeit für Textentscheidungen" },
+        { "value": "98.2%", "label": "Punktzahl im BFCL Function-Calling-Benchmark" }
+      ]
+    },
+    "nl": {
+      "title": "Eén model voor alle invoertypen maakt automatisering een stuk eenvoudiger",
+      "summary": "Cloudflares nieuwe open-weight model Clef-omni verwerkt tekst, afbeeldingen, audio en video in één API-aanroep — en maakt de multi-model pipelines overbodig waarvan de meeste teams nu nog afhankelijk zijn.",
+      "body": [
+        "De meeste AI-automatiseringstools zijn in werkelijkheid meerdere modellen die in een keten samenwerken. Eén leest tekst, een ander transcribeert audio, een derde beschrijft afbeeldingen. Die keten kost tijd, geld op elke stap, en valt uit zodra één onderdeel faalt. Een model dat alle invoertypen tegelijk verwerkt, **verandert die berekening volledig**.",
+        "Op 9 oktober lanceerde Cloudflare Clef-omni, een beslismodel dat tekst, afbeeldingen, audiobestanden (WAV of MP3) en videoclips (MP4 of WebM) in één API-aanroep verwerkt en een gestructureerd label of route teruggeeft. Het is gebouwd op een open model van 30 miljard parameters en kost $0,15 per miljoen tokens via Workers AI. Cloudflare heeft de modelgewichten ook op Hugging Face gepubliceerd, zodat elk team het **gratis op eigen servers** kan draaien.",
+        "De snelheidscijfers zijn solide. Tekstbeslissingen komen terug in circa 130 milliseconden, afbeeldingen in 150 milliseconden, en een videoclip van 21 seconden met audio in ongeveer 1,5 seconde. Op BFCL — een standaardtest die meet of modellen tool-aanroepen precies volgen — scoorde Clef-omni 98,2%, **hoog genoeg om te vertrouwen in productie**.",
+        "Dit is het meest relevant voor teams die inkomend werk triageren of routeren: klantenservice, contentmoderatie, juridische intake, fraudedetectie. Die wachtrijen bevatten nu al tekst-tickets, screenshots, voiceberichten en korte videoclips. Nu betekent dat drie of vier aparte modellen, drie of vier API-aanroepen en drie of vier facturen. Clef-omni vat dat samen in één stap — en voor iedereen die dagelijks duizenden gemengde media-items verwerkt, **telt die vereenvoudiging snel op**.",
+        "Als je product op wat voor manier dan ook documenten, spraak of video raakt, is het de moeite waard om dit nu te testen. De gewichten staan op Hugging Face, de API draait op Workers AI, en de prijs is laag genoeg voor een echte evaluatie deze week. Het single-model pad vandaag bouwen is **veel eenvoudiger dan een keten later ontwarren**."
+      ],
+      "keyFacts": [
+        { "value": "$0.15", "label": "per miljoen tokens voor Clef-omni" },
+        { "value": "30B", "label": "parameter open model" },
+        { "value": "130ms", "label": "mediane responstijd voor tekstbeslissingen" },
+        { "value": "98.2%", "label": "score op BFCL function-calling benchmark" }
+      ]
+    },
+    "es": {
+      "title": "Cuando un solo modelo procesa cualquier tipo de entrada, construir se vuelve mucho más simple",
+      "summary": "El nuevo modelo de pesos abiertos Clef-omni de Cloudflare procesa texto, imágenes, audio y vídeo en una sola llamada a la API, eliminando las cadenas de múltiples modelos de las que dependen la mayoría de los equipos de automatización.",
+      "body": [
+        "La mayoría de las herramientas de automatización con IA son en realidad varios modelos trabajando en cadena. Uno lee texto, otro transcribe audio, un tercero describe imágenes. Esa cadena tarda, cuesta dinero en cada paso y falla cuando cualquier parte falla. Un modelo que procesa todos los tipos de entrada a la vez **cambia la ecuación por completo**.",
+        "El 9 de octubre, Cloudflare lanzó Clef-omni, un modelo de decisión que acepta texto, imágenes, archivos de audio (WAV o MP3) y videoclips (MP4 o WebM) en una sola llamada a la API y devuelve una etiqueta o ruta estructurada. Está construido sobre un modelo abierto de 30 000 millones de parámetros y cuesta $0.15 por millón de tokens en Workers AI. Cloudflare también publicó los pesos del modelo en Hugging Face, para que cualquier equipo pueda ejecutarlo **en sus propios servidores, gratis**.",
+        "Los números de velocidad son sólidos. Las decisiones de texto vuelven en unos 130 milisegundos, las imágenes en 150 milisegundos, y un videoclip de 21 segundos con audio en aproximadamente 1,5 segundos. En BFCL — un test estándar que verifica si los modelos siguen instrucciones de llamadas a herramientas con precisión — Clef-omni obtuvo 98,2%, **suficientemente alto para confiar en producción**.",
+        "Esto importa especialmente a los equipos que clasifican o enrutan trabajo entrante: soporte al cliente, moderación de contenidos, admisión legal, revisión de fraudes. Esas colas ya mezclan tickets de texto, capturas de pantalla, mensajes de voz y clips cortos. Hoy eso significa tres o cuatro modelos separados, tres o cuatro llamadas a la API y tres o cuatro facturas. Clef-omni lo reduce a uno solo — y para cualquiera que procese miles de elementos de medios mixtos al día, **esa simplificación suma rápido**.",
+        "Si tu producto toca documentos, voz o vídeo de alguna forma, vale la pena probarlo ahora. Los pesos están en Hugging Face, la API está activa en Workers AI, y el precio es suficientemente bajo para una evaluación real esta semana. Construir el camino de un solo modelo hoy es **mucho más fácil que deshacer una cadena después**."
+      ],
+      "keyFacts": [
+        { "value": "$0.15", "label": "por millón de tokens para Clef-omni" },
+        { "value": "30B", "label": "parámetros, modelo abierto" },
+        { "value": "130ms", "label": "tiempo de respuesta mediano para decisiones de texto" },
+        { "value": "98.2%", "label": "puntuación en el benchmark BFCL de llamadas a funciones" }
+      ]
+    },
+    "fr": {
+      "title": "Quand un seul modèle traite tous les types d'entrée, les pipelines deviennent bien plus simples",
+      "summary": "Le nouveau modèle open-weight de Cloudflare, Clef-omni, traite texte, images, audio et vidéo en un seul appel API — supprimant les chaînes multi-modèles dont dépendent la plupart des équipes d'automatisation.",
+      "body": [
+        "La plupart des outils d'automatisation IA sont en réalité plusieurs modèles enchaînés. L'un lit le texte, un autre transcrit l'audio, un troisième décrit les images. Cette chaîne prend du temps, coûte de l'argent à chaque étape, et tombe en panne quand une partie défaille. Un modèle qui traite tous les types d'entrée d'un seul coup **change entièrement l'équation**.",
+        "Le 9 octobre, Cloudflare a lancé Clef-omni, un modèle de décision qui accepte texte, images, fichiers audio (WAV ou MP3) et clips vidéo (MP4 ou WebM) dans un seul appel API et renvoie un label ou une route structurée. Il est construit sur un modèle ouvert de 30 milliards de paramètres et coûte 0,15 $ par million de tokens sur Workers AI. Cloudflare a également publié les poids sur Hugging Face, pour que n'importe quelle équipe puisse le faire tourner **sur ses propres serveurs, gratuitement**.",
+        "Les chiffres de vitesse sont solides. Les décisions textuelles reviennent en environ 130 millisecondes, les images en 150 millisecondes, et un clip vidéo de 21 secondes avec audio en environ 1,5 seconde. Sur BFCL — un test standard vérifiant si les modèles suivent précisément les instructions d'appels d'outils — Clef-omni a obtenu 98,2%, **suffisamment élevé pour être utilisé en production**.",
+        "Cela compte surtout pour les équipes qui trient ou acheminent les demandes entrantes : support client, modération de contenu, admission juridique, détection de fraude. Ces files mélangent déjà tickets texte, captures d'écran, messages vocaux et courts clips vidéo. Aujourd'hui, cela implique trois ou quatre modèles séparés, trois ou quatre appels API, trois ou quatre factures. Clef-omni réduit tout cela à une seule étape — et pour ceux qui traitent des milliers d'éléments mixtes par jour, **cette simplification s'accumule vite**.",
+        "Si votre produit touche de près ou de loin des documents, de la voix ou de la vidéo, cela vaut la peine de le tester maintenant. Les poids sont sur Hugging Face, l'API tourne sur Workers AI, et le prix est assez bas pour une vraie évaluation cette semaine. Construire le chemin à modèle unique aujourd'hui est **bien plus simple que de démêler une chaîne plus tard**."
+      ],
+      "keyFacts": [
+        { "value": "$0.15", "label": "par million de tokens pour Clef-omni" },
+        { "value": "30B", "label": "paramètres, modèle ouvert" },
+        { "value": "130ms", "label": "temps de réponse médian pour les décisions textuelles" },
+        { "value": "98.2%", "label": "score sur le benchmark BFCL d'appels de fonctions" }
+      ]
+    },
+    "ar": {
+      "title": "عندما يعالج نموذج واحد جميع أنواع المدخلات، تصبح الأنظمة المتسلسلة أبسط بكثير",
+      "summary": "النموذج الجديد مفتوح الأوزان Clef-omni من Cloudflare يعالج النصوص والصور والصوت والفيديو في استدعاء واحد لـ API، مما يُلغي الحاجة إلى سلاسل النماذج المتعددة التي تعتمد عليها معظم فرق الأتمتة.",
+      "body": [
+        "معظم أدوات أتمتة الذكاء الاصطناعي هي في الواقع عدة نماذج تعمل بالتسلسل. نموذج يقرأ النص، وآخر يحوّل الصوت إلى نص، وثالث يصف الصور. هذه السلسلة تستغرق وقتاً وتُكلّف المال في كل خطوة، وتنهار عند تعطّل أي جزء منها. نموذج واحد يعالج جميع أنواع المدخلات دفعة واحدة **يُغيّر هذه المعادلة كلياً**.",
+        "في التاسع من أكتوبر، أطلقت Cloudflare نموذج Clef-omni، وهو نموذج قرار يقبل النصوص والصور وملفات الصوت (WAV أو MP3) ومقاطع الفيديو (MP4 أو WebM) في استدعاء API واحد، ويُعيد تصنيفاً منظماً أو مساراً محدداً. بُني على نموذج مفتوح بـ 30 مليار معامل، ويكلّف 0.15 دولار لكل مليون رمز عبر Workers AI. كما نشرت Cloudflare أوزان النموذج على Hugging Face، لتتمكن أي فرقة من تشغيله **على خوادمها الخاصة، مجاناً**.",
+        "أرقام السرعة عملية للغاية. تعود قرارات النص خلال نحو 130 ميلي ثانية، والصور خلال 150 ميلي ثانية، ومقطع فيديو مدته 21 ثانية مع صوت خلال نحو 1.5 ثانية. على معيار BFCL — وهو اختبار معياري يقيس مدى دقة النماذج في اتباع تعليمات استدعاء الأدوات — حقّق Clef-omni نتيجة 98.2%، **مرتفع بما يكفي للثقة به في الإنتاج**.",
+        "هذا مهم بشكل خاص للفرق التي تفرز العمل الوارد أو تُوجّهه: دعم العملاء، ومراجعة المحتوى، والاستقبال القانوني، وكشف الاحتيال. هذه الطوابير تجمع الآن بين تذاكر النص ولقطات الشاشة والرسائل الصوتية ومقاطع الفيديو القصيرة. حالياً، يعني ذلك ثلاثة أو أربعة نماذج منفصلة، وثلاثة أو أربعة استدعاءات API، وثلاثة أو أربعة فواتير. يُدمج Clef-omni كل ذلك في خطوة واحدة — ولمن يعالج آلاف عناصر الوسائط المختلطة يومياً، **هذا التبسيط يُحدث فارقاً كبيراً بسرعة**.",
+        "إن كان منتجك يلمس بأي شكل مستنداتٍ أو صوتاً أو فيديو، يستحق الأمر تجربته الآن. الأوزان متاحة على Hugging Face، وAPI يعمل على Workers AI، والسعر منخفض بما يكفي لإجراء تقييم حقيقي هذا الأسبوع. بناء مسار النموذج الواحد اليوم **أسهل بكثير من فكّ سلسلة نماذج لاحقاً**."
+      ],
+      "keyFacts": [
+        { "value": "$0.15", "label": "لكل مليون رمز لـ Clef-omni" },
+        { "value": "30B", "label": "معامل، نموذج مفتوح الأوزان" },
+        { "value": "130ms", "label": "وسيط زمن الاستجابة لقرارات النص" },
+        { "value": "98.2%", "label": "النتيجة في معيار BFCL لاستدعاء الدوال" }
+      ]
+    }
+  }
+}
