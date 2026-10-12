@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-12-boston-dynamics-ai-ceo",
+  "date": "2026-10-12",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "The Robot Report — Boston Dynamics appoints former Amazon executive Rohit Prasad as new CEO",
+      "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"
+    },
+    {
+      "title": "Manufacturing Dive — Boston Dynamics hires former Amazon AI exec Rohit Prasad as CEO",
+      "url": "https://www.manufacturingdive.com/news/boston-dynamics-hires-ceo-former-amazon-ai-rohit-prasad/832360/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The Robot Business Is Now an AI Business",
+      "summary": "Boston Dynamics hiring an AI model builder as CEO is a clear signal that the hardest part of robotics today is intelligence, not mechanics.",
+      "body": [
+        "Boston Dynamics named Rohit Prasad its new CEO on October 7. Prasad spent 12 years at Amazon, where he built Alexa from its early days into a product used by hundreds of millions of people, then led Amazon Nova — the company's family of AI models built for enterprise use. He has never run a robotics hardware company. That is not an oversight. **It is a signal about where robots are heading.**",
+        "Boston Dynamics makes Spot, the dog-like inspection robot, Atlas, a humanoid, and Stretch, a warehouse machine. Its owner, Hyundai, plans to put 25,000 Atlas units to work inside Kia car factories by 2028. Getting from polished demos to thousands of robots handling real, unpredictable factory work is not mainly an engineering challenge. **The hard part is making robots smart enough** to handle the mess of the real world.",
+        "That is exactly the kind of problem Prasad spent his career solving. Building Alexa meant teaching a system to understand millions of different phrases, accents, and contexts without breaking. A factory robot faces the same kind of endless variation every day — new parts, unfamiliar tasks, unexpected obstacles. Those problems require similar tools: training on huge amounts of data, building models that generalize, and shipping systems that hold up in messy conditions. **Both fields need the same underlying AI skills** — more than most people realize.",
+        "This is part of a wider shift. The companies that win in physical robotics over the next few years will probably be the ones that crack the intelligence problem first, not just the mechanical one. Hiring an AI model builder to lead a robot company is a bet on exactly that. If you build automation for clients or plan to deploy robots in any workflow, **it is the AI layer — not hardware specs — that you should evaluate**. Who trained the model inside the machine now matters as much as how well the machine moves."
+      ],
+      "keyFacts": [
+        { "value": "12", "label": "years Prasad led AI at Amazon" },
+        { "value": "25,000", "label": "Atlas robots Hyundai plans for Kia factories by 2028" },
+        { "value": "Oct 7, 2026", "label": "Prasad's first day as Boston Dynamics CEO" },
+        { "value": "3rd", "label": "CEO in Boston Dynamics' 34-year history" }
+      ]
+    },
+    "de": {
+      "title": "Das Roboter-Geschäft ist jetzt ein KI-Geschäft",
+      "summary": "Boston Dynamics hat einen KI-Experten von Amazon als neuen Chef geholt — ein klares Signal, dass das Kernproblem der Robotik heute Intelligenz ist, nicht Mechanik.",
+      "body": [
+        "Boston Dynamics hat Rohit Prasad am 7. Oktober zu seinem neuen CEO ernannt. Prasad verbrachte 12 Jahre bei Amazon: Er baute Alexa von den Anfängen zu einem der meistgenutzten KI-Produkte der Welt aus und leitete anschließend Amazon Nova — eine Familie von KI-Modellen für Unternehmensanwendungen. Er hat noch nie ein Hardware-Unternehmen geführt. Das ist kein Zufall. **Es ist ein Signal, wohin die Robotik sich entwickelt.**",
+        "Boston Dynamics baut Spot, den hundeähnlichen Inspektionsroboter, Atlas, einen humanoiden Roboter, und Stretch, eine Lagermaschine. Der Eigentümer Hyundai plant, bis 2028 insgesamt 25,000 Atlas-Einheiten in Kia-Autofabriken einzusetzen. Der Weg von beeindruckenden Vorführungen zu Tausenden von Robotern, die echte, unvorhersehbare Fabrikarbeit leisten, ist kein rein technisches Problem. **Die eigentliche Herausforderung ist, Roboter intelligent genug zu machen** — für das Chaos der realen Welt.",
+        "Genau das hat Prasad sein ganzes Berufsleben lang gelöst. Alexa musste Millionen verschiedener Formulierungen, Akzente und Kontexte verstehen, ohne zu versagen. Ein Fabrikroboter steht täglich vor derselben Art von endloser Variation — neue Teile, unbekannte Aufgaben, unerwartete Hindernisse. Diese Probleme verlangen dieselben Werkzeuge: Training mit riesigen Datenmengen, Modelle, die verallgemeinern können, und Systeme, die unter schwierigen Bedingungen zuverlässig funktionieren. **Beide Felder brauchen dieselben KI-Grundfertigkeiten** — weit mehr als die meisten vermuten.",
+        "Das ist Teil eines größeren Wandels. Die Unternehmen, die in der physischen Robotik in den kommenden Jahren führen werden, sind wahrscheinlich jene, die das Intelligenz-Problem als Erstes lösen — nicht nur das mechanische. Die Einstellung eines KI-Modell-Entwicklers als Chef eines Roboter-Unternehmens ist genau diese Wette. Wer Automatisierung für Kunden baut oder Roboter in Arbeitsabläufen einsetzt, **sollte die KI-Schicht bewerten — nicht die Hardware-Spezifikationen**. Wer das Modell im Inneren trainiert hat, ist heute genauso entscheidend wie die Frage, wie gut sich die Maschine bewegt."
+      ],
+      "keyFacts": [
+        { "value": "12", "label": "Jahre als KI-Chef bei Amazon" },
+        { "value": "25,000", "label": "Atlas-Roboter, die Hyundai bis 2028 in Kia-Fabriken plant" },
+        { "value": "Oct 7, 2026", "label": "Prasads erster Tag als CEO von Boston Dynamics" },
+        { "value": "3rd", "label": "CEO in der 34-jährigen Geschichte von Boston Dynamics" }
+      ]
+    },
+    "nl": {
+      "title": "De robotindustrie is nu een AI-industrie",
+      "summary": "Boston Dynamics haalde een AI-expert van Amazon in huis als nieuwe CEO — een duidelijk signaal dat het kernprobleem in robotica tegenwoordig intelligentie is, niet mechanica.",
+      "body": [
+        "Boston Dynamics benoemde Rohit Prasad op 7 oktober tot zijn nieuwe CEO. Prasad bracht 12 jaar door bij Amazon: hij bouwde Alexa uit tot een van de bekendste AI-producten ter wereld en leidde daarna Amazon Nova, een familie van AI-modellen voor zakelijk gebruik. Hij heeft nog nooit een hardwarebedrijf geleid. Dat is geen toeval. **Het is een signaal over de richting die de robotica opgaat.**",
+        "Boston Dynamics maakt Spot, de hondachtige inspectierobot, Atlas, een humanoïde, en Stretch, een magazijnmachine. Eigenaar Hyundai wil in 2028 maar liefst 25,000 Atlas-eenheden inzetten in Kia-autofabrieken. De weg van indrukwekkende demo's naar duizenden robots die echt, onvoorspelbaar fabriekswerk doen, is geen puur technisch probleem. **De grote uitdaging is robots slim genoeg maken** om met de complexiteit van de echte wereld om te gaan.",
+        "Precies dit soort probleem loste Prasad zijn hele carrière op. Alexa moest miljoenen verschillende zinnen, accenten en contexten begrijpen zonder te falen. Een fabrieksrobot staat dagelijks voor dezelfde eindeloze variatie — nieuwe onderdelen, onbekende taken, onverwachte obstakels. Zulke problemen vereisen dezelfde aanpak: trainen op enorme hoeveelheden data, modellen die generaliseren, en systemen die het houden onder moeilijke omstandigheden. **Beide vakgebieden vragen om dezelfde AI-basisvaardigheden** — meer dan de meeste mensen beseffen.",
+        "Dit past in een bredere verschuiving. De bedrijven die de komende jaren winnen in fysieke robotica zijn waarschijnlijk diegene die het intelligentieprobleem als eerste oplossen, niet alleen het mechanische. Een AI-modelbouwer aannemen om een robotbedrijf te leiden is precies die gok. Als je automatisering bouwt voor klanten of robots inzet in werkprocessen, **is de AI-laag wat je moet beoordelen — niet de hardwarespecificaties**. Wie het model van binnenuit heeft getraind, telt nu net zo zwaar als hoe goed de machine beweegt."
+      ],
+      "keyFacts": [
+        { "value": "12", "label": "jaar dat Prasad AI leidde bij Amazon" },
+        { "value": "25,000", "label": "Atlas-robots die Hyundai plant voor Kia-fabrieken in 2028" },
+        { "value": "Oct 7, 2026", "label": "Prasads eerste dag als CEO van Boston Dynamics" },
+        { "value": "3rd", "label": "CEO in de 34-jarige geschiedenis van Boston Dynamics" }
+      ]
+    },
+    "es": {
+      "title": "El negocio de los robots es ahora un negocio de inteligencia artificial",
+      "summary": "Boston Dynamics contrató a un experto en IA de Amazon como nuevo CEO — una señal clara de que el problema central de la robótica hoy es la inteligencia, no la mecánica.",
+      "body": [
+        "Boston Dynamics nombró a Rohit Prasad su nuevo CEO el 7 de octubre. Prasad pasó 12 años en Amazon: primero convirtió Alexa en uno de los productos de IA más usados del mundo y luego dirigió Amazon Nova, una familia de modelos de IA para uso empresarial. Nunca había dirigido una empresa de hardware. Eso no es un accidente. **Es una señal de hacia dónde va la robótica.**",
+        "Boston Dynamics fabrica Spot, el robot de inspección con aspecto de perro, Atlas, un humanoide, y Stretch, una máquina para almacenes. Su propietario, Hyundai, planea desplegar 25,000 unidades de Atlas en las fábricas de coches de Kia para 2028. Pasar de demostraciones impresionantes a miles de robots realizando trabajo de fábrica real e impredecible no es principalmente un reto de ingeniería. **El verdadero problema es hacer los robots suficientemente inteligentes** para lidiar con el desorden del mundo real.",
+        "Ese es exactamente el tipo de problema que Prasad resolvió durante toda su carrera. Alexa tenía que entender millones de frases, acentos y contextos diferentes sin fallar. Un robot de fábrica se enfrenta cada día al mismo tipo de variación constante — piezas nuevas, tareas desconocidas, obstáculos inesperados. Esos problemas requieren las mismas herramientas: entrenamiento con enormes cantidades de datos, modelos que generalicen y sistemas que aguanten en condiciones difíciles. **Ambos campos necesitan las mismas habilidades básicas de IA** — más de lo que la mayoría imagina.",
+        "Esto forma parte de un cambio más amplio. Las empresas que ganen en robótica física en los próximos años serán probablemente las que resuelvan primero el problema de la inteligencia, no solo el mecánico. Contratar a alguien que construye modelos de IA para dirigir una empresa de robots es exactamente esa apuesta. Si construyes automatización para clientes o planeas usar robots en cualquier flujo de trabajo, **es la capa de IA lo que debes evaluar — no las especificaciones del hardware**. Quién entrenó el modelo dentro de la máquina importa ahora tanto como lo bien que se mueve."
+      ],
+      "keyFacts": [
+        { "value": "12", "label": "años dirigiendo IA en Amazon" },
+        { "value": "25,000", "label": "robots Atlas que Hyundai planea para las fábricas Kia en 2028" },
+        { "value": "Oct 7, 2026", "label": "primer día de Prasad como CEO de Boston Dynamics" },
+        { "value": "3rd", "label": "CEO en los 34 años de historia de Boston Dynamics" }
+      ]
+    },
+    "fr": {
+      "title": "Le marché des robots est désormais un marché d'intelligence artificielle",
+      "summary": "Boston Dynamics a recruté un expert en IA d'Amazon comme nouveau PDG — un signal fort que le problème central de la robotique aujourd'hui est l'intelligence, pas la mécanique.",
+      "body": [
+        "Boston Dynamics a nommé Rohit Prasad nouveau PDG le 7 octobre. Prasad a passé 12 ans chez Amazon : il a d'abord fait d'Alexa l'un des produits d'IA les plus utilisés au monde, puis a dirigé Amazon Nova, une famille de modèles d'IA pour les entreprises. Il n'a jamais dirigé une entreprise matérielle. Ce n'est pas un hasard. **C'est un signal sur la direction que prend la robotique.**",
+        "Boston Dynamics fabrique Spot, le robot d'inspection ressemblant à un chien, Atlas, un humanoïde, et Stretch, une machine d'entrepôt. Son propriétaire, Hyundai, prévoit de déployer 25,000 unités Atlas dans ses usines automobiles Kia d'ici 2028. Passer de démos impressionnantes à des milliers de robots effectuant un vrai travail d'usine imprévisible n'est pas principalement un défi d'ingénierie. **Le vrai défi est de rendre les robots suffisamment intelligents** pour gérer le chaos du monde réel.",
+        "C'est exactement ce genre de problème que Prasad a résolu tout au long de sa carrière. Alexa devait comprendre des millions de formulations, d'accents et de contextes différents sans défaillir. Un robot d'usine fait face chaque jour au même type de variation infinie — nouvelles pièces, tâches inconnues, obstacles imprévus. Ces problèmes exigent les mêmes outils : entraînement sur d'énormes quantités de données, modèles capables de généraliser, systèmes fiables dans des conditions difficiles. **Les deux domaines requièrent les mêmes compétences fondamentales en IA** — plus qu'on ne le pense généralement.",
+        "Cela s'inscrit dans une évolution plus large du secteur. Les entreprises qui gagneront dans la robotique physique au cours des prochaines années seront probablement celles qui résoudront en premier le problème de l'intelligence — pas seulement le problème mécanique. Recruter un concepteur de modèles d'IA pour diriger une entreprise de robotique, c'est parier exactement sur cela. Si vous construisez de l'automatisation pour des clients ou prévoyez de déployer des robots dans vos processus, **c'est la couche IA qu'il faut évaluer — pas les spécifications matérielles**. Qui a entraîné le modèle à l'intérieur compte aujourd'hui autant que la qualité des mouvements de la machine."
+      ],
+      "keyFacts": [
+        { "value": "12", "label": "ans à diriger l'IA chez Amazon" },
+        { "value": "25,000", "label": "robots Atlas prévus par Hyundai dans les usines Kia d'ici 2028" },
+        { "value": "Oct 7, 2026", "label": "premier jour de Prasad en tant que PDG de Boston Dynamics" },
+        { "value": "3rd", "label": "PDG de l'histoire de 34 ans de Boston Dynamics" }
+      ]
+    },
+    "ar": {
+      "title": "صناعة الروبوتات باتت صناعة ذكاء اصطناعي",
+      "summary": "وظّفت بوسطن ديناميكس خبيرًا في الذكاء الاصطناعي من أمازون رئيسًا تنفيذيًا جديدًا — إشارة واضحة إلى أن المشكلة الجوهرية في مجال الروبوتات اليوم هي الذكاء وليس الميكانيكا.",
+      "body": [
+        "عيّنت بوسطن ديناميكس روهيت براساد رئيسًا تنفيذيًا جديدًا في السابع من أكتوبر. قضى براساد 12 عامًا في أمازون: بنى أولًا أليكسا لتصبح أحد أشهر منتجات الذكاء الاصطناعي في العالم، ثم قاد أمازون نوفا — وهي عائلة من نماذج الذكاء الاصطناعي للاستخدام المؤسسي. لم يدِر من قبل أي شركة أجهزة. هذا ليس صدفة. **إنه إشارة إلى الاتجاه الذي تسير نحوه الروبوتات.**",
+        "تصنع بوسطن ديناميكس سبوت، الروبوت الشبيه بالكلب للفحص والمراقبة، وأطلس، الروبوت الإنساني الشكل، وستريتش، آلة المستودعات. يخطط مالكها هيونداي لنشر 25,000 وحدة من أطلس في مصانع كيا للسيارات بحلول 2028. الانتقال من العروض التوضيحية المثيرة إلى آلاف الروبوتات التي تؤدي عملًا حقيقيًا وغير متوقع في المصانع ليس تحديًا هندسيًا في المقام الأول. **التحدي الأصعب هو جعل الروبوتات ذكية بما يكفي** للتعامل مع فوضى العالم الحقيقي.",
+        "هذا بالضبط هو نوع المشكلة التي قضى براساد مسيرته المهنية في حلها. كان على أليكسا أن تفهم ملايين الجمل والنبرات والسياقات المختلفة دون أن تتعطل. يواجه روبوت المصنع كل يوم النوع ذاته من التنوع اللانهائي — قطع جديدة، ومهام غير مألوفة، وعقبات غير متوقعة. هذه المشكلات تستلزم أدوات متماثلة: التدريب على كميات هائلة من البيانات، وبناء نماذج قادرة على التعميم، وتطوير أنظمة تصمد في ظروف صعبة. **يحتاج المجالان إلى مهارات الذكاء الاصطناعي الأساسية ذاتها** — أكثر مما يدرك معظم الناس.",
+        "هذا جزء من تحول أوسع في الصناعة. الشركات التي ستفوز في مجال الروبوتات المادية خلال السنوات القادمة ستكون على الأرجح تلك التي تحل مشكلة الذكاء أولًا، لا المشكلة الميكانيكية فحسب. توظيف مُصمِّم نماذج ذكاء اصطناعي لقيادة شركة روبوتات هو رهان على هذا تحديدًا. إن كنت تبني حلول أتمتة للعملاء أو تخطط لنشر روبوتات في أي سير عمل، **فالطبقة الذكية هي ما ينبغي تقييمه — لا مواصفات العتاد**. من درّب النموذج الموجود داخل الآلة بات اليوم بنفس أهمية مدى جودة حركة تلك الآلة."
+      ],
+      "keyFacts": [
+        { "value": "12", "label": "عامًا قاد فيها الذكاء الاصطناعي في أمازون" },
+        { "value": "25,000", "label": "روبوت أطلس تخطط هيونداي لنشرها في مصانع كيا بحلول 2028" },
+        { "value": "Oct 7, 2026", "label": "أول يوم لبراساد رئيسًا تنفيذيًا لبوسطن ديناميكس" },
+        { "value": "3rd", "label": "رئيس تنفيذي في تاريخ بوسطن ديناميكس الممتد 34 عامًا" }
+      ]
+    }
+  }
+}
