@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-15-gemini-4-argon-now-available",
+  "date": "2026-10-15",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Gemini_4_argon.max-2500x2500.jpg",
+    "alt": "Key art for Gemini 4 Argon, Google's frontier AI model",
+    "credit": "Google Cloud"
+  },
+  "sources": [
+    { "title": "Google Cloud Blog — Gemini 4 Argon available on Google Cloud", "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud" },
+    { "title": "Google Blog — Gemini 4 Argon: our next era of frontier intelligence", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" },
+    { "title": "Cryptonomist — Gemini 4 Argon AI Enhances Cybersecurity with Real-Time Safeguards", "url": "https://en.cryptonomist.ch/2026/10/14/gemini-4-argon-ai-cybersecurity/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Google's Most Capable AI Is Now Open to Everyone — and the Price Goes Up in Seven Weeks",
+      "summary": "Gemini 4 Argon, Google's most powerful model, became available to all developers and businesses on October 14, at an introductory price that doubles at the end of November.",
+      "body": [
+        "On October 14, Google made Gemini 4 Argon available to developers and businesses through its API and Cloud platform. This is Google's most capable model to date: it scored 77.9% on a hard software engineering benchmark, and **can generate up to one million tokens** in a single response — enough to process a long contract or a full codebase at once. The model has been in restricted testing since September 30; from yesterday, it is open to anyone with a paid Google account.",
+        "The price is what matters most for builders right now. Gemini 4 Argon costs $2 per million input tokens and $10 per million output tokens — tokens are the small text chunks an AI reads and writes. That is an introductory rate. **Prices double after November 30** to $4 in and $20 out. Seven weeks is a short window to test a model, run it on real workloads, and decide if it fits.",
+        "Early partners report gains on exactly the tasks where AI has been weakest: long, multi-step work. Harvey, a legal AI company, saw meaningful improvement on M&A and data privacy reviews. ServiceNow reported about 20% better task completion in HR and customer service agents. These are **results from Google's early-access partners**, not independent tests — but the direction is consistent: the model handles complex, sustained work better than its predecessors.",
+        "One limit to know: Google built in safety measures that block offensive security tasks, like writing exploit code. Teams running legitimate security tests need to apply for access via Google's Fairwind Program. For everyone else — product teams, developers, legal and finance teams — the model works today. **Test it on your hardest task** before November 30. If it handles the work well, that is worth knowing before the price goes up."
+      ],
+      "keyFacts": [
+        { "value": "$2/M tokens", "label": "introductory input price" },
+        { "value": "77.9%", "label": "DeepSWE v1.1 benchmark score" },
+        { "value": "~20%", "label": "task gains reported by ServiceNow" },
+        { "value": "Nov 30", "label": "introductory pricing end date" }
+      ]
+    },
+    "de": {
+      "title": "Googles stärkstes KI-Modell ist jetzt für alle offen — und der Preis steigt in sieben Wochen",
+      "summary": "Gemini 4 Argon, Googles bisher leistungsfähigstes Modell, ist seit dem 14. Oktober für Entwickler und Unternehmen zugänglich — zu Einführungspreisen, die Ende November steigen.",
+      "body": [
+        "Am 14. Oktober stellte Google Gemini 4 Argon für alle Entwickler und Unternehmen über seine API und Cloud-Plattform zur Verfügung. Das ist Googles bisher leistungsfähigstes Modell: Es erreichte 77,9 Prozent bei einem anspruchsvollen Software-Engineering-Benchmark und **kann bis zu einer Million Tokens ausgeben** in einer einzigen Antwort — genug, um einen langen Vertrag oder eine vollständige Codebasis auf einmal zu verarbeiten. Das Modell war seit dem 30. September in eingeschränkten Tests; seit gestern ist es für jeden mit einem bezahlten Google-Konto zugänglich.",
+        "Der Preis ist das, was für Entwickler jetzt am meisten zählt. Gemini 4 Argon kostet 2 Dollar pro Million Input-Tokens und 10 Dollar pro Million Output-Tokens — Tokens sind die kleinen Textbausteine, die ein KI-Modell liest und schreibt. Das ist ein Einführungsangebot. **Die Preise verdoppeln sich nach dem 30. November** auf 4 Dollar (Input) und 20 Dollar (Output). Sieben Wochen sind wenig Zeit, um ein Modell zu testen, mit echten Aufgaben zu laufen und zu entscheiden, ob es passt.",
+        "Frühe Partner berichten von echten Fortschritten bei genau den Aufgaben, bei denen KI bisher am schwächsten war: lange, mehrstufige Arbeitsabläufe. Harvey, ein Legal-AI-Unternehmen, sah deutliche Verbesserungen bei M&A- und Datenschutzprüfungen. ServiceNow meldete rund 20 Prozent bessere Aufgabenerledigung bei HR- und Kundenservice-Agenten im Vergleich zu einem früheren Modell. Das sind **Ergebnisse von Googles Early-Access-Partnern**, keine unabhängigen Tests — aber die Richtung ist einheitlich: Das Modell bewältigt komplexe, anhaltende Arbeit besser als seine Vorgänger.",
+        "Eine Einschränkung: Google hat Sicherheitsvorkehrungen eingebaut, die offensiven Sicherheitseinsatz — etwa das Schreiben von Exploit-Code — blockieren. Sicherheitsteams, die legitime Tests durchführen, müssen Zugang über Googles Fairwind-Programm beantragen. Für alle anderen — Produktteams, Entwickler, Rechts- und Finanzteams — ist das Modell sofort verfügbar. **Teste es mit deiner schwierigsten Aufgabe** vor dem 30. November. Wenn es die Arbeit gut erledigt, willst du das wissen, bevor der Preis steigt."
+      ],
+      "keyFacts": [
+        { "value": "$2/M Tokens", "label": "Einführungspreis für Input" },
+        { "value": "77,9%", "label": "DeepSWE-v1.1-Benchmark-Ergebnis" },
+        { "value": "~20%", "label": "Aufgabenverbesserung bei ServiceNow" },
+        { "value": "30. Nov.", "label": "Ende des Einführungspreises" }
+      ]
+    },
+    "nl": {
+      "title": "Google's krachtigste model staat nu open voor iedereen — en de prijs verdubbelt over zeven weken",
+      "summary": "Gemini 4 Argon, het krachtigste model van Google, is vanaf 14 oktober beschikbaar voor developers en bedrijven, met een introductieprijs die eind november verdubbelt.",
+      "body": [
+        "Op 14 oktober maakte Google Gemini 4 Argon beschikbaar voor developers en bedrijven via zijn API en Cloud-platform. Dit is het krachtigste model van Google tot nu toe: het scoorde 77,9% op een zware software-engineering-benchmark en **kan tot één miljoen tokens genereren** in één antwoord — genoeg om een lang contract of een volledige codebase in één keer te verwerken. Het model is sinds 30 september in beperkte tests; vanaf gisteren is het open voor iedereen met een betaald Google-account.",
+        "De prijs is wat er nu het meest toe doet voor builders. Gemini 4 Argon kost $2 per miljoen invoer-tokens en $10 per miljoen uitvoer-tokens — tokens zijn de kleine stukjes tekst die een AI leest en schrijft. Dat is een introductietarief. **De prijzen verdubbelen na 30 november** naar $4 (invoer) en $20 (uitvoer). Zeven weken is weinig tijd om een model te testen, op echte werklasten te draaien en te beslissen of het past.",
+        "Vroege partners melden echte verbeteringen bij precies de taken waar AI het zwakst was: lang, meerstappenwerk. Harvey, een legal AI-bedrijf, zag betekenisvolle verbetering bij M&A- en privacyreviews. ServiceNow rapporteerde circa 20% betere taakvoltooiing bij HR- en klantenservice-agenten ten opzichte van een eerder model. Dit zijn **resultaten van Google's early-access-partners**, geen onafhankelijke tests — maar de richting is consistent: het model handelt complexe, langdurige werkzaamheden beter af dan zijn voorgangers.",
+        "Eén beperking om te kennen: Google heeft beveiligingsmaatregelen ingebouwd die offensief securitygebruik blokkeren, zoals het schrijven van exploit-code. Beveiligingsteams die legitieme tests uitvoeren, moeten toegang aanvragen via Google's Fairwind-programma. Voor alle anderen — productteams, developers, juridische en financiële teams — is het model nu direct beschikbaar. **Test het op je zwaarste taak** vóór 30 november. Als het het werk goed aankan, wil je dat weten voordat de prijs verdubbelt."
+      ],
+      "keyFacts": [
+        { "value": "$2/M tokens", "label": "introductieprijs voor invoer" },
+        { "value": "77,9%", "label": "DeepSWE v1.1-benchmarkscore" },
+        { "value": "~20%", "label": "taakverbetering bij ServiceNow" },
+        { "value": "30 nov.", "label": "einddatum introductieprijs" }
+      ]
+    },
+    "es": {
+      "title": "El modelo más potente de Google ya está abierto para todos — y el precio sube en siete semanas",
+      "summary": "Gemini 4 Argon, el modelo más avanzado de Google, está disponible para desarrolladores y empresas desde el 14 de octubre, con un precio introductorio que se duplica a finales de noviembre.",
+      "body": [
+        "El 14 de octubre, Google puso Gemini 4 Argon a disposición de desarrolladores y empresas a través de su API y plataforma Cloud. Es el modelo más capaz de Google hasta la fecha: obtuvo un 77,9% en un difícil benchmark de ingeniería de software y **puede generar hasta un millón de tokens** en una sola respuesta — suficiente para procesar un contrato largo o una base de código completa de una vez. El modelo llevaba en pruebas restringidas desde el 30 de septiembre; desde ayer, está abierto a cualquiera con una cuenta de Google de pago.",
+        "El precio es lo que más importa ahora para quienes están construyendo algo. Gemini 4 Argon cuesta 2 dólares por millón de tokens de entrada y 10 dólares por millón de tokens de salida — los tokens son los pequeños fragmentos de texto que un modelo de IA lee y escribe. Esa es una tarifa introductoria. **Los precios se duplican después del 30 de noviembre** a 4 dólares (entrada) y 20 dólares (salida). Siete semanas es poco tiempo para probar un modelo, ejecutarlo en tareas reales y decidir si encaja.",
+        "Los primeros socios reportan mejoras en exactamente las tareas donde la IA ha sido más débil: trabajo largo y de múltiples pasos. Harvey, una empresa de IA legal, vio una mejora significativa en revisiones de M&A y privacidad de datos. ServiceNow reportó alrededor de un 20% más de completitud de tareas en agentes de RRHH y atención al cliente. Son **resultados de los socios de acceso anticipado de Google**, no pruebas independientes — pero la dirección es consistente: el modelo maneja bien el trabajo complejo y sostenido.",
+        "Un límite importante: Google incorporó medidas de seguridad que bloquean tareas de seguridad ofensivas, como escribir código de explotación. Los equipos que realizan pruebas de seguridad legítimas deben solicitar acceso a través del Programa Fairwind de Google. Para todos los demás — equipos de producto, desarrolladores, equipos legales y financieros — el modelo está disponible ahora mismo. **Pruébalo en tu tarea más difícil** antes del 30 de noviembre. Si la maneja bien, quieres saberlo antes de que el precio suba."
+      ],
+      "keyFacts": [
+        { "value": "$2/M tokens", "label": "precio introductorio de entrada" },
+        { "value": "77,9%", "label": "puntuación en DeepSWE v1.1" },
+        { "value": "~20%", "label": "mejora de tareas según ServiceNow" },
+        { "value": "30 nov.", "label": "fin del precio introductorio" }
+      ]
+    },
+    "fr": {
+      "title": "Le modèle le plus puissant de Google est désormais ouvert à tous — et le prix monte dans sept semaines",
+      "summary": "Gemini 4 Argon, le modèle le plus avancé de Google, est accessible aux développeurs et aux entreprises depuis le 14 octobre, avec un tarif introductif qui double fin novembre.",
+      "body": [
+        "Le 14 octobre, Google a rendu Gemini 4 Argon accessible à tous les développeurs et entreprises via son API et sa plateforme Cloud. C'est le modèle le plus performant de Google à ce jour : il a obtenu 77,9 % sur un benchmark difficile en ingénierie logicielle et **peut générer jusqu'à un million de tokens** en une seule réponse — assez pour traiter un long contrat ou une base de code entière en une fois. Le modèle était en tests restreints depuis le 30 septembre ; depuis hier, il est ouvert à quiconque possède un compte Google payant.",
+        "Le prix est ce qui compte le plus pour les équipes qui construisent aujourd'hui. Gemini 4 Argon coûte 2 dollars par million de tokens en entrée et 10 dollars par million en sortie — les tokens sont les petits morceaux de texte qu'un modèle d'IA lit et écrit. C'est un tarif d'introduction. **Les prix doublent après le 30 novembre** à 4 dollars en entrée et 20 dollars en sortie. Sept semaines, c'est peu pour tester un modèle, l'exécuter sur de vraies charges de travail et décider s'il convient.",
+        "Les premiers partenaires rapportent des gains sur exactement les tâches où l'IA était la plus faible : le travail long et multi-étapes. Harvey, une entreprise d'IA juridique, a constaté une amélioration significative sur les revues de M&A et de confidentialité des données. ServiceNow a rapporté environ 20 % de meilleur taux de complétion dans ses agents RH et service client. Ce sont **des résultats des partenaires en accès anticipé de Google**, pas des tests indépendants — mais la direction est cohérente : le modèle gère bien le travail complexe et soutenu.",
+        "Une limite à connaître : Google a intégré des garde-fous qui bloquent les usages offensifs en cybersécurité, comme l'écriture de code d'exploitation. Les équipes qui effectuent des tests de sécurité légitimes doivent demander l'accès via le programme Fairwind de Google. Pour tous les autres — équipes produit, développeurs, équipes juridiques et financières — le modèle est disponible dès maintenant. **Testez-le sur votre tâche la plus difficile** avant le 30 novembre. Si le modèle la gère bien, mieux vaut le savoir avant que le prix double."
+      ],
+      "keyFacts": [
+        { "value": "$2/M tokens", "label": "tarif introductif en entrée" },
+        { "value": "77,9 %", "label": "score sur DeepSWE v1.1" },
+        { "value": "~20 %", "label": "gains de tâches rapportés par ServiceNow" },
+        { "value": "30 nov.", "label": "fin du tarif introductif" }
+      ]
+    },
+    "ar": {
+      "title": "أقوى نماذج غوغل للذكاء الاصطناعي متاح الآن للجميع — والسعر يرتفع خلال سبعة أسابيع",
+      "summary": "أصبح Gemini 4 Argon، أقوى نماذج غوغل، متاحاً للمطورين والشركات اعتباراً من 14 أكتوبر، بسعر تمهيدي يتضاعف في نهاية نوفمبر.",
+      "body": [
+        "في 14 أكتوبر، أتاحت غوغل نموذج Gemini 4 Argon لجميع المطورين والشركات عبر واجهة برمجة التطبيقات ومنصتها السحابية. هذا هو أقوى نماذج غوغل حتى الآن: حقق 77.9% في اختبار صعب لهندسة البرمجيات، و**يستطيع توليد مليون رمز مميز** في إجابة واحدة — ما يكفي لمعالجة عقد طويل أو قاعدة كود كاملة مرة واحدة. كان النموذج في اختبارات مقيدة منذ 30 سبتمبر، وأصبح متاحاً منذ أمس لأي شخص لديه حساب غوغل مدفوع.",
+        "السعر هو الأهم الآن لمن يبني. يكلف Gemini 4 Argon دولارين لكل مليون رمز مميز مدخل، و10 دولارات لكل مليون رمز مميز مخرج — والرموز المميزة هي القطع الصغيرة من النص التي يقرأها النموذج ويكتبها. هذا سعر تمهيدي. **تتضاعف الأسعار بعد 30 نوفمبر** إلى 4 دولارات للمدخلات و20 دولاراً للمخرجات. سبعة أسابيع وقت قصير لاختبار نموذج، وتشغيله على مهام حقيقية، والتقرير بشأن ملاءمته.",
+        "يُفيد الشركاء الأوائل بتحسينات حقيقية في المهام التي كان الذكاء الاصطناعي أضعف فيها: الأعمال الطويلة متعددة الخطوات. شركة Harvey للذكاء الاصطناعي القانوني رصدت تحسناً ملحوظاً في مراجعات الاندماج والاستحواذ وخصوصية البيانات. أفادت ServiceNow بتحسن نحو 20% في إتمام المهام ضمن وكلاء الموارد البشرية وخدمة العملاء. هذه **نتائج شركاء الوصول المبكر من غوغل**، لا اختبارات مستقلة — لكن الاتجاه متسق: النموذج يتعامل جيداً مع العمل المعقد الممتد.",
+        "قيد واحد يستحق المعرفة: دمجت غوغل ضمانات تمنع مهام الأمن الهجومية، مثل كتابة أكواد الاستغلال. فرق الأمن التي تُجري اختبارات مشروعة تحتاج إلى التقدم للحصول على وصول عبر برنامج Fairwind من غوغل. لأي شخص آخر — فرق المنتج والمطورون وفرق الشؤون القانونية والمالية — النموذج متاح للاستخدام الفوري. **اختبره على مهمتك الأصعب** قبل 30 نوفمبر. إذا أدّاها جيداً، فأنت تريد معرفة ذلك قبل أن يرتفع السعر."
+      ],
+      "keyFacts": [
+        { "value": "$2/M tokens", "label": "سعر المدخلات التمهيدي" },
+        { "value": "77.9%", "label": "نتيجة اختبار DeepSWE v1.1" },
+        { "value": "~20%", "label": "تحسن المهام لدى ServiceNow" },
+        { "value": "30 نوف.", "label": "نهاية التسعير التمهيدي" }
+      ]
+    }
+  }
+}
