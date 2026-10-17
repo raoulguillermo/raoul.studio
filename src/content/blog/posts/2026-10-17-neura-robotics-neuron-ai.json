@@ -1,0 +1,123 @@
+{
+  "slug": "2026-10-17-neura-robotics-neuron-ai",
+  "date": "2026-10-17",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/10/neura-robotics-unveils-neuron-ai-foundation-model-for-physical-ai.jpg",
+    "alt": "NEURA Robotics 4NE1 humanoid robot performing a task with Neuron AI",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    {
+      "title": "NEURA Robotics — Introduces Neuron AI",
+      "url": "https://neura-robotics.com/neura-robotics-introduces-neuron-ai/"
+    },
+    {
+      "title": "Unite.AI — NEURA Robotics Unveils Neuron AI Foundation Model for Physical AI",
+      "url": "https://www.unite.ai/?p=485514"
+    },
+    {
+      "title": "Robotics 24/7 — NEURA Robotics Announces Series C of Up to $1.4 Billion",
+      "url": "https://www.robotics247.com/article/neura-robotics-announces-series-c-of-up-to-1.4-billion/neura_robotics"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The hard part of using robots was never the hardware",
+      "summary": "NEURA Robotics just launched an AI model that helps robots learn new tasks faster — and that changes the economics of automation for any business that still relies on human hands.",
+      "body": [
+        "For most companies, **the hard part was always teaching the robot**, not building it. Every new task — a different box shape, a changed assembly step — meant weeks of work and costly specialists. NEURA Robotics, a German company backed by Schaeffler, Bosch, Amazon, and NVIDIA, announced on October 14 a new AI model called Neuron AI, designed to shrink that teaching time.",
+        "Earlier robot AI mostly relied on cameras. Neuron AI adds touch, sound, and memory — **it can feel and hear, not just see.** It can confirm that a lock is open by sound before moving on. When something slides out of view, the robot still knows it is there. The model runs directly on the robot with no cloud connection, so production data never leaves the factory.",
+        "NEURA measures progress with a metric it calls Time-to-Skill: how quickly a robot learns a new task and does it reliably. One shared model runs across five different NEURA robot bodies. Customers can fine-tune it with their own data. **The less time it takes to teach the robot, the more tasks are worth automating** — and that calculation is shifting quickly.",
+        "For anyone running an operation that still depends on human hands — packaging, inspection, kitting, assembly — the question is changing. It used to be: can a robot do this at all? Now it is: **how long does it take to teach the robot**, and does that investment pay back? As Time-to-Skill shrinks, automation becomes viable for shorter product runs and work that changes often, not just high-volume repetition."
+      ],
+      "keyFacts": [
+        { "value": "5", "label": "robot bodies share one AI model" },
+        { "value": "up to $1.4B", "label": "Series C raised in June 2026" },
+        { "value": ">$1B", "label": "robot order backlog" },
+        { "value": "11 min", "label": "autonomous demo planned at GTC Berlin" }
+      ]
+    },
+    "de": {
+      "title": "Das Schwierigste beim Robotereinsatz war nie die Hardware",
+      "summary": "NEURA Robotics hat ein KI-Modell gestartet, das Robotern hilft, neue Aufgaben schneller zu lernen — und das verändert die Wirtschaftlichkeit der Automatisierung für alle, die noch auf Handarbeit angewiesen sind.",
+      "body": [
+        "Für die meisten Unternehmen war **das Schwierige immer das Anlernen des Roboters**, nicht der Bau. Jede neue Aufgabe — eine andere Verpackungsform, ein geänderter Montageschritt — bedeutete wochenlange Arbeit und teure Spezialisten. NEURA Robotics, ein deutsches Unternehmen, das von Schaeffler, Bosch, Amazon und NVIDIA unterstützt wird, hat am 14. Oktober ein neues KI-Modell namens Neuron AI vorgestellt, das diese Anlernzeit deutlich verkürzen soll.",
+        "Frühere Roboter-KI-Systeme verließen sich hauptsächlich auf Kameras. Neuron AI ergänzt Tastsinn, Gehör und Gedächtnis — **es kann fühlen und hören, nicht nur sehen.** Es kann zum Beispiel per Ton prüfen, ob ein Schloss offen ist, bevor es weitermacht. Wenn etwas aus dem Blickfeld gerät, weiß der Roboter trotzdem, dass es noch da ist. Das Modell läuft direkt auf dem Roboter ohne Internetverbindung, sodass Produktionsdaten die Fabrik nie verlassen.",
+        "NEURA misst Fortschritt mit einer Kennzahl namens Time-to-Skill: wie schnell ein Roboter eine neue Aufgabe erlernt und sie zuverlässig ausführt. Ein einziges Modell läuft auf fünf verschiedenen NEURA-Roboterkörpern. Kunden können es mit eigenen Daten anpassen. **Je weniger Zeit das Anlernen dauert, desto mehr Aufgaben lohnen sich zu automatisieren** — und diese Rechnung verändert sich gerade schnell.",
+        "Für alle, die Betriebe führen, die noch auf menschliche Hände angewiesen sind — Verpackung, Qualitätskontrolle, Montage — verschiebt sich die Frage. Früher lautete sie: Kann ein Roboter das überhaupt? Jetzt lautet sie: **Wie lange dauert das Anlernen des Roboters**, und rechnet sich das? Mit sinkender Time-to-Skill wird Automatisierung auch für kleinere Serien und häufig wechselnde Aufgaben sinnvoll — nicht nur für hochvolumige Massenproduktion."
+      ],
+      "keyFacts": [
+        { "value": "5", "label": "Roboterkörper teilen ein KI-Modell" },
+        { "value": "up to $1.4B", "label": "Series-C-Finanzierung im Juni 2026" },
+        { "value": ">$1B", "label": "Auftragsbestand" },
+        { "value": "11 min", "label": "autonome Demo in Berlin geplant" }
+      ]
+    },
+    "nl": {
+      "title": "Het moeilijkste aan robots was nooit de hardware",
+      "summary": "NEURA Robotics lanceerde een AI-model dat robots sneller nieuwe taken laat leren — en dat verandert de rekensommetjes rond automatisering voor elk bedrijf dat nog op mensenhanden vertrouwt.",
+      "body": [
+        "Voor de meeste bedrijven was **het moeilijkste altijd het aanleren van de robot**, niet het bouwen. Elke nieuwe taak — een ander doosformaat, een gewijzigde montagestap — betekende weken werk en dure specialisten. NEURA Robotics, een Duits bedrijf gesteund door Schaeffler, Bosch, Amazon en NVIDIA, kondigde op 14 oktober een nieuw AI-model aan genaamd Neuron AI, dat precies die aanleertijd wil verkorten.",
+        "Eerdere robot-AI vertrouwde grotendeels op camera's. Neuron AI voegt tastzin, gehoor en geheugen toe — **het kan voelen en horen, niet alleen zien.** Het kan via geluid controleren of een slot open is voordat het verdergaat. Als iets buiten beeld raakt, weet de robot nog steeds dat het er is. Het model draait direct op de robot zonder internetverbinding, zodat productiedata de fabriek nooit verlaat.",
+        "NEURA meet vooruitgang met een maatstaf genaamd Time-to-Skill: hoe snel een robot een nieuwe taak leert en betrouwbaar uitvoert. Eén gedeeld model draait op vijf verschillende NEURA-robotlichamen. Klanten kunnen het aanpassen met eigen data. **Hoe minder tijd het aanleren kost, hoe meer taken de moeite waard zijn om te automatiseren** — en die rekensom verandert snel.",
+        "Voor iedereen die een bedrijf runt dat nog steeds mensenhanden nodig heeft — verpakken, inspecteren, assembleren — verschuift de vraag. Vroeger was die: kan een robot dit überhaupt? Nu wordt het: **hoe lang duurt het om de robot te leren**, en is die investering de moeite waard? Naarmate de Time-to-Skill krimpt, wordt automatisering ook haalbaar voor kortere series en wisselend werk, niet alleen voor hoge volumes."
+      ],
+      "keyFacts": [
+        { "value": "5", "label": "robotlichamen delen één AI-model" },
+        { "value": "up to $1.4B", "label": "Series C opgehaald in juni 2026" },
+        { "value": ">$1B", "label": "orderboek" },
+        { "value": "11 min", "label": "autonome demo gepland in Berlijn" }
+      ]
+    },
+    "es": {
+      "title": "Lo más difícil con los robots nunca fue el hardware",
+      "summary": "NEURA Robotics lanzó un modelo de IA que ayuda a los robots a aprender nuevas tareas más rápido — y eso cambia la lógica económica de la automatización para cualquier empresa que todavía depende de manos humanas.",
+      "body": [
+        "Para la mayoría de las empresas, **lo difícil siempre fue enseñarle al robot**, no construirlo. Cada tarea nueva — un formato de caja diferente, un paso de ensamblaje cambiado — podía significar semanas de trabajo con especialistas costosos. NEURA Robotics, una empresa alemana respaldada por Schaeffler, Bosch, Amazon y NVIDIA, anunció el 14 de octubre un nuevo modelo de IA llamado Neuron AI, diseñado para acortar ese tiempo de enseñanza.",
+        "Los sistemas de IA para robots anteriores dependían principalmente de cámaras. Neuron AI añade tacto, oído y memoria — **puede sentir y escuchar, no solo ver.** Puede confirmar por el sonido que un candado está abierto antes de continuar. Cuando algo sale del campo de visión, el robot sigue sabiendo que está ahí. El modelo corre directamente en el robot sin conexión a internet, por lo que los datos de producción nunca salen de la fábrica.",
+        "NEURA mide el progreso con una métrica llamada Time-to-Skill: qué tan rápido un robot aprende una nueva tarea y la ejecuta de forma confiable. Un solo modelo funciona en cinco cuerpos de robots NEURA diferentes. Los clientes pueden ajustarlo con sus propios datos. **Cuanto menos tiempo lleva enseñarle al robot, más tareas vale la pena automatizar** — y ese cálculo está cambiando rápido.",
+        "Para quien dirige una operación que todavía depende de manos humanas — empaque, inspección, ensamblaje — la pregunta está cambiando. Antes era: ¿puede un robot hacer esto? Ahora es: **¿cuánto tiempo lleva enseñarle al robot**, y esa inversión tiene retorno? A medida que el Time-to-Skill disminuye, la automatización se vuelve viable para series más cortas y trabajos que cambian seguido, no solo para producción de alto volumen."
+      ],
+      "keyFacts": [
+        { "value": "5", "label": "cuerpos robóticos comparten un modelo de IA" },
+        { "value": "up to $1.4B", "label": "Serie C recaudada en junio de 2026" },
+        { "value": ">$1B", "label": "cartera de pedidos" },
+        { "value": "11 min", "label": "demo autónomo planeado en Berlín" }
+      ]
+    },
+    "fr": {
+      "title": "Le plus difficile avec les robots n'a jamais été le matériel",
+      "summary": "NEURA Robotics a lancé un modèle d'IA qui aide les robots à apprendre de nouvelles tâches plus vite — et cela change les calculs d'automatisation pour toute entreprise qui s'appuie encore sur des mains humaines.",
+      "body": [
+        "Pour la plupart des entreprises, **le plus difficile a toujours été d'apprendre au robot**, pas de le construire. Chaque nouvelle tâche — une forme de boîte différente, une étape d'assemblage modifiée — pouvait signifier des semaines de travail avec des spécialistes coûteux. NEURA Robotics, une entreprise allemande soutenue par Schaeffler, Bosch, Amazon et NVIDIA, a annoncé le 14 octobre un nouveau modèle d'IA appelé Neuron AI, conçu pour raccourcir ce temps d'apprentissage.",
+        "Les systèmes d'IA pour robots précédents s'appuyaient surtout sur des caméras. Neuron AI ajoute le toucher, l'ouïe et la mémoire — **il peut sentir et entendre, pas seulement voir.** Il peut confirmer par le son qu'un verrou est ouvert avant de continuer. Quand quelque chose sort du champ de vision, le robot sait toujours qu'il est là. Le modèle fonctionne directement sur le robot sans connexion internet, de sorte que les données de production ne quittent jamais l'usine.",
+        "NEURA mesure les progrès avec une métrique qu'elle appelle Time-to-Skill : la rapidité avec laquelle un robot apprend une nouvelle tâche et l'exécute de manière fiable. Un seul modèle partagé fonctionne sur cinq corps de robots NEURA différents. Les clients peuvent l'adapter avec leurs propres données. **Moins il faut de temps pour apprendre au robot, plus les tâches méritent d'être automatisées** — et ce calcul évolue rapidement.",
+        "Pour quiconque gère une opération qui dépend encore de mains humaines — emballage, inspection, assemblage — la question change. Avant, c'était : un robot peut-il faire ça ? Maintenant c'est : **combien de temps faut-il pour l'apprendre au robot**, et cet investissement est-il rentable ? À mesure que le Time-to-Skill diminue, l'automatisation devient viable pour des séries plus courtes et des travaux changeants, pas seulement pour la production à haut volume."
+      ],
+      "keyFacts": [
+        { "value": "5", "label": "corps de robots partagent un seul modèle IA" },
+        { "value": "up to $1.4B", "label": "Série C levée en juin 2026" },
+        { "value": ">$1B", "label": "carnet de commandes" },
+        { "value": "11 min", "label": "démonstration autonome prévue à Berlin" }
+      ]
+    },
+    "ar": {
+      "title": "الصعب في الروبوتات لم يكن الأجهزة يوماً",
+      "summary": "أطلقت NEURA Robotics نموذج ذكاء اصطناعي يساعد الروبوتات على تعلّم مهام جديدة بسرعة أكبر — وهذا يُغيّر معادلة الأتمتة لكل شركة لا تزال تعتمد على الأيدي البشرية.",
+      "body": [
+        "لمعظم الشركات، **الصعب كان دائماً تعليم الروبوت**، ليس بناءه. كلّ مهمة جديدة — شكل صندوق مختلف، خطوة تجميع معدّلة — كانت تعني أسابيع من العمل ومتخصصين مُكلفين. أعلنت شركة NEURA Robotics الألمانية، المدعومة من Schaeffler وBosch وAmazon وNVIDIA، في 14 أكتوبر عن نموذج ذكاء اصطناعي جديد يُسمى Neuron AI، صُمّم لتقليص وقت التعليم هذا.",
+        "اعتمدت أنظمة الذكاء الاصطناعي للروبوتات السابقة بشكل رئيسي على الكاميرات. يُضيف Neuron AI اللمس والسمع والذاكرة — **يستطيع الشعور والسماع، ليس فقط الرؤية.** يمكنه التحقق عبر الصوت من أن قفلاً مفتوح قبل المتابعة. حين يختفي شيء عن النظر، يبقى الروبوت على علم بوجوده. يعمل النموذج مباشرة على الروبوت دون اتصال بالإنترنت، فبيانات الإنتاج لا تغادر المصنع أبداً.",
+        "تقيس NEURA التقدم بمقياس تُسميه Time-to-Skill: مدى سرعة تعلّم الروبوت لمهمة جديدة وأدائها بموثوقية. نموذج واحد مشترك يعمل على خمسة هياكل روبوتية مختلفة من إنتاج NEURA. يستطيع العملاء تعديله ببياناتهم الخاصة. **كلّما قلّ وقت تعليم الروبوت، زادت المهام التي تستحق الأتمتة** — وهذه المعادلة تتغير بسرعة.",
+        "لكل من يدير عملية لا تزال تعتمد على الأيدي البشرية — التعبئة، والفحص، والتجميع — يتغير السؤال. كان السؤال سابقاً: هل يستطيع الروبوت فعل هذا؟ الآن أصبح: **كم يستغرق تعليم الروبوت**، وهل يستحق الاستثمار؟ مع تراجع Time-to-Skill، تصبح الأتمتة ممكنة لسلاسل إنتاج أقصر وأعمال أكثر تغيّراً، وليس فقط للإنتاج الضخم."
+      ],
+      "keyFacts": [
+        { "value": "5", "label": "هياكل روبوتية تشارك نموذجاً واحداً" },
+        { "value": "up to $1.4B", "label": "جولة تمويل Series C في يونيو 2026" },
+        { "value": ">$1B", "label": "حجم الطلبات" },
+        { "value": "11 min", "label": "عرض مستقل مخطط في برلين" }
+      ]
+    }
+  }
+}
