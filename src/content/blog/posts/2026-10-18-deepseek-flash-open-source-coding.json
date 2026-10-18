@@ -1,0 +1,118 @@
+{
+  "slug": "2026-10-18-deepseek-flash-open-source-coding",
+  "date": "2026-10-18",
+  "tags": ["ai", "open-source", "ai-agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "DeepSeek — DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+      "url": "https://api-docs.deepseek.com/news/news261017/"
+    },
+    {
+      "title": "The Decoder — DeepSeek V4.1-Flash-1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+      "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/"
+    },
+    {
+      "title": "AI Weekly — DeepSeek-V4.1-Flash-1017: Top Stories, October 17",
+      "url": "https://aiweekly.co/ai-news-today"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The cost of AI coding just fell 50x — and the model is free to download",
+      "summary": "DeepSeek's new open-source AI model handles coding tasks for around $0.20 each, compared to $2–$10 on rival services, which changes the economics for any team building with AI.",
+      "body": [
+        "On October 17, 2026, DeepSeek — the Chinese AI lab that keeps surprising the industry — released a new model called V4.1-Flash-1017. You can download it for free and use it in commercial products. Tasks that cost $2–$10 on models like Claude Opus 5 or GPT run for about $0.10–$0.20 here, meaning **rivals charge 10 to 50 times more** for the same work.",
+        "Part of why it can be this cheap is how it was trained. DeepSeek used a technique called reinforcement learning with self-feedback: the key savings come from **removing human judges from the training loop** — instead, the model rates its own outputs and learns from that. DeepSeek says the result beats its predecessor on every task it measured, scoring 77% on DeepSWE — a standard test for AI coding agents.",
+        "What makes this release different from most open-weight drops is built-in web search. DeepSeek opened its own search engine to developers as an API — $0.75 per thousand lookups, free until October 31. That means any AI agent you build can fetch live results from the web rather than rely on training data that stops at a fixed date. **Live web access was the missing piece** for open models, and it just got filled.",
+        "For teams building software with AI — whether for clients or for their own products — the question is no longer whether a capable model exists at low cost. It does. **Test it on your actual work first** — pick a real workflow, run it, and judge the output honestly. If it holds up, the savings are worth acting on."
+      ],
+      "keyFacts": [
+        { "value": "77%", "label": "score on the DeepSWE coding benchmark" },
+        { "value": "~$0.20", "label": "cost per AI coding task (rivals: $2–$10)" },
+        { "value": "MIT", "label": "license — free for commercial use" },
+        { "value": "Oct 31", "label": "last day for free search API access" }
+      ]
+    },
+    "de": {
+      "title": "KI-gestütztes Programmieren wurde gerade 50-mal billiger — und das Modell ist gratis",
+      "summary": "DeepSeeks neues Open-Source-Modell erledigt Coding-Aufgaben für rund 0,20 Dollar pro Stück — gegenüber 2 bis 10 Dollar bei Konkurrenten — und verändert damit die Kostenbasis für jedes Team, das mit KI entwickelt.",
+      "body": [
+        "Am 17. Oktober 2026 veröffentlichte DeepSeek — das chinesische KI-Labor, das die Branche immer wieder überrascht — ein neues Modell namens V4.1-Flash-1017. Es lässt sich kostenlos herunterladen und in kommerziellen Produkten einsetzen. Aufgaben, die bei Modellen wie Claude Opus 5 oder GPT 2 bis 10 Dollar kosten, sind hier für etwa 0,10 bis 0,20 Dollar erledigt — was bedeutet: **Konkurrenten verlangen 10- bis 50-mal mehr** für dieselbe Arbeit.",
+        "Warum das so günstig sein kann, liegt zum Teil an der Trainingsmethode. DeepSeek nutzte ein Verfahren namens Reinforcement Learning mit Selbst-Feedback: Die entscheidende Einsparung kommt davon, **menschliche Bewerter aus dem Trainingsprozess zu entfernen** — stattdessen bewertet das Modell seine eigenen Ausgaben und lernt daraus. DeepSeek gibt an, dass das Ergebnis das Vorgängermodell bei jedem gemessenen Test übertrifft, mit 77 % beim DeepSWE — einem Standardtest für KI-Coding-Agenten.",
+        "Was diese Veröffentlichung von den meisten Open-Weight-Modellen unterscheidet, ist die eingebaute Websuche. DeepSeek hat seine eigene Suchmaschine als API für Entwickler geöffnet — 0,75 Dollar pro tausend Suchanfragen, kostenlos bis zum 31. Oktober. Das bedeutet: Jeder KI-Agent, den man entwickelt, kann live im Web suchen, statt sich auf Trainingsdaten zu verlassen, die an einem festen Datum enden. **Echtzeit-Internetzugang war das fehlende Puzzlestück** bei offenen Modellen — und die Lücke ist gerade geschlossen worden.",
+        "Für Teams, die Software mit KI entwickeln — für Kunden oder eigene Produkte — lautet die Frage nicht mehr, ob es ein leistungsstarkes Modell zu niedrigen Kosten gibt. Es gibt es. **Teste es zuerst auf deiner echten Arbeit** — nimm einen realen Workflow, lass das Modell laufen und bewerte das Ergebnis ehrlich. Wenn es standhält, lohnt es sich, zu handeln."
+      ],
+      "keyFacts": [
+        { "value": "77%", "label": "Ergebnis im DeepSWE-Coding-Benchmark" },
+        { "value": "~$0.20", "label": "Kosten pro KI-Coding-Aufgabe (Konkurrenz: $2–$10)" },
+        { "value": "MIT", "label": "Lizenz — frei für kommerzielle Nutzung" },
+        { "value": "Oct 31", "label": "Letzter Tag für kostenlosen Such-API-Zugang" }
+      ]
+    },
+    "nl": {
+      "title": "De kosten van AI-programmeren zijn zojuist 50x gedaald — en het model is gratis te downloaden",
+      "summary": "DeepSeeks nieuwe open-source AI-model voert coderingstaken uit voor zo'n $0,20 per stuk, tegenover $2–$10 bij concurrenten, wat de kostenstructuur voor elk team dat met AI bouwt fundamenteel verandert.",
+      "body": [
+        "Op 17 oktober 2026 bracht DeepSeek — het Chinese AI-lab dat de sector steeds opnieuw verrast — een nieuw model uit genaamd V4.1-Flash-1017. Je kunt het gratis downloaden en in commerciële producten gebruiken. Taken die bij modellen als Claude Opus 5 of GPT $2 tot $10 kosten, zijn hier uitvoerbaar voor zo'n $0,10–$0,20, wat betekent dat **concurrenten 10 tot 50 keer meer vragen** voor hetzelfde werk.",
+        "Dat het zo goedkoop kan zijn, heeft deels te maken met de trainingsmethode. DeepSeek gebruikte een techniek genaamd reinforcement learning met zelffeedback: de sleutel tot de besparing is **menselijke beoordelaars uit de trainingsloop halen** — in plaats daarvan beoordeelt het model zijn eigen uitvoer en leert daarvan. DeepSeek zegt dat het resultaat zijn voorganger overtreft op alle gemeten tests, met 77% op DeepSWE — een standaardtest voor AI-coderingagenten.",
+        "Wat deze release onderscheidt van de meeste open-weight modellen is ingebouwde webzoekopdrachten. DeepSeek opende zijn eigen zoekmachine als API voor ontwikkelaars — $0,75 per duizend zoekopdrachten, gratis tot en met 31 oktober. Dat betekent dat elke AI-agent die je bouwt live op het web kan zoeken in plaats van te vertrouwen op trainingsdata met een vaste einddatum. **Live internettoegang was het ontbrekende onderdeel** voor open modellen — en dat gat is zojuist gedicht.",
+        "Voor teams die software bouwen met AI — voor klanten of eigen producten — is de vraag niet meer of er een krachtig model bestaat voor weinig geld. Dat bestaat. **Test het eerst op je eigen echte werk** — kies een werkproces, laat het draaien en beoordeel de uitvoer eerlijk. Als het stanhoudt, zijn de besparingen de moeite waard."
+      ],
+      "keyFacts": [
+        { "value": "77%", "label": "score op de DeepSWE-coderingstest" },
+        { "value": "~$0.20", "label": "kosten per AI-coderingsklus (concurrenten: $2–$10)" },
+        { "value": "MIT", "label": "licentie — vrij voor commercieel gebruik" },
+        { "value": "Oct 31", "label": "laatste dag voor gratis zoek-API-toegang" }
+      ]
+    },
+    "es": {
+      "title": "El coste de la programación con IA acaba de caer 50 veces — y el modelo es gratis",
+      "summary": "El nuevo modelo de código abierto de DeepSeek ejecuta tareas de programación por unos $0,20 cada una, frente a los $2–$10 de los competidores, lo que cambia la economía para cualquier equipo que desarrolle con IA.",
+      "body": [
+        "El 17 de octubre de 2026, DeepSeek — el laboratorio de IA chino que no deja de sorprender al sector — lanzó un nuevo modelo llamado V4.1-Flash-1017. Puedes descargarlo gratis y usarlo en productos comerciales. Tareas que cuestan entre $2 y $10 en modelos como Claude Opus 5 o GPT se ejecutan aquí por unos $0,10–$0,20, lo que significa que **los competidores cobran de 10 a 50 veces más** por el mismo trabajo.",
+        "Parte de la razón por la que puede ser tan barato es la forma en que fue entrenado. DeepSeek utilizó una técnica llamada aprendizaje por refuerzo con autoevaluación: el ahorro clave proviene de **eliminar jueces humanos del proceso de entrenamiento** — en su lugar, el modelo califica sus propias salidas y aprende de ello. DeepSeek afirma que el resultado supera a su predecesor en todas las pruebas medidas, con un 77% en DeepSWE — un test estándar para agentes de código IA.",
+        "Lo que distingue este lanzamiento de la mayoría de los modelos de pesos abiertos es la búsqueda web integrada. DeepSeek abrió su propio motor de búsqueda como API para desarrolladores — $0,75 por cada mil búsquedas, gratis hasta el 31 de octubre. Eso significa que cualquier agente IA que construyas puede obtener resultados en tiempo real de la web en lugar de depender de datos de entrenamiento que se detienen en una fecha fija. **El acceso en tiempo real era la pieza que faltaba** en los modelos abiertos, y acaba de encajar.",
+        "Para equipos que desarrollan software con IA — para clientes o para sus propios productos — la pregunta ya no es si existe un modelo capaz a bajo coste. Existe. **Pruébalo primero en tu trabajo real** — elige un flujo de trabajo concreto, ejecútalo y evalúa el resultado con honestidad. Si aguanta, el ahorro merece la pena."
+      ],
+      "keyFacts": [
+        { "value": "77%", "label": "puntuación en el benchmark de código DeepSWE" },
+        { "value": "~$0.20", "label": "coste por tarea de código IA (competencia: $2–$10)" },
+        { "value": "MIT", "label": "licencia — libre para uso comercial" },
+        { "value": "Oct 31", "label": "último día de acceso gratuito a la API de búsqueda" }
+      ]
+    },
+    "fr": {
+      "title": "Le coût de la programmation IA vient de chuter 50 fois — et le modèle est gratuit",
+      "summary": "Le nouveau modèle open source de DeepSeek effectue des tâches de codage pour environ 0,20 $ pièce, contre 2 à 10 $ chez les concurrents, ce qui change l'équation économique pour toute équipe qui développe avec l'IA.",
+      "body": [
+        "Le 17 octobre 2026, DeepSeek — le laboratoire d'IA chinois qui ne cesse de surprendre l'industrie — a publié un nouveau modèle appelé V4.1-Flash-1017. Il est téléchargeable gratuitement et utilisable dans des produits commerciaux. Des tâches qui coûtent entre 2 et 10 dollars sur des modèles comme Claude Opus 5 ou GPT s'exécutent ici pour environ 0,10–0,20 dollar, ce qui signifie que **les concurrents facturent 10 à 50 fois plus** pour le même travail.",
+        "Si ce modèle peut être aussi bon marché, c'est en partie grâce à sa méthode d'entraînement. DeepSeek a utilisé une technique appelée apprentissage par renforcement avec auto-évaluation : l'économie clé vient de **supprimer les évaluateurs humains de la boucle d'entraînement** — à la place, le modèle note ses propres sorties et en tire des leçons. DeepSeek affirme que le résultat surpasse son prédécesseur sur tous les tests mesurés, avec un score de 77 % sur DeepSWE — un test standard pour les agents de code IA.",
+        "Ce qui distingue cette publication de la plupart des modèles open-weight, c'est la recherche web intégrée. DeepSeek a ouvert son propre moteur de recherche en tant qu'API pour les développeurs — 0,75 dollar pour mille requêtes, gratuit jusqu'au 31 octobre. Cela signifie que tout agent IA que vous construisez peut récupérer des résultats en direct sur le web plutôt que de s'appuyer sur des données d'entraînement arrêtées à une date fixe. **L'accès en temps réel au web était la pièce manquante** des modèles ouverts — elle vient d'être comblée.",
+        "Pour les équipes qui développent des logiciels avec l'IA — pour des clients ou leurs propres produits — la question n'est plus de savoir s'il existe un modèle puissant à faible coût. Il existe. **Testez-le d'abord sur votre travail réel** — choisissez un vrai flux de travail, lancez-le et évaluez le résultat honnêtement. S'il tient la route, les économies méritent qu'on passe à l'action."
+      ],
+      "keyFacts": [
+        { "value": "77%", "label": "score sur le benchmark de codage DeepSWE" },
+        { "value": "~$0.20", "label": "coût par tâche de codage IA (concurrents : $2–$10)" },
+        { "value": "MIT", "label": "licence — libre pour usage commercial" },
+        { "value": "Oct 31", "label": "dernier jour d'accès gratuit à l'API de recherche" }
+      ]
+    },
+    "ar": {
+      "title": "تكلفة البرمجة بالذكاء الاصطناعي انخفضت للتو 50 مرة — والنموذج مجاني للتنزيل",
+      "summary": "يُنجز النموذج المفتوح الجديد من DeepSeek مهام البرمجة بحوالي 0.20 دولار للمهمة الواحدة مقارنة بـ 2 إلى 10 دولارات لدى المنافسين، مما يغيّر المعادلة الاقتصادية لكل فريق يبني بالذكاء الاصطناعي.",
+      "body": [
+        "في 17 أكتوبر 2026، أطلق DeepSeek — مختبر الذكاء الاصطناعي الصيني الذي لا يكف عن مفاجأة الصناعة — نموذجاً جديداً يُسمى V4.1-Flash-1017. يمكن تنزيله مجاناً واستخدامه في المنتجات التجارية. المهام التي تكلّف من 2 إلى 10 دولارات في نماذج مثل Claude Opus 5 أو GPT تُنجَز هنا بحوالي 0.10 إلى 0.20 دولار، مما يعني أن **المنافسين يتقاضون من 10 إلى 50 ضعفاً** عن نفس العمل.",
+        "سرّ هذا الانخفاض في التكلفة يكمن جزئياً في طريقة التدريب. استخدم DeepSeek تقنية تُسمى التعلم التعزيزي بالتغذية الراجعة الذاتية: تأتي الوفورات الأساسية من **إزالة المحكّمين البشريين من دورة التدريب** — إذ يُقيّم النموذج نتائجه بنفسه ويتعلم منها. يؤكد DeepSeek أن النسخة الجديدة تتفوق على سابقتها في كل الاختبارات المقاسة، بنتيجة 77% في DeepSWE — معيار قياسي لاختبار وكلاء البرمجة بالذكاء الاصطناعي.",
+        "ما يُميّز هذا الإصدار عن معظم نماذج الأوزان المفتوحة هو البحث على الويب المدمج. فتح DeepSeek محرك بحثه الخاص كواجهة برمجية للمطورين — بسعر 0.75 دولار لكل ألف بحث، مجاناً حتى 31 أكتوبر. هذا يعني أن أي وكيل ذكاء اصطناعي تبنيه يستطيع جلب نتائج حية من الويب بدلاً من الاعتماد على بيانات تدريب تتوقف عند تاريخ محدد. **الوصول الفوري إلى الإنترنت كان القطعة المفقودة** في النماذج المفتوحة — وقد اكتملت للتو.",
+        "بالنسبة للفرق التي تبني برمجيات بالذكاء الاصطناعي — سواء لعملائها أو لمنتجاتها الخاصة — لم يعد السؤال هو: هل يوجد نموذج قوي بتكلفة منخفضة؟ الجواب نعم. **جرّبه أولاً على عملك الفعلي** — اختر سير عمل حقيقياً، شغّله، وقيّم النتيجة بصدق. إن كانت جيدة بما يكفي، فإن الوفورات تستحق التحرك."
+      ],
+      "keyFacts": [
+        { "value": "77%", "label": "النتيجة في معيار اختبار البرمجة DeepSWE" },
+        { "value": "~$0.20", "label": "تكلفة مهمة برمجية بالذكاء الاصطناعي (المنافسون: $2–$10)" },
+        { "value": "MIT", "label": "الرخصة — حرة للاستخدام التجاري" },
+        { "value": "Oct 31", "label": "آخر يوم للوصول المجاني لواجهة برمجة البحث" }
+      ]
+    }
+  }
+}
