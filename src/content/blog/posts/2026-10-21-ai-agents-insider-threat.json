@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-21-ai-agents-insider-threat",
+  "date": "2026-10-21",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Microsoft Blog — Securing the agentic insider",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+    },
+    {
+      "title": "TechCrunch — Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Your AI agent doesn't know the rules",
+      "summary": "Microsoft warned this week that AI agents inside your business are a new kind of insider risk — and you cannot rely on the AI provider to manage that for you.",
+      "body": [
+        "Every week, more teams give AI agents access to their files, email, tools, and customer data. The agents are fast, tireless, and genuinely useful. But Microsoft's security chief Hayete Gallot published a direct warning this week: **an AI agent is now an insider**. It sits inside your business, acts in your name, and can cause harm without anyone intending it to.",
+        "The word 'insider' matters. An insider threat doesn't mean a bad actor — it means someone with legitimate access who causes damage, usually by following incomplete instructions. Gallot's argument is that AI agents fit that description almost by definition. They are trained to complete tasks, not to understand your organisation's norms. They don't know what you consider sensitive, what approvals you need, or **where you draw the line**.",
+        "Microsoft CEO Satya Nadella made the point even blunter: **a model provider's assurances don't protect you**. Even if the AI behind your agent comes from Anthropic, OpenAI, or Google, you can't hand off accountability for what it does inside your systems. More than 100 companies — including CrowdStrike and Salesforce — have already joined a new Nvidia-backed safety platform that gives businesses hardware-level control over their agents, including the ability to monitor and stop them.",
+        "The practical takeaway is simple. Before you give any AI agent broad access — to email, databases, APIs, or payment systems — ask yourself: what is the worst thing it could do by accident while just trying to be helpful? Treat it like a new hire who is very capable but knows nothing about your company's rules and limits. **Give agents only the access each task requires**, and build controls that don't depend on the agent understanding them."
+      ],
+      "keyFacts": [
+        { "value": "100+", "label": "companies in Nvidia's new agent safety platform" },
+        { "value": "July 2026", "label": "when Microsoft launched Project Perception" },
+        { "value": "3", "label": "security agent types in Project Perception (attack, detect, fix)" },
+        { "value": "24/7", "label": "how Guardian Agents must monitor every agent action" }
+      ]
+    },
+    "de": {
+      "title": "Dein KI-Agent kennt die Spielregeln nicht",
+      "summary": "Microsoft warnte diese Woche: KI-Agenten in deinem Unternehmen sind ein neues internes Risiko — und du kannst diese Verantwortung nicht auf den KI-Anbieter abwälzen.",
+      "body": [
+        "Jede Woche geben mehr Teams KI-Agenten Zugriff auf ihre Dateien, E-Mails, Tools und Kundendaten. Die Agenten sind schnell, ausdauernd und nützlich. Doch Microsofts Sicherheitschefin Hayete Gallot hat diese Woche eine klare Warnung veröffentlicht: **ein KI-Agent ist jetzt ein Insider**. Er sitzt in deinem Unternehmen, handelt in deinem Namen und kann Schaden anrichten — ohne dass jemand das beabsichtigt.",
+        "Das Wort 'Insider' ist wichtig. Eine Insider-Bedrohung ist kein böser Akteur — es ist jemand mit berechtigtem Zugriff, der Schaden verursacht, meist weil er unvollständige Anweisungen befolgt. Gallot argumentiert, dass KI-Agenten genau das sind. Sie sind darauf trainiert, Aufgaben zu erledigen — nicht die Normen deiner Organisation zu verstehen. Sie wissen nicht, was du als sensibel einstufst, welche Genehmigungen du benötigst oder **wo du die Grenze ziehst**.",
+        "Microsoft-CEO Satya Nadella brachte es noch direkter auf den Punkt: **die Zusicherungen eines Anbieters schützen dich nicht**. Selbst wenn die KI hinter deinem Agenten von Anthropic, OpenAI oder Google stammt, kannst du die Verantwortung für das, was er in deinen Systemen tut, nicht abgeben. Mehr als 100 Unternehmen — darunter CrowdStrike und Salesforce — haben sich bereits einer neuen, von Nvidia unterstützten Sicherheitsplattform angeschlossen, die Hardware-Kontrolle über Agenten ermöglicht.",
+        "Der praktische Rat ist simpel. Bevor du einem KI-Agenten breiten Zugriff gibst — auf E-Mails, Datenbanken, APIs oder Zahlungssysteme — frage dich: Was ist das Schlimmste, was er versehentlich tun könnte, während er nur hilfreich sein will? Behandle ihn wie einen neuen Mitarbeiter, der sehr fähig ist, aber nichts über die Regeln deines Unternehmens weiß. **Gib Agenten nur den Zugriff, den jede Aufgabe braucht** — und baue Kontrollen, die nicht davon abhängen, dass der Agent sie versteht."
+      ],
+      "keyFacts": [
+        { "value": "100+", "label": "Unternehmen in Nvidias neuer Agenten-Sicherheitsplattform" },
+        { "value": "July 2026", "label": "Start von Microsofts Project Perception" },
+        { "value": "3", "label": "Agenten-Typen in Project Perception (Angriff, Erkennung, Behebung)" },
+        { "value": "24/7", "label": "wie Guardian Agents jede Agenten-Aktion überwachen müssen" }
+      ]
+    },
+    "nl": {
+      "title": "Jouw AI-agent kent de regels niet",
+      "summary": "Microsoft waarschuwde deze week dat AI-agents binnen jouw bedrijf een nieuw intern risico vormen — en dat je die verantwoordelijkheid niet kunt doorschuiven naar de AI-aanbieder.",
+      "body": [
+        "Elke week geven meer teams AI-agents toegang tot hun bestanden, e-mail, tools en klantgegevens. Agents zijn snel, onvermoeibaar en nuttig. Maar Microsofts beveiligingschef Hayete Gallot publiceerde deze week een duidelijke waarschuwing: **een AI-agent is nu een insider**. Hij werkt binnen jouw bedrijf, handelt in jouw naam en kan schade aanrichten — zonder dat iemand dat bedoelt.",
+        "Het woord 'insider' is hier belangrijk. Een insiderbedreiging is geen kwaadwillende acteur — het is iemand met legitieme toegang die schade veroorzaakt, meestal door onvolledige instructies op te volgen. Gallot betoogt dat AI-agents daar bijna per definitie in passen. Ze zijn getraind om taken te voltooien, niet om de normen van jouw organisatie te begrijpen. Ze weten niet wat jij als gevoelig beschouwt, welke goedkeuringen je nodig hebt of **waar jij de grens trekt**.",
+        "Microsoft-CEO Satya Nadella was nog directer: **de garanties van een aanbieder beschermen jou niet**. Zelfs als de AI achter jouw agent van Anthropic, OpenAI of Google komt, kun je de verantwoordelijkheid voor wat die agent in jouw systemen doet niet overdragen. Meer dan 100 bedrijven — waaronder CrowdStrike en Salesforce — zijn al toegetreden tot een nieuw Nvidia-platform dat hardware-controle biedt over agents.",
+        "De praktische conclusie is simpel. Voordat je een AI-agent brede toegang geeft — tot e-mail, databases, API's of betaalsystemen — vraag jezelf af: wat is het ergste wat hij per ongeluk kan doen terwijl hij gewoon probeert te helpen? Behandel hem als een nieuwe medewerker die heel capabel is, maar niets weet van de regels van jouw bedrijf. **Geef agents alleen de toegang die elke taak vereist** — en bouw controles die niet afhankelijk zijn van het begrip van de agent."
+      ],
+      "keyFacts": [
+        { "value": "100+", "label": "bedrijven in Nvidia's nieuwe agentenveiligheidsplatform" },
+        { "value": "July 2026", "label": "lancering van Microsofts Project Perception" },
+        { "value": "3", "label": "agenttypen in Project Perception (aanval, detectie, herstel)" },
+        { "value": "24/7", "label": "hoe Guardian Agents elke agentactie moeten bewaken" }
+      ]
+    },
+    "es": {
+      "title": "Tu agente de IA no conoce las reglas",
+      "summary": "Microsoft advirtió esta semana que los agentes de IA dentro de tu empresa representan un nuevo riesgo interno — y que no puedes trasladar esa responsabilidad al proveedor de IA.",
+      "body": [
+        "Cada semana, más equipos dan a los agentes de IA acceso a sus archivos, correo, herramientas y datos de clientes. Los agentes son rápidos, incansables y útiles. Pero Hayete Gallot, responsable de seguridad de Microsoft, publicó esta semana una advertencia clara: **un agente de IA ya es un insider**. Vive dentro de tu empresa, actúa en tu nombre y puede causar daño sin que nadie lo pretenda.",
+        "La palabra 'insider' importa. Una amenaza interna no es un actor malicioso — es alguien con acceso legítimo que causa daño, generalmente siguiendo instrucciones incompletas. Gallot argumenta que los agentes de IA encajan casi por definición en esa descripción. Están entrenados para completar tareas, no para entender las normas de tu organización. No saben qué consideras sensible, qué aprobaciones necesitas ni **dónde trazas la línea**.",
+        "El CEO de Microsoft, Satya Nadella, lo dijo de forma aún más directa: **las garantías del proveedor no te protegen**. Aunque la IA detrás de tu agente provenga de Anthropic, OpenAI o Google, no puedes delegar la responsabilidad por lo que ese agente hace dentro de tus sistemas. Más de 100 empresas — entre ellas CrowdStrike y Salesforce — ya se han unido a una nueva plataforma de seguridad respaldada por Nvidia que ofrece control a nivel de hardware sobre los agentes.",
+        "La conclusión práctica es sencilla. Antes de dar a un agente de IA acceso amplio — a correo, bases de datos, APIs o sistemas de pago — pregúntate: ¿qué es lo peor que podría hacer por accidente mientras solo intenta ser útil? Trátalo como a un empleado nuevo que es muy capaz pero no sabe nada de las reglas de tu empresa. **Da a los agentes solo el acceso que cada tarea requiere** — y construye controles que no dependan de que el agente los entienda."
+      ],
+      "keyFacts": [
+        { "value": "100+", "label": "empresas en la nueva plataforma de seguridad de agentes de Nvidia" },
+        { "value": "July 2026", "label": "lanzamiento de Project Perception de Microsoft" },
+        { "value": "3", "label": "tipos de agente en Project Perception (ataque, detección, corrección)" },
+        { "value": "24/7", "label": "cómo los Guardian Agents deben vigilar cada acción del agente" }
+      ]
+    },
+    "fr": {
+      "title": "Votre agent IA ne connaît pas les règles",
+      "summary": "Microsoft a prévenu cette semaine que les agents IA au sein de votre entreprise constituent un nouveau risque interne — et que vous ne pouvez pas déléguer cette responsabilité à votre fournisseur d'IA.",
+      "body": [
+        "Chaque semaine, davantage d'équipes donnent aux agents IA accès à leurs fichiers, e-mails, outils et données clients. Ces agents sont rapides, infatigables et utiles. Mais Hayete Gallot, directrice de la sécurité chez Microsoft, a publié cette semaine une mise en garde claire : **un agent IA est désormais un initié**. Il opère au cœur de votre entreprise, agit en votre nom et peut causer des dommages sans que personne ne le veuille.",
+        "Le mot 'initié' est important. Une menace interne ne désigne pas un acteur malveillant — mais quelqu'un avec un accès légitime qui cause des dégâts, souvent en suivant des instructions incomplètes. Gallot soutient que les agents IA correspondent presque par définition à ce profil. Ils sont entraînés à accomplir des tâches, pas à comprendre les normes de votre organisation. Ils ignorent ce que vous considérez comme sensible, les validations que vous exigez ou **où vous tracez la limite**.",
+        "Satya Nadella, PDG de Microsoft, l'a dit encore plus directement : **les garanties du fournisseur ne vous protègent pas**. Même si l'IA derrière votre agent vient d'Anthropic, d'OpenAI ou de Google, vous ne pouvez pas transférer la responsabilité de ce qu'elle fait dans vos systèmes. Plus de 100 entreprises — dont CrowdStrike et Salesforce — ont déjà rejoint une nouvelle plateforme Nvidia qui offre un contrôle matériel sur les agents.",
+        "La conclusion pratique est simple. Avant d'accorder un accès large à un agent IA — e-mails, bases de données, API ou systèmes de paiement — posez-vous cette question : quelle est la pire chose qu'il pourrait faire par accident en essayant simplement d'aider ? Traitez-le comme un nouveau collaborateur très compétent mais qui ne connaît rien aux règles de votre entreprise. **Donnez aux agents uniquement l'accès que chaque tâche exige** — et construisez des contrôles qui ne dépendent pas de leur compréhension."
+      ],
+      "keyFacts": [
+        { "value": "100+", "label": "entreprises sur la nouvelle plateforme de sécurité agents de Nvidia" },
+        { "value": "July 2026", "label": "lancement de Project Perception par Microsoft" },
+        { "value": "3", "label": "types d'agents dans Project Perception (attaque, détection, correction)" },
+        { "value": "24/7", "label": "comment les Guardian Agents doivent surveiller chaque action" }
+      ]
+    },
+    "ar": {
+      "title": "وكيل الذكاء الاصطناعي لا يعرف القواعد",
+      "summary": "حذّرت مايكروسوفت هذا الأسبوع من أن وكلاء الذكاء الاصطناعي داخل شركتك يمثّلون نوعاً جديداً من المخاطر الداخلية — ولا يمكنك إلقاء هذه المسؤولية على مزوّد الذكاء الاصطناعي.",
+      "body": [
+        "كل أسبوع، تمنح فرق أكثر وكلاء الذكاء الاصطناعي صلاحية الوصول إلى ملفاتها ورسائلها وأدواتها وبيانات عملائها. هؤلاء الوكلاء سريعون، لا يكلّون، ومفيدون. لكن هاييت غالو، المديرة التنفيذية للأمن في مايكروسوفت، نشرت تحذيراً صريحاً هذا الأسبوع: **وكيل الذكاء الاصطناعي أصبح الآن شخصاً داخلياً**. إنه يعمل في قلب مؤسستك، ويتصرف باسمك، ويمكن أن يتسبب في أضرار دون أن يقصد أحد ذلك.",
+        "كلمة 'داخلي' مهمة هنا. الخطر الداخلي ليس فاعلاً خبيثاً — بل هو شخص يملك صلاحية وصول مشروعة ويتسبب في أضرار، عادةً بسبب اتباع تعليمات ناقصة. وتؤكد غالو أن وكلاء الذكاء الاصطناعي ينطبق عليهم هذا الوصف شبه تلقائياً. فهم مدرَّبون على إتمام المهام، لا على فهم أعراف مؤسستك. لا يعرفون ما تعدّه حساساً، ولا الموافقات التي تحتاجها، ولا **أين تضع الحدود**.",
+        "وكان ساتيا ناديلا، الرئيس التنفيذي لمايكروسوفت، أكثر صراحةً: **ضمانات المزوّد لا تحميك**. حتى لو كان الذكاء الاصطناعي خلف وكيلك قادماً من أنثروبيك أو أوبن إيه آي أو غوغل، لا يمكنك تحويل المسؤولية عما يفعله داخل أنظمتك. انضم بالفعل أكثر من 100 شركة — من بينها كراودسترايك وسيلزفورس — إلى منصة جديدة مدعومة من إنفيديا توفر تحكماً على المستوى المادي في الوكلاء.",
+        "الخلاصة العملية بسيطة. قبل أن تمنح أي وكيل ذكاء اصطناعي صلاحيات واسعة — للبريد الإلكتروني وقواعد البيانات وواجهات البرمجة وأنظمة الدفع — اسأل نفسك: ما أسوأ ما يمكن أن يفعله عن غير قصد وهو يحاول فقط المساعدة؟ عامله كموظف جديد ماهر جداً لكنه لا يعرف شيئاً عن قواعد شركتك وحدودها. **أعطِ الوكلاء فقط الصلاحية التي تتطلبها كل مهمة** — وابنِ ضوابط لا تعتمد على فهم الوكيل لها."
+      ],
+      "keyFacts": [
+        { "value": "100+", "label": "شركة في منصة إنفيديا الجديدة لأمان الوكلاء" },
+        { "value": "July 2026", "label": "إطلاق مشروع Perception من مايكروسوفت" },
+        { "value": "3", "label": "أنواع وكلاء الأمان في Project Perception (هجوم، كشف، إصلاح)" },
+        { "value": "24/7", "label": "كيف يجب أن يراقب Guardian Agents كل إجراء للوكيل" }
+      ]
+    }
+  }
+}
