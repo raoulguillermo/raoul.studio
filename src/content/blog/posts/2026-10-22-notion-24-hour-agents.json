@@ -1,0 +1,115 @@
+{
+  "slug": "2026-10-22-notion-24-hour-agents",
+  "date": "2026-10-22",
+  "tags": ["ai", "productivity", "automation"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://forkast.news/wp-content/uploads/2026/10/notion-gen6-long-horizon-loom-1024x687.jpg",
+    "alt": "Notion AI agent interface showing a long-running autonomous task in progress",
+    "credit": "Forkast News"
+  },
+  "sources": [
+    { "title": "Notion — Agents, rebuilt to do more for less", "url": "https://www.notion.com/blog/notion-ai-more-for-less" },
+    { "title": "Notion — Release notes, 19 October 2026", "url": "https://www.notion.com/en-gb/releases/2026-10-19" },
+    { "title": "Forkast News — Notion Launches Gen-6 Agent Harness to Enable 24-Hour Autonomous Workflows", "url": "https://forkast.news/notion-launches-gen-6-agent-harness-to-enable-24-hour-autonomous-workflows/" },
+    { "title": "ByteIota — Notion Rebuilds Its AI Agent: 24-Hour Tasks, 90% Cost Cut", "url": "https://byteiota.com/notion-agent-rebuild-24-hour-tasks/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "A 24-hour AI agent is a different kind of tool",
+      "summary": "Notion rebuilt its AI agent so tasks can run for over 24 hours straight — and that changes which kinds of work it actually makes sense to hand off to a machine.",
+      "body": [
+        "Notion just rebuilt the core of its AI agent. The biggest change sounds simple: a task that used to stop after five minutes can now run for over 24 hours. But **a 24-hour AI agent is a different kind of tool**. Before, you could ask it to write a draft or summarize a meeting — fast, self-contained jobs. Now you can set it to tackle something that takes real time: pull data from multiple places, write code, hit a problem, fix it, and check the result. The list of tasks worth handing off just got much longer.",
+        "The five-minute limit wasn't a design choice — it was an engineering constraint. Each session ran as a single job on a server. When the job ended, the agent's memory ended with it. The new version runs on a dedicated worker that saves its progress as it goes. If a server restarts mid-task, the agent picks back up where it left off. **The agent no longer forgets what it was doing**, which makes longer and harder work realistic.",
+        "A 24-hour agent only makes sense if it doesn't cost a fortune. Notion tackled this with a smarter model router called Auto. Instead of sending every step to the most powerful AI model, Auto picks the right model for each sub-task — cheap models for simple steps, the best for hard ones. Notion says this cuts average costs by about 90% versus using top-tier models for everything. **The same monthly budget now runs about ten tasks** where it used to run one, making all-day agents a real option rather than an expensive experiment.",
+        "The practical question to ask now isn't 'can AI do this in five minutes?' It's 'does this work take hours, and does it follow predictable steps?' Research, writing, data processing, multi-step code — all of that is now in scope. Notion also added a feature called 'Review for me,' where a second AI model checks the agent's planned actions before it takes them, making high-stakes tasks safer to delegate. For anyone building or running a business, **the automation gap just got a lot smaller**."
+      ],
+      "keyFacts": [
+        { "value": "5 min → 24+ hrs", "label": "agent runtime, old vs. new" },
+        { "value": "~90%", "label": "lower cost with Auto model router" },
+        { "value": "50%", "label": "faster on web and mobile" },
+        { "value": "150+", "label": "tools connectable via MCP" }
+      ]
+    },
+    "de": {
+      "title": "Ein KI-Agent, der 24 Stunden läuft, ist ein ganz anderes Werkzeug",
+      "summary": "Notion hat seinen KI-Agenten neu aufgebaut, sodass Aufgaben jetzt über 24 Stunden laufen können — und das verändert, welche Arbeit es wirklich Sinn macht, an eine Maschine abzugeben.",
+      "body": [
+        "Notion hat den Kern seines KI-Agenten von Grund auf neu gebaut. Die größte Änderung klingt simpel: Eine Aufgabe, die früher nach fünf Minuten endete, kann jetzt über 24 Stunden am Stück laufen. Aber **ein 24-Stunden-KI-Agent ist ein ganz anderes Werkzeug**. Bisher war er gut für schnelle, abgegrenzte Jobs — einen Entwurf schreiben, ein Meeting zusammenfassen. Jetzt kann er echte mehrstufige Arbeit übernehmen: Daten aus verschiedenen Quellen ziehen, Code schreiben, auf Fehler stoßen, sie beheben und das Ergebnis prüfen. Die Liste der Aufgaben, die sich lohnt abzugeben, ist deutlich länger geworden.",
+        "Das Fünf-Minuten-Limit war keine Designentscheidung — es war eine technische Einschränkung. Jede Agenten-Sitzung lief als einzelner Job auf einem Server. Wenn der Job endete, war auch das Gedächtnis des Agenten weg. Die neue Version läuft auf einem eigenen Worker, der seinen Fortschritt laufend speichert. Startet der Server mitten in einer Aufgabe neu, macht der Agent einfach weiter, wo er aufgehört hat. **Der Agent vergisst nicht mehr, was er gerade tat** — und das macht längere, schwierigere Arbeit realistisch.",
+        "Ein 24-Stunden-Agent macht nur Sinn, wenn er nicht ein Vermögen kostet. Notion hat das gleichzeitig gelöst: Ein neuer Model-Router namens Auto wählt für jeden Schritt das passende Modell. Einfache Teilaufgaben gehen an günstigere Modelle, schwierige an die besten. Laut Notion sinken die Durchschnittskosten so um rund 90 % im Vergleich zur Nutzung der besten Modelle für alles. **Dasselbe monatliche Budget reicht jetzt für rund zehn Aufgaben** statt eine — und macht Agenten, die den ganzen Tag laufen, zu einer echten Option.",
+        "Die praktische Frage lautet jetzt nicht mehr: 'Kann die KI das in fünf Minuten erledigen?' Sondern: 'Dauert diese Arbeit Stunden, und folgt sie vorhersehbaren Schritten?' Recherche, Texterstellung, Datenverarbeitung, mehrstufige Codeprojekte — all das ist jetzt möglich. Notion hat außerdem 'Review for me' eingeführt: Ein zweites KI-Modell prüft die geplanten Aktionen des Agenten, bevor er sie ausführt — das macht das Delegieren wichtiger Aufgaben sicherer. Für alle, die ein Unternehmen aufbauen oder Software entwickeln: **Die Automatisierungslücke ist deutlich kleiner geworden**."
+      ],
+      "keyFacts": [
+        { "value": "5 min → 24+ hrs", "label": "Agentlaufzeit, alt vs. neu" },
+        { "value": "~90%", "label": "niedrigere Kosten mit Auto-Router" },
+        { "value": "50%", "label": "schneller auf Web und Mobil" },
+        { "value": "150+", "label": "Tools per MCP verbindbar" }
+      ]
+    },
+    "nl": {
+      "title": "Een AI-agent die 24 uur kan werken, is een heel ander soort hulpmiddel",
+      "summary": "Notion heeft zijn AI-agent volledig herbouwd zodat taken meer dan 24 uur kunnen duren — en dat verandert wat het zin heeft om aan een machine over te dragen.",
+      "body": [
+        "Notion heeft de kern van zijn AI-agent volledig herbouwd. De grootste verandering klinkt eenvoudig: een taak die vroeger na vijf minuten stopte, kan nu meer dan 24 uur doorlopen. Maar **een AI-agent van 24 uur is een heel ander soort tool**. Vroeger kon je hem vragen een tekst te schrijven of een vergadering samen te vatten — snelle, afgebakende klussen. Nu kun je hem echte meerstaps-taken geven: data ophalen uit verschillende bronnen, code schrijven, een fout tegenkomen, die oplossen en het resultaat controleren. De lijst van taken die het loont door te geven is een stuk langer geworden.",
+        "Het vijf-minutenlimiet was geen ontwerpkeuze — het was een technische beperking. Elke agent-sessie draaide als één taak op een server. Zodra die eindigde, was het geheugen van de agent weg. De nieuwe versie draait op een eigen worker die de voortgang voortdurend opslaat. Als de server halverwege een taak opnieuw opstart, gaat de agent gewoon verder waar hij was gebleven. **De agent vergeet niet meer wat hij aan het doen was**, waardoor langere en moeilijkere taken realistisch worden.",
+        "Een AI die 24 uur draait is alleen zinvol als dat niet te duur is. Notion pakte dit tegelijk aan met een slimmere model-router genaamd Auto. In plaats van elke stap naar het krachtigste model te sturen, kiest Auto het juiste model voor elke deeltaak. Eenvoudige stappen gaan naar goedkopere modellen, moeilijke naar de beste. Notion zegt dat dit de gemiddelde kosten met zo'n 90% verlaagt vergeleken met altijd het beste model gebruiken. **Hetzelfde maandbudget dekt nu zo'n tien taken** in plaats van één — wat de hele dag agents draaien een echte optie maakt.",
+        "De praktische vraag is nu niet meer: 'Kan AI dit in vijf minuten?' Maar: 'Duurt dit werk uren en volgt het voorspelbare stappen?' Onderzoek, schrijven, dataverwerking, meerstaps-code — dat valt er allemaal nu onder. Notion heeft ook 'Review for me' toegevoegd: een tweede AI-model controleert de geplande acties van de agent voordat hij ze uitvoert, wat het veiliger maakt om belangrijke taken door te geven. Voor wie een bedrijf runt of software bouwt: **de automatiseringskloof is een stuk kleiner geworden**."
+      ],
+      "keyFacts": [
+        { "value": "5 min → 24+ hrs", "label": "agentduur, oud vs. nieuw" },
+        { "value": "~90%", "label": "lagere kosten met Auto-router" },
+        { "value": "50%", "label": "sneller op web en mobiel" },
+        { "value": "150+", "label": "tools te koppelen via MCP" }
+      ]
+    },
+    "es": {
+      "title": "Una IA que puede trabajar todo el día es una herramienta completamente diferente",
+      "summary": "Notion reconstruyó su agente de IA para que las tareas puedan durar más de 24 horas, lo que cambia qué tipo de trabajo tiene sentido delegar a una máquina.",
+      "body": [
+        "Notion acaba de reconstruir el núcleo de su agente de IA. El cambio más importante suena sencillo: una tarea que antes se detenía a los cinco minutos ahora puede ejecutarse durante más de 24 horas. Pero **una IA de 24 horas es una herramienta completamente diferente**. Antes, podías pedirle que escribiera un borrador o resumiera una reunión — trabajos rápidos y acotados. Ahora puedes encargarle algo que lleva tiempo real: extraer datos de varios lugares, escribir código, encontrar un error, corregirlo y verificar el resultado. La lista de tareas que vale la pena delegar acaba de hacerse mucho más larga.",
+        "El límite de cinco minutos no era una decisión de diseño — era una limitación técnica. Cada sesión del agente se ejecutaba como un único trabajo en un servidor. Cuando ese trabajo terminaba, la memoria del agente desaparecía. La nueva versión corre en un worker dedicado que guarda el progreso a medida que avanza. Si el servidor se reinicia en mitad de una tarea, el agente retoma justo donde lo dejó. **El agente ya no olvida lo que estaba haciendo**, lo que hace que las tareas largas y complejas sean realistas.",
+        "Un agente de 24 horas solo tiene sentido si no cuesta una fortuna. Notion abordó esto con un enrutador de modelos más inteligente llamado Auto. En lugar de enviar cada paso al modelo de IA más potente, Auto elige el modelo adecuado para cada subtarea. Los pasos simples van a modelos más baratos; los difíciles, a los mejores. Notion afirma que esto reduce los costes medios en torno a un 90% frente a usar los mejores modelos para todo. **El mismo presupuesto mensual ahora alcanza para unas diez tareas** donde antes alcanzaba para una, lo que convierte los agentes de jornada completa en una opción real.",
+        "La pregunta práctica ya no es '¿puede la IA hacer esto en cinco minutos?' sino '¿este trabajo lleva horas y sigue pasos predecibles?' Investigación, redacción, procesamiento de datos, proyectos de código en varias fases — todo eso está ahora al alcance. Notion también añadió 'Review for me': un segundo modelo de IA revisa las acciones planeadas del agente antes de ejecutarlas, haciendo más seguro delegar tareas importantes. Para quienes construyen o dirigen un negocio: **la brecha de automatización acaba de reducirse mucho**."
+      ],
+      "keyFacts": [
+        { "value": "5 min → 24+ hrs", "label": "duración del agente, antes vs. ahora" },
+        { "value": "~90%", "label": "reducción de costes con Auto" },
+        { "value": "50%", "label": "más rápido en web y móvil" },
+        { "value": "150+", "label": "herramientas conectables vía MCP" }
+      ]
+    },
+    "fr": {
+      "title": "Une IA qui peut travailler toute une journée est un outil d'une toute autre nature",
+      "summary": "Notion a entièrement reconstruit son agent IA pour permettre des tâches de plus de 24 heures, ce qui change fondamentalement ce qu'il vaut la peine de confier à une machine.",
+      "body": [
+        "Notion vient de reconstruire le cœur de son agent IA. Le changement le plus important paraît simple : une tâche qui s'arrêtait au bout de cinq minutes peut maintenant tourner pendant plus de 24 heures d'affilée. Mais **un agent IA de 24 heures est un outil d'une toute autre nature**. Avant, on pouvait lui demander de rédiger un brouillon ou résumer une réunion — des tâches rapides et bien délimitées. Maintenant, on peut lui confier quelque chose qui demande du temps réel : récupérer des données depuis plusieurs endroits, écrire du code, tomber sur une erreur, la corriger et vérifier le résultat. La liste des tâches qu'il vaut la peine de déléguer vient de s'allonger considérablement.",
+        "La limite de cinq minutes n'était pas un choix de conception — c'était une contrainte technique. Chaque session s'exécutait comme un seul job sur un serveur. Quand le job se terminait, la mémoire de l'agent disparaissait avec lui. La nouvelle version tourne sur un worker dédié qui sauvegarde sa progression au fur et à mesure. Si le serveur redémarre en plein milieu d'une tâche, l'agent reprend exactement où il en était. **L'agent n'oublie plus ce qu'il était en train de faire**, ce qui rend les tâches longues et complexes réalistes.",
+        "Un agent de 24 heures n'a de sens que s'il ne coûte pas une fortune. Notion a traité ce point avec un routeur de modèles plus intelligent appelé Auto. Au lieu d'envoyer chaque étape au modèle le plus puissant, Auto choisit le modèle adapté à chaque sous-tâche. Les étapes simples vont vers des modèles moins coûteux, les plus difficiles vers les meilleurs. Notion affirme que cela réduit les coûts moyens d'environ 90 % par rapport à l'utilisation des modèles de pointe pour tout. **Le même budget mensuel couvre maintenant environ dix tâches** là où il n'en couvrait qu'une — ce qui fait des agents à plein temps une vraie option.",
+        "La question pratique n'est plus 'l'IA peut-elle faire ça en cinq minutes ?' mais 'ce travail prend-il des heures et suit-il des étapes prévisibles ?' La recherche, la rédaction, le traitement de données, les projets de code en plusieurs étapes — tout cela est maintenant dans le champ du possible. Notion a aussi ajouté 'Review for me' : un second modèle IA vérifie les actions prévues de l'agent avant qu'il les exécute, ce qui rend la délégation de tâches importantes moins risquée. Pour ceux qui construisent ou dirigent une entreprise : **la brèche d'automatisation vient de se réduire nettement**."
+      ],
+      "keyFacts": [
+        { "value": "5 min → 24+ hrs", "label": "durée d'exécution, avant vs. après" },
+        { "value": "~90%", "label": "réduction de coûts avec Auto" },
+        { "value": "50%", "label": "plus rapide sur web et mobile" },
+        { "value": "150+", "label": "outils connectables via MCP" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي الذي يعمل طوال اليوم أداةٌ من نوع مختلف تماماً",
+      "summary": "أعادت Notion بناء وكيلها للذكاء الاصطناعي بحيث يمكن للمهام أن تستمر أكثر من 24 ساعة، مما يغيّر جوهرياً نوع الأعمال التي يصبح منطقياً تفويضها لآلة.",
+      "body": [
+        "أعادت Notion بناء النواة الأساسية لوكيلها الذكي من الصفر. أكبر تغيير يبدو بسيطاً: مهمة كانت تتوقف بعد خمس دقائق باتت تعمل الآن لأكثر من 24 ساعة متواصلة. لكن **وكيل الذكاء الاصطناعي الذي يعمل 24 ساعة أداةٌ مختلفة تماماً**. في السابق، كنت تطلب منه كتابة مسودة أو تلخيص اجتماع — مهام سريعة ومحدودة. أما الآن، فيمكنك تكليفه بعمل يستغرق وقتاً حقيقياً: استخراج بيانات من مصادر متعددة، وكتابة كود، والتعامل مع الأخطاء وتصحيحها والتحقق من النتيجة. قائمة المهام التي تستحق التفويض أصبحت أطول بكثير.",
+        "لم يكن حد الخمس دقائق قراراً تصميمياً — بل كان قيداً تقنياً. كانت كل جلسة عمل للوكيل تُنفَّذ على هيئة مهمة واحدة على خادم، وحين تنتهي تختفي معها ذاكرة الوكيل. النسخة الجديدة تعمل على worker مخصص يحفظ تقدمه باستمرار، فإن أُعيد تشغيل الخادم في منتصف المهمة يستأنف الوكيل من حيث توقف. **الوكيل لم يعد ينسى ما كان يفعله**، وهذا ما يجعل المهام الطويلة والمعقدة ممكنةً فعلاً.",
+        "الوكيل الذي يعمل 24 ساعة لا معنى له إن كلّف ثروة. تعاملت Notion مع هذه المعضلة عبر موجّه نماذج أذكى اسمه Auto. بدلاً من إرسال كل خطوة إلى أقوى نموذج، يختار Auto النموذج المناسب لكل خطوة فرعية — النماذج الأرخص للخطوات البسيطة، والأفضل للصعبة. تقول Notion إن هذا يخفض التكلفة المتوسطة بنحو 90% مقارنة باستخدام النماذج المتقدمة لكل شيء. **الميزانية الشهرية ذاتها تكفي الآن لعشر مهام** بدلاً من مهمة واحدة — مما يجعل تشغيل وكلاء طوال اليوم خياراً حقيقياً.",
+        "السؤال العملي الآن ليس 'هل يمكن للذكاء الاصطناعي إنجاز هذا في خمس دقائق؟' بل 'هل يستغرق هذا العمل ساعات ويتبع خطوات يمكن التنبؤ بها؟' البحث والكتابة ومعالجة البيانات ومشاريع الكود متعددة الخطوات — كل ذلك بات ضمن النطاق الممكن. أضافت Notion أيضاً ميزة 'Review for me' حيث يراجع نموذجٌ ذكي ثانٍ الإجراءات المخططة للوكيل قبل تنفيذها، مما يجعل تفويض المهام المهمة أقل مخاطرة. لمن يبني أو يدير عملاً: **الفجوة في الأتمتة ضاقت كثيراً**."
+      ],
+      "keyFacts": [
+        { "value": "5 min → 24+ hrs", "label": "مدة الوكيل، قديم مقابل جديد" },
+        { "value": "~90%", "label": "انخفاض التكلفة مع Auto" },
+        { "value": "50%", "label": "أسرع على الويب والجوال" },
+        { "value": "150+", "label": "أداة متاحة عبر MCP" }
+      ]
+    }
+  }
+}
