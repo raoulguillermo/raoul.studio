@@ -1,0 +1,119 @@
+{
+  "slug": "2026-10-23-nvidia-android-of-robotics",
+  "date": "2026-10-23",
+  "tags": ["ai", "robotics", "nvidia"],
+  "pillar": "industry-insights",
+  "image": {
+    "url": "https://www.unite.ai/wp-content/uploads/2026/10/nvidia-expands-isaac-platform-with-agile-one-sn-reference-humanoid.jpg",
+    "alt": "NVIDIA Agile ONE SN reference humanoid robot standing in a lab environment",
+    "credit": "Unite.AI"
+  },
+  "sources": [
+    {
+      "title": "NVIDIA — Press Release: NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Advances-Isaac-Platform-for-General-Purpose-Robotics-With-New-Reference-Humanoid-Frameworks-Simulation-Pipelines-and-Data/default.aspx"
+    },
+    {
+      "title": "Unite.AI — NVIDIA Expands Isaac Platform with Agile ONE SN Reference Humanoid",
+      "url": "https://www.unite.ai/nvidia-expands-isaac-platform-with-agile-one-sn-reference-humanoid/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "NVIDIA Just Built the Android of Robotics",
+      "summary": "NVIDIA released a complete open platform for physical AI — training tools, a reference humanoid robot, and over 2,000 simulation assets — cutting robot setup time from weeks to days.",
+      "body": [
+        "Most news about NVIDIA focuses on chips. But what the company unveiled at GTC Berlin on October 21 is bigger. It released Isaac Lab 3.0, Isaac OS, and a reference humanoid robot — a complete, open-source toolkit for building robots that learn and work in the real world. **NVIDIA is positioning itself as the Android of physical AI**: an open platform, a reference device, and a data ecosystem for anyone building on top.",
+        "The new Agile ONE SN humanoid — built by Agile Robots on top of NVIDIA's tools — is the reference device for the platform. It stands 1.40 metres tall, has 31 joints, and five-fingered hands sensitive enough to handle fragile objects. It ships pre-loaded with NVIDIA's GR00T AI model. More important than the specs: NVIDIA says **robot setup time drops from weeks to days**. That is the real signal — the friction of starting a humanoid robotics project just dropped sharply.",
+        "The software side matters even more for most builders. Isaac Lab 3.0 is now openly available for training robot policies, from a laptop to a full data centre. NVIDIA also released more than 2,000 simulation-ready factory assets — robot arms, conveyor belts, shelves — so teams can teach a robot in a virtual world before it ever touches real equipment. **Simulated training is fast and cheap**; real-world testing is slow and expensive. Shifting that work into simulation is one of the most practical moves a robotics team can make right now.",
+        "Jensen Huang, NVIDIA's CEO, called what is coming 'the ChatGPT moment for robotics.' He picked that phrase carefully. ChatGPT did not invent AI — it made AI easy enough that any business could use it overnight. This week's release is the infrastructure layer that could do the same for physical robots. Hotels and warehouses are already testing it: Marriott and Hilton are piloting a robot concierge on the platform, and Toyota Material Handling reports deployment time cut by 50 percent. If you build software for physical environments, **is your product ready when robots arrive**?"
+      ],
+      "keyFacts": [
+        { "value": "1.40 m", "label": "height of the Agile ONE SN humanoid" },
+        { "value": "31", "label": "joints on the Agile ONE SN" },
+        { "value": "2,000+", "label": "simulation-ready factory assets released" },
+        { "value": "50%", "label": "deployment time cut reported by Toyota Material Handling" }
+      ]
+    },
+    "de": {
+      "title": "NVIDIA hat gerade das Android der Robotik gebaut",
+      "summary": "NVIDIA veröffentlichte eine vollständige offene Plattform für physische KI — Trainings-Tools, einen Referenz-Humanoiden und über 2.000 Simulations-Assets — und verkürzt damit die Einrichtungszeit für Roboter von Wochen auf Tage.",
+      "body": [
+        "Die meisten Berichte über NVIDIA drehen sich um Chips. Doch was das Unternehmen am 21. Oktober auf der GTC Berlin vorstellte, ist bedeutender. Es veröffentlichte Isaac Lab 3.0, Isaac OS und einen Referenz-Humanoiden — ein vollständiges Open-Source-Toolkit für Roboter, die lernen und in der echten Welt arbeiten. **NVIDIA positioniert sich als das Android der physischen KI**: eine offene Plattform, ein Referenzgerät und ein Daten-Ökosystem für alle, die darauf aufbauen.",
+        "Der neue Agile ONE SN Humanoide — von Agile Robots auf Basis der NVIDIA-Tools entwickelt — ist das Referenzgerät der Plattform. Er ist 1,40 Meter groß, hat 31 Gelenke und fünffingrige Hände, fein genug für zerbrechliche Gegenstände. Er wird mit NVIDIAs GR00T KI-Modell vorinstalliert geliefert. Wichtiger als die technischen Daten: NVIDIA gibt an, **die Einrichtungszeit für Roboter sinkt von Wochen auf Tage**. Das ist das eigentliche Signal.",
+        "Die Software-Seite zählt für die meisten Entwickler noch mehr. Isaac Lab 3.0 steht nun als Open Source für das Training von Roboter-Policies zur Verfügung — vom Laptop bis zum Rechenzentrum. NVIDIA veröffentlichte zudem mehr als 2.000 simulationsfertige Fabrik-Assets: Roboterarme, Fließbänder, Regale. Teams können Roboter in einer virtuellen Welt trainieren, bevor sie echte Geräte berühren. **Simulations-Training ist schnell und günstig**; reale Tests sind langsam und teuer. Diese Arbeit in die Simulation zu verlagern ist eine der praktischsten Entscheidungen, die ein Robotik-Team jetzt treffen kann.",
+        "Jensen Huang, CEO von NVIDIA, nannte das, was kommt, 'den ChatGPT-Moment der Robotik.' Er wählte diesen Vergleich bewusst. ChatGPT hat KI nicht erfunden — es machte sie so zugänglich, dass jedes Unternehmen sie von einem Tag auf den anderen nutzen konnte. Die Veröffentlichung dieser Woche ist die Infrastrukturschicht, die dasselbe für physische Roboter leisten könnte. Hotels und Lagerhäuser testen es bereits: Marriott und Hilton erproben einen Roboter-Concierge auf der Plattform, Toyota Material Handling meldet 50 Prozent weniger Bereitstellungszeit. Wenn du Software für physische Umgebungen entwickelst: **Ist dein Produkt bereit, wenn die Roboter kommen**?"
+      ],
+      "keyFacts": [
+        { "value": "1.40 m", "label": "Höhe des Agile ONE SN Humanoiden" },
+        { "value": "31", "label": "Gelenke des Agile ONE SN" },
+        { "value": "2,000+", "label": "simulationsfertige Fabrik-Assets veröffentlicht" },
+        { "value": "50%", "label": "weniger Bereitstellungszeit laut Toyota Material Handling" }
+      ]
+    },
+    "nl": {
+      "title": "NVIDIA heeft zojuist het Android van de robotica gebouwd",
+      "summary": "NVIDIA lanceerde een compleet open platform voor fysieke AI — trainingstools, een referentie-humanoid en meer dan 2.000 simulatie-assets — en verkort daarmee de installatietijd voor robots van weken naar dagen.",
+      "body": [
+        "De meeste berichten over NVIDIA gaan over chips. Maar wat het bedrijf op 21 oktober op GTC Berlijn onthulde, is groter. Het lanceerde Isaac Lab 3.0, Isaac OS en een referentie-humanoid samen — een complete, open-source toolkit voor robots die leren en werken in de echte wereld. **NVIDIA positioneert zichzelf als het Android van fysieke AI**: een open platform, een referentieapparaat en een data-ecosysteem voor iedereen die daarop bouwt.",
+        "De nieuwe Agile ONE SN humanoid — gebouwd door Agile Robots op NVIDIAs tools — is het referentieapparaat van het platform. Hij staat 1,40 meter groot, heeft 31 gewrichten en vijfvingerige handen gevoelig genoeg voor breekbare objecten. Hij wordt geleverd met NVIDIAs GR00T AI-model. Belangrijker dan de specs: NVIDIA zegt dat **de installatietijd voor robots daalt van weken naar dagen**. Dat is het echte signaal.",
+        "De softwarekant telt zwaarder voor de meeste bouwers. Isaac Lab 3.0 is nu open beschikbaar voor het trainen van robotbeleid, van laptop tot datacentrum. NVIDIA bracht ook meer dan 2.000 simulatieklare fabrieksassets uit — robotarmen, transportbanden, rekken — zodat teams een robot in een virtuele wereld kunnen trainen voordat hij echte apparatuur aanraakt. **Gesimuleerde training is snel en goedkoop**; echte tests zijn traag en duur. Dat werk naar simulatie verschuiven is een van de meest praktische stappen die een roboticateam nu kan zetten.",
+        "Jensen Huang, CEO van NVIDIA, noemde wat eraan komt 'het ChatGPT-moment voor robotica.' Die vergelijking koos hij zorgvuldig. ChatGPT heeft AI niet uitgevonden — het maakte AI toegankelijk genoeg dat elk bedrijf het van de ene op de andere dag kon gebruiken. De lancering van deze week is de infrastructuurlaag die hetzelfde kan doen voor fysieke robots. Hotels en magazijnen testen het al: Marriott en Hilton testen een robotconcierge op het platform, Toyota Material Handling meldt 50 procent kortere implementatietijd. Als je software bouwt voor fysieke omgevingen: **is jouw product klaar als de robots komen**?"
+      ],
+      "keyFacts": [
+        { "value": "1.40 m", "label": "hoogte van de Agile ONE SN humanoid" },
+        { "value": "31", "label": "gewrichten van de Agile ONE SN" },
+        { "value": "2,000+", "label": "simulatieklare fabrieksassets uitgebracht" },
+        { "value": "50%", "label": "minder implementatietijd volgens Toyota Material Handling" }
+      ]
+    },
+    "es": {
+      "title": "NVIDIA acaba de construir el Android de la robótica",
+      "summary": "NVIDIA lanzó una plataforma de software completa y abierta para IA física — herramientas de entrenamiento, un robot humanoide de referencia y más de 2.000 activos de simulación — reduciendo el tiempo de configuración de semanas a días.",
+      "body": [
+        "La mayoría de las noticias sobre NVIDIA se centran en chips. Pero lo que la empresa presentó en GTC Berlín el 21 de octubre es más importante. Lanzó Isaac Lab 3.0, Isaac OS y un robot humanoide de referencia — un conjunto de herramientas completo y de código abierto para construir robots que aprenden y trabajan en el mundo real. **NVIDIA se posiciona como el Android de la IA física**: una plataforma abierta, un dispositivo de referencia y un ecosistema de datos para quien construya sobre ella.",
+        "El nuevo humanoide Agile ONE SN — construido por Agile Robots sobre las herramientas de NVIDIA — es el dispositivo de referencia de la plataforma. Mide 1,40 metros, tiene 31 articulaciones y manos de cinco dedos lo suficientemente sensibles para manipular objetos frágiles. Viene preinstalado con el modelo de IA GR00T de NVIDIA. Más importante que las especificaciones: NVIDIA afirma que **el tiempo de configuración de un robot baja de semanas a días**. Esa es la señal real.",
+        "El lado del software importa aún más para la mayoría de los desarrolladores. Isaac Lab 3.0 ya está disponible de forma abierta para entrenar políticas de robots, desde un portátil hasta un centro de datos. NVIDIA también publicó más de 2.000 activos de fábrica listos para simulación — brazos robóticos, cintas transportadoras, estantes — para que los equipos puedan enseñar a un robot en un mundo virtual antes de que toque equipos reales. **El entrenamiento simulado es rápido y barato**; las pruebas reales son lentas y caras. Trasladar ese trabajo a simulación es uno de los pasos más prácticos que un equipo de robótica puede dar ahora mismo.",
+        "Jensen Huang, CEO de NVIDIA, llamó a lo que se acerca 'el momento ChatGPT de la robótica.' Eligió esa frase con cuidado. ChatGPT no inventó la IA — la hizo lo suficientemente accesible para que cualquier empresa pudiera usarla de un día para otro. El lanzamiento de esta semana es la capa de infraestructura que podría hacer lo mismo con los robots físicos. Hoteles y almacenes ya lo están probando: Marriott y Hilton pilotean un robot conserje en la plataforma, y Toyota Material Handling reporta un 50 por ciento menos de tiempo de despliegue. Si construyes software para entornos físicos: **¿está tu producto listo cuando lleguen los robots**?"
+      ],
+      "keyFacts": [
+        { "value": "1.40 m", "label": "altura del humanoide Agile ONE SN" },
+        { "value": "31", "label": "articulaciones del Agile ONE SN" },
+        { "value": "2,000+", "label": "activos de fábrica listos para simulación publicados" },
+        { "value": "50%", "label": "menos tiempo de despliegue según Toyota Material Handling" }
+      ]
+    },
+    "fr": {
+      "title": "NVIDIA vient de construire l'Android de la robotique",
+      "summary": "NVIDIA a lancé une plateforme logicielle complète et ouverte pour l'IA physique — des outils d'entraînement, un robot humanoïde de référence et plus de 2 000 assets de simulation — réduisant le temps de mise en place de semaines à quelques jours.",
+      "body": [
+        "La plupart des actualités sur NVIDIA tournent autour des puces. Mais ce que l'entreprise a présenté à la GTC Berlin le 21 octobre est plus important. Elle a lancé Isaac Lab 3.0, Isaac OS et un robot humanoïde de référence — une boîte à outils complète et open source pour construire des robots qui apprennent et travaillent dans le monde réel. **NVIDIA se positionne comme l'Android de l'IA physique** : une plateforme ouverte, un appareil de référence et un écosystème de données pour quiconque bâtit dessus.",
+        "Le nouvel humanoïde Agile ONE SN — construit par Agile Robots sur les outils NVIDIA — est l'appareil de référence de la plateforme. Il mesure 1,40 mètre, possède 31 articulations et des mains à cinq doigts assez sensibles pour manipuler des objets fragiles. Il est livré préchargé avec le modèle d'IA GR00T de NVIDIA. Plus important que les caractéristiques : NVIDIA affirme que **le temps de mise en place d'un robot passe de semaines à quelques jours**. C'est le vrai signal.",
+        "La partie logicielle compte encore plus pour la plupart des développeurs. Isaac Lab 3.0 est désormais disponible en open source pour entraîner des politiques robotiques, du simple ordinateur portable au centre de données. NVIDIA a également publié plus de 2 000 assets d'usine prêts à la simulation — bras robotiques, convoyeurs, étagères — pour que les équipes puissent former un robot dans un monde virtuel avant qu'il touche de vrais équipements. **L'entraînement simulé est rapide et peu coûteux** ; les tests réels sont lents et chers. Basculer ce travail vers la simulation est l'un des gestes les plus concrets qu'une équipe robotique puisse faire maintenant.",
+        "Jensen Huang, PDG de NVIDIA, a qualifié ce qui arrive de 'moment ChatGPT de la robotique.' Il a choisi cette formule délibérément. ChatGPT n'a pas inventé l'IA — il l'a rendue suffisamment accessible pour que n'importe quelle entreprise puisse l'adopter du jour au lendemain. La publication de cette semaine est la couche d'infrastructure qui pourrait faire pareil pour les robots physiques. Hôtels et entrepôts la testent déjà : Marriott et Hilton pilotent un robot concierge sur la plateforme, Toyota Material Handling rapporte 50 % de temps de déploiement en moins. Si vous construisez des logiciels pour des environnements physiques : **votre produit sera-t-il prêt à l'arrivée des robots** ?"
+      ],
+      "keyFacts": [
+        { "value": "1.40 m", "label": "hauteur de l'humanoïde Agile ONE SN" },
+        { "value": "31", "label": "articulations de l'Agile ONE SN" },
+        { "value": "2,000+", "label": "assets d'usine prêts à la simulation publiés" },
+        { "value": "50%", "label": "de déploiement en moins selon Toyota Material Handling" }
+      ]
+    },
+    "ar": {
+      "title": "نفيديا بنت للتو نظام أندرويد للروبوتات",
+      "summary": "أطلقت نفيديا منصة برمجيات متكاملة ومفتوحة للذكاء الاصطناعي المادي — مع أدوات تدريب وروبوت إنساني مرجعي وأكثر من ألفَي نموذج محاكاة — مما يقلص وقت إعداد الروبوتات من أسابيع إلى أيام.",
+      "body": [
+        "معظم الأخبار عن نفيديا تدور حول الرقائق الإلكترونية. لكن ما أعلنته الشركة في مؤتمر GTC برلين في الحادي والعشرين من أكتوبر أكبر من ذلك. أطلقت Isaac Lab 3.0 وIsaac OS وروبوتًا إنسانيًا مرجعيًا معًا — مجموعة أدوات متكاملة ومفتوحة المصدر لبناء روبوتات تتعلم وتعمل في العالم الحقيقي. **نفيديا تضع نفسها بوصفها نظام أندرويد للذكاء الاصطناعي المادي**: منصة مفتوحة وجهاز مرجعي ونظام بيانات لكل من يبني فوقها.",
+        "الروبوت الإنساني الجديد Agile ONE SN — الذي بنته شركة Agile Robots على أدوات نفيديا — هو الجهاز المرجعي للمنصة. يبلغ ارتفاعه 1.40 متر، ولديه 31 مفصلًا، وأيدٍ خماسية الأصابع حساسة بما يكفي للتعامل مع الأجسام الهشة. يُسلَّم مثبَّتًا مسبقًا بنموذج الذكاء الاصطناعي GR00T من نفيديا. الأهم من المواصفات: تقول نفيديا إن **وقت إعداد الروبوت ينخفض من أسابيع إلى أيام**. هذه هي الإشارة الحقيقية.",
+        "يهم الجانب البرمجي أكثر بالنسبة لمعظم المطورين. أصبح Isaac Lab 3.0 متاحًا الآن بشكل مفتوح لتدريب سياسات الروبوتات، من الكمبيوتر المحمول إلى مراكز البيانات. أصدرت نفيديا أيضًا أكثر من 2,000 نموذج مصنعي جاهز للمحاكاة — أذرع روبوتية وأحزمة ناقلة ورفوف — حتى تتمكن الفِرَق من تعليم الروبوت في عالم افتراضي قبل أن يلمس معدات حقيقية. **التدريب المحاكى سريع وغير مكلف**؛ والاختبارات الحقيقية بطيئة ومكلفة. نقل هذا العمل إلى المحاكاة هو أحد أكثر الخطوات العملية التي يمكن لفريق الروبوتات اتخاذها الآن.",
+        "وصف جنسن هوانغ، الرئيس التنفيذي لنفيديا، ما يقترب بـ'لحظة ChatGPT في عالم الروبوتات.' اختار هذه العبارة بعناية. لم تخترع ChatGPT الذكاء الاصطناعي — بل جعلته سهل الاستخدام بما يكفي لأي شركة أن تعتمده بين عشية وضحاها. ما صدر هذا الأسبوع هو طبقة البنية التحتية التي قد تفعل الشيء ذاته للروبوتات المادية. تختبره الفنادق والمستودعات بالفعل: ماريوت وهيلتون تجربان روبوت كونسيرج على المنصة، وتُفيد تويوتا للمناولة المادية بانخفاض وقت النشر بنسبة 50 بالمئة. إذا كنت تبني برمجيات للبيئات المادية: **هل منتجك جاهز حين تصل الروبوتات**؟"
+      ],
+      "keyFacts": [
+        { "value": "1.40 m", "label": "ارتفاع الروبوت الإنساني Agile ONE SN" },
+        { "value": "31", "label": "مفصل في الروبوت Agile ONE SN" },
+        { "value": "2,000+", "label": "نموذج مصنعي جاهز للمحاكاة أُصدر" },
+        { "value": "50%", "label": "انخفاض في وقت النشر وفق تويوتا للمناولة المادية" }
+      ]
+    }
+  }
+}
