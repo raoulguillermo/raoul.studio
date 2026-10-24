@@ -18,7 +18,7 @@ set -uo pipefail
 
 # --- environment (cron has a minimal PATH/HOME) ---------------------------
 export HOME="/home/deploy"
-export PATH="/home/deploy/.nvm/versions/node/v20.20.0/bin:/home/deploy/.local/bin:/usr/local/bin:/usr/bin:/bin"
+export PATH="/home/deploy/.nvm/versions/node/v22.23.4/bin:/home/deploy/.local/bin:/usr/local/bin:/usr/bin:/bin"
 # Optional: export ANTHROPIC_API_KEY="sk-ant-..." instead of the stored login.
 
 DEV_DIR="/home/deploy/production/dev.raoul.studio"

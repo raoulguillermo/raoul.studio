@@ -13,7 +13,7 @@ set -uo pipefail
 
 export HOME="/home/deploy"
 # nvm node first, then system bins (cron has a minimal PATH).
-export PATH="/home/deploy/.nvm/versions/node/v20.20.0/bin:/usr/local/bin:/usr/bin:/bin"
+export PATH="/home/deploy/.nvm/versions/node/v22.23.4/bin:/usr/local/bin:/usr/bin:/bin"
 
 PROD_DIR="/home/deploy/production/raoul.studio"
 

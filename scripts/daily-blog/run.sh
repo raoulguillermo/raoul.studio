@@ -16,7 +16,7 @@ set -uo pipefail
 # --- environment (cron has a minimal PATH/HOME) ---------------------------
 export HOME="/home/deploy"
 # nvm node first (used for JSON validation), then claude, then system bins.
-export PATH="/home/deploy/.nvm/versions/node/v20.20.0/bin:/home/deploy/.local/bin:/usr/local/bin:/usr/bin:/bin"
+export PATH="/home/deploy/.nvm/versions/node/v22.23.4/bin:/home/deploy/.local/bin:/usr/local/bin:/usr/bin:/bin"
 # If you prefer an API key over the stored login, export it here or in cron:
 #   export ANTHROPIC_API_KEY="sk-ant-..."
 
