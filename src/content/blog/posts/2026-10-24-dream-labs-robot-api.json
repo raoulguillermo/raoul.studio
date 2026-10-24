@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-24-dream-labs-robot-api",
+  "date": "2026-10-24",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "image": {
+    "url": "https://theaiinsider.tech/wp-content/uploads/2026/10/Dream-Labs-founders-1-1024x725.jpg",
+    "alt": "Dream Labs co-founders photographed at their San Francisco office",
+    "credit": "The AI Insider"
+  },
+  "sources": [
+    { "title": "Dream Labs — Zero-Shot to New Robots: Introducing Dream-1", "url": "https://dreamlabs.ai/research/dream-1/" },
+    { "title": "RuntimeWire — Dream Labs raises $90M to sell robot control through a $3-an-hour API", "url": "https://runtimewire.com/article/dream-labs-90m-seed-dream-1-robot-api" },
+    { "title": "The AI Insider — Dream Labs Raises $90M in Seed Funding to Build Foundation Models for Any Robot", "url": "https://theaiinsider.tech/2026/10/19/dream-labs-raises-90m-in-seed-funding-to-build-foundation-models-for-any-robot/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "Robots just got a brain you can rent by the hour",
+      "summary": "Dream Labs launched a $3-an-hour cloud service that lets almost any two-armed robot do useful work without custom software — making robotic automation reachable for a lot more businesses.",
+      "body": [
+        "Until now, putting a robot to work meant building custom software for that exact robot — slow, expensive, and a job for a whole engineering team. On October 19, Dream Labs changed that with Dream-1: a cloud service that thinks for the robot. You give it a camera feed and a plain-English instruction; it sends back motor commands. **The cost: $3 an hour.** The company raised $90 million in seed funding the same day.",
+        "Dream-1 learned by watching videos of people doing everyday tasks — picking things up, folding laundry, sorting objects. From those videos it built a picture of how the physical world works. That picture is general enough to run a robot it has never seen. Dream Labs tested it on 27 different robot types without writing a single line of robot-specific code. **It treats every robot as pixels**, not as a machine that needs its own brain built from scratch.",
+        "The $90 million seed round — led by B Capital and Kindred Ventures — signals real platform ambitions. Every robot maker today builds its own control software. Dream Labs wants to be the shared brain they all plug into, just as software companies once stopped buying their own servers and started renting compute in the cloud instead. **Entry-level robot hardware starts around $2,000**, which means the bar to getting started is much lower than old-school factory automation.",
+        "There are limits to know. Dream-1 is still a research beta — the company says it will make mistakes and is not safe for high-stakes tasks yet. Right now it only handles two-armed robots with standard grippers; wheeled robots and more nimble hands come later. But the direction is clear: **robotic automation is now something you can rent**, test over a weekend, and scale only if it works."
+      ],
+      "keyFacts": [
+        { "value": "$90M", "label": "seed funding raised" },
+        { "value": "$3/hr", "label": "API price to control a robot" },
+        { "value": "27", "label": "robot types tested without custom code" },
+        { "value": "~$2,000", "label": "entry-level robot hardware cost" }
+      ]
+    },
+    "de": {
+      "title": "Roboter bekommen ein gemeinsames Gehirn — stundenweise zu mieten",
+      "summary": "Dream Labs hat einen Cloud-Dienst für drei Dollar die Stunde gestartet, der fast jedem zweiarmigen Roboter nützliche Arbeit ermöglicht — ganz ohne eigene Steuersoftware.",
+      "body": [
+        "Bisher bedeutete es, einen Roboter sinnvoll einzusetzen, immer: maßgeschneiderte Software für genau diesen Roboter bauen — langsam, teuer und nichts für ein kleines Team. Am 19. Oktober änderte Dream Labs das mit Dream-1: ein Cloud-Dienst, der das Denken für den Roboter übernimmt. Man schickt ihm ein Kamerabild und eine einfache Anweisung; er schickt Motorsteuerbefehle zurück. **Der Preis: drei Dollar pro Stunde.** Gleichzeitig sammelte das Unternehmen 90 Millionen Dollar Startkapital ein.",
+        "Dream-1 hat gelernt, indem es Videos von Menschen bei Alltagsaufgaben geschaut hat — Gegenstände greifen, Wäsche falten, Dinge sortieren. Aus diesen Videos entstand ein Modell davon, wie die physische Welt funktioniert. Dieses Modell ist allgemein genug, um einen Roboter zu steuern, den es nie zuvor gesehen hat. Dream Labs testete das an 27 verschiedenen Robotertypen, ohne eine einzige Zeile roboterspezifischen Code zu schreiben. **Es behandelt jeden Roboter als Pixel** — nicht als Maschine, die ein eigenes Gehirn von Grund auf braucht.",
+        "Die Finanzierungsrunde von 90 Millionen Dollar — angeführt von B Capital und Kindred Ventures — zeigt echten Plattformanspruch. Heute baut jeder Roboterhersteller seine eigene Steuersoftware. Dream Labs will das gemeinsame Gehirn sein, in das alle einstecken — so wie Softwareunternehmen irgendwann aufgehört haben, eigene Server zu kaufen, und stattdessen Rechenleistung in der Cloud gemietet haben. **Einsteiger-Roboterhardware beginnt bei rund 2.000 Dollar** — der Einstieg kostet also deutlich weniger als klassische Industrieautomatisierung.",
+        "Es gibt echte Einschränkungen zu kennen. Dream-1 ist noch eine Forschungsbeta — das Unternehmen sagt selbst, das Modell mache Fehler und sei nicht für sicherheitskritische Aufgaben geeignet. Derzeit funktioniert es nur mit zweiarmigen Robotern mit Standard-Greifern; Radroboter und geschicktere Hände kommen später. Aber die Richtung ist klar: **Roboterautomatisierung ist jetzt etwas, das man mieten kann** — testen an einem Wochenende, skalieren nur wenn es funktioniert."
+      ],
+      "keyFacts": [
+        { "value": "$90M", "label": "Startkapital eingesammelt" },
+        { "value": "$3/hr", "label": "API-Preis für Robotersteuerung" },
+        { "value": "27", "label": "Robotertypen ohne spezifischen Code getestet" },
+        { "value": "~$2,000", "label": "Einstiegskosten für Roboterhardware" }
+      ]
+    },
+    "nl": {
+      "title": "Robots krijgen een gedeeld brein dat je per uur kunt huren",
+      "summary": "Dream Labs lanceerde een clouddienst van drie dollar per uur waarmee bijna elke tweearmsrobot nuttig werk kan doen zonder maatwerksoftware — en dat maakt robotautomatisering bereikbaar voor veel meer bedrijven.",
+      "body": [
+        "Tot voor kort betekende een robot nuttig werk laten doen altijd: maatwerksoftware bouwen voor precies dat apparaat — traag, duur en iets voor een heel engineeringteam. Op 19 oktober veranderde Dream Labs dat met Dream-1: een clouddienst die het denken voor de robot overneemt. Je stuurt hem een camerastream en een eenvoudige instructie; hij stuurt motorcommando's terug. **De prijs: drie dollar per uur.** Het bedrijf haalde diezelfde dag 90 miljoen dollar op in een zaaifinancieringsronde.",
+        "Dream-1 leerde door video's te kijken van mensen die alledaagse taken uitvoeren — dingen oppakken, was vouwen, spullen sorteren. Uit die video's bouwde het een beeld van hoe de fysieke wereld werkt. Dat beeld is algemeen genoeg om een robot aan te sturen die het nog nooit heeft gezien. Dream Labs testte dit op 27 verschillende robottypen zonder één regel robotspecifieke code te schrijven. **Het behandelt elke robot als pixels** — niet als een machine die zijn eigen brein van de grond af nodig heeft.",
+        "De financieringsronde van 90 miljoen dollar — geleid door B Capital en Kindred Ventures — laat echte platformambities zien. Elke robotfabrikant bouwt vandaag zijn eigen besturingssoftware. Dream Labs wil het gedeelde brein zijn waarop iedereen aansluit, net zoals softwarebedrijven ooit stopten met het kopen van eigen servers en in plaats daarvan rekenkracht in de cloud gingen huren. **Instapniveau robothardware start rond 2.000 dollar**, wat de drempel om te beginnen veel lager maakt dan bij traditionele fabrieksautomatisering.",
+        "Er zijn echte beperkingen om rekening mee te houden. Dream-1 is nog een onderzoeksbeta — het bedrijf erkent dat het model fouten zal maken en niet geschikt is voor kritieke toepassingen. Momenteel werkt het alleen met tweearmsrobots met standaardgrijpers; robots op wielen en behendigere handen komen later. Maar de richting is duidelijk: **robotautomatisering is nu iets wat je kunt huren**, in een weekend testen en alleen opschalen als het werkt."
+      ],
+      "keyFacts": [
+        { "value": "$90M", "label": "zaaikapitaal opgehaald" },
+        { "value": "$3/hr", "label": "API-prijs voor robotbesturing" },
+        { "value": "27", "label": "robottypen getest zonder maatwerkascode" },
+        { "value": "~$2,000", "label": "instapkosten robothardware" }
+      ]
+    },
+    "es": {
+      "title": "Los robots tienen ahora un cerebro compartido que puedes alquilar por horas",
+      "summary": "Dream Labs lanzó un servicio en la nube por tres dólares la hora que permite a casi cualquier robot de dos brazos hacer trabajo útil sin software personalizado — poniendo la automatización robótica al alcance de muchos más negocios.",
+      "body": [
+        "Hasta ahora, poner a un robot a hacer algo útil significaba siempre construir software a medida para ese robot en concreto — lento, caro y trabajo para un equipo entero de ingenieros. El 19 de octubre, Dream Labs cambió eso con Dream-1: un servicio en la nube que se encarga de pensar por el robot. Le envías un vídeo de la cámara y una instrucción en lenguaje sencillo; él te devuelve comandos para los motores. **El precio: tres dólares por hora.** La empresa también recaudó 90 millones de dólares en su ronda inicial ese mismo día.",
+        "Dream-1 aprendió viendo vídeos de personas realizando tareas cotidianas — coger objetos, doblar ropa, ordenar cosas. De esos vídeos construyó una imagen de cómo funciona el mundo físico. Esa imagen es lo suficientemente general como para controlar un robot que nunca ha visto antes. Dream Labs lo probó en 27 tipos de robots diferentes sin escribir una sola línea de código específico. **Trata a cada robot como píxeles** — no como una máquina que necesita su propio cerebro construido desde cero.",
+        "La ronda de 90 millones de dólares — liderada por B Capital y Kindred Ventures — señala ambiciones reales de plataforma. Hoy cada fabricante de robots construye su propio software de control. Dream Labs quiere ser el cerebro compartido al que todos se conecten, igual que las empresas de software dejaron de comprar sus propios servidores y empezaron a alquilar capacidad en la nube. **El hardware básico de robot parte desde unos 2.000 dólares**, lo que hace que el coste de comenzar sea mucho menor que la automatización industrial clásica.",
+        "Hay límites reales que conocer. Dream-1 sigue siendo una beta de investigación — la empresa reconoce que el modelo cometerá errores y no está validado para tareas de alta importancia. Por ahora solo funciona con robots de dos brazos y pinzas estándar; los robots con ruedas y manos más ágiles llegarán después. Pero la dirección es clara: **la automatización robótica ya es algo que puedes alquilar**, probar en un fin de semana y escalar solo si funciona."
+      ],
+      "keyFacts": [
+        { "value": "$90M", "label": "financiación inicial recaudada" },
+        { "value": "$3/hr", "label": "precio de la API por hora" },
+        { "value": "27", "label": "tipos de robot probados sin código específico" },
+        { "value": "~$2,000", "label": "coste del hardware básico de robot" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots ont désormais un cerveau partagé qu'on peut louer à l'heure",
+      "summary": "Dream Labs a lancé un service cloud à trois dollars de l'heure qui permet à presque n'importe quel robot à deux bras de faire un travail utile sans logiciel sur mesure — et ça met l'automatisation robotique à portée de beaucoup plus d'entreprises.",
+      "body": [
+        "Jusqu'ici, mettre un robot au travail signifiait toujours développer un logiciel sur mesure pour ce robot précis — lent, coûteux, et réservé à une équipe d'ingénieurs entière. Le 19 octobre, Dream Labs a changé la donne avec Dream-1 : un service cloud qui pense à la place du robot. On lui envoie un flux vidéo et une instruction en langage courant ; il renvoie des commandes moteur. **Le prix : trois dollars de l'heure.** La société a également levé 90 millions de dollars en amorçage le même jour.",
+        "Dream-1 a appris en regardant des vidéos de personnes effectuant des tâches du quotidien — saisir des objets, plier du linge, trier des affaires. À partir de ces vidéos, il a construit une image du fonctionnement du monde physique. Cette image est assez générale pour contrôler un robot qu'il n'a jamais vu. Dream Labs l'a testé sur 27 types de robots différents sans écrire une seule ligne de code spécifique. **Il traite chaque robot comme des pixels** — pas comme une machine qui aurait besoin de son propre cerveau construit de zéro.",
+        "La levée de 90 millions de dollars — menée par B Capital et Kindred Ventures — signale de vraies ambitions de plateforme. Aujourd'hui, chaque fabricant de robots construit son propre logiciel de contrôle. Dream Labs veut être le cerveau partagé auquel tout le monde se connecte, comme les entreprises logicielles ont un jour arrêté d'acheter leurs propres serveurs pour louer de la puissance de calcul dans le cloud. **Le matériel robotique d'entrée de gamme démarre autour de 2 000 dollars**, ce qui rend le coût de départ bien inférieur à l'automatisation industrielle classique.",
+        "Il y a des limites réelles à connaître. Dream-1 est encore une version bêta de recherche — la société reconnaît que le modèle fera des erreurs et n'est pas validé pour des tâches critiques. Pour l'instant, il ne fonctionne qu'avec des robots à deux bras équipés de pinces standard ; les robots à roues et les mains plus agiles viendront plus tard. Mais la direction est claire : **l'automatisation robotique est désormais quelque chose qu'on peut louer**, tester en un week-end et déployer à grande échelle seulement si ça marche."
+      ],
+      "keyFacts": [
+        { "value": "$90M", "label": "levée de fonds en amorçage" },
+        { "value": "$3/hr", "label": "prix de l'API pour contrôler un robot" },
+        { "value": "27", "label": "types de robots testés sans code spécifique" },
+        { "value": "~$2,000", "label": "coût du matériel robotique d'entrée de gamme" }
+      ]
+    },
+    "ar": {
+      "title": "الروبوتات تحصل على دماغ مشترك يمكن استئجاره بالساعة",
+      "summary": "أطلقت Dream Labs خدمة سحابية بثلاثة دولارات في الساعة تتيح لأي روبوت ذي ذراعين تقريبًا أداء عمل مفيد دون برمجيات مخصصة — مما يجعل الأتمتة الروبوتية في متناول كثير من الشركات.",
+      "body": [
+        "حتى وقت قريب، كان تشغيل روبوت لأداء مهمة مفيدة يعني دائمًا بناء برنامج مخصص لذلك الروبوت تحديدًا — عملية بطيئة ومكلفة تحتاج فريقًا كاملًا من المهندسين. في التاسع عشر من أكتوبر، غيّرت Dream Labs هذه المعادلة بنموذج Dream-1: خدمة سحابية تتولى التفكير نيابةً عن الروبوت. ترسل إليها بث الكاميرا وتعليمات بلغة بسيطة، فتعيد إليك أوامر تحريك المحركات. **السعر: ثلاثة دولارات في الساعة.** وقد جمعت الشركة في اليوم ذاته 90 مليون دولار في جولة تمويل أولية.",
+        "تعلّم Dream-1 بمشاهدة مقاطع فيديو لأشخاص يؤدون مهام يومية — إمساك الأشياء، وطي الملابس، وترتيب المقتنيات. من تلك المقاطع بنى النموذج صورة عن كيفية عمل العالم المادي. وهذه الصورة عامة بما يكفي للتحكم في روبوت لم يسبق له رؤيته. اختبرت Dream Labs ذلك على 27 نوعًا مختلفًا من الروبوتات دون كتابة سطر واحد من الشيفرة البرمجية الخاصة بكل روبوت. **يتعامل مع كل روبوت بوصفه مجرد بكسلات** — لا آلةً تحتاج إلى بناء دماغها الخاص من الصفر.",
+        "تشير جولة التمويل البالغة 90 مليون دولار — بقيادة B Capital وKindred Ventures — إلى طموحات منصة حقيقية. كل مصنّع روبوتات اليوم مضطر لبناء برنامج تحكم خاص به. تريد Dream Labs أن تكون الدماغ المشترك الذي يتصل به الجميع، تمامًا كما توقفت شركات البرمجيات يومًا عن شراء خوادمها الخاصة وبدأت تستأجر قدرات الحوسبة من السحابة. **أجهزة الروبوتات الأساسية تبدأ من حوالي 2,000 دولار**، مما يجعل تكلفة البدء أقل بكثير من الأتمتة الصناعية التقليدية.",
+        "ثمة قيود حقيقية ينبغي معرفتها. Dream-1 لا تزال نسخة بيتا للأبحاث — تقرّ الشركة بأن النموذج سيرتكب أخطاء ولم يُتحقق منه للاستخدام في المهام عالية المخاطر. في الوقت الحالي، يعمل فقط مع الروبوتات ذات الذراعين المزودة بأمساك قياسية؛ أما الروبوتات ذات العجلات والأيدي الأكثر مرونة فستأتي لاحقًا. غير أن الاتجاه واضح: **الأتمتة الروبوتية أصبحت الآن شيئًا يمكن استئجاره**، وتجربته خلال عطلة نهاية الأسبوع، وتوسيع نطاقه فقط إن نجح."
+      ],
+      "keyFacts": [
+        { "value": "$90M", "label": "حجم التمويل الأولي" },
+        { "value": "$3/hr", "label": "سعر واجهة برمجة التطبيقات للتحكم بالروبوت" },
+        { "value": "27", "label": "نوعًا من الروبوتات اختُبرت دون شيفرة مخصصة" },
+        { "value": "~$2,000", "label": "تكلفة أجهزة الروبوتات للمبتدئين" }
+      ]
+    }
+  }
+}
