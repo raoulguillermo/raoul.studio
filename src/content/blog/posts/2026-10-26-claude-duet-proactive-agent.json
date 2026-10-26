@@ -1,0 +1,109 @@
+{
+  "slug": "2026-10-26-claude-duet-proactive-agent",
+  "date": "2026-10-26",
+  "tags": ["ai", "agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    { "title": "TechCrunch — Claude Duet app is Anthropic's bet on agents", "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/" },
+    { "title": "CBS News — Anthropic debuts Claude Duet personal AI agent", "url": "https://www.cbsnews.com/news/anthropic-claude-duet-personal-ai-agentsuggest-a-e/" },
+    { "title": "CellCog — Claude Duet: Anthropic's Proactive Agent, Explained", "url": "https://cellcog.ai/blog/claude-duet/" }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI Stops Waiting and Starts Watching",
+      "summary": "Anthropic's new Claude Duet agent works in the background and messages you when a decision is needed — a shift that moves AI from answering questions to noticing what requires your attention.",
+      "body": [
+        "Most AI tools work only when you open them and type a question. Claude Duet turns that around: **the agent messages you first**. Anthropic launched a research preview on October 21, and it is built to watch your connected apps — email, calendar, whatever you link — and send you a short briefing each morning on what needs your attention. Through the day it keeps watching, and it contacts you only when a decision is needed.",
+        "It can do real work in the background — drafting documents, building dashboards, even buying things through Stripe or Shopify Pay. But **it always asks before the sensitive steps**: sending a message, making a payment, anything that affects another person or moves money. Hard limits stay in place: it will not trade securities or shift funds between accounts, full stop.",
+        "That design matters more than it sounds. Right now, a lot of the value people get from AI depends on how good they are at writing prompts. Duet moves the work earlier: the agent notices what needs doing before you have to think of it. **The bottleneck moves from doing to deciding** — your job becomes approving or redirecting, not starting from scratch.",
+        "This is still early. Microsoft 365 is not yet connected, Slack works with limits, and Anthropic says the preview may misjudge what is urgent. But the architecture is clear — and worth thinking about now. Ask which parts of your workflow are really just 'notice something, route it to the right place.' Those are exactly the tasks Duet is built for, and **the teams that map this out first will gain the most**."
+      ],
+      "keyFacts": [
+        { "value": "Oct 21, 2026", "label": "research preview launched" },
+        { "value": "6,000+", "label": "connectors in the Marketplace" },
+        { "value": "Claude Opus 5.5", "label": "model powering Duet" },
+        { "value": "Pro & Max only", "label": "access tiers (US waitlist)" }
+      ]
+    },
+    "de": {
+      "title": "Wenn KI aufhört zu warten und anfängt zu beobachten",
+      "summary": "Anthropics neuer Claude-Duet-Agent arbeitet im Hintergrund und meldet sich, wenn eine Entscheidung nötig ist — eine Verschiebung, die KI vom Beantworten von Fragen zum aktiven Erkennen dessen bewegt, was Aufmerksamkeit braucht.",
+      "body": [
+        "Die meisten KI-Tools funktionieren nur, wenn du sie öffnest und eine Frage tippst. Claude Duet dreht das um: **der Agent meldet sich zuerst bei dir**. Anthropic startete am 21. Oktober eine Forschungsvorschau, die deine verknüpften Apps beobachtet — E-Mail, Kalender und mehr — und dir jeden Morgen eine kurze Übersicht schickt, was deine Aufmerksamkeit braucht. Tagsüber bleibt es wachsam und meldet sich nur, wenn eine Entscheidung ansteht.",
+        "Im Hintergrund erledigt es echte Aufgaben: Dokumente entwerfen, Dashboards erstellen, sogar Einkäufe über Stripe oder Shopify Pay tätigen. Aber **es fragt immer vor den heiklen Schritten**: eine Nachricht senden, eine Zahlung auslösen — alles, was jemand anderen betrifft oder Geld bewegt. Klare Grenzen bleiben bestehen: Es handelt keine Wertpapiere und verschiebt keine Gelder zwischen Konten.",
+        "Dieses Designprinzip ist wichtiger, als es klingt. Heute hängt der Nutzen von KI oft davon ab, wie gut man Anweisungen formuliert. Duet verlagert die Arbeit früher: Der Agent erkennt, was zu tun ist, bevor du darüber nachdenken musst. **Der Engpass verschiebt sich vom Tun zum Entscheiden** — du genehmigst oder korrigierst, anstatt von vorne anzufangen.",
+        "Es ist noch früh. Microsoft 365 ist noch nicht verbunden, Slack funktioniert eingeschränkt, und Anthropic warnt, dass die Vorschauversion manchmal falsch einschätzt, was dringend ist. Aber die Architektur ist klar — und es lohnt sich, jetzt darüber nachzudenken. Welche Teile deines Workflows sind im Grunde nur 'etwas bemerken und weiterleiten'? Das sind genau die Aufgaben, für die Duet gebaut wurde, und **die Teams, die das zuerst herausarbeiten, profitieren am meisten**."
+      ],
+      "keyFacts": [
+        { "value": "Oct 21, 2026", "label": "Forschungsvorschau gestartet" },
+        { "value": "6,000+", "label": "Konnektoren im Marketplace" },
+        { "value": "Claude Opus 5.5", "label": "zugrundeliegendes Modell" },
+        { "value": "Pro & Max only", "label": "Zugangspläne (USA, Warteliste)" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer AI stopt met wachten en begint met meekijken",
+      "summary": "Anthropics nieuwe Claude Duet-agent werkt op de achtergrond en stuurt je een bericht zodra er een beslissing nodig is — een verschuiving waarbij AI van antwoorden naar proactief signaleren gaat.",
+      "body": [
+        "De meeste AI-tools werken pas als jij ze opstart en een vraag typt. Claude Duet draait dat om: **de agent neemt als eerste contact op**. Anthropic lanceerde op 21 oktober een onderzoekspreview die je gekoppelde apps in de gaten houdt — e-mail, agenda en meer — en elke ochtend een korte samenvatting stuurt van wat aandacht vraagt. Overdag blijft het toezicht houden en meldt het zich alleen als er een beslissing nodig is.",
+        "Op de achtergrond doet het echt werk: documenten opstellen, dashboards bouwen, zelfs aankopen doen via Stripe of Shopify Pay. Maar **het vraagt altijd toestemming voor gevoelige stappen**: een bericht versturen, een betaling doen — alles wat een ander raakt of geld verplaatst. Harde grenzen blijven gelden: het handelt geen effecten en verplaatst geen geld tussen rekeningen.",
+        "Dat ontwerp is belangrijker dan het klinkt. Vandaag hangt de waarde van AI vaak af van hoe goed je instructies schrijft. Duet verschuift dat werk naar een eerder moment: de agent signaleert wat er gedaan moet worden voordat jij eraan denkt. **Het knelpunt verschuift van doen naar beslissen** — jij keurt goed of stuurt bij, in plaats van telkens opnieuw te beginnen.",
+        "Het is nog vroeg. Microsoft 365 is nog niet gekoppeld, Slack werkt beperkt, en Anthropic waarschuwt dat de preview soms niet goed inschat wat urgent is. Maar de architectuur is duidelijk — en het loont nu al om na te denken: welke delen van je workflow zijn eigenlijk alleen maar 'iets signaleren en doorsturen'? Dat zijn precies de taken waarvoor Duet is gebouwd, en **de teams die dit als eerste uitwerken, profiteren het meest**."
+      ],
+      "keyFacts": [
+        { "value": "Oct 21, 2026", "label": "onderzoekspreview gestart" },
+        { "value": "6,000+", "label": "connectoren in de Marketplace" },
+        { "value": "Claude Opus 5.5", "label": "model dat Duet aanstuurt" },
+        { "value": "Pro & Max only", "label": "toegangsplannen (VS, wachtlijst)" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA deja de esperar y empieza a observar",
+      "summary": "El nuevo agente Claude Duet de Anthropic trabaja en segundo plano y te avisa cuando necesitas tomar una decisión — un cambio que desplaza el valor de la IA de responder preguntas a notar lo que requiere atención.",
+      "body": [
+        "La mayoría de las herramientas de IA solo funcionan cuando tú las abres y escribes una pregunta. Claude Duet invierte eso: **el agente te contacta primero**. Anthropic lanzó una versión de investigación el 21 de octubre que vigila tus aplicaciones conectadas — correo, calendario y más — y te envía cada mañana un resumen breve de lo que necesita atención. Durante el día sigue monitoreando y te escribe solo cuando hace falta una decisión.",
+        "En segundo plano hace trabajo real: redacta documentos, construye paneles de datos, incluso realiza compras a través de Stripe o Shopify Pay. Pero **siempre pide permiso antes de los pasos delicados**: enviar un mensaje, ejecutar un pago, cualquier cosa que afecte a otros o mueva dinero. Los límites fijos permanecen: no operará valores bursátiles ni moverá fondos entre cuentas.",
+        "Ese diseño importa más de lo que parece. Hoy, gran parte del valor que se obtiene de la IA depende de qué tan bien redactas las instrucciones. Duet adelanta ese trabajo: el agente detecta qué hay que hacer antes de que tengas que pensarlo. **El cuello de botella pasa del hacer al decidir** — tu trabajo es aprobar o redirigir, no comenzar desde cero.",
+        "Todavía es pronto. Microsoft 365 aún no está conectado, Slack funciona con limitaciones y Anthropic reconoce que la versión preliminar puede equivocarse al juzgar la urgencia. Pero la arquitectura es clara, y vale la pena reflexionarlo ahora. Pregúntate qué partes de tu flujo de trabajo son básicamente 'notar algo y enviarlo al lugar correcto.' Esas son exactamente las tareas para las que Duet fue construido, y **los equipos que lo descifren primero ganarán más**."
+      ],
+      "keyFacts": [
+        { "value": "Oct 21, 2026", "label": "versión de investigación lanzada" },
+        { "value": "6,000+", "label": "conectores en el Marketplace" },
+        { "value": "Claude Opus 5.5", "label": "modelo que impulsa Duet" },
+        { "value": "Pro & Max only", "label": "planes de acceso (EE. UU., lista de espera)" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA cesse d'attendre et commence à surveiller",
+      "summary": "Le nouvel agent Claude Duet d'Anthropic travaille en arrière-plan et vous prévient quand une décision s'impose — un changement qui déplace la valeur de l'IA du simple fait de répondre à celui de repérer ce qui mérite attention.",
+      "body": [
+        "La plupart des outils IA n'agissent que lorsque vous les ouvrez et tapez une question. Claude Duet renverse cela : **l'agent vous contacte en premier**. Anthropic a lancé une version préliminaire le 21 octobre qui surveille vos applications connectées — e-mail, agenda et plus — et vous envoie chaque matin un bref résumé de ce qui nécessite votre attention. Dans la journée, elle continue de veiller et vous sollicite seulement quand une décision s'impose.",
+        "En arrière-plan, elle accomplit un vrai travail : rédiger des documents, créer des tableaux de bord, ou même effectuer des achats via Stripe ou Shopify Pay. Mais **elle demande toujours confirmation avant les étapes sensibles** : envoyer un message, déclencher un paiement, tout ce qui touche autrui ou déplace de l'argent. Des limites fermes s'appliquent : pas de trading de titres, pas de transfert de fonds entre comptes.",
+        "Cette conception compte plus qu'il n'y paraît. Aujourd'hui, la valeur de l'IA dépend souvent de la qualité des instructions que l'on sait formuler. Duet déplace ce travail en amont : l'agent détecte ce qui doit être fait avant même que vous y pensiez. **Le goulot d'étranglement passe du faire au décider** — votre rôle devient d'approuver ou de réorienter, non de repartir de zéro.",
+        "C'est encore tôt. Microsoft 365 n'est pas encore connecté, Slack fonctionne avec des limites, et Anthropic reconnaît que la préversion peut parfois mal évaluer l'urgence. Mais l'architecture est claire — et il vaut la peine d'y réfléchir dès maintenant. Quelles parties de votre flux de travail consistent essentiellement à 'remarquer quelque chose et le transmettre au bon endroit' ? Ce sont exactement les tâches pour lesquelles Duet a été conçu, et **les équipes qui l'identifient en premier en tireront le plus grand bénéfice**."
+      ],
+      "keyFacts": [
+        { "value": "Oct 21, 2026", "label": "version de recherche lancée" },
+        { "value": "6,000+", "label": "connecteurs dans le Marketplace" },
+        { "value": "Claude Opus 5.5", "label": "modèle qui alimente Duet" },
+        { "value": "Pro & Max only", "label": "plans d'accès (É.-U., liste d'attente)" }
+      ]
+    },
+    "ar": {
+      "title": "حين يتوقف الذكاء الاصطناعي عن الانتظار ويبدأ في المراقبة",
+      "summary": "وكيل Claude Duet الجديد من Anthropic يعمل في الخلفية ويُبلّغك حين تحتاج إلى اتخاذ قرار — تحوّل ينقل قيمة الذكاء الاصطناعي من الإجابة على الأسئلة إلى رصد ما يستحق انتباهك.",
+      "body": [
+        "معظم أدوات الذكاء الاصطناعي لا تعمل إلا حين تفتحها أنت وتكتب سؤالاً. Claude Duet يقلب هذه المعادلة: **الوكيل يتواصل معك أولاً**. أطلقت Anthropic نسخة بحثية تجريبية في 21 أكتوبر تراقب تطبيقاتك المرتبطة — البريد الإلكتروني والتقويم وغيرهما — وترسل لك كل صباح ملخصاً قصيراً بما يحتاج انتباهك. وطوال اليوم تبقى تراقب، ولا تتواصل معك إلا حين تستدعي الحاجة قراراً.",
+        "في الخلفية تنجز أعمالاً حقيقية: تصيغ المستندات، وتبني لوحات البيانات، وتُجري عمليات شراء عبر Stripe أو Shopify Pay. لكنها **تطلب الإذن دائماً قبل الخطوات الحساسة**: إرسال رسالة، تنفيذ دفعة، أي إجراء يمس الآخرين أو يحرّك أموالاً. وثمة حدود صارمة لا تتجاوزها: لن تتداول الأوراق المالية، ولن تُحوّل أموالاً بين الحسابات.",
+        "هذا التصميم أهم مما يبدو. اليوم، تتوقف فائدة الذكاء الاصطناعي إلى حدٍّ بعيد على مدى جودة التعليمات التي تكتبها. Duet ينقل هذا العمل إلى مرحلة أسبق: يكتشف الوكيل ما يحتاج إلى تنفيذ قبل أن تُفكّر فيه. **ينتقل عنق الزجاجة من التنفيذ إلى اتخاذ القرار** — دورك يصبح الموافقة أو إعادة التوجيه، لا البدء من الصفر.",
+        "الأمر لا يزال في مراحله الأولى. Microsoft 365 لم يُدمج بعد، وSlack يعمل بقيود، وتُقرّ Anthropic بأن النسخة التجريبية قد تُخطئ أحياناً في تقدير ما هو عاجل. لكن البنية واضحة، ويستحق التفكير فيها الآن. أيّ أجزاء من سير عملك هي في الأساس 'ألاحظ شيئاً وأُحوّله للمكان الصحيح'؟ تلك بالضبط هي المهام التي صُنع Duet من أجلها، و**الفِرَق التي ترسم هذه الخريطة أولاً ستجني أكثر**."
+      ],
+      "keyFacts": [
+        { "value": "Oct 21, 2026", "label": "إطلاق النسخة البحثية التجريبية" },
+        { "value": "6,000+", "label": "موصّل في السوق" },
+        { "value": "Claude Opus 5.5", "label": "النموذج المُشغِّل لـ Duet" },
+        { "value": "Pro & Max only", "label": "خطط الوصول (الولايات المتحدة، قائمة الانتظار)" }
+      ]
+    }
+  }
+}
