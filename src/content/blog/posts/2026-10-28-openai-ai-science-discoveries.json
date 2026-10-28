@@ -1,0 +1,120 @@
+{
+  "slug": "2026-10-28-openai-ai-science-discoveries",
+  "date": "2026-10-28",
+  "tags": ["ai"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "Al Jazeera — AI makes discoveries in mathematics, computer science, physics, OpenAI says",
+      "url": "https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says"
+    },
+    {
+      "title": "Unite.AI — OpenAI Says Its Models Produced Three Proofs in Math, CS, and Physics",
+      "url": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI solves problems no researcher could crack for 30 years",
+      "summary": "OpenAI's AI models have proved three major unsolved problems in maths, computer science, and physics — and it means AI is no longer just a tool for routine work.",
+      "body": [
+        "Last Monday, OpenAI announced that its AI models had solved three major unsolved problems — in mathematics, computer science, and physics. These are problems that some of the world's best researchers had worked on for decades without success. **AI is now doing original science**, not just helping with tasks humans already knew how to do.",
+        "In maths, the AI proved a 30-year-old conjecture about how waves behave, and it did this for every possible dimension at once. In computer science, it disproved a famous assumption that hundreds of researchers had relied on for their own work. In physics, it produced the first rigorous proof for a kind of quantum theory that is part of one of the seven Millennium Prize Problems — math problems so hard that any proof wins $1 million. **Expert groups are still checking all three results**, so none are fully confirmed yet.",
+        "OpenAI is careful about what it claims. It calls the AI's outputs 'raw research data.' Human expert groups are now the ones deciding what the results mean and how to publish them. No academic credit goes to OpenAI. **The AI produced the raw material; humans are still the interpreters.** That matters: this is not AI replacing scientists, it is AI producing work that scientists must verify and understand.",
+        "The real point for builders and businesses is not about science prizes. If AI can crack problems that stumped entire fields for 30 years, it will also start solving problems that your company has quietly accepted as too hard or too expensive. Right now, most businesses use AI to speed up things they already knew how to do. **The cost of difficult thinking is about to fall.**",
+        "Start looking at the problems you have quietly shelved — the ones that seemed to need a rare expert, a six-figure consultant, or just luck. If AI can prove a 30-year-old theorem, it can probably also find the stubborn bug, draft the argument you thought required a specialist, or model the scenario your team never had time to run. **The real shift is in what becomes affordable, not just what becomes possible.**"
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "major unsolved problems solved in one announcement" },
+        { "value": "30 years", "label": "how long the maths conjecture was open" },
+        { "value": "$1M", "label": "prize for each Millennium Prize Problem" },
+        { "value": "$852B", "label": "OpenAI's valuation" }
+      ]
+    },
+    "de": {
+      "title": "KI löst Probleme, die Forscher 30 Jahre lang nicht knacken konnten",
+      "summary": "Die KI-Modelle von OpenAI haben drei große ungelöste Probleme in Mathematik, Informatik und Physik gelöst — und das verändert, was wir von KI überhaupt noch erwarten dürfen.",
+      "body": [
+        "Am vergangenen Montag gab OpenAI bekannt, dass seine KI-Modelle drei große ungelöste Probleme gelöst haben — in Mathematik, Informatik und Physik. Es sind Probleme, an denen einige der besten Forscher der Welt jahrzehntelang gearbeitet haben. **KI betreibt jetzt originäre Wissenschaft**, nicht nur schnellere Erledigung von Aufgaben, die Menschen sowieso schon lösen konnten.",
+        "In der Mathematik bewies die KI eine 30 Jahre alte Vermutung über das Verhalten von Wellen — und das für alle möglichen Dimensionen auf einmal. In der Informatik widerlegte sie eine weitverbreitete Annahme, auf die sich Hunderte von Forschern in ihren eigenen Arbeiten gestützt hatten. In der Physik lieferte sie den ersten rigorosen Beweis für eine Quantentheorie, die Teil eines der sieben Millennium-Preisprobleme ist — so schwer, dass jeder Beweis eine Million Dollar einbringt. **Expertengruppen überprüfen noch alle drei Ergebnisse**, keines ist bisher vollständig bestätigt.",
+        "OpenAI ist vorsichtig mit seinen Aussagen. Das Unternehmen bezeichnet die KI-Outputs als 'rohe Forschungsdaten'. Menschliche Expertengruppen entscheiden jetzt, was die Ergebnisse bedeuten und wie sie veröffentlicht werden. OpenAI erhält keine akademische Anerkennung. **Die KI lieferte das Rohmaterial; die Menschen bleiben die Interpreten.** Das ist entscheidend: Nicht KI ersetzt Wissenschaftler, sondern KI produziert Arbeit, die Wissenschaftler noch verifizieren und verstehen müssen.",
+        "Der eigentliche Punkt für Unternehmen und Entwickler sind nicht die Wissenschaftspreise. Wenn KI Probleme knacken kann, die ganze Forschungsfelder 30 Jahre lang vor sich hergeschoben haben, wird sie auch Probleme lösen, die Ihr Unternehmen als zu schwer oder zu teuer abgetan hat. Bisher nutzen die meisten Firmen KI, um Dinge zu beschleunigen, die sie ohnehin schon taten. **Die Kosten anspruchsvollen Denkens werden bald sinken.**",
+        "Schauen Sie sich die Probleme an, die Sie still und leise auf Eis gelegt haben — die, die scheinbar einen seltenen Experten, einen teuren Berater oder einfach Glück erforderten. Wenn KI einen 30 Jahre alten Beweis erbringen kann, kann sie wahrscheinlich auch den hartnäckigen Bug finden, das Argument ausarbeiten oder das Szenario durchrechnen, für das Ihr Team nie Zeit hatte. **Die eigentliche Verschiebung liegt darin, was erschwinglich wird — nicht nur, was möglich wird.**"
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "große ungelöste Probleme in einer Ankündigung gelöst" },
+        { "value": "30 years", "label": "so lange war die mathematische Vermutung offen" },
+        { "value": "$1M", "label": "Preis für jedes Millennium-Preisproblem" },
+        { "value": "$852B", "label": "OpenAIs Bewertung" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer AI problemen oplost die onderzoekers 30 jaar niet konden kraken",
+      "summary": "OpenAI's AI-modellen hebben drie grote onopgeloste problemen in wiskunde, informatica en natuurkunde opgelost — en dat verandert wat we van AI mogen verwachten.",
+      "body": [
+        "Afgelopen maandag kondigde OpenAI aan dat zijn AI-modellen drie grote onopgeloste problemen hadden opgelost — in wiskunde, informatica en natuurkunde. Het zijn problemen waar enkele van de beste onderzoekers ter wereld tientallen jaren aan gewerkt hebben zonder succes. **AI doet nu echte wetenschap**, niet alleen het sneller afhandelen van taken die mensen al kenden.",
+        "In de wiskunde bewees de AI een 30 jaar oud vermoeden over het gedrag van golven, voor alle mogelijke dimensies tegelijk. In de informatica weerlegde het een veelgebruikte aanname waarop honderden onderzoekers hun eigen werk hadden gebaseerd. In de natuurkunde leverde het het eerste rigoureuze bewijs voor een type kwantumtheorie dat deel uitmaakt van een van de zeven Millenniumprijsproblemen — zo moeilijk dat elk bewijs een miljoen dollar waard is. **Expertgroepen controleren alle drie de resultaten nog**, geen ervan is volledig bevestigd.",
+        "OpenAI is voorzichtig over wat het beweert. Het bedrijf noemt de AI-outputs 'ruwe onderzoeksdata'. Menselijke expertgroepen beslissen nu wat de resultaten betekenen en hoe ze worden gepubliceerd. OpenAI krijgt geen academische erkenning. **De AI leverde het ruwe materiaal; mensen blijven de uitleggers.** Dat onderscheid telt: dit is geen AI die wetenschappers vervangt, maar AI die werk produceert dat wetenschappers nog moeten verifiëren.",
+        "Het echte punt voor ondernemers en ontwikkelaars zijn niet de wetenschapsprijzen. Als AI problemen kan kraken die vakgebieden 30 jaar voor zich uitschoven, zal het ook problemen oplossen die uw bedrijf stilzwijgend heeft opgegeven als te moeilijk of te duur. De meeste bedrijven gebruiken AI nu om dingen te versnellen die ze toch al deden. **De kosten van moeilijk denken gaan fors dalen.**",
+        "Kijk eens naar de problemen die u stilletjes op de plank heeft gelegd — de problemen die schijnbaar een zeldzame specialist, een dure consultant of gewoon geluk nodig hadden. Als AI een 30 jaar oud theorema kan bewijzen, kan het waarschijnlijk ook de hardnekkige bug vinden, het betoog uitschrijven of het scenario doorrekenen waarvoor uw team nooit tijd had. **De echte verschuiving zit in wat betaalbaar wordt, niet alleen in wat mogelijk wordt.**"
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "grote onopgeloste problemen in één aankondiging opgelost" },
+        { "value": "30 years", "label": "zo lang stond het wiskundig vermoeden open" },
+        { "value": "$1M", "label": "prijs voor elk Millenniumprijsprobleem" },
+        { "value": "$852B", "label": "OpenAI's waarde" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA resuelve problemas que ningún investigador pudo resolver en 30 años",
+      "summary": "Los modelos de IA de OpenAI han resuelto tres grandes problemas sin solución en matemáticas, informática y física — y eso cambia lo que podemos esperar de la IA.",
+      "body": [
+        "El pasado lunes, OpenAI anunció que sus modelos de IA habían resuelto tres grandes problemas sin solución — en matemáticas, informática y física. Son problemas en los que algunos de los mejores investigadores del mundo han trabajado durante décadas sin éxito. **La IA ya hace ciencia original**, no solo ayuda con tareas que los humanos ya sabían hacer.",
+        "En matemáticas, la IA probó una conjetura de 30 años sobre el comportamiento de las ondas, para todas las dimensiones posibles a la vez. En informática, refutó una suposición famosa en la que cientos de investigadores habían basado sus propios trabajos. En física, produjo la primera prueba rigurosa de un tipo de teoría cuántica que forma parte de uno de los siete Problemas del Milenio — tan difíciles que cualquier prueba vale un millón de dólares. **Grupos de expertos aún verifican los tres resultados**, ninguno está completamente confirmado.",
+        "OpenAI es cauteloso con lo que afirma. Llama a los resultados de la IA 'datos de investigación en bruto'. Grupos de expertos humanos son ahora quienes deciden qué significan los resultados y cómo publicarlos. OpenAI no recibe ningún crédito académico. **La IA produjo el material en bruto; los humanos siguen siendo los intérpretes.** Eso importa: no es IA reemplazando científicos, sino IA produciendo trabajo que los científicos deben verificar y entender.",
+        "El punto real para empresas y desarrolladores no son los premios científicos. Si la IA puede resolver problemas que paralizaron campos enteros durante 30 años, también empezará a resolver problemas que tu empresa ha aceptado en silencio como demasiado difíciles o caros. Hoy la mayoría de las empresas usan IA para hacer más rápido lo que ya hacían. **El coste del pensamiento difícil está a punto de caer.**",
+        "Mira los problemas que has dejado en un cajón — los que parecían necesitar un experto raro, un consultor caro, o simplemente suerte. Si la IA puede demostrar un teorema de 30 años, probablemente también puede encontrar el bug persistente, redactar el argumento que creías que necesitaba un especialista, o modelar el escenario para el que nunca tuviste tiempo. **El verdadero cambio está en lo que se vuelve asequible, no solo en lo que se vuelve posible.**"
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "grandes problemas sin resolver resueltos en un anuncio" },
+        { "value": "30 years", "label": "tiempo que la conjetura matemática llevaba abierta" },
+        { "value": "$1M", "label": "premio por cada Problema del Milenio" },
+        { "value": "$852B", "label": "valoración de OpenAI" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA résout des problèmes que les chercheurs n'ont pas pu résoudre en 30 ans",
+      "summary": "Les modèles d'IA d'OpenAI ont résolu trois grands problèmes ouverts en mathématiques, informatique et physique — et cela change ce que l'on peut attendre de l'IA.",
+      "body": [
+        "Lundi dernier, OpenAI a annoncé que ses modèles d'IA avaient résolu trois grands problèmes non résolus — en mathématiques, en informatique et en physique. Ce sont des problèmes sur lesquels certains des meilleurs chercheurs au monde ont travaillé pendant des décennies sans succès. **L'IA fait désormais de la science originale**, et pas seulement des tâches que les humains savaient déjà accomplir.",
+        "En mathématiques, l'IA a prouvé une conjecture vieille de 30 ans sur le comportement des ondes, et ce pour toutes les dimensions à la fois. En informatique, elle a réfuté une hypothèse célèbre sur laquelle des centaines de chercheurs s'étaient appuyés. En physique, elle a produit la première preuve rigoureuse d'un type de théorie quantique qui fait partie des sept Problèmes du Millénaire — des problèmes si difficiles que chaque preuve rapporte un million de dollars. **Des groupes d'experts vérifient encore les trois résultats**, aucun n'est pleinement confirmé.",
+        "OpenAI reste prudent dans ses affirmations. L'entreprise qualifie les résultats de l'IA de 'données de recherche brutes'. Des groupes d'experts humains décident maintenant de ce que signifient ces résultats et de la façon de les publier. OpenAI ne reçoit aucun crédit académique. **L'IA a fourni la matière première ; les humains restent les interprètes.** La distinction est importante : l'IA ne remplace pas les scientifiques, elle produit un travail que les scientifiques doivent encore vérifier.",
+        "L'enjeu réel pour les entreprises et les développeurs n'est pas les prix scientifiques. Si l'IA peut résoudre des problèmes qui ont bloqué des disciplines entières pendant 30 ans, elle commencera aussi à résoudre des problèmes que votre entreprise a tacitement accepté comme trop difficiles ou trop coûteux. La plupart des entreprises utilisent aujourd'hui l'IA pour accélérer ce qu'elles faisaient déjà. **Le coût de la réflexion difficile est sur le point de chuter.**",
+        "Regardez les problèmes que vous avez mis de côté — ceux qui semblaient nécessiter un expert rare, un consultant coûteux ou simplement de la chance. Si l'IA peut démontrer un théorème vieux de 30 ans, elle peut probablement aussi trouver le bug persistant, rédiger l'argument qui semblait nécessiter un spécialiste, ou modéliser le scénario que votre équipe n'a jamais eu le temps d'explorer. **Le vrai changement réside dans ce qui devient abordable, pas seulement dans ce qui devient possible.**"
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "grands problèmes non résolus résolus en une seule annonce" },
+        { "value": "30 years", "label": "depuis combien de temps la conjecture mathématique était ouverte" },
+        { "value": "$1M", "label": "prix pour chaque Problème du Millénaire" },
+        { "value": "$852B", "label": "valorisation d'OpenAI" }
+      ]
+    },
+    "ar": {
+      "title": "حين يحلّ الذكاء الاصطناعي مشكلات لم يتمكن الباحثون من حلّها خلال 30 عامًا",
+      "summary": "حقّقت نماذج الذكاء الاصطناعي من OpenAI اختراقات في الرياضيات وعلوم الحاسوب والفيزياء — وهذا يغيّر ما يمكن توقّعه من الذكاء الاصطناعي.",
+      "body": [
+        "الأسبوع الماضي، أعلنت OpenAI أن نماذجها من الذكاء الاصطناعي حلّت ثلاث مشكلات كبرى لم تُحسم من قبل — في الرياضيات وعلوم الحاسوب والفيزياء. هذه مشكلات عمل عليها بعض أفضل الباحثين في العالم لعقود دون نجاح. **الذكاء الاصطناعي يمارس الآن علمًا أصيلًا**، لا مجرد تسريع مهام كان البشر يعرفون كيفية أدائها.",
+        "في الرياضيات، أثبت الذكاء الاصطناعي حدسًا عمره 30 عامًا يتعلق بسلوك الأمواج، وفعل ذلك لجميع الأبعاد الممكنة دفعةً واحدة. وفي علوم الحاسوب، دحض افتراضًا شهيرًا اعتمد عليه مئات الباحثين في أعمالهم. وفي الفيزياء، قدّم أوّل إثبات صارم لنوع من نظريات الكم يُعدّ جزءًا من مسائل جائزة الألفية السبع — مشكلات بالغة الصعوبة لدرجة أن الإثبات الصحيح لأيٍّ منها يستحق مليون دولار. **لا تزال مجموعات الخبراء تتحقق من النتائج الثلاث**، ولم يُؤكَّد أيٌّ منها بشكل نهائي حتى الآن.",
+        "تتحلى OpenAI بالحذر في ادعاءاتها. تصف الشركة مخرجات الذكاء الاصطناعي بأنها 'بيانات بحثية خام'. مجموعات الخبراء البشريين هي التي تقرر الآن ما تعنيه النتائج وكيفية نشرها. ولا تحصل OpenAI على أي اعتراف أكاديمي. **أنتج الذكاء الاصطناعي المادة الخام؛ البشر لا يزالون هم المفسِّرين.** هذا الفارق مهم: الذكاء الاصطناعي لا يحلّ محل العلماء، بل ينتج عملًا يتعين على العلماء التحقق منه وفهمه.",
+        "النقطة الحقيقية بالنسبة للشركات والمطوّرين ليست في الجوائز العلمية. إذا كان الذكاء الاصطناعي قادرًا على حلّ مشكلات أعاقت مجالات بأكملها لمدة 30 عامًا، فسيبدأ أيضًا في حلّ المشكلات التي قبلت شركتك ضمنيًا بكونها صعبة أو مكلفة للغاية. معظم الشركات تستخدم الذكاء الاصطناعي اليوم لتسريع ما كانت تفعله من قبل. **تكلفة التفكير الصعب على وشك الانخفاض.**",
+        "ابحث في المشكلات التي أجّلتها بهدوء — تلك التي بدت تستلزم خبيرًا نادرًا أو استشاريًا باهظ الثمن أو مجرد حظ. إذا كان الذكاء الاصطناعي يستطيع إثبات نظرية عمرها 30 عامًا، فربما يستطيع أيضًا العثور على الخطأ العنيد في الكود، أو صياغة الحجة التي اعتقدت أنها تحتاج إلى متخصص، أو نمذجة السيناريو الذي لم يجد فريقك وقتًا له. **التحوّل الحقيقي يكمن فيما يصبح في متناول الجميع، لا فيما يصبح ممكنًا فحسب.**"
+      ],
+      "keyFacts": [
+        { "value": "3", "label": "مشكلات كبرى غير محلولة تمّ حلّها في إعلان واحد" },
+        { "value": "30 years", "label": "المدة التي ظلّت فيها الحدسية الرياضية مفتوحة" },
+        { "value": "$1M", "label": "جائزة كل مسألة من مسائل الألفية" },
+        { "value": "$852B", "label": "تقييم OpenAI" }
+      ]
+    }
+  }
+}
