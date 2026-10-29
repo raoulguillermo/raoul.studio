@@ -1,0 +1,114 @@
+{
+  "slug": "2026-10-29-oracle-openai-ai-inside-business-software",
+  "date": "2026-10-29",
+  "tags": ["ai", "enterprise", "openai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Analytics India Magazine — Oracle Partners With OpenAI to Bring ChatGPT and Codex to Enterprise Workflows",
+      "url": "https://analyticsindiamag.com/ai-news/oracle-partners-with-openai-to-bring-chatgpt-and-codex-to-enterprise-workflows"
+    },
+    {
+      "title": "DataStudios — Oracle adds ChatGPT and Codex to Fusion and NetSuite, brings Google TPUs and Cerebras to OCI",
+      "url": "https://www.datastudios.org/post/oracle-chatgpt-codex-ai-workspace-google-tpus-cerebras-oci"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI is now built into your software, not just sitting next to it",
+      "summary": "Oracle put ChatGPT and Codex directly inside the business software millions of companies already run — which means AI is no longer something you add separately, it comes with the tools.",
+      "body": [
+        "Most businesses work by jumping between separate tools. There is software for accounting, a different tab for the AI assistant, another for code. On October 27, Oracle changed that for a lot of companies. **AI is now built directly into the software**, not sitting alongside it as an add-on you have to connect yourself.",
+        "At its AI World event in Las Vegas, Oracle announced four new products built with OpenAI. The biggest is Oracle AI Workspace, which connects ChatGPT to Oracle Fusion Applications and NetSuite — the platforms that handle payroll, invoices, and inventory for large parts of the global economy. Employees can **ask questions and take actions in plain English**, inside the tools they already use, with their existing permissions and approvals staying in place.",
+        "A second product, Oracle App Composer, puts Codex — OpenAI's coding agent — into the hands of regular employees. Someone in operations describes the tool they need, and Codex builds it. **That turns building software into a team task**, not just something engineers do. Oracle handles hosting, deployment, and access controls automatically.",
+        "For smaller businesses, Oracle added an SMB Bundle: free to start, with $12,000 in cloud credits a year, combining ChatGPT Business, Codex, and a quick-start version of NetSuite. The exact terms are not yet published, but the direction is clear: **enterprise AI is reaching small businesses**, not just big corporations. The practical move now is to check which platforms you already pay for — many are rolling out AI features that could replace tools you currently pay for separately."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "new AI products launched with OpenAI" },
+        { "value": "$12,000", "label": "in annual cloud credits in the free SMB bundle" },
+        { "value": "Oct 27, 2026", "label": "announced at Oracle AI World, Las Vegas" },
+        { "value": "2027", "label": "when Google TPUs arrive on Oracle's cloud" }
+      ]
+    },
+    "de": {
+      "title": "KI ist jetzt in Ihrer Software eingebaut — nicht mehr daneben",
+      "summary": "Oracle hat ChatGPT und Codex direkt in die Unternehmenssoftware eingebaut, die Millionen Firmen täglich nutzen — KI ist damit kein separates Tool mehr, sondern Teil des Systems selbst.",
+      "body": [
+        "Die meisten Unternehmen arbeiten, indem sie ständig zwischen verschiedenen Tools wechseln: ein Buchhaltungsprogramm hier, ein Tab für den KI-Assistenten dort, eine weitere Umgebung für Code. Am 27. Oktober hat Oracle das für viele Unternehmen verändert. **KI ist jetzt direkt in die Software eingebaut**, nicht mehr als externe Erweiterung, die man erst anschließen muss.",
+        "Auf seinem AI-World-Event in Las Vegas stellte Oracle vier neue Produkte mit OpenAI vor. Das wichtigste ist Oracle AI Workspace, das ChatGPT mit Oracle Fusion Applications und NetSuite verbindet — Plattformen, die Gehaltsabrechnung, Rechnungen und Lagerbestände für einen großen Teil der Weltwirtschaft verwalten. Mitarbeiter können **Fragen stellen und Aktionen in normaler Sprache auslösen**, direkt in den Tools, die sie ohnehin nutzen.",
+        "Ein zweites Produkt, Oracle App Composer, bringt Codex — OpenAIs Coding-Agent — in die Hände normaler Mitarbeiter. Jemand in der Betriebsabteilung beschreibt das Tool, das er braucht, und Codex baut es. **Das macht Software entwickeln zur Teamaufgabe**, nicht mehr nur zur Sache von Entwicklern. Oracle übernimmt Betrieb und Zugriffsrechte automatisch.",
+        "Für kleinere Unternehmen gibt es ein SMB-Paket: kostenlos zu starten, mit 12.000 Dollar Cloud-Guthaben pro Jahr, kombiniert mit ChatGPT Business, Codex und einer NetSuite-Schnellstartversion. Die genauen Konditionen sind noch nicht veröffentlicht, aber die Richtung ist klar: **Enterprise-KI erreicht jetzt auch kleine Unternehmen**. Der praktische Schritt jetzt: prüfen, welche Plattformen man bereits bezahlt — viele rollen gerade KI-Funktionen aus, die separate Tools ersetzen könnten."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "neue KI-Produkte mit OpenAI" },
+        { "value": "$12,000", "label": "jährliches Cloud-Guthaben im kostenlosen KMU-Paket" },
+        { "value": "Oct 27, 2026", "label": "angekündigt auf Oracle AI World, Las Vegas" },
+        { "value": "2027", "label": "Ankunft von Google TPUs auf Oracles Cloud" }
+      ]
+    },
+    "nl": {
+      "title": "AI zit nu in je software, niet meer ernaast",
+      "summary": "Oracle heeft ChatGPT en Codex direct ingebouwd in de bedrijfssoftware die miljoenen bedrijven al gebruiken — AI is daarmee geen losse toevoeging meer, maar deel van het systeem zelf.",
+      "body": [
+        "De meeste bedrijven werken door de hele dag tussen losse tools te schakelen. Boekhoudsoftware hier, een tabblad voor de AI-assistent daar, een aparte omgeving voor code. Op 27 oktober veranderde Oracle dat voor veel bedrijven. **AI zit nu rechtstreeks in de software ingebouwd**, niet meer als een extern hulpmiddel dat je zelf moet koppelen.",
+        "Op zijn AI World-evenement in Las Vegas kondigde Oracle vier nieuwe producten aan, gebouwd met OpenAI. Het grootste is Oracle AI Workspace, dat ChatGPT verbindt met Oracle Fusion Applications en NetSuite — de platforms die salarisadministratie, facturen en voorraadbeheer regelen voor een groot deel van de wereldeconomie. Medewerkers kunnen **vragen stellen en acties starten in gewone taal**, binnen de tools die ze al gebruiken, met hun bestaande rechten en goedkeuringen.",
+        "Een tweede product, Oracle App Composer, brengt Codex — de coding-agent van OpenAI — naar gewone medewerkers. Iemand op een afdeling omschrijft de tool die nodig is, en Codex bouwt hem. **Dat maakt softwarebouwen een teamtaak**, niet langer alleen iets voor IT. Oracle regelt hosting, uitrol en toegangsrechten automatisch.",
+        "Voor kleinere bedrijven is er een SMB-bundel: gratis te starten, met 12.000 dollar cloudtegoeden per jaar, inclusief ChatGPT Business, Codex en een snelstartversie van NetSuite. De exacte voorwaarden zijn nog niet gepubliceerd, maar de richting is duidelijk: **enterprise-AI bereikt nu ook het mkb**. De praktische stap nu: controleer welke platforms je al betaalt — veel rollen vergelijkbare AI-functies uit die aparte tools kunnen vervangen."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "nieuwe AI-producten met OpenAI" },
+        { "value": "$12,000", "label": "cloudtegoeden per jaar in de gratis mkb-bundel" },
+        { "value": "Oct 27, 2026", "label": "aangekondigd op Oracle AI World, Las Vegas" },
+        { "value": "2027", "label": "Google TPUs beschikbaar op Oracles cloud" }
+      ]
+    },
+    "es": {
+      "title": "La IA ya no es un añadido: ahora viene dentro de tu software",
+      "summary": "Oracle incorporó ChatGPT y Codex directamente en el software empresarial que usan millones de empresas, lo que significa que la IA ya no es algo que agregas por separado, sino que viene integrada en las herramientas.",
+      "body": [
+        "La mayoría de los negocios trabajan saltando entre herramientas separadas todo el día: un programa de contabilidad aquí, otra pestaña para el asistente de IA allá, otro entorno para código. El 27 de octubre, Oracle cambió eso para muchas empresas. **La IA está ahora integrada directamente en el software**, no como un complemento externo que hay que conectar por separado.",
+        "En su evento AI World en Las Vegas, Oracle anunció cuatro nuevos productos construidos con OpenAI. El más importante es Oracle AI Workspace, que conecta ChatGPT con Oracle Fusion Applications y NetSuite — las plataformas que gestionan nóminas, facturas e inventarios para gran parte de la economía mundial. Los empleados pueden **hacer preguntas y ejecutar acciones en lenguaje normal**, dentro de las herramientas que ya usan, con sus permisos y aprobaciones existentes.",
+        "Un segundo producto, Oracle App Composer, pone Codex — el agente de programación de OpenAI — en manos de empleados sin conocimientos técnicos. Alguien de operaciones describe la herramienta que necesita, y Codex la construye. **Eso convierte desarrollar software en una tarea de equipo**, no solo cosa de ingenieros. Oracle se encarga del despliegue y los controles de acceso de forma automática.",
+        "Para negocios más pequeños, Oracle lanzó un paquete SMB: gratuito para empezar, con 12.000 dólares en créditos de nube al año, combinando ChatGPT Business, Codex y una versión de inicio rápido de NetSuite. Las condiciones exactas aún no están publicadas, pero la dirección es clara: **la IA empresarial está llegando a las pequeñas empresas**. El paso práctico ahora es revisar qué plataformas ya pagas — muchas están lanzando funciones de IA que podrían reemplazar herramientas que pagas por separado."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "nuevos productos de IA lanzados con OpenAI" },
+        { "value": "$12,000", "label": "en créditos de nube al año en el paquete gratuito para pymes" },
+        { "value": "Oct 27, 2026", "label": "anunciado en Oracle AI World, Las Vegas" },
+        { "value": "2027", "label": "llegada de TPUs de Google a la nube de Oracle" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA s'intègre maintenant dans vos outils, pas seulement à côté",
+      "summary": "Oracle a intégré ChatGPT et Codex directement dans les logiciels d'entreprise utilisés par des millions de sociétés — l'IA n'est plus un outil séparé, elle fait désormais partie des outils eux-mêmes.",
+      "body": [
+        "La plupart des entreprises passent leur journée à jongler entre des outils distincts : un logiciel de comptabilité ici, un onglet pour l'assistant IA là, un autre environnement pour le code. Le 27 octobre, Oracle a changé ça pour beaucoup d'entre elles. **L'IA est maintenant intégrée directement dans le logiciel**, et non plus ajoutée à côté comme un supplément à connecter soi-même.",
+        "Lors de son événement AI World à Las Vegas, Oracle a annoncé quatre nouveaux produits construits avec OpenAI. Le plus important est Oracle AI Workspace, qui connecte ChatGPT à Oracle Fusion Applications et NetSuite — les plateformes qui gèrent la paie, les factures et les stocks pour une grande partie de l'économie mondiale. Les employés peuvent **poser des questions et lancer des actions en langage courant**, dans les outils qu'ils utilisent déjà, avec leurs autorisations existantes.",
+        "Un deuxième produit, Oracle App Composer, met Codex — l'agent de codage d'OpenAI — entre les mains des employés ordinaires. Quelqu'un en opérations décrit l'outil dont il a besoin, et Codex le construit. **Cela transforme le développement logiciel en tâche d'équipe**, et non plus l'affaire exclusive des ingénieurs. Oracle gère le déploiement et les contrôles d'accès automatiquement.",
+        "Pour les petites entreprises, Oracle a lancé un pack PME : gratuit pour commencer, avec 12 000 dollars de crédits cloud par an, combinant ChatGPT Business, Codex et une version de démarrage rapide de NetSuite. Les conditions exactes ne sont pas encore publiées, mais la direction est claire : **les outils IA d'entreprise touchent maintenant les petites structures**. La démarche concrète maintenant : vérifiez quelles plateformes vous payez déjà — beaucoup déploient des fonctionnalités IA qui pourraient remplacer des outils payés séparément."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "nouveaux produits IA lancés avec OpenAI" },
+        { "value": "$12,000", "label": "de crédits cloud annuels dans le pack PME gratuit" },
+        { "value": "Oct 27, 2026", "label": "annoncé à Oracle AI World, Las Vegas" },
+        { "value": "2027", "label": "arrivée des TPUs Google sur le cloud d'Oracle" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي بات داخل برنامجك، لا إلى جانبه",
+      "summary": "دمجت أوراكل ChatGPT وCodex مباشرةً في برامج الأعمال التي تستخدمها ملايين الشركات، مما يعني أن الذكاء الاصطناعي لم يعد إضافةً منفصلة تُضيفها، بل أصبح جزءاً من الأدوات نفسها.",
+      "body": [
+        "تعمل معظم الشركات بالتنقل طوال اليوم بين أدوات متفرقة: برنامج محاسبة هنا، وتبويب لمساعد الذكاء الاصطناعي هناك، وبيئة منفصلة للكود. في السابع والعشرين من أكتوبر، غيّرت أوراكل هذا الواقع لكثير من الشركات. **الذكاء الاصطناعي بات مدمجاً مباشرةً في البرنامج**، لا كإضافة خارجية تحتاج إلى ربطها بنفسك.",
+        "في حدث AI World بلاس فيغاس، أعلنت أوراكل عن أربعة منتجات جديدة مبنية مع OpenAI. أبرزها Oracle AI Workspace، الذي يربط ChatGPT بتطبيقات Oracle Fusion وNetSuite — المنصتين اللتين تديران الرواتب والفواتير والمخزون لجزء كبير من الاقتصاد العالمي. بات بإمكان الموظفين **طرح الأسئلة وتنفيذ الإجراءات بلغة عادية**، داخل الأدوات التي يستخدمونها فعلاً، مع الحفاظ على صلاحياتهم وموافقاتهم القائمة.",
+        "منتج ثانٍ، Oracle App Composer، يضع Codex — وكيل البرمجة من OpenAI — بين يدي موظفين لا خلفية تقنية لهم. يصف شخص في قسم العمليات الأداة التي يحتاجها، ويبنيها Codex. **هذا يحوّل بناء البرمجيات إلى مهمة جماعية**، لا حكراً على المهندسين. تتولى أوراكل النشر والصلاحيات تلقائياً.",
+        "للشركات الصغيرة، أطلقت أوراكل حزمة SMB: مجانية للبدء، مع 12,000 دولار من أرصدة السحاب سنوياً، تجمع ChatGPT Business وCodex ونسخة انطلاق سريع من NetSuite. الشروط التفصيلية لم تُنشر بعد، لكن الاتجاه واضح: **أدوات الذكاء الاصطناعي المؤسسي تصل الآن إلى الشركات الصغيرة**. الخطوة العملية الآن: تحقق من المنصات التي تدفع ثمنها بالفعل — كثير منها يطرح ميزات ذكاء اصطناعي قد تغني عن أدوات تدفع لها بشكل منفصل."
+      ],
+      "keyFacts": [
+        { "value": "4", "label": "منتجات ذكاء اصطناعي جديدة مع OpenAI" },
+        { "value": "$12,000", "label": "أرصدة سحاب سنوية في الحزمة المجانية للشركات الصغيرة" },
+        { "value": "Oct 27, 2026", "label": "أُعلن عنها في Oracle AI World، لاس فيغاس" },
+        { "value": "2027", "label": "وصول TPUs من Google إلى سحابة أوراكل" }
+      ]
+    }
+  }
+}
