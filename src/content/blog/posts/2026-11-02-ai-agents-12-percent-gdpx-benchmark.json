@@ -1,0 +1,118 @@
+{
+  "slug": "2026-11-02-ai-agents-12-percent-gdpx-benchmark",
+  "date": "2026-11-02",
+  "tags": ["ai", "agents", "benchmarks"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "SemiAnalysis — GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains",
+      "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities"
+    },
+    {
+      "title": "CryptoBriefing — SemiAnalysis unveils GDPx benchmark, and the best AI model scores 12%",
+      "url": "https://cryptobriefing.com/semianalysis-gdpx-ai-benchmark-frontier-models/"
+    },
+    {
+      "title": "AI Weekly — SemiAnalysis Launches GDPx; Best Frontier Model Hits 12%",
+      "url": "https://aiweekly.co/alerts/semianalysis-launches-gdpx-best-frontier-model-hits-12"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The best AI agent solves 1 in 8 expert tasks. Here is what that means for builders.",
+      "summary": "A new benchmark tests AI agents on real expert work — chip design, finance, law, trading — and even the top model only clears 12%, giving builders the clearest map yet of where AI agents actually work.",
+      "body": [
+        "A research firm called SemiAnalysis just put the world's best AI models through 206 real expert tasks — chip design, finance, law, biology, quant trading, and more. The top model, Claude Opus 5.5 from Anthropic, finished just 12% of them. Not because AI is bad. Because the tasks are genuinely hard. **AI agents still fail at 88% of real expert work**, and that number is actually a useful map for anyone building with AI today.",
+        "The breakdown matters more than the headline score. Claude led on quant trading and chip design. Google's Gemini 4 Carbon did best in biology and software engineering. Finance and legal? **Basically every model scored zero** — the tasks were too hard for any of them to crack a single one. That is not a blanket failure of AI. It is a signal: those fields are not ready for autonomous agents handling the hard judgment calls.",
+        "Most AI tests measure whether a model knows the right answer. GDPx asked whether it can actually do the work — write real code, run real simulations, finish multi-step tasks where specialists check the result. Every domain was built with a partner company whose job was to verify the output. **That is what makes these numbers more trustworthy** than the benchmarks where 50% of tasks turn out to be broken, as SemiAnalysis found when it audited other popular tests.",
+        "For anyone building products or automations with AI right now, this benchmark is a map, not a verdict. Quant trading and chip design are moving fast. Finance and law are not ready for autonomous agent work — at least not for anything requiring genuine expert judgment. The practical takeaway: **focus agent work where models are already getting real results**, not where they score zero. SemiAnalysis plans to refresh GDPx every three to six months, so the map will keep updating as the models improve."
+      ],
+      "keyFacts": [
+        { "value": "12.0%", "label": "best overall agent score (Claude Opus 5.5)" },
+        { "value": "~0%", "label": "score in finance and legal" },
+        { "value": "11", "label": "expert domains tested" },
+        { "value": "206", "label": "tasks in the benchmark" }
+      ]
+    },
+    "de": {
+      "title": "Der beste KI-Agent löst 1 von 8 Expertenaufgaben. Was das für Entwickler bedeutet.",
+      "summary": "Ein neuer Benchmark testet KI-Agenten an echter Expertenarbeit — Chip-Design, Finanzen, Recht, Trading — und selbst das beste Modell schafft nur 12%, was Entwicklern die bisher klarste Orientierung gibt.",
+      "body": [
+        "Das Forschungsunternehmen SemiAnalysis hat die besten KI-Modelle der Welt gerade an 206 echten Expertenaufgaben gemessen — Chip-Design, Finanzen, Recht, Biologie, Quant-Trading und mehr. Das beste Modell, Claude Opus 5.5 von Anthropic, hat dabei 12 Prozent abgeschlossen. Nicht weil KI schlecht ist, sondern weil die Aufgaben wirklich schwer sind. **KI-Agenten scheitern noch bei 88 Prozent echter Expertenarbeit**, und diese Zahl ist für alle, die heute mit KI entwickeln, eine nützliche Orientierungshilfe.",
+        "Wichtiger als die Gesamtpunktzahl ist die Aufschlüsselung. Claude führte bei Quant-Trading und Chip-Design. Googles Gemini 4 Carbon schnitt am besten in Biologie und Softwareentwicklung ab. Finanzen und Recht? **Praktisch jedes Modell erzielte null Punkte** — die Aufgaben waren für alle zu schwer, um auch nur eine einzige zu lösen. Das ist kein generelles KI-Versagen, sondern ein Signal: Diese Bereiche sind für autonome Agenten bei schwierigen Entscheidungsaufgaben noch nicht bereit.",
+        "Die meisten KI-Tests messen, ob ein Modell die richtige Antwort kennt. GDPx fragte, ob es die Arbeit wirklich erledigen kann — echten Code schreiben, echte Simulationen ausführen, mehrstufige Aufgaben abschließen, deren Ergebnisse Fachleute prüfen. Jede Domäne wurde mit einem Partnerunternehmen entwickelt, das die Ausgabe verifizierte. **Das macht diese Ergebnisse verlässlicher** als Benchmarks, bei denen laut SemiAnalysis 50 Prozent der Aufgaben fehlerhaft sind.",
+        "Für alle, die gerade Produkte oder Automatisierungen mit KI entwickeln, ist dieser Benchmark eine Landkarte, kein Urteil. Quant-Trading und Chip-Design machen schnelle Fortschritte. Finanzen und Recht sind für autonome Agentenarbeit noch nicht bereit — zumindest nicht für Aufgaben, die echtes Expertenwissen erfordern. Die praktische Schlussfolgerung: **Fokussiert Agentenarbeit dort, wo Modelle bereits echte Ergebnisse zeigen**, nicht wo sie null Punkte erzielen. SemiAnalysis plant, GDPx alle drei bis sechs Monate zu aktualisieren."
+      ],
+      "keyFacts": [
+        { "value": "12.0%", "label": "bestes Gesamtergebnis eines KI-Agenten" },
+        { "value": "~0%", "label": "Ergebnis in Finanzen und Recht" },
+        { "value": "11", "label": "getestete Fachdomänen" },
+        { "value": "206", "label": "Aufgaben im Benchmark" }
+      ]
+    },
+    "nl": {
+      "title": "De beste AI-agent haalt 1 op 8 expertentaken. Wat dat betekent voor bouwers.",
+      "summary": "Een nieuwe benchmark test AI-agenten op echt expertenwerk — chipdesign, financiën, recht, trading — en zelfs het beste model haalt slechts 12%, wat bouwers de duidelijkste kaart tot nu toe geeft.",
+      "body": [
+        "Onderzoeksbureau SemiAnalysis heeft zojuist de beste AI-modellen ter wereld getest op 206 echte expertentaken — chipdesign, financiën, recht, biologie, kwantitatieve handel en meer. Het beste model, Claude Opus 5.5 van Anthropic, rondde slechts 12% af. Niet omdat AI slecht is, maar omdat de taken echt moeilijk zijn. **AI-agenten falen nog bij 88% van echt expertenwerk**, en dat getal is voor iedereen die vandaag met AI bouwt een nuttige wegwijzer.",
+        "De verdeling telt meer dan de totaalscore. Claude leidde in kwantitatieve handel en chipdesign. Google's Gemini 4 Carbon deed het het beste in biologie en software-engineering. Financiën en recht? **Vrijwel elk model scoorde nul** — de taken waren voor al van hen te moeilijk om ook maar één te kraken. Dat is geen algeheel falen van AI. Het is een signaal: die vakgebieden zijn nog niet klaar voor autonome agenten die moeilijke beoordelingen maken.",
+        "De meeste AI-tests meten of een model het juiste antwoord kent. GDPx vroeg of het het werk daadwerkelijk kan doen — echte code schrijven, echte simulaties draaien, meerstappige taken voltooien waarbij specialisten de uitkomst controleren. Elk domein werd opgebouwd met een partneronderneming die de output verificeerde. **Dat maakt deze cijfers betrouwbaarder** dan benchmarks waarbij, volgens SemiAnalysis, 50% van de taken gebrekkig blijkt te zijn.",
+        "Voor iedereen die nu producten of automatiseringen bouwt met AI, is deze benchmark een kaart, geen oordeel. Kwantitatieve handel en chipdesign gaan snel vooruit. Financiën en recht zijn nog niet klaar voor autonoom agentenwerk — in ieder geval niet voor taken die echt experteoordeel vereisen. De praktische conclusie: **richt je agentenwerk op waar modellen al echte resultaten boeken**, niet waar ze nul scoren. SemiAnalysis plant GDPx elke drie tot zes maanden te vernieuwen."
+      ],
+      "keyFacts": [
+        { "value": "12.0%", "label": "beste totaalscore van een AI-agent" },
+        { "value": "~0%", "label": "score in financiën en recht" },
+        { "value": "11", "label": "geteste vakgebieden" },
+        { "value": "206", "label": "taken in de benchmark" }
+      ]
+    },
+    "es": {
+      "title": "El mejor agente de IA resuelve 1 de cada 8 tareas de experto. Qué significa eso para los desarrolladores.",
+      "summary": "Un nuevo benchmark prueba agentes de IA en trabajo experto real — diseño de chips, finanzas, derecho, trading — y hasta el mejor modelo solo supera el 12%, dando a los desarrolladores el mapa más claro hasta ahora.",
+      "body": [
+        "La firma de investigación SemiAnalysis acaba de poner a los mejores modelos de IA del mundo ante 206 tareas reales de expertos — diseño de chips, finanzas, derecho, biología, trading cuantitativo y más. El mejor modelo, Claude Opus 5.5 de Anthropic, completó solo el 12%. No porque la IA sea mala, sino porque las tareas son genuinamente difíciles. **Los agentes de IA aún fallan en el 88% del trabajo experto real**, y ese número es en realidad un mapa útil para cualquiera que desarrolle con IA hoy.",
+        "El desglose importa más que la puntuación general. Claude lideró en trading cuantitativo y diseño de chips. Gemini 4 Carbon de Google destacó en biología e ingeniería de software. ¿Finanzas y derecho? **Prácticamente todos los modelos obtuvieron cero** — las tareas eran demasiado difíciles para que ninguno resolviera ni una sola. No es un fracaso general de la IA. Es una señal: esos campos no están listos para agentes autónomos que tomen decisiones complejas.",
+        "La mayoría de los tests de IA miden si un modelo conoce la respuesta correcta. GDPx preguntó si puede hacer el trabajo de verdad — escribir código real, ejecutar simulaciones reales, completar tareas de varios pasos donde especialistas comprueban el resultado. Cada dominio se desarrolló con una empresa asociada encargada de verificar el resultado. **Eso es lo que hace estos números más fiables** que benchmarks donde, según SemiAnalysis, el 50% de las tareas resultan defectuosas.",
+        "Para quien esté construyendo productos o automatizaciones con IA ahora mismo, este benchmark es un mapa, no un veredicto. El trading cuantitativo y el diseño de chips avanzan rápido. Las finanzas y el derecho no están listos para trabajo autónomo de agentes — al menos no para tareas que requieren juicio experto genuino. La conclusión práctica: **centra el trabajo de agentes donde los modelos ya obtienen resultados reales**, no donde puntúan cero. SemiAnalysis prevé actualizar GDPx cada tres a seis meses."
+      ],
+      "keyFacts": [
+        { "value": "12.0%", "label": "mejor puntuación total de agente" },
+        { "value": "~0%", "label": "puntuación en finanzas y derecho" },
+        { "value": "11", "label": "dominios de expertos evaluados" },
+        { "value": "206", "label": "tareas en el benchmark" }
+      ]
+    },
+    "fr": {
+      "title": "Le meilleur agent IA résout 1 tâche d'expert sur 8. Ce que cela signifie pour les développeurs.",
+      "summary": "Un nouveau benchmark teste les agents IA sur de vraies tâches d'experts — conception de puces, finance, droit, trading — et même le meilleur modèle n'atteint que 12%, offrant aux développeurs la carte la plus claire à ce jour.",
+      "body": [
+        "La société de recherche SemiAnalysis vient de soumettre les meilleurs modèles d'IA du monde à 206 vraies tâches d'experts — conception de puces, finance, droit, biologie, trading quantitatif et plus encore. Le meilleur modèle, Claude Opus 5.5 d'Anthropic, n'en a complété que 12 %. Non pas parce que l'IA est mauvaise, mais parce que les tâches sont vraiment difficiles. **Les agents IA échouent encore sur 88 % du vrai travail d'expert**, et ce chiffre est en réalité une carte utile pour quiconque développe avec l'IA aujourd'hui.",
+        "La répartition compte plus que le score global. Claude a dominé le trading quantitatif et la conception de puces. Gemini 4 Carbon de Google s'est distingué en biologie et en ingénierie logicielle. Finance et droit ? **Pratiquement tous les modèles ont scoré zéro** — les tâches étaient trop difficiles pour que l'un d'eux en résolve une seule. Ce n'est pas un échec général de l'IA. C'est un signal : ces domaines ne sont pas encore prêts pour des agents autonomes traitant les décisions complexes.",
+        "La plupart des tests IA mesurent si un modèle connaît la bonne réponse. GDPx a demandé s'il peut vraiment faire le travail — écrire du vrai code, faire tourner de vraies simulations, compléter des tâches multi-étapes dont des spécialistes vérifient le résultat. Chaque domaine a été construit avec une entreprise partenaire chargée de valider les sorties. **C'est ce qui rend ces chiffres plus fiables** que les benchmarks où, selon SemiAnalysis, 50 % des tâches s'avèrent défectueuses.",
+        "Pour ceux qui construisent des produits ou des automatisations avec l'IA en ce moment, ce benchmark est une carte, pas un verdict. Le trading quantitatif et la conception de puces avancent vite. La finance et le droit ne sont pas encore prêts pour un travail d'agent autonome — du moins pas pour les tâches nécessitant un vrai jugement d'expert. La conclusion pratique : **concentrez le travail d'agents là où les modèles obtiennent déjà de vrais résultats**, pas là où ils scorent zéro. SemiAnalysis prévoit de mettre à jour GDPx tous les trois à six mois."
+      ],
+      "keyFacts": [
+        { "value": "12.0%", "label": "meilleur score global d'agent" },
+        { "value": "~0%", "label": "score en finance et droit" },
+        { "value": "11", "label": "domaines d'experts testés" },
+        { "value": "206", "label": "tâches dans le benchmark" }
+      ]
+    },
+    "ar": {
+      "title": "أفضل وكيل ذكاء اصطناعي يحلّ مهمة خبير واحدة من كل ثماني. ماذا يعني ذلك للمطوّرين؟",
+      "summary": "اختبار جديد يقيس وكلاء الذكاء الاصطناعي على عمل خبراء حقيقي — تصميم رقائق وتمويل وقانون وتداول — وحتى أفضل نموذج لا يتجاوز 12%، مما يمنح المطوّرين أوضح خريطة حتى الآن.",
+      "body": [
+        "أجرت شركة الأبحاث SemiAnalysis للتو اختبارًا لأفضل نماذج الذكاء الاصطناعي في العالم على 206 مهام حقيقية للخبراء — تصميم الرقائق والتمويل والقانون وعلم الأحياء والتداول الكمّي وغيرها. أفضل نموذج، Claude Opus 5.5 من Anthropic، أنجز 12% منها فقط. ليس لأن الذكاء الاصطناعي ضعيف، بل لأن المهام صعبة فعلًا. **لا تزال وكلاء الذكاء الاصطناعي تفشل في 88% من العمل الخبير الحقيقي**، وهذا الرقم هو في الواقع خريطة مفيدة لكل من يبني بالذكاء الاصطناعي اليوم.",
+        "التفصيل أهم من النتيجة الإجمالية. تفوّق Claude في التداول الكمّي وتصميم الرقائق. وتميّز Gemini 4 Carbon من Google في علم الأحياء وهندسة البرمجيات. أما التمويل والقانون؟ **سجّل كل نموذج تقريبًا صفرًا** — المهام كانت أصعب من أن يحلّ أي منهم مهمة واحدة. هذا ليس فشلًا شاملًا للذكاء الاصطناعي، بل إشارة واضحة: هذان المجالان غير جاهزَين لوكلاء مستقلين يتعاملون مع القرارات الخبيرة الصعبة.",
+        "تقيس معظم اختبارات الذكاء الاصطناعي ما إذا كان النموذج يعرف الإجابة الصحيحة. أما GDPx فسألت: هل يستطيع إنجاز العمل فعلًا؟ — كتابة كود حقيقي، وتشغيل محاكاة فعلية، وإتمام مهام متعددة الخطوات يتحقق منها متخصصون. بُني كل مجال بالتعاون مع شركة شريكة مهمتها التحقق من النتائج. **هذا ما يجعل هذه الأرقام أكثر مصداقية** من الاختبارات التي تبيّن، وفقًا لـ SemiAnalysis، أن 50% من مهامها معطوبة.",
+        "لمن يبني المنتجات أو الأتمتة بالذكاء الاصطناعي الآن، هذا الاختبار خريطة وليس حكمًا. التداول الكمّي وتصميم الرقائق يتقدمان بسرعة. التمويل والقانون غير جاهزَين لعمل الوكلاء المستقلين — على الأقل لما يتطلب حكمًا خبيرًا حقيقيًا. الخلاصة العملية: **ركّز عمل الوكلاء حيث تحقق النماذج نتائج حقيقية بالفعل**، لا حيث تسجّل صفرًا. تخطط SemiAnalysis لتحديث GDPx كل ثلاثة إلى ستة أشهر."
+      ],
+      "keyFacts": [
+        { "value": "12.0%", "label": "أفضل نتيجة إجمالية لوكيل ذكاء اصطناعي" },
+        { "value": "~0%", "label": "نتيجة التمويل والقانون" },
+        { "value": "11", "label": "مجالات خبراء تم اختبارها" },
+        { "value": "206", "label": "مهام في الاختبار" }
+      ]
+    }
+  }
+}
