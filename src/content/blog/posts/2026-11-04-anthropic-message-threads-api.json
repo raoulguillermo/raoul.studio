@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-04-anthropic-message-threads-api",
+  "date": "2026-11-04",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Anthropic — Message threads (official docs)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/message-threads"
+    },
+    {
+      "title": "AI Agent Store — AI Agents News: Week of November 4, 2026",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The fix that makes long AI conversations faster — and what it unlocks",
+      "summary": "Anthropic's new Message Threads feature means your AI app no longer resends the entire conversation history on every turn, cutting response wait times by about 35% for long sessions.",
+      "body": [
+        "Right now, when you build an AI app — a support tool, a coding assistant, an agent — something wasteful happens each time a user sends a new message: **your app resends the entire conversation from scratch.** Every previous message, every AI response, all over again. The longer the session, the worse the wait.",
+        "Anthropic's Message Threads, now in public beta on the Messages API, fixes this. Your app sends the full conversation history once. After that, **you only send the new messages** — a tiny fraction of the data. The server holds the thread in memory, encrypted, and continues from where it stopped.",
+        "Anthropic says this **cuts wait time by about 35%** for long sessions — conversations with 500,000 to 1 million tokens. Tokens are the small chunks of text an AI reads and writes — in practice, that is a conversation many pages long. In a customer support queue or a multi-step agent workflow, users feel that difference immediately.",
+        "One thing to know before you build on this: threads expire five minutes after the last message and are never written to disk. That keeps them private — but it also means they are not eligible for HIPAA workflows. Healthcare and other regulated industries will need to wait. For everyone else building agents and assistants, **the right move is to try this now** — it is free to test and takes a single line of code to add."
+      ],
+      "keyFacts": [
+        { "value": "~35%", "label": "less wait time for long AI sessions" },
+        { "value": "500K–1M tokens", "label": "where the speed gains are biggest" },
+        { "value": "5 minutes", "label": "before an idle thread expires" },
+        { "value": "Nov 2, 2026", "label": "public beta launch date" }
+      ]
+    },
+    "de": {
+      "title": "Kürzere Wartezeiten in KI-Gesprächen — was das für Entwickler bedeutet",
+      "summary": "Anthropics neues Feature Message Threads sorgt dafür, dass KI-Apps nicht mehr bei jedem Zug die gesamte Konversation erneut senden müssen, und verkürzt so die Wartezeit bei langen Gesprächen um rund 35 Prozent.",
+      "body": [
+        "Wenn du eine KI-App baust — ein Support-Tool, einen Code-Assistenten, einen Agenten — passiert bei jeder neuen Nachricht etwas Verschwenderisches: **deine App schickt das gesamte Gespräch erneut.** Jede frühere Nachricht, jede KI-Antwort, alles von vorn. Je länger das Gespräch, desto länger die Wartezeit.",
+        "Anthropics Message Threads, jetzt in der öffentlichen Beta der Messages API, löst dieses Problem. Deine App schickt den vollständigen Gesprächsverlauf einmal. Danach **sendest du nur noch neue Nachrichten** — einen winzigen Bruchteil der Datenmenge. Der Server hält den Thread verschlüsselt im Arbeitsspeicher und macht dort weiter, wo er aufgehört hat.",
+        "Anthropic gibt an, dass das Feature die Wartezeit **um rund 35 Prozent verkürzt** bei langen Gesprächen — Konversationen mit 500.000 bis 1 Million Tokens. Tokens sind die kleinen Text-Bausteine, die eine KI liest und schreibt — in der Praxis entspricht das einem mehrere Seiten langen Gespräch. In einer Support-Warteschlange oder einem mehrstufigen Agenten-Workflow spüren Nutzerinnen und Nutzer diesen Unterschied sofort.",
+        "Wichtig zu wissen, bevor du darauf aufbaust: Threads verfallen fünf Minuten nach der letzten Nachricht und werden nie auf Disk gespeichert. Das hält sie privat — bedeutet aber auch, dass sie nicht für HIPAA-konforme Workflows geeignet sind. Gesundheitswesen und andere regulierte Branchen müssen noch warten. Für alle anderen, die allgemeine Agenten und Assistenten bauen, **lohnt es sich jetzt, das Feature zu testen** — es kostet nichts extra und erfordert nur eine einzige Code-Zeile."
+      ],
+      "keyFacts": [
+        { "value": "~35%", "label": "weniger Wartezeit bei langen KI-Gesprächen" },
+        { "value": "500K–1M Tokens", "label": "Token-Bereich mit den größten Gewinnen" },
+        { "value": "5 Minuten", "label": "bis ein Thread bei Inaktivität abläuft" },
+        { "value": "2. Nov. 2026", "label": "Start der öffentlichen Beta" }
+      ]
+    },
+    "nl": {
+      "title": "Snellere AI-gesprekken: wat Anthropics nieuwe API-functie voor bouwers betekent",
+      "summary": "Met Anthropics Message Threads hoeft een AI-app niet meer het hele gesprek opnieuw te sturen bij elke beurt, waardoor de wachttijd bij lange sessies met zo'n 35 procent daalt.",
+      "body": [
+        "Als je een AI-app bouwt — een klantenservicetool, een code-assistent, een agent — gebeurt er bij elke nieuwe boodschap iets verspillends: **stuurt je app het hele gesprek opnieuw.** Elk eerder bericht, elk AI-antwoord, alles weer van voren af aan. Hoe langer het gesprek, hoe langer de wachttijd.",
+        "Anthropics Message Threads, nu in publieke beta op de Messages API, lost dit op. Je app stuurt de volledige gespreksgeschiedenis één keer. Daarna **stuur je alleen nieuwe berichten** — een fractie van de data. De server bewaart de thread versleuteld in het geheugen en pakt hem op waar hij was gebleven.",
+        "Anthropic meldt dat dit de wachttijd **met zo'n 35 procent verkleint** voor lange sessies — gesprekken met 500.000 tot 1 miljoen tokens. Tokens zijn de kleine tekstbrokken die een AI leest en schrijft — in de praktijk is dat een gesprek van vele pagina's lang. In een supportwachtrij of een meerstaps agent-workflow voelen gebruikers dat verschil direct.",
+        "Eén ding om te weten voor je hierop bouwt: threads vervallen vijf minuten na het laatste bericht en worden nooit op schijf opgeslagen. Dat houdt ze privé — maar het betekent ook dat ze niet geschikt zijn voor HIPAA-conforme workflows. Gezondheidszorg en andere gereguleerde sectoren moeten nog even wachten. Voor iedereen die algemene agents en assistenten bouwt, **is het nu het juiste moment om dit te testen** — het is gratis te proberen en vereist slechts één regel code."
+      ],
+      "keyFacts": [
+        { "value": "~35%", "label": "minder wachttijd bij lange AI-sessies" },
+        { "value": "500K–1M tokens", "label": "tokenrange met de grootste verbeteringen" },
+        { "value": "5 minuten", "label": "voordat een inactieve thread verloopt" },
+        { "value": "2 nov. 2026", "label": "startdatum publieke beta" }
+      ]
+    },
+    "es": {
+      "title": "El arreglo que hace más rápidas las conversaciones largas con IA",
+      "summary": "La nueva función Message Threads de Anthropic hace que tu app de IA no tenga que reenviar toda la conversación en cada turno, reduciendo el tiempo de espera en aproximadamente un 35% para sesiones largas.",
+      "body": [
+        "Ahora mismo, cuando construyes una app de IA — una herramienta de soporte, un asistente de código, un agente — ocurre algo ineficiente cada vez que el usuario envía un mensaje nuevo: **tu app reenvía toda la conversación desde cero.** Cada mensaje anterior, cada respuesta de la IA, todo otra vez. Cuanto más larga la sesión, mayor la espera.",
+        "Message Threads de Anthropic, ahora en beta pública en la Messages API, resuelve esto. Tu app envía el historial completo una sola vez. Después, **solo envías los mensajes nuevos** — una fracción mínima de los datos. El servidor guarda el hilo en memoria, cifrado, y retoma exactamente donde se quedó.",
+        "Anthropic informa que esto **reduce el tiempo de espera en alrededor de un 35%** para sesiones largas — conversaciones de entre 500.000 y 1 millón de tokens. Los tokens son los pequeños fragmentos de texto que una IA lee y escribe — en la práctica, es una conversación de muchas páginas. En una cola de soporte o un flujo de trabajo de varios pasos, los usuarios notan la diferencia de inmediato.",
+        "Hay algo importante que saber antes de construir sobre esto: los hilos expiran cinco minutos después del último mensaje y nunca se escriben en disco. Eso los mantiene privados — pero también significa que no son válidos para flujos de trabajo conformes con HIPAA. El sector sanitario y otras industrias reguladas tendrán que esperar. Para todos los demás que construyen agentes y asistentes de uso general, **el momento de probar esto es ahora** — es gratis y solo requiere añadir una línea de código."
+      ],
+      "keyFacts": [
+        { "value": "~35%", "label": "menos espera en sesiones largas de IA" },
+        { "value": "500K–1M tokens", "label": "rango de tokens donde más se nota la mejora" },
+        { "value": "5 minutos", "label": "antes de que un hilo inactivo expire" },
+        { "value": "2 nov. 2026", "label": "fecha de lanzamiento de la beta pública" }
+      ]
+    },
+    "fr": {
+      "title": "Le correctif qui accélère les longues conversations avec l'IA — et ce qu'il permet",
+      "summary": "Avec Message Threads d'Anthropic, les applis IA n'ont plus besoin de renvoyer tout l'historique à chaque tour, ce qui réduit le temps d'attente d'environ 35 % pour les longues sessions.",
+      "body": [
+        "En ce moment, quand on construit une appli IA — un outil de support, un assistant de code, un agent — quelque chose de coûteux se passe à chaque nouveau message : **l'appli renvoie toute la conversation depuis le début.** Chaque message précédent, chaque réponse de l'IA, encore et encore. Plus la session est longue, plus l'attente est grande.",
+        "Message Threads d'Anthropic, désormais en bêta publique sur la Messages API, corrige ça. L'appli envoie l'historique complet une seule fois. Ensuite, **on n'envoie que les nouveaux messages** — une infime fraction des données. Le serveur conserve le fil en mémoire, chiffré, et reprend exactement là où il s'était arrêté.",
+        "Anthropic indique que cela **réduit le temps d'attente d'environ 35 %** pour les longues sessions — des conversations de 500 000 à 1 million de tokens. Les tokens sont les petits morceaux de texte qu'une IA lit et écrit — en pratique, c'est une conversation de plusieurs pages. Dans une file de support ou un workflow d'agents en plusieurs étapes, les utilisateurs ressentent cette différence immédiatement.",
+        "Une chose à savoir avant de construire là-dessus : les fils expirent cinq minutes après le dernier message et ne sont jamais écrits sur disque. Cela les rend privés — mais cela signifie aussi qu'ils ne sont pas éligibles aux workflows conformes HIPAA. La santé et les autres secteurs réglementés devront attendre. Pour tous ceux qui construisent des agents et des assistants grand public, **c'est maintenant le bon moment pour essayer** — c'est gratuit et n'exige qu'une seule ligne de code."
+      ],
+      "keyFacts": [
+        { "value": "~35%", "label": "moins d'attente pour les longues sessions IA" },
+        { "value": "500K–1M tokens", "label": "plage de tokens où les gains sont les plus forts" },
+        { "value": "5 minutes", "label": "avant qu'un fil inactif n'expire" },
+        { "value": "2 nov. 2026", "label": "date de lancement de la bêta publique" }
+      ]
+    },
+    "ar": {
+      "title": "الميزة التي تُسرّع محادثات الذكاء الاصطناعي الطويلة — وما تُتيحه للمطورين",
+      "summary": "ميزة Message Threads الجديدة من Anthropic تُغني تطبيقات الذكاء الاصطناعي عن إعادة إرسال المحادثة كاملةً في كل دورة، مما يُقلّص وقت الانتظار بنحو 35% للجلسات الطويلة.",
+      "body": [
+        "في الوقت الحالي، حين تبني تطبيقًا بالذكاء الاصطناعي — أداة دعم، أو مساعد برمجة، أو عميلًا ذكيًا — يحدث أمر مُكلف مع كل رسالة جديدة يرسلها المستخدم: **تُعيد تطبيقك إرسال المحادثة بأكملها من الصفر.** كل رسالة سابقة، كل رد من الذكاء الاصطناعي، من جديد في كل مرة. وكلما طالت الجلسة، زاد وقت الانتظار.",
+        "ميزة Message Threads من Anthropic، المتاحة الآن في نسخة بيتا عامة على Messages API، تحل هذه المشكلة. يرسل تطبيقك التاريخ الكامل للمحادثة مرةً واحدةً فقط. بعد ذلك، **لا ترسل إلا الرسائل الجديدة** — جزءًا صغيرًا جدًا من البيانات. يحتفظ الخادم بالخيط مشفرًا في الذاكرة، ويستكمل من حيث توقف.",
+        "تُفيد Anthropic بأن هذا **يُقلص وقت الانتظار بنحو 35%** للجلسات الطويلة — المحادثات التي تحتوي على 500 ألف إلى مليون رمز. الرموز هي الوحدات الصغيرة التي تقرأها وتكتبها نماذج الذكاء الاصطناعي — وهي في الواقع تُعادل محادثةً تمتد عبر صفحات عديدة. في قائمة انتظار الدعم أو سير عمل متعدد الخطوات، يلاحظ المستخدمون هذا الفرق فورًا.",
+        "ثمة أمر مهم يجب معرفته قبل البناء على هذه الميزة: تنتهي صلاحية الخيوط بعد خمس دقائق من آخر رسالة، ولا تُكتب أبدًا على القرص الصلب. هذا يُبقيها خاصة — لكنه يعني أيضًا أنها غير مؤهلة لسير العمل المتوافقة مع HIPAA. قطاع الرعاية الصحية وسائر القطاعات الخاضعة للتنظيم سيحتاجون إلى الانتظار. أما بالنسبة لكل من يبني عملاء ذكيين ومساعدين للأغراض العامة، **فالوقت المناسب لتجربة هذه الميزة هو الآن** — لا تكلفة إضافية، وتستلزم سطرًا واحدًا فقط من الكود."
+      ],
+      "keyFacts": [
+        { "value": "~35%", "label": "أقل وقت انتظار في الجلسات الطويلة" },
+        { "value": "500K–1M رمز", "label": "النطاق حيث تظهر أكبر المكاسب" },
+        { "value": "5 دقائق", "label": "قبل انتهاء صلاحية الخيط الخامل" },
+        { "value": "2 نوف. 2026", "label": "تاريخ إطلاق النسخة التجريبية العامة" }
+      ]
+    }
+  }
+}
