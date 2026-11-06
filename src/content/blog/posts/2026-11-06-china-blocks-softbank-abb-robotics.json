@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-06-china-blocks-softbank-abb-robotics",
+  "date": "2026-11-06",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "Eurasia Business News — China Blocks SoftBank's $5.4 Billion ABB Robotics Deal Over AI Data Concerns",
+      "url": "https://eurasiabusinessnews.com/2026/11/06/china-blocks-softbanks-5-4-billion-abb-robotics-deal-over-ai-data-concerns/"
+    },
+    {
+      "title": "AI Insider — China Blocks SoftBank's Acquisition of ABB's Robotics Division",
+      "url": "https://theaiinsider.tech/2026/11/05/china-blocks-softbanks-acquisition-of-abbs-robotics-division/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What China's Block of a $5.4 Billion Robotics Deal Tells Us About Physical AI",
+      "summary": "China stopped one of the biggest robotics buyouts ever, and the reason — robot data as a national resource — changes how any business should think about building with physical AI.",
+      "body": [
+        "China just blocked one of the biggest deals in robotics history. SoftBank, a Japanese technology company, agreed in October 2025 to buy ABB's robotics division for $5.4 billion. Last week, China's government said no — and the reason it gave is new and important: **robot data is a national resource** that should not leave the country.",
+        "ABB makes robots for factories. Its robots work in Chinese factories all day, every day, tracking movements, spotting problems, and feeding data back into systems. China is ABB's single biggest market — about 30% of its entire robotics business — and ABB even runs its global robotics headquarters out of Shanghai. When SoftBank, a foreign company, was about to take over, officials reportedly worried that all that factory data could start training AI models outside China.",
+        "This is not just about ABB and SoftBank. For years, the most valuable kind of data was what people wrote, clicked, and searched. Now robots are creating a new kind of data: **how physical work actually happens**. Where a part goes wrong. How a supply chain moves in real time. What a factory floor really looks like. This kind of data is what the next generation of smarter robots will need to learn from. China appears to have decided it wants to keep control of that.",
+        "If you are building a product or business that uses AI or robots in the real world, **plan for a world of separate data zones**. The idea that one AI system can learn from everything everywhere — that a robot trained in Germany shares what it learned with a factory in Shenzhen — is getting harder to rely on. Data that trains AI in one country may never be allowed to leave. Build your systems with that in mind."
+      ],
+      "keyFacts": [
+        { "value": "$5.4B", "label": "deal blocked by China" },
+        { "value": "~30%", "label": "China's share of ABB Robotics revenue" },
+        { "value": "7,000+", "label": "ABB Robotics employees worldwide" },
+        { "value": "Nov 5, 2026", "label": "block confirmed by ABB" }
+      ]
+    },
+    "de": {
+      "title": "Was Chinas Veto gegen einen 5,4-Milliarden-Dollar-Robotik-Deal über die Zukunft von KI verrät",
+      "summary": "China hat eine der größten Robotik-Übernahmen aller Zeiten gestoppt — und der Grund, Roboterdaten als strategisches Gut, verändert, wie jedes Unternehmen über den Aufbau mit physischer KI denken sollte.",
+      "body": [
+        "China hat gerade eine der größten Übernahmen in der Robotikgeschichte blockiert. SoftBank, ein japanisches Technologieunternehmen, hatte im Oktober 2025 vereinbart, ABBs Robotiksparte für 5,4 Milliarden Dollar zu kaufen. Letzte Woche sagte die chinesische Regierung nein — und der genannte Grund ist neu und bedeutsam: **Roboterdaten sind ein strategisches Gut**, das das Land nicht verlassen darf.",
+        "ABB baut Roboter für Fabriken. Ihre Roboter arbeiten Tag für Tag in chinesischen Produktionshallen, verfolgen Bewegungen, erkennen Fehler und liefern Daten an Steuerungssysteme. China ist ABBs größter Einzelmarkt — rund 30 % des gesamten Robotikgeschäfts — und ABB betreibt sogar seinen globalen Robotik-Hauptsitz in Schanghai. Als SoftBank, ein ausländisches Unternehmen, kurz vor der Übernahme stand, befürchteten Behörden offenbar, dass diese Fabrikdaten KI-Modelle außerhalb Chinas trainieren könnten.",
+        "Es geht nicht nur um ABB und SoftBank. Jahrelang waren die wertvollsten Daten das, was Menschen schrieben, anklickten und suchten. Jetzt erzeugen Roboter eine neue Art von Daten: **wie körperliche Arbeit wirklich abläuft**. Wo ein Bauteil versagt. Wie sich eine Lieferkette in Echtzeit bewegt. Was eine Fabrikhalle tatsächlich aussieht. Genau diese Daten werden gebraucht, damit die nächste Generation von Robotern klüger wird. China scheint entschieden zu haben, die Kontrolle darüber zu behalten.",
+        "Wer ein Produkt oder Unternehmen aufbaut, bei dem KI oder Roboter in der realen Welt eingesetzt werden, sollte **eine Welt getrennter Datenzonen einplanen**. Die Vorstellung, dass ein KI-System überall und von allem lernen kann — dass ein in Deutschland trainierter Roboter sein Wissen mit einer Fabrik in Shenzhen teilt — wird immer schwerer durchsetzbar. Daten, die in einem Land KI trainieren, dürfen dieses Land möglicherweise nie verlassen. Bau deine Systeme mit diesem Gedanken."
+      ],
+      "keyFacts": [
+        { "value": "$5.4B", "label": "von China blockierter Dealwert" },
+        { "value": "~30%", "label": "Chinas Anteil am ABB-Robotikumsatz" },
+        { "value": "7.000+", "label": "ABB-Robotik-Mitarbeiter weltweit" },
+        { "value": "5. Nov. 2026", "label": "Bestätigung des Verbots durch ABB" }
+      ]
+    },
+    "nl": {
+      "title": "Wat China's veto op een deal van 5,4 miljard dollar zegt over de toekomst van AI",
+      "summary": "China blokkeerde een van de grootste robotica-overnames ooit, en de reden — robotdata als nationaal bezit — verandert hoe elk bedrijf moet nadenken over bouwen met fysieke AI.",
+      "body": [
+        "China heeft zojuist een van de grootste overnames in de geschiedenis van de robotica tegengehouden. SoftBank, een Japans technologiebedrijf, had in oktober 2025 afgesproken om de roboticadivisie van ABB te kopen voor 5,4 miljard dollar. Vorige week zei de Chinese overheid nee — en de reden is nieuw en belangrijk: **robotdata is een nationaal bezit** dat het land niet mag verlaten.",
+        "ABB maakt robots voor fabrieken. Die robots werken dag in dag uit in Chinese fabrieken, registreren bewegingen, sporen problemen op en sturen data terug naar systemen. China is ABBs grootste markt — ongeveer 30% van het hele roboticabedrijf — en ABB heeft zelfs zijn wereldwijde roboticahoofdkantoor in Shanghai. Toen SoftBank, een buitenlands bedrijf, op het punt stond over te nemen, maakten officials zich naar verluidt zorgen dat al die fabrieksdata AI-modellen buiten China kon gaan trainen.",
+        "Dit gaat niet alleen over ABB en SoftBank. Jarenlang waren de meest waardevolle data wat mensen schreven, klikten en zochten. Nu maken robots een nieuw soort data: **hoe fysiek werk er echt uitziet**. Waar een onderdeel misgaat. Hoe een toeleveringsketen zich in realtime beweegt. Hoe een fabriekshal er werkelijk uitziet. Dit zijn de data die nodig zijn om de volgende generatie robots slimmer te maken. China lijkt besloten te hebben dat het daar de controle over wil houden.",
+        "Als jij een product of bedrijf bouwt waarbij AI of robots in de echte wereld worden ingezet, **bouw dan rekening houdend met afzonderlijke datazones**. Het idee dat één AI-systeem overal en van alles kan leren — dat een in Duitsland getrainde robot zijn kennis deelt met een fabriek in Shenzhen — wordt steeds moeilijker om op te rekenen. Data die AI in één land traint, mag dat land misschien nooit verlaten. Bouw je systemen met dat in gedachten."
+      ],
+      "keyFacts": [
+        { "value": "$5.4B", "label": "door China geblokkeerde dealwaarde" },
+        { "value": "~30%", "label": "China's aandeel in ABB Robotics-omzet" },
+        { "value": "7.000+", "label": "ABB Robotics-medewerkers wereldwijd" },
+        { "value": "5 nov. 2026", "label": "blokkering bevestigd door ABB" }
+      ]
+    },
+    "es": {
+      "title": "Lo que el veto de China a una operación de 5.400 millones nos dice sobre el futuro de la IA",
+      "summary": "China bloqueó una de las mayores adquisiciones de robótica de la historia, y el motivo — los datos de robots como recurso nacional — cambia cómo cualquier empresa debería pensar en la IA física.",
+      "body": [
+        "China acaba de bloquear una de las mayores operaciones en la historia de la robótica. SoftBank, una empresa tecnológica japonesa, acordó en octubre de 2025 comprar la división de robótica de ABB por 5.400 millones de dólares. La semana pasada, el gobierno chino dijo que no — y la razón que dio es nueva e importante: **los datos de los robots son un recurso nacional** que no debe salir del país.",
+        "ABB fabrica robots para fábricas. Sus robots trabajan en factorías chinas todos los días, registrando movimientos, detectando problemas y enviando datos a los sistemas. China es el mayor mercado individual de ABB, unos 30% de todo su negocio de robótica, y ABB incluso tiene su sede mundial de robótica en Shanghái. Cuando SoftBank, una empresa extranjera, estaba a punto de tomar el control, las autoridades se mostraron preocupadas porque todos esos datos de fábrica podrían empezar a entrenar modelos de IA fuera de China.",
+        "Esto no es solo cuestión de ABB y SoftBank. Durante años, los datos más valiosos eran los que las personas escribían, hacían clic y buscaban. Ahora los robots generan un nuevo tipo de datos: **cómo funciona realmente el trabajo físico**. Dónde falla una pieza. Cómo se mueve una cadena de suministro en tiempo real. Cómo es una planta de producción por dentro. Esos datos son los que necesita la próxima generación de robots para volverse más inteligente. China parece haber decidido que quiere mantener el control sobre ellos.",
+        "Si estás construyendo un producto o negocio en el que la IA o los robots trabajan en el mundo real, **planifica para un mundo con zonas de datos separadas**. La idea de que un sistema de IA puede aprender de todo en cualquier lugar — que un robot entrenado en Alemania comparta lo que aprendió con una fábrica en Shenzhen — se vuelve cada vez más difícil de dar por supuesta. Los datos que entrenan la IA en un país puede que nunca tengan permitido salir de él. Diseña tus sistemas teniéndolo en cuenta."
+      ],
+      "keyFacts": [
+        { "value": "$5.4B", "label": "valor de la operación bloqueada por China" },
+        { "value": "~30%", "label": "cuota de China en ingresos de ABB Robotics" },
+        { "value": "7.000+", "label": "empleados de ABB Robotics en el mundo" },
+        { "value": "5 nov. 2026", "label": "bloqueo confirmado por ABB" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que le veto de la Chine sur un accord de 5,4 milliards nous dit sur l'avenir de l'IA",
+      "summary": "La Chine a bloqué l'une des plus grandes acquisitions jamais réalisées dans la robotique, et la raison — les données des robots comme ressource nationale — change la façon dont toute entreprise devrait penser l'IA physique.",
+      "body": [
+        "La Chine vient de bloquer l'une des plus grandes transactions de l'histoire de la robotique. SoftBank, une entreprise technologique japonaise, avait convenu en octobre 2025 d'acquérir la division robotique d'ABB pour 5,4 milliards de dollars. La semaine dernière, le gouvernement chinois a dit non — et la raison invoquée est nouvelle et importante : **les données des robots sont une ressource nationale** qui ne doit pas quitter le pays.",
+        "ABB fabrique des robots pour les usines. Ses robots travaillent dans des usines chinoises jour après jour, enregistrant des mouvements, détectant des anomalies et renvoyant des données aux systèmes. La Chine est le premier marché d'ABB, représentant environ 30 % de son activité robotique, et ABB tient même son siège mondial de robotique à Shanghai. Lorsque SoftBank, une entreprise étrangère, s'apprêtait à prendre le contrôle, les autorités ont craint que toutes ces données d'usine puissent commencer à entraîner des modèles d'IA en dehors de Chine.",
+        "Ce n'est pas seulement une affaire entre ABB et SoftBank. Pendant des années, les données les plus précieuses étaient ce que les gens écrivaient, cliquaient et cherchaient. Désormais, les robots génèrent un nouveau type de données : **comment le travail physique se passe vraiment**. Là où une pièce tombe en panne. Comment une chaîne logistique évolue en temps réel. À quoi ressemble véritablement un atelier de production. Ce sont ces données qui permettront à la prochaine génération de robots d'apprendre et de devenir plus intelligente. La Chine semble avoir décidé d'en garder le contrôle.",
+        "Si vous construisez un produit ou une entreprise où l'IA ou des robots opèrent dans le monde réel, **prévoyez un monde avec des zones de données séparées**. L'idée qu'un système d'IA peut apprendre de tout partout — qu'un robot entraîné en Allemagne partage ses connaissances avec une usine de Shenzhen — devient de plus en plus difficile à tenir pour acquise. Les données qui entraînent l'IA dans un pays pourraient ne jamais avoir le droit de le quitter. Concevez vos systèmes en tenant compte de cette réalité."
+      ],
+      "keyFacts": [
+        { "value": "$5.4B", "label": "valeur de l'opération bloquée par la Chine" },
+        { "value": "~30%", "label": "part de la Chine dans le chiffre d'affaires d'ABB Robotics" },
+        { "value": "7 000+", "label": "employés d'ABB Robotics dans le monde" },
+        { "value": "5 nov. 2026", "label": "blocage confirmé par ABB" }
+      ]
+    },
+    "ar": {
+      "title": "ما يكشفه رفض الصين لصفقة بقيمة 5.4 مليار دولار عن مستقبل الذكاء الاصطناعي",
+      "summary": "أوقفت الصين واحدة من أكبر عمليات الاستحواذ في مجال الروبوتات، والسبب — اعتبار بيانات الروبوتات مورداً وطنياً — يغيّر طريقة تفكير كل شركة في الذكاء الاصطناعي الجسدي.",
+      "body": [
+        "أوقفت الصين للتو واحدة من أكبر الصفقات في تاريخ صناعة الروبوتات. كانت سوفت بنك، الشركة التقنية اليابانية، قد اتفقت في أكتوبر 2025 على شراء قسم الروبوتات في مجموعة ABB بمبلغ 5.4 مليار دولار. الأسبوع الماضي، رفضت الحكومة الصينية ذلك — والسبب الذي أعلنته جديد ومهم: **بيانات الروبوتات مورد وطني** لا يجوز تصديره خارج البلاد.",
+        "تصنع ABB روبوتات للمصانع. تعمل هذه الروبوتات في مصانع صينية يوماً بعد يوم، تتتبع الحركات وترصد الأعطال وترسل البيانات إلى أنظمة التحكم. تُعدّ الصين أكبر سوق منفرد لـ ABB، إذ تمثل نحو 30% من أعمالها في الروبوتات، بل إن ABB تُدير مقرها العالمي للروبوتات من شانغهاي. حين كانت سوفت بنك، الشركة الأجنبية، على وشك الاستحواذ، أشارت التقارير إلى أن المسؤولين خشوا أن تُغذّي بيانات المصانع تلك نماذج ذكاء اصطناعي خارج الصين.",
+        "الأمر لا يقتصر على ABB وسوفت بنك. ظلت البيانات الأكثر قيمة لسنوات هي ما يكتبه الناس ويضغطون عليه ويبحثون عنه. أما الآن، فالروبوتات تُنتج نوعاً جديداً من البيانات: **كيف يجري العمل الجسدي فعلياً**. أين يتعطل مكوّن ما. كيف تتحرك سلسلة توريد في الزمن الحقيقي. كيف تبدو قاعة الإنتاج من الداخل. هذه البيانات هي ما يحتاجه الجيل القادم من الروبوتات الأكثر ذكاءً للتعلم منه. ويبدو أن الصين قررت الإمساك بزمام السيطرة عليها.",
+        "إن كنت تبني منتجاً أو عملاً تجارياً يستخدم الذكاء الاصطناعي أو الروبوتات في العالم الحقيقي، **خطط لعالم مقسّم إلى مناطق بيانات منفصلة**. فكرة أن نظام ذكاء اصطناعي واحد يمكنه التعلم من كل شيء في كل مكان — أن روبوتاً دُرّب في ألمانيا يتشارك ما تعلمه مع مصنع في شنتشن — باتت أصعب الاعتماد عليها. البيانات التي تُدرّب الذكاء الاصطناعي في بلد ما ربما لن يُسمح لها قط بمغادرته. ابنِ أنظمتك مع استحضار هذا الواقع."
+      ],
+      "keyFacts": [
+        { "value": "$5.4B", "label": "قيمة الصفقة التي أوقفتها الصين" },
+        { "value": "~30%", "label": "حصة الصين من إيرادات ABB للروبوتات" },
+        { "value": "7,000+", "label": "موظفو ABB للروبوتات حول العالم" },
+        { "value": "5 نوف. 2026", "label": "تأكيد ABB للحظر" }
+      ]
+    }
+  }
+}
