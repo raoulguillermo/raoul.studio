@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-08-agility-robotics-humanoid-ipo",
+  "date": "2026-11-08",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "The Robot Report — Agility Robotics begins trading on Nasdaq",
+      "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
+    },
+    {
+      "title": "GCN — Agility Robotics becomes first public pure-play humanoid robot maker",
+      "url": "https://gcn.com/humanoid-robot-agility-robotics-becomes-first/23082/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "What the first humanoid robot IPO tells us about where automation is headed",
+      "summary": "Agility Robotics just became the first purely humanoid robot company to list on a major stock exchange — a signal that physical automation has crossed from science project to real business.",
+      "body": [
+        "A company called Agility Robotics listed on the US stock exchange on 5 November — the first purely humanoid robot company ever to do so. Its stock trades on Nasdaq under the ticker AGLT. The headline is not the ticker symbol. **Public markets are now treating humanoid robots as a real business**, not a futuristic bet.",
+        "Agility makes a robot called Digit — two legs, two arms, designed to do warehouse work alongside people, with no safety fence needed. Digit has already clocked **more than 65,000 hours of real work** at nine customer sites, moving boxes and sorting parts for companies like GXO Logistics and AGCO. That is not a demo. That is production.",
+        "The numbers make clear how early this industry still is. Revenue in 2025 was $1.78 million. The loss was $138 million. The company is valued at $2.5 billion — almost entirely on the promise of what is coming. Foxconn led a $201 million private investment round. **More than $300 million in orders are already placed for the next version of Digit**, called Digit 5, with deliveries starting in 2027.",
+        "For anyone running a business that depends on physical work — a warehouse, a factory, a fulfilment operation — this listing is a signal. Capital is flowing into humanoid robots at the scale that drives production costs down. The question has shifted from \"will this ever work?\" to **\"when does it become affordable?\"** The practical move: map which repetitive physical tasks in your operation do not need much human judgment. Those are the first to be automated. You do not need to buy a robot today — but knowing where your gaps are means you will be ready when the economics shift."
+      ],
+      "keyFacts": [
+        { "value": "$2.5B", "label": "Agility's valuation at listing" },
+        { "value": "$465M", "label": "raised in the SPAC deal" },
+        { "value": "65,000+", "label": "hours Digit has worked in real facilities" },
+        { "value": "$300M+", "label": "in orders already placed for Digit 5" }
+      ]
+    },
+    "de": {
+      "title": "Was der erste Börsengang eines Humanoid-Robotik-Unternehmens über die Zukunft der Automatisierung sagt",
+      "summary": "Agility Robotics ist jetzt das erste reine Humanoid-Robotik-Unternehmen an einer großen Börse — ein Signal, dass physische Automatisierung aufgehört hat, Zukunftsmusik zu sein.",
+      "body": [
+        "Am 5. November wurde ein Unternehmen namens Agility Robotics an der US-Börse Nasdaq unter dem Kürzel AGLT gelistet — das erste rein auf humanoide Roboter ausgerichtete Unternehmen, das diesen Schritt je getan hat. Die eigentliche Botschaft ist nicht das Börsenkürzel: **Die Finanzmärkte behandeln humanoide Roboter jetzt als echtes Geschäft** — nicht mehr als futuristische Wette.",
+        "Agility baut einen Roboter namens Digit — zwei Beine, zwei Arme, konzipiert für die Arbeit in Lagerhäusern neben Menschen, ganz ohne Sicherheitskäfig. Digit hat bereits **mehr als 65.000 Stunden Echtbetrieb** in neun Kundenanlagen geleistet — bei Unternehmen wie GXO Logistics und AGCO. Das ist kein Demonstrationsmodell. Das ist Produktion.",
+        "Die Zahlen zeigen, wie früh die Branche noch ist. Der Umsatz 2025 betrug 1,78 Millionen Dollar. Der Verlust lag bei 138 Millionen Dollar. Das Unternehmen wird mit 2,5 Milliarden Dollar bewertet — fast ausschließlich auf Basis zukünftiger Möglichkeiten. Foxconn führte eine Privatinvestition von 201 Millionen Dollar an. **Für die nächste Digit-Version liegen bereits Aufträge über mehr als 300 Millionen Dollar vor**, mit Auslieferungen ab 2027.",
+        "Wer ein Unternehmen betreibt, das auf körperliche Arbeit angewiesen ist — ein Lager, eine Fabrik, ein Fulfillment-Center — sollte diesen Börsengang als Signal lesen. Kapital fließt jetzt in humanoide Roboter in einem Ausmaß, das die Produktionskosten sinken lässt. Die Frage lautet nicht mehr \"Wird das jemals funktionieren?\", sondern **\"Wann wird es für uns erschwinglich sein?\"** Der erste praktische Schritt: Kartiere, welche sich wiederholenden körperlichen Aufgaben in deinem Betrieb kein komplexes Urteilsvermögen erfordern. Die werden als Erste automatisiert. Du musst heute keinen Roboter kaufen — aber wer seine Lücken kennt, ist bereit, wenn sich die Wirtschaftlichkeit verschiebt."
+      ],
+      "keyFacts": [
+        { "value": "$2.5B", "label": "Bewertung von Agility beim Börsengang" },
+        { "value": "$465M", "label": "beim SPAC-Deal eingesammelt" },
+        { "value": "65.000+", "label": "Stunden Echtbetrieb in Kundenanlagen" },
+        { "value": "$300M+", "label": "bereits platzierte Aufträge für Digit 5" }
+      ]
+    },
+    "nl": {
+      "title": "Wat de eerste beursgang van een humanoïde roboticabedrijf zegt over de toekomst van automatisering",
+      "summary": "Agility Robotics is nu het eerste pure humanoïde roboticabedrijf dat noteert op een grote beurs — een signaal dat fysieke automatisering van sciencefiction naar echte business is gegaan.",
+      "body": [
+        "Op 5 november werd een bedrijf genaamd Agility Robotics genoteerd op de Nasdaq onder de ticker AGLT — het eerste bedrijf dat zich volledig richt op humanoïde robots en ooit zo'n stap zet. De echte boodschap zit niet in het tickersymbool: **de financiële markten behandelen humanoïde robots nu als een serieus bedrijf**, niet als een futuristisch experiment.",
+        "Agility maakt een robot genaamd Digit — twee benen, twee armen, ontworpen om magazijnwerk naast mensen te doen, zonder veiligheidskooi. Digit heeft al **meer dan 65.000 uur echt werk** gedraaid bij negen klantlocaties — voor bedrijven als GXO Logistics en AGCO. Dit is geen demo. Dit is productie.",
+        "De cijfers maken duidelijk hoe vroeg het nog is in deze branche. De omzet in 2025 was $1,78 miljoen. Het verlies was $138 miljoen. Het bedrijf wordt gewaardeerd op $2,5 miljard — bijna volledig op basis van wat er nog moet komen. Foxconn leidde een private investering van $201 miljoen. **Er is al voor meer dan $300 miljoen aan orders geplaatst voor de volgende versie van Digit**, Digit 5, met leveringen vanaf 2027.",
+        "Voor iedereen die een bedrijf runt dat afhankelijk is van fysieke arbeid — een magazijn, een fabriek, een fulfillmentcentrum — is deze beursnotering een signaal. Er stroomt nu kapitaal naar humanoïde robots op een schaal die de productiekosten omlaag drijft. De vraag is verschoven van \"werkt dit ooit?\" naar **\"wanneer wordt het betaalbaar voor ons?\"** De praktische stap: breng in kaart welke repetitieve fysieke taken in jouw operatie weinig menselijk oordeel vereisen. Die worden als eerste geautomatiseerd. Je hoeft vandaag geen robot te kopen — maar weten waar je gaten zitten, betekent dat je er klaar voor bent als de economie kantelt."
+      ],
+      "keyFacts": [
+        { "value": "$2.5B", "label": "waardering van Agility bij de beursgang" },
+        { "value": "$465M", "label": "opgehaald via de SPAC-deal" },
+        { "value": "65.000+", "label": "uur echt werk in klantlocaties" },
+        { "value": "$300M+", "label": "al geplaatste orders voor Digit 5" }
+      ]
+    },
+    "es": {
+      "title": "Qué nos dice la primera salida a bolsa de una empresa de robots humanoides sobre el futuro de la automatización",
+      "summary": "Agility Robotics acaba de convertirse en la primera empresa puramente de robots humanoides en cotizar en una gran bolsa — una señal de que la automatización física ha pasado de ser ciencia ficción a un negocio real.",
+      "body": [
+        "El 5 de noviembre, una empresa llamada Agility Robotics se listó en la bolsa Nasdaq de EE. UU. bajo el ticker AGLT — la primera compañía dedicada exclusivamente a robots humanoides en dar ese paso. Lo importante no es el símbolo bursátil. **Los mercados financieros están tratando a los robots humanoides como un negocio real**, no como una apuesta futurista.",
+        "Agility fabrica un robot llamado Digit — dos piernas, dos brazos, diseñado para trabajar junto a personas en almacenes, sin necesidad de jaulas de seguridad. Digit ya acumula **más de 65.000 horas de trabajo real** en nueve instalaciones de clientes, moviendo cajas y clasificando piezas para empresas como GXO Logistics y AGCO. Eso no es una demostración. Es producción.",
+        "Los números dejan claro lo incipiente que sigue siendo esta industria. Los ingresos en 2025 fueron de $1,78 millones. La pérdida fue de $138 millones. La empresa está valorada en $2.500 millones, casi enteramente sobre la promesa de lo que está por venir. Foxconn lideró una ronda de inversión privada de $201 millones. **Ya hay pedidos por más de $300 millones para la próxima versión de Digit**, llamada Digit 5, con entregas a partir de 2027.",
+        "Para cualquiera que gestione un negocio que depende del trabajo físico — un almacén, una fábrica, un centro logístico — esta cotización es una señal. El capital fluye hacia los robots humanoides a una escala que hace bajar los costes de producción. La pregunta ya no es \"¿esto alguna vez va a funcionar?\", sino **\"¿cuándo será asequible para nosotros?\"** El paso práctico: identifica qué tareas físicas repetitivas de tu operación no requieren mucho juicio humano. Esas son las primeras en automatizarse. No necesitas comprar un robot hoy — pero saber dónde están tus puntos débiles te dejará listo cuando la economía cambie."
+      ],
+      "keyFacts": [
+        { "value": "$2.5B", "label": "valoración de Agility al salir a bolsa" },
+        { "value": "$465M", "label": "captados en el acuerdo SPAC" },
+        { "value": "65.000+", "label": "horas de trabajo real en instalaciones de clientes" },
+        { "value": "$300M+", "label": "en pedidos ya realizados para Digit 5" }
+      ]
+    },
+    "fr": {
+      "title": "Ce que la première introduction en bourse d'une entreprise de robots humanoïdes nous dit sur l'avenir de l'automatisation",
+      "summary": "Agility Robotics vient de devenir la première entreprise purement dédiée aux robots humanoïdes à entrer en bourse — un signal clair que l'automatisation physique est passée du domaine de la science-fiction à celui des affaires réelles.",
+      "body": [
+        "Le 5 novembre, une entreprise appelée Agility Robotics a été introduite en bourse sur le Nasdaq américain sous le symbole AGLT — la première société entièrement dédiée aux robots humanoïdes à franchir ce cap. L'essentiel n'est pas le symbole boursier. **Les marchés financiers traitent désormais les robots humanoïdes comme de vraies entreprises**, et non comme des paris sur l'avenir.",
+        "Agility fabrique un robot appelé Digit — deux jambes, deux bras, conçu pour travailler en entrepôt aux côtés des humains, sans cage de sécurité. Digit a déjà cumulé **plus de 65 000 heures de travail réel** dans neuf sites clients, déplaçant des caisses et triant des pièces pour des entreprises comme GXO Logistics et AGCO. Ce n'est pas une démonstration. C'est de la production.",
+        "Les chiffres montrent à quel point l'industrie est encore à ses débuts. Le chiffre d'affaires en 2025 était de 1,78 million de dollars. La perte s'élevait à 138 millions de dollars. L'entreprise est valorisée 2,5 milliards de dollars — presque entièrement sur la promesse de ce qui est à venir. Foxconn a dirigé un tour d'investissement privé de 201 millions de dollars. **Plus de 300 millions de dollars de commandes sont déjà passées pour la prochaine version de Digit**, Digit 5, avec des livraisons à partir de 2027.",
+        "Pour quiconque gère une activité qui dépend du travail physique — un entrepôt, une usine, une plateforme logistique — cette introduction en bourse est un signal fort. Les capitaux affluent dans les robots humanoïdes à une échelle qui fera baisser les coûts de production. La question n'est plus \"est-ce que ça marchera un jour ?\", mais **\"quand est-ce que ça deviendra abordable pour nous ?\"** La démarche concrète : identifiez quelles tâches physiques répétitives dans votre activité n'exigent pas de jugement humain complexe. Ce sont les premières à être automatisées. Vous n'avez pas besoin d'acheter un robot aujourd'hui — mais connaître vos lacunes vous permettra d'être prêt quand l'économie bascule."
+      ],
+      "keyFacts": [
+        { "value": "$2.5B", "label": "valorisation d'Agility à l'entrée en bourse" },
+        { "value": "$465M", "label": "levés dans le cadre du SPAC" },
+        { "value": "65 000+", "label": "heures de travail réel dans des sites clients" },
+        { "value": "$300M+", "label": "de commandes déjà passées pour Digit 5" }
+      ]
+    },
+    "ar": {
+      "title": "ما الذي يخبرنا به أول طرح عام لشركة روبوتات بشرية الشكل عن مستقبل الأتمتة",
+      "summary": "أصبحت شركة Agility Robotics أول شركة روبوتات بشرية الشكل بحتة تُدرج أسهمها في بورصة كبرى — إشارة واضحة على أن أتمتة الأعمال الجسدية انتقلت من الخيال العلمي إلى واقع تجاري حقيقي.",
+      "body": [
+        "في الخامس من نوفمبر، أُدرجت أسهم شركة تُدعى Agility Robotics في بورصة ناسداك الأمريكية تحت الرمز AGLT — وهي أول شركة مخصصة كليًا لروبوتات بشرية الشكل تُقدم على هذه الخطوة. المهم ليس رمز الأسهم. **الأسواق المالية باتت تتعامل مع الروبوتات البشرية الشكل باعتبارها أعمالًا تجارية حقيقية**، لا رهانات مستقبلية.",
+        "تصنع Agility روبوتًا يُسمى Digit — ذو قدمَين وذراعَين، مصمَّم للعمل في المستودعات جنبًا إلى جنب مع البشر، دون حاجة إلى أقفاص حماية. لقد راكم Digit بالفعل **أكثر من 65,000 ساعة عمل فعلي** في تسعة مواقع لدى عملاء من بينهم GXO Logistics وAGCO. هذا ليس عرضًا تجريبيًا — هذا إنتاج حقيقي.",
+        "الأرقام تُوضح مدى بكورة هذه الصناعة. بلغت إيرادات 2025 مليونًا وسبعمائة وثمانين ألف دولار فحسب، فيما بلغت الخسارة 138 مليون دولار. تُقدَّر قيمة الشركة بـ2.5 مليار دولار — استنادًا بشكل شبه كامل إلى ما ينتظرها من إمكانات. قادت Foxconn جولة استثمار خاصة بقيمة 201 مليون دولار. **تجاوزت الطلبات المُقدَّمة بالفعل للجيل القادم من Digit، المُسمى Digit 5، حاجز 300 مليون دولار**، مع توقع بدء التسليم عام 2027.",
+        "لكل من يدير عملًا يعتمد على العمل الجسدي — مستودعًا أو مصنعًا أو مركز توزيع لوجستي — يمثل هذا الإدراج إشارةً لا يمكن تجاهلها. يتدفق رأس المال نحو الروبوتات البشرية بحجم يدفع تكاليف الإنتاج نحو الانخفاض. لم يعد السؤال \"هل سينجح هذا يومًا ما؟\" بل أصبح **\"متى سيصبح في متناولنا؟\"** الخطوة العملية الآن: حدّد الأعمال الجسدية المتكررة في عملياتك التي لا تتطلب كثيرًا من الحكم البشري. تلك ستكون أولى ما يُؤتمَت. لا تحتاج لشراء روبوت اليوم — لكن معرفة ثغراتك تُهيئك للتأقلم حين يتغير المشهد الاقتصادي."
+      ],
+      "keyFacts": [
+        { "value": "$2.5B", "label": "تقييم Agility عند الإدراج في البورصة" },
+        { "value": "$465M", "label": "جُمعت في صفقة الاندماج" },
+        { "value": "65,000+", "label": "ساعة عمل فعلي في منشآت العملاء" },
+        { "value": "$300M+", "label": "طلبات مُقدَّمة بالفعل لـDigit 5" }
+      ]
+    }
+  }
+}
