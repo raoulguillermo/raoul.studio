@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-10-nvidia-groot-2-robots-learn-by-watching",
+  "date": "2026-11-10",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "TipRanks — Nvidia Reveals New Robot AI with 95% Success Rate in Tests",
+      "url": "https://www.tipranks.com/news/nvidia-reveals-new-robot-ai-with-95-success-rate-in-tests"
+    },
+    {
+      "title": "NVIDIA Newsroom — NVIDIA and Global Robotics Leaders Take Physical AI to the Real World",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Robots that learn by watching — and what that means for factories",
+      "summary": "NVIDIA's new GR00T 2 model lets a robot master a task after seeing it demonstrated just a few times, making it far easier for real businesses to put robots to work.",
+      "body": [
+        "Show a robot something five times, and it can do it reliably. That is what NVIDIA's new GR00T 2 model — released Monday at a robotics conference in Austin, Texas — achieved in controlled tests: a **95% success rate across 50 tasks** after just five demonstrations each. Even after a single demonstration, it succeeded 71% of the time.",
+        "Until now, training a robot to do something new meant weeks of custom programming and expensive specialists. GR00T 2 takes a different approach: it was trained on **100,000 hours of first-person human video**, so it already understands a wide range of physical movements before it ever arrives in a factory. That shared foundation means the same model can work across very different robots and very different tasks.",
+        "Foxconn is already applying it to automate parts of its server assembly process in Houston. Siemens is evaluating it for factory use. These are not small experiments — Foxconn builds some of the most precisely manufactured hardware on the planet, and **real factories are already betting on this**. NVIDIA's CEO Jensen Huang has said every industrial company will become a robotics company.",
+        "If your business involves physical, repetitive work — assembly, packaging, picking, sorting — this is worth watching closely. The barrier to deploying a robot has dropped: you no longer need a team of engineers to program it task by task. You show it the work, and it learns. Keep in mind these are controlled test results; real environments are messier. The practical step today: **pick the first repetitive task in your operation** that a robot could plausibly handle, and start paying attention to how early adopters like Foxconn actually perform."
+      ],
+      "keyFacts": [
+        { "value": "95%", "label": "success rate after 5 demonstrations" },
+        { "value": "71%", "label": "success rate after just 1 demonstration" },
+        { "value": "100,000 hrs", "label": "of human video used to train the model" },
+        { "value": "50", "label": "different tasks tested" }
+      ]
+    },
+    "de": {
+      "title": "Roboter, die durch Zuschauen lernen — und was das für Fabriken bedeutet",
+      "summary": "NVIDIAs neues GR00T-2-Modell ermöglicht es einem Roboter, eine Aufgabe schon nach wenigen Vorführungen zu beherrschen — das macht physische Automatisierung für Unternehmen deutlich zugänglicher.",
+      "body": [
+        "Zeige einem Roboter etwas fünfmal, und er kann es zuverlässig ausführen. Das ist das Ergebnis, das NVIDIAs neues GR00T-2-Modell — veröffentlicht am Montag auf einer Robotikkonferenz in Austin, Texas — in kontrollierten Tests erzielt hat: eine **Erfolgsquote von 95 % bei 50 Aufgaben** nach nur fünf Demonstrationen. Schon nach einer einzigen Demonstration lag die Erfolgsquote bei 71 %.",
+        "Bisher bedeutete das Trainieren eines Roboters für eine neue Aufgabe wochenlange Programmierarbeit und teure Spezialisten. GR00T 2 geht anders vor: Das Modell wurde mit **100.000 Stunden Ego-Perspektive-Menschenvideos** trainiert, sodass es bereits ein breites Spektrum an Bewegungen kennt, bevor es in eine Fabrik kommt. Diese gemeinsame Basis ermöglicht es, dasselbe Modell auf sehr unterschiedliche Roboter und Aufgaben anzuwenden.",
+        "Foxconn setzt es bereits ein, um Teile seiner Serverproduktion in Houston zu automatisieren. Siemens prüft den Einsatz in seinen Fabriken. Das sind keine kleinen Experimente — Foxconn fertigt einige der präzisesten Hardware der Welt, und **echte Fabriken setzen bereits darauf**. NVIDIA-CEO Jensen Huang hat gesagt, jedes Industrieunternehmen werde zu einem Robotikunternehmen.",
+        "Wenn dein Unternehmen körperliche, repetitive Arbeit beinhaltet — Montage, Verpackung, Kommissionierung, Sortierung — lohnt es sich, das genau zu beobachten. Die Hürde für den Einsatz eines Roboters ist gesunken: Du brauchst kein Team von Ingenieuren mehr, das ihn Schritt für Schritt programmiert. Du zeigst ihm die Arbeit, und er lernt. Diese Ergebnisse stammen aus kontrollierten Tests; reale Umgebungen sind komplexer. Der praktische Schritt heute: **Bestimme die erste repetitive Aufgabe in deinem Betrieb**, die ein Roboter übernehmen könnte, und beobachte, wie Frühanwender wie Foxconn abschneiden."
+      ],
+      "keyFacts": [
+        { "value": "95%", "label": "Erfolgsquote nach 5 Vorführungen" },
+        { "value": "71%", "label": "Erfolgsquote nach nur 1 Vorführung" },
+        { "value": "100.000 Std.", "label": "Menschenvideos für das Modelltraining" },
+        { "value": "50", "label": "verschiedene getestete Aufgaben" }
+      ]
+    },
+    "nl": {
+      "title": "Robots die leren door te kijken — en wat dat betekent voor fabrieken",
+      "summary": "NVIDIAs nieuwe GR00T 2-model stelt een robot in staat een taak al na een paar demonstraties te beheersen, waardoor fysieke automatisering voor bedrijven aanzienlijk toegankelijker wordt.",
+      "body": [
+        "Laat een robot iets vijf keer zien en het kan het betrouwbaar uitvoeren. Dat is het resultaat dat NVIDIAs nieuwe GR00T 2-model — gepresenteerd op maandag op een roboticaconferentie in Austin, Texas — behaalde in gecontroleerde tests: een **slagingspercentage van 95% bij 50 taken** na slechts vijf demonstraties. Na slechts één demonstratie was de slaagkans al 71%.",
+        "Tot nu toe vergde het trainen van een robot voor een nieuwe taak weken van programmeerwerk en dure specialisten. GR00T 2 kiest een andere aanpak: het model is getraind op **100.000 uur first-person menselijke video**, zodat het al een breed scala aan bewegingen begrijpt voordat het een fabriek betreedt. Die gedeelde basis maakt het mogelijk hetzelfde model toe te passen op heel verschillende robots en taken.",
+        "Foxconn past het al toe om delen van zijn serverproductie in Houston te automatiseren. Siemens onderzoekt het voor fabrieksgebruik. Dit zijn geen kleine proeven — Foxconn maakt een deel van de meest precies vervaardigde hardware ter wereld, en **echte fabrieken zetten er al op in**. NVIDIA-CEO Jensen Huang heeft gezegd dat elk industrieel bedrijf een roboticabedrijf zal worden.",
+        "Als jouw bedrijf fysiek, repetitief werk omvat — assemblage, verpakking, picken, sorteren — is het de moeite waard om dit goed in de gaten te houden. De drempel voor het inzetten van een robot is gedaald: je hebt geen team ingenieurs meer nodig om hem stap voor stap te programmeren. Je laat hem het werk zien en hij leert het. Houd er rekening mee dat dit gecontroleerde testresultaten zijn; echte omgevingen zijn complexer. De praktische stap nu: **bepaal de eerste repetitieve taak in jouw operatie** die een robot aankan, en volg hoe vroege gebruikers zoals Foxconn het doen."
+      ],
+      "keyFacts": [
+        { "value": "95%", "label": "slagingspercentage na 5 demonstraties" },
+        { "value": "71%", "label": "slagingspercentage na slechts 1 demonstratie" },
+        { "value": "100.000 uur", "label": "menselijke video voor de modeltraining" },
+        { "value": "50", "label": "verschillende geteste taken" }
+      ]
+    },
+    "es": {
+      "title": "Robots que aprenden mirando: lo que eso significa para las fábricas",
+      "summary": "El nuevo modelo GR00T 2 de NVIDIA permite que un robot domine una tarea con solo observarla unas pocas veces, lo que hace que la automatización física sea mucho más accesible para las empresas.",
+      "body": [
+        "Muéstrale a un robot algo cinco veces y podrá hacerlo de forma fiable. Eso es lo que logró el nuevo modelo GR00T 2 de NVIDIA — presentado el lunes en una conferencia de robótica en Austin, Texas — en pruebas controladas: una **tasa de éxito del 95% en 50 tareas** con solo cinco demostraciones cada una. Incluso tras una sola demostración, el éxito fue del 71%.",
+        "Hasta ahora, entrenar a un robot para una nueva tarea requería semanas de programación personalizada y especialistas costosos. GR00T 2 toma un camino diferente: fue entrenado con **100.000 horas de vídeo humano en primera persona**, por lo que ya entiende una gran variedad de movimientos físicos antes de llegar a una fábrica. Esa base común permite aplicar el mismo modelo a robots y tareas muy distintos.",
+        "Foxconn ya lo está aplicando para automatizar partes de su proceso de ensamblaje de servidores en Houston. Siemens lo está evaluando para uso en fábricas. No son experimentos pequeños — Foxconn fabrica algunos de los hardware más precisos del mundo, y **las fábricas reales ya están apostando por esto**. El CEO de NVIDIA, Jensen Huang, ha dicho que toda empresa industrial se convertirá en una empresa de robótica.",
+        "Si tu negocio implica trabajo físico y repetitivo — ensamblaje, empaquetado, picking, clasificación — vale la pena seguir esto de cerca. La barrera para desplegar un robot ha bajado: ya no necesitas un equipo de ingenieros que lo programe tarea por tarea. Le muestras el trabajo y aprende. Ten en cuenta que estos son resultados de pruebas controladas; los entornos reales son más complejos. El paso práctico ahora: **identifica la primera tarea repetitiva en tu operación** que un robot podría manejar, y sigue de cerca cómo les va a los primeros adoptantes como Foxconn."
+      ],
+      "keyFacts": [
+        { "value": "95%", "label": "tasa de éxito tras 5 demostraciones" },
+        { "value": "71%", "label": "tasa de éxito tras solo 1 demostración" },
+        { "value": "100.000 h", "label": "de vídeo humano para entrenar el modelo" },
+        { "value": "50", "label": "tareas diferentes probadas" }
+      ]
+    },
+    "fr": {
+      "title": "Des robots qui apprennent en observant — et ce que cela change pour les usines",
+      "summary": "Le nouveau modèle GR00T 2 de NVIDIA permet à un robot de maîtriser une tâche après l'avoir vue seulement quelques fois, ce qui rend l'automatisation physique bien plus accessible pour les entreprises.",
+      "body": [
+        "Montrez quelque chose cinq fois à un robot, et il peut le faire de façon fiable. C'est ce qu'a démontré le nouveau modèle GR00T 2 de NVIDIA — présenté lundi lors d'une conférence de robotique à Austin, au Texas — dans des tests contrôlés : un **taux de réussite de 95 % sur 50 tâches** après seulement cinq démonstrations chacune. Même après une seule démonstration, le taux atteignait déjà 71 %.",
+        "Jusqu'ici, apprendre à un robot une nouvelle tâche nécessitait des semaines de programmation personnalisée et des spécialistes coûteux. GR00T 2 prend une autre voie : il a été entraîné sur **100 000 heures de vidéo humaine en vue subjective**, ce qui lui permet de comprendre un large éventail de mouvements physiques avant même d'arriver en usine. Cette base commune permet d'appliquer le même modèle à des robots et des tâches très différents.",
+        "Foxconn l'utilise déjà pour automatiser une partie de son processus d'assemblage de serveurs à Houston. Siemens l'évalue pour une utilisation en usine. Ce ne sont pas de petites expérimentations — Foxconn fabrique certains des équipements les plus précis au monde, et **de vraies usines misent déjà dessus**. Le PDG de NVIDIA, Jensen Huang, a déclaré que toute entreprise industrielle deviendra une entreprise de robotique.",
+        "Si votre activité implique un travail physique et répétitif — assemblage, emballage, prélèvement, tri — cela mérite d'être suivi de près. Le seuil pour déployer un robot a baissé : vous n'avez plus besoin d'une équipe d'ingénieurs pour le programmer tâche par tâche. Vous lui montrez le travail, et il apprend. Ces résultats proviennent de tests contrôlés ; les environnements réels sont plus complexes. L'étape concrète aujourd'hui : **identifiez la première tâche répétitive à automatiser** dans votre activité, et observez comment les premiers adoptants comme Foxconn s'en sortent."
+      ],
+      "keyFacts": [
+        { "value": "95%", "label": "taux de réussite après 5 démonstrations" },
+        { "value": "71%", "label": "taux de réussite après 1 seule démonstration" },
+        { "value": "100 000 h", "label": "de vidéo humaine pour entraîner le modèle" },
+        { "value": "50", "label": "tâches différentes testées" }
+      ]
+    },
+    "ar": {
+      "title": "روبوتات تتعلم بالمشاهدة — وما يعنيه ذلك للمصانع",
+      "summary": "يتيح نموذج GR00T 2 الجديد من NVIDIA لروبوت أن يتقن مهمة بعد مشاهدتها عدد قليل من المرات فقط، مما يجعل الأتمتة المادية أكثر سهولة وإتاحة للشركات.",
+      "body": [
+        "أرِ روبوتًا شيئًا خمس مرات، وسيتمكن من تنفيذه بشكل موثوق. هذا ما حققه نموذج GR00T 2 الجديد من NVIDIA — الذي أُطلق يوم الاثنين في مؤتمر للروبوتيات في أوستن بولاية تكساس — في اختبارات مضبوطة: **نسبة نجاح 95% في 50 مهمة** بعد خمسة عروض توضيحية لكل مهمة. وحتى بعد عرض توضيحي واحد فقط، بلغت نسبة النجاح 71%.",
+        "حتى وقت قريب، كان تدريب روبوت على مهمة جديدة يتطلب أسابيع من البرمجة المخصصة ومتخصصين مكلفين. يسلك GR00T 2 نهجًا مختلفًا: تم تدريبه على **100,000 ساعة من فيديو بشري بمنظور الشخص الأول**، مما يتيح له فهم مجموعة واسعة من الحركات الجسدية قبل أن يصل إلى أي مصنع. هذه القاعدة المشتركة تجعل نفس النموذج قابلًا للتطبيق على روبوتات ومهام مختلفة جدًا.",
+        "تعمل فوكسكون بالفعل على تطبيقه لأتمتة أجزاء من عملية تجميع خوادمها في هيوستن. وتُقيِّم سيمنز استخدامه في مصانعها. ليست هذه تجارب صغيرة — فوكسكون تُصنِّع بعضًا من أدق الأجهزة في العالم، و**مصانع حقيقية تراهن على هذا النموذج بالفعل**. يقول جنسن هوانغ، الرئيس التنفيذي لـ NVIDIA، إن كل شركة صناعية ستصبح شركة روبوتيات.",
+        "إن كان عملك يتضمن عملًا جسديًا متكررًا — تجميعًا أو تعبئةً أو فرزًا أو تخزينًا — فهذا يستحق متابعة دقيقة. لقد انخفض الحاجز أمام نشر روبوت: لم تعد بحاجة إلى فريق من المهندسين لبرمجته مهمةً تلو الأخرى. أرِه العمل فيتعلمه. ضع في اعتبارك أن هذه نتائج اختبارات مضبوطة؛ البيئات الحقيقية أكثر تعقيدًا. الخطوة العملية اليوم: **حدِّد أول مهمة متكررة في عملياتك** يمكن لروبوت التعامل معها، وتابع كيف يؤدي المتبنون الأوائل كفوكسكون."
+      ],
+      "keyFacts": [
+        { "value": "95%", "label": "نسبة النجاح بعد 5 عروض توضيحية" },
+        { "value": "71%", "label": "نسبة النجاح بعد عرض توضيحي واحد فقط" },
+        { "value": "100,000 ساعة", "label": "من فيديو بشري لتدريب النموذج" },
+        { "value": "50", "label": "مهمة مختلفة تم اختبارها" }
+      ]
+    }
+  }
+}
