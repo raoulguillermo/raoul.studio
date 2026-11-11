@@ -1,0 +1,118 @@
+{
+  "slug": "2026-11-11-meta-muse-ember-cheap-agents",
+  "date": "2026-11-11",
+  "tags": ["ai", "agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Meta AI Research — Introducing Muse Ember",
+      "url": "https://research.meta.ai/blog/muse-ember"
+    },
+    {
+      "title": "Digital Trends — Meta launches Muse Ember, a cheaper AI model built for repetitive tasks",
+      "url": "https://digitaltrends.com/computing/meta-launches-muse-ember-a-cheaper-ai-model-built-for-repetitive-tasks"
+    },
+    {
+      "title": "ETV Bharat — Major AI upgrades: Meta Muse, OpenAI Dot, Google Maps and Claude Fable Mythos",
+      "url": "https://etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Agent work just got 17x cheaper — what that changes for builders",
+      "summary": "Meta's new Muse Ember model costs 17 times less per task than its previous small model, which means AI agents that repeat the same jobs all day are now cheap enough for many more businesses to run.",
+      "body": [
+        "On November 9, Meta launched a new AI model called Muse Ember. It costs $0.10 per million input tokens and $0.50 per million output tokens — about $0.14 per task on standard benchmarks. Meta's previous small model, Muse Spark 1.3, runs the same task for $2.39. That makes Ember **17 times cheaper per task** — a real shift for anyone building AI-powered software.",
+        "Muse Ember is not trying to be the most powerful AI around. It is designed for the unglamorous work that agents do in the background all day: calling a tool, routing a request, pulling data from a long document, writing a small piece of code. These jobs happen thousands of times in a live system. **The cost adds up fast.** At Ember's prices, that stops being the main worry.",
+        "The benchmarks back up the claim. On AutomationBench — a test of real business workflows from start to finish — Muse Ember scored 37.8%. Claude Haiku 5.5 scored 13.9% and needs **three times as much spend to match** Ember's score. GPT-6 Luna came in at 20.2%. Haiku does still lead on a coding benchmark called FrontierCode, so Ember is not the best tool for everything — but for agent loops the value is clear.",
+        "The honest takeaway: when the cost of running an agent drops 17 times, more things become worth automating. Tasks that were too expensive to run on a loop — checking inventory, classifying support tickets, summarising documents — look different when the cost is near zero. **Ask which jobs could run on a cheap agent** in your business today. Muse Ember is available now on Meta's API, Google Cloud, and Oracle Cloud."
+      ],
+      "keyFacts": [
+        { "value": "$0.10 / $0.50", "label": "price per million tokens (input / output)" },
+        { "value": "17x", "label": "cheaper per task than Muse Spark 1.3" },
+        { "value": "37.8%", "label": "Muse Ember's AutomationBench score" },
+        { "value": "1M", "label": "token context window" }
+      ]
+    },
+    "de": {
+      "title": "Agenten-Aufgaben kosten jetzt 17-mal weniger — was das für Entwickler bedeutet",
+      "summary": "Metas neues Muse-Ember-Modell kostet pro Aufgabe 17-mal weniger als das bisherige kleine Modell — KI-Agenten, die den ganzen Tag dieselben Jobs wiederholen, sind damit für viel mehr Unternehmen erschwinglich.",
+      "body": [
+        "Am 9. November hat Meta ein neues KI-Modell namens Muse Ember veröffentlicht. Es kostet $0,10 pro Million Eingabe-Token und $0,50 pro Million Ausgabe-Token — in gebräuchlichen Tests etwa $0,14 pro Aufgabe. Metas bisheriges kleines Modell, Muse Spark 1.3, kostet $2,39 für dieselbe Aufgabe. Das macht Ember **17-mal günstiger pro Aufgabe** — ein echter Einschnitt für alle, die KI-basierte Software entwickeln.",
+        "Muse Ember will nicht das leistungsstärkste KI-Modell sein. Es ist für die unscheinbaren Aufgaben gedacht, die Agenten den ganzen Tag im Hintergrund erledigen: ein Werkzeug aufrufen, eine Anfrage weiterleiten, Daten aus einem langen Dokument extrahieren, ein kleines Stück Code reparieren. Diese Aufgaben passieren in einem Live-System tausende Male. **Die Kosten summieren sich schnell.** Zu Embers Preisen hört das auf, das Hauptproblem zu sein.",
+        "Die Benchmarks bestätigen den Anspruch. Bei AutomationBench — einem Test echter Geschäftsabläufe von Anfang bis Ende — erzielte Muse Ember 37,8 %. Claude Haiku 5.5 kam auf 13,9 % und braucht **dreimal so viel Budget, um mitzuhalten**. GPT-6 Luna erzielte 20,2 %. Bei einem Coding-Benchmark namens FrontierCode liegt Haiku noch vorne — Ember ist also nicht für jeden Einsatz das beste Werkzeug, aber für Agenten-Schleifen ist der Wert klar.",
+        "Das ehrliche Fazit: Wenn die Kosten für einen Agenten um den Faktor 17 sinken, lohnt sich mehr zu automatisieren. Aufgaben, die bisher zu teuer für den Dauerbetrieb waren — Lagerbestände prüfen, Support-Tickets klassifizieren, Dokumente zusammenfassen — sehen anders aus, wenn die Kosten fast null betragen. **Fragen Sie, welche Jobs ein günstiger Agent übernehmen könnte** — in Ihrem Unternehmen, noch heute. Muse Ember ist ab sofort über die Meta-API, Google Cloud und Oracle Cloud verfügbar."
+      ],
+      "keyFacts": [
+        { "value": "$0.10 / $0.50", "label": "Preis pro Million Token (Eingabe / Ausgabe)" },
+        { "value": "17x", "label": "günstiger pro Aufgabe als Muse Spark 1.3" },
+        { "value": "37.8%", "label": "Muse Embers AutomationBench-Score" },
+        { "value": "1M", "label": "Token-Kontextfenster" }
+      ]
+    },
+    "nl": {
+      "title": "Agentwerk is zojuist 17x goedkoper geworden — wat dat verandert voor bouwers",
+      "summary": "Meta's nieuwe Muse Ember-model kost per taak 17 keer minder dan het vorige kleine model, waardoor AI-agents die de hele dag dezelfde taken herhalen voor veel meer bedrijven betaalbaar worden.",
+      "body": [
+        "Op 9 november lanceerde Meta een nieuw AI-model genaamd Muse Ember. Het kost $0,10 per miljoen invoertokens en $0,50 per miljoen uitvoertokens — ongeveer $0,14 per taak in standaardtests. Meta's vorige kleine model, Muse Spark 1.3, kost $2,39 voor dezelfde taak. Dat maakt Ember **17 keer goedkoper per taak** — een echte verschuiving voor iedereen die AI-software bouwt.",
+        "Muse Ember wil niet het krachtigste AI-model ter wereld zijn. Het is gemaakt voor het onzichtbare werk dat agents de hele dag op de achtergrond doen: een tool aanroepen, een verzoek doorsturen, gegevens uit een lang document halen, een stukje code repareren. Deze taken komen duizenden keren voor in een live systeem. **De kosten lopen snel op.** Op Ember's prijsniveau houdt dat op het grootste probleem te zijn.",
+        "De benchmarks ondersteunen de claim. Op AutomationBench — een test van echte bedrijfsprocessen van begin tot eind — scoorde Muse Ember 37,8%. Claude Haiku 5.5 scoorde 13,9% en heeft **drie keer zo veel budget nodig om bij te blijven**. GPT-6 Luna haalde 20,2%. Op een codeer-benchmark genaamd FrontierCode wint Haiku nog steeds, dus Ember is niet voor elke taak het beste gereedschap — maar voor agentlussen is de meerwaarde helder.",
+        "De eerlijke conclusie: als de kosten van een agent 17 keer dalen, wordt meer automatisering de moeite waard. Taken die te duur waren om continu te draaien — voorraad controleren, supporttickets indelen, documenten samenvatten — zien er anders uit als de kosten bijna nul zijn. **Vraag welke taken een goedkope agent al zou kunnen uitvoeren** in jouw bedrijf. Muse Ember is nu beschikbaar via Meta's API, Google Cloud en Oracle Cloud."
+      ],
+      "keyFacts": [
+        { "value": "$0.10 / $0.50", "label": "prijs per miljoen tokens (invoer / uitvoer)" },
+        { "value": "17x", "label": "goedkoper per taak dan Muse Spark 1.3" },
+        { "value": "37.8%", "label": "Muse Ember's AutomationBench-score" },
+        { "value": "1M", "label": "token contextvenster" }
+      ]
+    },
+    "es": {
+      "title": "El trabajo de los agentes acaba de hacerse 17 veces más barato — lo que eso cambia para los desarrolladores",
+      "summary": "El nuevo modelo Muse Ember de Meta cuesta 17 veces menos por tarea que su anterior modelo pequeño, lo que significa que los agentes de IA que repiten los mismos trabajos todo el día ahora son asequibles para muchas más empresas.",
+      "body": [
+        "El 9 de noviembre, Meta lanzó un nuevo modelo de IA llamado Muse Ember. Cuesta $0,10 por millón de tokens de entrada y $0,50 por millón de tokens de salida — unos $0,14 por tarea en pruebas estándar. El anterior modelo pequeño de Meta, Muse Spark 1.3, cuesta $2,39 para la misma tarea. Eso hace que Ember sea **17 veces más barato por tarea** — un cambio real para cualquiera que construya software con IA.",
+        "Muse Ember no pretende ser el modelo de IA más potente del mundo. Está diseñado para el trabajo invisible que los agentes hacen en segundo plano todo el día: llamar a una herramienta, enrutar una solicitud, extraer datos de un documento largo, corregir un pequeño fragmento de código. Estas tareas ocurren miles de veces en un sistema en producción. **Los costes se acumulan rápidamente.** Con los precios de Ember, eso deja de ser el principal problema.",
+        "Los benchmarks respaldan la afirmación. En AutomationBench — un test de flujos de trabajo empresariales reales de principio a fin — Muse Ember obtuvo un 37,8%. Claude Haiku 5.5 obtuvo un 13,9% y necesita **tres veces más presupuesto para igualar** la puntuación de Ember. GPT-6 Luna llegó al 20,2%. Haiku sigue ganando en un benchmark de programación llamado FrontierCode, así que Ember no es la mejor herramienta para todo — pero para los bucles de agentes el valor es evidente.",
+        "La conclusión honesta: cuando el coste de ejecutar un agente cae 17 veces, merece la pena automatizar más cosas. Tareas que antes eran demasiado caras para ejecutar en bucle — revisar el inventario, clasificar tickets de soporte, resumir documentos — tienen otra perspectiva cuando el coste es casi cero. **Pregunta qué tareas podría asumir un agente barato** en tu negocio hoy mismo. Muse Ember está disponible ahora en la API de Meta, Google Cloud y Oracle Cloud."
+      ],
+      "keyFacts": [
+        { "value": "$0.10 / $0.50", "label": "precio por millón de tokens (entrada / salida)" },
+        { "value": "17x", "label": "más barato por tarea que Muse Spark 1.3" },
+        { "value": "37.8%", "label": "puntuación de Muse Ember en AutomationBench" },
+        { "value": "1M", "label": "ventana de contexto en tokens" }
+      ]
+    },
+    "fr": {
+      "title": "Les agents IA coûtent désormais 17 fois moins cher — ce que cela change pour les développeurs",
+      "summary": "Le nouveau modèle Muse Ember de Meta coûte 17 fois moins par tâche que son précédent petit modèle, ce qui signifie que les agents IA qui répètent les mêmes tâches toute la journée deviennent accessibles à beaucoup plus d'entreprises.",
+      "body": [
+        "Le 9 novembre, Meta a lancé un nouveau modèle d'IA appelé Muse Ember. Il coûte $0,10 par million de tokens en entrée et $0,50 par million de tokens en sortie — soit environ $0,14 par tâche dans les tests courants. Le précédent petit modèle de Meta, Muse Spark 1.3, coûte $2,39 pour la même tâche. Cela rend Ember **17 fois moins cher par tâche** — un vrai changement pour tous ceux qui construisent des logiciels avec l'IA.",
+        "Muse Ember n'ambitionne pas d'être le modèle d'IA le plus puissant du monde. Il est conçu pour le travail invisible que les agents font en arrière-plan toute la journée : appeler un outil, aiguiller une requête, extraire des données d'un long document, corriger un petit bout de code. Ces tâches se produisent des milliers de fois dans un système en production. **Les coûts s'accumulent vite.** Aux tarifs d'Ember, cela cesse d'être le principal problème.",
+        "Les benchmarks confirment la promesse. Sur AutomationBench — un test de flux de travail réels de bout en bout — Muse Ember a obtenu 37,8 %. Claude Haiku 5.5 a obtenu 13,9 % et nécessite **trois fois plus de budget pour suivre** le score d'Ember. GPT-6 Luna est arrivé à 20,2 %. Haiku garde l'avantage sur un benchmark de programmation appelé FrontierCode, donc Ember n'est pas le meilleur outil pour tout — mais pour les boucles d'agents la valeur est claire.",
+        "La conclusion honnête : quand le coût d'un agent diminue de 17 fois, davantage de choses valent la peine d'être automatisées. Des tâches trop coûteuses à faire tourner en boucle — vérifier les stocks, classer des tickets de support, résumer des documents — changent de visage quand le coût est proche de zéro. **Demandez quelles tâches un agent bon marché pourrait prendre en charge** dans votre activité aujourd'hui. Muse Ember est disponible dès maintenant sur l'API de Meta, Google Cloud et Oracle Cloud."
+      ],
+      "keyFacts": [
+        { "value": "$0.10 / $0.50", "label": "prix par million de tokens (entrée / sortie)" },
+        { "value": "17x", "label": "moins cher par tâche que Muse Spark 1.3" },
+        { "value": "37.8%", "label": "score de Muse Ember sur AutomationBench" },
+        { "value": "1M", "label": "fenêtre de contexte en tokens" }
+      ]
+    },
+    "ar": {
+      "title": "عمل الوكلاء أصبح الآن أرخص بـ17 مرة — وهذا ما يغيره للمطورين",
+      "summary": "نموذج Muse Ember الجديد من Meta يكلّف 17 مرة أقل لكل مهمة مقارنةً بنموذجه الصغير السابق، مما يعني أن وكلاء الذكاء الاصطناعي الذين يكررون نفس المهام طوال اليوم أصبحوا في متناول عدد أكبر بكثير من الشركات.",
+      "body": [
+        "في التاسع من نوفمبر، أطلقت Meta نموذجاً جديداً للذكاء الاصطناعي يُسمى Muse Ember. يكلّف $0.10 لكل مليون رمز (token) في المدخلات و$0.50 لكل مليون رمز في المخرجات — أي نحو $0.14 لكل مهمة في الاختبارات المعيارية. كان نموذج Meta الصغير السابق، Muse Spark 1.3، يكلّف $2.39 لنفس المهمة. هذا يجعل Ember **أرخص بـ17 مرة لكل مهمة** — تحوّل حقيقي لكل من يبني برمجيات تعتمد على الذكاء الاصطناعي.",
+        "لا يسعى Muse Ember لأن يكون أقوى نموذج ذكاء اصطناعي في العالم. فهو مصمَّم للعمل الخفي الذي تؤديه الوكلاء في الخلفية طوال اليوم: استدعاء أداة، توجيه طلب، استخراج بيانات من مستند طويل، إصلاح جزء صغير من الكود. هذه المهام تتكرر آلاف المرات في نظام حي. **التكاليف تتراكم بسرعة.** بأسعار Ember، يتوقف هذا عن كونه المشكلة الرئيسية.",
+        "الاختبارات المعيارية تدعم هذا الادعاء. في AutomationBench — اختبار لسير العمل التجاري الحقيقي من البداية إلى النهاية — سجّل Muse Ember 37.8%. سجّل Claude Haiku 5.5 نسبة 13.9% ويحتاج **ثلاثة أضعاف الميزانية للمجاراة**. بينما جاء GPT-6 Luna بنسبة 20.2%. لا يزال Haiku يتفوق في اختبار البرمجة FrontierCode، لذا ليس Ember الأداة الأفضل لكل شيء — لكن لحلقات الوكلاء القيمة واضحة.",
+        "الخلاصة الصادقة: حين تنخفض تكلفة تشغيل وكيل بمقدار 17 مرة، تصبح المزيد من المهام تستحق الأتمتة. مهام كانت مكلفة جداً للتشغيل المستمر — فحص المخزون، تصنيف تذاكر الدعم، تلخيص الوثائق — تبدو مختلفة حين تقترب التكلفة من الصفر. **اسأل أي مهام يمكن لوكيل رخيص أن يتولاها** في عملك اليوم. Muse Ember متاح الآن عبر Meta API وGoogle Cloud وOracle Cloud."
+      ],
+      "keyFacts": [
+        { "value": "$0.10 / $0.50", "label": "السعر لكل مليون رمز (مدخلات / مخرجات)" },
+        { "value": "17x", "label": "أرخص لكل مهمة من Muse Spark 1.3" },
+        { "value": "37.8%", "label": "نتيجة Muse Ember في AutomationBench" },
+        { "value": "1M", "label": "نافذة السياق بالرموز" }
+      ]
+    }
+  }
+}
