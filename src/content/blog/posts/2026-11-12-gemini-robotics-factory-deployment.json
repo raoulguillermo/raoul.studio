@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-12-gemini-robotics-factory-deployment",
+  "date": "2026-11-12",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Google DeepMind — Gemini Robotics 2.5 accelerates real-world physical intelligence",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    },
+    {
+      "title": "SiliconANGLE — Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model",
+      "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "96% at Mercedes-Benz: the gap between robot demo and real deployment just shrank",
+      "summary": "Google's new robot software scored 96% on a live car-factory floor — which means robots are no longer just for demos, they are doing real industrial work.",
+      "body": [
+        "On November 10, Google DeepMind released Gemini Robotics 2.5, a new version of its robot-brain software. Within days, humanoid robots from partner Apptronik were running on live production lines at Mercedes-Benz in Hungary and Germany, sorting car parts at a **96% success rate**. That is not a lab test. That is a robot doing real work on an active production line.",
+        "The jump from the previous version is big. DeepMind tested the model across 200 different tasks. On several of them, the old version scored zero. The new model completes tasks 20 to 30 percent faster and succeeds much more often — on some dexterous tasks, the success rate **went from near-zero to over 90 percent**. That kind of leap in one release is rare.",
+        "Safety improved significantly too. The model works **43 percent better around people** and 33 percent better near obstacles. DeepMind also published ASIMOV-Jailbreak, a public test with hundreds of prompts designed to trick a robot into doing something dangerous. Their best model blocked 99.5 percent of those attempts, up from 82 percent in the previous version.",
+        "This is not just one model update. It is a signal. Robots are crossing a line — from compelling demos into real industrial deployments. Manufacturing, logistics, and warehousing will see this first. If your business involves repetitive physical tasks, **the gap between demo and real deployment just shrank** — and that changes what you should be planning now."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "success rate on live Mercedes-Benz production line" },
+        { "value": "200", "label": "distinct tasks tested in evaluation" },
+        { "value": "+43%", "label": "safer around people than previous version" },
+        { "value": "20–30%", "label": "faster task completion" }
+      ]
+    },
+    "de": {
+      "title": "96 % bei Mercedes-Benz: der Abstand zwischen Roboter-Demo und echtem Einsatz wird kleiner",
+      "summary": "Googles neue Roboter-Software erzielte 96 % Erfolgsquote auf einem aktiven Autofabrikboden — das zeigt: Roboter sind keine reine Showveranstaltung mehr, sie erledigen echte Industriearbeit.",
+      "body": [
+        "Am 10. November veröffentlichte Google DeepMind Gemini Robotics 2.5, eine neue Version seiner Roboter-Steuerungssoftware. Kurz danach liefen humanoide Roboter des Partners Apptronik auf den aktiven Produktionslinien von Mercedes-Benz in Ungarn und Deutschland und sortierten Autoteile mit einer **96-%-Erfolgsquote**. Das ist kein Labortest. Das ist ein Roboter, der echte Arbeit auf einer aktiven Produktionslinie erledigt.",
+        "Der Sprung gegenüber der Vorgängerversion ist beachtlich. DeepMind testete das Modell an 200 verschiedenen Aufgaben. Bei einigen davon kam die alte Version auf null Prozent. Das neue Modell erledigt Aufgaben 20 bis 30 Prozent schneller und deutlich häufiger erfolgreich — bei einigen Präzisionsaufgaben **stieg die Erfolgsrate von fast null auf über 90 Prozent**. So ein Sprung in einer einzigen Version ist selten.",
+        "Auch die Sicherheit verbesserte sich deutlich. Das Modell arbeitet **43 Prozent sicherer in der Nähe von Menschen** und 33 Prozent besser bei Hindernissen. DeepMind veröffentlichte außerdem ASIMOV-Jailbreak, einen öffentlichen Test mit Hunderten von Anfragen, die einen Roboter dazu verleiten sollen, etwas Gefährliches zu tun. Das beste Modell blockierte 99,5 Prozent dieser Versuche — gegenüber 82 Prozent in der Vorgängerversion.",
+        "Das ist nicht nur ein Modell-Update. Es ist ein Signal. Roboter überschreiten eine Schwelle — von beeindruckenden Demos hin zu echten Industrieeinsätzen. Fertigung, Logistik und Lagerhaltung werden das zuerst erleben. Wenn Ihr Unternehmen repetitive physische Aufgaben umfasst, **ist der Abstand zwischen Demo und echtem Einsatz gerade kleiner geworden** — und das verändert, was Sie jetzt planen sollten."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "Erfolgsquote auf der aktiven Mercedes-Benz-Produktionslinie" },
+        { "value": "200", "label": "getestete verschiedene Aufgaben" },
+        { "value": "+43%", "label": "sicherer in der Nähe von Menschen" },
+        { "value": "20–30%", "label": "schnellere Aufgabenerfüllung" }
+      ]
+    },
+    "nl": {
+      "title": "96% bij Mercedes-Benz: de kloof tussen robot-demo en echte inzet wordt kleiner",
+      "summary": "Googles nieuwe robotsoftware scoorde 96% op een actieve autofabrieksvloer — dat betekent dat robots niet langer alleen voor demo's zijn, maar echte industriële taken uitvoeren.",
+      "body": [
+        "Op 10 november bracht Google DeepMind Gemini Robotics 2.5 uit, een nieuwe versie van zijn robot-sturingssoftware. Al snel draaiden humanoïde robots van partner Apptronik op actieve productielijnen van Mercedes-Benz in Hongarije en Duitsland, waar ze auto-onderdelen sorteerden met een **96% slagingspercentage**. Geen laboratoriumtest. Een robot die echt werk verricht op een actieve productielijn.",
+        "De sprong ten opzichte van de vorige versie is groot. DeepMind testte het model op 200 verschillende taken. Bij sommige scoorde de vorige versie nul. Het nieuwe model werkt 20 tot 30 procent sneller en slaagt veel vaker — bij sommige precisieopdrachten **steeg de slagingskans van bijna nul naar meer dan 90 procent**. Zo'n sprong in één release is zeldzaam.",
+        "Ook de veiligheid verbeterde aanzienlijk. Het model werkt **43 procent veiliger rondom mensen** en 33 procent beter bij obstakels. DeepMind publiceerde ook ASIMOV-Jailbreak, een openbare test met honderden prompts die een robot proberen te verleiden iets gevaarlijks te doen. Het beste model blokkeerde 99,5 procent van die pogingen — tegenover 82 procent in de vorige versie.",
+        "Dit is niet zomaar een update. Het is een signaal. Robots overschrijden een grens — van indrukwekkende demo's naar echte industriële inzet. Productie, logistiek en warehousing zullen dit als eerste merken. Als jouw bedrijf repetitieve fysieke taken kent, **is de kloof tussen demo en inzet zojuist kleiner geworden** — en dat verandert wat je nu moet plannen."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "slagingspercentage op de Mercedes-Benz productielijn" },
+        { "value": "200", "label": "geteste taken in de evaluatie" },
+        { "value": "+43%", "label": "veiliger rondom mensen dan vorige versie" },
+        { "value": "20–30%", "label": "snellere taakvoltooiing" }
+      ]
+    },
+    "es": {
+      "title": "96 % en Mercedes-Benz: la brecha entre la demo de robots y el despliegue real acaba de reducirse",
+      "summary": "El nuevo software de robots de Google logró el 96 % de éxito en una línea de producción activa de automóviles — lo que significa que los robots ya no son solo para demostraciones, sino que realizan trabajo industrial real.",
+      "body": [
+        "El 10 de noviembre, Google DeepMind lanzó Gemini Robotics 2.5, una nueva versión de su software de control robótico. Poco después, robots humanoides del socio Apptronik operaban en líneas de producción activas de Mercedes-Benz en Hungría y Alemania, clasificando piezas de automóviles con una **tasa de éxito del 96 %**. No es una prueba de laboratorio. Es un robot haciendo trabajo real en una línea de producción activa.",
+        "El salto respecto a la versión anterior es notable. DeepMind evaluó el modelo en 200 tareas distintas. En varias de ellas, la versión anterior obtuvo cero. El nuevo modelo completa tareas un 20 a 30 % más rápido y con mucho mayor frecuencia — en algunas tareas de destreza, la tasa de éxito **pasó de casi cero a más del 90 %**. Un salto así en una sola versión es poco común.",
+        "La seguridad también mejoró de forma significativa. El modelo trabaja **un 43 % mejor cerca de personas** y un 33 % mejor al esquivar obstáculos. DeepMind también publicó ASIMOV-Jailbreak, una prueba pública con cientos de indicaciones diseñadas para engañar a un robot y que haga algo peligroso. Su mejor modelo bloqueó el 99,5 % de esos intentos, frente al 82 % de la versión anterior.",
+        "Esto no es solo una actualización de modelo. Es una señal. Los robots están cruzando una línea — de demostraciones impresionantes a despliegues industriales reales. Fabricación, logística y almacenamiento serán los primeros en sentirlo. Si tu negocio implica tareas físicas repetitivas, **la brecha entre la demo y el despliegue real acaba de reducirse** — y eso cambia lo que deberías estar planificando ahora."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "tasa de éxito en la línea de producción activa de Mercedes-Benz" },
+        { "value": "200", "label": "tareas distintas evaluadas" },
+        { "value": "+43%", "label": "más seguro cerca de personas que la versión anterior" },
+        { "value": "20–30%", "label": "tareas completadas más rápido" }
+      ]
+    },
+    "fr": {
+      "title": "96 % chez Mercedes-Benz : l'écart entre démo robotique et déploiement réel vient de se réduire",
+      "summary": "Le nouveau logiciel robotique de Google a obtenu 96 % de réussite sur une chaîne de production automobile en activité — ce qui signifie que les robots ne sont plus réservés aux démonstrations, ils font désormais du vrai travail industriel.",
+      "body": [
+        "Le 10 novembre, Google DeepMind a lancé Gemini Robotics 2.5, une nouvelle version de son logiciel de contrôle robotique. Peu après, des robots humanoïdes du partenaire Apptronik opéraient sur des lignes de production actives de Mercedes-Benz en Hongrie et en Allemagne, triant des pièces automobiles avec un **taux de réussite de 96 %**. Ce n'est pas un test en laboratoire. C'est un robot qui effectue un vrai travail sur une chaîne de production active.",
+        "Le bond par rapport à la version précédente est frappant. DeepMind a testé le modèle sur 200 tâches différentes. Sur plusieurs d'entre elles, l'ancienne version obtenait zéro. Le nouveau modèle accomplit les tâches 20 à 30 % plus vite et réussit bien plus souvent — sur certaines tâches de dextérité, le taux de réussite **est passé de quasi zéro à plus de 90 %**. Un tel bond en une seule version est rare.",
+        "La sécurité s'est également nettement améliorée. Le modèle fonctionne **43 % mieux à proximité des personnes** et 33 % mieux face aux obstacles. DeepMind a aussi publié ASIMOV-Jailbreak, un test public avec des centaines de prompts conçus pour inciter un robot à faire quelque chose de dangereux. Leur meilleur modèle a bloqué 99,5 % de ces tentatives — contre 82 % pour la version précédente.",
+        "Ce n'est pas seulement une mise à jour de modèle. C'est un signal. Les robots franchissent une ligne — des démonstrations impressionnantes aux déploiements industriels réels. La production, la logistique et l'entreposage seront les premiers concernés. Si votre activité implique des tâches physiques répétitives, **l'écart entre la démo et le déploiement réel vient de se réduire** — et cela change ce que vous devriez planifier dès maintenant."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "taux de réussite sur la ligne de production Mercedes-Benz" },
+        { "value": "200", "label": "tâches distinctes testées" },
+        { "value": "+43%", "label": "plus sûr à proximité des personnes" },
+        { "value": "20–30%", "label": "accomplissement des tâches plus rapide" }
+      ]
+    },
+    "ar": {
+      "title": "96% في مصنع مرسيدس-بنز: الفجوة بين عرض الروبوت والنشر الفعلي تتقلص",
+      "summary": "حقق برنامج الروبوتات الجديد من Google نسبة نجاح 96% على خط إنتاج نشط في مصنع سيارات — وهذا يعني أن الروبوتات لم تعد مجرد عروض توضيحية، بل باتت تنجز أعمالاً صناعية حقيقية.",
+      "body": [
+        "في العاشر من نوفمبر، أطلق Google DeepMind إصدار Gemini Robotics 2.5، وهو نسخة جديدة من برنامج التحكم في الروبوتات. بعد وقت قصير، كانت روبوتات بشرية الشكل من شريك التصنيع Apptronik تعمل على خطوط الإنتاج النشطة في مصانع مرسيدس-بنز في المجر وألمانيا، لتفرز قطع السيارات بـ**معدل نجاح 96%**. هذا ليس اختباراً معملياً. هذا روبوت يؤدي عملاً حقيقياً على خط إنتاج نشط.",
+        "القفزة عن النسخة السابقة ملحوظة. اختبر DeepMind النموذج على 200 مهمة مختلفة. في بعض منها، حصل النموذج السابق على صفر. النموذج الجديد أسرع بنسبة 20 إلى 30 بالمئة، وأكثر نجاحاً — ففي بعض مهام الدقة اليدوية، **ارتفعت نسبة النجاح من شبه صفر إلى أكثر من 90 بالمئة**. مثل هذه القفزة في إصدار واحد نادرة.",
+        "تحسّن الأمان بشكل ملحوظ أيضاً. النموذج يعمل **بأمان أفضل بنسبة 43% بالقرب من الناس** وبنسبة 33% أفضل بالقرب من العوائق. كما نشر DeepMind اختباراً عاماً اسمه ASIMOV-Jailbreak، يضم مئات الأوامر المصممة لخداع الروبوت للقيام بشيء خطير. أفضل نموذج لديهم صدّ 99.5% من تلك المحاولات، مقارنةً بـ82% في النسخة السابقة.",
+        "هذا ليس مجرد تحديث نموذج. إنه إشارة. الروبوتات تعبر خطاً — من العروض التوضيحية المثيرة إلى النشر الصناعي الفعلي. الصناعة والخدمات اللوجستية والمستودعات ستكون الأولى في الاستفادة. إذا كانت أعمالك تتضمن مهام جسدية متكررة، **فإن الفجوة بين العرض التوضيحي والنشر الفعلي تقلصت للتو** — وهذا يغيّر ما يجب أن تخطط له الآن."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "معدل النجاح على خط الإنتاج النشط في مرسيدس-بنز" },
+        { "value": "200", "label": "مهمة مختلفة تم اختبارها" },
+        { "value": "+43%", "label": "أكثر أماناً بالقرب من الناس مقارنة بالنسخة السابقة" },
+        { "value": "20–30%", "label": "أسرع في إنجاز المهام" }
+      ]
+    }
+  }
+}
