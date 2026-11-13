@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-13-gemini-robotics-factory-floor",
+  "date": "2026-11-13",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Google DeepMind — Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    },
+    {
+      "title": "SiliconANGLE — Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model",
+      "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "The gap between lab robots and factory robots just closed",
+      "summary": "Google DeepMind's new robot AI hit a 96% success rate on real Mercedes-Benz production lines, showing that physical AI is now moving as fast as software AI.",
+      "body": [
+        "For years, robot demos looked impressive and worked nowhere outside the lab. That changed this week. **Google DeepMind's new AI model is running on real production lines at Mercedes-Benz**, packing automotive parts with a 96% success rate — not in a test setting, but on actual factory floors in Hungary and Germany.",
+        "The model is called Gemini Robotics 2.5. It is a kind of AI brain — called a vision-language-action model, or VLA — that teaches robots how to look at a scene, understand what needs to happen, and move to do it. It was tested across more than 200 different physical tasks: tying bows on gift boxes, serving food with tongs, picking up delicate parts. Compared to the previous version, it **completes tasks with a 30% to 100% higher success rate**, depending on the task, and does them 20% to 30% faster.",
+        "The Mercedes-Benz result is the number worth pausing on. Getting a robot to reliably do the same picking and packing task 96 times out of 100, on a real moving production line, is hard. It means the gap between lab performance and real-world performance — which has always been the main problem in robotics — **is finally starting to close**. Jeff Cardenas, CEO of Apptronik, the company that built the Apollo 2 robot hardware used in the pilot, said this is \"the foundation for bringing humanoid robots to industrial and commercial environments at scale.\"",
+        "The model is currently rolling out through Google DeepMind's robotics partners — companies like Apptronik, Agile Robots, and Boston Dynamics — not as a public tool anyone can sign up for. But the direction is clear: **physical AI is on the same curve as software AI**, getting cheaper, faster, and more reliable every few months. If your business moves physical things — in a warehouse, a factory, a kitchen — now is the time to start paying attention, before it becomes widely available and your competitors already know how it works."
+      ],
+      "keyFacts": [
+        { "value": "200+", "label": "physical tasks tested" },
+        { "value": "96%", "label": "success rate at Mercedes-Benz factories" },
+        { "value": "30–100%", "label": "higher task success vs. previous version" },
+        { "value": "20–30%", "label": "faster task completion" }
+      ]
+    },
+    "de": {
+      "title": "Der Abstand zwischen Labor-Robotern und Fabrik-Robotern hat sich gerade geschlossen",
+      "summary": "Googles neues Roboter-KI-Modell erreichte eine Erfolgsquote von 96 % auf echten Mercedes-Benz-Montagelinien – ein Zeichen dafür, dass sich physische KI genauso schnell entwickelt wie Software-KI.",
+      "body": [
+        "Jahrelang sahen Roboter-Demos beeindruckend aus und funktionierten kaum außerhalb von Labors. Diese Woche änderte sich das. **Googles neues KI-Modell läuft auf echten Fertigungslinien bei Mercedes-Benz**, wo es Autoteile mit einer Erfolgsquote von 96 % verpackt – nicht im Testbetrieb, sondern auf echten Fabrikböden in Ungarn und Deutschland.",
+        "Das Modell heißt Gemini Robotics 2.5. Es ist eine Art KI-Gehirn – ein sogenanntes Vision-Language-Action-Modell (VLA) – das Robotern beibringt, eine Szene zu sehen, zu verstehen, was zu tun ist, und die entsprechende Bewegung auszuführen. Es wurde an über 200 verschiedenen körperlichen Aufgaben getestet: Schleifen auf Geschenkboxen binden, Essen mit einer Zange servieren, empfindliche Teile aufheben. Im Vergleich zur Vorgängerversion **erledigt es Aufgaben mit einer 30 bis 100 % höheren Erfolgsquote**, je nach Aufgabe, und ist dabei 20 bis 30 % schneller.",
+        "Die Mercedes-Benz-Zahl ist die, bei der man innehalten sollte. Einen Roboter dazu zu bringen, 96 von 100 Mal zuverlässig dieselbe Greif- und Verpackungsaufgabe auf einer echten Fertigungslinie zu erledigen, ist schwierig. Das bedeutet, dass die Lücke zwischen Laborleistung und realer Leistung – stets das Hauptproblem in der Robotik – **sich endlich zu schließen beginnt**. Jeff Cardenas, CEO von Apptronik, dem Unternehmen hinter der Roboterhardware Apollo 2, sagte, dies sei \"die Grundlage dafür, Humanoide in industrielle und kommerzielle Umgebungen im großen Maßstab zu bringen\".",
+        "Das Modell wird derzeit über DeepMinds Robotikpartner eingeführt – Unternehmen wie Apptronik, Agile Robots und Boston Dynamics – nicht als öffentliches Tool, für das sich jeder anmelden kann. Aber die Richtung ist klar: **Physische KI folgt derselben Kurve wie Software-KI**, wird alle paar Monate günstiger, schneller und zuverlässiger. Wenn Ihr Unternehmen physische Dinge bewegt – in einem Lager, einer Fabrik, einer Küche – ist jetzt der richtige Zeitpunkt, aufzupassen, bevor es weit verbreitet ist und Ihre Mitbewerber bereits wissen, wie es funktioniert."
+      ],
+      "keyFacts": [
+        { "value": "200+", "label": "getestete körperliche Aufgaben" },
+        { "value": "96%", "label": "Erfolgsquote in Mercedes-Benz-Fabriken" },
+        { "value": "30–100%", "label": "höhere Aufgabenerfolgsrate gegenüber Vorgänger" },
+        { "value": "20–30%", "label": "schnellere Aufgabenerledigung" }
+      ]
+    },
+    "nl": {
+      "title": "De kloof tussen laboratoriumrobots en fabrieksrobots is zojuist gedicht",
+      "summary": "Het nieuwe robot-AI-model van Google behaalde een succespercentage van 96% op echte productielijnen bij Mercedes-Benz — een teken dat fysieke AI zich even snel ontwikkelt als software-AI.",
+      "body": [
+        "Al jaren zagen robotdemo's indrukwekkend uit, maar buiten een laboratorium werkten ze nauwelijks. Deze week veranderde dat. **Het nieuwe AI-model van Google draait op echte productielijnen bij Mercedes-Benz**, waar het auto-onderdelen pakt en inpakt met een succespercentage van 96% — niet in een testomgeving, maar op echte fabrieksloopvlakken in Hongarije en Duitsland.",
+        "Het model heet Gemini Robotics 2.5. Het is een soort AI-brein — een zogenaamd vision-language-action model (VLA) — dat robots leert hoe ze een scène moeten bekijken, begrijpen wat er moet gebeuren, en vervolgens bewegen om het te doen. Het werd getest op meer dan 200 verschillende fysieke taken: strikken leggen op cadeaudozen, eten serveren met een tang, kwetsbare onderdelen oppakken. Vergeleken met de vorige versie **voltooit het taken met een 30 tot 100% hoger succespercentage**, afhankelijk van de taak, en doet dat 20 tot 30% sneller.",
+        "Het Mercedes-Benz-resultaat is het getal waarbij je even moet stilstaan. Een robot 96 keer op de 100 dezelfde pak-en-inpaktaak betrouwbaar laten uitvoeren op een echte productielijn is moeilijk. Het betekent dat de kloof tussen prestaties in een lab en prestaties in de echte wereld — altijd het grootste probleem in de robotica — **eindelijk begint te sluiten**. Jeff Cardenas, CEO van Apptronik, het bedrijf achter de robothardware Apollo 2, zei dat dit \"de basis is voor het brengen van humanoïde robots naar industriële en commerciële omgevingen op schaal\".",
+        "Het model wordt momenteel uitgerold via DeepMinds roboticapartners — bedrijven als Apptronik, Agile Robots en Boston Dynamics — niet als een publiek hulpmiddel waar iedereen zich voor kan aanmelden. Maar de richting is duidelijk: **fysieke AI bevindt zich op dezelfde curve als software-AI**, en wordt elke paar maanden goedkoper, sneller en betrouwbaarder. Als jouw bedrijf fysieke dingen verplaatst — in een magazijn, een fabriek, een keuken — is dit het moment om op te letten, voordat het breed beschikbaar is en je concurrenten al weten hoe het werkt."
+      ],
+      "keyFacts": [
+        { "value": "200+", "label": "geteste fysieke taken" },
+        { "value": "96%", "label": "succespercentage bij Mercedes-Benz-fabrieken" },
+        { "value": "30–100%", "label": "hogere taakvoltooiing vs. vorige versie" },
+        { "value": "20–30%", "label": "snellere taakvoltooiing" }
+      ]
+    },
+    "es": {
+      "title": "La brecha entre los robots de laboratorio y los de fábrica acaba de cerrarse",
+      "summary": "El nuevo modelo de IA robótica de Google alcanzó un 96% de éxito en líneas de producción reales de Mercedes-Benz, demostrando que la IA física avanza tan rápido como la IA de software.",
+      "body": [
+        "Durante años, las demostraciones de robots parecían impresionantes pero apenas funcionaban fuera de un laboratorio. Esta semana eso cambió. **El nuevo modelo de IA de Google DeepMind está funcionando en líneas de producción reales de Mercedes-Benz**, empaquetando piezas de automóviles con una tasa de éxito del 96% — no en un entorno de prueba, sino en pisos de fábrica reales en Hungría y Alemania.",
+        "El modelo se llama Gemini Robotics 2.5. Es una especie de cerebro de IA — llamado modelo de visión-lenguaje-acción (VLA) — que enseña a los robots cómo mirar una escena, entender qué debe ocurrir y moverse para hacerlo. Fue probado en más de 200 tareas físicas distintas: atar lazos en cajas de regalo, servir comida con pinzas, recoger piezas delicadas. Comparado con la versión anterior, **completa las tareas con una tasa de éxito entre un 30% y un 100% mayor**, según la tarea, y lo hace un 20% a 30% más rápido.",
+        "El resultado de Mercedes-Benz es el número que merece una pausa. Conseguir que un robot realice de forma fiable la misma tarea de recogida y embalaje 96 de cada 100 veces, en una línea de producción real, es difícil. Significa que la brecha entre el rendimiento en el laboratorio y en el mundo real — siempre el principal problema en la robótica — **está empezando a cerrarse por fin**. Jeff Cardenas, CEO de Apptronik, la empresa que construyó el hardware robótico Apollo 2, dijo que esto es \"la base para llevar robots humanoides a entornos industriales y comerciales a escala\".",
+        "El modelo se está desplegando actualmente a través de los socios robóticos de DeepMind — empresas como Apptronik, Agile Robots y Boston Dynamics — no como una herramienta pública a la que cualquiera pueda suscribirse. Pero la dirección es clara: **la IA física está en la misma curva que la IA de software**, volviéndose más barata, más rápida y más confiable cada pocos meses. Si tu empresa mueve cosas físicas — en un almacén, una fábrica, una cocina — ahora es el momento de prestar atención, antes de que esté ampliamente disponible y tus competidores ya sepan cómo funciona."
+      ],
+      "keyFacts": [
+        { "value": "200+", "label": "tareas físicas probadas" },
+        { "value": "96%", "label": "tasa de éxito en fábricas de Mercedes-Benz" },
+        { "value": "30–100%", "label": "mayor tasa de éxito vs. versión anterior" },
+        { "value": "20–30%", "label": "tareas completadas más rápido" }
+      ]
+    },
+    "fr": {
+      "title": "L'écart entre les robots de laboratoire et les robots d'usine vient de se réduire",
+      "summary": "Le nouveau modèle d'IA robotique de Google a atteint un taux de succès de 96% sur de vraies lignes de production Mercedes-Benz, montrant que l'IA physique avance aussi vite que l'IA logicielle.",
+      "body": [
+        "Pendant des années, les démonstrations de robots semblaient impressionnantes, mais ne fonctionnaient guère en dehors des laboratoires. Cette semaine, cela a changé. **Le nouveau modèle d'IA de Google DeepMind tourne sur de vraies lignes de production chez Mercedes-Benz**, emballant des pièces automobiles avec un taux de succès de 96% — pas dans un cadre de test, mais sur de vrais planchers d'usine en Hongrie et en Allemagne.",
+        "Le modèle s'appelle Gemini Robotics 2.5. C'est une sorte de cerveau d'IA — appelé modèle vision-langage-action (VLA) — qui apprend aux robots à regarder une scène, comprendre ce qui doit se passer, et se déplacer pour le faire. Il a été testé sur plus de 200 tâches physiques distinctes : nouer des nœuds sur des boîtes-cadeaux, servir de la nourriture avec des pinces, ramasser des pièces délicates. Comparé à la version précédente, il **réalise les tâches avec un taux de succès de 30% à 100% plus élevé**, selon la tâche, et les accomplit 20% à 30% plus rapidement.",
+        "Le résultat Mercedes-Benz est le chiffre sur lequel il faut s'arrêter. Faire en sorte qu'un robot effectue de manière fiable la même tâche de préhension et d'emballage 96 fois sur 100, sur une vraie chaîne de production, c'est difficile. Cela signifie que l'écart entre les performances en laboratoire et les performances réelles — toujours le principal problème en robotique — **commence enfin à se réduire**. Jeff Cardenas, PDG d'Apptronik, l'entreprise qui a construit le matériel robotique Apollo 2, a déclaré que c'était « la base pour amener les robots humanoïdes dans des environnements industriels et commerciaux à grande échelle ».",
+        "Le modèle est actuellement déployé via les partenaires robotiques de DeepMind — des entreprises comme Apptronik, Agile Robots et Boston Dynamics — et non comme un outil public auquel tout le monde peut s'inscrire. Mais la direction est claire : **l'IA physique suit la même courbe que l'IA logicielle**, devenant moins chère, plus rapide et plus fiable tous les quelques mois. Si votre entreprise déplace des objets physiques — dans un entrepôt, une usine, une cuisine — c'est maintenant le moment d'y prêter attention, avant qu'elle soit largement disponible et que vos concurrents sachent déjà comment elle fonctionne."
+      ],
+      "keyFacts": [
+        { "value": "200+", "label": "tâches physiques testées" },
+        { "value": "96%", "label": "taux de succès dans les usines Mercedes-Benz" },
+        { "value": "30–100%", "label": "meilleur taux de réussite vs. version précédente" },
+        { "value": "20–30%", "label": "tâches accomplies plus rapidement" }
+      ]
+    },
+    "ar": {
+      "title": "الفجوة بين روبوتات المختبر وروبوتات المصنع أُغلقت للتو",
+      "summary": "حقق نموذج الذكاء الاصطناعي الروبوتي الجديد من Google معدل نجاح 96% على خطوط إنتاج حقيقية في مصانع مرسيدس-بنز، مما يُثبت أن الذكاء الاصطناعي المادي يتطور بنفس سرعة ذكاء البرمجيات.",
+      "body": [
+        "لسنوات، كانت عروض الروبوتات تبدو مبهرة، لكنها بالكاد كانت تعمل خارج المختبرات. هذا الأسبوع، تغيّر الوضع. **نموذج الذكاء الاصطناعي الجديد من Google DeepMind يعمل على خطوط إنتاج حقيقية في مصانع مرسيدس-بنز**، حيث يقوم بتعبئة قطع السيارات بمعدل نجاح 96% — ليس في بيئة اختبار، بل على أرضيات مصانع حقيقية في هنغاريا وألمانيا.",
+        "يُسمى النموذج Gemini Robotics 2.5. إنه نوع من الدماغ الاصطناعي — يُعرف بنموذج الرؤية-اللغة-الفعل (VLA) — يعلّم الروبوتات كيف تنظر إلى مشهد ما، وتفهم ما يجب أن يحدث، وتتحرك للقيام به. تم اختباره على أكثر من 200 مهمة جسدية مختلفة: ربط أقواس على صناديق الهدايا، وتقديم الطعام بالملقط، والتقاط قطع حساسة. مقارنةً بالإصدار السابق، **ينجز المهام بمعدل نجاح أعلى بنسبة 30% إلى 100%** حسب نوع المهمة، وبشكل أسرع بنسبة 20% إلى 30%.",
+        "نتيجة مصانع مرسيدس-بنز هي الرقم الذي يستحق التوقف عنده. إجبار روبوت على تنفيذ نفس مهمة الالتقاط والتعبئة بشكل موثوق 96 مرة من أصل 100، على خط إنتاج حقيقي، أمر صعب. هذا يعني أن الفجوة بين الأداء في المختبر والأداء في العالم الحقيقي — التي كانت دائماً المشكلة الرئيسية في الروبوتات — **بدأت أخيراً في الاختفاء**. قال جيف كارديناس، الرئيس التنفيذي لشركة Apptronik التي بنت الروبوت Apollo 2، إن هذا هو \"الأساس لإحضار الروبوتات الإنسانية إلى البيئات الصناعية والتجارية على نطاق واسع\".",
+        "يتم طرح النموذج حاليًا من خلال شركاء DeepMind في مجال الروبوتات — شركات مثل Apptronik وAgile Robots وBoston Dynamics — وليس كأداة عامة يمكن لأي شخص الاشتراك فيها. لكن الاتجاه واضح: **الذكاء الاصطناعي المادي يسير على نفس منحنى ذكاء البرمجيات**، ويصبح أرخص وأسرع وأكثر موثوقية كل بضعة أشهر. إذا كانت شركتك تتعامل مع الأشياء المادية — في مستودع أو مصنع أو مطبخ — فهذا هو الوقت المناسب للانتباه، قبل أن يصبح متاحاً على نطاق واسع ومنافسوك يعرفون بالفعل كيف يعمل."
+      ],
+      "keyFacts": [
+        { "value": "200+", "label": "مهمة جسدية تم اختبارها" },
+        { "value": "96%", "label": "معدل النجاح في مصانع مرسيدس-بنز" },
+        { "value": "30–100%", "label": "تحسّن في معدل النجاح مقارنة بالإصدار السابق" },
+        { "value": "20–30%", "label": "إنجاز المهام بشكل أسرع" }
+      ]
+    }
+  }
+}
