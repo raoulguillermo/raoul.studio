@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-14-ai-robots-factory-test",
+  "date": "2026-11-14",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "SiliconANGLE — Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model",
+      "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+    },
+    {
+      "title": "CASRAI — Google DeepMind Releases Gemini Robotics 2.5 to Partners: What Robotics Labs Should Know",
+      "url": "https://casrai.org/news/deepmind-gemini-robotics-2-5-2026"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI robots just passed their first real factory test",
+      "summary": "Google DeepMind's Gemini Robotics 2.5 hit 96% success on a live Mercedes-Benz production line, showing that AI-controlled robots are moving from impressive demos to actual production work.",
+      "body": [
+        "For years, robots looked impressive in labs but kept failing on real factory floors — things move, parts vary, lights change. That just shifted. Google DeepMind's Gemini Robotics 2.5 was **tested on a live Mercedes-Benz production line** in Hungary and Germany, where Apptronik's Apollo 2 humanoid robot picked and packed car parts with a 96% success rate. This was not a staged demo. It was a working factory.",
+        "The model acts as an AI brain for the robot's whole body. It takes in what cameras see, understands plain-language instructions, and translates them into precise hand and arm movements. It was evaluated across **more than 200 distinct tasks** — handling tools, deformable objects, and delicate parts — and completed them 20 to 30% faster than the previous version.",
+        "The bigger story is not just speed. Traditional industrial robots need months of custom engineering every time a task changes. With a general-purpose AI brain, a robot can be retrained for a new task much faster using the same model. That means **the cost per new task drops sharply** — which is what makes this commercially interesting, not just technically impressive.",
+        "The model is rolling out to hardware partners first — Agile Robots, Apptronik, and Boston Dynamics — not to the general public yet. But the direction is clear. If your business involves repetitive physical work at scale, start mapping which tasks are routine and rule-based. AI-controlled robots are not ready for everything, but **their task list is growing fast**, and the ones worth deploying cost less to reach than they did a year ago."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "success rate in a live Mercedes-Benz factory" },
+        { "value": "200+", "label": "distinct tasks tested" },
+        { "value": "20–30%", "label": "faster task completion vs. previous version" },
+        { "value": "3", "label": "robot hardware partners in first rollout" }
+      ]
+    },
+    "de": {
+      "title": "KI-Roboter haben ihren ersten echten Fabriktest bestanden",
+      "summary": "Googles Gemini Robotics 2.5 erzielte 96 % Erfolgsquote auf einer aktiven Mercedes-Benz-Produktionslinie — ein Zeichen, dass KI-gesteuerte Roboter vom beeindruckenden Demo in die echte Produktion wechseln.",
+      "body": [
+        "Jahrelang sahen Roboter in Labors beeindruckend aus, versagten aber immer wieder auf echten Fabrikböden — Dinge bewegen sich, Teile variieren, Licht wechselt. Das hat sich gerade geändert. Googles Gemini Robotics 2.5 wurde **auf einer echten Mercedes-Benz-Produktionslinie getestet** — in Ungarn und Deutschland — wo der Humanoide Apollo 2 von Apptronik Autoteile mit einer Erfolgsquote von 96 % kommissionierte und verpackte. Das war keine inszenierte Vorführung. Es war eine laufende Fabrik.",
+        "Das Modell funktioniert wie ein KI-Gehirn für den gesamten Körper des Roboters. Es verarbeitet, was Kameras sehen, versteht Anweisungen in normaler Sprache und übersetzt sie in präzise Hand- und Armbewegungen. Es wurde über **mehr als 200 verschiedene Aufgaben** hinweg bewertet — von Werkzeughandhabung über verformbare Objekte bis zu empfindlichen Teilen — und erledigte sie 20 bis 30 % schneller als die Vorgängerversion.",
+        "Die eigentliche Geschichte ist nicht nur die Geschwindigkeit. Herkömmliche Industrieroboter brauchen Monate individueller Programmierung, wenn sich eine Aufgabe ändert. Mit einem vielseitigen KI-Gehirn kann ein Roboter für eine neue Aufgabe viel schneller umtrainiert werden — mit demselben Modell. Das bedeutet: **die Kosten je neuer Aufgabe sinken deutlich** — und das ist es, was das hier kommerziell interessant macht, nicht nur technisch eindrucksvoll.",
+        "Das Modell wird zunächst an Hardware-Partner ausgerollt — Agile Robots, Apptronik und Boston Dynamics — noch nicht an die Allgemeinheit. Aber die Richtung ist klar. Wenn Ihr Unternehmen auf wiederkehrende physische Arbeit in großem Maßstab angewiesen ist, kartieren Sie jetzt, welche Aufgaben routinemäßig und regelbasiert sind. KI-gesteuerte Roboter sind nicht für alles bereit, aber **ihre Aufgabenliste wächst schnell**, und die sinnvollen Einsätze sind heute günstiger zu erreichen als vor einem Jahr."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "Erfolgsquote in einer aktiven Mercedes-Benz-Fabrik" },
+        { "value": "200+", "label": "verschiedene getestete Aufgaben" },
+        { "value": "20–30%", "label": "schnellere Aufgabenerfüllung vs. Vorgängerversion" },
+        { "value": "3", "label": "Hardware-Partner beim ersten Rollout" }
+      ]
+    },
+    "nl": {
+      "title": "AI-robots hebben hun eerste echte fabriekstest doorstaan",
+      "summary": "Google DeepMinds Gemini Robotics 2.5 haalde 96% slagingspercentage op een actieve Mercedes-Benz-productielijn, wat aantoont dat AI-gestuurde robots van demo naar echte productie overstappen.",
+      "body": [
+        "Jarenlang zagen robots er in labs indrukwekkend uit, maar mislukten ze keer op keer op echte fabrieksvloeren — dingen bewegen, onderdelen variëren, licht verandert. Dat is zojuist veranderd. Googles Gemini Robotics 2.5 werd **getest op een actieve Mercedes-Benz-productielijn** in Hongarije en Duitsland, waar de humanoïde Apollo 2 van Apptronik auto-onderdelen pakte en inpakte met een slagingspercentage van 96%. Dit was geen geënsceneerde demo. Het was een werkende fabriek.",
+        "Het model werkt als een AI-brein voor het hele lichaam van de robot. Het analyseert wat camera's zien, begrijpt instructies in gewone taal en vertaalt ze naar precieze hand- en armbewegingen. Het werd geëvalueerd over **meer dan 200 verschillende taken** — van gereedschapshantering tot vervormbare objecten en delicate onderdelen — en voltooide ze 20 tot 30% sneller dan de vorige versie.",
+        "Het grotere verhaal is niet alleen snelheid. Traditionele industriële robots hebben maanden maatwerk nodig elke keer dat een taak verandert. Met een veelzijdig AI-brein kan een robot veel sneller worden bijgeleerd voor een nieuwe taak met hetzelfde model. Dat betekent dat **de kosten per nieuwe taak sterk dalen** — wat dit commercieel interessant maakt, niet alleen technisch indrukwekkend.",
+        "Het model wordt eerst uitgerold naar hardwarepartners — Agile Robots, Apptronik en Boston Dynamics — nog niet naar het grote publiek. Maar de richting is duidelijk. Als uw bedrijf repetitief fysiek werk op grote schaal omvat, begin dan nu in kaart te brengen welke taken routinematig en regelgebaseerd zijn. AI-gestuurde robots zijn niet klaar voor alles, maar **hun taakoverzicht groeit snel**, en de nuttige toepassingen zijn goedkoper te bereiken dan een jaar geleden."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "slagingspercentage in een actieve Mercedes-Benz-fabriek" },
+        { "value": "200+", "label": "verschillende geëvalueerde taken" },
+        { "value": "20–30%", "label": "snellere taakuitvoering vs. vorige versie" },
+        { "value": "3", "label": "hardwarepartners bij de eerste uitrol" }
+      ]
+    },
+    "es": {
+      "title": "Los robots con IA acaban de superar su primera prueba real en fábrica",
+      "summary": "Gemini Robotics 2.5 de Google DeepMind alcanzó un 96% de éxito en una línea de producción real de Mercedes-Benz, demostrando que los robots controlados por IA pasan de las demos a la producción real.",
+      "body": [
+        "Durante años, los robots lucían impresionantes en laboratorios pero fallaban una y otra vez en fábricas reales — las cosas se mueven, las piezas varían, la luz cambia. Eso acaba de cambiar. Gemini Robotics 2.5 de Google DeepMind fue **probado en una línea de producción real de Mercedes-Benz** en Hungría y Alemania, donde el humanoide Apollo 2 de Apptronik recogió y empacó piezas de automóviles con una tasa de éxito del 96%. No fue una demostración escenificada. Era una fábrica en plena producción.",
+        "El modelo actúa como un cerebro de IA para todo el cuerpo del robot. Procesa lo que ven las cámaras, entiende instrucciones en lenguaje natural y las traduce en movimientos precisos de manos y brazos. Fue evaluado en **más de 200 tareas distintas** — manejo de herramientas, objetos deformables y piezas delicadas — y las completó entre un 20 y un 30% más rápido que la versión anterior.",
+        "La historia más importante no es solo la velocidad. Los robots industriales tradicionales necesitan meses de ingeniería personalizada cada vez que cambia una tarea. Con un cerebro de IA de propósito general, un robot puede reentrenarse para una nueva tarea mucho más rápido usando el mismo modelo. Eso significa que **el costo por nueva tarea baja drásticamente** — lo que hace esto comercialmente interesante, no solo técnicamente impresionante.",
+        "El modelo se distribuye primero a socios de hardware — Agile Robots, Apptronik y Boston Dynamics — aún no al público general. Pero la dirección es clara. Si tu negocio implica trabajo físico repetitivo a escala, comienza ahora a identificar qué tareas son rutinarias y basadas en reglas. Los robots controlados por IA no están listos para todo, pero **su lista de tareas crece rápido**, y las aplicaciones útiles son más accesibles que hace un año."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "tasa de éxito en una fábrica real de Mercedes-Benz" },
+        { "value": "200+", "label": "tareas distintas evaluadas" },
+        { "value": "20–30%", "label": "tareas completadas más rápido vs. versión anterior" },
+        { "value": "3", "label": "socios de hardware en el primer lanzamiento" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots IA viennent de réussir leur premier vrai test en usine",
+      "summary": "Gemini Robotics 2.5 de Google DeepMind a atteint 96% de réussite sur une ligne de production Mercedes-Benz en activité, montrant que les robots contrôlés par IA passent des démonstrations au travail industriel réel.",
+      "body": [
+        "Pendant des années, les robots semblaient impressionnants en laboratoire mais échouaient sur les vrais planchers d'usine — les objets bougent, les pièces varient, la lumière change. Cela vient de changer. Gemini Robotics 2.5 de Google DeepMind a été **testé sur une vraie ligne de production Mercedes-Benz** en Hongrie et en Allemagne, où le robot humanoïde Apollo 2 d'Apptronik a cueilli et emballé des pièces automobiles avec un taux de réussite de 96%. Ce n'était pas une démonstration mise en scène. C'était une usine en pleine production.",
+        "Le modèle agit comme un cerveau IA pour tout le corps du robot. Il analyse ce que les caméras voient, comprend les instructions en langage naturel et les traduit en mouvements précis des mains et des bras. Il a été évalué sur **plus de 200 tâches distinctes** — outils, objets déformables, pièces délicates — et les a accomplies 20 à 30% plus vite que la version précédente.",
+        "L'histoire la plus importante n'est pas seulement la vitesse. Les robots industriels traditionnels nécessitent des mois d'ingénierie sur mesure à chaque changement de tâche. Avec un cerveau IA polyvalent, un robot peut être réadapté bien plus vite à une nouvelle tâche en utilisant le même modèle. Cela signifie que **le coût par nouvelle tâche baisse fortement** — ce qui rend la technologie commercialement intéressante, et pas seulement impressionnante techniquement.",
+        "Le modèle est d'abord déployé chez des partenaires matériels — Agile Robots, Apptronik et Boston Dynamics — pas encore au grand public. Mais la direction est claire. Si votre activité implique des tâches physiques répétitives à grande échelle, commencez maintenant à identifier celles qui sont routinières et basées sur des règles. Les robots contrôlés par IA ne sont pas prêts pour tout, mais **leur liste de tâches s'allonge vite**, et les applications utiles coûtent moins cher à atteindre qu'il y a un an."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "taux de réussite dans une usine Mercedes-Benz en activité" },
+        { "value": "200+", "label": "tâches distinctes évaluées" },
+        { "value": "20–30%", "label": "plus rapide pour accomplir les tâches vs. version précédente" },
+        { "value": "3", "label": "partenaires matériels dans le premier déploiement" }
+      ]
+    },
+    "ar": {
+      "title": "الروبوتات بالذكاء الاصطناعي اجتازت أول اختبار حقيقي في المصنع",
+      "summary": "حقق نظام Gemini Robotics 2.5 من Google DeepMind نسبة نجاح 96% على خط إنتاج حقيقي لمرسيدس بنز، مما يُثبت أن الروبوتات المُدارة بالذكاء الاصطناعي تنتقل من العروض التوضيحية إلى العمل الإنتاجي الفعلي.",
+      "body": [
+        "لسنوات طويلة، كانت الروبوتات تبدو مبهرة في المختبرات لكنها كانت تفشل باستمرار على أرضيات المصانع الحقيقية — الأشياء تتحرك، والقطع تتباين، والإضاءة تتغير. هذا تغيّر للتو. جرى **اختبار Gemini Robotics 2.5 على خط إنتاج حقيقي لمرسيدس بنز** في المجر وألمانيا، حيث حقق الروبوت الإنساني Apollo 2 من Apptronik معدل نجاح 96% في انتقاء وتعبئة قطع السيارات. لم يكن ذلك عرضًا توضيحيًا مُصطنعًا، بل كان مصنعًا يعمل فعليًا.",
+        "يعمل النموذج كدماغ ذكاء اصطناعي لجسم الروبوت بأكمله. يُحلّل ما تراه الكاميرات، ويفهم التعليمات بلغة طبيعية، ويترجمها إلى حركات دقيقة لليدين والذراعين. جرى تقييمه عبر **أكثر من 200 مهمة مختلفة** — من استخدام الأدوات إلى التعامل مع الأجسام المرنة والقطع الدقيقة — وأتمّها بنسبة أسرع تتراوح بين 20% و30% مقارنةً بالإصدار السابق.",
+        "القصة الأهم ليست السرعة وحدها. الروبوتات الصناعية التقليدية تحتاج إلى أشهر من الهندسة المخصصة في كل مرة تتغير فيها المهمة. مع دماغ ذكاء اصطناعي للأغراض العامة، يمكن إعادة تدريب الروبوت على مهمة جديدة بسرعة أكبر بكثير باستخدام النموذج ذاته. هذا يعني أن **تكلفة كل مهمة جديدة تنخفض بحدة** — مما يجعل التقنية مثيرة للاهتمام تجاريًا، لا تقنيًا فحسب.",
+        "يُطرح النموذج أولًا لشركاء الأجهزة — Agile Robots وApptronik وBoston Dynamics — وليس للعموم بعد. لكن الاتجاه واضح. إن كان نشاطك التجاري يعتمد على أعمال جسدية متكررة على نطاق واسع، فابدأ الآن في تحديد المهام الروتينية القائمة على قواعد. الروبوتات المُدارة بالذكاء الاصطناعي ليست جاهزة لكل شيء، لكن **قائمة مهامها تتوسع بسرعة**، وتطبيقاتها المفيدة باتت في المتناول أكثر مما كانت عليه قبل عام."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "معدل النجاح في مصنع مرسيدس بنز الفعلي" },
+        { "value": "200+", "label": "مهمة مختلفة تم اختبارها" },
+        { "value": "20–30%", "label": "أسرع في إتمام المهام مقارنة بالإصدار السابق" },
+        { "value": "3", "label": "شركاء أجهزة في الإطلاق الأول" }
+      ]
+    }
+  }
+}
