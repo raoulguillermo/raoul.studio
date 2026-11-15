@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-15-ai-agents-buying-for-you",
+  "date": "2026-11-15",
+  "tags": ["ai", "agents"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "CNBC — OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+      "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+    },
+    {
+      "title": "TechCrunch — ChatGPT's new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI agents can now buy things on your behalf — here is what that changes",
+      "summary": "OpenAI launched a payment feature that lets AI assistants complete purchases for you, and it signals a real split between merchants who want agent shoppers and those who do not.",
+      "body": [
+        "Until now, an AI assistant could help you find the best headphones, compare prices, and read reviews. But the final click was always yours. **OpenAI just changed that.** On November 13, the company launched ChatGPT Wallet — a new payment feature that lets AI assistants inside ChatGPT, called dots, buy things on your behalf, using your credit card, with one tap to confirm.",
+        "Right now, it is only available to ChatGPT Pro subscribers in the United States who are 18 or older. The setup is simple: add a Visa, Mastercard, or American Express card once. When the agent is ready to pay, it does not use your real card number. Your card network generates a one-time substitute number — good for that purchase only — so **your real card details never reach the merchant.** You review the basket and approve with Face ID or a fingerprint before anything is charged.",
+        "Not everyone is rolling out the welcome mat. Amazon, the world's biggest online retailer, has already blocked AI agents from its platform, pushing users toward its own Alexa assistant. United Airlines has done the same for flight bookings. Meanwhile, OpenAI published a free guide called the Commerce Partner Playbook for developers who want their sites **to work with AI agent shoppers.** The gap between merchants who lean in and those who opt out is growing fast.",
+        "If you run a store or build software for one, now is the time to decide. OpenAI is not charging merchants a cut of transactions — not yet — so the entry cost is low. But waiting means a competitor could become **the first place AI agents can shop** in your category. A small amount of work now — adding support for the agent checkout flow — is much cheaper than scrambling to catch up in a year."
+      ],
+      "keyFacts": [
+        { "value": "Nov 13, 2026", "label": "date wallet launched" },
+        { "value": "ChatGPT Pro", "label": "plan required (US, 18+ only)" },
+        { "value": "3", "label": "card networks at launch (Visa, Mastercard, Amex)" },
+        { "value": "0%", "label": "OpenAI's cut of each transaction for now" }
+      ]
+    },
+    "de": {
+      "title": "KI-Agenten können jetzt für dich einkaufen — was das verändert",
+      "summary": "OpenAI hat eine Zahlungsfunktion gestartet, mit der KI-Assistenten Einkäufe für dich abschließen können — und das schafft eine echte Spaltung zwischen Händlern, die Agenten willkommen heißen, und solchen, die sie aussperren.",
+      "body": [
+        "Bisher konnte ein KI-Assistent dir helfen, die besten Kopfhörer zu finden, Preise zu vergleichen und Bewertungen zu lesen. Aber den letzten Klick hast immer du gesetzt. **OpenAI hat das gerade geändert.** Am 13. November startete das Unternehmen ChatGPT Wallet — eine neue Zahlungsfunktion, mit der KI-Assistenten in ChatGPT, genannt Dots, Dinge in deinem Namen kaufen können, mit einer einzigen Bestätigung.",
+        "Derzeit steht die Funktion nur ChatGPT-Pro-Abonnenten in den USA ab 18 Jahren zur Verfügung. Die Einrichtung ist einfach: Füge einmal eine Visa-, Mastercard- oder American-Express-Karte hinzu. Wenn der Agent bereit ist zu zahlen, benutzt er nicht deine echte Kartennummer. Dein Kartennetzwerk erstellt eine Einmal-Ersatznummer — nur für diesen Kauf gültig — sodass **deine echten Kartendaten den Händler nie erreichen.** Du prüfst den Warenkorb und bestätigst per Face ID oder Fingerabdruck, bevor etwas abgebucht wird.",
+        "Nicht alle heißen das willkommen. Amazon, der weltgrößte Online-Händler, hat KI-Agenten bereits von seiner Plattform ausgesperrt und leitet Nutzer zu seinem eigenen Alexa-Assistenten weiter. United Airlines hat dasselbe für Flugbuchungen getan. Gleichzeitig hat OpenAI einen kostenlosen Leitfaden namens Commerce Partner Playbook veröffentlicht, für Entwickler, die ihre Websites **für KI-Agenten-Shopper zugänglich machen** möchten. Der Graben zwischen Händlern, die mitmachen, und solchen, die ablehnen, wächst.",
+        "Wer einen Online-Shop betreibt oder Software dafür entwickelt, sollte jetzt Farbe bekennen. OpenAI erhebt noch keine Transaktionsgebühren von Händlern — der Einstieg ist günstig. Wer abwartet, riskiert jedoch, dass ein Mitbewerber **der erste Ort wird, an dem KI-Agenten einkaufen können** — in deiner Kategorie. Wer jetzt wenig investiert und den Agenten-Checkout unterstützt, spart sich deutlich mehr Aufwand später."
+      ],
+      "keyFacts": [
+        { "value": "Nov 13, 2026", "label": "Start von ChatGPT Wallet" },
+        { "value": "ChatGPT Pro", "label": "benötigtes Abo (nur USA, 18+)" },
+        { "value": "3", "label": "Kartennetzwerke beim Start (Visa, Mastercard, Amex)" },
+        { "value": "0%", "label": "Transaktionsgebühr für Händler bisher" }
+      ]
+    },
+    "nl": {
+      "title": "AI-agenten kunnen nu voor je winkelen — wat dat verandert",
+      "summary": "OpenAI lanceerde een betaalfunctie waarmee AI-assistenten aankopen voor je kunnen afronden, en dat drijft een wig tussen handelaren die agenten verwelkomen en die welke hen buitensluiten.",
+      "body": [
+        "Tot nu toe kon een AI-assistent je helpen de beste koptelefoon te vinden, prijzen te vergelijken en reviews te lezen. Maar de laatste klik was altijd die van jou. **OpenAI heeft dat zojuist veranderd.** Op 13 november lanceerde het bedrijf ChatGPT Wallet — een nieuwe betaalfunctie waarmee AI-assistenten in ChatGPT, dots genaamd, namens jou aankopen kunnen doen met één bevestiging.",
+        "Voorlopig is het alleen beschikbaar voor ChatGPT Pro-abonnees in de VS van 18 jaar en ouder. De setup is eenvoudig: voeg eenmalig een Visa-, Mastercard- of American Express-kaart toe. Als de agent klaar is om te betalen, gebruikt hij niet je echte kaartnummer. Je kaartnetwerk genereert een eenmalig vervangend nummer — geldig voor die ene aankoop — zodat **je echte kaartgegevens nooit bij de handelaar terechtkomen.** Je controleert het winkelmandje en bevestigt met Face ID of een vingerafdruk voordat er iets wordt afgeschreven.",
+        "Niet iedereen heet dit welkom. Amazon, de grootste online retailer ter wereld, heeft AI-agenten al van zijn platform geblokkeerd en stuurt gebruikers door naar zijn eigen Alexa-assistent. United Airlines deed hetzelfde voor vliegtickets. Ondertussen publiceerde OpenAI een gratis gids, de Commerce Partner Playbook, voor ontwikkelaars die hun sites **geschikt willen maken voor AI-agenten die winkelen.** De kloof tussen handelaren die instappen en die welke afhaken, groeit snel.",
+        "Als je een winkel runt of software daarvoor bouwt, is nu het moment om te kiezen. OpenAI rekent voorlopig geen transactiekosten aan handelaars — de drempel is laag. Maar wachten betekent dat een concurrent de eerste plek kan worden **waar AI-agenten kunnen winkelen** in jouw markt. Nu een kleine investering doen om de agent-checkout te ondersteunen is veel goedkoper dan later inhalen."
+      ],
+      "keyFacts": [
+        { "value": "Nov 13, 2026", "label": "lancering ChatGPT Wallet" },
+        { "value": "ChatGPT Pro", "label": "vereist abonnement (VS, 18+)" },
+        { "value": "3", "label": "kaartnetwerken bij lancering (Visa, Mastercard, Amex)" },
+        { "value": "0%", "label": "commissie OpenAI rekent handelaars voorlopig" }
+      ]
+    },
+    "es": {
+      "title": "Los agentes de IA ya pueden comprar cosas por ti — qué cambia con esto",
+      "summary": "OpenAI lanzó una función que permite a los asistentes de IA completar compras en tu nombre, y está creando una brecha real entre los comercios que aceptan agentes y los que los bloquean.",
+      "body": [
+        "Hasta ahora, un asistente de IA podía ayudarte a encontrar los mejores auriculares, comparar precios y leer reseñas. Pero el clic final siempre era tuyo. **OpenAI acaba de cambiar eso.** El 13 de noviembre, la empresa lanzó ChatGPT Wallet — una nueva función de pago que permite a los asistentes de IA dentro de ChatGPT, llamados dots, comprar cosas en tu nombre con una sola confirmación.",
+        "Por ahora, solo está disponible para suscriptores de ChatGPT Pro en Estados Unidos, mayores de 18 años. La configuración es sencilla: agrega una tarjeta Visa, Mastercard o American Express una sola vez. Cuando el agente está listo para pagar, no usa tu número de tarjeta real. Tu red de tarjetas genera un número sustituto de un solo uso — válido únicamente para esa compra — de modo que **tus datos de tarjeta reales nunca llegan al comerciante.** Revisas el carrito y confirmas con Face ID o huella antes de que se cargue algo.",
+        "No todos están de acuerdo. Amazon, el mayor minorista en línea del mundo, ya ha bloqueado a los agentes de IA en su plataforma y dirige a los usuarios hacia su propio asistente Alexa. United Airlines hizo lo mismo con las reservas de vuelos. Mientras tanto, OpenAI publicó una guía gratuita llamada Commerce Partner Playbook para desarrolladores que quieran que sus sitios **funcionen con compradores agentes de IA.** La brecha entre los comerciantes que se suman y los que dicen que no crece rápidamente.",
+        "Si tienes una tienda o construyes software para una, ahora es el momento de decidir. OpenAI no cobra ninguna comisión a los comerciantes por ahora — el costo de entrada es bajo. Pero esperar significa que un competidor podría convertirse en **el primer lugar donde los agentes de IA pueden comprar** en tu categoría. Un poco de trabajo ahora — añadir soporte para el flujo de pago de agentes — es mucho más barato que ponerse al día un año después."
+      ],
+      "keyFacts": [
+        { "value": "Nov 13, 2026", "label": "lanzamiento de ChatGPT Wallet" },
+        { "value": "ChatGPT Pro", "label": "plan requerido (EE.UU., mayores de 18)" },
+        { "value": "3", "label": "redes de tarjetas al lanzamiento (Visa, Mastercard, Amex)" },
+        { "value": "0%", "label": "comisión que cobra OpenAI a los comerciantes por ahora" }
+      ]
+    },
+    "fr": {
+      "title": "Les agents IA peuvent désormais faire vos achats — ce que ça change",
+      "summary": "OpenAI a lancé une fonction permettant aux assistants IA de finaliser des achats à votre place, et cela crée une vraie fracture entre les marchands qui accueillent les agents et ceux qui les bloquent.",
+      "body": [
+        "Jusqu'ici, un assistant IA pouvait vous aider à trouver les meilleures enceintes, comparer les prix et lire les avis. Mais le dernier clic vous appartenait toujours. **OpenAI vient de changer ça.** Le 13 novembre, l'entreprise a lancé ChatGPT Wallet — une nouvelle fonction de paiement qui permet aux assistants IA dans ChatGPT, appelés dots, de faire des achats en votre nom d'une simple confirmation.",
+        "Pour l'instant, la fonction n'est disponible qu'aux abonnés ChatGPT Pro aux États-Unis âgés de 18 ans et plus. La mise en place est simple : ajoutez une carte Visa, Mastercard ou American Express une seule fois. Quand l'agent est prêt à payer, il n'utilise pas votre vrai numéro de carte. Votre réseau de carte génère un numéro de substitution à usage unique — valable pour cet achat uniquement — afin que **vos vraies coordonnées bancaires n'atteignent jamais le marchand.** Vous vérifiez le panier et confirmez par Face ID ou empreinte digitale avant tout débit.",
+        "Tout le monde ne se réjouit pas. Amazon, le plus grand détaillant en ligne du monde, a déjà bloqué les agents IA sur sa plateforme, orientant les utilisateurs vers son propre assistant Alexa. United Airlines a fait de même pour les réservations de vols. Dans le même temps, OpenAI a publié un guide gratuit, le Commerce Partner Playbook, pour les développeurs qui souhaitent que leurs sites **accueillent les acheteurs agents IA.** Le fossé se creuse rapidement entre les marchands qui sautent le pas et ceux qui refusent.",
+        "Si vous gérez une boutique ou développez des logiciels pour l'e-commerce, c'est maintenant qu'il faut vous positionner. OpenAI ne prélève encore aucune commission sur les transactions — le coût d'entrée est faible. Mais attendre, c'est risquer qu'un concurrent devienne **le premier endroit où les agents IA peuvent acheter** dans votre secteur. Quelques heures de travail aujourd'hui — pour prendre en charge le flux de paiement agent — coûtent bien moins qu'un rattrapage dans un an."
+      ],
+      "keyFacts": [
+        { "value": "Nov 13, 2026", "label": "date de lancement de ChatGPT Wallet" },
+        { "value": "ChatGPT Pro", "label": "abonnement requis (États-Unis, +18 ans)" },
+        { "value": "3", "label": "réseaux de cartes au lancement (Visa, Mastercard, Amex)" },
+        { "value": "0%", "label": "commission prélevée par OpenAI pour l'instant" }
+      ]
+    },
+    "ar": {
+      "title": "وكلاء الذكاء الاصطناعي يستطيعون الآن التسوق نيابةً عنك — وهذا ما يتغيّر",
+      "summary": "أطلقت OpenAI ميزةً تتيح لمساعدي الذكاء الاصطناعي إتمام عمليات الشراء نيابةً عنك، مما يخلق فجوةً حقيقية بين التجار الذين يرحّبون بالوكلاء وأولئك الذين يغلقون أمامهم الباب.",
+      "body": [
+        "حتى الآن، كان بإمكان مساعد الذكاء الاصطناعي أن يساعدك في إيجاد أفضل سماعات الرأس، ومقارنة الأسعار، وقراءة التقييمات. لكن النقرة الأخيرة كانت دائمًا بيدك. **OpenAI غيّرت ذلك للتو.** في الثالث عشر من نوفمبر، أطلقت الشركة ChatGPT Wallet — ميزة دفع جديدة تتيح لمساعدي الذكاء الاصطناعي في ChatGPT، المعروفين بـالـdots، شراء المنتجات نيابةً عنك بتأكيد واحد فقط.",
+        "في الوقت الحالي، الميزة متاحة فقط للمشتركين في خطة ChatGPT Pro في الولايات المتحدة الذين تجاوزوا الثامنة عشرة من العمر. الإعداد بسيط: أضف بطاقة Visa أو Mastercard أو American Express مرة واحدة فقط. حين يكون الوكيل جاهزًا للدفع، لا يستخدم رقم بطاقتك الحقيقي. تُنشئ شبكة بطاقتك رقمًا بديلًا للاستخدام مرة واحدة فقط — صالحًا لتلك العملية الشرائية حصرًا — بحيث **لا تصل بياناتك المصرفية الحقيقية إلى التاجر أبدًا.** تراجع سلة المشتريات وتؤكد بـFace ID أو بصمة الإصبع قبل خصم أي مبلغ.",
+        "لا يرحّب الجميع بهذا. فقد حجبت أمازون، أكبر متجر إلكتروني في العالم، وكلاء الذكاء الاصطناعي من منصتها، وتُحيل المستخدمين إلى مساعدها الخاص Alexa. وفعلت شركة يونايتد إيرلاينز الأمر ذاته بالنسبة لحجوزات الطيران. في الوقت نفسه، نشرت OpenAI دليلًا مجانيًا يسمى Commerce Partner Playbook للمطورين الراغبين في جعل مواقعهم **متوافقةً مع المتسوقين من وكلاء الذكاء الاصطناعي.** الهوّة بين التجار الذين يتبنّون هذا التوجه وأولئك الذين يرفضونه تتسع بسرعة.",
+        "إن كنت تدير متجرًا أو تطوّر برامج لأحد المتاجر، فهذا هو الوقت المناسب لاتخاذ قرارك. لا تفرض OpenAI حتى الآن أي عمولة على المعاملات، مما يجعل تكلفة الدخول منخفضة. لكن الانتظار يعني أن منافسًا ما قد يصبح **المكان الأول الذي تتسوق منه وكلاء الذكاء الاصطناعي** في فئتك. القليل من العمل الآن — لدعم تدفق الدفع للوكلاء — أرخص بكثير من السباق للحاق في غضون عام."
+      ],
+      "keyFacts": [
+        { "value": "Nov 13, 2026", "label": "تاريخ إطلاق ChatGPT Wallet" },
+        { "value": "ChatGPT Pro", "label": "الاشتراك المطلوب (الولايات المتحدة، 18+)" },
+        { "value": "3", "label": "شبكات البطاقات عند الإطلاق (Visa، Mastercard، Amex)" },
+        { "value": "0%", "label": "حصة OpenAI من كل معاملة حتى الآن" }
+      ]
+    }
+  }
+}
