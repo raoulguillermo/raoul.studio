@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-16-ai-robots-factory-floor",
+  "date": "2026-11-16",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Google DeepMind Blog — Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    },
+    {
+      "title": "SiliconANGLE — Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model",
+      "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI robots are passing factory tests — what that means for anyone thinking about automation",
+      "summary": "Google's AI gave robots a 96% success rate sorting car parts at real Mercedes-Benz factories, showing that AI-powered robots are now crossing from demos into actual industrial work.",
+      "body": [
+        "Google DeepMind's Gemini Robotics 2.5 just did something most robot demos skip: it ran on a real production line. At two Mercedes-Benz factories — one in Kecskemét, Hungary, and one in Sindelfingen, Germany — an Apollo 2 humanoid robot sorted metal car parts into trays, in the exact order each vehicle needs them. It got the job right **96% of the time**, which DeepMind calls promising progress toward real industrial use.",
+        "That number matters because the hard part of industrial automation has never been making a robot work in a controlled lab. The challenge is making it work in a real factory — changing light, slightly different parts each day, workers moving nearby. The same AI model that learned by practicing 200 different tasks, from folding clothes to packing food to hanging mugs, **transferred to a live factory with very little adjustment**. That is the real milestone.",
+        "DeepMind reports that the new model **completes tasks 20–30% faster** than its previous version and achieves 30–100% higher success rates across different kinds of work. The model is currently rolling out through partners — Apptronik, Agile Robots, and Boston Dynamics — with no public API yet. It runs alongside a separate planning model that tracks the overall workflow while Gemini Robotics 2.5 controls the precise hand and arm movements.",
+        "For anyone running operations or building automation products, the signal is straightforward: **the hardest problem in physical automation — handling real-world variation — is being solved**. The same advances making AI better at writing and coding are now making robots more reliable on the floor. If you work in manufacturing, logistics, or any work that involves picking, sorting, or packing physical things, the question is no longer whether this technology works. The question is when to get started."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "success rate at real Mercedes-Benz factories" },
+        { "value": "200+", "label": "distinct tasks tested" },
+        { "value": "20–30%", "label": "faster than the previous version" },
+        { "value": "Nov 10, 2026", "label": "date of the DeepMind release" }
+      ]
+    },
+    "de": {
+      "title": "KI-Roboter bestehen Fabrikstests — was das für alle bedeutet, die über Automatisierung nachdenken",
+      "summary": "Googles KI erreichte eine Erfolgsquote von 96 % beim Sortieren von Autoteilen in echten Mercedes-Benz-Werken — ein Zeichen dafür, dass KI-Roboter vom Demo-Stadium in echte Industriearbeit wechseln.",
+      "body": [
+        "Google DeepMind hat mit Gemini Robotics 2.5 etwas geschafft, das die meisten Robotervorführungen überspringen: Es lief auf einer echten Produktionslinie. In zwei Mercedes-Benz-Werken — einem in Kecskemét, Ungarn, und einem in Sindelfingen, Deutschland — sortierte ein Apollo-2-Humanoidroboter metallene Autoteile in Tabletts, in genau der Reihenfolge, in der jedes Fahrzeug sie benötigt. Er erledigte die Aufgabe **96 % der Zeit korrekt**, was DeepMind als vielversprechenden Fortschritt in Richtung echtem Industrieeinsatz bezeichnet.",
+        "Diese Zahl ist wichtig, weil das Schwierige an industrieller Automatisierung nie darin bestand, einen Roboter im Labor zum Laufen zu bringen. Die Herausforderung ist, ihn in einer echten Fabrik zu betreiben — wechselndes Licht, täglich leicht veränderte Teile, Arbeiter in der Nähe. Dasselbe KI-Modell, das durch 200 verschiedene Aufgaben — Kleidung falten, Lebensmittel verpacken, Tassen aufhängen — allgemein gelernt hatte, **ließ sich mit sehr wenig Anpassung auf eine echte Fabrik übertragen**. Das ist der eigentliche Meilenstein.",
+        "DeepMind gibt an, dass das neue Modell **Aufgaben 20–30 % schneller abschließt** als die Vorgängerversion und je nach Aufgabe eine um 30–100 % höhere Erfolgsquote erzielt. Das Modell wird derzeit über Partner wie Apptronik, Agile Robots und Boston Dynamics eingeführt — eine öffentliche API gibt es noch nicht. Es wird mit einem separaten Planungsmodell kombiniert, das den Gesamtworkflow verfolgt, während Gemini Robotics 2.5 die präzisen Hand- und Armbewegungen steuert.",
+        "Für alle, die Betrieb leiten oder Automatisierungsprodukte entwickeln, ist das Signal klar: **Das schwierigste Problem bei der physischen Automatisierung — der Umgang mit realer Varianz — wird gelöst**. Dieselben Fortschritte, die KI beim Schreiben und Programmieren besser machen, machen Roboter nun zuverlässiger im Alltag. Wer in der Produktion, Logistik oder in einem Bereich tätig ist, der mit Kommissionieren, Sortieren oder Verpacken zu tun hat: Die Frage ist nicht mehr, ob diese Technologie funktioniert — sondern wann man anfangen sollte."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "Erfolgsquote in echten Mercedes-Benz-Werken" },
+        { "value": "200+", "label": "getestete unterschiedliche Aufgaben" },
+        { "value": "20–30%", "label": "schneller als das Vorgängermodell" },
+        { "value": "Nov 10, 2026", "label": "Veröffentlichungsdatum" }
+      ]
+    },
+    "nl": {
+      "title": "AI-robots slagen voor fabriekstests — wat dat betekent voor iedereen die over automatisering nadenkt",
+      "summary": "Google's AI bereikte een slagingspercentage van 96% bij het sorteren van auto-onderdelen in echte Mercedes-Benz-fabrieken, wat laat zien dat AI-robots de overstap maken van demo naar echt industrieel werk.",
+      "body": [
+        "Google DeepMind heeft met Gemini Robotics 2.5 iets gedaan dat de meeste robotdemo's overslaan: het draaide op een echte productielijn. In twee Mercedes-Benz-fabrieken — een in Kecskemét, Hongarije, en een in Sindelfingen, Duitsland — sorteerde een Apollo 2-humanoïde robot metalen auto-onderdelen in dienbladen, in precies de volgorde die elk voertuig nodig heeft. Het klaarde de klus **96% van de tijd goed**, wat DeepMind veelbelovende vooruitgang richting echt industrieel gebruik noemt.",
+        "Dat getal is belangrijk omdat het moeilijkste aan industriële automatisering nooit het laten werken van een robot in een lab was. De uitdaging is dat in een echte fabriek doen — wisselende belichting, dagelijks iets andere onderdelen, werknemers die in de buurt bewegen. Hetzelfde AI-model dat leerde door 200 verschillende taken te oefenen — kleding vouwen, eten inpakken, mokken ophangen — **maakte de overstap naar een echte fabriek met zeer weinig aanpassing**. Dat is de echte mijlpaal.",
+        "DeepMind meldt dat het nieuwe model **taken 20–30% sneller voltooit** dan de vorige versie en 30–100% hogere slagingspercentages behaalt bij verschillende soorten werk. Het model wordt momenteel uitgerold via partners als Apptronik, Agile Robots en Boston Dynamics, zonder publieke API voor nu. Het werkt samen met een apart planningsmodel dat de workflow bijhoudt terwijl Gemini Robotics 2.5 de precieze hand- en armbewegingen verzorgt.",
+        "Voor iedereen die operaties runt of automatiseringsproducten bouwt, is het signaal duidelijk: **het moeilijkste probleem bij fysieke automatisering — omgaan met onvoorspelbare, echte variatie — wordt opgelost**. Dezelfde verbeteringen die AI beter maken in schrijven en programmeren, maken robots nu betrouwbaarder op de werkvloer. Als je in productie, logistiek of enig werk zit dat grijpen, sorteren of verpakken omvat, is de vraag niet meer óf deze technologie werkt — maar wanneer je moet beginnen."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "slagingspercentage in echte Mercedes-Benz-fabrieken" },
+        { "value": "200+", "label": "geteste taken" },
+        { "value": "20–30%", "label": "sneller dan de vorige versie" },
+        { "value": "Nov 10, 2026", "label": "releasedatum" }
+      ]
+    },
+    "es": {
+      "title": "Los robots de IA superan pruebas en fábricas reales — qué significa para quien piensa en automatización",
+      "summary": "La IA de Google logró un 96% de éxito ordenando piezas de automóviles en fábricas reales de Mercedes-Benz, demostrando que los robots con IA están pasando de las demos al trabajo industrial real.",
+      "body": [
+        "Gemini Robotics 2.5 de Google DeepMind acaba de hacer algo que la mayoría de las demos de robots omiten: funcionar en una línea de producción real. En dos fábricas de Mercedes-Benz — una en Kecskemét, Hungría, y otra en Sindelfingen, Alemania — un robot humanoide Apollo 2 ordenó piezas metálicas de automóvil en bandejas, en el orden exacto que cada vehículo necesita. Lo hizo correctamente **el 96% de las veces**, lo que DeepMind llama un avance prometedor hacia el uso industrial real.",
+        "Ese número importa porque lo difícil de la automatización industrial nunca fue hacer que un robot funcione en un laboratorio. El reto es que funcione en una fábrica real — iluminación cambiante, piezas ligeramente diferentes cada día, trabajadores cerca. El mismo modelo de IA que aprendió practicando 200 tareas distintas — doblar ropa, empacar comida, colgar tazas — **se adaptó a una fábrica real con muy pocos ajustes**. Ese es el verdadero hito.",
+        "DeepMind informa que el nuevo modelo **completa tareas un 20–30% más rápido** que su versión anterior y logra tasas de éxito un 30–100% más altas en distintos tipos de trabajo. El modelo se está desplegando a través de socios como Apptronik, Agile Robots y Boston Dynamics, sin API pública por ahora. Funciona junto con un modelo de planificación separado que supervisa el flujo de trabajo general mientras Gemini Robotics 2.5 controla los movimientos precisos de manos y brazos.",
+        "Para quien gestione operaciones o desarrolle productos de automatización, la señal es clara: **el problema más difícil de la automatización física — lidiar con la variación real y desordenada — se está resolviendo**. Los mismos avances que hacen que la IA sea mejor escribiendo y programando están haciendo que los robots sean más fiables en el suelo. Si trabajas en manufactura, logística o cualquier tarea que implique recoger, clasificar o empacar objetos físicos, la pregunta ya no es si esta tecnología funciona. La pregunta es cuándo empezar."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "tasa de éxito en fábricas reales de Mercedes-Benz" },
+        { "value": "200+", "label": "tareas distintas evaluadas" },
+        { "value": "20–30%", "label": "más rápido que la versión anterior" },
+        { "value": "Nov 10, 2026", "label": "fecha de lanzamiento" }
+      ]
+    },
+    "fr": {
+      "title": "Les robots IA réussissent les tests en usine — ce que ça change pour ceux qui pensent à l'automatisation",
+      "summary": "L'IA de Google a permis aux robots d'atteindre un taux de réussite de 96 % lors du tri de pièces automobiles dans de vraies usines Mercedes-Benz, montrant que les robots IA passent des démonstrations au travail industriel réel.",
+      "body": [
+        "Gemini Robotics 2.5 de Google DeepMind vient de faire quelque chose que la plupart des démos de robots évitent : fonctionner sur une vraie ligne de production. Dans deux usines Mercedes-Benz — l'une à Kecskemét, en Hongrie, et l'autre à Sindelfingen, en Allemagne — un robot humanoïde Apollo 2 a trié des pièces automobiles en métal dans des plateaux, dans l'ordre précis dont chaque véhicule a besoin. Il a réussi **96 % du temps**, ce que DeepMind appelle un progrès prometteur vers un usage industriel réel.",
+        "Ce chiffre compte parce que la vraie difficulté de l'automatisation industrielle n'a jamais été de faire fonctionner un robot en laboratoire. Le défi, c'est de le faire marcher dans une vraie usine — éclairage changeant, pièces légèrement différentes chaque jour, ouvriers qui se déplacent à proximité. Le même modèle d'IA qui a appris en pratiquant 200 tâches différentes — plier des vêtements, emballer des aliments, accrocher des tasses — **s'est adapté à une usine réelle avec très peu d'ajustements**. Voilà le vrai cap franchi.",
+        "DeepMind indique que le nouveau modèle **accomplit les tâches 20 à 30 % plus vite** que la version précédente et atteint des taux de réussite supérieurs de 30 à 100 % selon les types de travail. Le modèle est en cours de déploiement via des partenaires — Apptronik, Agile Robots et Boston Dynamics — sans API publique pour l'instant. Il est couplé à un modèle de planification distinct qui suit le flux de travail global tandis que Gemini Robotics 2.5 gère les mouvements précis des mains et des bras.",
+        "Pour ceux qui gèrent des opérations ou développent des produits d'automatisation, le signal est limpide : **le problème le plus difficile de l'automatisation physique — gérer la variabilité du monde réel — est en train d'être résolu**. Les mêmes progrès qui améliorent l'IA en écriture et en code rendent maintenant les robots plus fiables sur le terrain. Si vous travaillez dans la fabrication, la logistique ou tout domaine impliquant de saisir, trier ou emballer des objets physiques, la question n'est plus de savoir si cette technologie fonctionne. La question est de savoir quand commencer."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "taux de réussite dans les vraies usines Mercedes-Benz" },
+        { "value": "200+", "label": "tâches distinctes évaluées" },
+        { "value": "20–30%", "label": "plus rapide que la version précédente" },
+        { "value": "Nov 10, 2026", "label": "date de lancement" }
+      ]
+    },
+    "ar": {
+      "title": "روبوتات الذكاء الاصطناعي تجتاز اختبارات المصنع — ماذا يعني ذلك لمن يفكر في الأتمتة",
+      "summary": "حققت روبوتات مدعومة بالذكاء الاصطناعي من Google معدل نجاح 96% في فرز قطع السيارات في مصانع مرسيدس-بنز الحقيقية، مما يُظهر أن الروبوتات الذكية تنتقل من عروض المختبرات إلى العمل الصناعي الفعلي.",
+      "body": [
+        "نجح نموذج Gemini Robotics 2.5 من Google DeepMind في إنجاز شيء تتجنبه معظم عروض الروبوتات: العمل على خط إنتاج حقيقي. في مصنعين لمرسيدس-بنز — أحدهما في كيتشكيميت بالمجر والآخر في زيندلفينغن بألمانيا — قام روبوت إنساني من طراز Apollo 2 بفرز قطع سيارات معدنية في صواني، بالترتيب الدقيق الذي تحتاجه كل سيارة. أنجز المهمة بنجاح **96% من الوقت**، وهو ما تصفه DeepMind بأنه تقدم واعد نحو الاستخدام الصناعي الفعلي.",
+        "هذا الرقم مهم لأن الصعوبة الحقيقية في الأتمتة الصناعية لم تكن يوماً في جعل الروبوت يعمل في مختبر خاضع للتحكم. التحدي هو جعله يعمل في مصنع حقيقي — إضاءة متغيرة، قطع مختلفة قليلاً كل يوم، وعمال يتحركون في المحيط. النموذج نفسه الذي تعلم عبر التدرب على 200 مهمة مختلفة — طي الملابس، تعبئة الطعام، تعليق الأكواب — **انتقل إلى مصنع حقيقي مع تعديلات ضئيلة جداً**. هذا هو الإنجاز الحقيقي.",
+        "تُفيد DeepMind بأن النموذج الجديد **يُنجز المهام بسرعة أعلى بنسبة 20–30%** مقارنةً بالإصدار السابق، ويحقق معدلات نجاح أعلى بنسبة 30–100% في أنواع مختلفة من الأعمال. يُطرح النموذج حالياً عبر شركاء مثل Apptronik وAgile Robots وBoston Dynamics، دون توفر واجهة برمجية (API) عامة بعد. ويعمل بالتزامن مع نموذج تخطيط منفصل يتابع سير العمل الكلي، بينما يتولى Gemini Robotics 2.5 التحكم في الحركات الدقيقة لليدين والذراعين.",
+        "بالنسبة لكل من يدير عمليات أو يبني منتجات أتمتة، الرسالة واضحة: **المشكلة الأصعب في الأتمتة الجسدية — التعامل مع التنوع الفوضوي في العالم الحقيقي — باتت تُحل**. التقدم ذاته الذي يجعل الذكاء الاصطناعي أفضل في الكتابة والبرمجة يجعل الروبوتات الآن أكثر موثوقية في بيئات العمل الفعلية. إذا كنت تعمل في التصنيع أو الخدمات اللوجستية أو أي مجال يتضمن التقاط أشياء مادية أو فرزها أو تعبئتها، فالسؤال لم يعد إذا كانت هذه التكنولوجيا تعمل — بل متى تبدأ."
+      ],
+      "keyFacts": [
+        { "value": "96%", "label": "معدل النجاح في مصانع مرسيدس-بنز الحقيقية" },
+        { "value": "200+", "label": "مهمة مختلفة اختُبر عليها النموذج" },
+        { "value": "20–30%", "label": "أسرع من الإصدار السابق" },
+        { "value": "Nov 10, 2026", "label": "تاريخ الإصدار" }
+      ]
+    }
+  }
+}
