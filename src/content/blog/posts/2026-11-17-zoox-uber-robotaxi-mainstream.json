@@ -1,0 +1,124 @@
+{
+  "slug": "2026-11-17-zoox-uber-robotaxi-mainstream",
+  "date": "2026-11-17",
+  "tags": ["ai", "robotics"],
+  "pillar": "industry-insights",
+  "sources": [
+    {
+      "title": "The Next Web — Amazon's Zoox robotaxis are now on Uber in Las Vegas, a first for both",
+      "url": "https://thenextweb.com/news/zoox-robotaxis-uber-las-vegas-mgm-resorts"
+    },
+    {
+      "title": "Uber Investor Relations — Zoox Is Now Available on Uber in Las Vegas",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-Is-Now-Available-on-Uber-in-Las-Vegas/default.aspx"
+    },
+    {
+      "title": "Las Vegas Review-Journal — Zoox robotaxi rides now bookable via Uber app",
+      "url": "https://www.reviewjournal.com/local/traffic/zoox-robotaxi-rides-now-bookable-via-uber-app-3914961/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Anyone can now hail a driverless car on Uber — here's why that matters",
+      "summary": "Amazon's Zoox robotaxi went live on Uber in Las Vegas on Monday — the first fully driverless car with no steering wheel ever offered on Uber's platform, and a sign the robotaxi market just went mainstream.",
+      "body": [
+        "As of Monday, if you open the Uber app in Las Vegas, you might be matched with a car that has no steering wheel and nobody sitting in front. Amazon's Zoox robotaxi — a purpose-built electric vehicle with seats facing each other and no driver's seat at all — is now available through the standard Uber app. **This is the first time a fully driverless car has ever appeared on Uber's platform.** Riders get one at no extra cost on UberX and similar tiers.",
+        "The deal is a first in another way too. This is the first time Zoox has partnered with an outside company to offer rides. Until Monday, Zoox only sold rides through its own app. Uber and Zoox also signed a multi-year deal with MGM Resorts, making them the official ride partners for MGM's Las Vegas properties. **Las Vegas now has three robotaxi services running at once** — Zoox (fully driverless), Waymo (fully driverless since September), and Motional (still using a safety driver).",
+        "The real shift is not the technology — it is the distribution. Waymo has 4,000 vehicles across the US, but its own separate app. Zoox joining Uber means a driverless car is now reachable through the same app hundreds of millions of people already have on their phones. **Getting onto an existing platform changes who gets exposed** — not just early adopters, but ordinary people picking a ride home from a casino.",
+        "Uber has committed more than $10 billion to robotaxi partnerships and is aiming for over 2,000 driverless cars on the platform in 2027. The Nevada Transportation Authority has approved permits for up to 1,000 robotaxis in Clark County. Los Angeles is next for Zoox, with Uber access there planned for 2027. **The regulatory and business infrastructure is falling into place faster than most people expected.**",
+        "If you build in mobility, delivery, logistics, or any sector where moving people or goods is part of the equation, the platform model is the story to watch. Robotaxis moving onto mainstream apps is the same transition that turned cloud servers and AI tools from specialist options into things every business uses. **The gap between driverless technology and ordinary people just got much smaller** — and that closes fast once it starts."
+      ],
+      "keyFacts": [
+        { "value": "Nov 16", "label": "Zoox went live on Uber in Las Vegas" },
+        { "value": "3", "label": "robotaxi services now running in Las Vegas" },
+        { "value": "$10bn+", "label": "Uber's committed spend on robotaxi partners" },
+        { "value": "1,000", "label": "robotaxi permits approved for Clark County, Nevada" }
+      ]
+    },
+    "de": {
+      "title": "Jetzt kann jeder per Uber ein fahrerloses Auto rufen — das ist der Grund, warum das zählt",
+      "summary": "Amazons Zoox-Robotaxi ist seit Montag auf Uber in Las Vegas verfügbar — das erste vollständig fahrerlose Auto ohne Lenkrad auf Ubers Plattform, und ein Zeichen, dass Robotaxis den Massenmarkt erreicht haben.",
+      "body": [
+        "Seit Montag kann es passieren, dass man in Las Vegas die Uber-App öffnet und ein Auto zugeteilt bekommt, das weder Lenkrad noch Fahrersitz hat. Amazons Zoox-Robotaxi — ein speziell gebautes Elektrofahrzeug mit einander zugewandten Sitzen — ist jetzt über die normale Uber-App buchbar. **Damit erscheint zum ersten Mal ein vollständig fahrerloses Auto auf Ubers Plattform.** Fahrern entstehen dabei keine Mehrkosten bei UberX und ähnlichen Tarifen.",
+        "Die Partnerschaft ist auch in anderer Hinsicht ein Novum: Bisher bot Zoox seine Fahrten ausschließlich über die eigene App an. Uber und Zoox unterzeichneten zudem einen mehrjährigen Vertrag mit MGM Resorts als offizielle Rideshare- und Robotaxi-Partner für MGM-Properties in Las Vegas. **In Las Vegas fahren jetzt drei Robotaxi-Dienste gleichzeitig** — Zoox (vollständig fahrerlos), Waymo (seit September fahrerlos) und Motional (noch mit Sicherheitsfahrer).",
+        "Der eigentliche Wandel liegt nicht in der Technologie, sondern in der Reichweite. Waymo betreibt 4.000 Fahrzeuge in den USA — aber über eine eigene App. Zoox auf Uber bedeutet: Ein fahrerloses Auto ist jetzt über dieselbe App erreichbar, die Hunderte Millionen Menschen bereits auf dem Telefon haben. **Wer auf einer etablierten Plattform präsent ist, verändert, wer mit der Technologie in Berührung kommt** — nicht nur Technikbegeisterte, sondern ganz normale Fahrgäste.",
+        "Uber hat mehr als 10 Milliarden Dollar für Robotaxi-Partnerschaften zugesagt und will 2027 über 2.000 fahrerlose Autos auf der Plattform haben. Die Verkehrsbehörde von Nevada hat bereits Genehmigungen für bis zu 1.000 Robotaxis in Clark County erteilt. Los Angeles folgt als nächster Markt für Zoox, mit Uber-Anbindung dort für 2027 geplant. **Die regulatorischen und wirtschaftlichen Rahmenbedingungen fügen sich schneller zusammen, als die meisten erwartet hatten.**",
+        "Wer Software für Mobilität, Lieferdienste, Logistik oder andere Bereiche mit physischen Transportaufgaben entwickelt, sollte das Plattform-Modell genau beobachten. Robotaxis auf Mainstream-Apps sind derselbe Schritt, der Cloud-Server und KI-Tools vom Spezialisten-Werkzeug zum Standard für jedes Unternehmen gemacht hat. **Der Abstand zwischen fahrerloser Technologie und normalen Nutzern ist gerade deutlich kleiner geworden** — und das geht von da an schnell."
+      ],
+      "keyFacts": [
+        { "value": "Nov 16", "label": "Zoox ging in Las Vegas auf Uber live" },
+        { "value": "3", "label": "Robotaxi-Dienste laufen jetzt in Las Vegas" },
+        { "value": "$10 Mrd.+", "label": "Ubers zugesagte Investitionen in Robotaxi-Partner" },
+        { "value": "1.000", "label": "genehmigte Robotaxi-Lizenzen für Clark County" }
+      ]
+    },
+    "nl": {
+      "title": "Iedereen kan nu een zelfrijdende auto bestellen via Uber — dit is waarom het ertoe doet",
+      "summary": "Amazon's Zoox-robotaxi is maandag live gegaan op Uber in Las Vegas — de eerste volledig bestuurderloze auto zonder stuurwiel op Ubers platform, en een teken dat de robotaxi-markt nu mainstream wordt.",
+      "body": [
+        "Sinds maandag kun je in Las Vegas de Uber-app openen en ingedeeld worden bij een auto zonder stuurwiel en zonder iemand voorin. Amazon's Zoox-robotaxi — een speciaal gebouwde elektrische auto met naar elkaar gerichte stoelen en geen bestuurdersplaats — is nu beschikbaar via de gewone Uber-app. **Dit is de eerste keer dat een volledig bestuurderloze auto verschijnt op Ubers platform.** Reizigers krijgen hem zonder meerkosten aangeboden in UberX en vergelijkbare tarieven.",
+        "De deal is ook op een andere manier een primeur. Zoox bood ritten tot nu toe uitsluitend aan via de eigen app. Uber en Zoox tekenden ook een meerjarig contract met MGM Resorts als officiële rideshare- en robotaxipartners voor MGM-locaties in Las Vegas. **Las Vegas heeft nu drie robotaxidiensten tegelijk actief** — Zoox (volledig bestuurdersloos), Waymo (bestuurdersloos sinds september) en Motional (nog met veiligheidsbestuurder).",
+        "De echte verschuiving zit niet in de technologie, maar in de verspreiding. Waymo heeft 4.000 voertuigen in de VS, maar een eigen app. Zoox op Uber betekent dat een zelfrijdende auto nu bereikbaar is via dezelfde app die honderden miljoenen mensen al op hun telefoon hebben. **Op een bestaand platform stappen verandert wie met de technologie in aanraking komt** — niet alleen techneuten, maar gewone mensen die een rit naar huis zoeken.",
+        "Uber heeft meer dan tien miljard dollar toegezegd aan robotaxipartnerschappen en mikt op meer dan 2.000 bestuurderloze auto's op het platform in 2027. De verkeersautoriteit van Nevada heeft vergunningen goedgekeurd voor maximaal 1.000 robotaxi's in Clark County. Los Angeles is de volgende markt voor Zoox, met Uber-toegang daar gepland voor 2027. **De regelgevende en zakelijke infrastructuur valt sneller op zijn plek dan de meesten hadden verwacht.**",
+        "Als je bouwt voor mobiliteit, bezorging, logistiek of sectoren waar het verplaatsen van mensen of goederen centraal staat, is het platformmodel het verhaal om te volgen. Robotaxi's op een mainstream-app is dezelfde overgang die cloudservers en AI-tools veranderde van specialistisch gereedschap naar iets dat elk bedrijf gebruikt. **De kloof tussen rijloze technologie en gewone gebruikers is zojuist een stuk kleiner geworden** — en dat gaat daarna snel."
+      ],
+      "keyFacts": [
+        { "value": "16 nov", "label": "Zoox ging live op Uber in Las Vegas" },
+        { "value": "3", "label": "robotaxidiensten actief in Las Vegas" },
+        { "value": "$10 mrd+", "label": "Ubers toegezegde investering in robotaxipartners" },
+        { "value": "1.000", "label": "goedgekeurde robotaxivergunningen in Clark County" }
+      ]
+    },
+    "es": {
+      "title": "Ahora cualquiera puede pedir un coche sin conductor en Uber — y esto es lo que importa",
+      "summary": "El robotaxi Zoox de Amazon se lanzó en Uber en Las Vegas el lunes — el primer coche totalmente autónomo sin volante jamás ofrecido en la plataforma de Uber, una señal de que los robotaxis acaban de llegar al gran público.",
+      "body": [
+        "Desde el lunes, si abres la app de Uber en Las Vegas, puede que te asignen un coche sin volante y sin nadie al frente. El robotaxi Zoox de Amazon — un vehículo eléctrico diseñado específicamente con asientos enfrentados y sin asiento del conductor — ya está disponible en la app normal de Uber. **Es la primera vez que un coche totalmente autónomo aparece en la plataforma de Uber.** Los usuarios lo reciben sin coste adicional en UberX y tarifas similares.",
+        "El acuerdo es también un hito en otro sentido. Hasta ahora, Zoox solo vendía viajes a través de su propia app. Uber y Zoox firmaron además un contrato plurianual con MGM Resorts como socios oficiales de transporte en las propiedades de MGM en Las Vegas. **Las Vegas cuenta ahora con tres servicios de robotaxi funcionando al mismo tiempo** — Zoox (totalmente autónomo), Waymo (autónomo desde septiembre) y Motional (todavía con conductor de seguridad).",
+        "El cambio real no está en la tecnología, sino en la distribución. Waymo tiene 4.000 vehículos en EE.UU., pero con su propia app. Que Zoox entre en Uber significa que un coche autónomo ahora es accesible desde la misma app que cientos de millones de personas ya tienen en el móvil. **Estar en una plataforma existente cambia quién se expone a la tecnología** — no solo los primeros adoptantes, sino personas corrientes buscando un viaje a casa.",
+        "Uber ha comprometido más de diez mil millones de dólares en asociaciones con robotaxis y aspira a tener más de 2.000 coches sin conductor disponibles en la plataforma en 2027. La autoridad de transporte de Nevada ha aprobado permisos para hasta 1.000 robotaxis en el condado de Clark. Los Ángeles es el próximo mercado para Zoox, con acceso desde Uber previsto para 2027. **La infraestructura regulatoria y empresarial se está asentando más rápido de lo que la mayoría esperaba.**",
+        "Si construyes en movilidad, reparto, logística o cualquier sector donde mover personas o bienes forme parte de la ecuación, el modelo de plataforma es la historia que hay que seguir. Los robotaxis en apps de uso masivo son el mismo paso que convirtió los servidores en la nube y las herramientas de IA de opciones especializadas en algo que usa cualquier empresa. **La distancia entre la tecnología sin conductor y el usuario corriente acaba de reducirse mucho** — y una vez que empieza, va rápido."
+      ],
+      "keyFacts": [
+        { "value": "16 nov", "label": "Zoox se lanzó en Uber en Las Vegas" },
+        { "value": "3", "label": "servicios de robotaxi activos en Las Vegas" },
+        { "value": "$10 mil M+", "label": "inversión comprometida por Uber en socios de robotaxi" },
+        { "value": "1.000", "label": "permisos de robotaxi aprobados en Clark County" }
+      ]
+    },
+    "fr": {
+      "title": "N'importe qui peut désormais appeler un taxi sans chauffeur sur Uber — voilà pourquoi ça compte",
+      "summary": "Le robotaxi Zoox d'Amazon est arrivé sur Uber à Las Vegas lundi — la première voiture entièrement sans conducteur ni volant jamais proposée sur la plateforme d'Uber, signe que le marché des robotaxis vient de rejoindre le grand public.",
+      "body": [
+        "Depuis lundi, ouvrir l'application Uber à Las Vegas peut vous mettre en contact avec une voiture sans volant et sans personne à l'avant. Le robotaxi Zoox d'Amazon — un véhicule électrique conçu spécifiquement avec des sièges face à face et sans siège conducteur — est désormais disponible via l'appli Uber standard. **C'est la première fois qu'une voiture entièrement sans conducteur apparaît sur la plateforme d'Uber.** Les passagers en bénéficient sans supplément sur UberX et les tarifs similaires.",
+        "Le partenariat est aussi une première d'une autre façon. Jusqu'à présent, Zoox ne vendait des trajets que via sa propre application. Uber et Zoox ont également signé un accord pluriannuel avec MGM Resorts, en devenant les partenaires officiels de transport pour les établissements MGM de Las Vegas. **Las Vegas compte désormais trois services de robotaxi actifs en même temps** — Zoox (entièrement sans conducteur), Waymo (sans conducteur depuis septembre) et Motional (encore avec un conducteur de sécurité).",
+        "Le vrai changement n'est pas la technologie — c'est la distribution. Waymo dispose de 4 000 véhicules aux États-Unis, mais sur sa propre application. L'arrivée de Zoox sur Uber signifie qu'une voiture sans conducteur est désormais accessible via l'appli que des centaines de millions de personnes ont déjà sur leur téléphone. **Rejoindre une plateforme existante change qui est exposé à la technologie** — pas seulement les primo-adoptants, mais des gens ordinaires qui veulent rentrer chez eux.",
+        "Uber a engagé plus de dix milliards de dollars dans des partenariats avec des robotaxis et vise plus de 2 000 voitures sans conducteur sur la plateforme en 2027. L'autorité de transport du Nevada a approuvé des permis pour jusqu'à 1 000 robotaxis dans le comté de Clark. Los Angeles est le prochain marché pour Zoox, avec un accès via Uber prévu pour 2027. **Les infrastructures réglementaires et commerciales se mettent en place plus vite que la plupart des gens ne l'anticipaient.**",
+        "Si vous développez pour la mobilité, la livraison, la logistique ou tout secteur où déplacer des personnes ou des marchandises est central, c'est le modèle de plateforme qu'il faut suivre. Les robotaxis sur des applications grand public, c'est la même transition qui a transformé les serveurs cloud et les outils IA de solutions spécialisées en outils utilisés par toutes les entreprises. **L'écart entre la technologie sans conducteur et l'utilisateur ordinaire vient de se réduire considérablement** — et une fois lancé, ce mouvement va vite."
+      ],
+      "keyFacts": [
+        { "value": "16 nov", "label": "Zoox lancé sur Uber à Las Vegas" },
+        { "value": "3", "label": "services de robotaxi actifs à Las Vegas" },
+        { "value": "+10 Mds $", "label": "investissements engagés par Uber dans les robotaxis" },
+        { "value": "1 000", "label": "permis de robotaxi approuvés dans le comté de Clark" }
+      ]
+    },
+    "ar": {
+      "title": "أصبح بإمكان أي شخص استدعاء سيارة بلا سائق عبر أوبر — وإليك سبب أهمية ذلك",
+      "summary": "بدأت سيارة روبوتاكسي Zoox من أمازون العمل على تطبيق Uber في لاس فيغاس يوم الاثنين — أول سيارة ذاتية القيادة بالكامل وبلا عجلة قيادة تُعرض على منصة Uber، وإشارة إلى أن سوق سيارات الأجرة الذاتية دخل مرحلة الانتشار الواسع.",
+      "body": [
+        "منذ يوم الاثنين، بات بإمكانك في لاس فيغاس فتح تطبيق Uber وتُخصَّص لك سيارة لا تحتوي على عجلة قيادة ولا أحد يجلس في المقعد الأمامي. سيارة Zoox الروبوتية من أمازون — مركبة كهربائية مُصنَّعة خصيصًا بمقاعد متقابلة وبلا مقعد سائق — أصبحت متاحة الآن عبر تطبيق Uber العادي. **هذه هي المرة الأولى التي تظهر فيها سيارة ذاتية القيادة بالكامل على منصة Uber.** ويحصل الركاب عليها دون أي تكلفة إضافية ضمن خدمة UberX وما يماثلها.",
+        "الاتفاقية هي سابقة بوجه آخر أيضًا. حتى هذا الأسبوع، كانت Zoox تبيع الرحلات فقط عبر تطبيقها الخاص. وقّعت Uber وZoox أيضًا عقدًا متعدد السنوات مع MGM Resorts ليصبحا الشريكيْن الرسمييْن للتنقل في فنادق MGM بلاس فيغاس. **باتت لاس فيغاس تضم ثلاثة خدمات روبوتاكسي تعمل في آنٍ واحد** — Zoox (ذاتية القيادة بالكامل)، وWaymo (ذاتية القيادة منذ سبتمبر)، وMotional (لا تزال تستخدم سائق احتياطيًا).",
+        "التحول الحقيقي ليس في التكنولوجيا، بل في طريقة الوصول إليها. تمتلك Waymo 4,000 مركبة في أرجاء الولايات المتحدة، لكنها تعمل عبر تطبيقها الخاص. دخول Zoox على منصة Uber يعني أن السيارة ذاتية القيادة أصبحت الآن في متناول يد مئات الملايين الذين يستخدمون Uber بالفعل على هواتفهم. **الانضمام إلى منصة موجودة يغيّر من يتعرف على هذه التقنية** — ليس فقط المهتمون بالتكنولوجيا، بل الناس العاديون أيضًا.",
+        "التزمت Uber بضخ أكثر من عشرة مليارات دولار في شراكات الروبوتاكسي، وتستهدف توفير أكثر من ألفي سيارة بلا سائق على منصتها في عام 2027. وافقت هيئة النقل في ولاية نيفادا على تصاريح لما يصل إلى ألف سيارة روبوتاكسي في مقاطعة كلارك. لوس أنجلوس هي السوق التالية لـZoox، ومن المقرر إطلاق خدمة Uber هناك عام 2027. **البنية التنظيمية والتجارية تتشكّل بوتيرة أسرع مما توقعه معظم الناس.**",
+        "إن كنت تبني في مجال التنقل أو التوصيل أو اللوجستيات أو أي قطاع تُشكّل فيه حركة الأشخاص والبضائع جزءًا أساسيًا، فهذا هو النموذج الذي يستحق المتابعة. انضمام سيارات الروبوتاكسي إلى التطبيقات الشائعة هو ذات التحول الذي جعل الخوادم السحابية وأدوات الذكاء الاصطناعي تتحول من حلول متخصصة إلى أدوات يستخدمها كل عمل تجاري. **المسافة بين تقنية القيادة الذاتية والمستخدم العادي تقلّصت للتو بشكل كبير** — وبمجرد أن يبدأ هذا، فإنه يتسارع."
+      ],
+      "keyFacts": [
+        { "value": "16 نوف", "label": "انطلاق Zoox على Uber في لاس فيغاس" },
+        { "value": "3", "label": "خدمات روبوتاكسي تعمل في لاس فيغاس الآن" },
+        { "value": "+10 مليار $", "label": "التزامات Uber المالية مع شركاء الروبوتاكسي" },
+        { "value": "1,000", "label": "تصريح روبوتاكسي موافق عليه في مقاطعة كلارك" }
+      ]
+    }
+  }
+}
