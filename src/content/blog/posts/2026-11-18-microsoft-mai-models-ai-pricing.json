@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-18-microsoft-mai-models-ai-pricing",
+  "date": "2026-11-18",
+  "tags": ["ai"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Microsoft Blog — Ignite 2026: Building the frontier ecosystem",
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+    },
+    {
+      "title": "Thurrott — Ignite 2026: Microsoft AI Announces 7 New Models",
+      "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Microsoft's new AI models cost a fraction of rivals — what that means for your budget",
+      "summary": "Microsoft launched seven new AI models at Ignite 2026 that match the performance of OpenAI's and Anthropic's best, but at dramatically lower prices — which should change how any team budgeting for AI thinks.",
+      "body": [
+        "Microsoft launched seven new AI models at its Ignite conference on November 17. The headline numbers are striking: MAI Code 2, its flagship coding model, **matches 98% of OpenAI's GPT-6.1 Sol coding quality at about 40% of the price**. MAI Cyber 2 Flash, built for security work, matches a comparable frontier model at under 2% of the cost per task. These are Microsoft's own benchmark claims, but all seven models are already running in production on Microsoft's Maia 200 AI chips — this is not a preview.",
+        "Until recently, Microsoft was best known for investing in OpenAI, not competing with it. That is now changing. The seven models cover coding, cybersecurity, image generation, voice and transcription — the same ground the big AI labs are fighting over. **Microsoft is now building its own frontier AI, not just reselling others'.** The models are already live in GitHub Copilot and Azure, which means millions of developers have them available today.",
+        "The pricing claims come from Microsoft's own benchmarks, so treat the exact percentages with appropriate skepticism. But the direction is clear: **frontier-quality AI is getting dramatically cheaper.** When one large player prices at 40% of a competitor's cost, the market tends to follow. We saw this with cloud storage and compute — AWS cut prices, competitors followed. AI model pricing is likely following the same curve.",
+        "For anyone building a product or automating work with AI, now is a good time to review your model choices. The cheapest option that meets your quality bar is probably much closer to the best option than it was six months ago. Microsoft also announced Licensed Weights — meaning companies can run MAI models inside their own Azure environment instead of sending data to a shared API. **If AI automation has felt too expensive to justify**, take another look at the numbers today."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "new AI models launched at Ignite" },
+        { "value": "~40%", "label": "price of MAI Code 2 vs. GPT-6.1 Sol" },
+        { "value": "<2%", "label": "cost of MAI Cyber 2 Flash vs. GPT-6 Astra" },
+        { "value": "Maia 200", "label": "Microsoft's own chip powering all seven models" }
+      ]
+    },
+    "de": {
+      "title": "Microsofts neue KI-Modelle kosten einen Bruchteil der Konkurrenz — was das für euer Budget bedeutet",
+      "summary": "Microsoft hat auf Ignite 2026 sieben neue KI-Modelle vorgestellt, die mit den besten Modellen von OpenAI und Anthropic mithalten — und das zu deutlich niedrigeren Preisen.",
+      "body": [
+        "Microsoft hat am 17. November auf seiner Ignite-Konferenz sieben neue KI-Modelle gestartet. Die Zahlen sind beeindruckend: MAI Code 2, das neue Flaggschiff-Coding-Modell, **erreicht 98 % der Coding-Qualität von OpenAIs GPT-6.1 Sol — für etwa 40 % des Preises**. MAI Cyber 2 Flash, für Sicherheitsarbeit entwickelt, bietet vergleichbare Qualität wie ein führendes Frontier-Modell zu weniger als 2 % der Kosten pro Aufgabe. Das sind Microsofts eigene Benchmark-Angaben, aber alle sieben Modelle laufen bereits produktiv auf Microsofts Maia-200-Chips — das sind keine Vorschauen.",
+        "Bis vor Kurzem war Microsoft vor allem als Investor von OpenAI bekannt, nicht als Konkurrent. Das ändert sich jetzt. Die sieben Modelle decken Coding, Cybersicherheit, Bildgenerierung, Sprache und Transkription ab — genau das Terrain, um das die großen KI-Labore kämpfen. **Microsoft baut jetzt eigene Frontier-KI, statt nur die anderer weiterzuverkaufen.** Die Modelle sind bereits in GitHub Copilot und Azure live, was bedeutet, dass Millionen von Entwicklern heute darauf zugreifen können.",
+        "Die Preisangaben stammen aus Microsofts eigenen Benchmarks — die genauen Zahlen sind daher mit Vorsicht zu genießen. Aber die Richtung ist klar: **Frontier-KI wird dramatisch billiger.** Wenn ein großer Anbieter zu 40 % der Kosten eines Konkurrenten anbietet, folgt der Markt in der Regel. Dieses Muster haben wir bei Cloud-Speicher und -Computing erlebt. Bei KI-Modellaufrufen dürfte sich das wiederholen.",
+        "Für alle, die ein Produkt aufbauen oder Arbeit mit KI automatisieren, ist jetzt ein guter Zeitpunkt, die Modellauswahl zu überprüfen. Die günstigste Option, die euren Qualitätsansprüchen genügt, ist jetzt wahrscheinlich viel näher an der besten Option als noch vor sechs Monaten. Microsoft kündigte auch Licensed Weights an — damit können Unternehmen MAI-Modelle in ihrer eigenen Azure-Umgebung betreiben, statt Daten an eine geteilte API zu senden. **Wenn euch KI-Automatisierung bisher zu teuer schien**, lohnt sich ein erneuter Blick auf die Zahlen."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "neue KI-Modelle auf Ignite gestartet" },
+        { "value": "~40%", "label": "Preis von MAI Code 2 vs. GPT-6.1 Sol" },
+        { "value": "<2%", "label": "Kosten von MAI Cyber 2 Flash vs. GPT-6 Astra" },
+        { "value": "Maia 200", "label": "Microsofts eigener Chip für alle sieben Modelle" }
+      ]
+    },
+    "nl": {
+      "title": "Microsofts nieuwe AI-modellen kosten een fractie van de concurrentie — wat dat betekent voor je budget",
+      "summary": "Microsoft lanceerde op Ignite 2026 zeven nieuwe AI-modellen die de prestaties van OpenAI en Anthropic evenaren, maar dan tegen dramatisch lagere prijzen.",
+      "body": [
+        "Microsoft lanceerde op 17 november zeven nieuwe AI-modellen op zijn Ignite-conferentie. De cijfers zijn opvallend: MAI Code 2, het nieuwe vlaggeschip-codeermodel, **haalt 98% van de codeerqualiteit van OpenAI's GPT-6.1 Sol voor ongeveer 40% van de prijs**. MAI Cyber 2 Flash, gebouwd voor beveiligingswerk, evenaren een vergelijkbaar frontier-model voor minder dan 2% van de kosten per taak. Dit zijn Microsofts eigen benchmarkclaims, maar alle zeven modellen draaien al in productie op Microsofts Maia 200-chips — dit zijn geen previews.",
+        "Tot voor kort was Microsoft vooral bekend als investeerder in OpenAI, niet als concurrent. Dat verandert nu. De zeven modellen bestrijken coderen, cyberbeveiliging, beeldgeneratie, spraak en transcriptie — precies het terrein waarover de grote AI-labs strijden. **Microsoft bouwt nu zijn eigen frontier-AI in plaats van die van anderen door te verkopen.** De modellen zijn al live in GitHub Copilot en Azure, wat betekent dat miljoenen ontwikkelaars ze vandaag kunnen gebruiken.",
+        "De prijsclaims zijn interne benchmarks van Microsoft, dus neem de exacte cijfers met enige scepsis. Maar de richting is duidelijk: **frontier-AI wordt dramatisch goedkoper.** Wanneer één grote speler voor 40% van de kosten van een concurrent aanbiedt, volgt de markt doorgaans. Dit patroon zagen we bij cloudopslag en rekenkracht, en het herhaalt zich waarschijnlijk bij AI-modelaanroepen.",
+        "Voor iedereen die een product bouwt of werk automatiseert met AI, is dit een goed moment om je modelkeuzes te herzien. De goedkoopste optie die aan je kwaliteitseisen voldoet, is nu waarschijnlijk veel dichter bij de beste optie dan zes maanden geleden. Microsoft kondigde ook Licensed Weights aan — bedrijven kunnen MAI-modellen dan in hun eigen Azure-omgeving draaien in plaats van data naar een gedeelde API te sturen. **Als AI-automatisering tot nu toe te duur leek**, loont het om de kosten opnieuw te bekijken."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "nieuwe AI-modellen gelanceerd op Ignite" },
+        { "value": "~40%", "label": "prijs MAI Code 2 vs. GPT-6.1 Sol" },
+        { "value": "<2%", "label": "kosten MAI Cyber 2 Flash vs. GPT-6 Astra" },
+        { "value": "Maia 200", "label": "Microsofts eigen chip voor alle zeven modellen" }
+      ]
+    },
+    "es": {
+      "title": "Los nuevos modelos de IA de Microsoft cuestan una fracción de la competencia — qué significa para tu presupuesto",
+      "summary": "Microsoft presentó siete nuevos modelos de IA en Ignite 2026 que igualan el rendimiento de OpenAI y Anthropic pero a precios dramáticamente más bajos.",
+      "body": [
+        "Microsoft lanzó siete nuevos modelos de IA en su conferencia Ignite el 17 de noviembre. Los números son llamativos: MAI Code 2, su nuevo modelo insignia de programación, **alcanza el 98% de la calidad de codificación de GPT-6.1 Sol de OpenAI al 40% del precio**. MAI Cyber 2 Flash, diseñado para ciberseguridad, iguala un modelo frontier comparable a menos del 2% del coste por tarea. Son afirmaciones de los propios benchmarks de Microsoft, pero todos los modelos ya corren en producción sobre los chips Maia 200 de la compañía — no son vistas previas.",
+        "Hasta hace poco, Microsoft era conocido principalmente como inversor en OpenAI, no como competidor. Eso está cambiando. Los siete modelos cubren programación, ciberseguridad, generación de imágenes, voz y transcripción — exactamente el terreno por el que luchan los grandes laboratorios de IA. **Microsoft ahora construye su propia IA frontier en lugar de simplemente revender la de otros.** Los modelos ya están en vivo en GitHub Copilot y Azure, lo que significa que millones de desarrolladores pueden acceder a ellos hoy mismo.",
+        "Las afirmaciones sobre precios son benchmarks propios de Microsoft, así que toma los números exactos con cierto escepticismo. Pero la dirección es clara: **la IA frontier se está volviendo dramáticamente más barata.** Cuando un gran actor ofrece al 40% del coste de un competidor, el mercado suele seguir. Vimos este patrón con el almacenamiento y el cómputo en la nube, y probablemente se repetirá con las llamadas a modelos de IA.",
+        "Para cualquiera que esté construyendo un producto o automatizando trabajo con IA, ahora es un buen momento para revisar las elecciones de modelos. La opción más barata que cumple tu estándar de calidad está probablemente mucho más cerca de la mejor opción que hace seis meses. Microsoft también anunció Licensed Weights — lo que permite a las empresas ejecutar modelos MAI en su propio entorno Azure en lugar de enviar datos a una API compartida. **Si los costes de la IA te han parecido demasiado altos hasta ahora**, vale la pena echar un nuevo vistazo a los números."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "nuevos modelos de IA lanzados en Ignite" },
+        { "value": "~40%", "label": "precio de MAI Code 2 vs. GPT-6.1 Sol" },
+        { "value": "<2%", "label": "coste de MAI Cyber 2 Flash vs. GPT-6 Astra" },
+        { "value": "Maia 200", "label": "el propio chip de Microsoft para los siete modelos" }
+      ]
+    },
+    "fr": {
+      "title": "Les nouveaux modèles IA de Microsoft coûtent une fraction de la concurrence — ce que ça change pour votre budget",
+      "summary": "Microsoft a présenté sept nouveaux modèles IA à Ignite 2026, capables d'égaler OpenAI et Anthropic, mais à des prix nettement inférieurs.",
+      "body": [
+        "Microsoft a lancé sept nouveaux modèles d'IA lors de sa conférence Ignite le 17 novembre. Les chiffres sont frappants : MAI Code 2, son nouveau modèle phare pour le code, **atteint 98 % de la qualité de codage de GPT-6.1 Sol d'OpenAI pour environ 40 % du prix**. MAI Cyber 2 Flash, conçu pour la cybersécurité, égale un modèle frontier comparable à moins de 2 % du coût par tâche. Ce sont les propres benchmarks de Microsoft, mais tous les modèles tournent déjà en production sur les puces Maia 200 de la société — ce ne sont pas des aperçus.",
+        "Jusqu'à récemment, Microsoft était surtout connu comme investisseur d'OpenAI, pas comme concurrent. Cela change. Les sept modèles couvrent le code, la cybersécurité, la génération d'images, la voix et la transcription — exactement le terrain que se disputent les grands laboratoires d'IA. **Microsoft construit désormais sa propre IA frontier plutôt que de simplement revendre celle des autres.** Les modèles sont déjà disponibles dans GitHub Copilot et Azure, ce qui signifie que des millions de développeurs y ont accès aujourd'hui.",
+        "Les affirmations sur les prix sont des benchmarks internes de Microsoft, donc prenez les chiffres exacts avec un certain recul. Mais la direction est claire : **l'IA frontier devient dramatiquement moins chère.** Quand un acteur majeur propose à 40 % du coût d'un concurrent, le marché suit généralement. On a vu ce schéma avec le stockage et le calcul cloud, et il se répétera probablement avec les appels à des modèles d'IA.",
+        "Pour quiconque construit un produit ou automatise du travail avec l'IA, c'est le bon moment de revoir ses choix de modèles. L'option la moins chère qui répond à vos critères de qualité est probablement bien plus proche de la meilleure option qu'elle ne l'était il y a six mois. Microsoft a aussi annoncé les Licensed Weights — les entreprises peuvent ainsi faire tourner les modèles MAI dans leur propre environnement Azure plutôt que d'envoyer des données à une API partagée. **Si les coûts de l'IA vous semblaient trop élevés jusqu'ici**, il vaut la peine de jeter un nouveau coup d'œil aux chiffres."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "nouveaux modèles IA lancés à Ignite" },
+        { "value": "~40%", "label": "prix de MAI Code 2 vs. GPT-6.1 Sol" },
+        { "value": "<2%", "label": "coût de MAI Cyber 2 Flash vs. GPT-6 Astra" },
+        { "value": "Maia 200", "label": "la puce maison de Microsoft pour les sept modèles" }
+      ]
+    },
+    "ar": {
+      "title": "نماذج الذكاء الاصطناعي الجديدة من مايكروسوفت تكلّف جزءاً بسيطاً من تكلفة المنافسين — ما يعنيه ذلك لميزانيتك",
+      "summary": "أطلقت مايكروسوفت سبعة نماذج ذكاء اصطناعي جديدة في Ignite 2026 تضاهي أداء OpenAI وAnthropic — لكن بأسعار أقل بكثير.",
+      "body": [
+        "أطلقت مايكروسوفت سبعة نماذج ذكاء اصطناعي جديدة في مؤتمر Ignite يوم 17 نوفمبر. الأرقام لافتة: نموذج MAI Code 2، النموذج الرائد في البرمجة، **يحقق 98% من جودة كتابة الكود في GPT-6.1 Sol من OpenAI بنحو 40% من سعره**. أما MAI Cyber 2 Flash المصمم للأمن السيبراني، فيضاهي نموذجاً مقارناً في الجيل الأمامي بأقل من 2% من التكلفة لكل مهمة. هذه ادعاءات مستندة إلى مقاييس مايكروسوفت الداخلية، لكن جميع النماذج تعمل إنتاجياً بالفعل على شرائح Maia 200 الخاصة بها — ليست معاينات.",
+        "حتى وقت قريب، كانت مايكروسوفت معروفة أساساً كمستثمر في OpenAI، لا كمنافس. هذا يتغير الآن. النماذج السبعة تغطي البرمجة والأمن السيبراني وتوليد الصور والصوت والنسخ — نفس الميدان الذي تتنافس عليه كبرى مختبرات الذكاء الاصطناعي. **مايكروسوفت تبني الآن ذكاءً اصطناعياً حدودياً خاصاً بها بدلاً من إعادة بيع ذكاء الآخرين.** النماذج متاحة بالفعل في GitHub Copilot وAzure، مما يعني أن الملايين من المطورين يستطيعون الوصول إليها اليوم.",
+        "ادعاءات الأسعار مستندة إلى مقاييس مايكروسوفت الداخلية، لذا خذ الأرقام الدقيقة بحذر. لكن الاتجاه واضح: **الذكاء الاصطناعي الحدودي يصبح أرخص بشكل ملحوظ.** حين يقدّم لاعب كبير خدمات بـ40% من تكلفة منافسه، يميل السوق عادةً للحاق به. رأينا هذا النمط مع التخزين السحابي والحوسبة، ومن المرجح أن يتكرر مع استدعاءات نماذج الذكاء الاصطناعي.",
+        "لكل من يبني منتجاً أو يعمل على أتمتة المهام بالذكاء الاصطناعي، الآن وقت مناسب لمراجعة اختيارات النماذج. الخيار الأرخص الذي يلبّي معايير جودتك أصبح على الأرجح أقرب بكثير إلى الخيار الأفضل مما كان قبل ستة أشهر. كما أعلنت مايكروسوفت عن Licensed Weights — مما يتيح للشركات تشغيل نماذج MAI في بيئة Azure الخاصة بها بدلاً من إرسال البيانات إلى واجهة API مشتركة. **إن كانت تكاليف الذكاء الاصطناعي تبدو لك مرتفعة حتى الآن**، يستحق الأمر إلقاء نظرة جديدة على الأرقام."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "نماذج ذكاء اصطناعي جديدة أُطلقت في Ignite" },
+        { "value": "~40%", "label": "سعر MAI Code 2 مقارنةً بـ GPT-6.1 Sol" },
+        { "value": "<2%", "label": "تكلفة MAI Cyber 2 Flash مقارنةً بـ GPT-6 Astra" },
+        { "value": "Maia 200", "label": "شريحة مايكروسوفت الخاصة التي تُشغّل النماذج السبعة" }
+      ]
+    }
+  }
+}
