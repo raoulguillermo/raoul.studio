@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-19-microsoft-mai-cheaper-frontier-models",
+  "date": "2026-11-19",
+  "tags": ["ai", "ai-agents", "microsoft"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "Interesting Engineering — Microsoft takes on Claude with seven models costing up to 95% less for coding tasks",
+      "url": "https://interestingengineering.com/ai-robotics/microsoft-seven-mai-models-launch"
+    },
+    {
+      "title": "Microsoft — Ignite 2026 Book of News",
+      "url": "https://news.microsoft.com/events/ignite/2026/book-of-news/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When AI Gets Cheap Enough to Run All Day",
+      "summary": "Microsoft launched seven specialist AI models at Ignite that cost up to 95% less than the best models on the market — and that changes the economics for anyone building automated workflows.",
+      "body": [
+        "Microsoft launched seven new AI models at its Ignite conference on November 17. The most striking detail was not what they can do — it was what they cost. Its new coding model, MAI Code 2, **costs 95% less than Claude Opus 5.5** while still delivering 96% of its performance. That gap is wide enough to change how companies think about building with AI.",
+        "The seven models — called the MAI family — each cover a different job: writing code, finding security holes, editing images, handling voice, and routing tasks to the right model. MAI Cyber 2 Flash, the security model, **costs less than 2% of a comparable OpenAI model** while matching its quality on a standard cybersecurity benchmark. These are not general-purpose models trying to do everything. They are focused tools built to run one job continuously and cheaply. Microsoft is also letting businesses download the model weights and run them on their own private servers — important for anyone in finance, healthcare, or law where data cannot leave the building.",
+        "This matters most for teams running AI agents — programs that do work automatically on your behalf, often around the clock. An agent checking code quality, monitoring for security problems, or processing customer requests can fire off thousands of model calls per day. At the going rate for the most powerful models, **that adds up fast**. When a specialist model costs 95% less, those same workflows become affordable to run all day, every day.",
+        "The practical question is no longer just which AI model is most capable. For routine tasks — code reviews, document summaries, security scans, customer queries — **a cheaper specialist is usually good enough**. Save the expensive flagship model for genuinely hard, one-off problems. The gap between the best available and the best value just got much wider."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "new AI models launched at Ignite" },
+        { "value": "95%", "label": "less than Claude Opus 5.5 for coding" },
+        { "value": "<2%", "label": "cost of MAI Cyber vs. GPT-6 Astra" },
+        { "value": "4,000", "label": "businesses already using Decision 1.1" }
+      ]
+    },
+    "de": {
+      "title": "Wenn KI günstig genug wird, um den ganzen Tag zu laufen",
+      "summary": "Microsoft hat auf seiner Ignite-Konferenz sieben spezialisierte KI-Modelle vorgestellt, die bis zu 95 % günstiger sind als die besten Modelle auf dem Markt — das verändert die Wirtschaftlichkeit für alle, die automatisierte Abläufe entwickeln.",
+      "body": [
+        "Microsoft hat auf seiner Ignite-Konferenz am 17. November sieben neue KI-Modelle vorgestellt. Das Auffälligste war nicht ihre Leistung — sondern ihr Preis. Das neue Coding-Modell MAI Code 2 **kostet 95 % weniger als Claude Opus 5.5** und liefert trotzdem 96 % seiner Leistung. Dieser Unterschied ist groß genug, um die Art und Weise zu verändern, wie Unternehmen über den Einsatz von KI nachdenken.",
+        "Die sieben Modelle der MAI-Familie haben jeweils einen klaren Zweck: Code schreiben, Sicherheitslücken finden, Bilder bearbeiten, Sprache verarbeiten und Aufgaben weiterleiten. MAI Cyber 2 Flash, das Sicherheitsmodell, **kostet weniger als 2 % eines vergleichbaren OpenAI-Modells** und erreicht dabei dieselbe Qualität auf einem standardisierten Benchmark. Das sind keine Alleskönner — es sind spezialisierte Werkzeuge für einen Job, kontinuierlich und günstig. Microsoft lässt Unternehmen auch die Modellgewichte herunterladen und auf eigenen Servern betreiben, was für Unternehmen in Finanz, Gesundheit oder Recht entscheidend ist.",
+        "Das ist besonders wichtig für Teams, die KI-Agenten einsetzen — Programme, die automatisch im Hintergrund Aufgaben erledigen. Ein Agent, der Code prüft, Sicherheitsprobleme überwacht oder Kundenanfragen verarbeitet, kann täglich tausende Modellanfragen erzeugen. Zu den üblichen Preisen für leistungsstarke Modelle **summiert sich das schnell**. Wenn ein Spezialmodell 95 % weniger kostet, werden dieselben Abläufe erschwinglich.",
+        "Die praktische Frage lautet nicht mehr nur: Welches KI-Modell ist am leistungsstärksten? Für Routineaufgaben — Code-Reviews, Dokumentenzusammenfassungen, Sicherheitsscans — **reicht ein günstigeres Spezialmodell meistens aus**. Das teure Flaggschiff-Modell bleibt für wirklich schwierige Einzelprobleme. Der Abstand zwischen dem Besten und dem Preis-Leistungs-Sieger ist gerade deutlich größer geworden."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "neue KI-Modelle bei Ignite vorgestellt" },
+        { "value": "95%", "label": "günstiger als Claude Opus 5.5 beim Coding" },
+        { "value": "<2%", "label": "Kosten von MAI Cyber vs. GPT-6 Astra" },
+        { "value": "4.000", "label": "Unternehmen nutzen bereits Decision 1.1" }
+      ]
+    },
+    "nl": {
+      "title": "Wanneer AI goedkoop genoeg wordt om de hele dag te draaien",
+      "summary": "Microsoft lanceerde op Ignite zeven gespecialiseerde AI-modellen die tot 95% goedkoper zijn dan de beste modellen op de markt — wat de economie verandert voor iedereen die geautomatiseerde workflows bouwt.",
+      "body": [
+        "Microsoft lanceerde op 17 november zeven nieuwe AI-modellen tijdens zijn Ignite-conferentie. Het opvallendste was niet wat ze kunnen — maar wat ze kosten. Het nieuwe codeermodel MAI Code 2 **kost 95% minder dan Claude Opus 5.5** en levert toch 96% van zijn prestaties. Dat verschil is groot genoeg om te veranderen hoe bedrijven over het bouwen met AI nadenken.",
+        "De zeven modellen van de MAI-familie hebben elk een eigen taak: code schrijven, beveiligingslekken opsporen, afbeeldingen bewerken, spraak verwerken en taken doorsturen. MAI Cyber 2 Flash, het beveiligingsmodel, **kost minder dan 2% van een vergelijkbaar OpenAI-model** en haalt dezelfde kwaliteit op een standaard benchmark. Dit zijn geen alleskunners — het zijn gerichte tools die één taak continu en goedkoop uitvoeren. Microsoft laat bedrijven ook de modelgewichten downloaden en op eigen servers draaien, iets wat belangrijk is voor wie in finance, zorg of juridische dienstverlening werkt.",
+        "Dit is het meest relevant voor teams die AI-agents inzetten — programma's die automatisch taken uitvoeren, vaak dag en nacht. Een agent die code controleert, beveiligingsproblemen monitort of klantvragen verwerkt, kan duizenden modelaanvragen per dag genereren. Tegen de gangbare prijzen voor de krachtigste modellen **loopt dat snel op**. Als een specialistisch model 95% minder kost, worden dezelfde workflows ineens betaalbaar om de hele dag te draaien.",
+        "De praktische vraag is niet meer alleen: welk AI-model is het krachtigst? Voor routinetaken — code reviews, documentsamenvatting, beveiligingsscans — **is een goedkoper specialistisch model meestal goed genoeg**. Bewaar het dure vlaggenschipmodel voor echt moeilijke, eenmalige problemen. Het verschil tussen het beste en de beste prijs-kwaliteit is zojuist een stuk groter geworden."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "nieuwe AI-modellen gelanceerd bij Ignite" },
+        { "value": "95%", "label": "goedkoper dan Claude Opus 5.5 voor codering" },
+        { "value": "<2%", "label": "kosten van MAI Cyber vs. GPT-6 Astra" },
+        { "value": "4.000", "label": "bedrijven die al Decision 1.1 gebruiken" }
+      ]
+    },
+    "es": {
+      "title": "Cuando la IA se vuelve lo suficientemente barata para funcionar todo el día",
+      "summary": "Microsoft presentó en Ignite siete modelos de IA especializados que cuestan hasta un 95% menos que los mejores del mercado, lo que cambia la economía para cualquiera que construya flujos de trabajo automatizados.",
+      "body": [
+        "Microsoft presentó siete nuevos modelos de IA en su conferencia Ignite el 17 de noviembre. Lo más llamativo no fue lo que pueden hacer, sino lo que cuestan. Su nuevo modelo de código, MAI Code 2, **cuesta un 95% menos que Claude Opus 5.5** y aun así ofrece el 96% de su rendimiento. Esa diferencia ya es suficientemente grande para cambiar cómo las empresas piensan en construir con IA.",
+        "Los siete modelos de la familia MAI tienen cada uno una función distinta: escribir código, detectar fallos de seguridad, editar imágenes, procesar voz y enrutar tareas al modelo adecuado. MAI Cyber 2 Flash, el modelo de ciberseguridad, **cuesta menos del 2% de un modelo comparable de OpenAI** y alcanza la misma calidad en un benchmark estándar. No son modelos generalistas que intentan hacerlo todo: son herramientas enfocadas para un trabajo específico, continuo y económico. Microsoft también permite a las empresas descargar los pesos del modelo y ejecutarlos en sus propios servidores, algo clave para quienes trabajan en finanzas, sanidad o derecho.",
+        "Esto importa sobre todo a los equipos que usan agentes de IA — programas que realizan tareas automáticamente en segundo plano, muchas veces durante todo el día. Un agente que revisa código, vigila problemas de seguridad o procesa consultas de clientes puede generar miles de llamadas al modelo al día. Con las tarifas habituales de los modelos más potentes, **eso se acumula rápido**. Cuando un modelo especializado cuesta un 95% menos, los mismos flujos de trabajo se vuelven asequibles para funcionar todo el día.",
+        "La pregunta práctica ya no es solo qué modelo de IA es más potente. Para tareas rutinarias — revisiones de código, resúmenes de documentos, análisis de seguridad, consultas de clientes — **un modelo especializado más barato suele ser suficiente**. Guarda las llamadas caras al modelo estrella para los problemas genuinamente difíciles. La diferencia entre lo mejor disponible y la mejor relación calidad-precio acaba de crecer considerablemente."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "nuevos modelos de IA presentados en Ignite" },
+        { "value": "95%", "label": "más barato que Claude Opus 5.5 para codificación" },
+        { "value": "<2%", "label": "costo de MAI Cyber vs. GPT-6 Astra" },
+        { "value": "4.000", "label": "empresas que ya usan Decision 1.1" }
+      ]
+    },
+    "fr": {
+      "title": "Quand l'IA devient assez bon marché pour tourner toute la journée",
+      "summary": "Microsoft a lancé à Ignite sept modèles d'IA spécialisés coûtant jusqu'à 95 % moins cher que les meilleurs du marché — ce qui change l'économie pour toute équipe qui construit des workflows automatisés.",
+      "body": [
+        "Microsoft a lancé sept nouveaux modèles d'IA lors de sa conférence Ignite le 17 novembre. L'élément le plus frappant n'était pas leurs capacités, mais leur prix. Son nouveau modèle de codage, MAI Code 2, **coûte 95 % moins cher que Claude Opus 5.5** tout en offrant 96 % de ses performances. Cet écart est désormais assez large pour changer la façon dont les entreprises pensent à développer avec l'IA.",
+        "Les sept modèles de la famille MAI ont chacun une fonction précise : écrire du code, détecter des failles de sécurité, modifier des images, traiter la voix et aiguiller les tâches. MAI Cyber 2 Flash, le modèle de cybersécurité, **coûte moins de 2 % d'un modèle OpenAI comparable** tout en atteignant la même qualité sur un benchmark standard. Ce ne sont pas des modèles généralistes qui font tout : ce sont des outils spécialisés conçus pour faire un travail en continu et à faible coût. Microsoft permet aussi aux entreprises de télécharger les poids du modèle et de les exécuter sur leurs propres serveurs — ce qui est essentiel pour ceux qui travaillent dans la finance, la santé ou le droit.",
+        "C'est surtout important pour les équipes qui utilisent des agents IA — des programmes qui effectuent des tâches automatiquement, souvent en permanence. Un agent qui vérifie du code, surveille des problèmes de sécurité ou traite des demandes clients peut générer des milliers d'appels par jour. Aux tarifs habituels des modèles haut de gamme, **ça s'accumule vite**. Quand un modèle spécialisé coûte 95 % moins cher, ces mêmes flux de travail deviennent économiquement viables.",
+        "La question pratique n'est plus seulement quel modèle d'IA est le plus puissant. Pour les tâches routinières — revues de code, résumés de documents, analyses de sécurité — **un modèle spécialisé moins cher suffit généralement**. Réservez les appels coûteux au modèle phare pour les problèmes véritablement difficiles. L'écart entre le meilleur disponible et le meilleur rapport qualité-prix vient de s'élargir considérablement."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "nouveaux modèles d'IA lancés à Ignite" },
+        { "value": "95%", "label": "moins cher que Claude Opus 5.5 pour le codage" },
+        { "value": "<2%", "label": "coût de MAI Cyber vs. GPT-6 Astra" },
+        { "value": "4 000", "label": "entreprises utilisant déjà Decision 1.1" }
+      ]
+    },
+    "ar": {
+      "title": "حين تصبح تكلفة الذكاء الاصطناعي منخفضة بما يكفي للعمل طوال اليوم",
+      "summary": "أطلقت مايكروسوفت في مؤتمر Ignite سبعة نماذج ذكاء اصطناعي متخصصة تكلّف أقل بنسبة 95% من أفضل النماذج في السوق، مما يغيّر المعادلة الاقتصادية لكل من يبني سير عمل آلية.",
+      "body": [
+        "أطلقت مايكروسوفت سبعة نماذج ذكاء اصطناعي جديدة في مؤتمر Ignite يوم 17 نوفمبر. اللافت لم يكن ما تستطيع فعله، بل ما تكلّفه. نموذج البرمجة الجديد MAI Code 2 **يكلّف أقل بنسبة 95% مقارنةً بـ Claude Opus 5.5**، مع تقديم 96% من أدائه. هذا الفارق بات كبيراً بما يكفي لتغيير طريقة تفكير الشركات في البناء بالذكاء الاصطناعي.",
+        "كل واحد من النماذج السبعة في عائلة MAI مخصص لمهمة بعينها: كتابة الكود، واكتشاف ثغرات الأمان، وتحرير الصور، ومعالجة الصوت، وتوجيه المهام. نموذج الأمن MAI Cyber 2 Flash **يكلّف أقل من 2% مما يكلّفه نموذج مماثل من OpenAI**، مع تحقيق الجودة ذاتها على معيار قياسي للأمن السيبراني. ليست هذه نماذج عامة تحاول فعل كل شيء؛ بل أدوات متخصصة صُممت للعمل في مهمة واحدة بشكل مستمر وبتكلفة منخفضة. كما تتيح مايكروسوفت للشركات تنزيل أوزان النماذج وتشغيلها على خوادمها الخاصة، وهو أمر جوهري لقطاعات المال والصحة والقانون.",
+        "هذا يهم بالدرجة الأولى الفرق التي تعتمد على وكلاء الذكاء الاصطناعي — برامج تؤدي مهام تلقائياً طوال اليوم. وكيل يراجع الكود، أو يرصد مشكلات الأمان، أو يعالج استفسارات العملاء، يمكنه توليد آلاف الطلبات يومياً. بأسعار النماذج القوية الحالية، **يتراكم ذلك بسرعة**. حين يكلّف النموذج المتخصص أقل بنسبة 95%، تصبح هذه الأعباء ميسورة للتشغيل على مدار الساعة.",
+        "السؤال العملي لم يعد فقط: ما أقوى نموذج ذكاء اصطناعي؟ للمهام الروتينية — مراجعة الكود، وملخصات المستندات، وفحوصات الأمان، واستفسارات العملاء — **نموذج متخصص أرخص يكفي في الغالب**. احتفظ بالنموذج الرائد المكلّف للمشكلات الصعبة حقاً. الفجوة بين الأفضل من حيث القدرة والأفضل من حيث القيمة توسّعت للتو بشكل كبير."
+      ],
+      "keyFacts": [
+        { "value": "7", "label": "نماذج ذكاء اصطناعي جديدة أُطلقت في Ignite" },
+        { "value": "95%", "label": "أقل تكلفة من Claude Opus 5.5 للبرمجة" },
+        { "value": "<2%", "label": "تكلفة MAI Cyber مقارنةً بـ GPT-6 Astra" },
+        { "value": "4,000", "label": "شركة تستخدم بالفعل Decision 1.1" }
+      ]
+    }
+  }
+}
