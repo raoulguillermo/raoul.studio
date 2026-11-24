@@ -1,0 +1,124 @@
+{
+  "slug": "2026-11-24-claude-ship-ai-code-review",
+  "date": "2026-11-24",
+  "tags": ["ai", "developer-tools"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "TechCrunch — Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    },
+    {
+      "title": "Anthropic — Introducing Claude Ship",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship"
+    },
+    {
+      "title": "Crypto Briefing — Anthropic launches Claude Ship to automate code reviews and approvals",
+      "url": "https://cryptobriefing.com/ai-code-review-automation/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "AI writes the code. Now it reviews it too.",
+      "summary": "Anthropic's Claude Ship, launched yesterday, lets AI agents review, fix, and even approve code changes automatically — a sign that the main constraint in software teams has shifted from writing code to reviewing it.",
+      "body": [
+        "Most software teams already use AI to write code. But reviewing each change still happens by hand, the same way it always has. As AI generates more and more pull requests — batches of proposed changes waiting to be checked and added to the main codebase — **the review queue becomes the bottleneck**. Yesterday, Anthropic launched Claude Ship to address exactly that.",
+        "Claude Ship is three things working together. Code Review reads a pull request and flags logic errors, security holes, and edge-case bugs. PR Steward handles the back-and-forth: it fixes failing tests, resolves merge conflicts, and responds to reviewer feedback on its own. The most notable part is Claude Approvals — **it can approve routine changes automatically**, based on rules each team writes in plain English.",
+        "Anthropic runs these tools on its own code team, where Claude already writes most of the software. Between June and September, **merged pull requests more than doubled**. The rate of changes later reversed — a sign something went wrong — fell by more than 40%. These are Anthropic's own numbers from their own team, so treat them as a proof of concept, not a guarantee.",
+        "Some engineers will pause at the approval step. Flagging problems is one thing; **deciding what gets merged is another**. Anthropic recommends starting in observe-only mode and keeping humans in the loop for sensitive changes. Teams write the approval rules in plain language and can always require a human sign-off for specific change types.",
+        "Claude Ship is in beta for Claude Team and Enterprise plans on GitHub. If your team already generates more pull requests than it can review comfortably, start with Code Review and PR Steward — **the parts that assist rather than decide**. Try auto-approval only after you have seen how the tool handles your codebase. Run /ship in Claude Code to get started."
+      ],
+      "keyFacts": [
+        { "value": "2×", "label": "more merged pull requests on Anthropic's own code team" },
+        { "value": ">40%", "label": "fewer reverted code changes on the same team" },
+        { "value": "Nov 23, 2026", "label": "Claude Ship launch date" },
+        { "value": "$10K", "label": "Enterprise promotional credits, claim by Jan 15, 2027" }
+      ]
+    },
+    "de": {
+      "title": "KI schreibt den Code – jetzt überprüft sie ihn auch",
+      "summary": "Mit Claude Ship, das gestern gestartet wurde, kann Anthropics KI Codeänderungen überprüfen, korrigieren und sogar automatisch genehmigen – ein Zeichen dafür, dass der Flaschenhals in Entwicklungsteams nicht mehr beim Schreiben von Code liegt, sondern beim Überprüfen.",
+      "body": [
+        "Die meisten Software-Teams setzen KI bereits ein, um Code zu schreiben. Aber jede Änderung wird noch immer manuell überprüft, genau wie früher. Je mehr Pull Requests – Pakete von vorgeschlagenen Änderungen, die auf Prüfung und Integration warten – von der KI erstellt werden, desto länger wird **die Überprüfungswarteschlange zum Flaschenhals**. Gestern hat Anthropic Claude Ship gestartet, um genau das zu lösen.",
+        "Claude Ship besteht aus drei zusammenarbeitenden Teilen. Code Review liest einen Pull Request und markiert Logikfehler, Sicherheitslücken und Grenzfälle. PR Steward übernimmt den Austausch: Er behebt fehlgeschlagene Tests, löst Merge-Konflikte und antwortet eigenständig auf Reviewer-Feedback. Das auffälligste Element ist Claude Approvals – **er kann Routineänderungen automatisch genehmigen**, basierend auf Regeln, die das Team in normaler Sprache schreibt.",
+        "Anthropic setzt diese Tools im eigenen Entwicklungsteam ein, wo Claude bereits den Großteil des Codes schreibt. Zwischen Juni und September **haben sich die Pull Requests mehr als verdoppelt**. Die Rate der später rückgängig gemachten Änderungen – ein Zeichen, dass etwas schiefgelaufen ist – sank um mehr als 40 Prozent. Das sind Anthropics eigene Zahlen aus ihrem eigenen Team – betrachte sie als Machbarkeitsnachweis, nicht als Garantie.",
+        "Manche Entwickler werden beim Genehmigungsschritt innehalten. Probleme zu markieren ist eine Sache; **zu entscheiden, was zusammengeführt wird, eine andere**. Anthropic empfiehlt, im Beobachtungsmodus zu beginnen und Menschen bei sensiblen Änderungen einzubeziehen. Teams schreiben die Genehmigungsregeln in normaler Sprache und können jederzeit eine menschliche Freigabe für bestimmte Änderungstypen vorschreiben.",
+        "Claude Ship ist als Beta für Claude Team- und Enterprise-Pläne auf GitHub verfügbar. Wenn dein Team bereits mehr Pull Requests erstellt, als es bequem überprüfen kann, aktiviere zunächst Code Review und PR Steward – **die Teile, die unterstützen, statt zu entscheiden**. Probiere die automatische Genehmigung erst aus, nachdem du gesehen hast, wie das Tool mit deiner Codebase umgeht. Starte mit /ship in Claude Code."
+      ],
+      "keyFacts": [
+        { "value": "2×", "label": "mehr zusammengeführte Pull Requests im eigenen Entwicklungsteam von Anthropic" },
+        { "value": ">40%", "label": "weniger zurückgerollte Codeänderungen im selben Team" },
+        { "value": "23. Nov. 2026", "label": "Start von Claude Ship" },
+        { "value": "$10K", "label": "Enterprise-Guthaben, einlösbar bis 15. Jan. 2027" }
+      ]
+    },
+    "nl": {
+      "title": "AI schrijft de code – nu beoordeelt ze hem ook",
+      "summary": "Met Claude Ship, dat gisteren werd gelanceerd, kunnen Anthropics AI-agenten codewijzigingen beoordelen, repareren en zelfs automatisch goedkeuren — een teken dat het knelpunt in softwareteams verschoven is van code schrijven naar code beoordelen.",
+      "body": [
+        "De meeste softwareteams gebruiken al AI om code te schrijven. Maar elke wijziging wordt nog steeds met de hand beoordeeld, zoals altijd. Naarmate AI meer en meer pull requests aanmaakt — batches voorgestelde wijzigingen die wachten om gecontroleerd en toegevoegd te worden aan de hoofdcodebase — **wordt de reviewwachtrij het knelpunt**. Gisteren lanceerde Anthropic Claude Ship om precies dat aan te pakken.",
+        "Claude Ship bestaat uit drie samenwerkende onderdelen. Code Review leest een pull request en markeert logicafouten, beveiligingsproblemen en randgevallen. PR Steward regelt het heen-en-weerverkeer: het repareert mislukte tests, lost merge-conflicten op en reageert zelfstandig op reviewfeedback. Het meest opvallende onderdeel is Claude Approvals — **het kan routinewijzigingen automatisch goedkeuren**, op basis van regels die het team in gewone taal schrijft.",
+        "Anthropic gebruikt deze tools in het eigen codeteam, waar Claude al het meeste van de software schrijft. Tussen juni en september **verdubbelden de samengevoegde pull requests meer dan**. Het percentage later teruggedraaide wijzigingen — een teken dat er iets misging — daalde met meer dan 40 procent. Dit zijn Anthropics eigen cijfers van hun eigen team; zie ze als een proof of concept, geen garantie.",
+        "Sommige ontwikkelaars zullen pauzeren bij de goedkeuringsstap. Problemen markeren is één ding; **beslissen wat er samengevoegd wordt, is een ander**. Anthropic raadt aan om te beginnen in observatiemodus en mensen in de loop te houden voor gevoelige wijzigingen. Teams schrijven de goedkeuringsregels in gewone taal en kunnen altijd menselijke goedkeuring vereisen voor bepaalde soorten wijzigingen.",
+        "Claude Ship is in beta beschikbaar voor Claude Team- en Enterprise-plannen op GitHub. Als je team al meer pull requests aanmaakt dan het comfortabel kan beoordelen, begin dan met Code Review en PR Steward — **de onderdelen die ondersteunen in plaats van beslissen**. Probeer automatische goedkeuring pas nadat je hebt gezien hoe de tool met jouw codebase omgaat. Voer /ship uit in Claude Code om te beginnen."
+      ],
+      "keyFacts": [
+        { "value": "2×", "label": "meer samengevoegde pull requests in Anthropics eigen codeteam" },
+        { "value": ">40%", "label": "minder teruggedraaide codewijzigingen in hetzelfde team" },
+        { "value": "23 nov. 2026", "label": "lanceerdatum Claude Ship" },
+        { "value": "$10K", "label": "Enterprise-credits, op te eisen voor 15 jan. 2027" }
+      ]
+    },
+    "es": {
+      "title": "La IA ya escribe el código. Ahora también lo revisa.",
+      "summary": "Claude Ship, lanzado ayer por Anthropic, permite a los agentes de IA revisar, corregir y hasta aprobar cambios de código automáticamente — una señal de que el principal obstáculo en los equipos de desarrollo ya no es escribir código, sino revisarlo.",
+      "body": [
+        "La mayoría de los equipos de software ya usan IA para escribir código. Pero revisar cada cambio sigue haciéndose a mano, igual que siempre. A medida que la IA genera más y más pull requests — conjuntos de cambios propuestos que esperan ser comprobados e integrados en el código principal — **la cola de revisión se convierte en el cuello de botella**. Ayer, Anthropic lanzó Claude Ship para abordar exactamente eso.",
+        "Claude Ship son tres herramientas en una. Code Review lee un pull request y señala errores de lógica, vulnerabilidades de seguridad y casos extremos. PR Steward maneja el ida y vuelta: corrige pruebas fallidas, resuelve conflictos y responde al feedback de revisores por su cuenta. La parte más notable es Claude Approvals — **puede aprobar cambios de rutina automáticamente**, basándose en reglas que el equipo escribe en lenguaje sencillo.",
+        "Anthropic usa estas herramientas en su propio equipo de código, donde Claude ya escribe la mayor parte del software. Entre junio y septiembre, **los pull requests fusionados se duplicaron con creces**. La tasa de cambios luego revertidos — señal de que algo salió mal — bajó más del 40 por ciento. Estas son cifras propias de Anthropic de su propio equipo; trátelas como prueba de concepto, no como garantía.",
+        "Algunos desarrolladores dudarán ante el paso de aprobación. Señalar problemas es una cosa; **decidir qué se incorpora al código es otra**. Anthropic recomienda empezar en modo observación y mantener personas en el proceso para cambios sensibles. Los equipos escriben las reglas de aprobación en lenguaje sencillo y siempre pueden exigir revisión humana para ciertos tipos de cambios.",
+        "Claude Ship está en beta para planes Claude Team y Enterprise en GitHub. Si tu equipo ya genera más pull requests de los que puede revisar cómodamente, empieza activando Code Review y PR Steward — **las partes que asisten en lugar de decidir**. Prueba la aprobación automática solo después de haber visto cómo la herramienta maneja tu base de código. Ejecuta /ship en Claude Code para comenzar."
+      ],
+      "keyFacts": [
+        { "value": "2×", "label": "más pull requests fusionados en el equipo de código de Anthropic" },
+        { "value": ">40%", "label": "menos cambios de código revertidos en el mismo equipo" },
+        { "value": "23 nov. 2026", "label": "fecha de lanzamiento de Claude Ship" },
+        { "value": "$10K", "label": "créditos Enterprise, reclamar antes del 15 de enero de 2027" }
+      ]
+    },
+    "fr": {
+      "title": "L'IA écrit déjà le code. Maintenant, elle le relit aussi.",
+      "summary": "Claude Ship, lancé hier par Anthropic, permet à des agents IA de passer en revue, corriger et même approuver automatiquement des changements de code — signe que le principal frein dans les équipes de développement s'est déplacé de l'écriture de code à sa révision.",
+      "body": [
+        "La plupart des équipes logicielles utilisent déjà l'IA pour écrire du code. Mais réviser chaque modification se fait encore à la main, comme toujours. Au fur et à mesure que l'IA génère de plus en plus de pull requests — des séries de modifications proposées en attente d'intégration dans le code principal — **la file de révision devient le goulot d'étranglement**. Hier, Anthropic a lancé Claude Ship pour y remédier.",
+        "Claude Ship réunit trois outils. Code Review lit une pull request et signale les erreurs de logique, les failles de sécurité et les cas limites. PR Steward gère les échanges : il corrige les tests en échec, résout les conflits et répond aux retours des relecteurs de façon autonome. La partie la plus notable est Claude Approvals — **il peut approuver automatiquement les modifications de routine**, en s'appuyant sur des règles que l'équipe rédige en langage courant.",
+        "Anthropic utilise ces outils au sein de sa propre équipe de code, où Claude écrit déjà la majorité du logiciel. Entre juin et septembre, **les pull requests fusionnées ont plus que doublé**. Le taux de modifications ensuite annulées — signe qu'un problème est survenu — a chuté de plus de 40 pour cent. Ce sont les propres chiffres d'Anthropic tirés de leur propre équipe ; traitez-les comme une preuve de concept, pas comme une garantie.",
+        "Certains développeurs marqueront une pause à l'étape d'approbation. Signaler des problèmes est une chose ; **décider ce qui sera intégré en est une autre**. Anthropic recommande de démarrer en mode observation et de garder des humains dans la boucle pour les modifications sensibles. Les équipes rédigent les règles d'approbation en langage courant et peuvent toujours exiger une validation humaine pour certains types de changements.",
+        "Claude Ship est en bêta pour les plans Claude Team et Enterprise sur GitHub. Si votre équipe génère déjà plus de pull requests qu'elle ne peut en réviser confortablement, commencez par activer Code Review et PR Steward — **les parties qui assistent plutôt que décident**. Testez l'approbation automatique seulement après avoir observé comment l'outil gère votre base de code. Lancez /ship dans Claude Code pour démarrer."
+      ],
+      "keyFacts": [
+        { "value": "2×", "label": "plus de pull requests fusionnées dans la propre équipe de code d'Anthropic" },
+        { "value": ">40%", "label": "moins de réversions de code dans la même équipe" },
+        { "value": "23 nov. 2026", "label": "date de lancement de Claude Ship" },
+        { "value": "$10K", "label": "crédits Enterprise, à réclamer avant le 15 janvier 2027" }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي يكتب الكود. الآن يراجعه أيضاً.",
+      "summary": "أطلقت Anthropic بالأمس Claude Ship — مجموعة وكلاء ذكاء اصطناعي تستطيع مراجعة التغييرات في الكود وإصلاحها والموافقة عليها تلقائياً — لأن العقبة الرئيسية في فرق التطوير انتقلت من كتابة الكود إلى مراجعته.",
+      "body": [
+        "تستخدم معظم فرق البرمجيات الذكاء الاصطناعي بالفعل لكتابة الكود. لكن مراجعة كل تغيير لا تزال تتم يدوياً، تماماً كما كانت دائماً. كلما أنتج الذكاء الاصطناعي المزيد من طلبات الدمج — أي مجموعات التغييرات المقترحة التي تنتظر الفحص والإضافة إلى الكود الأساسي — **تصبح قائمة المراجعة عنق الزجاجة**. أمس، أطلقت Anthropic أداة Claude Ship لمعالجة هذا بالضبط.",
+        "Claude Ship عبارة عن ثلاث أدوات في واحدة. تقرأ Code Review طلب الدمج وترصد أخطاء المنطق وثغرات الأمان والحالات الحدية. أما PR Steward فيتولى التبادل المستمر: يصلح الاختبارات الفاشلة، ويحل التعارضات، ويرد على تعليقات المراجعين باستقلالية. والجزء الأبرز هو Claude Approvals — **يمكنه الموافقة على التغييرات الروتينية تلقائياً**، استناداً إلى قواعد يكتبها الفريق بلغة عادية.",
+        "تستخدم Anthropic هذه الأدوات في فريق البرمجة الخاص بها، حيث يكتب Claude معظم الكود بالفعل. بين يونيو وسبتمبر، **ارتفع عدد طلبات الدمج المكتملة بأكثر من الضعف**. وانخفض معدل التغييرات التي تم التراجع عنها لاحقاً — مؤشر على وجود خطأ ما — بأكثر من 40 بالمئة. هذه أرقام Anthropic من فريقها الخاص؛ فعامِلها كدليل على المفهوم لا ضماناً.",
+        "قد يتوقف بعض المطورين عند خطوة الموافقة. الإشارة إلى المشكلات شيء؛ **تحديد ما يُدمج في الكود شيء آخر**. توصي Anthropic بالبدء في وضع المراقبة وإبقاء البشر في الحلقة للتغييرات الحساسة. يكتب الفريق قواعد الموافقة بلغة عادية ويمكنه دائماً اشتراط مراجعة بشرية لأنواع معينة من التغييرات.",
+        "Claude Ship في مرحلة بيتا لخطط Claude Team وEnterprise على GitHub. إذا كان فريقك ينتج بالفعل طلبات دمج أكثر مما يمكنه مراجعته بارتياح، ابدأ بتفعيل Code Review وPR Steward — **الأجزاء التي تساعد بدلاً من أن تقرر**. جرّب الموافقة التلقائية فقط بعد أن ترى كيف تتعامل الأداة مع قاعدة بياناتك البرمجية. شغّل /ship في Claude Code للبدء."
+      ],
+      "keyFacts": [
+        { "value": "2×", "label": "زيادة في طلبات الدمج المكتملة بفريق Anthropic البرمجي" },
+        { "value": ">40%", "label": "انخفاض في التغييرات المُتراجع عنها في الفريق نفسه" },
+        { "value": "23 نوفمبر 2026", "label": "تاريخ إطلاق Claude Ship" },
+        { "value": "$10K", "label": "رصيد Enterprise، يُطالب به قبل 15 يناير 2027" }
+      ]
+    }
+  }
+}
