@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-26-ai-agents-shopping-walmart-muse",
+  "date": "2026-11-26",
+  "tags": ["ai", "commerce", "retail"],
+  "pillar": "commerce",
+  "sources": [
+    {
+      "title": "TechCrunch — Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+    },
+    {
+      "title": "Walmart corporate — Walmart's Black Friday Deals Continue. Meta's Muse Can Now Shop Them, Too.",
+      "url": "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When the shopper is an AI, everything about selling changes",
+      "summary": "Walmart just let Meta's AI agent Muse shop for you on Black Friday — and the split between Walmart embracing AI shoppers and Amazon blocking them tells you everything about where retail is heading.",
+      "body": [
+        "On November 24, one day before Black Friday, Walmart opened its online store to Meta's Muse — an AI agent that can search products, build a cart, and complete the purchase on your behalf. You set a spending limit, approve the purchase if you want, and Muse does the rest. **The shopper is no longer always a person.**",
+        "The piece Walmart built to make this work is called the Agent Gateway. It lets outside AI tools plug directly into Walmart's store and act as buyers. When you ask Muse to find a deal, it queries Walmart, Walmart sends back matching products, and Muse picks and buys. **The agent never sees your full shopping history** — Walmart keeps that separate. Walmart says it will open the gateway to more apps over time.",
+        "Amazon is going the other way. It has been blocking outside AI agents from completing purchases on its platform. So **the two biggest retailers in the world are betting on opposite futures**: Walmart builds for a world where AI agents do the buying, and Amazon wants shoppers to come to Amazon themselves. Both companies have done the math, and they disagree — which tells you how genuinely open this question still is.",
+        "When an AI shops instead of a person, the rules change. No browsing, no impulse buys, no brand loyalty triggered by a nice photo. The agent compares price, accuracy, and relevance — and picks. If you sell online, **clean product data and sharp pricing now matter more than any banner ad**. Start checking how your listings look to an AI agent, not just to a human — because the buyer may not be human for much longer."
+      ],
+      "keyFacts": [
+        { "value": "Nov 24, 2026", "label": "Walmart opened to AI agents" },
+        { "value": "Oct 21, 2026", "label": "Walmart Agent Gateway launched" },
+        { "value": "blocked", "label": "Amazon's stance on third-party AI shopping" },
+        { "value": "Instacart", "label": "another retailer partnered with Muse" }
+      ]
+    },
+    "de": {
+      "title": "Wenn die KI einkauft, ändert sich alles für Verkäufer",
+      "summary": "Walmart hat Metas KI-Agenten Muse an Black Friday in seinen Shop gelassen — der Gegensatz zwischen Walmart, das KI-Käufer willkommen heißt, und Amazon, das sie blockiert, zeigt klar, wohin der Handel steuert.",
+      "body": [
+        "Am 24. November, einen Tag vor dem Black Friday, öffnete Walmart seinen Onlineshop für Muse, den KI-Agenten von Meta. Muse kann Produkte suchen, einen Warenkorb befüllen und im Namen des Nutzers bezahlen. Man legt ein Ausgabenlimit fest, gibt die Bestellung frei wenn man will — und Muse erledigt den Rest. **Der Käufer ist nicht mehr immer ein Mensch.**",
+        "Die technische Grundlage dafür hat Walmart im Oktober gelegt: das Agent Gateway. Es verbindet externe KI-Tools direkt mit Walmarts Shop, damit sie als Käufer auftreten können. Wenn man Muse nach einem Angebot fragt, leitet Muse die Anfrage weiter, Walmart schickt passende Produkte zurück, und Muse kauft. **Der Agent sieht nie den vollständigen Einkaufsverlauf** — das hält Walmart separat. Walmart will das Gateway künftig für weitere Apps öffnen.",
+        "Amazon geht in die entgegengesetzte Richtung. Der Konzern blockiert externe KI-Agenten aktiv, damit diese keine Käufe auf seiner Plattform abschließen. **Die zwei größten Einzelhändler der Welt wetten also auf das genaue Gegenteil**: Walmart baut für eine Zukunft, in der KI einkauft — Amazon will, dass Käufer selbst auf die Plattform kommen. Beide haben gerechnet und kommen zu unterschiedlichen Schlüssen, was zeigt, wie offen diese Frage noch ist.",
+        "Wenn eine KI statt eines Menschen einkauft, gelten andere Regeln. Kein Stöbern, kein Spontankauf, keine Markentreue durch ein schönes Produktbild. Der Agent vergleicht Preis, Genauigkeit und Relevanz — und wählt. Für alle, die online verkaufen: **Saubere Produktdaten und faire Preise zählen jetzt mehr als jede Werbebanner**. Prüfe, wie deine Produkte für eine KI aussehen, nicht nur für einen Menschen — denn der Käufer ist vielleicht bald kein Mensch mehr."
+      ],
+      "keyFacts": [
+        { "value": "24. Nov. 2026", "label": "Walmart für KI-Agenten geöffnet" },
+        { "value": "21. Okt. 2026", "label": "Walmart Agent Gateway gestartet" },
+        { "value": "blockiert", "label": "Amazons Haltung zu KI-Einkäufern" },
+        { "value": "Instacart", "label": "weiterer Händler mit Muse-Partnerschaft" }
+      ]
+    },
+    "nl": {
+      "title": "Als een AI voor je winkelt, verandert alles voor verkopers",
+      "summary": "Walmart heeft Meta's AI-agent Muse toegang gegeven tot zijn winkel tijdens Black Friday — en het verschil tussen Walmart dat AI-kopers verwelkomt en Amazon dat ze blokkeert, zegt alles over de toekomst van retail.",
+      "body": [
+        "Op 24 november, een dag voor Black Friday, opende Walmart zijn webshop voor Muse, de AI-agent van Meta. Muse kan producten zoeken, een winkelwagen vullen en namens jou afrekenen. Je stelt een bestedingslimiet in, keurt de aankoop goed als je wilt, en Muse doet de rest. **De shopper is niet meer altijd een mens.**",
+        "De technische basis daarvoor legde Walmart in oktober: de Agent Gateway. Dat systeem laat externe AI-tools rechtstreeks als koper in de winkel handelen. Als je Muse vraagt een aanbieding te vinden, stuurt het de vraag door, Walmart geeft passende producten terug, en Muse kiest en koopt. **De agent ziet nooit je volledige aankoopgeschiedenis** — Walmart bewaart dat apart. Walmart wil de gateway in de toekomst openen voor meer apps.",
+        "Amazon gaat de andere kant op. Het bedrijf blokkeert externe AI-agents zodat die geen aankopen op zijn platform kunnen afronden. **De twee grootste retailers ter wereld zetten dus op het tegenovergestelde in**: Walmart bouwt voor een toekomst waarin AI het koopt, Amazon wil dat shoppers zelf naar Amazon komen. Beide hebben de berekening gemaakt en komen tot andere conclusies — wat laat zien hoe open deze vraag nog is.",
+        "Als een AI shopt in plaats van een mens, veranderen de regels. Geen browsen, geen impulsaankopen, geen merkloyaliteit dankzij een mooie foto. De agent vergelijkt prijs, nauwkeurigheid en relevantie — en kiest. Voor wie online verkoopt: **schone productdata en scherpe prijzen tellen nu meer dan welke advertentie dan ook**. Check hoe jouw producten eruitzien voor een AI, niet alleen voor een mens — want de koper is straks misschien geen mens meer."
+      ],
+      "keyFacts": [
+        { "value": "24 nov. 2026", "label": "Walmart opende voor AI-agents" },
+        { "value": "21 okt. 2026", "label": "Walmart Agent Gateway gelanceerd" },
+        { "value": "geblokkeerd", "label": "Amazon's houding tegenover AI-shoppers" },
+        { "value": "Instacart", "label": "nog een retailer die samenwerkt met Muse" }
+      ]
+    },
+    "es": {
+      "title": "Cuando un AI hace las compras, todo cambia para los vendedores",
+      "summary": "Walmart acaba de permitir que el agente de IA Muse de Meta haga compras en el Black Friday — y la diferencia entre Walmart, que da la bienvenida a los compradores con IA, y Amazon, que los bloquea, revela hacia dónde va el comercio.",
+      "body": [
+        "El 24 de noviembre, un día antes del Black Friday, Walmart abrió su tienda en línea a Muse, el agente de IA de Meta. Muse puede buscar productos, armar un carrito y completar la compra en tu nombre. Fijas un límite de gasto, apruebas la compra si quieres, y Muse hace el resto. **El comprador ya no siempre es una persona.**",
+        "La pieza técnica que Walmart construyó para esto se llama Agent Gateway. Permite que herramientas de IA externas se conecten directamente a la tienda y actúen como compradores. Cuando le pides a Muse que encuentre una oferta, Muse consulta a Walmart, Walmart devuelve productos y Muse elige y compra. **El agente nunca ve tu historial completo de compras** — Walmart lo mantiene separado. Walmart dice que abrirá el gateway a más aplicaciones con el tiempo.",
+        "Amazon va en la dirección contraria. Está bloqueando a los agentes de IA externos para que no puedan completar compras en su plataforma. Así que **los dos mayores minoristas del mundo están apostando por futuros opuestos**: Walmart construye para un mundo donde la IA compra, y Amazon quiere que los compradores vayan a Amazon por su cuenta. Ambos han hecho los números y no están de acuerdo — lo que muestra lo abierta que sigue siendo esta pregunta.",
+        "Cuando una IA compra en lugar de una persona, cambian las reglas. Nada de navegar, nada de compras impulsivas, ninguna lealtad de marca activada por una foto bonita. El agente compara precio, precisión y relevancia — y elige. Si vendes en línea, **los datos de producto limpios y los precios competitivos importan ahora más que cualquier anuncio**. Revisa cómo aparecen tus productos ante una IA, no solo ante un humano — porque el comprador puede dejar de ser humano muy pronto."
+      ],
+      "keyFacts": [
+        { "value": "24 nov. 2026", "label": "Walmart abrió su tienda a agentes de IA" },
+        { "value": "21 oct. 2026", "label": "lanzamiento del Agent Gateway de Walmart" },
+        { "value": "bloqueado", "label": "postura de Amazon ante los agentes de IA" },
+        { "value": "Instacart", "label": "otro minorista asociado con Muse" }
+      ]
+    },
+    "fr": {
+      "title": "Quand c'est une IA qui fait les courses, tout change pour les vendeurs",
+      "summary": "Walmart vient d'ouvrir sa boutique à Muse, l'agent IA de Meta, pour le Black Friday — et la divergence entre Walmart qui accueille les acheteurs IA et Amazon qui les bloque dit tout sur l'avenir du commerce.",
+      "body": [
+        "Le 24 novembre, un jour avant le Black Friday, Walmart a ouvert sa boutique en ligne à Muse, l'agent IA de Meta. Muse peut chercher des produits, remplir un panier et payer en votre nom. Vous fixez un plafond de dépense, vous approuvez l'achat si vous le souhaitez, et Muse s'occupe du reste. **Le client n'est plus forcément un humain.**",
+        "La brique technique que Walmart a construite pour cela s'appelle l'Agent Gateway. Elle permet à des outils IA externes de se connecter directement à la boutique et d'agir en tant qu'acheteurs. Quand vous demandez à Muse de trouver une offre, Muse interroge Walmart, Walmart renvoie des produits, et Muse choisit et achète. **L'agent ne voit jamais votre historique d'achats complet** — Walmart le conserve séparément. Walmart dit prévoir d'ouvrir le gateway à d'autres applications.",
+        "Amazon fait le chemin inverse. L'entreprise bloque les agents IA externes pour qu'ils ne puissent pas finaliser d'achats sur sa plateforme. **Les deux plus grands distributeurs du monde misent donc sur des avenirs opposés** : Walmart construit pour un monde où l'IA achète, Amazon veut que les acheteurs viennent eux-mêmes. Les deux ont fait leurs calculs et ne sont pas d'accord — ce qui montre à quel point cette question reste ouverte.",
+        "Quand une IA fait les courses à la place d'un humain, les règles changent. Plus de navigation, plus d'achats impulsifs, plus de fidélité à une marque déclenchée par une belle photo. L'agent compare le prix, la précision et la pertinence — puis choisit. Pour quiconque vend en ligne, **des données produits propres et des prix affûtés comptent désormais plus que n'importe quelle publicité**. Regardez comment vos produits apparaissent à une IA, pas seulement à un humain — parce que l'acheteur ne sera peut-être bientôt plus humain."
+      ],
+      "keyFacts": [
+        { "value": "24 nov. 2026", "label": "Walmart ouvert aux agents IA" },
+        { "value": "21 oct. 2026", "label": "lancement de l'Agent Gateway Walmart" },
+        { "value": "bloqué", "label": "position d'Amazon vis-à-vis des agents IA" },
+        { "value": "Instacart", "label": "autre enseigne partenaire de Muse" }
+      ]
+    },
+    "ar": {
+      "title": "حين تتولى الذكاء الاصطناعي التسوق، يتغير كل شيء للبائعين",
+      "summary": "سمح وول مارت لوكيل الذكاء الاصطناعي Muse من ميتا بالتسوق خلال الجمعة السوداء — والتباين بين وول مارت الذي يرحب بالمتسوقين الآليين وأمازون الذي يحظرهم يكشف كثيرًا عن مستقبل التجارة الإلكترونية.",
+      "body": [
+        "في الرابع والعشرين من نوفمبر، قبل يوم واحد من الجمعة السوداء، فتح وول مارت متجره الإلكتروني أمام Muse، وكيل الذكاء الاصطناعي من ميتا. يستطيع Muse البحث عن المنتجات وملء عربة التسوق وإتمام الدفع نيابةً عنك. تحدد حدًا للإنفاق وتوافق على الشراء إن أردت، وMuse يفعل الباقي. **المتسوق لم يعد دائمًا إنسانًا.**",
+        "القطعة التقنية التي بناها وول مارت لتحقيق ذلك تسمى Agent Gateway. تتيح لأدوات الذكاء الاصطناعي الخارجية الاتصال مباشرةً بالمتجر والتصرف كمشترين. حين تطلب من Muse إيجاد عرض، يستفسر Muse من وول مارت، الذي يعيد المنتجات المناسبة، ثم يختار Muse ويشتري. **لا يطلع الوكيل أبدًا على سجل مشترياتك الكامل** — يحتفظ وول مارت به بشكل منفصل. ويقول وول مارت إنه يخطط لفتح هذه البوابة أمام مزيد من التطبيقات.",
+        "أمازون تسلك الاتجاه المعاكس. تحظر الشركة وكلاء الذكاء الاصطناعي الخارجيين من إتمام المشتريات على منصتها. **وهكذا راهن أكبر تاجران في العالم على مستقبلين متناقضين تمامًا**: وول مارت يبني لعالم تتولى فيه الذكاء الاصطناعي الشراء، وأمازون تريد أن يأتي المتسوقون بأنفسهم. كلاهما أجرى حساباته وخلص إلى نتيجة مختلفة — وهذا يكشف كم لا تزال هذه المسألة مفتوحة.",
+        "حين تتسوق ذكاء اصطناعي بدلًا من إنسان، تتغير القواعد. لا تصفح، لا مشتريات اندفاعية، ولا ولاء لعلامة تجارية تثيره صورة جميلة. يقارن الوكيل السعر والدقة والملاءمة — ثم يختار. لمن يبيع عبر الإنترنت: **بيانات المنتج النظيفة والأسعار التنافسية باتت أهم من أي إعلان**. تحقق من كيفية ظهور منتجاتك لذكاء اصطناعي، لا لإنسان فحسب — لأن المتسوق ربما لن يكون إنسانًا بعد الآن."
+      ],
+      "keyFacts": [
+        { "value": "24 نوف. 2026", "label": "فتح وول مارت أمام وكلاء الذكاء الاصطناعي" },
+        { "value": "21 أكت. 2026", "label": "إطلاق بوابة Agent Gateway" },
+        { "value": "محظور", "label": "موقف أمازون من وكلاء التسوق الآلي" },
+        { "value": "Instacart", "label": "متجر آخر شريك مع Muse" }
+      ]
+    }
+  }
+}
