@@ -1,0 +1,124 @@
+{
+  "slug": "2026-11-27-xpeng-iron-robot-car-price",
+  "date": "2026-11-27",
+  "tags": ["ai", "robotics"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "XPENG — XPENG Unveils Turing Physical AI Architecture and IRON Robot",
+      "url": "https://www.xpeng.com/pressroom/news/01a212b0d830a1e838d68a02a2110174"
+    },
+    {
+      "title": "Interesting Engineering — XPENG unveils humanoid robot with 1,500 tactile sensors in China",
+      "url": "https://interestingengineering.com/ai-robotics/xpeng-iron-humanoid-robot-1500-tactile-sensors"
+    },
+    {
+      "title": "TradingView — XPENG unveils IRON humanoid robot, eyes Q2 2027 sales near EV pricing",
+      "url": "https://www.tradingview.com/news/seekingalpha:926918b83094b:0-xpeng-unveils-iron-humanoid-robot-eyes-q2-2027-sales-near-ev-pricing/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "When a Robot Costs What a Car Costs, Everything Changes",
+      "summary": "XPENG's new IRON robot is heading to stores in 2027 at roughly the price of a car, and that changes the math for any business thinking about labor.",
+      "body": [
+        "XPENG, the Chinese electric car maker, showed the world a new humanoid robot on Tuesday. It is called IRON, it moves like a person, it has more than 1,500 touch sensors all over its body, and it can run for a full day without being plugged in. The company plans to sell it **at roughly the same price as a car** — something in the range of tens of thousands of dollars.",
+        "That price is what makes this different. For years, humanoid robots were impressive lab experiments that cost hundreds of thousands of dollars. Only the biggest factories could afford them. If IRON actually hits a car-like price, **the number of businesses that can buy one suddenly jumps**.",
+        "XPENG already has a plan. Starting in early 2027, IRON will train as a store assistant in XPENG's own car showrooms. It takes voice instructions, navigates on its own, and reports problems. The factory line that makes it can build one robot every 2.5 minutes at full speed. That is not a prototype schedule — **that is a real supply chain**.",
+        "The robot runs all its AI on board — three custom chips, no cloud connection needed. That matters for businesses: a robot that thinks on its own, without sending data to a server, **is easier to trust in sensitive places** like a hospital reception desk or a secure facility.",
+        "XPENG is an electric car company under pressure. Car prices in China have been falling fast, and margins are thin. Robots are their bet on what comes next. Whether or not IRON is the one that breaks through, **the affordable humanoid robot is no longer a question of if — only when**. For anyone building a team or a service for 2028 and beyond, that is worth planning for now."
+      ],
+      "keyFacts": [
+        { "value": "76", "label": "degrees of freedom in IRON's body" },
+        { "value": "1,500+", "label": "touch sensors on the robot" },
+        { "value": "2.5 min", "label": "to build one robot at full speed" },
+        { "value": "Q2 2027", "label": "target date for public sales" }
+      ]
+    },
+    "de": {
+      "title": "Wenn ein Roboter so viel kostet wie ein Auto, ändert sich alles",
+      "summary": "XPENGs neuer IRON-Roboter soll 2027 zum Preis eines Autos verkauft werden — das verändert die Kalkulation für jedes Unternehmen, das über Personalkosten nachdenkt.",
+      "body": [
+        "XPENG, der chinesische Elektroautohersteller, hat am Dienstag der Welt einen neuen humanoiden Roboter gezeigt. Er heißt IRON, bewegt sich wie ein Mensch, hat mehr als 1.500 Tastpunkte am ganzen Körper und kann einen ganzen Tag ohne Steckdose laufen. Das Unternehmen will ihn **zum ungefähr gleichen Preis wie ein Auto** verkaufen — also irgendwo im Bereich von Zehntausenden von Dollar.",
+        "Genau dieser Preis macht den Unterschied. Jahrelang waren humanoide Roboter beeindruckende Laborversuche, die Hunderttausende von Dollar kosteten. Nur die größten Fabriken konnten sich das leisten. Wenn IRON tatsächlich auf einen autoähnlichen Preis kommt, **steigt die Zahl der Unternehmen, die sich einen leisten können, schlagartig**.",
+        "XPENG hat bereits einen Plan. Ab Anfang 2027 wird IRON in XPENGs eigenen Autohäusern als Ladenassistent trainieren. Er nimmt Sprachbefehle entgegen, navigiert selbstständig und meldet Probleme. Die Fertigungslinie kann im Vollbetrieb alle 2,5 Minuten einen Roboter bauen. Das ist kein Prototypen-Zeitplan — **das ist eine echte Lieferkette**.",
+        "Der Roboter führt alle KI-Berechnungen intern aus — drei eigene Chips, keine Cloudverbindung nötig. Das ist wichtig für Unternehmen: Ein Roboter, der selbst denkt, ohne Daten an einen Server zu schicken, **lässt sich leichter an sensiblen Orten einsetzen** — etwa am Empfang eines Krankenhauses oder in einem gesicherten Gebäude.",
+        "XPENG ist ein Elektroautounternehmen unter Druck. Die Autopreise in China fallen schnell, die Margen sind dünn. Roboter sind ihre Wette auf das, was als Nächstes kommt. Ob IRON der Durchbruch wird oder nicht — **der erschwingliche humanoide Roboter ist keine Frage mehr des Ob, sondern des Wann**. Für alle, die ein Team oder einen Service für 2028 und danach aufbauen, lohnt es sich, das jetzt einzuplanen."
+      ],
+      "keyFacts": [
+        { "value": "76", "label": "Bewegungsachsen des Roboters" },
+        { "value": "1,500+", "label": "Tastpunkte am Körper" },
+        { "value": "2.5 min", "label": "Bauzeit pro Roboter auf voller Linie" },
+        { "value": "Q2 2027", "label": "geplanter Verkaufsstart" }
+      ]
+    },
+    "nl": {
+      "title": "Als een robot evenveel kost als een auto, verandert alles",
+      "summary": "XPENGs nieuwe IRON-robot komt in 2027 op de markt voor een autoprijs — en dat verandert de berekening voor elk bedrijf dat nadenkt over arbeidskosten.",
+      "body": [
+        "XPENG, de Chinese fabrikant van elektrische auto's, liet dinsdag een nieuw mensachtig robot zien. Hij heet IRON, beweegt als een mens, heeft meer dan 1.500 aanraaksensoren over zijn hele lichaam en kan een hele dag draaien zonder aan de stekker. Het bedrijf wil hem verkopen **voor ongeveer dezelfde prijs als een auto** — ergens in de tienduizenden euro's.",
+        "Precies die prijs maakt dit anders. Jarenlang waren mensachtige robots indrukwekkende laboratoriumprojecten die honderdduizenden dollars kostten. Alleen de grootste fabrieken konden ze betalen. Als IRON echt op autoprijs uitkomt, **springt het aantal bedrijven dat er een kan kopen plotseling omhoog**.",
+        "XPENG heeft al een plan. Vanaf begin 2027 traint IRON als winkelassistent in XPENGs eigen autoshowrooms. Hij accepteert spraakopdrachten, navigeert zelfstandig en meldt problemen. De productielijn kan op volle kracht elke 2,5 minuten een robot bouwen. Dat is geen prototypeplan — **dat is een echte toeleveringsketen**.",
+        "De robot draait alle AI-berekeningen intern — drie eigen chips, geen cloudverbinding nodig. Dat is belangrijk voor bedrijven: een robot die zelf denkt zonder data naar een server te sturen, **is makkelijker in te zetten op gevoelige locaties** zoals een receptie in een ziekenhuis of een beveiligde omgeving.",
+        "XPENG is een elektrisch automerk onder druk. Autoprijzen in China dalen snel, marges zijn dun. Robots zijn hun gok op wat er daarna komt. Of IRON nu de doorbraak wordt of niet — **de betaalbare mensachtige robot is geen kwestie van óf meer, alleen nog van wanneer**. Voor iedereen die een team of dienst opbouwt voor 2028 en daarna, is dat nu al de moeite waard om op te plannen."
+      ],
+      "keyFacts": [
+        { "value": "76", "label": "bewegingsvrijheden van de robot" },
+        { "value": "1,500+", "label": "tastsensoren op het lichaam" },
+        { "value": "2.5 min", "label": "bouw één robot op volle snelheid" },
+        { "value": "Q2 2027", "label": "gepland verkoopmoment" }
+      ]
+    },
+    "es": {
+      "title": "Cuando un robot cuesta lo mismo que un coche, todo cambia",
+      "summary": "El nuevo robot IRON de XPENG llegará al mercado en 2027 a un precio similar al de un coche, y eso cambia los números para cualquier empresa que piense en mano de obra.",
+      "body": [
+        "XPENG, el fabricante chino de coches eléctricos, presentó el martes un nuevo robot humanoide al mundo. Se llama IRON, se mueve como una persona, tiene más de 1.500 sensores táctiles repartidos por todo el cuerpo y puede funcionar un día entero sin conectarse a la corriente. La empresa planea venderlo **al precio aproximado de un coche** — en el rango de las decenas de miles de dólares.",
+        "Ese precio es lo que lo hace diferente. Durante años, los robots humanoides fueron impresionantes experimentos de laboratorio que costaban cientos de miles de dólares. Solo las fábricas más grandes podían permitírselos. Si IRON llega de verdad a ese precio de coche, **el número de empresas que pueden comprarlo sube de golpe**.",
+        "XPENG ya tiene un plan. A partir de principios de 2027, IRON se entrenará como asistente de tienda en los concesionarios de XPENG. Acepta instrucciones de voz, navega solo y avisa cuando algo va mal. La línea de fábrica puede ensamblar un robot cada 2,5 minutos a pleno rendimiento. Eso no es un calendario de prototipo — **eso es una cadena de suministro real**.",
+        "El robot ejecuta toda su inteligencia artificial a bordo — tres chips propios, sin necesidad de conexión a la nube. Eso importa para las empresas: un robot que piensa por sí solo, sin enviar datos a un servidor, **es más fácil de confiar en lugares sensibles** como la recepción de un hospital o un edificio con acceso restringido.",
+        "XPENG es una empresa de coches eléctricos bajo presión. Los precios de los coches en China llevan tiempo cayendo rápido y los márgenes son escasos. Los robots son su apuesta por lo que viene después. Sea IRON el que lo logre o no, **el robot humanoide asequible ya no es cuestión de si ocurrirá, sino de cuándo**. Para cualquiera que esté construyendo un equipo o un servicio para 2028 en adelante, vale la pena planificarlo desde ahora."
+      ],
+      "keyFacts": [
+        { "value": "76", "label": "grados de movimiento del robot" },
+        { "value": "1,500+", "label": "sensores táctiles en el cuerpo" },
+        { "value": "2.5 min", "label": "para fabricar un robot a pleno ritmo" },
+        { "value": "Q2 2027", "label": "fecha prevista de venta al público" }
+      ]
+    },
+    "fr": {
+      "title": "Quand un robot coûte autant qu'une voiture, ça change tout",
+      "summary": "Le nouveau robot IRON de XPENG devrait arriver en vente en 2027 au prix d'une voiture — et ça change les calculs pour toute entreprise qui réfléchit à ses coûts de main-d'œuvre.",
+      "body": [
+        "XPENG, le constructeur chinois de voitures électriques, a présenté mardi un nouveau robot humanoïde. Il s'appelle IRON, il bouge comme un être humain, dispose de plus de 1 500 capteurs tactiles répartis sur tout le corps et peut fonctionner une journée entière sans se brancher. L'entreprise prévoit de le vendre **au prix approximatif d'une voiture** — de l'ordre de quelques dizaines de milliers de dollars.",
+        "C'est justement ce prix qui change tout. Pendant des années, les robots humanoïdes ont été de beaux objets de laboratoire à des centaines de milliers de dollars. Seules les plus grandes usines pouvaient se les offrir. Si IRON atteint vraiment un prix comparable à celui d'une voiture, **le nombre d'entreprises capables d'en acheter un bondira**.",
+        "XPENG a déjà un plan. Dès début 2027, IRON va s'entraîner comme assistant en magasin dans les showrooms de XPENG. Il comprend les instructions vocales, se déplace seul et signale les anomalies. La chaîne de production peut assembler un robot toutes les 2,5 minutes à pleine cadence. Ce n'est pas un calendrier de prototype — **c'est une vraie chaîne d'approvisionnement**.",
+        "Le robot effectue tous ses calculs d'IA en local — trois puces propriétaires, sans connexion au cloud. C'est important pour les entreprises : un robot qui réfléchit tout seul, sans envoyer de données à un serveur, **est plus facile à déployer dans des environnements sensibles** comme un accueil d'hôpital ou un bâtiment sécurisé.",
+        "XPENG est un constructeur de voitures électriques sous pression. Les prix des voitures en Chine chutent vite, les marges sont maigres. Les robots représentent leur pari sur la suite. Que IRON soit ou non la percée attendue, **le robot humanoïde abordable n'est plus une question de si, mais de quand**. Pour quiconque construit une équipe ou un service pour 2028 et au-delà, c'est une réalité à anticiper dès maintenant."
+      ],
+      "keyFacts": [
+        { "value": "76", "label": "degrés de liberté du robot" },
+        { "value": "1,500+", "label": "capteurs tactiles sur le corps" },
+        { "value": "2.5 min", "label": "pour fabriquer un robot à plein régime" },
+        { "value": "Q2 2027", "label": "lancement commercial prévu" }
+      ]
+    },
+    "ar": {
+      "title": "حين يصبح سعر الروبوت كسعر السيارة، يتغيّر كلّ شيء",
+      "summary": "روبوت IRON الجديد من XPENG سيصل إلى الأسواق عام 2027 بسعر قريب من سعر السيارة، وهذا يغيّر الحسابات لكل شركة تفكّر في تكاليف العمالة.",
+      "body": [
+        "كشفت XPENG، صانعة السيارات الكهربائية الصينية، يوم الثلاثاء عن روبوت بشري جديد. اسمه IRON، يتحرك مثل الإنسان، يحمل أكثر من 1500 مستشعر لمسي موزعة على جسمه، ويعمل يوماً كاملاً دون الحاجة إلى الشحن. تخطط الشركة لبيعه **بسعر قريب من سعر السيارة** — أي في نطاق عشرات الآلاف من الدولارات.",
+        "هذا السعر هو ما يجعل الأمر مختلفاً. على مدى سنوات، كانت الروبوتات البشرية تجارب مختبرية مبهرة تكلّف مئات الآلاف من الدولارات، ولم تكن سوى أكبر المصانع قادرة على تحمّل تكلفتها. إن وصل IRON فعلاً إلى سعر يشبه سعر السيارة، **يرتفع فجأة عدد الشركات القادرة على شرائه** بشكل ملحوظ.",
+        "لدى XPENG خطة جاهزة. بدءاً من مطلع عام 2027، سيتدرّب IRON مساعداً في صالات عرض سيارات XPENG. يفهم التعليمات الصوتية، ويتنقل باستقلالية، ويُبلّغ عن أي مشكلة. خط الإنتاج قادر على تجميع روبوت واحد كل 2.5 دقيقة بالطاقة الكاملة. هذا ليس جدولاً زمنياً لنموذج أوّلي — **هذا خط إنتاج حقيقي**.",
+        "يُشغّل الروبوت جميع حسابات الذكاء الاصطناعي داخله — ثلاثة شرائح مخصصة، دون الحاجة إلى الاتصال بالسحابة. هذا مهم للشركات: الروبوت الذي يفكّر بنفسه دون إرسال البيانات إلى خادم خارجي **أسهل في الثقة به في الأماكن الحساسة**، كمكتب الاستقبال في مستشفى أو مبنى مؤمَّن.",
+        "XPENG شركة سيارات كهربائية تعمل تحت ضغط. أسعار السيارات في الصين تنخفض بسرعة، والهوامش ضيّقة. الروبوتات هي رهانها على المستقبل. سواء اخترق IRON السوق أم لا، فإن **السؤال لم يعد هل سيحدث ذلك، بل متى** سيصل الروبوت البشري بأسعار في متناول الجميع. لكل من يبني فريقاً أو خدمة لعام 2028 وما بعده، هذا شيء يستحق التخطيط له الآن."
+      ],
+      "keyFacts": [
+        { "value": "76", "label": "درجة حرية في جسم الروبوت" },
+        { "value": "1,500+", "label": "مستشعر لمسي على الجسم" },
+        { "value": "2.5 min", "label": "لتجميع روبوت واحد بالطاقة الكاملة" },
+        { "value": "Q2 2027", "label": "الموعد المستهدف للبيع للعموم" }
+      ]
+    }
+  }
+}
