@@ -1,0 +1,114 @@
+{
+  "slug": "2026-11-28-ai-agents-zero-day-11-minutes",
+  "date": "2026-11-28",
+  "tags": ["ai", "security"],
+  "pillar": "ai-in-practice",
+  "sources": [
+    {
+      "title": "CryptoBriefing — Amazon says AI agents found and exploited a zero-day with almost no human help",
+      "url": "https://cryptobriefing.com/amazon-ai-agents-exploit-zero-day/"
+    },
+    {
+      "title": "CyberExperts — CVE-2026-133968: AI Agents Found a MONAI Label Zero-Day",
+      "url": "https://cyberexperts.com/2026-11-25-ai-agents-found-zero-day-on-their-own-monai/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "One Prompt, 11 Minutes: AI Agents Can Now Break Into Software on Their Own",
+      "summary": "AI agents found and exploited an unknown software flaw in 11 minutes with no human help — and the patch window for everyone who runs software has just gotten much shorter.",
+      "body": [
+        "An attacker gave a set of AI agents a single instruction — \"get shell access to this server\" — and walked away. The agents mapped the target, **found a flaw no one knew existed**, wrote a payload, and had full control in about 11 minutes. Amazon's security team caught the operation and published details last week. It is the first documented case of AI agents finding and exploiting a zero-day — a hidden flaw the software's own developers did not know existed — entirely on their own.",
+        "Speed is what makes this more important than a typical hacking story. Finding a zero-day — a flaw developers don't know about yet — normally takes skilled security researchers days or weeks. AI agents run around the clock, never tire, and cost very little to operate. What took a team of experts a week now takes a tool minutes. For anyone running software, **the patch window just shrank dramatically**: there is now far less time between a flaw existing and someone exploiting it.",
+        "The software targeted here was MONAI Label, an open-source tool used in hospitals and research labs to label medical scans. Not a famous product. Not a news story anyone followed. Exactly the kind of **quiet tool, trusted and rarely updated**, that sits unnoticed in a stack. AI agents can probe thousands of tools like this, at scale, for very little cost. Yesterday's niche library is tomorrow's attack surface.",
+        "The good news is that a fix already existed. MONAI Label version 0.8.6 patches the flaw. The problem was that no one applied it quickly enough. The most useful thing any team building or running software can do right now is **know what is in their stack** — which versions are running, and whether any critical updates are waiting. Open-source libraries in particular deserve a regular check. This threat is already moving faster than most patching cycles."
+      ],
+      "keyFacts": [
+        { "value": "11 min", "label": "time from first scan to full access" },
+        { "value": "9.8 / 10", "label": "severity score of the flaw" },
+        { "value": "1 prompt", "label": "total human input to start the attack" },
+        { "value": "Nov 23", "label": "date CISA flagged it as actively exploited" }
+      ]
+    },
+    "de": {
+      "title": "Ein Prompt, elf Minuten: KI-Agenten können jetzt eigenständig in Software einbrechen",
+      "summary": "KI-Agenten haben in elf Minuten ohne menschliche Hilfe eine unbekannte Sicherheitslücke gefunden und ausgenutzt — für alle, die Software betreiben, ist das Zeitfenster zum Patchen gerade deutlich kürzer geworden.",
+      "body": [
+        "Ein Angreifer gab einer Gruppe KI-Agenten eine einzige Anweisung — \"Verschaffe dir Shell-Zugang zu diesem Server\" — und wandte sich ab. Die Agenten scannten das Ziel, **fanden eine Lücke, die niemand kannte**, schrieben einen Exploit und hatten in rund elf Minuten vollständige Kontrolle. Amazons Sicherheitsteam dokumentierte den Vorfall und veröffentlichte letzte Woche die Details. Es ist der erste belegte Fall, in dem KI-Agenten einen Zero-Day — eine versteckte Lücke, die die eigenen Entwickler nicht kannten — eigenständig gefunden und ausgenutzt haben.",
+        "Die Geschwindigkeit ist das eigentlich Alarmierende. Einen Zero-Day zu finden dauert für erfahrene Sicherheitsforscher normalerweise Tage oder Wochen. KI-Agenten laufen rund um die Uhr, werden nicht müde und sind erschwinglich. Was ein Expertenteam eine Woche kostete, erledigt ein Werkzeug heute in Minuten. Für alle, die Software betreiben, gilt: **das Zeitfenster zum Patchen ist dramatisch kleiner geworden** — zwischen dem Vorhandensein einer Lücke und ihrer Ausnutzung liegt heute weit weniger Zeit.",
+        "Die betroffene Software — MONAI Label — ist ein Open-Source-Tool, das in Krankenhäusern und Forschungslabors zum Annotieren medizinischer Bilddaten eingesetzt wird. Kein bekanntes Produkt, kein Medienthema. Genau das: ein **stilles Tool, dem man vertraut und das selten aktualisiert wird**, das unbemerkt im Stack liegt. KI-Agenten können Tausende solcher Tools günstig und im großen Maßstab prüfen. Das Nischen-Paket von gestern ist die Angriffsfläche von morgen.",
+        "Die gute Nachricht: Ein Fix existierte bereits. MONAI Label 0.8.6 schließt die Lücke. Das Problem war, dass niemand ihn rechtzeitig eingespielt hat. Das Nützlichste, was jedes Team, das Software baut oder betreibt, jetzt tun kann: **wissen, was im eigenen Stack steckt** — welche Versionen laufen und welche kritischen Updates ausstehen. Open-Source-Bibliotheken verdienen besondere Aufmerksamkeit. Die Bedrohung ist real und bewegt sich bereits schneller als die meisten Patch-Zyklen."
+      ],
+      "keyFacts": [
+        { "value": "11 min", "label": "Zeit vom ersten Scan bis zur vollständigen Kontrolle" },
+        { "value": "9.8 / 10", "label": "Schweregrad der Schwachstelle" },
+        { "value": "1 prompt", "label": "menschliche Eingabe zum Start des Angriffs" },
+        { "value": "Nov 23", "label": "Datum, an dem CISA aktive Ausnutzung bestätigte" }
+      ]
+    },
+    "nl": {
+      "title": "Eén prompt, elf minuten: AI-agenten kunnen nu zelfstandig software binnendringen",
+      "summary": "AI-agenten vonden en misbruikten een onbekend softwarelek in elf minuten zonder menselijke hulp — en het tijdvenster om software te patchen is voor iedereen zojuist veel korter geworden.",
+      "body": [
+        "Een aanvaller gaf een groep AI-agenten één instructie — \"zorg voor shell-toegang tot deze server\" — en liep weg. De agenten brachten het doelwit in kaart, **vonden een lek dat niemand kende**, schreven een aanvalscode en hadden in ongeveer elf minuten volledige controle. Amazons beveiligingsteam documenteerde de aanval en publiceerde vorige week de details. Het is het eerste gedocumenteerde geval waarbij AI-agenten zelfstandig een zero-day — een verborgen lek dat de eigen ontwikkelaars niet kenden — ontdekten en misbruikten.",
+        "De snelheid is wat dit groter maakt dan gewoon hacknieuws. Een zero-day vinden kost ervaren beveiligingsonderzoekers normaal gesproken dagen of weken. AI-agenten draaien dag en nacht, worden niet moe en kosten weinig. Wat een team van experts een week kostte, doet een tool nu in minuten. Voor iedereen die software draait: **het patchvenster is dramatisch kleiner geworden** — er zit nu veel minder tijd tussen het bestaan van een lek en het uitbuiten ervan.",
+        "De getroffen software — MONAI Label — is een open source tool die in ziekenhuizen en onderzoekslabs wordt gebruikt voor het labelen van medische scans. Geen bekende naam, geen nieuwsitem. Precies het soort **stille tool die men vertrouwt en zelden bijwerkt** dat onopgemerkt in een stack zit. AI-agenten kunnen duizenden van dit soort tools op grote schaal en voor weinig geld doorzoeken. Het niche-pakket van gisteren is het aanvalsoppervlak van morgen.",
+        "Het goede nieuws: er was al een fix beschikbaar. MONAI Label 0.8.6 sluit het lek. Het probleem was dat niemand het op tijd installeerde. Het nuttigste wat elk team dat software bouwt of beheert nu kan doen: **weet wat er in je stack zit** — welke versies draaien en welke kritieke updates wachten. Open source bibliotheken verdienen extra aandacht. De dreiging is reëel en beweegt zich al sneller dan de meeste patchcycli."
+      ],
+      "keyFacts": [
+        { "value": "11 min", "label": "tijd van eerste scan tot volledige toegang" },
+        { "value": "9.8 / 10", "label": "ernststcore van de kwetsbaarheid" },
+        { "value": "1 prompt", "label": "menselijke invoer om de aanval te starten" },
+        { "value": "Nov 23", "label": "datum waarop CISA actieve uitbuiting bevestigde" }
+      ]
+    },
+    "es": {
+      "title": "Un mensaje, once minutos: los agentes de IA ya pueden entrar solos en el software",
+      "summary": "Unos agentes de IA encontraron y aprovecharon una vulnerabilidad desconocida en once minutos sin ayuda humana, y el tiempo disponible para parchear el software acaba de acortarse mucho para todos.",
+      "body": [
+        "Un atacante dio a un grupo de agentes de IA una sola instrucción — \"consigue acceso a este servidor\" — y se marchó. Los agentes escanearon el objetivo, **encontraron una vulnerabilidad que nadie conocía**, escribieron el código de ataque y tuvieron control total en unos once minutos. El equipo de seguridad de Amazon documentó el ataque y publicó los detalles la semana pasada. Es el primer caso documentado en el que agentes de IA han encontrado y explotado un zero-day — una falla oculta que los propios desarrolladores del software desconocían — de forma completamente autónoma.",
+        "La velocidad es lo que hace que esto importe más que una noticia de hackeo normal. Encontrar un zero-day normalmente le lleva a un investigador de seguridad experto días o semanas. Los agentes de IA funcionan las veinticuatro horas, no se cansan y cuestan muy poco. Lo que a un equipo de expertos le llevaba una semana, una herramienta lo hace ahora en minutos. Para cualquiera que administre software, **el tiempo para parchear se ha reducido drásticamente**: hay mucho menos tiempo ahora entre que existe una vulnerabilidad y que alguien la explota.",
+        "El software atacado — MONAI Label — es una herramienta de código abierto que se usa en hospitales y laboratorios de investigación para etiquetar imágenes médicas. No es un producto conocido. No es noticia. Es exactamente el tipo de **herramienta silenciosa en la que todos confían y que rara vez se actualiza** que pasa desapercibida en un stack. Los agentes de IA pueden rastrear miles de herramientas así, a gran escala y por muy poco dinero. El paquete de nicho de ayer es la superficie de ataque de mañana.",
+        "La buena noticia es que ya existía una solución. MONAI Label 0.8.6 corrige la vulnerabilidad. El problema fue que nadie la aplicó a tiempo. Lo más útil que cualquier equipo que construye o gestiona software puede hacer ahora mismo es **saber exactamente qué hay en su stack** — qué versiones están corriendo y qué actualizaciones críticas están pendientes. Las bibliotecas de código abierto merecen especial atención. Esta amenaza ya se mueve más rápido que la mayoría de los ciclos de parcheo."
+      ],
+      "keyFacts": [
+        { "value": "11 min", "label": "tiempo desde el primer escaneo hasta el acceso total" },
+        { "value": "9.8 / 10", "label": "puntuación de gravedad de la vulnerabilidad" },
+        { "value": "1 prompt", "label": "entrada humana para lanzar el ataque" },
+        { "value": "Nov 23", "label": "fecha en que CISA confirmó la explotación activa" }
+      ]
+    },
+    "fr": {
+      "title": "Un message, onze minutes : les agents IA peuvent maintenant s'introduire seuls dans les logiciels",
+      "summary": "Des agents IA ont trouvé et exploité une faille inconnue en onze minutes sans aide humaine, et le délai pour corriger les logiciels vient de se réduire considérablement pour tout le monde.",
+      "body": [
+        "Un attaquant a donné une seule instruction à un groupe d'agents IA — \"obtiens un accès shell à ce serveur\" — puis s'est retiré. Les agents ont cartographié la cible, **trouvé une faille que personne ne connaissait**, écrit un exploit, et obtenu un contrôle total en environ onze minutes. L'équipe de sécurité d'Amazon a documenté l'attaque et publié les détails la semaine dernière. C'est le premier cas documenté où des agents IA ont trouvé et exploité un zero-day — une faille cachée que les développeurs eux-mêmes ne connaissaient pas — de manière totalement autonome.",
+        "La rapidité est ce qui rend cet événement plus important qu'une simple actualité de piratage. Trouver un zero-day demande normalement à un chercheur en sécurité expérimenté des jours, voire des semaines. Les agents IA fonctionnent en permanence, ne se fatiguent jamais et coûtent très peu. Ce qui prenait une semaine à une équipe d'experts se fait maintenant en quelques minutes. Pour quiconque exploite un logiciel, **le délai pour corriger vient de se réduire drastiquement** : il y a désormais bien moins de temps entre l'existence d'une faille et son exploitation.",
+        "Le logiciel ciblé — MONAI Label — est un outil open source utilisé dans les hôpitaux et les laboratoires de recherche pour annoter des images médicales. Ce n'est pas un produit connu. Pas une actualité. Exactement ce genre d'**outil discret, rarement mis à jour**, qui passe inaperçu dans une stack. Les agents IA peuvent sonder des milliers d'outils de ce type, à grande échelle et pour un coût très faible. La bibliothèque de niche d'hier est la surface d'attaque de demain.",
+        "La bonne nouvelle, c'est qu'un correctif existait déjà. MONAI Label 0.8.6 comble la faille. Le problème, c'est que personne ne l'a appliqué assez vite. La chose la plus utile que toute équipe qui construit ou gère un logiciel puisse faire maintenant est **savoir ce qui se trouve dans leur stack** — quelles versions sont en cours d'exécution et quelles mises à jour critiques sont en attente. Les bibliothèques open source méritent une attention particulière. Cette menace évolue déjà plus vite que la plupart des cycles de mise à jour."
+      ],
+      "keyFacts": [
+        { "value": "11 min", "label": "temps du premier scan au contrôle total" },
+        { "value": "9.8 / 10", "label": "score de gravité de la faille" },
+        { "value": "1 prompt", "label": "entrée humaine pour lancer l'attaque" },
+        { "value": "Nov 23", "label": "date à laquelle CISA l'a signalé comme activement exploité" }
+      ]
+    },
+    "ar": {
+      "title": "رسالة واحدة وأحد عشر دقيقة: وكلاء الذكاء الاصطناعي باتوا يخترقون البرمجيات وحدهم",
+      "summary": "اكتشف وكلاء الذكاء الاصطناعي ثغرة برمجية مجهولة واستغلوها في أحد عشر دقيقة دون تدخل بشري، مما يعني أن الوقت المتاح لتصحيح البرمجيات بات أقصر بكثير للجميع.",
+      "body": [
+        "أعطى أحد المهاجمين مجموعة من وكلاء الذكاء الاصطناعي تعليمًا واحدًا — \"احصل على وصول Shell لهذا الخادم\" — ثم انصرف. قام الوكلاء بفحص الهدف، **اكتشفوا ثغرة لم يعلم بها أحد**، كتبوا كودًا للهجوم، وحصلوا على سيطرة كاملة في نحو أحد عشر دقيقة. وثّق فريق أمان أمازون العملية ونشر تفاصيلها الأسبوع الماضي. هذه الحالة الأولى الموثقة التي يكتشف فيها وكلاء الذكاء الاصطناعي ويستغلون ثغرة \"يوم الصفر\" — أي خللًا مخفيًا لا يعلم به المطورون أنفسهم — بشكل مستقل تمامًا.",
+        "السرعة هي ما يجعل هذا أهم من مجرد خبر اختراق عادي. إيجاد ثغرة \"يوم الصفر\" يستغرق عادةً من باحث أمني محترف أيامًا أو أسابيع. أما وكلاء الذكاء الاصطناعي فيعملون على مدار الساعة دون كلل وبتكلفة زهيدة. ما كان يستغرق فريقًا من الخبراء أسبوعًا، تنجزه أداة الآن في دقائق. لأي شخص يشغّل برمجيات، **نافذة التصحيح انكمشت بشكل كبير**: هناك الآن وقت أقل بكثير بين وجود الثغرة واستغلالها.",
+        "البرنامج المستهدف — MONAI Label — أداة مفتوحة المصدر تُستخدم في المستشفيات ومختبرات الأبحاث لتصنيف صور الفحوصات الطبية. ليس منتجًا شهيرًا ولا خبرًا رائجًا. إنه بالضبط نوع **الأداة الهادئة الموثوق بها والنادرة التحديث** التي تقبع دون أن يلاحظها أحد في المنظومة البرمجية. يستطيع وكلاء الذكاء الاصطناعي فحص آلاف الأدوات من هذا النوع على نطاق واسع وبتكاليف منخفضة جدًا. حزمة البرمجيات المتخصصة اليوم هي سطح الهجوم غدًا.",
+        "البشرى السارة أن التصحيح كان متاحًا. الإصدار 0.8.6 من MONAI Label يسد الثغرة. المشكلة أن أحدًا لم يطبّقه في الوقت المناسب. أكثر شيء مفيد يمكن لأي فريق يطور أو يشغّل برمجيات أن يفعله الآن هو **معرفة ما يوجد في منظومتهم البرمجية** — ما الإصدارات العاملة وما التحديثات الحرجة المعلّقة. تستحق مكتبات المصدر المفتوح اهتمامًا خاصًا. التهديد حقيقي وبات يتحرك أسرع من معظم دورات التصحيح."
+      ],
+      "keyFacts": [
+        { "value": "11 min", "label": "الوقت من أول فحص إلى السيطرة الكاملة" },
+        { "value": "9.8 / 10", "label": "درجة خطورة الثغرة" },
+        { "value": "1 prompt", "label": "المدخل البشري الوحيد لبدء الهجوم" },
+        { "value": "Nov 23", "label": "التاريخ الذي رصد فيه CISA الاستغلال الفعلي" }
+      ]
+    }
+  }
+}
